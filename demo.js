@@ -9,9 +9,10 @@ function setNativeValue(element, value) {
     } else {
         valueSetter.call(element, value);
     }
+    element.dispatchEvent(new Event('input', { bubbles: true }));
 }
 // var name = document.getElementById('contactPerson')
 setNativeValue('foo');
-name.dispatchEvent(new Event('input', { bubbles: true }));
+// name.dispatchEvent(new Event('input', { bubbles: true }));
 
 
