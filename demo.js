@@ -1,4 +1,5 @@
-function setNativeValue(value) {
+function setNativeValue() {
+    var value = 'mot hai ba'
     var element = document.getElementById('contactPerson')
     const valueSetter = Object.getOwnPropertyDescriptor(element, 'value').set;
     const prototype = Object.getPrototypeOf(element);
@@ -11,8 +12,6 @@ function setNativeValue(value) {
     }
     element.dispatchEvent(new Event('input', { bubbles: true }));
 }
-// var name = document.getElementById('contactPerson')
-setNativeValue('foo');
-// name.dispatchEvent(new Event('input', { bubbles: true }));
+setNativeValue();
 
 
