@@ -1,4 +1,4 @@
-function setNativeValue(element, value) {
+function setNativeValue(value) {
     var element = document.getElementById('contactPerson')
     const valueSetter = Object.getOwnPropertyDescriptor(element, 'value').set;
     const prototype = Object.getPrototypeOf(element);
