@@ -1,1 +1,26 @@
-hello
+<html lang="en">
+
+    <head>
+        
+    </head>
+
+    <body>
+        <script src="https://iamsale.vn/resources/vendor/socket/socket.io.js"></script>
+        <script>
+            var socket = io("https://login.iamsale.vn:3000");
+
+            socket.on('users-partner-online-moment' , function(users){
+                for (const email in users) {
+                    if (users.hasOwnProperty(email) && email.indexOf('hello') == -1) {
+                        const element = users[email];
+                        var date = new Date(element.time_logout)
+                        console.log(email + ' : ' + date.toLocaleTimeString() + ' ' + date.toLocaleDateString() )
+                    }
+                }
+            })
+            socket.emit("who-partner-online", { hostname : location.hostname})
+
+        </script>
+    </body>
+
+</html>
