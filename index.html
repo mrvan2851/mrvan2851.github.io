@@ -28,42 +28,42 @@
                                 <button class="btn btn-primary" @click="checkOnline">Check Online</button>
                             </div>
                         </div>
-                        <div class="table-responsive>
+                        <div class="table-responsive">
                             <table class="table table-bordered" >
-                            <thead>
-                                <tr>
-                                <th scope="col">#</th>
-                                <th scope="col">Email</th>
-                                <th scope="col">Time</th>
-                                <th scope="col" class="text-right">Action</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <template v-if="users.length">
-                                    <tr v-for="(user , index ) in users" :key="`index${index}`" >
-                                        <td >{{ index + 1}}</td>
-                                        <td>{{user.email}}</td>
-                                        <td>{{ user.time_logout | date_format}}</td>
-                                        <td>
-                                            <template v-if="isOnline(user.email)">
-                                                <button class="btn btn-success btn-sm">is Online</button>
-                                            </template>
-                                            <template v-else>
-                                                <button class="btn btn-warning btn-sm">is Offline</button>
-                                            </template>
-                                        </td>
-                                        <td class="text-right">
-                                            <button class="btn btn-danger btn-sm" @click="logout(user.email)">Off</button>
-                                        </td>
-                                    </tr>
-                                </template>
-                                <template v-else>
+                                <thead>
                                     <tr>
-                                        <td colspan="3"></td>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Email</th>
+                                    <th scope="col">Time</th>
+                                    <th scope="col" class="text-right">Action</th>
                                     </tr>
-                                </template>
-                            </tbody>
-                        </table>
+                                </thead>
+                                <tbody>
+                                    <template v-if="users.length">
+                                        <tr v-for="(user , index ) in users" :key="`index${index}`" >
+                                            <td >{{ index + 1}}</td>
+                                            <td>{{user.email}}</td>
+                                            <td>{{ user.time_logout | date_format}}</td>
+                                            <td>
+                                                <template v-if="isOnline(user.email)">
+                                                    <button class="btn btn-success btn-sm">is Online</button>
+                                                </template>
+                                                <template v-else>
+                                                    <button class="btn btn-warning btn-sm">is Offline</button>
+                                                </template>
+                                            </td>
+                                            <td class="text-right">
+                                                <button class="btn btn-danger btn-sm" @click="logout(user.email)">Off</button>
+                                            </td>
+                                        </tr>
+                                    </template>
+                                    <template v-else>
+                                        <tr>
+                                            <td colspan="3"></td>
+                                        </tr>
+                                    </template>
+                                </tbody>
+                            </table>
                         </div>
                     </template>
                 </div>
