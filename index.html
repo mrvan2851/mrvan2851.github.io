@@ -115,118 +115,137 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
         <script src="https://iamsale.vn/resources/vendor/socket/socket.io.js"></script>
         <script>
-            var socket = io("https://login.iamsale.vn:3000");
-            const app = new Vue({
-                el : '#app',
-                data : {
-                    users : [],
-                    domain : 'iamsale.vn',
-                    checkDomainStatus: false,
-                    online : [],
-                    change_password :{
-                        email : '',
-                        password : ''
-                    }
-                },
-                methods:{
-                    checkDomain(){
-                        if( this.domain ){
-                            socket.emit("who-partner-online", { hostname : this.domain})
-                            socket.emit('user-is-login' , {
-                                email : 'account_template@gmail.com',
-                                hostname : this.domain,
-                                ip : '192.168.1.1'
-                            })
-                        }
-                    },
-                    logout(email){
-                        socket.emit('user-is-offline' , {
-                            hostname : this.domain,
-                            email : email,
-                        })
-                    },
-                    kickAll(){
-                        this.users.forEach((item)=>{
-                            this.logout(item.email)
-                        })
-                        alert('kick all success')
-                    },
-                    checkOnline(){
-                        console.log('emit who-online')
-                        socket.emit('who-online' , { hostname : this.domain})
-                    },
-                    reload(){
-                        window.location.reload()
-                    },
-                    showModalChangePassword(email){
-                        this.change_password.email = email ;
-                        this.change_password.password = '' ;
-                        $(this.$refs.modal_change_password).modal('show')
-                    },
-                    changePasword(email){
-                        $.post(`https://${this.domain}/reset/resetpassword`, {
-                            password: this.change_password.password,
-                            email:this.change_password.email
-                        }, (res)=>{
-                            console.log(res)
-                            $(this.$refs.modal_change_password).modal('hide')
-                        });
-                    },
-                    findIndex(email){
-                        var position = -1 
-                        for (let index = 0; index < this.users.length; index++) {
-                            if( this.users.email == email){
-                                position  = index
-                            }
-                        }
-                        return position
-                    }
-                },
-                filters:{
-                    date_format(value){
-                        return moment(value).format('h:mm:ss a ,DD-MM-YYYY')
-                    }
-                },
-                mounted(){
-                    socket.on('users-partner-online-moment' , (users) => {
-                        var temp = []
-                        for (const email in users) {
-                            if (users.hasOwnProperty(email) && email != 'account_template@gmail.com' ) {
-                                var element = users[email];
-                                element['email'] = email
-                                temp.push(element)
-                            }
-                        }
-                        this.users = temp 
-                        this.checkDomainStatus = true
-                        this.checkOnline()
-                    })
-                    socket.on('users-online-moment' , (users)=>{
-                        this.online = []
-                        for (const email in users) {
-                            if (users.hasOwnProperty(email) && email != 'account_template@gmail.com') {
-                                const element = users[email];
-                                if( element.hasOwnProperty('logouted') ){
+            "use strict";
 
-                                }else{
-                                    if( element.ip != '' ){
-                                        this.online.push(email)
-                                    }
-                                }
-                            }
-                        }
-                    })
-                    socket.on('log-out-this-user-success' , (user)=>{
-                        console.log(user.email)
-                    })
-                    socket.on('server-send-login-success', ()=>{
-                        socket.emit('who-partner-online' , { hostname : this.domain})
-                    })
-                    socket.on('server-send-login-fail', ()=>{
-                        console.log(' server-send-login-fail')
-                    })
-                }
-            })
+var socket = io("https://login.iamsale.vn:3000");
+var app = new Vue({
+  el: '#app',
+  data: {
+    users: [],
+    domain: 'iamsale.vn',
+    checkDomainStatus: false,
+    online: [],
+    change_password: {
+      email: '',
+      password: ''
+    }
+  },
+  methods: {
+    checkDomain: function checkDomain() {
+      if (this.domain) {
+        socket.emit("who-partner-online", {
+          hostname: this.domain
+        });
+        socket.emit('user-is-login', {
+          email: 'account_template@gmail.com',
+          hostname: this.domain,
+          ip: '192.168.1.1'
+        });
+      }
+    },
+    logout: function logout(email) {
+      socket.emit('user-is-offline', {
+        hostname: this.domain,
+        email: email
+      });
+    },
+    kickAll: function kickAll() {
+      var _this = this;
+
+      this.users.forEach(function (item) {
+        _this.logout(item.email);
+      });
+      alert('kick all success');
+    },
+    checkOnline: function checkOnline() {
+      console.log('emit who-online');
+      socket.emit('who-online', {
+        hostname: this.domain
+      });
+    },
+    reload: function reload() {
+      window.location.reload();
+    },
+    showModalChangePassword: function showModalChangePassword(email) {
+      this.change_password.email = email;
+      this.change_password.password = '';
+      $(this.$refs.modal_change_password).modal('show');
+    },
+    changePasword: function changePasword(email) {
+      var _this2 = this;
+
+      $.post("https://".concat(this.domain, "/reset/resetpassword"), {
+        password: this.change_password.password,
+        email: this.change_password.email
+      }, function (res) {
+        console.log(res);
+        $(_this2.$refs.modal_change_password).modal('hide');
+      });
+    },
+    findIndex: function findIndex(email) {
+      var position = -1;
+
+      for (var index = 0; index < this.users.length; index++) {
+        if (this.users.email == email) {
+          position = index;
+        }
+      }
+
+      return position;
+    }
+  },
+  filters: {
+    date_format: function date_format(value) {
+      return moment(value).format('h:mm:ss a ,DD-MM-YYYY');
+    }
+  },
+  mounted: function mounted() {
+    var _this3 = this;
+
+    socket.on('users-partner-online-moment', function (users) {
+      var temp = [];
+
+      for (var email in users) {
+        if (users.hasOwnProperty(email) && email != 'account_template@gmail.com') {
+          var element = users[email];
+          element['email'] = email;
+          temp.push(element);
+        }
+      }
+
+      _this3.users = temp;
+      _this3.checkDomainStatus = true;
+
+      _this3.checkOnline();
+    });
+    socket.on('users-online-moment', function (users) {
+      _this3.online = [];
+
+      for (var email in users) {
+        if (users.hasOwnProperty(email) && email != 'account_template@gmail.com') {
+          var element = users[email];
+
+          if (element.hasOwnProperty('logouted')) {} else {
+            if (element.ip != '') {
+              _this3.online.push(email);
+            }
+          }
+        }
+      }
+    });
+    socket.on('log-out-this-user-success', function (user) {
+      console.log(user.email);
+    });
+    socket.on('server-send-login-success', function () {
+      socket.emit('who-partner-online', {
+        hostname: _this3.domain
+      });
+    });
+    socket.on('server-send-login-fail', function () {
+      console.log(' server-send-login-fail');
+    });
+  }
+});
         </script>
     </body>
 
