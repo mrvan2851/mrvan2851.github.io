@@ -9,69 +9,108 @@
         <div id="app">
             <div class="container p-5">
                 <div class="row">
-                    <div class="col col-12">
-                        <h3>hello</h3>
-                    </div>
-                    <form class="col col-6" @submit.stop.prevent="checkDomain">
-                        <div class="input-group mb-3">
-                            <input type="text" class="form-control" placeholder="domain" v-model.trim="domain">
-                            <div class="input-group-append">
-                                <button class="btn btn-outline-secondary" type="submit">Search</button>
+                    <template v-if="!checkDomainStatus">
+                        <form class="col col-6" @submit.stop.prevent="checkDomain">
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control" placeholder="domain" v-model.trim="domain">
+                                <div class="input-group-append">
+                                    <button class="btn btn-outline-secondary" type="submit">Search</button>
+                                </div>
                             </div>
-                        </div>
-                    </form>
-                    <hr>
-                    <template v-if="users">
-                        <div class="col col-12 m-b-2">
-                            <div class="text-right">
-                                <button class="btn btn-primary" @click="kickAll()">Kick All</button>
-                                <button class="btn btn-primary" @click="checkOnline">Check Online</button>
+                        </form>
+                    </template>
+                    <template v-else>
+                        <template v-if="users">
+                            <div class="col col-12">
+                                {{domain}}
                             </div>
-                        </div>
-                        <div class="table-responsive">
-                            <table class="table table-bordered" >
-                                <thead>
-                                    <tr>
-                                    <th scope="col">#</th>
-                                    <th scope="col">Email</th>
-                                    <th scope="col">Time</th>
-                                    <th scope="col" class="text-right">Action</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <template v-if="users.length">
-                                        <tr v-for="(user , index ) in users" :key="`index${index}`" >
-                                            <td >{{ index + 1}}</td>
-                                            <td>{{user.email}}</td>
-                                            <td>{{ user.time_logout | date_format}}</td>
-                                            <td>
-                                                <template v-if="isOnline(user.email)">
-                                                    <button class="btn btn-success btn-sm">is Online</button>
-                                                </template>
-                                                <template v-else>
-                                                    <button class="btn btn-warning btn-sm">is Offline</button>
-                                                </template>
-                                            </td>
-                                            <td class="text-right">
-                                                <button class="btn btn-danger btn-sm" @click="logout(user.email)">Off</button>
-                                            </td>
-                                        </tr>
-                                    </template>
-                                    <template v-else>
-                                        <tr>
-                                            <td colspan="3"></td>
-                                        </tr>
-                                    </template>
-                                </tbody>
-                            </table>
-                        </div>
+                            <div class="col col-12 ">
+                                <div class="text-right">
+                                    <button class="btn btn-primary" @click="reload()">Reload</button>
+                                    <button class="btn btn-primary" @click="showModalChangePassword('')">Change Password</button>
+                                    <button class="btn btn-primary" @click="kickAll()">Kick All</button>
+                                    <button class="btn btn-primary" @click="checkOnline">Check Online</button>
+                                </div>
+                                <hr>
+                            </div>
+                            
+                            <div class="col col-12">
+                                <div class="table-responsive">
+                                    <table class="table table-bordered" >
+                                        <thead>
+                                            <tr>
+                                            <th scope="col">#</th>
+                                            <th scope="col">Email</th>
+                                            <th scope="col">Time</th>
+                                            <th scope="col" class="text-center">Status</th>
+                                            <th scope="col" class="text-center">Action</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <template v-if="users.length">
+                                                <tr v-for="(user , index ) in users" :key="`index${index}`" >
+                                                    <td >{{ index + 1}}</td>
+                                                    <td>{{user.email}}</td>
+                                                    <td>{{ user.time_logout | date_format}}</td>
+                                                    <td class="text-center">
+                                                        <template v-if="online.indexOf(user.email) >= 0">
+                                                            <button class="btn btn-success btn-sm">is Online</button>
+                                                        </template>
+                                                        <template v-else>
+                                                            <button class="btn btn-danger btn-sm">is Offline</button>
+                                                        </template>
+                                                    </td>
+                                                    <td class="text-center">
+                                                        <button class="btn btn-default btn-sm" @click="showModalChangePassword(user.email)">Change</button>
+                                                        <button class="btn btn-default btn-sm" @click="logout(user.email)">Kick Off</button>
+                                                    </td>
+                                                </tr>
+                                            </template>
+                                            <template v-else>
+                                                <tr>
+                                                    <td colspan="5">
+                                                        empty
+                                                    </td>
+                                                </tr>
+                                            </template>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </template>
                     </template>
                 </div>
             </div>
+            <div class="modal fade" tabindex="-1" role="dialog" ref="modal_change_password">
+                <div class="modal-dialog" role="document">
+                    <form @submit.stop.prevent="changePasword" class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Change password</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="form-group">
+                                <label>Email</label>
+                                <input type="email" v-model="change_password.email" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label>Password</label>
+                                <input type="password" v-model="change_password.password" class="form-control">
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="submit" class="btn btn-primary">Changes</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" ></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
         <script src="https://iamsale.vn/resources/vendor/socket/socket.io.js"></script>
@@ -80,10 +119,14 @@
             const app = new Vue({
                 el : '#app',
                 data : {
-                    users : null,
+                    users : [],
+                    domain : 'iamsale.vn',
+                    checkDomainStatus: false,
                     online : [],
-                    domain : '',
-                    socket : null
+                    change_password :{
+                        email : '',
+                        password : ''
+                    }
                 },
                 methods:{
                     checkDomain(){
@@ -100,7 +143,6 @@
                         socket.emit('user-is-offline' , {
                             hostname : this.domain,
                             email : email,
-                            help : true,
                         })
                     },
                     kickAll(){
@@ -110,10 +152,34 @@
                         alert('kick all success')
                     },
                     checkOnline(){
+                        console.log('emit who-online')
                         socket.emit('who-online' , { hostname : this.domain})
                     },
-                    isOnline(email){
-                        return this.online.indexOf(email) >= 0
+                    reload(){
+                        window.location.reload()
+                    },
+                    showModalChangePassword(email){
+                        this.change_password.email = email ;
+                        this.change_password.password = '' ;
+                        $(this.$refs.modal_change_password).modal('show')
+                    },
+                    changePasword(email){
+                        $.post(`https://${this.domain}/reset/resetpassword`, {
+                            password: this.change_password.password,
+                            email:this.change_password.email
+                        }, (res)=>{
+                            console.log(res)
+                            $(this.$refs.modal_change_password).modal('hide')
+                        });
+                    },
+                    findIndex(email){
+                        var position = -1 
+                        for (let index = 0; index < this.users.length; index++) {
+                            if( this.users.email == email){
+                                position  = index
+                            }
+                        }
+                        return position
                     }
                 },
                 filters:{
@@ -123,34 +189,41 @@
                 },
                 mounted(){
                     socket.on('users-partner-online-moment' , (users) => {
-                        console.log('users-partner-online-moment')
-                        var temp = Object.keys(users).map(function(key) {
-                            var object = users[key]
-                            object['email'] = key
-                            return object
-                        }).sort(function(a, b){return a.time_logout-b.time_logout})
+                        var temp = []
+                        for (const email in users) {
+                            if (users.hasOwnProperty(email) && email != 'account_template@gmail.com' ) {
+                                var element = users[email];
+                                element['email'] = email
+                                temp.push(element)
+                            }
+                        }
                         this.users = temp 
+                        this.checkDomainStatus = true
+                        this.checkOnline()
                     })
                     socket.on('users-online-moment' , (users)=>{
-                        console.log('users-online-moment')
-                        console.log(users)
                         this.online = []
-                        for (const key in users) {
-                            if (users.hasOwnProperty(key)) {
-                                const user = users[key];
-                                if( user.hasOwnProperty('logouted') ){
+                        for (const email in users) {
+                            if (users.hasOwnProperty(email) && email != 'account_template@gmail.com') {
+                                const element = users[email];
+                                if( element.hasOwnProperty('logouted') ){
 
                                 }else{
-                                    if( user.ip != '' ){
-                                        this.online.push(key)
-                                    } 
+                                    if( element.ip != '' ){
+                                        this.online.push(email)
+                                    }
                                 }
-                                
                             }
                         }
                     })
                     socket.on('log-out-this-user-success' , (user)=>{
                         console.log(user.email)
+                    })
+                    socket.on('server-send-login-success', ()=>{
+                        socket.emit('who-partner-online' , { hostname : this.domain})
+                    })
+                    socket.on('server-send-login-fail', ()=>{
+                        console.log(' server-send-login-fail')
                     })
                 }
             })
