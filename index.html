@@ -10,7 +10,7 @@
             <div class="container p-5">
                 <div class="row">
                     <template v-if="!checkDomainStatus">
-                        <form class="col col-6" @submit.stop.prevent="checkDomain">
+                        <form class="col col-12" @submit.stop.prevent="checkDomain">
                             <div class="input-group mb-3">
                                 <input type="text" class="form-control" placeholder="domain" v-model.trim="domain">
                                 <div class="input-group-append">
