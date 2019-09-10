@@ -44,7 +44,7 @@ body{
 	background: #fff;
 	border: 2px solid $red;
 	border-radius: 50px;
-	bottom: 80px;
+	bottom: 40px;
 	color: $red;
 	display: block;
 	height: 40px;
@@ -64,6 +64,7 @@ body{
 	visibility: hidden;
 	transition: all 0.3s ease;
 	text-decoration: none;
+	transform: translateY(100%);
 	&:hover{
 		background: $red;
 		color:#fff;
@@ -71,6 +72,7 @@ body{
 	&.is-active{
 		opacity: 1;
 		visibility: visible;
+		transform: none;
 	}
 }
 

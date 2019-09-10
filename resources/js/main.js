@@ -114,11 +114,11 @@ function Main(){
 			event.preventDefault();
 			$('html, body').animate({
 				scrollTop: $(element).offset().top - $('header').height()
-			}, 1000);
+			}, 700);
 		})
 	}
 	this.initBacktop = function(element){
-		$(window).on('load resize' , function(){
+		$(window).on('load scroll' , function(){
 			if ($(this).scrollTop() > 100) {
 				$(element).addClass('is-active');
 			} else {

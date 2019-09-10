@@ -10013,7 +10013,7 @@ body img {
   background: #fff;
   border: 2px solid #f50000;
   border-radius: 50px;
-  bottom: 80px;
+  bottom: 40px;
   color: #f50000;
   display: block;
   height: 40px;
@@ -10041,6 +10041,9 @@ body img {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
   text-decoration: none;
+  -webkit-transform: translateY(100%);
+      -ms-transform: translateY(100%);
+          transform: translateY(100%);
 }
 
 .totop:hover {
@@ -10051,6 +10054,9 @@ body img {
 .totop.is-active {
   opacity: 1;
   visibility: visible;
+  -webkit-transform: none;
+      -ms-transform: none;
+          transform: none;
 }
 
 @-webkit-keyframes mouse-down {
@@ -10127,7 +10133,7 @@ body img {
   background: #fff;
   border: 2px solid #f50000;
   border-radius: 50px;
-  bottom: 80px;
+  bottom: 40px;
   color: #f50000;
   display: block;
   height: 40px;
@@ -10155,6 +10161,9 @@ body img {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
   text-decoration: none;
+  -webkit-transform: translateY(100%);
+      -ms-transform: translateY(100%);
+          transform: translateY(100%);
 }
 
 .totop:hover {
@@ -10165,6 +10174,9 @@ body img {
 .totop.is-active {
   opacity: 1;
   visibility: visible;
+  -webkit-transform: none;
+      -ms-transform: none;
+          transform: none;
 }
 
 .header {
@@ -11027,6 +11039,22 @@ body img {
   background: transparent;
   border: 2px solid #f50000;
   border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+
+@media (max-width: 992px) {
+  .wrapper .section-home-slider .slick-dots li button {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+@media (max-width: 768) {
+  .wrapper .section-home-slider .slick-dots li button {
+    width: 12px;
+    height: 12px;
+  }
 }
 
 .wrapper .section-home-slider .slick-dots li button:before {
