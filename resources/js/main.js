@@ -7,9 +7,9 @@ function Main(){
             speed: 500,
             slidesToShow: 1,
             autoplay : true,
-            autoplaySpeed : 5000,
-            prevArrow: '<button type="button" class="slick-prev"><i class="fal fa-chevron-left"></i></button>',
-            nextArrow: '<button type="button" class="slick-next"><i class="fal fa-chevron-right"></i></button>',
+			autoplaySpeed : 5000,
+			arrows : false,
+			dots: true,
         });
         $('#article-slider').slick({
             dots: false,
@@ -109,11 +109,39 @@ function Main(){
 			}
 		})
 	}
+	this.iconMouse = function(element){
+		$('#icon-mouse').on('click', function(event){
+			event.preventDefault();
+			$('html, body').animate({
+				scrollTop: $(element).offset().top - $('header').height()
+			}, 1000);
+		})
+	}
+	this.initBacktop = function(element){
+		$(window).on('load resize' , function(){
+			if ($(this).scrollTop() > 100) {
+				$(element).addClass('is-active');
+			} else {
+				$(element).removeClass('is-active');
+			}
+		})
+
+		//Click event to scroll to top
+		$(element).click(function (event) {
+			event.preventDefault();
+			$('html, body').animate({
+				scrollTop: 0
+			}, 500);
+			return false;
+		});
+	}
     this.init = function(){
 		this.banner();
 		this.sticky();
 		this.mobileNavbar();
-        this.initWow();
+		this.initWow();
+		this.iconMouse ('#mouse-scroll-to');
+		this.initBacktop('#btn-backtop')
     }
     return this;
 }

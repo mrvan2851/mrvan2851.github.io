@@ -22,7 +22,11 @@
         &-home{
             &-slider{
                 // min-height: 100vh;
-                width: 100%;
+				width: 100%;
+				position: relative;
+				.home-slider.slick-slider{
+					margin-bottom: 0;
+				}
                 .item-slide{
                     img{
                         max-width: 100%;
@@ -40,9 +44,51 @@
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                }
+				}
+				.slick-dots{
+					margin: 0;
+					position: absolute;
+					right: 15px;
+					bottom: 10%;
+					display: inline-flex;
+					width: auto;
+					li{
+						button{
+							background: transparent;
+							border: 2px solid $red;
+							border-radius: 50%;
+							&:before{
+								content: none;
+							}
+						}
+						&.slick-active{
+							button{
+								background: #fff;
+							}
+						}
+					}
+					
+				}
+				.icon-mouse-down{
+					width: 21px;
+					height: 51px;
+					background-image: url('../images/icons/home-mouse .png');
+					background-size: contain;
+					background-repeat: no-repeat;
+					background-position: center center;
+					position: absolute;
+					z-index: 1000;
+					bottom: 10%;
+					left: 50%;
+					transform: translateX(-50%);
+					animation-name: mouse-down;
+					animation-duration: 1.5s;
+					animation-iteration-count: infinite;
+					cursor: pointer;
+				}
             }
             &-video{
+				margin-top: 50px;
 				&-container{
 					padding: 0 15px;
 					.row{
@@ -54,25 +100,34 @@
 				}
                 .item{
                     &-image{
-						height: 100%;
-						width: 100%;
-						display: flex;
-						align-items: flex-end;
-                        img{
-							max-width: 100%;
-                        }
+						&-wrap{
+							height: 100%;
+							width: 100%;
+							display: flex;
+							align-items: flex-end;
+							img{
+								max-width: 100%;
+							}
+						}
                     }
                     &-video{
-						padding-bottom: 30px;
-                        video{
-                            width: 100%;
-                        }
+						
+						&-wrap{
+							padding-bottom: 30px;
+							video{
+								width: 100%;
+							}
+						}
                     }
 				}
 				@media(max-width:768px){
-					.section-home-video-item{
-						flex: 0 0 100%;
+					.item-image{
+						display: none;
+					}
+					.item-video{
+						flex : 0 0 100%;
 						max-width: 100%;
+						padding: 0 15px !important;
 					}
 				}
             }
@@ -159,7 +214,10 @@
                         }
                         &.slick-prev{
                             left: 0px;
-                        }
+						}
+						@media(max-width:768px){
+							font-size: 30px;
+						}
                     }
                 }
             }

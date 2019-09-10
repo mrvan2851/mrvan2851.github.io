@@ -85,24 +85,27 @@
 			</div>
         </header>
         <main class="main">
-            <div class="section section-home-slider" id="slider">
-                <div class="item-slide">
-                    <img src="resources/images/banner/home-1.png" alt="">
-                </div>
-                <div class="item-slide">
-                    <img src="resources/images/banner/home-1.png" alt="">
-                </div>
+            <div class="section section-home-slider" >
+				<div class="home-slider" id="slider">
+					<div class="item-slide">
+						<img src="resources/images/banner/22.png" alt="">
+					</div>
+					<div class="item-slide">
+						<img src="resources/images/banner/22.png" alt="">
+					</div>
+				</div>
+				<div class="icon-mouse-down" id="icon-mouse"></div>
             </div>
-            <div class="section section-home-video">
+            <div class="section section-home-video" id="mouse-scroll-to">
                 <div class="section-home-video-container">
                     <div class="row">
-                        <div class="col col-3 section-home-video-item ">
-                            <div class="item-image wow fadeInLeft">
+                        <div class="col col-3 item-image">
+                            <div class="item-image-wrap wow fadeInLeft">
                                 <img src="resources/images/home/1.png" alt="">
                             </div>
                         </div>
-                        <div class="col col-6 section-home-video-item ">
-                            <div class="item-video">
+                        <div class="col col-6 item-video">
+                            <div class="item-video-wrap">
                                 <video controls>
                                     <source src="resources/video/mov_bbb.mp4" type="video/mp4">
                                     <source src="resources/video/mov_bbb.ogg" type="video/ogg">
@@ -110,8 +113,8 @@
                                 </video>
                             </div>
                         </div>
-                        <div class="col col-3 section-home-video-item ">
-                            <div class="item-image wow fadeInRight">
+                        <div class="col col-3 item-image">
+                            <div class="item-image-wrap wow fadeInRight">
                                 <img src="resources/images/home/2.png" alt="">
                             </div>
                         </div>
@@ -381,8 +384,11 @@
 				</div>
 			</div>
         </footer>
-    </div>
-    <script src="./resources/vendor/bootstrap/js/jquery-3.2.1.slim.min.js"></script>
+	</div>
+	<a href="#" class="totop" id="btn-backtop">
+		<i class="fas fa-arrow-up"></i>
+	</a>
+    <script src="./resources/vendor/bootstrap/js/jquery-3.1.0.js"></script>
     <script src="./resources/vendor/bootstrap/js/popper.min.js"></script>
     <script src="./resources/vendor/bootstrap/js/bootstrap.min.js"></script>
     <script src="./resources/vendor/slick/slick.min.js"></script>

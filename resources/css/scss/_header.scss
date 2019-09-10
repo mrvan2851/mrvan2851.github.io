@@ -11,11 +11,17 @@
 		&-mobile{
 			height: 50px;
 			padding: 0 15px;
-			flex-direction: flex;
+			flex-direction: row-reverse;
 			align-items: center;
 			display: none;
-			&-left,&-right{
-				flex: 1 1 auto;
+			&-right{
+				flex-basis: 0;
+				flex-grow: 1;
+				max-width: 100%;
+			}
+			&-left{
+				flex: 0 0 32px;
+				max-width: 32px;
 			}
 			.header-toggle{
 				width: 32px;
@@ -68,7 +74,6 @@
 			.header-mobile-brand{
 				flex: 0 0 50%;
 				display: flex;
-				justify-content: flex-end;
 				img{
 					max-height: 40px;
 					max-width: 100%;
@@ -145,7 +150,7 @@
         }
         &-center{
 			background-color: transparent;
-			padding: 20px 0;
+			padding: 10px 0;
 			transition: all 0.3s ease;
             .header-navbar{
                 position: relative;
@@ -156,10 +161,10 @@
 					padding: 0;
 					display: flex;
 					align-items: center;
-					justify-content: center;
+					justify-content: flex-start;
 					flex: 0 0 200px;
                     img{
-                        max-width: 100%;
+                        max-width: 150px;
                     }
                 }
                 .navbar{
@@ -252,6 +257,7 @@
 		
 		.header-mobile{
 			display: flex;
+			flex-direction: row-reverse;
 		}
 		.header-container{
 			position: fixed;
