@@ -135,6 +135,72 @@ function Main(){
 			return false;
 		});
 	}
+	this.initMap = function(element){
+		
+		if( $(element).length ){
+			
+		}
+		
+		function initialize() {
+			var locats = []
+			$('.item-location').each(function(index,el){
+				var item = $(this).data('location')
+				if( item ){
+					locats.push(item)
+				}
+			})
+			var mapOptions = {
+				zoom: 15,
+				center: new google.maps.LatLng(locats[0].lat, locats[0].lng),
+				mapTypeId: google.maps.MapTypeId.ROADMAP
+			}
+			var map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);
+
+			
+			var marker, i;
+			var markers = [];
+			var infowindow = new google.maps.InfoWindow();
+
+			
+			google.maps.event.addListener(map, 'click', function () {
+				infowindow.close();
+			});
+			for (i = 0; i < locats.length; i++) {
+				marker = new google.maps.Marker({
+					position: new google.maps.LatLng(locats[i].lat, locats[i].lng),
+					map: map,
+				});
+
+				google.maps.event.addListener(marker, 'click', (function (marker, i) {
+					return function () {
+						map.setCenter(marker.getPosition());
+						infowindow.setContent(
+						'<div class="maker-info">'
+							+ '<div><h6>' + locats[i].name
+							+ '</h6><p><strong>Địa chỉ:</strong>' + locats[i].address
+							+ '</p><p><strong>Điện thoại:</strong> ' + locats[i].phone
+							+ '</p><p><strong>Fax:</strong> ' + locats[i].fax
+							+ '</p></div><div class="clearfix"></div></div>'
+						);
+						infowindow.open(map, marker);
+					}
+				})(marker, i));
+
+				markers.push(marker);
+			}
+			$('.item-location').on('click', '.item-location-name-icon' , function(){
+				$('html, body').animate({
+					scrollTop: $('#map_canvas').offset().top - $('header').height()
+				}, 500);
+				var item = $(this).parents('.item-location').data('location')
+				if( item ){
+					var { lat , lng } = item 
+					map.setCenter({lat , lng});
+				}
+			})
+		}
+		google.maps.event.addDomListener(window, 'load', initialize);
+	}
     this.init = function(){
 		this.banner();
 		this.sticky();
@@ -142,6 +208,7 @@ function Main(){
 		this.initWow();
 		this.iconMouse ('#mouse-scroll-to');
 		this.initBacktop('#btn-backtop')
+		this.initMap('#map_canvas')
     }
     return this;
 }
