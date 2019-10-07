@@ -76,3 +76,25 @@ body{
 	}
 }
 
+.btn{
+	&-primary{
+		background: $primary;
+		color:#fff;
+		border-color: #f78c22;
+		&:hover,&:focus{
+			background: #f78c22;
+			border-color: #f78c22;
+			color:#fff;
+		}
+	}
+	&-secondary{
+		background: #f7f5e8;
+		color:$text;
+		border-color: #21201f;
+		&:hover,&:focus{
+			background: $primary;
+			border-color: #f78c22;
+			color:#fff;
+		}
+	}
+}

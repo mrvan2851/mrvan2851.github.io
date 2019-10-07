@@ -1,253 +1,51 @@
 .footer{
-	margin-top: 100px;
-	position: relative;
-	&:before{
-		content:  '';
-		position: absolute;
-		bottom: 100%;
-		left: 0;
-		right: 0;
-		height: 140px;
-		background-image: url('../images/footer/fish.png');
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: bottom center;
+	background: #000;
+	color:#fff;
+	padding: 20px 0;
+	.copyright{
+		font-size: 13px;
+		color:#fff;
+		min-height: 40px;
+		display: flex;
+		align-items: center;
 	}
-	.footer{
-		&-center{
-			background: #b50b0b;
-			padding: 10px 0;
-		}
-		&-bottom{
-			background: #eaad39;
-		}
-		&-navbar{
-			padding-top: 20px;
-			ul{
-				list-style-type: none;
-				padding: 0;
-				margin: 0;
-				display: flex;
-				flex-direction: row;
-				flex-wrap: wrap;
-				li{
-					width: 33.33%;
-					padding: 0px 15px;
-					text-align: left;
-					min-height: 45px;
-					display: inline-flex;
-					align-items: center;
-					a{
-						color:#fff;
-						text-transform: uppercase;
-						font-size: 20px;
-						font-weight: 600;
-					}
-				}
-			}
-		}
-		&-contact{
-			padding-top: 20px;
-			h3{
-				font-size: 18px;
-				color:#fff;
-				font-weight: 600;
-			}
-			ul{
-				list-style-type: none;
-				padding: 0;
-				margin: 0;
-				li{
-					display: flex;
-					flex-wrap: nowrap;
-					color:#fff;
-					margin-bottom: 10px;
-					.icon{
-						width: 20px;
-						height: 20px;
-					}
-					.text{
-						width: calc(100% - 20px);
-						padding-left: 10px;
-						font-size: 16px;
-					}
-				}
-			}
-		}
-		&-copyright{
-			font-size: 16px;
-			color:#fff;
-			height: 100%;
-			display: flex;
-			align-items: center;
-			min-height: 50px;
-		}
-		&-icons{
+	.navbar{
+		padding: 0;
+		margin: 0;
+		ul{
 			display: flex;
 			flex-direction: row;
+			flex-wrap: wrap;
+			list-style: none;
 			justify-content: flex-end;
-			align-items: center;
-			min-height: 50px;
-			a{
-				display: inline-block;
-				padding: 0 15px;
-				color:#fff;
-				font-size: 20px;
-			}
-		}
-	}
-}
-@media(max-width:992px){
-	.footer{
-		margin-top: 100px;
-		&:before{
-			height: 100px;
-		}
-		.footer{
-			&-logo {
-				flex: 0 0 100%;
-				max-width: 100%;
-				justify-content: center;
-				display: flex;
-			}
-
-			&-navbar {
-				flex: 0 0 100%;
-				max-width: 100%;
-				ul{
-					li{
-						padding: 0;
-						justify-content: center;
-					}
-				}
-			}
-
-			&-contact {
-				flex: 0 0 100%;
-				max-width: 100%;
-				display: flex;
-				justify-content: center;
-				flex-wrap: wrap;
-				h3{
-					flex: 0 0 100%;
-					max-width: 100%;
-					text-align: center;
-					margin-bottom: 30px;
-				}
-				ul{
-					flex: 0 0 100%;
-					max-width: 100%;
+			padding: 0;
+			margin: 0;
+			width: 100%;
+			li{
+				a{
+					font-size: 13px;
+					color:#ccc;
+					font-weight: normal;
+					min-height: 40px;
 					display: flex;
-					li{
-						flex: 0 0 33%;
-						max-width: 33%;
+					align-items: center;
+					padding: 0 10px;
+				}
+				&.is-active{
+					a{
+						color:$primary;
+						font-weight: 600;
+						
 					}
 				}
 			}
-			&-copyright{
-				font-size: 16px;
-				min-height: 40px;
-			}
-			&-icons{
+		}
+
+	}
+	@media(max-width:768px){
+		.navbar{
+			ul{
 				justify-content: flex-start;
-				min-height: auto;
-			}
-		}
-	}
-}
-@media(max-width:768px){
-	
-	.footer{
-		margin-top: 70px;
-		&:before{
-			height: 70px;
-		}
-		.footer{
-			
-			&-contact {
-				display: block;
-				h3{
-					display: block;
-					text-align: center;
-					margin-bottom: 30px;
-				}
-				ul{
-					display: flex;
-					justify-content: center;
-					flex-wrap: wrap;
-					li{
-						width: 100%;
-						max-width: 100%;
-					}
-				}
-			}
-			&-bottom{
-				.container{
-					.row{
-						flex-direction: column-reverse;
-					}
-				}
-			}
-			&-copyright{
-				font-size: 16px;
-				min-height: 40px;
-				flex: 0 0 100%;
-				max-width: 100%;
-				justify-content: center;
-			}
-			&-icons{
-				flex: 0 0 100%;
-				max-width: 100%;
-				justify-content: center;
-				min-height: auto;
-			}
-		}
-	}
-}
-@media(max-width:560px){
-	.footer{
-		margin-top: 50px;
-		&:before{
-			height: 50px;
-		}
-		.footer{
-			&-logo {
-				
-			}
-
-			&-navbar {
-				ul{
-					li{
-						flex: 0 0 50%;
-						max-width: 50%;
-						a{
-							font-size: 14px;
-						}
-					}
-				}
-			}
-
-			&-contact {
-				ul{
-					flex: 0 0 100%;
-					max-width: 100%;
-					display: flex;
-					li{
-						flex: 0 0 100%;
-						max-width: 100%;
-						display: inline-flex;
-						justify-content: center;
-						.text{
-							width: auto;
-						}
-					}
-				}
-			}
-			&-copyright{
-				font-size: 14px;
-			}
-			&-icons{
-
 			}
 		}
 	}
