@@ -10596,11 +10596,6 @@ body img {
   padding: 0 10px;
 }
 
-.footer .navbar ul li.is-active a {
-  color: #f78f2a;
-  font-weight: 600;
-}
-
 @media (max-width: 768px) {
   .footer .navbar ul {
     -webkit-box-pack: start;
