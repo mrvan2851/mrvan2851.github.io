@@ -10683,7 +10683,7 @@ body img {
 }
 
 .wrapper .slider .slider-content .text-content {
-  max-width: 500px;
+  max-width: 530px;
 }
 
 .wrapper .slider .slider-content .text-content .btn {
@@ -10705,19 +10705,20 @@ body img {
 
 .wrapper .slider .slider-content h4 {
   font-size: 32px;
-  font-weight: 600;
+  font-weight: bold;
   text-transform: uppercase;
 }
 
 .wrapper .slider .slider-content h3 {
   font-size: 50px;
-  font-weight: 600;
+  font-weight: bold;
   text-transform: uppercase;
 }
 
 .wrapper .slider .slider-content p {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 100;
+  max-width: 90%;
 }
 
 @media (max-width: 1400px) {
@@ -10995,6 +10996,8 @@ body img {
 .wrapper .section-product .item-product .text-content p {
   font-size: 24px;
   position: relative;
+  font-style: italic;
+  font-weight: 300;
 }
 
 .wrapper .section-product .item-product .text-content p .before {
@@ -11005,6 +11008,7 @@ body img {
 
 .wrapper .section-product .item-product .text-author {
   font-size: 24px;
+  font-style: italic;
 }
 
 .wrapper .section-product .item-product .text-author strong {
@@ -11362,9 +11366,24 @@ body img {
   }
 }
 
+.modal-article {
+  display: block !important;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: opacity 0.3s ease;
+  -o-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+.modal-article.show {
+  opacity: 1;
+  visibility: visible;
+}
+
 .modal-article .modal-dialog {
-  max-width: 1000px;
+  max-width: 1120px;
   margin: 30px auto;
+  padding: 0 60px;
 }
 
 .modal-article .modal-body {
@@ -11373,10 +11392,6 @@ body img {
 }
 
 .modal-article .modal-body .box {
-  display: none;
-}
-
-.modal-article .modal-body .box.is-active {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -11436,6 +11451,22 @@ body img {
 
 .modal-article .modal-body .box .item-content a:hover {
   color: #f78f2a;
+}
+
+.modal-article .modal-body .slick-arrow {
+  z-index: 100;
+  height: 50px;
+  width: 50px;
+  background: #191919;
+  color: #fff;
+}
+
+.modal-article .modal-body .slick-arrow.slick-prev {
+  left: -60px;
+}
+
+.modal-article .modal-body .slick-arrow.slick-next {
+  right: -60px;
 }
 
 @media (max-width: 1000px) {
@@ -11581,7 +11612,7 @@ body img {
 
 /* Slider */
 .slick-loading .slick-list {
-  background: #fff url("../images/icons/ajax-loader.gif") center center no-repeat;
+  background: #fff url("../images/ajax-loader.gif") center center no-repeat;
 }
 
 /* Arrows */

@@ -67,14 +67,19 @@ function Main(){
 	this.initModalArticle = function(element){
 		var modal = $(element)
 		var btn = $('.btn-modal-article')
+		$('#list-boxs').slick({
+			infinite: true,
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			fade: true,
+			prevArrow:'<button type="button" class="slick-prev"><i class="fas fa-long-arrow-alt-left"></i></button>',
+			nextArrow:'<button type="button" class="slick-next"><i class="fas fa-long-arrow-alt-right"></i></button>',
+		});
 		btn.click(function () {
-			var box = $(this).data("box");
-			$(box).addClass('is-active')
+			var index = $(this).data("box");
+			$('#list-boxs').slick('slickGoTo', index);
 			modal.modal('show')
 		});
-		modal.on('hide.bs.modal', function (e) {
-			modal.find('.box').removeClass('is-active')
-		})
 	}
     this.init = function(){
 		this.sticky();

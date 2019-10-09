@@ -13,8 +13,9 @@
 	<link href="/resources/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<link href="/resources/vendor/fontawesome/css/all.css" rel="stylesheet">
 	<link href="/resources/vendor/fancybox/jquery.fancybox.min.css" rel="stylesheet">
+	<link href="/resources/vendor/slick/slick.css" rel="stylesheet">
 	<link href="/resources/vendor/animate/animate.min.css" rel="stylesheet">
-	<link href="/resources/css/style.css" rel="stylesheet">
+	<link href="/resources/css/style.css?v=1234" rel="stylesheet">
 </head>
 
 <body>
@@ -269,7 +270,7 @@
 								</p>
 							</div>
 							<div class="text-image">
-								<div class="item-image btn-modal-article" data-box="#box-1">
+								<div class="item-image btn-modal-article" data-box="0">
 									<div class="item-image-box">
 										<img src="resources/images/about/Poster-GianHang2K.jpg" alt="">
 									</div>
@@ -278,7 +279,7 @@
 										<span>Trao đồ cũ, gửi nụ cười </span>
 									</div>
 								</div>
-								<div class="item-image btn-modal-article" data-box="#box-2">
+								<div class="item-image btn-modal-article" data-box="1">
 									<div class="item-image-box">
 										<img src="resources/images/about/DSCF5820.jpg" alt="">
 									</div>
@@ -287,7 +288,7 @@
 										<span>Mang ciné về khắp mọi miền quê</span>
 									</div>
 								</div>
-								<div class="item-image btn-modal-article" data-box="#box-3">
+								<div class="item-image btn-modal-article" data-box="2">
 									<div class="item-image-box">
 										<img src="resources/images/about/IMG_5045.jpg" alt="">
 									</div>
@@ -296,7 +297,7 @@
 										<span>Đọc sách để giỏi như siêu nhân</span>
 									</div>
 								</div>
-								<div class="item-image btn-modal-article" data-box="#box-4">
+								<div class="item-image btn-modal-article" data-box="3">
 									<div class="item-image-box">
 										<img src="resources/images/about/59750351_2376711585893711_2518109089075036160_o.jpg" alt="">
 									</div>
@@ -426,97 +427,107 @@
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 						<img src="resources/images/Close-OFF.png" alt="">
 					</button>
-					<div class="box" id="box-1">
-						<div class="item-image">
-							<img src="resources/images/about/Hinh-GianHang2k.jpg" alt="">
-						</div>
-						<div class="item-content">
-							<h3>Gian hàng 2k</h3>
-							<h5>Dự án được Sunbox thực hiện từ năm 2016</h5>
-							<div class="text-content">
-								<p>
-										Xuất phát từ ý tưởng: Không một món đồ nào đáng phải bỏ đi, thứ chạm đáy âm giá trị với bạn có thể là cả một gia tài đáng quý với người khác. Sunbox đặt hộp quyên góp nơi công cộng. Bạn có thể thu thập những món đồ không cần dùng đến nữa và mang đến những chiếc hộp gần nhất, đặt vào đó bằng cả tấm lòng. Sunbox sẽ thay bạn gửi trao những món quà này đến những người cần nó hơn thông qua gian hàng 2k. Số tiền cho mỗi món đồ đồng giá 2k bán ra sẽ được tái sử dụng tại các quán cơm xã hội 2k. 
-								</p>
-								<p>
-										Năm 2016, Gian hàng 2k truyền cảm hứng đến cộng đồng, mô hình gian hàng 2k được nhân rộng trên nhiều tỉnh thành.
-								</p>
+					<div class="list-boxs" id="list-boxs">
+						<div class="item">
+							<div class="box" id="box-1">
+								<div class="item-image">
+									<img src="resources/images/about/Hinh-GianHang2k.jpg" alt="">
+								</div>
+								<div class="item-content">
+									<h3>Gian hàng 2k</h3>
+									<h5>Dự án được Sunbox thực hiện từ năm 2016</h5>
+									<div class="text-content">
+										<p>
+												Xuất phát từ ý tưởng: Không một món đồ nào đáng phải bỏ đi, thứ chạm đáy âm giá trị với bạn có thể là cả một gia tài đáng quý với người khác. Sunbox đặt hộp quyên góp nơi công cộng. Bạn có thể thu thập những món đồ không cần dùng đến nữa và mang đến những chiếc hộp gần nhất, đặt vào đó bằng cả tấm lòng. Sunbox sẽ thay bạn gửi trao những món quà này đến những người cần nó hơn thông qua gian hàng 2k. Số tiền cho mỗi món đồ đồng giá 2k bán ra sẽ được tái sử dụng tại các quán cơm xã hội 2k. 
+										</p>
+										<p>
+												Năm 2016, Gian hàng 2k truyền cảm hứng đến cộng đồng, mô hình gian hàng 2k được nhân rộng trên nhiều tỉnh thành.
+										</p>
+									</div>
+									<a href="http://kenh14.vn/gian-hang-2k-noi-ma-to-2000-dong-mua-duoc-rat-nhieu-niem-hanh-phuc-20160414002057088.chn" target="_blank">
+										http://kenh14.vn/gian-hang-2k-noi-ma-to-2000-dong-mua-duoc-rat-nhieu-niem-hanh-phuc-20160414002057088.chn
+									</a>
+								</div>
 							</div>
-							<a href="http://kenh14.vn/gian-hang-2k-noi-ma-to-2000-dong-mua-duoc-rat-nhieu-niem-hanh-phuc-20160414002057088.chn" target="_blank">
-								http://kenh14.vn/gian-hang-2k-noi-ma-to-2000-dong-mua-duoc-rat-nhieu-niem-hanh-phuc-20160414002057088.chn
-							</a>
+						</div>
+						<div class="item">
+							<div class="box" id="box-2">
+								<div class="item-image">
+									<img src="resources/images/about/Hinh-RapPhim300k.jpg" alt="">
+								</div>
+								<div class="item-content">
+									<h3>Rạp phim 300k</h3>
+									<h5>Dự án được Sunbox thực hiện từ năm 2017</h5>
+									<div class="text-content">
+										<p>
+												Rạp phim 300k là hành trình Sunbox cùng nhau lên rừng xuống biển, tổ chức chiếu phim cho trẻ em miền quê.
+										</p>
+										<p>
+												Rạp phim 300k có nước ngọt, bắp rang bơ, có cả vé và người soát vé, người đến xem phim được gọi là Quý khách. Sunbox muốn mang trải nghiệm như xem phim ở rạp cho bất kì ai chưa có điều kiện đến rạp phim thật sự. 
+										</p>
+										<p>
+												Sunbox cũng chia sẻ rộng rãi cách thức thực hiện để bất kỳ ai cũng có thể tổ chức rạp phim tại địa phương với kinh phí chỉ từ 300,000 VNĐ.
+										</p>
+									</div>
+									<a href="http://kenh14.vn/rap-phim-300k-o-mien-tay-dua-cine-ve-mien-que-cho-tui-con-nit-ngheo-20170416223752966.chn" target="_blank">
+										http://kenh14.vn/rap-phim-300k-o-mien-tay-dua-cine-ve-mien-que-cho-tui-con-nit-ngheo-20170416223752966.chn
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="box" id="box-3">
+								<div class="item-image">
+									<img src="resources/images/about/Hinh-TuSachSieuNhan.jpg" alt="">
+								</div>
+								<div class="item-content">
+									<h3>Tủ sách siêu nhân</h3>
+									<h5>Dự án được Sunbox thực hiện từ năm 2017</h5>
+									<div class="text-content">
+										<p>
+												Tủ Sách Siêu Nhân với thông điệp “Đọc sách để giỏi như siêu nhân”được xây dựng từ niềm tin mọi thay đổi tốt đẹp sẽ đến khi trẻ em được đọc sách.  
+										</p>
+										<p>
+												Năm 2017. Tủ Sách Siêu Nhân hoạt động dưới hình thức tủ sách lưu động, biến đọc sách thành những trò chơi tương tác vui nhộn, đưa sách đến các lớp học xã hội và về những miền quê. 
+										</p>
+										<p>
+												Năm 2018. Tủ Sách Siêu Nhân ra mắt workshop Kể chuyện trên mặt nước.
+										</p>
+										<p>
+												Năm 2019. chương trình mở rộng mô hình hoạt động với hình thức phát hành sách tranh. Mỗi quyển sách bán ra được trích lợi nhuận cho các hoạt động hỗ trợ trẻ em yếu thế trong xã hội. 
+										</p>
+									</div>
+									<a href="http://2017.wechoice.vn/de-cu/top-10-nhan-vattruyen-cam-hung-2017-1/sunbox-47585.htm" target="_blank">
+										http://2017.wechoice.vn/de-cu/top-10-nhan-vattruyen-cam-hung-2017-1/sunbox-47585.htm
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="box" id="box-4">
+							<div class="item-image">
+								<img src="resources/images/about/Hinh-LopVeMatTroi.jpg" alt="">
+							</div>
+							<div class="item-content">
+								<h3>Lớp vẽ Ông Mặt Trời</h3>
+								<h5>Dự án được Sunbox thực hiện từ năm 2019</h5>
+								<div class="text-content">
+									<p>
+											Lớp vẽ ra đời nhằm hỗ trợ trẻ em yếu thế, không đủ điều kiện học chính quy nhưng có năng khiếu theo nghề mỹ thuật. Lớp vẽ Hộp Mặt Trời chính là một trạm trung chuyển, trang bị những kiến thức nền tảng giúp các em bắt đầu theo đuổi nghề.
+									</p>
+									<p>
+											Tại đây, các em học kiến thức nền tảng từ  3 môn: văn học, tiếng anh và vẽ cơ bản; được trải nghiệm nghề và trau dồi chuyên môn tại các trung tâm có uy tín.
+									</p>
+									<p>
+											Hoàn thành lớp học nghề, các em có chứng chỉ và độc lập theo đuổi sự nghiệp của mình. 
+									</p>
+								</div>
+								<a href="https://www.facebook.com/pg/HelloSunbox/photos/?tab=album&album_id=2342779235953613" target="_blank">
+									https://www.facebook.com/pg/HelloSunbox/photos/?tab=album&album_id=2342779235953613
+								</a>
+							</div>
 						</div>
 					</div>
-					<div class="box" id="box-2">
-						<div class="item-image">
-							<img src="resources/images/about/Hinh-RapPhim300k.jpg" alt="">
-						</div>
-						<div class="item-content">
-							<h3>Rạp phim 300k</h3>
-							<h5>Dự án được Sunbox thực hiện từ năm 2017</h5>
-							<div class="text-content">
-								<p>
-										Rạp phim 300k là hành trình Sunbox cùng nhau lên rừng xuống biển, tổ chức chiếu phim cho trẻ em miền quê.
-								</p>
-								<p>
-										Rạp phim 300k có nước ngọt, bắp rang bơ, có cả vé và người soát vé, người đến xem phim được gọi là Quý khách. Sunbox muốn mang trải nghiệm như xem phim ở rạp cho bất kì ai chưa có điều kiện đến rạp phim thật sự. 
-								</p>
-								<p>
-										Sunbox cũng chia sẻ rộng rãi cách thức thực hiện để bất kỳ ai cũng có thể tổ chức rạp phim tại địa phương với kinh phí chỉ từ 300,000 VNĐ.
-								</p>
-							</div>
-							<a href="http://kenh14.vn/rap-phim-300k-o-mien-tay-dua-cine-ve-mien-que-cho-tui-con-nit-ngheo-20170416223752966.chn" target="_blank">
-								http://kenh14.vn/rap-phim-300k-o-mien-tay-dua-cine-ve-mien-que-cho-tui-con-nit-ngheo-20170416223752966.chn
-							</a>
-						</div>
-					</div>
-					<div class="box" id="box-3">
-						<div class="item-image">
-							<img src="resources/images/about/Hinh-TuSachSieuNhan.jpg" alt="">
-						</div>
-						<div class="item-content">
-							<h3>Tủ sách siêu nhân</h3>
-							<h5>Dự án được Sunbox thực hiện từ năm 2017</h5>
-							<div class="text-content">
-								<p>
-										Tủ Sách Siêu Nhân với thông điệp “Đọc sách để giỏi như siêu nhân”được xây dựng từ niềm tin mọi thay đổi tốt đẹp sẽ đến khi trẻ em được đọc sách.  
-								</p>
-								<p>
-										Năm 2017. Tủ Sách Siêu Nhân hoạt động dưới hình thức tủ sách lưu động, biến đọc sách thành những trò chơi tương tác vui nhộn, đưa sách đến các lớp học xã hội và về những miền quê. 
-								</p>
-								<p>
-										Năm 2018. Tủ Sách Siêu Nhân ra mắt workshop Kể chuyện trên mặt nước.
-								</p>
-								<p>
-										Năm 2019. chương trình mở rộng mô hình hoạt động với hình thức phát hành sách tranh. Mỗi quyển sách bán ra được trích lợi nhuận cho các hoạt động hỗ trợ trẻ em yếu thế trong xã hội. 
-								</p>
-							</div>
-							<a href="http://2017.wechoice.vn/de-cu/top-10-nhan-vattruyen-cam-hung-2017-1/sunbox-47585.htm" target="_blank">
-								http://2017.wechoice.vn/de-cu/top-10-nhan-vattruyen-cam-hung-2017-1/sunbox-47585.htm
-							</a>
-						</div>
-					</div>
-					<div class="box" id="box-4">
-						<div class="item-image">
-							<img src="resources/images/about/Hinh-LopVeMatTroi.jpg" alt="">
-						</div>
-						<div class="item-content">
-							<h3>Lớp vẽ Ông Mặt Trời</h3>
-							<h5>Dự án được Sunbox thực hiện từ năm 2019</h5>
-							<div class="text-content">
-								<p>
-										Lớp vẽ ra đời nhằm hỗ trợ trẻ em yếu thế, không đủ điều kiện học chính quy nhưng có năng khiếu theo nghề mỹ thuật. Lớp vẽ Hộp Mặt Trời chính là một trạm trung chuyển, trang bị những kiến thức nền tảng giúp các em bắt đầu theo đuổi nghề.
-								</p>
-								<p>
-										Tại đây, các em học kiến thức nền tảng từ  3 môn: văn học, tiếng anh và vẽ cơ bản; được trải nghiệm nghề và trau dồi chuyên môn tại các trung tâm có uy tín.
-								</p>
-								<p>
-										Hoàn thành lớp học nghề, các em có chứng chỉ và độc lập theo đuổi sự nghiệp của mình. 
-								</p>
-							</div>
-							<a href="https://www.facebook.com/pg/HelloSunbox/photos/?tab=album&album_id=2342779235953613" target="_blank">
-								https://www.facebook.com/pg/HelloSunbox/photos/?tab=album&album_id=2342779235953613
-							</a>
-						</div>
 					</div>
 				</div>
 			</div>
@@ -526,8 +537,9 @@
 	<script src="/resources/vendor/bootstrap/js/popper.min.js"></script>
 	<script src="/resources/vendor/bootstrap/js/bootstrap.min.js"></script>
 	<script src="/resources/vendor/fancybox/jquery.fancybox.min.js"></script>
+	<script src="/resources/vendor/slick/slick.min.js"></script>
 	<script src="/resources/js/smartScroll.min.js"></script>
-	<script src="/resources/js/main.js"></script>
+	<script src="/resources/js/main.js?v=1234"></script>
 </body>
 
 </html>
