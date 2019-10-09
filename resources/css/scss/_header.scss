@@ -201,6 +201,7 @@
 		.header{
 			&-top{
 				min-height: 45px;
+				box-shadow: 0 1px 4px rgba(0, 0, 0, .3);
 				.header-toggle{
 					display: block;
 				}

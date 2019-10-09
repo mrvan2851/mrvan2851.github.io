@@ -1,6 +1,8 @@
 .wrapper{
 	position: relative;
 	margin-top: 45px;
+	width: 100%;
+	overflow: hidden auto;
 	.page-title{
 		font-size: 40px;
 		font-weight: bold;
@@ -670,6 +672,12 @@
 		opacity: 1;
 		outline: none;
 	}
+	@media(max-width:1000px){
+		.close {
+			right: 0px;
+			top: 0px;
+		}
+	}
 }
 .modal-article{
 	.modal-dialog {
@@ -724,7 +732,19 @@
 				}
 			}
 		}
-		
+		@media(max-width:1000px){
+			.box{
+				.item{
+					&-image{
+						display: none;
+					}
+					&-content{
+						@include flex(100%);
+						padding: 25px 50px;
+					}
+				}
+			}
+		}
 	}
 	.close {
 		position: absolute;
