@@ -987,12 +987,8 @@ class SocialWidgetApp {
 			widget_id
 		});
 	}
-	getData({ page, shop_domain }) {
-		this.$.get(SOCIAL_WIDGET_API + "/store/widget", {
-			page,
-			shop_domain,
-			widget_id
-		}).done(res => {
+	getData(params) {
+		this.$.get(SOCIAL_WIDGET_API + "/store/widget", params ).done(res => {
 			let { status = false, data } = res;
 			if (status) {
 				new RenderSocialWidget(
