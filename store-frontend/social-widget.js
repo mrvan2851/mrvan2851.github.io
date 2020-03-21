@@ -4,6 +4,10 @@ const SOCIAL_WIDGET_ID = "#social-widget-wrapper";
 const SOCIAL_WIDGET_DOMAIN = "#social-widget-shop-domain";
 const SOCIAL_WIDGET_STYLE =
 	"https://mrvan2851.github.io/store-frontend/style.min.css";
+const SOCIAL_WIDGET_MOBILE_BREAKPOINT = 768;
+const SOCIAL_WIDGET_CONTAINER_HTML = '<div class="sw-instagram sw-instagram-box"><div class="sw-instagram-header"><div class="sw-instagram-header-title"></div></div><div class="sw-instagram-body"><div class="sw-instagram-row"></div></div></div>'
+const SOCIAL_WIDGET_ITEM_HTML = '<div class="sw-instagram-col"><a  data-id="" class="sw-instagram-item"><div class="sw-instagram-item-img" ></div><div class="sw-instagram-item-overlay"></div></a></div>'
+const SOCIAL_WIDGET_INSTAGRAM_ICON_HTML =  '<svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram" class="svg-inline--fa fa-instagram fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>'
 class SocialWidgetPopup {
 	constructor(options, $) {
 		let { images = [], widget_id = "" } = options;
@@ -810,26 +814,24 @@ class RenderSocialWidget {
 	constructor(options, $) {
 		console.log(options);
 		this.$ = $
-		this.options = options;
-		this.slider = null;
-		this.timeout = null;
-		this.options["widget_id"] = this.createId();
-		this.container = $(
-			'<div class="sw-instagram sw-instagram-box"><div class="sw-instagram-header"><div class="sw-instagram-header-title"></div></div><div class="sw-instagram-body"><div class="sw-instagram-row"></div></div></div>'
-		);
-		this.item_html = $(
-			'<div class="sw-instagram-col"><a  data-id="" class="sw-instagram-item"><div class="sw-instagram-item-img" ></div><div class="sw-instagram-item-overlay"></div></a></div>'
-		);
-		this.row = this.container.find(".sw-instagram-row");
-		this.instagram_icon =
-			'<svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram" class="svg-inline--fa fa-instagram fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>';
-		this.renderHTML();
-
+		this.wrapper = this.$(SOCIAL_WIDGET_ID)
+		this.options = Object.assign(options , {
+			"widget_id" : this.createId()
+		});
+		this.slider = null
+		this.popup = false
+		this.window_width = 0
+		this.version  = this.checkVersion()
+		this.renderHTML()
+		this.createPopup()
+		this.addEventListener()
 	}
 	renderHTML() {
-		var vm = this;
-		var config = this.loadConfigForDevice()
-		this.container
+		console.log('renderHTML');
+		var config = this.loadConfigForDevice(this.version)
+		var container = $(SOCIAL_WIDGET_CONTAINER_HTML);
+		var row  = container.find(".sw-instagram-row");
+		container
 			.attr("id", this.options.widget_id)
 			.find(".sw-instagram-header-title")
 			.text(this.options.heading_title);
@@ -837,8 +839,9 @@ class RenderSocialWidget {
 		var css = Object.assign(this.options.var_css, {
 			"--sw-item-no-of-columns": config.item_no_of_columns
 		});
+		
 		config.images.forEach(item => {
-			var element = this.item_html.clone();
+			var element = this.$(SOCIAL_WIDGET_ITEM_HTML)
 			element.find(".sw-instagram-item").attr({
 				"data-id": item.id,
 				href: item.permalink,
@@ -860,7 +863,7 @@ class RenderSocialWidget {
 						.find(".sw-instagram-item-overlay")
 						.append(
 							'<div class="sw-instagram-item-overlay-center-content"><div class="sw-instagram-icon">' +
-							this.instagram_icon +
+							SOCIAL_WIDGET_INSTAGRAM_ICON_HTML +
 							"</div></div>"
 						);
 					break;
@@ -870,41 +873,36 @@ class RenderSocialWidget {
 						.find(".sw-instagram-item-overlay")
 						.append(
 							'<div class="sw-instagram-item-overlay-center-content"><div class="sw-instagram-icon">' +
-							this.instagram_icon +
+							SOCIAL_WIDGET_INSTAGRAM_ICON_HTML +
 							'</div><div class="sw-instagram-caption"> Demo caption </div></div>'
 						);
 					break;
 				case "caption":
-					let caption =
-						"Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis saepe molestias nobis officia itaque. Molestias qui facere, officiis beatae illum dolores natus sed odit a repellat blanditiis eaque ipsum incidunt?";
 					element.find(".sw-instagram-item").addClass("sw-instagram-default");
 					element
 						.find(".sw-instagram-item-overlay")
 						.append(
 							'<div class="sw-instagram-item-overlay-content"><div class="sw-instagram-caption">' +
-							caption +
+							item.caption +
 							'</div><div class="sw-instagram-bottom-icon">' +
-							this.instagram_icon +
+							SOCIAL_WIDGET_INSTAGRAM_ICON_HTML +
 							"</div></div>"
 						);
 					break;
 				default:
 					break;
 			}
-			this.row.append(element);
+			row.append(element);
 		});
-		var root = this.container[0];
 		for (const key in css) {
-			root.style.setProperty(key, css[key]);
+			container[0].style.setProperty(key, css[key]);
 		}
-		this.$(this.options.root)
-			.append(this.container)
-			.fadeIn(200);
+		this.wrapper.append(container).fadeIn(200)
 		
 		if ( config.display_layout == "slider") {
-			this.row.addClass("sw-instagram-slider");
+			row.addClass("sw-instagram-slider");
 			this.slider = new SocialWidgetSlider({
-				selector: this.row[0],
+				selector: row[0],
 				duration: 500,
 				easing: "ease-out",
 				perPage: config.item_no_of_slider,
@@ -932,38 +930,71 @@ class RenderSocialWidget {
 				event.preventDefault();
 				this.slider.next();
 			});
-			this.row.parent().append(prev);
-			this.row.parent().append(next);
-			this.row.addClass("sw-instagram-slider");
+			row.parent().append(prev);
+			row.parent().append(next);
+			row.addClass("sw-instagram-slider");
 		}
-		if (this.options.on_image_click == "popup") {
-			new SocialWidgetPopup(this.options, this.$);
+		
+	}
+	reRenderHtml(){
+		console.log('reRenderHtml');
+		if( this.slider ){
+			this.slider.destroy()
+			this.slider = null
+		}
+		this.wrapper.empty().hide()
+		this.renderHTML()
+	}
+	createPopup(){
+		if (this.options.on_image_click == "popup" && !this.popup ) {
+			new SocialWidgetPopup(this.options, this.$)
+			this.popup = true
 		}
 	}
-	loadConfigForDevice(){
-		if( this.isDeviceMobile ){
+	addEventListener(){
+		this.window_width = this.$(window).width()
+		this.$(window).on('resize' , (event)=>{
+			var width = this.$( window ).width()
+			if( this.window_width != width ){
+				this.window_width = width
+				var current_version = this.checkVersion() 
+				if( this.version != current_version ){
+					this.version = current_version
+					this.reRenderHtml()
+				}
+			}
+		})
+	}
+	loadConfigForDevice(version){
+		if( version == 'mobile' ){
 			return {
+				"version" : "mobile",
 				"display_layout": this.options.mobile_display_layout,
 				"item_no_of_rows": this.options.mobile_item_no_of_rows,
 				"item_no_of_columns": this.options.mobile_item_no_of_columns,
 				"item_no_of_slider" : this.options.mobile_item_no_of_slider,
 				"auto_play_slider" : this.options.mobile_auto_play_slider,
 				"auto_play_duration" : this.options.mobile_auto_play_duration,
-				"images" : this.options.mobile_display_layout == 'grid' ? this.options.images : this.getNumberImage(this.options.mobile_item_no_of_rows * this.options.mobile_item_no_of_columns)
+				"images" : this.options.mobile_display_layout == 'slider' ? this.options.images : this.getNumberImage(this.options.mobile_item_no_of_rows * this.options.mobile_item_no_of_columns)
 			}
 		}else{
 			return {
+				"version" : "desktop",
 				"display_layout": this.options.display_layout,
 				"item_no_of_rows": this.options.item_no_of_rows,
 				"item_no_of_columns": this.options.item_no_of_columns,
 				"item_no_of_slider" : this.options.item_no_of_slider, 
 				"auto_play_slider" : this.options.auto_play_slider,
 				"auto_play_duration" : this.options.auto_play_duration,
-				"images" : this.options.display_layout == 'grid' ? this.options.images : this.getNumberImage(this.options.item_no_of_rows * this.options.item_no_of_columns)
+				"images" : this.options.display_layout == 'slider' ? this.options.images : this.getNumberImage(this.options.item_no_of_rows * this.options.item_no_of_columns)
 			}
 		}
 	}
+	checkVersion(){
+		return this.$(window).width() <= SOCIAL_WIDGET_MOBILE_BREAKPOINT ? 'mobile' : 'desktop'
+	}
 	getNumberImage(num){
+		console.log(num);
 		var result = []
 		for (let i = 0; i < num ; i++) {
 			result.push(this.options.images[i])
@@ -1005,9 +1036,7 @@ class SocialWidgetApp {
 			widget_id
 		});
 	}
-	isDeviceMobile = function () {
-		return true;
-	};
+	
 	getData(params) {
 		console.log("getData");
 		console.log(params);
