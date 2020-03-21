@@ -837,7 +837,7 @@ class RenderSocialWidget {
 		var css = Object.assign(this.options.var_css, {
 			"--sw-item-no-of-columns": config.item_no_of_columns
 		});
-		this.options.images.forEach(item => {
+		config.images.forEach(item => {
 			var element = this.item_html.clone();
 			element.find(".sw-instagram-item").attr({
 				"data-id": item.id,
@@ -949,21 +949,27 @@ class RenderSocialWidget {
 				"item_no_of_slider" : this.options.mobile_item_no_of_slider,
 				"auto_play_slider" : this.options.mobile_auto_play_slider,
 				"auto_play_duration" : this.options.mobile_auto_play_duration,
+				"images" : this.options.mobile_display_layout == 'grid' ? this.options.images : this.getNumberImage(this.options.mobile_item_no_of_rows * this.options.mobile_item_no_of_columns)
 			}
 		}else{
 			return {
 				"display_layout": this.options.display_layout,
 				"item_no_of_rows": this.options.item_no_of_rows,
 				"item_no_of_columns": this.options.item_no_of_columns,
-				"item_no_of_slider" : this.options.item_no_of_slider,
+				"item_no_of_slider" : this.options.item_no_of_slider, 
 				"auto_play_slider" : this.options.auto_play_slider,
 				"auto_play_duration" : this.options.auto_play_duration,
+				"images" : this.options.display_layout == 'grid' ? this.options.images : this.getNumberImage(this.options.item_no_of_rows * this.options.item_no_of_columns)
 			}
 		}
 	}
-	isDeviceMobile = function () {
-		return true;
-	};
+	getNumberImage(num){
+		var result = []
+		for (let i = 0; i < num ; i++) {
+			result.push(this.options.images[i])
+		}
+		return result
+	}
 	createId() {
 		var text = function () {
 			return (((1 + Math.random()) * 0x10000) | 0).toString(16).substring(1);
@@ -983,33 +989,25 @@ class RenderSocialWidget {
 			text()
 		);
 	}
+
 }
 class SocialWidgetApp {
 	constructor($) {
-		this.$ = $;
-		this.templates = [
-			"template-index",
-			"template-collection",
-			"template-product",
-			"template-page",
-			"template-article",
-			"template-blog",
-			"template-cart",
-			"template-list-collections"
-		];
-		this.init();
-		this.injectStyle();
+		this.$ = $
+		this.init()
+		this.injectStyle()
 	}
 	init() {
 		var shop_domain = this.$(SOCIAL_WIDGET_DOMAIN).val();
 		var widget_id = this.$(SOCIAL_WIDGET_ID).data("widget-id");
-		console.log(this.$(SOCIAL_WIDGET_ID));
-
 		this.getData({
 			shop_domain,
 			widget_id
 		});
 	}
+	isDeviceMobile = function () {
+		return true;
+	};
 	getData(params) {
 		console.log("getData");
 		console.log(params);
@@ -1034,7 +1032,7 @@ class SocialWidgetApp {
 	}
 }
 
-socialWidgetLoadScript = function (url, callback) {
+const socialWidgetLoadScript = function (url, callback) {
 	var script = document.createElement("script");
 	script.type = "text/javascript";
 	if (script.readyState) {
