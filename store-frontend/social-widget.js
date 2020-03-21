@@ -1025,7 +1025,7 @@ class SocialWidgetApp {
 		link.href = SOCIAL_WIDGET_STYLE;
 		document.getElementsByTagName("HEAD")[0].appendChild(link);
 
-		document.styleSheets[0].insertRule("@media only screen and (max-width : 768px) { #social-widget-wrapper { color: red; } }","");
+		this.$(SOCIAL_WIDGET_ID).append('<style>@media only screen and (max-width : 768px) { #social-widget-wrapper {color: red; } }</style>')
 	}
 	
 }
