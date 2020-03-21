@@ -982,6 +982,8 @@ class SocialWidgetApp {
 	init() {
 		var shop_domain = this.$(SOCIAL_WIDGET_DOMAIN).val();
 		var widget_id =  this.$(SOCIAL_WIDGET_ID).data('widget-id')
+		console.log(this.$(SOCIAL_WIDGET_ID));
+		
 		this.getData({
 			shop_domain,
 			widget_id
