@@ -1014,12 +1014,7 @@ class SocialWidgetApp {
 		this.$.get(SOCIAL_WIDGET_API + "/store/widget", params).done(res => {
 			let { status = false, data } = res;
 			if (status) {
-				new RenderSocialWidget(
-					Object.assign(data, {
-						root: SOCIAL_WIDGET_ID
-					}),
-					this.$
-				);
+				new RenderSocialWidget(data,this.$);
 			}
 		});
 	}
@@ -1029,7 +1024,10 @@ class SocialWidgetApp {
 		link.type = "text/css";
 		link.href = SOCIAL_WIDGET_STYLE;
 		document.getElementsByTagName("HEAD")[0].appendChild(link);
+
+		document.styleSheets[0].insertRule("@media only screen and (max-width : 768px) { #social-widget-wrapper { color: red; } }","");
 	}
+	
 }
 
 const socialWidgetLoadScript = function (url, callback) {
