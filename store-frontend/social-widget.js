@@ -988,6 +988,8 @@ class SocialWidgetApp {
 		});
 	}
 	getData(params) {
+		console.log('getData')
+		console.log(params)
 		this.$.get(SOCIAL_WIDGET_API + "/store/widget", params ).done(res => {
 			let { status = false, data } = res;
 			if (status) {
