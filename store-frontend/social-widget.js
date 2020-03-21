@@ -1,5 +1,5 @@
 "use strict";
-const SOCIAL_WIDGET_API = "https://snakexxxx.ngrok.io/api";
+const SOCIAL_WIDGET_API = "https://publishdev-api.socialhead.io/api";
 const SOCIAL_WIDGET_ID = "#social-widget-wrapper";
 const SOCIAL_WIDGET_DOMAIN = "#social-widget-shop-domain";
 const SOCIAL_WIDGET_STYLE =
