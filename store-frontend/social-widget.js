@@ -1,5 +1,5 @@
 "use strict";
-const SOCIAL_WIDGET_API = "https://snakexxx.ngrok.io/api";
+const SOCIAL_WIDGET_API = "https://snakexxxx.ngrok.io/api";
 const SOCIAL_WIDGET_ID = "#social-widget-wrapper";
 const SOCIAL_WIDGET_DOMAIN = "#social-widget-shop-domain";
 const SOCIAL_WIDGET_STYLE =
@@ -7,6 +7,7 @@ const SOCIAL_WIDGET_STYLE =
 class SocialWidgetPopup {
 	constructor(options, $) {
 		let { images = [], widget_id = "" } = options;
+		this.$ = $
 		this.options = options;
 		this.root = "root";
 		this.data = images;
@@ -29,9 +30,9 @@ class SocialWidgetPopup {
 		this.handleAddEventListener($);
 	}
 
-	handleAddEventListener($) {
+	handleAddEventListener() {
 		var vm = this;
-		$("#" + this.options.widget_id).on("click", ".sw-instagram-item", function (
+		this.$("#" + this.options.widget_id).on("click", ".sw-instagram-item", function (
 			event
 		) {
 			event.preventDefault();
@@ -808,7 +809,7 @@ class SocialWidgetSlider {
 class RenderSocialWidget {
 	constructor(options, $) {
 		console.log(options);
-
+		this.$ = $
 		this.options = options;
 		this.slider = null;
 		this.timeout = null;
@@ -822,17 +823,19 @@ class RenderSocialWidget {
 		this.row = this.container.find(".sw-instagram-row");
 		this.instagram_icon =
 			'<svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram" class="svg-inline--fa fa-instagram fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>';
-		this.injectCSS("http://localhost:5500/style.min.css");
-		this.renderHtml($);
+		this.renderHTML();
+
 	}
-	renderHtml($) {
+	renderHTML() {
 		var vm = this;
+		var config = this.loadConfigForDevice()
 		this.container
 			.attr("id", this.options.widget_id)
 			.find(".sw-instagram-header-title")
 			.text(this.options.heading_title);
+		
 		var css = Object.assign(this.options.var_css, {
-			"--sw-item-no-of-columns": this.options.item_no_of_columns
+			"--sw-item-no-of-columns": config.item_no_of_columns
 		});
 		this.options.images.forEach(item => {
 			var element = this.item_html.clone();
@@ -894,26 +897,24 @@ class RenderSocialWidget {
 		for (const key in css) {
 			root.style.setProperty(key, css[key]);
 		}
-		$(this.options.root)
+		this.$(this.options.root)
 			.append(this.container)
 			.fadeIn(200);
-		if (this.options.on_image_click == "popup") {
-			new SocialWidgetPopup(this.options, $);
-		}
-		if (this.options.display_layout == "slider") {
+		
+		if ( config.display_layout == "slider") {
 			this.row.addClass("sw-instagram-slider");
 			this.slider = new SocialWidgetSlider({
 				selector: this.row[0],
 				duration: 500,
 				easing: "ease-out",
-				perPage: this.options.item_no_of_slider,
+				perPage: config.item_no_of_slider,
 				startIndex: 0,
 				draggable: true,
 				loop: true,
 				multipleDrag: true,
 				threshold: 20,
-				auto_play_slider: this.options.auto_play_slider,
-				auto_play_duration: this.options.auto_play_duration * 1000,
+				auto_play_slider: config.auto_play_slider,
+				auto_play_duration: config.auto_play_duration * 1000,
 				onInit: () => { },
 				onChange: () => { }
 			});
@@ -935,14 +936,34 @@ class RenderSocialWidget {
 			this.row.parent().append(next);
 			this.row.addClass("sw-instagram-slider");
 		}
+		if (this.options.on_image_click == "popup") {
+			new SocialWidgetPopup(this.options, this.$);
+		}
 	}
-	injectCSS(url) {
-		var link = document.createElement("link");
-		link.rel = "stylesheet";
-		link.type = "text/css";
-		link.href = url;
-		document.getElementsByTagName("HEAD")[0].appendChild(link);
+	loadConfigForDevice(){
+		if( this.isDeviceMobile ){
+			return {
+				"display_layout": this.options.mobile_display_layout,
+				"item_no_of_rows": this.options.mobile_item_no_of_rows,
+				"item_no_of_columns": this.options.mobile_item_no_of_columns,
+				"item_no_of_slider" : this.options.mobile_item_no_of_slider,
+				"auto_play_slider" : this.options.mobile_auto_play_slider,
+				"auto_play_duration" : this.options.mobile_auto_play_duration,
+			}
+		}else{
+			return {
+				"display_layout": this.options.display_layout,
+				"item_no_of_rows": this.options.item_no_of_rows,
+				"item_no_of_columns": this.options.item_no_of_columns,
+				"item_no_of_slider" : this.options.item_no_of_slider,
+				"auto_play_slider" : this.options.auto_play_slider,
+				"auto_play_duration" : this.options.auto_play_duration,
+			}
+		}
 	}
+	isDeviceMobile = function () {
+		return true;
+	};
 	createId() {
 		var text = function () {
 			return (((1 + Math.random()) * 0x10000) | 0).toString(16).substring(1);
@@ -981,18 +1002,18 @@ class SocialWidgetApp {
 	}
 	init() {
 		var shop_domain = this.$(SOCIAL_WIDGET_DOMAIN).val();
-		var widget_id =  this.$(SOCIAL_WIDGET_ID).data('widget-id')
+		var widget_id = this.$(SOCIAL_WIDGET_ID).data("widget-id");
 		console.log(this.$(SOCIAL_WIDGET_ID));
-		
+
 		this.getData({
 			shop_domain,
 			widget_id
 		});
 	}
 	getData(params) {
-		console.log('getData')
-		console.log(params)
-		this.$.get(SOCIAL_WIDGET_API + "/store/widget", params ).done(res => {
+		console.log("getData");
+		console.log(params);
+		this.$.get(SOCIAL_WIDGET_API + "/store/widget", params).done(res => {
 			let { status = false, data } = res;
 			if (status) {
 				new RenderSocialWidget(
@@ -1013,7 +1034,7 @@ class SocialWidgetApp {
 	}
 }
 
-function socialWidgetLoadScript(url, callback) {
+socialWidgetLoadScript = function (url, callback) {
 	var script = document.createElement("script");
 	script.type = "text/javascript";
 	if (script.readyState) {
@@ -1030,8 +1051,9 @@ function socialWidgetLoadScript(url, callback) {
 	}
 	script.src = url;
 	document.getElementsByTagName("head")[0].appendChild(script);
-}
-var loadSocialWidget = function (widget_jquery) {
+};
+
+const loadSocialWidget = function (widget_jquery) {
 	if (widget_jquery(SOCIAL_WIDGET_ID).length) {
 		new SocialWidgetApp(widget_jquery);
 	}
