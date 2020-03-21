@@ -980,11 +980,9 @@ class SocialWidgetApp {
 		this.injectStyle();
 	}
 	init() {
-		var page = this.getPageName();
 		var shop_domain = this.$(SOCIAL_WIDGET_DOMAIN).val();
 		var widget_id =  this.$(SOCIAL_WIDGET_ID).data('widget-id')
 		this.getData({
-			page,
 			shop_domain,
 			widget_id
 		});
@@ -1005,18 +1003,6 @@ class SocialWidgetApp {
 				);
 			}
 		});
-	}
-	getPageName() {
-		var body_class = this.$("body")
-			.attr("class")
-			.split(" ");
-		var page_name = body_class.filter(
-			item => this.templates.indexOf(item) >= 0
-		);
-		if (page_name.length) {
-			return page_name[0];
-		}
-		return undefined;
 	}
 	injectStyle() {
 		var link = document.createElement("link");
