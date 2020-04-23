@@ -7,7 +7,20 @@
 	<title>Document</title>
 </head>
 <body>
-	hello
-	<script src="./store-frontend/detect.js"></script>
+	<button id="open">
+		open tab 
+	</button>
+	<button id="close">
+		close tab 
+	</button>
+	<script>
+		var popup = null ;
+		document.getElementById('open').addEventListener('click', function(){
+			popup = window.open ( '' ,"_blank","menubar=1,resizable=1,width=900,height=500")
+		})
+		document.getElementById('close').addEventListener('click', function(){
+			popup.close()
+		})
+	</script>
 </body>
 </html>
