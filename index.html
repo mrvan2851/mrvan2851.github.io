@@ -70,6 +70,12 @@
 						<option :value="1">1</option><option :value="2">2</option><option :value="3">3</option>
 					</select>
 				</div>
+				<div class="d-inline-block">
+					<label>Transparent</label>
+					<select v-model="form.logo_transparent">
+						<option v-for="index in 100" :value="index" :key="`index_${index}`">{{index}}</option>
+					</select>
+				</div>
 				<textarea v-model="form.logos" :disabled="!form.use_logo"></textarea>
 			</div>
 		</div>
@@ -110,6 +116,7 @@
 					logo_position : 1,
 					logo_margin : 1,
 					logo_size : 1,
+					logo_transparent: 80,
 					use_discount : true,
 					use_logo : true
 				}
@@ -145,6 +152,7 @@
 						params['logo_position'] = this.form.logo_position
 						params['logo_margin'] = this.form.logo_margin
 						params['logo_size'] = this.form.logo_size
+						params['logo_transparent'] = this.form.logo_transparent / 100
 					}
 					$.get( "https://node.socialhead.io/image-process", params , (res)=>{
 						let { status = false  , url } = res 
