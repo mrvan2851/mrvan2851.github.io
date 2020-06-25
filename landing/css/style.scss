@@ -1,0 +1,24 @@
+@at-root {
+	@-ms-viewport { width: device-width; } // stylelint-disable-line at-rule-no-vendor-prefix
+  }
+  
+  html {
+	box-sizing: border-box;
+	-ms-overflow-style: scrollbar;
+  }
+  
+  *,
+  *::before,
+  *::after {
+	box-sizing: inherit;
+  }
+  
+  @import "./scss/functions";
+  @import "./scss/variables";
+  @import "./scss/mixins";
+  @import "./scss/reboot";
+  @import "./scss/grid";
+  @import "./scss/display";
+  @import "./scss/flex";
+  @import "./scss/buttons";
+  @import "./scss/main";
