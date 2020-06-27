@@ -3063,6 +3063,42 @@ input[type="button"].btn-block {
   width: 100%;
 }
 
+.fade {
+  opacity: 0;
+  -webkit-transition: opacity 0.15s linear;
+  -o-transition: opacity 0.15s linear;
+  transition: opacity 0.15s linear;
+}
+
+.fade.show {
+  opacity: 1;
+}
+
+.collapse {
+  display: none;
+}
+
+.collapse.show {
+  display: block;
+}
+
+tr.collapse.show {
+  display: table-row;
+}
+
+tbody.collapse.show {
+  display: table-row-group;
+}
+
+.collapsing {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: height 0.35s ease;
+  -o-transition: height 0.35s ease;
+  transition: height 0.35s ease;
+}
+
 .wrapper img {
   max-width: 100%;
 }
@@ -3180,6 +3216,11 @@ input[type="button"].btn-block {
   font-size: 70px;
   text-transform: capitalize;
   font-weight: bold;
+}
+
+.wrapper .main-content .section-sub-title {
+  font-size: 40px;
+  text-transform: capitalize;
 }
 
 .wrapper .main-content .section-bn .bn-container {
@@ -3348,7 +3389,8 @@ input[type="button"].btn-block {
 }
 
 .wrapper .main-content .section-benefit {
-  margin-top: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .wrapper .main-content .section-benefit .benefit-item {
@@ -3389,6 +3431,156 @@ input[type="button"].btn-block {
 
 .wrapper .main-content .section-benefit .benefit-item-description {
   font-size: 14px;
+}
+
+.wrapper .main-content .section-benefit .btn-get-app {
+  border-radius: 22px;
+  height: 80px;
+  font-size: 40px;
+  line-height: 80px;
+  padding: 0 40px;
+  font-weight: bold;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: uppercase;
+  margin-top: 40px;
+}
+
+.wrapper .main-content .section-autopost {
+  background-color: #f1f2f7;
+  padding-bottom: 50px;
+}
+
+.wrapper .main-content .section-autopost-container {
+  padding-top: 30px;
+}
+
+.wrapper .main-content .section-autopost-bg img {
+  width: 100%;
+  height: auto;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  pointer-events: none;
+}
+
+.wrapper .main-content .section-autopost .autopost-title {
+  font-size: 30px;
+  color: #5b86e5;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.wrapper .main-content .section-autopost .autopost-collapse {
+  padding-top: 30px;
+}
+
+.wrapper .main-content .section-autopost .autopost-collapse-header a {
+  color: #414042;
+  font-size: 16px;
+}
+
+.wrapper .main-content .section-autopost .autopost-collapse-header a span {
+  font-size: 30px;
+}
+
+.wrapper .main-content .section-autopost .autopost-collapse-content {
+  padding-left: 50px;
+  position: relative;
+}
+
+.wrapper .main-content .section-autopost .autopost-collapse-content:before {
+  content: '';
+  width: 4px;
+  background-color: #414042;
+  position: absolute;
+  top: 5px;
+  bottom: 5px;
+  left: 35px;
+}
+
+.wrapper .main-content .section-limit {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.wrapper .main-content .section-limit .list-icons {
+  margin-top: 50px;
+}
+
+.wrapper .main-content .section-limit .list-icons .item-icon-image {
+  min-height: 130px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wrapper .main-content .section-limit .list-icons .item-icon-text {
+  text-align: center;
+  font-size: 18px;
+}
+
+.wrapper .footer {
+  background-color: #6191e9;
+  position: relative;
+}
+
+.wrapper .footer-bg img {
+  width: 100%;
+}
+
+.wrapper .footer-content {
+  position: absolute;
+  z-index: 1;
+  top: 20%;
+  left: 65%;
+  width: 25%;
+}
+
+.wrapper .footer-content-title {
+  font-size: 25px;
+  max-width: 250px;
+}
+
+.wrapper .footer-content-btn {
+  border-radius: 22px;
+  height: 60px;
+  font-size: 25px;
+  line-height: 60px;
+  padding: 0 25px;
+  font-weight: bold;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.wrapper .footer-copyright {
+  text-align: center;
+  color: #fff;
+  padding: 15px 0;
 }
 
 .text-primary {
