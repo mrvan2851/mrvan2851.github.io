@@ -3265,14 +3265,9 @@ tbody.collapse.show {
   padding: 5px 0;
 }
 
-.wrapper .header-brand a {
-  width: 100%;
-  max-height: 80px;
-}
-
 .wrapper .header-brand img {
   max-width: 100%;
-  max-height: 100%;
+  max-height: 70px;
 }
 
 .wrapper .header-navbar {
@@ -3841,7 +3836,7 @@ tbody.collapse.show {
     height: 50px;
   }
   .wrapper .header-brand a {
-    height: 50px;
+    height: 40px;
   }
   .wrapper .header-toggle {
     display: -webkit-inline-box;

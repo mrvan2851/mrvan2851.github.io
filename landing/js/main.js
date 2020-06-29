@@ -129,4 +129,6 @@ function SocialPublish(){
 	vm.init()
 	return vm 
 }
-const SocialPublishMain = new SocialPublish()
+$(function(){
+	const SocialPublishMain = new SocialPublish()
+})
