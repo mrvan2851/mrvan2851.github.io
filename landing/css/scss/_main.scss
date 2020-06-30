@@ -289,7 +289,7 @@ $bg-header : #f1f2f7;
 							display: inline-block;
 							width: 16px;
 							height: 27px;
-							background-size: cover;
+							background-size: contain;
 							background-repeat: no-repeat;
 							background-position: center center;
 							border: none;
@@ -297,6 +297,7 @@ $bg-header : #f1f2f7;
 							background-color: transparent;
 							cursor: pointer;
 							margin: 0 10px;
+							padding: 0;
 						}
 						&-next{
 							background-image: url('../images/icons/next.png');
@@ -438,6 +439,7 @@ $bg-header : #f1f2f7;
 										outline: none;
 										background-color: #d0d0d0;
 										color: #fff;
+										padding: 0;
 									}
 									&.slick-active{
 										button{
@@ -734,9 +736,16 @@ $bg-header : #f1f2f7;
 							margin-left: auto;
 							margin-right: auto;
 						}
+						&-title{
+							padding-bottom: 0;
+						}
 					}
 				}
+				&-increase{
+					padding: 30px 0;
+				}
 				&-testimonial{
+					padding: 30px 0;
 					.testimonial{
 						&-item{
 							margin-top: 30px;
@@ -744,6 +753,7 @@ $bg-header : #f1f2f7;
 					}
 				}
 				&-benefit{
+					padding: 30px 0;
 					.benefit{
 						&-item{
 							&-image{
@@ -757,6 +767,9 @@ $bg-header : #f1f2f7;
 							}
 						}
 					}
+				}
+				&-limit{
+					padding: 30px 0;
 				}
 			}
 		}
@@ -805,7 +818,7 @@ $bg-header : #f1f2f7;
 					font-size: 30px;
 				}
 				&-sub-title{
-					font-size: 20px;
+					font-size: 16px;
 				}
 				&-bn{
 					.bn{
@@ -814,7 +827,6 @@ $bg-header : #f1f2f7;
 						}
 						&-title{
 							font-size: 40px;
-							padding-bottom: 32px;
 							img{
 								max-height:40px;
 							}
@@ -831,6 +843,20 @@ $bg-header : #f1f2f7;
 							width: 10px;
 							height: 30px;
 							bottom: -50px;
+						}
+					}
+				}
+				&-increase{
+					.increase{
+						&-sub-title{
+							font-size: 16px;
+						}
+						&-list-item{
+							.item-increase{
+								&-description{
+									font-size: 14px;
+								}
+							}
 						}
 					}
 				}
@@ -880,13 +906,12 @@ $bg-header : #f1f2f7;
 					}
 				}
 				&-limit{
-					padding-top: 50px;
-					padding-bottom: 50px;
 					.list-icons{
+						margin-top: 30px;
 						.item-icon{
 							&-image{
 								img{
-									width: 60px;
+									width: 50px;
 								}
 							}
 							&-text{

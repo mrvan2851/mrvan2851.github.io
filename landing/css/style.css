@@ -3570,7 +3570,7 @@ tbody.collapse.show {
   display: inline-block;
   width: 16px;
   height: 27px;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
   border: none;
@@ -3578,6 +3578,7 @@ tbody.collapse.show {
   background-color: transparent;
   cursor: pointer;
   margin: 0 10px;
+  padding: 0;
 }
 
 .wrapper .main-content .section-testimonial .testimonial-navbar-next {
@@ -3750,6 +3751,7 @@ tbody.collapse.show {
   outline: none;
   background-color: #d0d0d0;
   color: #fff;
+  padding: 0;
 }
 
 .wrapper .main-content .section-autopost .autopost-carousel-navbar .slick-dots li.slick-active button {
@@ -4015,8 +4017,20 @@ tbody.collapse.show {
     margin-left: auto;
     margin-right: auto;
   }
+  .wrapper .main-content .section-bn .bn-title {
+    padding-bottom: 0;
+  }
+  .wrapper .main-content .section-increase {
+    padding: 30px 0;
+  }
+  .wrapper .main-content .section-testimonial {
+    padding: 30px 0;
+  }
   .wrapper .main-content .section-testimonial .testimonial-item {
     margin-top: 30px;
+  }
+  .wrapper .main-content .section-benefit {
+    padding: 30px 0;
   }
   .wrapper .main-content .section-benefit .benefit-item-image {
     text-align: center;
@@ -4026,6 +4040,9 @@ tbody.collapse.show {
   }
   .wrapper .main-content .section-benefit .benefit-item-description {
     font-size: 14px;
+  }
+  .wrapper .main-content .section-limit {
+    padding: 30px 0;
   }
   .wrapper .footer-bg img {
     width: 100%;
@@ -4070,14 +4087,13 @@ tbody.collapse.show {
     font-size: 30px;
   }
   .wrapper .main-content .section-sub-title {
-    font-size: 20px;
+    font-size: 16px;
   }
   .wrapper .main-content .section-bn .bn-content {
     max-width: 400px;
   }
   .wrapper .main-content .section-bn .bn-title {
     font-size: 40px;
-    padding-bottom: 32px;
   }
   .wrapper .main-content .section-bn .bn-title img {
     max-height: 40px;
@@ -4091,6 +4107,12 @@ tbody.collapse.show {
     width: 10px;
     height: 30px;
     bottom: -50px;
+  }
+  .wrapper .main-content .section-increase .increase-sub-title {
+    font-size: 16px;
+  }
+  .wrapper .main-content .section-increase .increase-list-item .item-increase-description {
+    font-size: 14px;
   }
   .wrapper .main-content .section-benefit .benefit-item {
     text-align: center;
@@ -4123,12 +4145,11 @@ tbody.collapse.show {
   .wrapper .main-content .section-autopost .autopost-collapse-content:before {
     left: 0px;
   }
-  .wrapper .main-content .section-limit {
-    padding-top: 50px;
-    padding-bottom: 50px;
+  .wrapper .main-content .section-limit .list-icons {
+    margin-top: 30px;
   }
   .wrapper .main-content .section-limit .list-icons .item-icon-image img {
-    width: 60px;
+    width: 50px;
   }
   .wrapper .main-content .section-limit .list-icons .item-icon-text {
     font-size: 16px;
