@@ -168,6 +168,9 @@ $bg-header : #f1f2f7;
 						img{
 							width: 100%;
 							vertical-align: top;
+							border: none;
+							box-shadow: none;
+							outline: none;
 						}
 					}
 				}
@@ -864,6 +867,21 @@ $bg-header : #f1f2f7;
 					.benefit{
 						&-item{
 							text-align: center;
+							padding-bottom: 20px;
+							margin-bottom: 20px;
+							position: relative;
+							&:before{
+
+								content : '';
+								position: absolute;
+								bottom: 0;
+								left: 40%;
+								right: 40%;
+								height: 5px;
+								border-radius: 3px;
+								background-color: $primary-color;
+								z-index: 1;
+							}
 							&-image{
 								margin-bottom: 20px;
 							}
@@ -906,6 +924,9 @@ $bg-header : #f1f2f7;
 					}
 				}
 				&-limit{
+					.section-sub-title{
+						margin-top: 5px;
+					}
 					.list-icons{
 						margin-top: 30px;
 						.item-icon{

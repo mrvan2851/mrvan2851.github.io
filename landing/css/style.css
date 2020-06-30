@@ -3432,6 +3432,10 @@ tbody.collapse.show {
 .wrapper .main-content .section-bn .bn-wave img {
   width: 100%;
   vertical-align: top;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  outline: none;
 }
 
 .wrapper .main-content .section-bn .btn-get-app {
@@ -4116,6 +4120,20 @@ tbody.collapse.show {
   }
   .wrapper .main-content .section-benefit .benefit-item {
     text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  .wrapper .main-content .section-benefit .benefit-item:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+    right: 40%;
+    height: 5px;
+    border-radius: 3px;
+    background-color: #5b86e5;
+    z-index: 1;
   }
   .wrapper .main-content .section-benefit .benefit-item-image {
     margin-bottom: 20px;
@@ -4144,6 +4162,9 @@ tbody.collapse.show {
   }
   .wrapper .main-content .section-autopost .autopost-collapse-content:before {
     left: 0px;
+  }
+  .wrapper .main-content .section-limit .section-sub-title {
+    margin-top: 5px;
   }
   .wrapper .main-content .section-limit .list-icons {
     margin-top: 30px;
