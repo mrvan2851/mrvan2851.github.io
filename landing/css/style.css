@@ -3430,6 +3430,26 @@ tbody.collapse.show {
   vertical-align: top;
 }
 
+.wrapper .main-content .section-bn .btn-get-app {
+  position: relative;
+}
+
+.wrapper .main-content .section-bn .btn-get-app:before {
+  content: '';
+  width: 30px;
+  height: 30px;
+  background-image: url("../images/icons/icon-down.png");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: -60px;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
 .wrapper .main-content .section-increase {
   padding: 50px 0;
 }
@@ -3438,6 +3458,7 @@ tbody.collapse.show {
   font-size: 24px;
   max-width: 700px;
   margin: 20px auto;
+  line-height: 1.1;
 }
 
 .wrapper .main-content .section-increase .increase-list-item .item-increase {
@@ -3570,6 +3591,15 @@ tbody.collapse.show {
 
 .wrapper .main-content .section-benefit .section-title {
   text-transform: none;
+}
+
+.wrapper .main-content .section-benefit .section-title strong {
+  display: inline-block;
+  padding: 0 13px;
+  color: #fff;
+  background: #5b86e5;
+  border-radius: 10px;
+  font-weight: bold;
 }
 
 .wrapper .main-content .section-benefit-list {
@@ -3730,7 +3760,7 @@ tbody.collapse.show {
 }
 
 .wrapper .footer {
-  background-color: #6191e9;
+  background-color: #5b86e5;
   position: relative;
 }
 

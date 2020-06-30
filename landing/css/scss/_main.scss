@@ -171,6 +171,22 @@ $bg-header : #f1f2f7;
 						}
 					}
 				}
+				.btn-get-app{
+					position: relative;
+					&:before{
+						content : '';
+						width: 30px;
+						height: 30px;
+						background-image: url('../images/icons/icon-down.png');
+						background-size: contain;
+						background-position: center center;
+						background-repeat: no-repeat;
+						position: absolute;
+						bottom: -60px;
+						left: 50%;
+						transform: translate(-50%,-50%);
+					}
+				}
 			}
 			&-increase{
 				padding: 50px 0;
@@ -179,6 +195,7 @@ $bg-header : #f1f2f7;
 						font-size: 24px;
 						max-width: 700px; 
 						margin: 20px auto;
+						line-height: 1.1;
 					}
 					&-list-item{
 						.item-increase{
@@ -295,6 +312,14 @@ $bg-header : #f1f2f7;
 				padding-bottom: 50px;
 				.section-title{
 					text-transform: none;
+					strong{
+						display: inline-block;
+						padding: 0 13px;
+						color: #fff;
+						background: #5b86e5;
+						border-radius: 10px;
+						font-weight: bold;
+					}
 				}
 				&-list{
 					margin-top: 50px;
@@ -423,7 +448,7 @@ $bg-header : #f1f2f7;
 		}
 	}
 	.footer{
-		background-color: #6191e9;
+		background-color: #5b86e5;
 		position: relative;
 		&-bg{
 			img{
