@@ -99,11 +99,11 @@ function SocialPublish(){
 		})
 		$(window).on('load scroll' , function(){
 			var scrollPos = $(document).scrollTop();
-			$('#header .header-navbar ul li a').each(function () {
+			$('#header .header-navbar .navbar-link').each(function () {
 				var currLink = $(this);
 				var refElement = $(currLink.attr("href"));
 				if ((refElement.offset().top - $('#header').height() - 1 ) < scrollPos && refElement.position().top + refElement.outerHeight() > scrollPos) {
-					$('#header .header-navbar ul li a').removeClass("is-active");
+					$('#header .header-navbar .navbar-link').removeClass("is-active");
 					currLink.addClass("is-active");
 				}
 				else{
