@@ -40,11 +40,11 @@ $bg-header : #f1f2f7;
 			display: flex;
 			align-items: center;
 			width: 200px;
-			padding: 5px 0;
+			padding: 15px 0;
 			.logo{
 				&-desktop{
 					display: inline-block;
-					max-height: 70px;
+					max-height: 50px;
 				}
 				&-mobile{
 					display: none;
@@ -126,11 +126,11 @@ $bg-header : #f1f2f7;
 				margin: 20px auto;
 			}
 			&-bn{
-				
+				background-color: $bg-header;
 				.bn{
 					&-container{
-						background-color: $bg-header;
 						padding-top: 30px;
+						padding-bottom: 30px;
 					}
 					&-icon-video{
 						margin: 0 auto;
@@ -175,26 +175,26 @@ $bg-header : #f1f2f7;
 					position: relative;
 					&:before{
 						content : '';
-						width: 30px;
+						width: 20px;
 						height: 30px;
 						background-image: url('../images/icons/icon-down.png');
 						background-size: contain;
 						background-position: center center;
 						background-repeat: no-repeat;
 						position: absolute;
-						bottom: -60px;
+						bottom: -50px;
 						left: 50%;
 						transform: translate(-50%,-50%);
 					}
 				}
 			}
 			&-increase{
-				padding: 50px 0;
+				padding: 40px 0 50px 0;
 				.increase{
 					&-sub-title{
 						font-size: 24px;
 						max-width: 700px; 
-						margin: 20px auto;
+						margin: 20px auto 30px auto;
 						line-height: 1.1;
 					}
 					&-list-item{
@@ -319,6 +319,7 @@ $bg-header : #f1f2f7;
 						background: #5b86e5;
 						border-radius: 10px;
 						font-weight: bold;
+						line-height: 1;
 					}
 				}
 				&-list{
@@ -375,12 +376,28 @@ $bg-header : #f1f2f7;
 						font-family: 'Montserrat';
 						line-height: 1.1;
 					}
+					&-content{
+						padding-left: 50px;
+						position: relative;
+						p{
+							img{
+								margin-left: 15px;
+								display: inline-block;
+							}
+						}
+						&:before{
+							content: '';
+							width: 4px;
+							background-color: $text-color;
+							position: absolute;
+							top: 5px;
+							bottom: 5px;
+							left: 35px;
+						}
+					}
 					&-collapse{
 						padding-top: 30px;
 						&-header{
-							&-mobile{
-								display: none;
-							}
 							a{
 								color: #c3c3c5;
 								font-size: 16px;
@@ -399,23 +416,43 @@ $bg-header : #f1f2f7;
 								}
 							}
 						}
-						&-content{
-							padding-left: 50px;
-							position: relative;
-							p{
-								img{
-									margin-left: 15px;
+					}
+					&-carousel{
+						&-navbar{
+							.slick-dots{
+								padding: 0;
+								margin: 0;
+								list-style-type: none;
+								text-align: center;
+								li{
+									display: inline-block;
+									margin: 0 5px;
+									button{
+										font-size: 26px;
+										border-radius: 50%;
+										width: 36px;
+										height: 36px;
+										line-height: 36px;
+										border: none;
+										cursor: pointer;
+										outline: none;
+										background-color: #d0d0d0;
+										color: #fff;
+									}
+									&.slick-active{
+										button{
+											background-color: $primary-color;
+										}
+									}
 								}
 							}
-							&:before{
-								content: '';
-								width: 4px;
-								background-color: $text-color;
-								position: absolute;
-								top: 5px;
-								bottom: 5px;
-								left: 35px;
-							}
+						}
+						.item-autopost-carousel-title{
+							font-size: 18px;
+							margin-bottom: 15px;
+							padding-left: 15px;
+							margin-top: 15px;
+							font-weight: bold;
 						}
 					}
 				}
@@ -459,7 +496,7 @@ $bg-header : #f1f2f7;
 			position: absolute;
 			z-index: 1;
 			top: 20%;
-			left: 65%;
+			left: 62%;
 			width: 25%;
 			&-title{
 				font-size: 25px;
@@ -603,6 +640,7 @@ $bg-header : #f1f2f7;
 				
 			}
 			&-brand{
+				padding: 5px 0;
 				.logo{
 					&-desktop{
 						display: none;
@@ -731,7 +769,7 @@ $bg-header : #f1f2f7;
 			&-content{
 				top: 10%;
 				width: 30%;
-				left: 60%;
+				left: 55%;
 				&-title{
 					font-size: 20px;
 					max-width: 250px;
@@ -785,6 +823,15 @@ $bg-header : #f1f2f7;
 							font-size: 25px;
 							padding-bottom: 32px;
 						}
+						
+					}
+					.btn-get-app{
+						&:before{
+							content : '';
+							width: 10px;
+							height: 30px;
+							bottom: -50px;
+						}
 					}
 				}
 				&-benefit{
@@ -808,7 +855,7 @@ $bg-header : #f1f2f7;
 						&-collapse{
 							padding: 15px 0;
 							&-header{
-								display: none;
+								// display: none;
 								&-mobile{
 									display: block;
 									a{

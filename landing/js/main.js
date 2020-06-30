@@ -5,6 +5,7 @@ function SocialPublish(){
 		vm.navbar()
 		vm.collapse('#autopost-accordion')
 		vm.carousel('#carousel')
+		vm.autopost('#autopost-carousel')
 	}
 	vm.collapse = function(root_element){
 		var root = $(root_element)
@@ -123,6 +124,25 @@ function SocialPublish(){
 				nextArrow : '<button class="testimonial-navbar-next"></button>',
 				prevArrow : '<button class="testimonial-navbar-prev"></button>'
 			});
+		}
+	}
+	vm.autopost = function(element){
+		if( $(element).length ){
+			$(element).slick({
+				infinite: true,
+				slidesToShow: 1,
+				slidesToScroll:1,
+				adaptiveHeight: true,
+				dots : true,
+				arrows : false,
+				appendDots : '.autopost-carousel-navbar'
+
+			});
+			$(window).on('resize', function(){
+				if($(window).width() <= 768){
+					$(element).slick('setPosition')
+				}
+			})
 		}
 		
 	}

@@ -3262,12 +3262,12 @@ tbody.collapse.show {
       -ms-flex-align: center;
           align-items: center;
   width: 200px;
-  padding: 5px 0;
+  padding: 15px 0;
 }
 
 .wrapper .header-brand .logo-desktop {
   display: inline-block;
-  max-height: 70px;
+  max-height: 50px;
 }
 
 .wrapper .header-brand .logo-mobile {
@@ -3377,9 +3377,13 @@ tbody.collapse.show {
   margin: 20px auto;
 }
 
-.wrapper .main-content .section-bn .bn-container {
+.wrapper .main-content .section-bn {
   background-color: #f1f2f7;
+}
+
+.wrapper .main-content .section-bn .bn-container {
   padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .wrapper .main-content .section-bn .bn-icon-video {
@@ -3436,14 +3440,14 @@ tbody.collapse.show {
 
 .wrapper .main-content .section-bn .btn-get-app:before {
   content: '';
-  width: 30px;
+  width: 20px;
   height: 30px;
   background-image: url("../images/icons/icon-down.png");
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
   position: absolute;
-  bottom: -60px;
+  bottom: -50px;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
@@ -3451,13 +3455,13 @@ tbody.collapse.show {
 }
 
 .wrapper .main-content .section-increase {
-  padding: 50px 0;
+  padding: 40px 0 50px 0;
 }
 
 .wrapper .main-content .section-increase .increase-sub-title {
   font-size: 24px;
   max-width: 700px;
-  margin: 20px auto;
+  margin: 20px auto 30px auto;
   line-height: 1.1;
 }
 
@@ -3600,6 +3604,7 @@ tbody.collapse.show {
   background: #5b86e5;
   border-radius: 10px;
   font-weight: bold;
+  line-height: 1;
 }
 
 .wrapper .main-content .section-benefit-list {
@@ -3674,12 +3679,28 @@ tbody.collapse.show {
   line-height: 1.1;
 }
 
-.wrapper .main-content .section-autopost .autopost-collapse {
-  padding-top: 30px;
+.wrapper .main-content .section-autopost .autopost-content {
+  padding-left: 50px;
+  position: relative;
 }
 
-.wrapper .main-content .section-autopost .autopost-collapse-header-mobile {
-  display: none;
+.wrapper .main-content .section-autopost .autopost-content p img {
+  margin-left: 15px;
+  display: inline-block;
+}
+
+.wrapper .main-content .section-autopost .autopost-content:before {
+  content: '';
+  width: 4px;
+  background-color: #414042;
+  position: absolute;
+  top: 5px;
+  bottom: 5px;
+  left: 35px;
+}
+
+.wrapper .main-content .section-autopost .autopost-collapse {
+  padding-top: 30px;
 }
 
 .wrapper .main-content .section-autopost .autopost-collapse-header a {
@@ -3706,23 +3727,41 @@ tbody.collapse.show {
   font-weight: bold;
 }
 
-.wrapper .main-content .section-autopost .autopost-collapse-content {
-  padding-left: 50px;
-  position: relative;
+.wrapper .main-content .section-autopost .autopost-carousel-navbar .slick-dots {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-align: center;
 }
 
-.wrapper .main-content .section-autopost .autopost-collapse-content p img {
-  margin-left: 15px;
+.wrapper .main-content .section-autopost .autopost-carousel-navbar .slick-dots li {
+  display: inline-block;
+  margin: 0 5px;
 }
 
-.wrapper .main-content .section-autopost .autopost-collapse-content:before {
-  content: '';
-  width: 4px;
-  background-color: #414042;
-  position: absolute;
-  top: 5px;
-  bottom: 5px;
-  left: 35px;
+.wrapper .main-content .section-autopost .autopost-carousel-navbar .slick-dots li button {
+  font-size: 26px;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background-color: #d0d0d0;
+  color: #fff;
+}
+
+.wrapper .main-content .section-autopost .autopost-carousel-navbar .slick-dots li.slick-active button {
+  background-color: #5b86e5;
+}
+
+.wrapper .main-content .section-autopost .autopost-carousel .item-autopost-carousel-title {
+  font-size: 18px;
+  margin-bottom: 15px;
+  padding-left: 15px;
+  margin-top: 15px;
+  font-weight: bold;
 }
 
 .wrapper .main-content .section-limit {
@@ -3772,7 +3811,7 @@ tbody.collapse.show {
   position: absolute;
   z-index: 1;
   top: 20%;
-  left: 65%;
+  left: 62%;
   width: 25%;
 }
 
@@ -3878,6 +3917,9 @@ tbody.collapse.show {
   }
   .wrapper .header {
     height: 50px;
+  }
+  .wrapper .header-brand {
+    padding: 5px 0;
   }
   .wrapper .header-brand .logo-desktop {
     display: none;
@@ -3991,7 +4033,7 @@ tbody.collapse.show {
   .wrapper .footer-content {
     top: 10%;
     width: 30%;
-    left: 60%;
+    left: 55%;
   }
   .wrapper .footer-content-title {
     font-size: 20px;
@@ -4044,6 +4086,12 @@ tbody.collapse.show {
     font-size: 25px;
     padding-bottom: 32px;
   }
+  .wrapper .main-content .section-bn .btn-get-app:before {
+    content: '';
+    width: 10px;
+    height: 30px;
+    bottom: -50px;
+  }
   .wrapper .main-content .section-benefit .benefit-item {
     text-align: center;
   }
@@ -4055,9 +4103,6 @@ tbody.collapse.show {
   }
   .wrapper .main-content .section-autopost .autopost-collapse {
     padding: 15px 0;
-  }
-  .wrapper .main-content .section-autopost .autopost-collapse-header {
-    display: none;
   }
   .wrapper .main-content .section-autopost .autopost-collapse-header-mobile {
     display: block;
