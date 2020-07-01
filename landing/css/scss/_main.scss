@@ -132,9 +132,13 @@ $bg-header : #f1f2f7;
 						padding-top: 30px;
 						padding-bottom: 30px;
 					}
-					&-icon-video{
+					&-wrap-video{
 						margin: 0 auto;
 						text-align: center;
+						padding-top: 50px;
+						video{
+							width: 100%;
+						}
 					}
 					&-content{
 						padding: 30px 0;
@@ -741,6 +745,9 @@ $bg-header : #f1f2f7;
 							text-align: center;
 							margin-left: auto;
 							margin-right: auto;
+						}
+						&-wrap-video{
+							padding-top: 0;
 						}
 						&-title{
 							padding-bottom: 0;

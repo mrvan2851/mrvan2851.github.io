@@ -3386,9 +3386,14 @@ tbody.collapse.show {
   padding-bottom: 30px;
 }
 
-.wrapper .main-content .section-bn .bn-icon-video {
+.wrapper .main-content .section-bn .bn-wrap-video {
   margin: 0 auto;
   text-align: center;
+  padding-top: 50px;
+}
+
+.wrapper .main-content .section-bn .bn-wrap-video video {
+  width: 100%;
 }
 
 .wrapper .main-content .section-bn .bn-content {
@@ -4023,6 +4028,9 @@ tbody.collapse.show {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+  }
+  .wrapper .main-content .section-bn .bn-wrap-video {
+    padding-top: 0;
   }
   .wrapper .main-content .section-bn .bn-title {
     padding-bottom: 0;
