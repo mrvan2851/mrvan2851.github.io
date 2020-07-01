@@ -3345,10 +3345,8 @@ tbody.collapse.show {
 
 .wrapper .header-button a {
   border-radius: 16px;
-  height: 50px;
   font-size: 18px;
-  line-height: 50px;
-  padding: 0 20px;
+  padding: 15px 20px;
   font-weight: bold;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -3828,6 +3826,7 @@ tbody.collapse.show {
 
 .wrapper .main-content .section-limit .section-sub-title {
   font-size: 30px;
+  font-weight: 500;
 }
 
 .wrapper .main-content .section-limit .list-icons {
@@ -3900,10 +3899,9 @@ tbody.collapse.show {
 
 .wrapper .btn-get-app {
   border-radius: 19px;
-  height: 60px;
   font-size: 30px;
-  line-height: 60px;
-  padding: 0 30px;
+  padding: 10px 30px;
+  line-height: 1;
   font-weight: bold;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -3973,10 +3971,8 @@ tbody.collapse.show {
   }
   .wrapper .btn-get-app {
     border-radius: 16px;
-    height: 50px;
     font-size: 20px;
-    line-height: 50px;
-    padding: 0 25px;
+    padding: 10px 25px;
   }
   .container {
     max-width: 1000px !important;
@@ -4331,13 +4327,6 @@ tbody.collapse.show {
     text-align: center;
     color: #fff;
     padding: 15px 0;
-  }
-  .wrapper .btn-get-app {
-    border-radius: 15px;
-    height: 45px;
-    font-size: 20px;
-    line-height: 45px;
-    padding: 0 25px;
   }
 }
 

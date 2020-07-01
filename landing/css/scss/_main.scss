@@ -96,10 +96,8 @@ $bg-header : #f1f2f7;
 			text-align: right;
 			a{
 				border-radius: 16px;
-				height: 50px;
 				font-size: 18px;
-				line-height: 50px;
-				padding: 0 20px;
+				padding: 15px 20px;
 				font-weight: bold;
 				display: inline-flex;
 				align-items: center;
@@ -497,6 +495,7 @@ $bg-header : #f1f2f7;
 				padding-bottom: 50px;
 				.section-sub-title{
 					font-size: 30px;
+					font-weight: 500;
 				}
 				.list-icons{
 					margin-top: 50px;
@@ -558,10 +557,9 @@ $bg-header : #f1f2f7;
 	}
 	.btn-get-app{
 		border-radius: 19px;
-		height: 60px;
 		font-size: 30px;
-		line-height: 60px;
-		padding: 0 30px;
+		padding: 10px 30px;
+		line-height: 1;
 		font-weight: bold;
 		display: inline-flex;
 		align-items: center;
@@ -656,10 +654,8 @@ $bg-header : #f1f2f7;
 		}
 		.btn-get-app{
 			border-radius: 16px;
-			height: 50px;
 			font-size: 20px;
-			line-height: 50px;
-			padding: 0 25px;
+			padding: 10px 25px;
 		}
 	}
 	.container{
@@ -1061,13 +1057,6 @@ $bg-header : #f1f2f7;
 				color: #fff;
 				padding: 15px 0;
 			}
-		}
-		.btn-get-app{
-			border-radius: 15px;
-			height: 45px;
-			font-size: 20px;
-			line-height: 45px;
-			padding: 0 25px;
 		}
 	}
 }
