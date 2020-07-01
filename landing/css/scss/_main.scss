@@ -802,10 +802,10 @@ $bg-header : #f1f2f7;
 					}
 				}
 				&-increase{
-					padding: 30px 0;
+					padding-bottom: 30px;
 				}
 				&-testimonial{
-					padding: 30px 0;
+					padding-bottom: 30px;
 					.testimonial{
 						&-item{
 							margin-top: 30px;
@@ -813,7 +813,7 @@ $bg-header : #f1f2f7;
 					}
 				}
 				&-benefit{
-					padding: 30px 0;
+					padding-bottom: 30px;
 					
 					.benefit{
 						&-item{
@@ -830,7 +830,11 @@ $bg-header : #f1f2f7;
 					}
 				}
 				&-limit{
-					padding: 30px 0;
+					padding-bottom: 30px;
+					padding-top: 30px;
+					.section-sub-title{
+						font-size: 20px;
+					}
 				}
 			}
 		}
@@ -883,8 +887,14 @@ $bg-header : #f1f2f7;
 				}
 				&-bn{
 					.bn{
+						&-wrap-video{
+							padding: 30px 0;
+						}
 						&-content{
 							max-width: 400px;
+							&-sub-content{
+								max-width: 350px;
+							}
 						}
 						&-title{
 							font-size: 40px;
@@ -893,8 +903,7 @@ $bg-header : #f1f2f7;
 							}
 						}
 						&-sub-title{
-							font-size: 25px;
-							padding-bottom: 32px;
+							font-size: 20px;
 						}
 						
 					}
@@ -996,6 +1005,7 @@ $bg-header : #f1f2f7;
 				&-limit{
 					.section-sub-title{
 						margin-top: 5px;
+						font-size: 16px;
 					}
 					.list-icons{
 						margin-top: 30px;
@@ -1025,6 +1035,9 @@ $bg-header : #f1f2f7;
 				color: #fff;
 				width: 100%;
 				padding: 30px 15px;
+				max-width: 350px;
+				margin-left: auto;
+				margin-right: auto;
 				&-title{
 					font-size: 20px;
 					max-width: 100%;
@@ -1142,9 +1155,9 @@ $bg-header : #f1f2f7;
 							left: auto;
 							right: auto;
 							bottom: auto;
-							padding: 15px;
+							padding: 0;
 							text-align: center;
-							margin: 10px;
+							margin: 10px 0 0 0;
 							button{
 								margin : 0 20px;
 							}
