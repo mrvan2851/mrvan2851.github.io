@@ -3338,31 +3338,12 @@ tbody.collapse.show {
   text-align: right;
 }
 
-.wrapper .header-button a {
-  border-radius: 16px;
-  height: 50px;
-  font-size: 18px;
-  line-height: 50px;
-  padding: 0 20px;
-  font-weight: bold;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  text-transform: uppercase;
-}
-
 .wrapper .main-content {
   padding-top: 80px;
 }
 
 .wrapper .main-content .section-title {
-  font-size: 70px;
+  font-size: 50px;
   text-transform: capitalize;
   font-weight: bold;
   font-family: 'Montserrat';
@@ -3389,20 +3370,28 @@ tbody.collapse.show {
 .wrapper .main-content .section-bn .bn-wrap-video {
   margin: 0 auto;
   text-align: center;
-  padding-top: 50px;
+  padding-top: 30px;
 }
 
 .wrapper .main-content .section-bn .bn-wrap-video video {
   width: 100%;
 }
 
+.wrapper .main-content .section-bn .bn-col-content {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .wrapper .main-content .section-bn .bn-content {
-  padding: 30px 0;
   max-width: 500px;
 }
 
 .wrapper .main-content .section-bn .bn-title {
-  font-size: 60px;
+  font-size: 50px;
   font-weight: bold;
   line-height: 1.1;
   padding-bottom: 32px;
@@ -3462,17 +3451,21 @@ tbody.collapse.show {
 }
 
 .wrapper .main-content .section-increase {
-  padding: 40px 0 50px 0;
+  padding-bottom: 50px;
 }
 
 .wrapper .main-content .section-increase .increase-sub-title {
-  font-size: 24px;
+  font-size: 20px;
   max-width: 700px;
   margin: 20px auto 30px auto;
   line-height: 1.1;
 }
 
 .wrapper .main-content .section-increase .increase-list-item .item-increase {
+  text-align: center;
+}
+
+.wrapper .main-content .section-increase .increase-list-item .item-increase-image {
   text-align: center;
 }
 
@@ -3483,12 +3476,15 @@ tbody.collapse.show {
 }
 
 .wrapper .main-content .section-testimonial {
-  padding-top: 50px;
-  padding-bottom: 75px;
+  padding-bottom: 50px;
 }
 
 .wrapper .main-content .section-testimonial .testimonial-icon {
   margin-bottom: 20px;
+}
+
+.wrapper .main-content .section-testimonial .testimonial-icon img {
+  max-width: 100px;
 }
 
 .wrapper .main-content .section-testimonial .testimonial-quote {
@@ -3597,15 +3593,20 @@ tbody.collapse.show {
 }
 
 .wrapper .main-content .section-benefit {
-  padding-top: 50px;
   padding-bottom: 50px;
 }
 
-.wrapper .main-content .section-benefit .section-title {
-  text-transform: none;
+.wrapper .main-content .section-benefit .benefit-title {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Montserrat';
+  line-height: 1.1;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.wrapper .main-content .section-benefit .section-title strong {
+.wrapper .main-content .section-benefit .benefit-title strong {
   display: inline-block;
   padding: 0 13px;
   color: #fff;
@@ -3647,10 +3648,29 @@ tbody.collapse.show {
           flex-direction: row-reverse;
 }
 
+.wrapper .main-content .section-benefit .benefit-item:nth-child(odd) .benefit-item-content {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.wrapper .main-content .section-benefit .benefit-item-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.wrapper .main-content .section-benefit .benefit-item-inner {
+  max-width: 320px;
+}
+
 .wrapper .main-content .section-benefit .benefit-item-title {
   font-size: 30px;
   color: #5b86e5;
-  font-weight: bold;
+  font-weight: 500;
   margin-bottom: 16px;
   line-height: 1.1;
 }
@@ -3753,34 +3773,37 @@ tbody.collapse.show {
 }
 
 .wrapper .main-content .section-autopost .autopost-carousel-navbar .slick-dots li button {
-  font-size: 26px;
   border-radius: 50%;
-  width: 36px;
-  height: 36px;
-  line-height: 36px;
+  width: 10px;
+  height: 10px;
   border: none;
   cursor: pointer;
   outline: none;
   background-color: #d0d0d0;
-  color: #fff;
+  color: #d0d0d0;
   padding: 0;
+  overflow: hidden;
 }
 
 .wrapper .main-content .section-autopost .autopost-carousel-navbar .slick-dots li.slick-active button {
   background-color: #5b86e5;
+  color: #5b86e5;
 }
 
 .wrapper .main-content .section-autopost .autopost-carousel .item-autopost-carousel-title {
   font-size: 18px;
   margin-bottom: 15px;
   padding-left: 15px;
-  margin-top: 15px;
   font-weight: bold;
 }
 
 .wrapper .main-content .section-limit {
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+.wrapper .main-content .section-limit .section-sub-title {
+  font-size: 30px;
 }
 
 .wrapper .main-content .section-limit .list-icons {
@@ -3835,10 +3858,20 @@ tbody.collapse.show {
   margin-bottom: 20px;
 }
 
+.wrapper .footer-icon {
+  margin: 0 5px 5px 5px;
+  display: inline-block;
+}
+
+.wrapper .footer-icon img {
+  width: 35px;
+}
+
 .wrapper .footer-copyright {
   text-align: center;
   color: #fff;
   padding: 15px 0;
+  font-size: 12px;
 }
 
 .wrapper .btn-get-app {
@@ -3893,6 +3926,16 @@ tbody.collapse.show {
   .wrapper .main-content .section-sub-title {
     font-size: 30px;
   }
+  .wrapper .main-content .section-bn .bn-title {
+    font-size: 45px;
+    padding-bottom: 15px;
+  }
+  .wrapper .main-content .section-bn .bn-title img {
+    max-height: 45px;
+  }
+  .wrapper .main-content .section-bn .bn-sub-title {
+    font-size: 30px;
+  }
   .wrapper .main-content .section-benefit .section-title {
     max-width: 815px;
     margin-left: auto;
@@ -3903,6 +3946,16 @@ tbody.collapse.show {
   }
   .wrapper .footer-content {
     top: 15%;
+  }
+  .wrapper .btn-get-app {
+    border-radius: 16px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+    padding: 0 25px;
+  }
+  .container {
+    max-width: 1000px !important;
   }
 }
 
@@ -3984,10 +4037,10 @@ tbody.collapse.show {
   }
   .wrapper .header-navbar {
     display: block;
-    width: 250px;
+    width: 180px;
     position: fixed;
     top: 0px;
-    left: -250px;
+    left: -180px;
     bottom: 0;
     overflow: hidden auto;
     background-color: #fff;
@@ -4008,9 +4061,12 @@ tbody.collapse.show {
   }
   .wrapper .header-navbar .navbar .btn-get-app {
     display: block;
-    font-size: 18px;
+    font-size: 16px;
     height: 40px;
     line-height: 40px;
+    margin-top: 15px;
+    padding: 0;
+    border-radius: 12px;
   }
   .wrapper .header-button {
     display: none;
@@ -4129,10 +4185,13 @@ tbody.collapse.show {
   .wrapper .main-content .section-increase .increase-list-item .item-increase-description {
     font-size: 14px;
   }
+  .wrapper .main-content .section-benefit .benefit-title {
+    font-size: 30px;
+  }
   .wrapper .main-content .section-benefit .benefit-item {
     text-align: center;
-    padding-bottom: 20px;
-    margin-bottom: 20px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
     position: relative;
   }
   .wrapper .main-content .section-benefit .benefit-item:before {
@@ -4146,11 +4205,21 @@ tbody.collapse.show {
     background-color: #5b86e5;
     z-index: 1;
   }
+  .wrapper .main-content .section-benefit .benefit-item-inner {
+    max-width: 100%;
+  }
   .wrapper .main-content .section-benefit .benefit-item-image {
     margin-bottom: 20px;
   }
+  .wrapper .main-content .section-benefit .benefit-item:last-child {
+    padding-bottom: 0px;
+  }
+  .wrapper .main-content .section-benefit .benefit-item:last-child:before {
+    content: none;
+  }
   .wrapper .main-content .section-autopost .autopost-title {
     text-align: center;
+    margin-bottom: 25px;
   }
   .wrapper .main-content .section-autopost .autopost-collapse {
     padding: 15px 0;
@@ -4293,7 +4362,7 @@ tbody.collapse.show {
     padding: 60px 30px 30px 30px;
   }
   .wrapper .main-content .section-testimonial .testimonial-item-wrap {
-    padding: 100px 0 0 0;
+    padding: 100px 0 15px 0;
   }
   .wrapper .main-content .section-testimonial .testimonial-item-icon {
     left: 0px;
@@ -4309,6 +4378,7 @@ tbody.collapse.show {
     bottom: auto;
     padding: 15px;
     text-align: center;
+    margin: 10px;
   }
   .wrapper .main-content .section-testimonial .testimonial-navbar button {
     margin: 0 20px;
