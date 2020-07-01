@@ -3427,15 +3427,13 @@ tbody.collapse.show {
       -ms-user-select: none;
           user-select: none;
   pointer-events: none;
-}
-
-.wrapper .main-content .section-bn .bn-wave img {
   width: 100%;
-  vertical-align: top;
-  border: none;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  outline: none;
+  position: relative;
+  padding-bottom: 5.625%;
+  background-image: url("../images/background/bg-bn.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top center;
 }
 
 .wrapper .main-content .section-bn .btn-get-app {
@@ -3665,14 +3663,19 @@ tbody.collapse.show {
   padding-top: 30px;
 }
 
-.wrapper .main-content .section-autopost-bg img {
-  width: 100%;
-  height: auto;
+.wrapper .main-content .section-autopost-bg {
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
   pointer-events: none;
+  width: 100%;
+  position: relative;
+  padding-bottom: 7.34375%;
+  background-image: url("../images/background/bg-autopost.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top center;
 }
 
 .wrapper .main-content .section-autopost .autopost-title {

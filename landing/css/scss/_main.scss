@@ -165,13 +165,13 @@ $bg-header : #f1f2f7;
 					&-wave{
 						user-select: none;
 						pointer-events: none;
-						img{
-							width: 100%;
-							vertical-align: top;
-							border: none;
-							box-shadow: none;
-							outline: none;
-						}
+						width: 100%;
+						position: relative;
+						padding-bottom: 5.625%;
+						background-image: url('../images/background/bg-bn.png');
+						background-size: contain;
+						background-repeat: no-repeat;
+						background-position: top center;
 					}
 				}
 				.btn-get-app{
@@ -364,12 +364,15 @@ $bg-header : #f1f2f7;
 					padding-top: 30px;
 				}
 				&-bg{
-					img{
-						width: 100%;
-						height: auto;
-						user-select: none;
-						pointer-events: none;
-					}
+					user-select: none;
+					pointer-events: none;
+					width: 100%;
+					position: relative;
+					padding-bottom: 7.34375%;
+					background-image: url('../images/background/bg-autopost.jpg');
+					background-size: contain;
+					background-repeat: no-repeat;
+					background-position: top center;
 				}
 				.autopost{
 					&-title{
