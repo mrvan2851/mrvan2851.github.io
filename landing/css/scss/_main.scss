@@ -43,24 +43,16 @@ $bg-header : #f1f2f7;
 			padding: 15px 0;
 			a{
 				text-decoration: none;
-			}
-			.logo{
-				&-desktop{
-					display: inline-block;
-					max-height: 50px;
+				display: inline-block;
+				vertical-align: middle;
+				text-align: center;
+				span{
+					display: block;
+					font-family: 'Montserrat';
+					font-weight: bold;
+					font-size: 12px;
+					color: #414042;
 				}
-				&-mobile{
-					display: none;
-					&-text{
-						display: none;
-					}
-				}
-			}
-			span{
-				font-family: 'Montserrat';
-				font-weight: bold;
-				font-size: 12px;
-				color: #414042;
 			}
 			
 		}
@@ -858,17 +850,10 @@ $bg-header : #f1f2f7;
 			}
 			&-brand{
 				padding: 5px 0;
-				.logo{
-					&-desktop{
-						display: none;
-					}
-					&-mobile{
+				a{
+					text-align: left;
+					span{
 						display: inline-block;
-						max-height: 40px;
-						&-text{
-							display: inline-block;
-							vertical-align: middle;
-						}
 					}
 				}
 			}

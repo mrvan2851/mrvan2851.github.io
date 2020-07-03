@@ -3432,22 +3432,13 @@ input[type="button"].btn-block {
 
 .wrapper .header-brand a {
   text-decoration: none;
-}
-
-.wrapper .header-brand .logo-desktop {
   display: inline-block;
-  max-height: 50px;
+  vertical-align: middle;
+  text-align: center;
 }
 
-.wrapper .header-brand .logo-mobile {
-  display: none;
-}
-
-.wrapper .header-brand .logo-mobile-text {
-  display: none;
-}
-
-.wrapper .header-brand span {
+.wrapper .header-brand a span {
+  display: block;
   font-family: 'Montserrat';
   font-weight: bold;
   font-size: 12px;
@@ -4364,16 +4355,11 @@ input[type="button"].btn-block {
   .wrapper .header-brand {
     padding: 5px 0;
   }
-  .wrapper .header-brand .logo-desktop {
-    display: none;
+  .wrapper .header-brand a {
+    text-align: left;
   }
-  .wrapper .header-brand .logo-mobile {
+  .wrapper .header-brand a span {
     display: inline-block;
-    max-height: 40px;
-  }
-  .wrapper .header-brand .logo-mobile-text {
-    display: inline-block;
-    vertical-align: middle;
   }
   .wrapper .header-toggle {
     display: -webkit-inline-box;
