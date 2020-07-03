@@ -41,6 +41,9 @@ $bg-header : #f1f2f7;
 			align-items: center;
 			width: 200px;
 			padding: 15px 0;
+			a{
+				text-decoration: none;
+			}
 			.logo{
 				&-desktop{
 					display: inline-block;
@@ -48,7 +51,16 @@ $bg-header : #f1f2f7;
 				}
 				&-mobile{
 					display: none;
+					&-text{
+						display: none;
+					}
 				}
+			}
+			span{
+				font-family: 'Montserrat';
+				font-weight: bold;
+				font-size: 12px;
+				color: #414042;
 			}
 			
 		}
@@ -224,6 +236,9 @@ $bg-header : #f1f2f7;
 				padding-bottom: 50px ;
 				.testimonial{
 					
+					&-title{
+						font-size: 60px;
+					}
 					&-icon{
 						margin-bottom: 20px;
 						
@@ -236,11 +251,12 @@ $bg-header : #f1f2f7;
 						padding-left: 30px;
 						margin-left: 50px;
 						max-width: 270px;
+						margin-top: 10px;
 						&:before{
 							content : '';
 							position: absolute;
 							border-left: 5px solid $primary-color;
-							top: 20px;
+							top: 0;
 							left: 0;
 							bottom: 5px;
 
@@ -575,10 +591,20 @@ $bg-header : #f1f2f7;
 	}
 	.modal-content{
 		border: none;
+		border-radius: 9px;
 		.modal-body{
 			padding: 32px 15px;
 			text-align: center;
 			color: #6e6e6e;
+			
+		}
+		.modal-dismiss{
+			position: absolute;
+			right: 15px;
+			top: 15px;
+			color: #6e6e6e;
+			cursor: pointer;
+			z-index: 10;
 		}
 	}
 	&-bg{
@@ -613,7 +639,7 @@ $bg-header : #f1f2f7;
 				font-size: 14px;
 				padding: 10px 135px 10px 18px;
 				outline: none;
-				border: 1px solid #bdbdbd;
+				border: 1px solid #6e6e6e;
 				border-radius: 8px;
 				display: block;
 				width: 100%;
@@ -839,6 +865,10 @@ $bg-header : #f1f2f7;
 					&-mobile{
 						display: inline-block;
 						max-height: 40px;
+						&-text{
+							display: inline-block;
+							vertical-align: middle;
+						}
 					}
 				}
 			}

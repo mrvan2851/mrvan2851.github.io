@@ -121,6 +121,8 @@ function SocialPublish(){
 				slidesToShow: 1,
 				slidesToScroll:1,
 				adaptiveHeight: true,
+				autoplay :true,
+				autoplaySpeed : 2000,
 				appendArrows : '.testimonial-navbar',
 				nextArrow : '<button class="testimonial-navbar-next"></button>',
 				prevArrow : '<button class="testimonial-navbar-prev"></button>'
@@ -136,6 +138,8 @@ function SocialPublish(){
 				adaptiveHeight: true,
 				dots : true,
 				arrows : false,
+				autoplay :true,
+				autoplaySpeed : 2000,
 				appendDots : '.autopost-carousel-navbar'
 
 			});

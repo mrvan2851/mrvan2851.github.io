@@ -3430,6 +3430,10 @@ input[type="button"].btn-block {
   padding: 15px 0;
 }
 
+.wrapper .header-brand a {
+  text-decoration: none;
+}
+
 .wrapper .header-brand .logo-desktop {
   display: inline-block;
   max-height: 50px;
@@ -3437,6 +3441,17 @@ input[type="button"].btn-block {
 
 .wrapper .header-brand .logo-mobile {
   display: none;
+}
+
+.wrapper .header-brand .logo-mobile-text {
+  display: none;
+}
+
+.wrapper .header-brand span {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 12px;
+  color: #414042;
 }
 
 .wrapper .header-navbar {
@@ -3661,6 +3676,10 @@ input[type="button"].btn-block {
   padding-bottom: 50px;
 }
 
+.wrapper .main-content .section-testimonial .testimonial-title {
+  font-size: 60px;
+}
+
 .wrapper .main-content .section-testimonial .testimonial-icon {
   margin-bottom: 20px;
 }
@@ -3674,13 +3693,14 @@ input[type="button"].btn-block {
   padding-left: 30px;
   margin-left: 50px;
   max-width: 270px;
+  margin-top: 10px;
 }
 
 .wrapper .main-content .section-testimonial .testimonial-quote:before {
   content: '';
   position: absolute;
   border-left: 5px solid #5b86e5;
-  top: 20px;
+  top: 0;
   left: 0;
   bottom: 5px;
 }
@@ -4084,12 +4104,22 @@ input[type="button"].btn-block {
 
 .form-register .modal-content {
   border: none;
+  border-radius: 9px;
 }
 
 .form-register .modal-content .modal-body {
   padding: 32px 15px;
   text-align: center;
   color: #6e6e6e;
+}
+
+.form-register .modal-content .modal-dismiss {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  color: #6e6e6e;
+  cursor: pointer;
+  z-index: 10;
 }
 
 .form-register-bg img {
@@ -4128,7 +4158,7 @@ input[type="button"].btn-block {
   font-size: 14px;
   padding: 10px 135px 10px 18px;
   outline: none;
-  border: 1px solid #bdbdbd;
+  border: 1px solid #6e6e6e;
   border-radius: 8px;
   display: block;
   width: 100%;
@@ -4340,6 +4370,10 @@ input[type="button"].btn-block {
   .wrapper .header-brand .logo-mobile {
     display: inline-block;
     max-height: 40px;
+  }
+  .wrapper .header-brand .logo-mobile-text {
+    display: inline-block;
+    vertical-align: middle;
   }
   .wrapper .header-toggle {
     display: -webkit-inline-box;
