@@ -90,7 +90,7 @@
 										<div class="bn-sub-title">
 											<strong class="text-primary">Save 90% time</strong> and cost while <strong class="text-primary">growing sales</strong> on Social Media
 										</div>
-										<a href="#" class="btn btn-warning btn-get-app">
+										<a data-toggle="modal" data-target="#modal-register" class="btn btn-warning btn-get-app">
 											get app free
 										</a>
 									</div>
@@ -109,7 +109,7 @@
 									<div class="bn-sub-title">
 										<strong class="text-primary">Save 90% time</strong> and cost while <strong class="text-primary">growing sales</strong> on Social Media
 									</div>
-									<a href="#" class="btn btn-warning btn-get-app">
+									<a data-toggle="modal" data-target="#modal-register" class="btn btn-warning btn-get-app">
 										get free app
 									</a>
 								</div>
@@ -700,8 +700,98 @@
 			</div>
 		</footer>
 	</div>
+	<div class="modal fade form-register" tabindex="-1" role="dialog" id="modal-register">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-body">
+					<div class="row">
+						<div class="col col-12 col-md-5 align-items-md-center d-md-flex">
+							<div class="form-register-bg">
+								<img src="./images/login/bg.png" alt="">
+							</div>
+						</div>
+						<div class="col col-12 col-md-7">
+							<div class="form-register-title">
+								Welcome
+							</div>
+							<div class="form-register-sub-title">
+								Enter your Shopify URL to get FREE app
+							</div>
+							<form class="form-register-wrapper" id="modal-register-form">
+								<div class="form-register-input">
+									<div class="form-control" data-title=".myshopify.com" >
+										<input type="text" placeholder="Store name" />
+									</div>
+								</div>
+								<div class="form-register-btn">
+									<button class="btn btn-primary btn-get-app">
+										get free app
+									</button>
+								</div>
+							</form>
+							<div class="form-register-shopify">
+								<div>Don't have a <img src="./images/icons/shopify.png" alt=""> store yet?</div>
+								<a href="#" target="_blank">
+									Create Store
+								</a>
+							</div>
+							<div class="form-register-icons">
+								<div class="item-icon">
+									<div class="item-icon-img">
+										<img src="./images/login/01.png" alt="">
+									</div>
+									<div class="item-icon-text">
+										Multiple platforms
+									</div>
+								</div>
+								<div class="item-icon">
+									<div class="item-icon-img">
+										<img src="./images/login/02.png" alt="">
+									</div>
+									<div class="item-icon-text">
+										Auto posting
+									</div>
+								</div>
+								<div class="item-icon">
+									<div class="item-icon-img">
+										<img src="./images/login/03.png" alt="">
+									</div>
+									<div class="item-icon-text">
+										Save time
+									</div>
+								</div>
+								<div class="item-icon">
+									<div class="item-icon-img">
+										<img src="./images/login/04.png" alt="">
+									</div>
+									<div class="item-icon-text">
+										Free traffic
+									</div>
+								</div>
+								<div class="item-icon">
+									<div class="item-icon-img">
+										<img src="./images/login/05.png" alt="">
+									</div>
+									<div class="item-icon-text">
+										No credit card needed
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 	<script src="./js/jquery.min.js"></script>
+	<script src="./js/popper.min.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
 	<script src="./js/slick.js"></script>
 	<script src="./js/main.js"></script>
+	<script>
+		$(function(){
+			$('#modal-register').modal('show')
+		})
+	</script>
 </body>
 </html>

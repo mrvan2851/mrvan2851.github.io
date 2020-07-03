@@ -154,20 +154,6 @@ a:hover {
   text-decoration: underline;
 }
 
-a:not([href]):not([tabindex]) {
-  color: inherit;
-  text-decoration: none;
-}
-
-a:not([href]):not([tabindex]):hover, a:not([href]):not([tabindex]):focus {
-  color: inherit;
-  text-decoration: none;
-}
-
-a:not([href]):not([tabindex]):focus {
-  outline: 0;
-}
-
 pre,
 code,
 kbd,
@@ -339,6 +325,42 @@ template {
 
 [hidden] {
   display: none !important;
+}
+
+.fade {
+  opacity: 0;
+  -webkit-transition: opacity 0.15s linear;
+  -o-transition: opacity 0.15s linear;
+  transition: opacity 0.15s linear;
+}
+
+.fade.show {
+  opacity: 1;
+}
+
+.collapse {
+  display: none;
+}
+
+.collapse.show {
+  display: block;
+}
+
+tr.collapse.show {
+  display: table-row;
+}
+
+tbody.collapse.show {
+  display: table-row-group;
+}
+
+.collapsing {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: height 0.35s ease;
+  -o-transition: height 0.35s ease;
+  transition: height 0.35s ease;
 }
 
 .container {
@@ -3068,40 +3090,178 @@ input[type="button"].btn-block {
   width: 100%;
 }
 
-.fade {
-  opacity: 0;
-  -webkit-transition: opacity 0.15s linear;
-  -o-transition: opacity 0.15s linear;
-  transition: opacity 0.15s linear;
-}
-
-.fade.show {
-  opacity: 1;
-}
-
-.collapse {
-  display: none;
-}
-
-.collapse.show {
-  display: block;
-}
-
-tr.collapse.show {
-  display: table-row;
-}
-
-tbody.collapse.show {
-  display: table-row-group;
-}
-
-.collapsing {
-  position: relative;
-  height: 0;
+.modal-open {
   overflow: hidden;
-  -webkit-transition: height 0.35s ease;
-  -o-transition: height 0.35s ease;
-  transition: height 0.35s ease;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1050;
+  display: none;
+  overflow: hidden;
+  outline: 0;
+}
+
+.modal-open .modal {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.modal-dialog {
+  position: relative;
+  width: auto;
+  margin: 0.5rem;
+  pointer-events: none;
+}
+
+.modal.fade .modal-dialog {
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+  transition: -webkit-transform 0.3s ease-out;
+  -o-transition: transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
+  transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
+  -webkit-transform: translate(0, -25%);
+      -ms-transform: translate(0, -25%);
+          transform: translate(0, -25%);
+}
+
+.modal.show .modal-dialog {
+  -webkit-transform: translate(0, 0);
+      -ms-transform: translate(0, 0);
+          transform: translate(0, 0);
+}
+
+.modal-dialog-centered {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: calc(100% - (0.5rem * 2));
+}
+
+.modal-content {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.3rem;
+  outline: 0;
+}
+
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1040;
+  background-color: #000;
+}
+
+.modal-backdrop.fade {
+  opacity: 0;
+}
+
+.modal-backdrop.show {
+  opacity: 0.6;
+}
+
+.modal-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1rem;
+  border-bottom: 1px solid #e9ecef;
+  border-top-left-radius: 0.3rem;
+  border-top-right-radius: 0.3rem;
+}
+
+.modal-header .close {
+  padding: 1rem;
+  margin: -1rem -1rem -1rem auto;
+}
+
+.modal-title {
+  margin-bottom: 0;
+  line-height: 1.5;
+}
+
+.modal-body {
+  position: relative;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  padding: 1rem;
+}
+
+.modal-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 1rem;
+  border-top: 1px solid #e9ecef;
+}
+
+.modal-footer > :not(:first-child) {
+  margin-left: .25rem;
+}
+
+.modal-footer > :not(:last-child) {
+  margin-right: .25rem;
+}
+
+.modal-scrollbar-measure {
+  position: absolute;
+  top: -9999px;
+  width: 50px;
+  height: 50px;
+  overflow: scroll;
+}
+
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 500px;
+    margin: 1.75rem auto;
+  }
+  .modal-dialog-centered {
+    min-height: calc(100% - (1.75rem * 2));
+  }
+  .modal-sm {
+    max-width: 300px;
+  }
+}
+
+@media (min-width: 992px) {
+  .modal-lg {
+    max-width: 800px;
+  }
 }
 
 /* Slider */
@@ -3344,7 +3504,7 @@ tbody.collapse.show {
 }
 
 .wrapper .header-button a {
-  border-radius: 16px;
+  border-radius: 10px;
   font-size: 18px;
   padding: 15px 20px;
   font-weight: bold;
@@ -3898,8 +4058,8 @@ tbody.collapse.show {
 }
 
 .wrapper .btn-get-app {
-  border-radius: 19px;
-  font-size: 30px;
+  border-radius: 9px;
+  font-size: 25px;
   padding: 10px 30px;
   line-height: 1;
   font-weight: bold;
@@ -3913,6 +4073,172 @@ tbody.collapse.show {
       -ms-flex-pack: center;
           justify-content: center;
   text-transform: uppercase;
+}
+
+.form-register .modal-dialog {
+  max-width: 800px;
+  margin-top: 150px;
+  -webkit-box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.form-register .modal-content {
+  border: none;
+}
+
+.form-register .modal-content .modal-body {
+  padding: 32px 15px;
+  text-align: center;
+  color: #6e6e6e;
+}
+
+.form-register-bg img {
+  max-width: 100%;
+}
+
+.form-register-title {
+  font-family: 'Montserrat';
+  line-height: 1.1;
+  font-size: 48px;
+  font-weight: 600;
+  color: #5b86e5;
+}
+
+.form-register-sub-title {
+  font-size: 18px;
+}
+
+.form-register-wrapper {
+  display: block;
+}
+
+.form-register-input {
+  margin-top: 10px;
+}
+
+.form-register-input .form-control {
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  color: #6e6e6e;
+}
+
+.form-register-input .form-control input {
+  font-size: 14px;
+  padding: 10px 135px 10px 18px;
+  outline: none;
+  border: 1px solid #bdbdbd;
+  border-radius: 8px;
+  display: block;
+  width: 100%;
+  color: inherit;
+}
+
+.form-register-input .form-control input.is-invalid {
+  border-color: #dc3545;
+}
+
+.form-register-input .form-control input::-webkit-input-placeholder {
+  /* Edge */
+  color: #ccc;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.form-register-input .form-control input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #ccc;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.form-register-input .form-control input::-ms-input-placeholder {
+  color: #ccc;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.form-register-input .form-control input::placeholder {
+  color: #ccc;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.form-register-input .form-control:after {
+  content: attr(data-title);
+  font-size: 14px;
+  font-style: italic;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: inherit;
+  color: #ccc;
+  padding: 10px 18px 10px 5px;
+}
+
+.form-register-btn {
+  margin-top: 15px;
+}
+
+.form-register-btn .btn-get-app {
+  border-radius: 9px;
+  font-size: 18px;
+  padding: 10px 30px;
+  line-height: 1;
+  font-weight: 700;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: uppercase;
+}
+
+.form-register-shopify {
+  margin-top: 10px;
+  color: #6e6e6e;
+  font-size: 14px;
+}
+
+.form-register-shopify a {
+  color: #5b86e5;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.form-register-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  margin-top: 10px;
+  width: 100%;
+  padding: 0 25px;
+}
+
+.form-register-icons .item-icon {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 20%;
+  flex: 0 0 20%;
+  max-width: 20%;
+  text-align: center;
+  padding: 0 10px;
+}
+
+.form-register-icons .item-icon-img img {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-register-icons .item-icon-text {
+  font-size: 10px;
 }
 
 .text-primary {
@@ -3970,7 +4296,7 @@ tbody.collapse.show {
     top: 15%;
   }
   .wrapper .btn-get-app {
-    border-radius: 16px;
+    border-radius: 8px;
     font-size: 20px;
     padding: 10px 25px;
   }
@@ -4057,10 +4383,10 @@ tbody.collapse.show {
   }
   .wrapper .header-navbar {
     display: block;
-    width: 180px;
+    width: 200px;
     position: fixed;
     top: 0px;
-    left: -180px;
+    left: -200px;
     bottom: 0;
     overflow: hidden auto;
     background-color: #fff;
@@ -4082,11 +4408,8 @@ tbody.collapse.show {
   .wrapper .header-navbar .navbar .btn-get-app {
     display: block;
     font-size: 16px;
-    height: 40px;
-    line-height: 40px;
     margin-top: 15px;
-    padding: 0;
-    border-radius: 12px;
+    padding: 10px 0px;
   }
   .wrapper .header-button {
     display: none;
@@ -4327,6 +4650,12 @@ tbody.collapse.show {
     text-align: center;
     color: #fff;
     padding: 15px 0;
+  }
+  .form-register .modal-dialog {
+    max-width: 500px;
+  }
+  .form-register-title {
+    margin-top: 30px;
   }
 }
 

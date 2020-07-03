@@ -6,6 +6,7 @@ function SocialPublish(){
 		vm.collapse('#autopost-accordion')
 		vm.carousel('#carousel')
 		vm.autopost('#autopost-carousel')
+		vm.form_register('#modal-register-form')
 	}
 	vm.collapse = function(root_element){
 		var root = $(root_element)
@@ -145,6 +146,65 @@ function SocialPublish(){
 			})
 		}
 		
+	}
+	vm.form_register = function(element){
+		var form = $(element)
+		if( form.length){
+			var input = form.find('input')
+			var btn = form.find('button')
+			form.on('submit', function(event){
+				event.preventDefault()
+				if( $(this).hasClass('is-disabled') ) return 
+				$(this).addClass('is-disabled')
+				btn.prop('disabled',true)
+				input.removeClass('is-invalid')
+				var shop = input.val()
+				if( shop ){
+					var valid = test_shop_name(shop)
+					if( valid ){
+						$(this).removeClass('is-disabled')
+						send_request(shop).then(function(){
+							$(this).removeClass('is-disabled')
+							btn.prop('disabled',false)
+						})
+						.catch(function(){
+							$(this).removeClass('is-disabled')
+							btn.prop('disabled',false)
+						})
+						return 
+					}
+				}
+				input.addClass('is-invalid')
+				$(this).removeClass('is-disabled')
+				btn.prop('disabled',false)
+				
+			})
+			input.on('focus', function(){
+				if( $(this).hasClass('is-invalid') ){
+					$(this).removeClass('is-invalid')
+				}
+			})
+		}
+		function send_request(shop){
+			return new Promise(function(resolve, reject) {
+				$.post( "https://publish-api.socialhead.io/api/shopify/generate_url" , { shop : shop })
+				.done(function(res) {
+					if( res.status == true && res.data != null && res.data != '' ){
+						window.location.href = res.data
+					}
+					resolve(res)
+				})
+				.fail(function(err) {
+					reject(err)
+				})
+			});
+			
+		}
+		function test_shop_name(text){
+			var temp = text.replace(/.myshopify.com/gi, "");
+			const regex = /[!@#$%^&*(),.?":{}|<>`']/gi;
+			return !regex.test(temp)
+		}
 	}
 	vm.init()
 	return vm 

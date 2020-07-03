@@ -95,7 +95,7 @@ $bg-header : #f1f2f7;
 			width: 200px;
 			text-align: right;
 			a{
-				border-radius: 16px;
+				border-radius: 10px;
 				font-size: 18px;
 				padding: 15px 20px;
 				font-weight: bold;
@@ -556,8 +556,8 @@ $bg-header : #f1f2f7;
 		}
 	}
 	.btn-get-app{
-		border-radius: 19px;
-		font-size: 30px;
+		border-radius: 9px;
+		font-size: 25px;
 		padding: 10px 30px;
 		line-height: 1;
 		font-weight: bold;
@@ -565,6 +565,145 @@ $bg-header : #f1f2f7;
 		align-items: center;
 		justify-content: center;
 		text-transform: uppercase;
+	}
+}
+.form-register{
+	.modal-dialog{
+		max-width: 800px;
+		margin-top: 150px;
+		box-shadow: 0 4px 12px rgba(0,0,0,.15);
+	}
+	.modal-content{
+		border: none;
+		.modal-body{
+			padding: 32px 15px;
+			text-align: center;
+			color: #6e6e6e;
+		}
+	}
+	&-bg{
+		img{
+			max-width: 100%;
+		}
+	}
+	&-title{
+		font-family: 'Montserrat';
+		line-height: 1.1;
+		font-size: 48px;
+		font-weight: 600;
+		// margin-top: 40px;
+		color: $primary-color;
+	}
+	&-sub-title{
+		font-size: 18px;
+	}
+	&-wrapper{
+		display: block;
+	}
+	&-input{
+		// margin-top: 50px;
+		margin-top: 10px;
+		.form-control{
+			max-width: 350px;
+			margin-left: auto;
+			margin-right: auto;
+			position: relative;
+			color: #6e6e6e;
+			input{
+				font-size: 14px;
+				padding: 10px 135px 10px 18px;
+				outline: none;
+				border: 1px solid #bdbdbd;
+				border-radius: 8px;
+				display: block;
+				width: 100%;
+				color: inherit;
+				&.is-invalid{
+					border-color: $danger;
+				}
+				&::-webkit-input-placeholder { /* Edge */
+					color: #ccc;
+					font-size: 14px;
+					font-style: italic;
+				}
+				
+				&:-ms-input-placeholder { /* Internet Explorer 10-11 */
+					color: #ccc;
+					font-size: 14px;
+					font-style: italic;
+				}
+				
+				&::placeholder {
+					color: #ccc;
+					font-size: 14px;
+					font-style: italic;
+				}
+			}
+			&:after{
+				content : attr(data-title);
+				font-size: 14px;
+				font-style: italic;
+				position: absolute;
+				top: 0;
+				right: 0;
+				color: inherit;
+				color: #ccc;
+				padding: 10px 18px 10px 5px;
+			}
+		}
+	}
+	
+	&-btn{
+		// margin-top: 30px;
+		margin-top: 15px;
+		.btn-get-app{
+			border-radius: 9px;
+			font-size: 18px;
+			padding: 10px 30px;
+			line-height: 1;
+			font-weight: 700;
+			display: inline-flex;
+			align-items: center;
+			justify-content: center;
+			text-transform: uppercase;
+		}
+	}
+	&-shopify{
+		// margin-top: 20px;
+		margin-top: 10px;
+		color: #6e6e6e;
+		font-size: 14px;
+		a{
+			color:  $primary-color;
+			font-size: 14px;
+			font-style: italic;
+		}
+	}
+	&-icons{
+		display: flex;
+		flex-wrap: nowrap;
+		// margin-top: 50px;
+		margin-top: 10px;
+		width: 100%;
+		padding: 0 25px;
+		.item-icon{
+			-webkit-box-flex: 0;
+			-ms-flex: 0 0 20%;
+			flex: 0 0 20%;
+			max-width: 20%;
+			text-align: center;
+			padding: 0 10px;
+			&-img{
+				img{
+					width: 90%;
+					margin-left: auto;
+					margin-right: auto;
+				}
+			}
+			&-text{
+				font-size: 10px;
+			}
+		}
 	}
 }
 .text{
@@ -653,7 +792,7 @@ $bg-header : #f1f2f7;
 			}
 		}
 		.btn-get-app{
-			border-radius: 16px;
+			border-radius: 8px;
 			font-size: 20px;
 			padding: 10px 25px;
 		}
@@ -741,10 +880,10 @@ $bg-header : #f1f2f7;
 			}
 			&-navbar{
 				display: block;
-				width: 180px;
+				width: 200px;
 				position: fixed;
 				top: 0px;
-				left: -180px;
+				left: -200px;
 				bottom: 0;
 				overflow: hidden auto;
 				background-color: #fff;
@@ -761,11 +900,8 @@ $bg-header : #f1f2f7;
 					.btn-get-app{
 						display: block;
 						font-size: 16px;
-						height: 40px;
-						line-height: 40px;
 						margin-top: 15px;
-						padding: 0;
-						border-radius: 12px;
+						padding: 10px 0px;
 					}
 				}
 			}
@@ -1057,6 +1193,14 @@ $bg-header : #f1f2f7;
 				color: #fff;
 				padding: 15px 0;
 			}
+		}
+	}
+	.form-register{
+		.modal-dialog{
+			max-width: 500px;
+		}
+		&-title{
+			margin-top: 30px;
 		}
 	}
 }
