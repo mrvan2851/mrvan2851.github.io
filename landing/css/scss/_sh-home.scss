@@ -1,0 +1,62 @@
+.wrapper {
+    .main-content {
+        .section {
+            &-sh {
+                &-title {
+                    font-size: 48px;
+                    font-weight: bold;
+                    line-height: 1.1;
+                    font-family: 'Montserrat';
+                }
+                &-intro {
+                    padding: 50px 0;
+                    background-color: #fff;
+                    background-image: url('../images/background/sh-intro.png');
+                    background-repeat: no-repeat;
+                    background-position: top center;
+                    position: relative;
+                    &-container {}
+                    &-content {
+                        align-items: center;
+                        display: flex;
+                        &-title {
+                            font-size: 40px;
+                            font-weight: bold;
+                            line-height: 1.1;
+                            padding-bottom: 32px;
+                            font-family: 'Montserrat';
+                        }
+                        &-sub-title {
+                            font-size: 20px;
+                            font-weight: 500;
+                            line-height: 1.1;
+                            padding-bottom: 32px;
+                            img {
+                                display: inline-block;
+                                max-height: 20px;
+                            }
+                        }
+                    }
+                    &-video {
+                        margin: 0 auto;
+                        text-align: center;
+                        padding-top: 30px;
+                        video {
+                            width: 100%;
+                        }
+                    }
+                }
+                &-products {
+                    padding: 50px 0;
+                    &-title {
+                        max-width: 900px;
+                        margin-bottom: 50px;
+                        @include center;
+                    }
+                    &-list {}
+                    &-item {}
+                }
+            }
+        }
+    }
+}

@@ -897,3 +897,7 @@ $print-page-size:                   a3 !default;
 $print-body-min-width:              map-get($grid-breakpoints, "lg") !default;
 
 
+@mixin center {
+	margin-left: auto;
+	margin-right: auto;
+}

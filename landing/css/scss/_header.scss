@@ -1,0 +1,213 @@
+.wrapper {
+    .header {
+        background-color: #fff;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+        height: 80px;
+        &.header-sticky {
+            box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+        }
+        &-container {
+            position: relative;
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-between;
+            @media(min-width: 1600px) {
+                max-width: 80%;
+                .header {
+                    &-navbar {
+                        .navbar {
+                            padding: 0 40px;
+                        }
+                    }
+                }
+            }
+        }
+        &-toggle {
+            display: none;
+        }
+        &-brand {
+            display: flex;
+            align-items: center;
+            width: 250px;
+            padding: 15px 0;
+            a {
+                text-decoration: none;
+                display: inline-block;
+                vertical-align: middle;
+                text-align: center;
+                span {
+                    display: block;
+                    font-family: 'Montserrat';
+                    font-weight: bold;
+                    font-size: 12px;
+                    color: #414042;
+                }
+            }
+        }
+        &-navbar {
+            display: flex;
+            flex-basis: auto;
+            flex-grow: 1;
+            justify-content: space-between;
+            .navbar {
+                width: 100%;
+                display: flex;
+                // justify-content: space-between;
+                justify-content: center;
+                flex-direction: row;
+                align-items: center;
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
+                .navbar-item {
+                    .navbar-link {
+                        display: flex;
+                        align-items: center;
+                        // min-height: 50px;
+                        font-size: 12px;
+                        padding: 15px 20px;
+                        text-transform: uppercase;
+                        font-weight: bold;
+                        color: $text-color;
+                        text-decoration: none;
+                        text-align: center;
+                        &.is-active {
+                            color: $primary-color;
+                        }
+                    }
+                    &:hover {
+                        .navbar-link {
+                            color: $primary-color;
+                        }
+                    }
+                }
+            }
+        }
+        &-button {
+            width: 250px;
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: flex-end;
+            align-items: center;
+            a~a {
+                margin-left: 20px;
+            }
+            .btn-login {
+                color: $text-color;
+            }
+            .btn-get-app {
+                border-radius: 10px;
+                font-size: 18px;
+                padding: 10px 15px;
+                font-weight: bold;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+@media(max-width: 1400px) {
+    .wrapper {
+        .header {
+            &-container {}
+            &-brand {}
+            &-button {}
+        }
+    }
+}
+
+@media(max-width: 992px) {
+    .wrapper {
+        .header {
+            height: 50px;
+            &-container {}
+            &-brand {
+                padding: 5px 0;
+                a {
+                    text-align: left;
+                    span {
+                        display: inline-block;
+                    }
+                }
+            }
+            &-toggle {
+                display: inline-flex;
+                .navbar-toggle {
+                    height: 40px;
+                    width: 48px;
+                    padding: 0 10px;
+                    background-color: transparent;
+                    border: none;
+                    display: inline-block;
+                    outline: none;
+                    .icon-bar {
+                        display: block;
+                        width: 28px;
+                        height: 2px;
+                        border-radius: 1px;
+                        transition: all .25s ease-in-out;
+                        background-color: #414042;
+                        &+.icon-bar {
+                            margin-top: 4px;
+                        }
+                    }
+                    &.is-active {
+                        .icon-bar {
+                            &:nth-child(1) {
+                                transform: rotate(45deg) translate(5px, 4px);
+                            }
+                            &:nth-child(2) {
+                                opacity: 0;
+                            }
+                            &:nth-child(3) {
+                                transform: rotate(-45deg) translate(4px, -4px);
+                            }
+                        }
+                    }
+                }
+            }
+            &-navbar {
+                display: block;
+                width: 200px;
+                position: fixed;
+                top: 0px;
+                left: -200px;
+                bottom: 0;
+                overflow: hidden auto;
+                background-color: #fff;
+                box-shadow: 2px 0 15px -5px rgba(0, 0, 0, 0.3);
+                transition: all 0.3s ease-in-out;
+                padding: 0 15px;
+                &.is-active {
+                    left: 0;
+                }
+                .navbar {
+                    width: 100%;
+                    display: block;
+                    padding: 30px 0;
+                    .btn-get-app {
+                        display: block;
+                        font-size: 16px;
+                        margin-top: 15px;
+                        padding: 10px 0px;
+                    }
+                }
+            }
+            &-button {
+                display: none;
+            }
+        }
+    }
+}
+
+@media(max-width: 768px) {}
+
+@media(max-width: 576px) {}
