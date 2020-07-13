@@ -596,7 +596,20 @@ $bg-header: #f1f2f7;
         text-align: right;
     }
 }
-
+.bg{
+	&-black{
+		background-color: #231f20 !important;
+	}
+	&-white{
+		background-color: #ffffff !important;
+	}
+	&-primary{
+		background-color: $primary-color !important;
+	}
+	&-warning{
+		background-color: $warning !important;
+	}
+}
 .spacer {
     flex-grow: 1 !important;
 }

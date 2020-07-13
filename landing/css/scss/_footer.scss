@@ -1,7 +1,8 @@
 .wrapper {
     .footer {
         background-color: #5b86e5;
-        position: relative;
+		position: relative;
+		
         &-bg {
             img {
                 width: 100%;
@@ -31,7 +32,28 @@
             color: #fff;
             padding: 15px 0;
             font-size: 12px;
-        }
+		}
+		&-sh{
+			background-color: #231f20 ;
+			padding: 60px 0;
+			&-content{
+				color: #fff;
+			}
+			&-social{
+				text-align: right;
+				a~a{
+					margin-left: 10px;
+				}
+			}
+			&-logo{
+				margin-bottom: 25px;
+			}
+			&-copyright{
+				p{
+					margin-bottom: 5px;
+				}
+			}
+		}
     }
 }
 
@@ -122,7 +144,19 @@
                 text-align: center;
                 color: #fff;
                 padding: 15px 0;
-            }
+			}
+			&-sh{
+				&-content{
+					text-align: center;
+					margin-bottom: 25px;
+				}
+				&-social{
+					text-align: center;
+				}
+				&-logo{
+					margin-bottom: 25px;
+				}
+			}
         }
     }
 }
