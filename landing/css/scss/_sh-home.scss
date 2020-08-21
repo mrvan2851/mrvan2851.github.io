@@ -9,21 +9,20 @@
                     font-family: 'Montserrat';
                 }
                 &-intro {
-                    background-color: #fff;
+					background-color: #fff;
                     background-image: url('../images/background/sh-intro.png');
                     background-repeat: no-repeat;
-					background-position: bottom center;
-					background-size: cover;
+					background-position: top center;
+					background-size: contain;
 					position: relative;
-					padding-bottom: 40%;
+					padding-bottom: 50px;
                     &-container {
-						position: absolute;
-						top: 0;
-						left: 0;
-						right: 0;
-						height: 100%;
-						display: flex;
-						align-items: center;
+						// position: absolute;
+						// top: 0;
+						// left: 0;
+						// right: 0;
+						// height: 100%;
+						// display: flex;
 					}
                     &-content {
                         align-items: center;
@@ -37,12 +36,12 @@
                         }
                         &-sub-title {
                             font-size: 20px;
-                            font-weight: 500;
+                            font-weight: 400;
                             line-height: 1.1;
                             padding-bottom: 32px;
                             img {
                                 display: inline-block;
-                                max-height: 20px;
+                                max-height: 22px;
                             }
                         }
                     }
@@ -56,7 +55,7 @@
                     }
                 }
                 &-products {
-                    padding: 50px 0;
+                    padding: 0 0 50px 0;
                     &-title {
                         max-width: 750px;
                         margin-bottom: 50px;
@@ -69,12 +68,11 @@
                    .item-product{
 						display: flex;
 						flex-direction: row;
-						margin-bottom: 32px;
+						margin-bottom: 60px;
 						margin-left: -15px;
 						margin-right: -15px;
 						&-image{
 							@include flex(62.5%);
-							padding-top: 32px;
 							padding-left: 15px;
 							padding-right: 15px;
 							text-align: left;
@@ -85,6 +83,17 @@
 						}
 						&-logo{
 							margin-bottom: 32px;
+							display: flex;
+							align-items: center;
+							&-icon{
+
+							}
+							&-text{
+								font-family: 'Montserrat';
+								font-weight: 700;
+								font-size: 25px;
+								padding-left: 10px;
+							}
 						}
 						&-title{
 							margin-bottom: 8px;
@@ -94,6 +103,28 @@
 						}
 						&-description{
 							margin-bottom: 32px;
+						}
+						&-btn{
+							position: relative;
+							padding-bottom: 30px;
+							&-inner{
+								position: relative;
+								display: inline-block;
+								
+								.btn-caret-down{
+									display: inline-flex;
+									justify-content: center;
+									align-items: center;
+									text-align: center;
+									margin-top: 8px;
+									width: 32px;
+									height: 32px;
+									color: $primary-color;
+									img{
+										display: inline-block;
+									}
+								}
+							}
 						}
 						&:nth-child(even) {
 							flex-direction: row-reverse;
@@ -172,12 +203,12 @@
 					}
 				}
 				&-bn{
-					padding: 70px 0;
+					padding: 70px;
 					position: relative;
 					&:before{
 						content: '';
 						position: absolute;
-						bottom: 5px;
+						bottom: -5px;
 						left: 50%;
 						height: 10px;
 						width: 70px;
@@ -191,7 +222,7 @@
 							border: 1px solid $border-color;
 							background-color: #ececec;
 							border-radius: 15px;
-							box-shadow: 0 3px 18px rgba(0,0,0,.35);
+							box-shadow: 0 3px 18px rgba(0,0,0,.15);
 							max-width: 800px;
 							@include center;
 						}
@@ -218,6 +249,7 @@
 						
 						strong{
 							color: $primary-color;
+							font-weight: bold;
 						}
 					}
 					.bn{
@@ -242,7 +274,7 @@
 					}
 				}
 				&-discover{
-					padding: 50px 0;
+					padding: 70px 0 0 0;
 					.section-sh-title{
 						max-width: 800px;
 						@include center;
@@ -283,14 +315,14 @@
 						flex-wrap: nowrap;
 						margin-bottom: 35px;
 						&-icon{
-							@include flex(80px);
+							@include flex(50px);
 						}
 						&-content{
 							@include col;
 							padding-left: 15px;
 						}
 						&-title{
-							min-height: 80px;
+							min-height: 50px;
 							display: flex;
 							align-items: center;
 							justify-content: flex-start;
@@ -307,7 +339,7 @@
 					padding: 50px 0;
 					.section-sh-title{
 						color: #fff;
-						font-weight: normal;
+						font-weight: 500;
 					}
 					.box-subscribe{
 						background-color: $primary-color;
@@ -318,9 +350,9 @@
 						max-width: 900px;
 						@include center;
 						&-description{
-							margin-top: 32px;
+							margin-top: 10px;
 							color: #fff;
-							font-size: 24px;
+							font-size: 22px;
 						}
 						&-form{
 							display: flex;
@@ -331,20 +363,39 @@
 								@include col;
 								outline: none !important;
 								border-radius: 15px;
-								border: none;
+								border: 1px solid #ffffff;
+								background-color: #ffffff;
+								&.is-invalid{
+									border-color: $danger;
+									color: $danger;
+									&::-webkit-input-placeholder {
+										color: $danger;
+										font-style: italic;
+									}
+									&:-ms-input-placeholder {
+										color: $danger;
+										font-style: italic;
+									}
+									&::placeholder {
+										color: $danger;
+										font-style: italic;
+									}
+								}
 								&::-webkit-input-placeholder {
-									/* Edge */
 									color: #b1b1b1;
 									font-style: italic;
 								}
 								&:-ms-input-placeholder {
-									/* Internet Explorer 10-11 */
 									color: #b1b1b1;
 									font-style: italic;
 								}
 								&::placeholder {
 									color: #b1b1b1;
 									font-style: italic;
+								}
+								
+								&:disabled{
+									background-color: #ffffff;
 								}
 							}
 							.btn-submit{
@@ -373,6 +424,7 @@
 					}
 					&-intro {
 						padding: 30px 0;
+						background: #fff;
 						&-container {
 							position: relative;
 							top: auto;
@@ -380,6 +432,9 @@
 							right: auto;
 							height: auto;
 							text-align: center;
+							.btn-get-app{
+								margin-bottom: 20px;
+							}
 						}
 						&-content {
 							&-wrap{
@@ -401,7 +456,7 @@
 						}
 					}
 					&-products {
-						padding: 30px 0;
+						padding: 0;
 					   .item-product{
 							&-image{
 								@include flex(50%);
@@ -464,7 +519,6 @@
 						padding: 50px 0;
 						.section-sh-title{
 							color: #fff;
-							font-weight: normal;
 						}
 						.box-subscribe{
 							&-description{
@@ -499,19 +553,22 @@
 
 					}
 					&-products {
-						padding: 30px 0;
+						padding: 30px 0 0 0;
 					   .item-product{
 						   display: block;
+						   margin-bottom: 30px;
 							&-logo{
-								img{
-									height: auto;
-								}
+								justify-content: center;
 							}
 							&-image{
 								@include flex(100%);
 								margin-bottom: 20px;
+								text-align: center;
 							}
 							&-content{
+								text-align: center;
+							}
+							&:nth-child(even) .item-product-image{
 								text-align: center;
 							}
 					   }
@@ -522,6 +579,7 @@
 							&-content{
 								text-align: center;
 								@include center;
+								max-width: 100%;
 								&-bg{
 									display: none;
 								}
@@ -551,7 +609,7 @@
 						}
 					}
 					&-discover{
-						padding: 30px 0;
+						padding: 50px 0 0 0;
 						.list-items-discover{
 							margin-top: 50px;
 							
@@ -579,10 +637,9 @@
 						}
 					}
 					&-subscribe{
-						padding: 50px 0;
+						padding: 25px 0 50px 0;
 						.section-sh-title{
 							color: #fff;
-							font-weight: normal;
 						}
 						.box-subscribe{
 							border-radius: 0;
@@ -621,7 +678,6 @@
 
 					}
 					&-products {
-						padding: 30px 0;
 					   .item-product{
 							&-logo{
 								img{
@@ -631,7 +687,6 @@
 					   }
 					}
 					&-testimonial{
-						padding: 30px 0;
 						.sh-testimonial{
 							&-content{
 								text-align: center;
@@ -643,7 +698,6 @@
 						}
 					}
 					&-bn{
-						padding: 50px 0;
 						position: relative;
 						text-align: center;
 						.bn{
@@ -665,7 +719,6 @@
 						}
 					}
 					&-discover{
-						padding: 30px 0;
 						.list-items-discover{
 							margin-top: 50px;
 						}
@@ -688,11 +741,6 @@
 						}
 					}
 					&-subscribe{
-						padding: 50px 0;
-						.section-sh-title{
-							color: #fff;
-							font-weight: normal;
-						}
 						.box-subscribe{
 							border-radius: 0;
 							padding: 30px 15px;

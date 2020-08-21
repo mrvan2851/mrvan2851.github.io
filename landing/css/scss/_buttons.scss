@@ -142,3 +142,26 @@ input[type="button"] {
     width: 100%;
   }
 }
+
+.btn-loading{
+	position: relative;
+	.icon-loading{
+		opacity: 0;
+		visibility: hidden;
+		position: absolute;
+		z-index: 1;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		width: 40px;
+		height: 40px;
+	}
+	&.is-loading{
+		color: transparent !important;
+		
+		.icon-loading{
+			opacity: 1;
+			visibility: visible;
+		}
+	}
+}

@@ -428,15 +428,36 @@ $bg-header: #f1f2f7;
         align-items: center;
         justify-content: center;
         text-transform: uppercase;
-    }
+	}
+	
 }
-
+.btn-backtop{
+	position: fixed;
+	z-index: 2000;
+	bottom: 15px;
+	right: 15px;
+	width: 40px;
+	height: 40px;
+	background-color: transparent;
+	color: $primary-color;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.3s ease;
+	&.is-active{
+		opacity: 1;
+		visibility: visible;
+	}
+	&:hover{
+		color: $warning;
+	}
+}
 .form-register {
     .modal-dialog {
         max-width: 800px;
         margin-top: 150px;
         box-shadow: 0 4px 12px rgba(0, 0, 0, .15);
-    }
+	}
+	
     .modal-content {
         border: none;
         border-radius: 9px;
@@ -452,7 +473,73 @@ $bg-header: #f1f2f7;
             color: #6e6e6e;
             cursor: pointer;
             z-index: 10;
-        }
+		}
+		.select-app{
+			&-title{
+				font-size: 20px;
+				font-family: 'Montserrat';
+				color: $text-color;
+				font-weight: 600;
+			}
+			&-items{
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: center;
+				margin-top: 30px;
+				margin-bottom: 20px;
+				.item-app{
+					margin: 0 15px;
+					width: 140px;
+					height: 140px;
+					border-radius: 10px;
+					border: 1px solid $border-color;
+					padding: 20px 0;
+					cursor: pointer;
+					box-shadow: 0 3px 18px rgba(0,0,0,0.25);
+					&-icon{
+						color: $primary-color;
+						display: flex;
+						justify-content: center;
+						align-items: center;
+					}
+					strong{
+						color: $text-color;
+						font-family: 'Montserrat';
+						font-weight: bold;
+						font-size: 14px;
+					}
+					&:hover{
+						background-color: $primary-color;
+						.item-app-icon , strong{
+							color: #fff;
+						}
+					}
+				}
+			}
+		}
+		.subscribe-app{
+			display: none;
+			&-title{
+				color: $primary-color;
+				font-size: 37px;
+				font-family: 'Montserrat';
+				font-weight: 700;
+				text-transform: uppercase;
+				margin-top: 10px;
+				margin-bottom: 10px;
+			}
+			&-sub-title{
+				font-size: 20px;
+				color: $primary-color;
+				margin-bottom: 10px;
+			}
+			&-description{
+				font-size: 18px;
+				margin-bottom: 10px;
+				max-width: 680px;
+				@include center;
+			}
+		}
     }
     &-bg {
         img {
@@ -465,7 +552,7 @@ $bg-header: #f1f2f7;
         font-size: 48px;
         font-weight: 600;
         // margin-top: 40px;
-        color: $primary-color;
+        color: $text-color;
     }
     &-sub-title {
         font-size: 18px;
@@ -1074,7 +1161,17 @@ $bg-header: #f1f2f7;
         }
         &-title {
             margin-top: 30px;
-        }
+		}
+		.modal-content{
+			.select-app-items{
+				flex-wrap: wrap;
+				margin-bottom: 0;
+				.item-app{
+					margin: 0 10px 20px 10px;
+				}
+			}
+		}
+		
     }
 }
 

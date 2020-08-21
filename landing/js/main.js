@@ -1,14 +1,23 @@
 function SocialPublish() {
-    var vm = this
+	var vm = this
+	const API_END_POINT = {
+		publish : 'https://publish-api.socialhead.io/api/shopify/generate_url',
+		shop : 'https://shop-api.socialhead.io/api/shopify/generate_url',
+		widget : 'https://widget-api.socialhead.io/api/shopify/generate_url',
+		reply : 'https://reply-api.socialhead.io/api/shopify/generate_url'
+	}
     vm.init = function() {
         vm.header()
         vm.navbar()
         vm.collapse('#autopost-accordion')
 		vm.carousel('#carousel')
-		vm.ShCarousel('#sh-testimonial')
+		vm.sh_carousel('#sh-testimonial')
         vm.autopost('#autopost-carousel')
-		vm.form_register('#modal-register-form')
-		vm.ShDiscover('#ist-items-discover')
+		vm.form_register('#modal-register')
+		vm.sh_discover('#ist-items-discover')
+		vm.scroll_to_element('.btn-scroll-to-element')
+		vm.backtop('#btn-backtop')
+		vm.subscribe('#form-subscribe')
     }
     vm.collapse = function(root_element) {
         var root = $(root_element)
@@ -134,7 +143,7 @@ function SocialPublish() {
             });
         }
 	}
-	vm.ShCarousel = function(element) {
+	vm.sh_carousel = function(element) {
         if ($(element).length) {
             $(element).slick({
                 infinite: true,
@@ -149,7 +158,7 @@ function SocialPublish() {
             });
         }
 	}
-	vm.ShDiscover = function(element) {
+	vm.sh_discover = function(element) {
         if ($(element).length && $(window).width() <= 768) {
             $(element).slick({
                 infinite: true,
@@ -162,7 +171,76 @@ function SocialPublish() {
 				dots: true,
 			});
         }
-    }
+	}
+	vm.subscribe = function(element) {
+		var _this = this;
+		var form = $(element)
+		var input = form.find('input')
+		var btn = form.find('button')
+		var end_point = form.attr('action')
+		form.on('submit', function(event){
+			event.preventDefault()
+			if( form.hasClass('is-disabled')) return
+			disable_form()
+			var email = input.val().trim()
+			if( email && validate_email(email)){
+				send_request(email).then(function(res){
+					if( res.status ){
+						reset_form()
+						vm.show_modal_subscribe_success()
+					}else{
+						enable_form()
+					}
+				})
+				.catch(function(){
+					enable_form()
+				})
+			}else{
+				input.addClass('is-invalid')
+				enable_form()
+			}
+		})
+		input.on('focus' , function(){
+			input.removeClass('is-invalid')
+		})
+		function reset_form() {
+			enable_form()
+			input.val('')
+			input.addClass('is-invalid')
+		}
+		function disable_form() {
+			form.addClass('is-disabled')
+			btn.addClass('is-loading')
+			btn.prop('disabled', true)
+			input.prop('disabled', true)
+		}
+		function enable_form() {
+			form.removeClass('is-disabled')
+			btn.removeClass('is-loading')
+			btn.prop('disabled', false)
+			input.prop('disabled', false)
+		}
+		function validate_email(email) {
+			const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+			return re.test(String(email).toLowerCase());
+		}
+		function send_request(email) {
+            return new Promise(function(resolve, reject) {
+				if( end_point ){
+					$.post(end_point, { email: email } , "json")
+                    .done(function(res) {
+                        resolve(res)
+                    })
+                    .fail(function(err) {
+                        reject(err)
+                    })
+				}else{
+					reject()
+				}
+            });
+
+        }
+	}
     vm.autopost = function(element) {
         if ($(element).length) {
             $(element).slick({
@@ -185,47 +263,94 @@ function SocialPublish() {
         }
     }
     vm.form_register = function(element) {
-        var form = $(element)
-        if (form.length) {
-            var input = form.find('input')
-            var btn = form.find('button')
-            form.on('submit', function(event) {
-                event.preventDefault()
-                if ($(this).hasClass('is-disabled')) return
-                $(this).addClass('is-disabled')
-                btn.prop('disabled', true)
-                input.removeClass('is-invalid')
-                var shop = input.val()
-                if (shop) {
-                    var valid = test_shop_name(shop)
-                    if (valid) {
-                        $(this).removeClass('is-disabled')
-                        send_request(shop).then(function() {
-                                $(this).removeClass('is-disabled')
-                                btn.prop('disabled', false)
-                            })
-                            .catch(function() {
-                                $(this).removeClass('is-disabled')
-                                btn.prop('disabled', false)
-                            })
-                        return
-                    }
-                }
-                input.addClass('is-invalid')
-                $(this).removeClass('is-disabled')
-                btn.prop('disabled', false)
-
-            })
-            input.on('focus', function() {
-                if ($(this).hasClass('is-invalid')) {
-                    $(this).removeClass('is-invalid')
-                }
-            })
-        }
-
-        function send_request(shop) {
+		var _this = this;
+		var app_name = null 
+		var modal = $(element)
+        var select_app = modal.find('.select-app')
+		var register_app = modal.find('.register-app')
+		var subscribe_app = modal.find('.subscribe-app')
+		var form = modal.find('form')
+		var input = form.find('input')
+		var btn = form.find('button')
+		
+		$('.btn-show-modal').on('click', function(event){
+			event.preventDefault()
+			var app = $(this).data('app')
+			if( app ){
+				show_app_login(app)
+			}else{
+				select_app.show()
+				register_app.hide()
+				register_app.removeClass("app-publish app-shop app-widget app-reply")
+			}
+			modal.modal('show')
+		})
+		modal.find('.item-app').on('click', function(){
+			show_app_login($(this).data('app'))
+		})
+		modal.on('hidden.bs.modal' ,function(){
+			app_name = null 
+			form.trigger("reset")
+			select_app.hide()
+			register_app.hide()
+			subscribe_app.hide()
+			input.removeClass('is-invalid')
+			input.val('')
+			register_app.removeClass("app-publish app-shop app-widget app-reply")
+			form.removeClass('is-disabled')
+			btn.prop('disabled', false)
+			input.prop('disabled', false)
+		})
+		form.on('submit', function(event) {
+			event.preventDefault()
+			if ($(this).hasClass('is-disabled')) return
+			$(this).addClass('is-disabled')
+			btn.prop('disabled', true)
+			btn.addClass('is-loading')
+			input.prop('disabled', true)
+			input.removeClass('is-invalid')
+			var shop = input.val()
+			if (shop) {
+				var valid = test_shop_name(shop)
+				if (valid) {
+					$(this).removeClass('is-disabled')
+					send_request(shop).then(function() {
+							$(this).removeClass('is-disabled')
+							btn.prop('disabled', false)
+							btn.removeClass('is-loading')
+							input.prop('disabled', false)
+						})
+						.catch(function() {
+							$(this).removeClass('is-disabled')
+							btn.prop('disabled', false)
+							btn.removeClass('is-loading')
+							input.prop('disabled', false)
+						})
+					return
+				}
+			}
+			input.addClass('is-invalid')
+			$(this).removeClass('is-disabled')
+			btn.prop('disabled', false)
+			input.prop('disabled', false)
+		})
+		input.on('focus', function() {
+			if ($(this).hasClass('is-invalid')) {
+				$(this).removeClass('is-invalid')
+			}
+		})
+		var show_app_login = function(app) {
+			app_name = app 
+			subscribe_app.hide()
+			select_app.hide()
+			register_app.show()
+			register_app.addClass("app-" + app)
+		}
+        var send_request  = function(shop ) {
             return new Promise(function(resolve, reject) {
-                $.post("https://publish-api.socialhead.io/api/shopify/generate_url", { shop: shop })
+				var url = API_END_POINT.hasOwnProperty(app_name) ? API_END_POINT[app_name] : null 
+				if( url ){
+					$.post(url, { shop: shop } , "json")
                     .done(function(res) {
                         if (res.status == true && res.data != null && res.data != '') {
                             window.location.href = res.data
@@ -235,16 +360,54 @@ function SocialPublish() {
                     .fail(function(err) {
                         reject(err)
                     })
+				}else{
+					reject()
+				}
             });
 
         }
 
-        function test_shop_name(text) {
+        var test_shop_name  =  function(text) {
             var temp = text.replace(/.myshopify.com/gi, "");
             const regex = /[!@#$%^&*(),.?":{}|<>`']/gi;
             return !regex.test(temp)
-        }
-    }
+		}
+		this.show_modal_subscribe_success = function(){
+			subscribe_app.show()
+			register_app.hide()
+			select_app.hide()
+			modal.modal('show')
+		}
+		return this
+	}
+	vm.scroll_to_element = function(element){
+		if( $(element).length ){
+			$(element).on('click', function(event){
+				event.preventDefault()
+				var target = $(this).data('id')
+				var duration = $(this).data('duration') 
+				$('html, body').animate({
+					scrollTop: $(target).offset().top - $('header').height()
+				}, duration ? duration : 500);
+			})
+		}
+	}
+	vm.backtop = function(element){
+		if( $(element).length ){
+			$(window).scroll(function(){
+				if ($(this).scrollTop() > 100) {
+				$(element).addClass('is-active');
+				} else {
+				$(element).removeClass('is-active');
+				}
+			});
+			
+			$(element).click(function(){
+				$('html, body').animate({scrollTop : 0},500);
+				return false;
+			});
+		}
+	}
     vm.init()
     return vm
 }
