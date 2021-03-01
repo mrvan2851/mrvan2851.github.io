@@ -1,221 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
-	<link rel="stylesheet" href="style.css">
-</head>
-<body>
-	<div id="app" class="app">
-		<div v-if="is_loading">loading</div>
-		<div v-else>
-			<div v-if="is_loading_sync">
-				<h1>Total : {{ data.length }}</h1>
-				<h1>Percent : {{ percent }}</h1>
-			</div>
-			<div v-else >
-				<button @click="startSync">
-					start sync
-				</button>
-			</div>
-			<hr>
-			<div>
-				<label>Product Images</label>
-				<textarea v-model="form.products"></textarea>
-			</div>
-			<div>
-				<label><input type="checkbox" v-model="form.use_discount">Discount Images</label>
-				<div class="d-inline-block">
-					<label>Size</label>
-					<select v-model="form.discount_size">
-						<option :value="1">1</option><option :value="2">2</option><option :value="3">3</option>
-					</select>
-				</div>
-				<div class="d-inline-block">
-					<label>Position</label>
-					<select v-model="form.discount_position">
-						<option :value="1">1</option><option :value="2">2</option><option :value="3">3</option>
-						<option :value="4">4</option><option :value="5">5</option><option :value="6">6</option>
-						<option :value="7">7</option><option :value="8">8</option>
-					</select>
-				</div>
-				<div class="d-inline-block">
-					<label>Margin</label>
-					<select v-model="form.discount_margin">
-						<option :value="1">1</option><option :value="2">2</option><option :value="3">3</option>
-					</select>
-				</div>
-				<textarea v-model="form.discounts" :disabled="!form.use_discount"></textarea>
-			</div>
-			<div>
-				<label><input type="checkbox" v-model="form.use_logo">Logo Images</label>
-				<div class="d-inline-block">
-					<label>Size</label>
-					<select v-model="form.logo_size">
-						<option :value="1">1</option><option :value="2">2</option><option :value="3">3</option>
-					</select>
-				</div>
-				<div class="d-inline-block">
-					<label>Position</label>
-					<select v-model="form.logo_position">
-						<option :value="1">1</option><option :value="2">2</option><option :value="3">3</option>
-						<option :value="4">4</option><option :value="5">5</option><option :value="6">6</option>
-						<option :value="7">7</option><option :value="8">8</option>
-					</select>
-				</div>
-				<div class="d-inline-block">
-					<label>Margin</label>
-					<select v-model="form.logo_margin">
-						<option :value="1">1</option><option :value="2">2</option><option :value="3">3</option>
-					</select>
-				</div>
-				<div class="d-inline-block">
-					<label>Transparent</label>
-					<select v-model="form.logo_transparent">
-						<option v-for="index in 100" :value="index" :key="`index_${index}`">{{index}}</option>
-					</select>
-				</div>
-				<textarea v-model="form.logos" :disabled="!form.use_logo"></textarea>
-			</div>
-		</div>
-	</div>
-	<script src="vue.js"></script>
-	<script src="jquery.min.js"></script>
-	<script>
-		function cartesian(args) {
-			if(! args.length  || typeof args == 'undefined'){
-				return [[]];
-			}
-			var prod = cartesian(args.slice(1)), r = [];
-			args[0].forEach(function(x) {
-				prod.forEach(function(p) {
-					r.push([x].concat(p));
-				});
-			});
-			return r;
+	<style>
+		body {
+			margin: 0;
 		}
-		const app = new Vue({
-			el : '#app',
-			data : {
-				is_loading: false,
-				data : [],
-				templates: [
-					"https://s3.ap-southeast-1.amazonaws.com/static.socialhead.io/medias/74/discount_media_id20200512045659_74_89.png"
-				],
-				default_value : [1,2,3],
-				index : 0,
-				is_loading_sync : false,
-				form :{
-					discounts : '',
-					templates :'',
-					logos: '',
-					discount_position : 1,
-					discount_margin : 1,
-					discount_size : 1,
-					logo_position : 1,
-					logo_margin : 1,
-					logo_size : 1,
-					logo_transparent: 80,
-					use_discount : true,
-					use_logo : true
-				}
-			},
-			computed:{
-				percent : function(){
-					return parseInt((this.index / this.data.length) * 100 )
-				}
-			},
-			methods: {
-				imageProcess(){
-					if( this.index >= this.data.length ) {
-						this.is_loading_sync = false
-						return 
-					}
-					const index = this.index 
-					let item = this.data[index]
-					var target = index < 10 ? `media/111/test_0${index}.jpg` : `media/111/test_${index}.jpg`
-					var name_image = index < 10 ? `test_0${index}.jpg` : `test_${index}.jpg`
-					var params = {
-						target : target,
-						content_type : 'image/jpeg',
-						product : item.product,
-					}
-					if( this.form.use_discount ){
-						params['discount'] = item.discount
-						params['discount_position'] = this.form.discount_position
-						params['discount_margin'] = this.form.discount_margin
-						params['discount_size'] = this.form.discount_size
-					}
-					if( this.form.use_logo ){
-						params['logo'] = item.logo
-						params['logo_position'] = this.form.logo_position
-						params['logo_margin'] = this.form.logo_margin
-						params['logo_size'] = this.form.logo_size
-						params['logo_transparent'] = this.form.logo_transparent / 100
-					}
-					$.get( "https://node.socialhead.io/image-process", params , (res)=>{
-						let { status = false  , url } = res 
-						this.download(url + '?v=asdadsada', name_image)
-						
-						setTimeout( ()=>{
-							this.index += 1
-							this.imageProcess()
-						}, 200);
-					})
-				},
-				startSync(){
-					var products = this.form.products.toString().split(/\r?\n/)
-					var discounts = this.form.discounts.toString().split(/\r?\n/)
-					var logos = this.form.logos.toString().split(/\r?\n/)
-					if( this.form.use_discount && !this.form.use_logo ){
-						this.data =  cartesian([ products , discounts ]).map((item)=>{
-							return {
-								product : item[0],
-								discount : item[1]
-							}
-						})
-					}else if( !this.form.use_discount && this.form.use_logo){
-						this.data =  cartesian([ products , logos ]).map((item)=>{
-							return {
-								product : item[0],
-								logo : item[1]
-							}
-						})
-					}else  if( this.form.use_discount && this.form.use_logo){
-						this.data =  cartesian([ products , discounts , logos ]).map((item)=>{
-							return {
-								product : item[0],
-								discount : item[1],
-								logo : item[2]
-							}
-						})
-					}
-					this.index = 0 
-					this.is_loading_sync = true
-					this.imageProcess()
-				},
-				toDataURL(url) {
-					return fetch(url).then((response) => {
-							return response.blob();
-						}).then(blob => {
-							return URL.createObjectURL(blob);
-						});
-				},
-				async download(url , name ) {
-					const a = document.createElement("a");
-					a.href = await this.toDataURL(url);
-					a.download = name;
-					document.body.appendChild(a);
-					a.click();
-					document.body.removeChild(a);
-				}
-			},
-			mounted() {
-				var temp = []
-				
-			}
-		})
-	</script>
+	</style>
+</head>
+
+<body>
+	<div id='social-widget-wrapper' data-widget-id='2'></div>
+	<!--<hr>-->
+	<!--<div class='social-widget-wrapper' data-widget-id='3'></div>-->
+	<!--<hr>-->
+	<!--<div class='social-widget-wrapper' data-widget-id='3'></div>-->
+	<input type="hidden" id="social-widget-shop-domain" value="mrvan2804.myshopify.com">
+	<link rel="stylesheet" href="./social-widget.min.css" />
+	<link rel="stylesheet" href="./slick-slider.css" />
+	<script src="./Helper.js"></script>
+	<script src="./SocialWidgetSlider.js"></script>
+	<script src="./social-widget.js"></script>
 </body>
+
 </html>
