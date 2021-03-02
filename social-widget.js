@@ -44,7 +44,6 @@ const SocialWidgetApp = function ($, root) {
         var version = "";
         var renderHTML = function () {
             var config = loadConfigForDevice(version);
-            console.log(config);
             var container = $('<div class="social-widget"><div class="sw-instagram sw-instagram-box"><div class="sw-instagram-header"></div><div class="sw-instagram-body"><div class="sw-instagram-row"></div></div><div class="sw-instagram-footer"></div></div></div>');
             renderWidgetHeader(container,config)
             renderWidgetBody(container,config)
@@ -55,10 +54,10 @@ const SocialWidgetApp = function ($, root) {
         };
         var renderWidgetHeader = function(container,config){
             if( config.is_enable_heading_title ){
-                container.find('.sw-instagram-header').append('<div class="sw-instagram-header-title">'+config.title+'</div>')
+                container.find('.sw-instagram-header').append('<div class="sw-instagram-header-title">'+config.heading_title+'</div>')
             }
             if( config.is_enable_heading_description ){
-                container.find('.sw-instagram-header').append(config.description)
+                container.find('.sw-instagram-header').append('<div class="sw-instagram-header-description">'+config.heading_description+'</div>')
             }
         }
         var renderWidgetBody = function(container,config){
@@ -75,7 +74,7 @@ const SocialWidgetApp = function ($, root) {
                     element_item.attr({
                         "data-id": item.id,
                         href: item.permalink,
-                        target: options.on_image_click_target_link,
+                        target: options.image_click_action_target_link,
                     });
                 }
                 element
@@ -111,7 +110,6 @@ const SocialWidgetApp = function ($, root) {
                 }
                 row.append(element);
             });
-            console.log(config.display_layout);
             switch (config.display_layout) {
                 case 'grid' : 
                    
@@ -149,8 +147,8 @@ const SocialWidgetApp = function ($, root) {
             }
         }
         var renderWidgetFooter = function(container,config){
-            if( config.is_enable_load_more_btn ){
-                var btn_load_more = $(config.load_more_btn_text).addClass('sw-instagram-footer-load-more')
+            if( config.is_enable_load_more_btn && config.display_layout  != 'slider'){
+                var btn_load_more = $('<div class="sw-instagram-footer-load-more">'+config.load_more_btn_text+'</div>')
                 container.find('.sw-instagram-footer').append(btn_load_more)
             }else{
                 container.find('.sw-instagram-footer').remove()
@@ -240,48 +238,61 @@ const SocialWidgetApp = function ($, root) {
             var prefix = version == "mobile" ? 'mobile_' : ''
             var images = [];
             var display_layout = options[prefix + 'display_layout'];
-            var total_collage_image = 0;
+            var collapse_max_image = options[prefix + 'collapse_max_image']
             if (display_layout == "slider") {
                 images = options.images;
             } else if (display_layout == "grid") {
                 images = getNumberImage(options[prefix+'item_no_of_rows'] * options[prefix+'item_no_of_columns']);
             } else if (display_layout == "collage") {
-                total_collage_image = SOCIAL_WIDGET_COLLAGE_STYLES.hasOwnProperty(options.collage_style) ? SOCIAL_WIDGET_COLLAGE_STYLES[options.collage_style] : 10;
-                images = getNumberImage(total_collage_image);
+                images = getNumberImage(collapse_max_image);
             }
-            return {
+            var dynamic_fields = [
+                "auto_play_duration",
+                "auto_play_slider",
+                "collage_style",
+                "collapse_max_image",
+                "cta_btn_link",
+                "cta_btn_target_link",
+                "display_layout",
+                "display_product_item",
+                "heading_description",
+                "heading_title",
+                "is_enable_heading_description",
+                "is_enable_heading_title",
+                "is_enable_item_caption",
+                "is_enable_item_comments_count",
+                "is_enable_item_date",
+                "is_enable_item_hover_effect",
+                "is_enable_item_likes_count",
+                "is_enable_load_more_btn",
+                "is_enable_max_width",
+                "is_enable_popup_caption",
+                "is_enable_popup_comments_count",
+                "is_enable_popup_date",
+                "is_enable_popup_follow_btn",
+                "is_enable_popup_likes_count",
+                "is_enable_popup_user_profile",
+                "item_no_of_columns",
+                "item_no_of_rows",
+                "item_no_of_slider",
+                "layout_background_type",
+                "load_more_btn_text",
+                "on_image_click",
+                "on_image_click_target_link",
+                "popup_follow_btn_text",
+                "popup_user_profile_click_target_link",
+                "image_click_action_target_link",
+                "var_css",
+            ]
+            var result = {
                 version: "desktop",
-                display_layout,
-                item_no_of_rows: options[prefix+'item_no_of_rows'],
-                item_no_of_columns: options[prefix+'item_no_of_columns'],
-                item_no_of_slider: options[prefix+'item_no_of_slider'],
-                auto_play_slider: options[prefix+'auto_play_slider'],
-                auto_play_duration: options[prefix+'auto_play_duration'],
                 images: images,
-                total_collage_image: total_collage_image,
-                on_image_click: options[prefix+'on_image_click'],
-                title : options[prefix+'title'],
-                description : options[prefix+'description'],
-                var_css: options[prefix+'var_css'],
-                is_enable_item_hover_effect: options['is_enable_item_hover_effect'],
-                is_enable_popup_follow_btn: options['is_enable_popup_follow_btn'],
-                is_enable_popup_caption: options['is_enable_popup_caption'],
-                is_enable_popup_likes_count: options['is_enable_popup_likes_count'],
-                is_enable_popup_comments_count: options['is_enable_popup_comments_count'],
-                is_enable_popup_date: options['is_enable_popup_date'],
-                is_enable_heading_title:  options[prefix+'is_enable_heading_title'],
-                is_enable_heading_description:  options[prefix+'is_enable_heading_description'],
-                collage_style: options[prefix+'collage_style'],
-                display_product_item:  options[prefix+'display_product_item'],
-                is_enable_popup_user_profile:  options[prefix+'is_enable_popup_user_profile'],
-                popup_user_profile_click_action:  options[prefix+'popup_user_profile_click_action'],
-                on_image_click:  options[prefix+'on_image_click'],
-                is_enable_load_more_btn:  options[prefix+'is_enable_load_more_btn'],
-                load_more_btn_text:  options[prefix+'load_more_btn_text'],
-                is_enable_max_width:  options[prefix+'is_enable_max_width'],
-                popup_follow_btn_text: options[prefix+'popup_follow_btn_text'],
-                display_product_item: options[prefix+'display_product_item'],
-            };
+                display_layout,
+            }
+            dynamic_fields.forEach((key)=>{
+                result[key] = options[prefix + key]
+            })
+            return result
         };
         var isHTML = function(str) {
             var a = document.createElement('div');
@@ -365,6 +376,9 @@ const SocialWidgetApp = function ($, root) {
                 }
             }, 20);
         };
+        var loadMoreImage = function(){
+
+        }
         var init = function () {
             version = checkVersion();
             renderHTML();
@@ -385,7 +399,7 @@ const SocialWidgetApp = function ($, root) {
         var product_carousel = null 
         var request_tag = null
         var container_html =
-            '<div class="social-widget social-widget-modal"><div class="sw-instagram-modal"><div class="sw-instagram-modal-close"></div><div class="sw-instagram-modal-container"><div class="sw-instagram-modal-nav sw-instagram-modal-nav-prev"><div></div></div><div class="sw-instagram-modal-nav sw-instagram-modal-nav-next"><div></div></div><div class="sw-instagram-modal-wrap"><div class="sw-instagram-modal-body"><div class="sw-instagram-modal-col sw-instagram-modal-col-left"><div class="sw-instagram-modal-col-wrap"><div class="sw-instagram-modal-col-content sw-instagram-modal-image"><div class="sw-instagram-modal-image-relative"></div></div></div></div><div class="sw-instagram-modal-col sw-instagram-modal-col-right"><div class="sw-instagram-modal-col-wrap"><div class="sw-instagram-modal-col-content"><div class="sw-instagram-modal-info"><div class="sw-instagram-modal-info-header"><div class="sw-popup-info-account"></div><div class="sw-spacer"></div><div class="sw-popup-info-action"></div></div><div class="sw-instagram-modal-info-body"><div class="sw-popup-info-caption"></div><div class="sw-popup-info-products"></div></div><div class="sw-instagram-modal-info-footer"><div class="sw-popup-info-row"><div class="sw-popup-info-like"></div><div class="sw-popup-info-comment"></div></div><div class="sw-popup-info-row"><div class="sw-popup-info-date"></div></div></div></div></div></div></div></div></div></div></div></div>';
+            '<div class="social-widget social-widget-modal"><div class="sw-instagram-modal"><div class="sw-instagram-modal-close"></div><div class="sw-instagram-modal-container"><div class="sw-instagram-modal-nav sw-instagram-modal-nav-prev"><svg width="12" height="22" viewBox="0 0 12 22" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M10.8281 21.2188L11.7656 20.3281C11.9531 20.0938 11.9531 19.7188 11.7656 19.5312L3.28125 11L11.7656 2.51562C11.9531 2.32812 11.9531 1.95312 11.7656 1.71875L10.8281 0.828125C10.5938 0.59375 10.2656 0.59375 10.0312 0.828125L0.1875 10.625C0 10.8594 0 11.1875 0.1875 11.4219L10.0312 21.2188C10.2656 21.4531 10.5938 21.4531 10.8281 21.2188Z" fill="#F3F3F3"/> </svg></div><div class="sw-instagram-modal-nav sw-instagram-modal-nav-next"><svg width="12" height="22" viewBox="0 0 12 22" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M1.125 0.828125L0.1875 1.71875C0 1.95312 0 2.32812 0.1875 2.51562L8.67188 11L0.1875 19.5312C0 19.7188 0 20.0938 0.1875 20.3281L1.125 21.2188C1.35938 21.4531 1.6875 21.4531 1.92188 21.2188L11.7656 11.4219C11.9531 11.1875 11.9531 10.8594 11.7656 10.625L1.92188 0.828125C1.6875 0.59375 1.35938 0.59375 1.125 0.828125Z" fill="#F3F3F3"/> </svg></div><div class="sw-instagram-modal-wrap"><div class="sw-instagram-modal-body"><div class="sw-instagram-modal-col sw-instagram-modal-col-left"><div class="sw-instagram-modal-col-wrap"><div class="sw-instagram-modal-col-content sw-instagram-modal-image"><div class="sw-instagram-modal-image-relative"></div></div></div></div><div class="sw-instagram-modal-col sw-instagram-modal-col-right"><div class="sw-instagram-modal-col-wrap"><div class="sw-instagram-modal-col-content"><div class="sw-instagram-modal-info"><div class="sw-instagram-modal-info-header"><div class="sw-popup-info-account"></div><div class="sw-spacer"></div><div class="sw-popup-info-action"></div></div><div class="sw-instagram-modal-info-body"><div class="sw-popup-info-caption"></div><div class="sw-popup-info-products"></div></div><div class="sw-instagram-modal-info-footer"><div class="sw-popup-info-row"><div class="sw-popup-info-like"></div><div class="sw-popup-info-comment"></div></div><div class="sw-popup-info-row"><div class="sw-popup-info-date"></div></div></div></div></div></div></div></div></div></div></div></div>';
         var container = $(container_html);
         var body = $("body");
         var fields = {
@@ -424,14 +438,15 @@ const SocialWidgetApp = function ($, root) {
             });
             modal.on("click", (event) => {
                 var target = $(event.target);
-                if (!target.is('.sw-instagram-modal-wrap, .sw-instagram-modal-wrap *')) {
+                if (!target.is('.sw-instagram-modal-container, .sw-instagram-modal-container *')) {
                     hideModal();
                 }
             });
-            modal.on("click", ".sw-instagram-preview-nav-next", () => {
+            modal.on("click", ".sw-instagram-modal-nav-next", () => {
+                console.log('next');
                 nextImage();
             });
-            modal.on("click", ".sw-instagram-preview-nav-prev", () => {
+            modal.on("click", ".sw-instagram-modal-nav-prev", () => {
                 prevImage();
             });
             window.addEventListener("load", () => {
@@ -471,6 +486,7 @@ const SocialWidgetApp = function ($, root) {
             clearContent()
             setContentPreview(current_item)
             setContentInfo(current_item)
+
         };
        
         var setContentPreview = function (item) {
@@ -629,7 +645,8 @@ const SocialWidgetApp = function ($, root) {
             var item = $('<a class="item-point" href="" target="_blank"><span class="item-point-center"><span class="item-point-arrow"></span><span class="item-point-popover"><span class="item-point-popover-content"><span class="item-point-popover-title"></span><span class="item-point-popover-price"></span><span class="item-point-popover-arrow"></span></span></span></span></a>');
             item.attr({
                 "href" : tag.product_url,
-                "data-id" : tag._id
+                "data-id" : tag._id,
+                "target" : config.cta_btn_link
             });
             item.find(".item-point-popover-title").text(tag.title);
             if( typeof tag.price == 'object' ){
@@ -722,35 +739,43 @@ const SocialWidgetApp = function ($, root) {
             if( item.media_carousel.length ){
                 var slide = fields_html.carousel.clone();
                 var row = slide.find(".sw-instagram-carousel-wrap");
+                var height = modal.find('.sw-instagram-modal-image').height()
+                var width = modal.find('.sw-instagram-modal-image').width()
                 item.media_carousel.forEach((el, index) => {
-                    row.append('<div class="sw-instagram-carousel-item" data-image-id="'+el.id+'"><img  src="' + el.media_url + '"/></div>');
+                    var slide = $('<div class="sw-instagram-carousel-item" data-image-id="'+el.id+'"><div class="sw-instagram-carousel-item-wrap"><img  src="' + el.media_url + '"/></div></div>').css({
+                        width , height
+                    })
+                    row.append(slide)
                 });
+                
                 modal.find(fields.preview).append(slide)
-                carousel = new SocialWidgetSlider($, row , {
-                    adaptiveHeight: false,
-                    arrows: true,
-                    autoplay: false,
-                    slidesToShow: 1,
-                    swipeToSlide: true,
-                    speed: 500,
-                    dots: true,
-                    infinite:false,
-                    draggable:false,
-                    appendDots: modal.find(".sw-instagram-carousel-dots"),
-                    change : function(index){
-                        var id = item.media_carousel[index].id 
-                        modal.find('.sw-instagram-carousel-item').find('.item-point').remove()
-                        var current = modal.find(".sw-instagram-info-products-list") 
-                        if( current.length ){
-                            current.fadeOut(300 , function(){
-                                $(this).remove()
+                setTimeout(() => {
+                    carousel = new SocialWidgetSlider($, row , {
+                        adaptiveHeight: false,
+                        arrows: true,
+                        autoplay: false,
+                        slidesToShow: 1,
+                        swipeToSlide: true,
+                        speed: 500,
+                        dots: true,
+                        infinite:false,
+                        draggable:false,
+                        appendDots: modal.find(".sw-instagram-carousel-dots"),
+                        change : function(index){
+                            var id = item.media_carousel[index].id 
+                            modal.find('.sw-instagram-carousel-item').find('.item-point').remove()
+                            var current = modal.find(".sw-instagram-info-products-list") 
+                            if( current.length ){
+                                current.fadeOut(300 , function(){
+                                    $(this).remove()
+                                    getImageProductTag(item, id )
+                                })
+                            }else{
                                 getImageProductTag(item, id )
-                            })
-                        }else{
-                            getImageProductTag(item, id )
-                        }
-                    },
-                });
+                            }
+                        },
+                    });
+                }, 200);
                 getImageProductTag(item, item.media_carousel[0].id )
                 
             }
@@ -759,8 +784,8 @@ const SocialWidgetApp = function ($, root) {
             var index = findItemIndex(current_item.id);
             if (index >= 0 && index < data.length - 1) {
                 var item = data[index + 1];
-                setContent(item);
-                onSetContent(item);
+                clearContent()
+                showModal(item)
             } else {
                 hideModal();
             }
@@ -769,8 +794,8 @@ const SocialWidgetApp = function ($, root) {
             var index = findItemIndex(current_item.id);
             if (index > 0 && index < data.length) {
                 var item = data[index - 1];
-                setContent(item);
-                onSetContent(item);
+                clearContent()
+                showModal(item)
             } else {
                 hideModal();
             }
@@ -850,7 +875,6 @@ const SocialWidgetApp = function ($, root) {
                         } else if (media_type == "VIDEO") {
                             
                         } else if (media_type == "CAROUSEL_ALBUM") {
-                            console.log(res);
                             let { child_internal_id = '' } = payload
                             if( !carousel_product_tags.hasOwnProperty(child_internal_id) ){
                                 carousel_product_tags[child_internal_id] = product_tag
@@ -885,7 +909,7 @@ const SocialWidgetApp = function ($, root) {
             });
         }
         var renderCarouselProductTag = async function(item,tags){
-            var img = modal.find('.sw-instagram-carousel-item[data-image-id="'+item.id+'"]');
+            var img = modal.find('.sw-instagram-carousel-item[data-image-id="'+item.id+'"]').find('.sw-instagram-carousel-item-wrap')
             var naturalImage = await loadImage(item.media_url);
             var img_box = {
                 width: img.width(),
@@ -908,8 +932,10 @@ const SocialWidgetApp = function ($, root) {
             var wrap = $('<div class="sw-instagram-info-products-list" />')
             
             data.forEach((product)=>{
-                var item = $('<div class="sw-instagram-modal-product"><div class="sw-instagram-modal-product-wrap"><div class="sw-instagram-modal-product-header"><div class="sw-instagram-modal-product-image"><div class="sw-instagram-modal-product-image-badge"></div><div class="sw-instagram-modal-product-image-wrap"></div></div></div><div class="sw-instagram-modal-product-body"><div class="sw-instagram-modal-product-title"></div><div class="sw-instagram-modal-product-price"></div></div></div></div>').attr({
-                    id : product._id
+                var item = $('<a  class="sw-instagram-modal-product"><div class="sw-instagram-modal-product-wrap"><div class="sw-instagram-modal-product-header"><div class="sw-instagram-modal-product-image"><div class="sw-instagram-modal-product-image-badge"></div><div class="sw-instagram-modal-product-image-wrap"></div></div></div><div class="sw-instagram-modal-product-body"><div class="sw-instagram-modal-product-title"></div><div class="sw-instagram-modal-product-price"></div></div></div></a>').attr({
+                    id : product._id,
+                    href : product.product_url,
+                    target : config.cta_btn_link
                 })
                 if( product.badge){
                     $('<img />').attr({
