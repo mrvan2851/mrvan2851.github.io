@@ -1,0 +1,78 @@
+@for $i from 0 through 200{
+    .m-l-#{$i}{
+        margin-left:#{$i}px !important;
+    }
+    .m-t-#{$i}{
+        margin-top:#{$i}px !important;
+    }
+    .m-r-#{$i}{
+        margin-right:#{$i}px !important;
+    }
+    .m-b-#{$i}{
+        margin-bottom:#{$i}px !important;
+    }
+    .m-all-#{$i}{
+        margin:#{$i}px !important;
+    }
+    .mg-#{$i}{
+        margin:#{$i}px !important;
+    }
+    .p-l-#{$i}{
+        padding-left:#{$i}px !important;
+    }
+    .p-t-#{$i}{
+        padding-top:#{$i}px !important;
+    }
+    .p-r-#{$i}{
+        padding-right:#{$i}px !important;
+    }
+    .p-b-#{$i}{
+        padding-bottom:#{$i}px !important;
+    }
+    .p-all-#{$i}{
+        padding:#{$i}px !important;
+    }
+    .pd-#{$i}{
+        padding:#{$i}px !important;
+    }
+}
+@for $i from 1 through 50{
+    .font-size-#{$i}{
+        font-size:#{$i}px !important;
+    }
+}
+@for $i from 1 through 10{
+    .font-weight-#{$i}00{
+        font-weight:#{$i* 100} !important;
+    }
+    .f-w-#{$i}00{
+        font-weight:#{$i * 100} !important;
+    }
+}
+
+@media (min-width: 576px) {  
+    .row-sm-reverse{
+        flex-direction: row-reverse;
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    .row-md-reverse{
+        flex-direction: row-reverse;
+    }
+ }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    .row-lg-reverse{
+        flex-direction: row-reverse;
+    }
+ }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    .row-xl-reverse{
+        flex-direction: row-reverse;
+    }
+}
