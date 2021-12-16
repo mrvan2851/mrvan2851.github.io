@@ -199,7 +199,7 @@
 	}
 	.section{
 		&-book{
-			padding:30px 0;
+			padding:50px 0 30px 0;
 			.row{
 				margin-left: -30px;
 				margin-right: -30px;
@@ -212,10 +212,11 @@
 				.item-info{
 					display: flex;
 					flex-direction: row-reverse;
-					
+					min-height: 245px;
 					.item-title{
-						padding-top: 60px;
-						@include flex(50%);
+						padding-top: 45px;
+						@include col;
+						min-width: 0;
 						h3{
 							font-size: 32px;
 							font-weight: bold;
@@ -230,13 +231,14 @@
 						}
 					}
 					.item-image{
-						@include flex(50%);
+						@include flex(45%);
 						img{
 							max-width: 100%;
 						}
 					}
 				}
 				.item-content{
+					margin-top: 10px;
 					p{
 						font-size: 22px;
 						font-weight: 300;
@@ -257,6 +259,14 @@
 					}
 					.item-info{
 						flex-direction: row;
+						.item-image{}
+					}
+				}
+				&:nth-child(2n){
+					.item-info{
+						.item-image{
+							@include flex(40%);
+						}
 					}
 				}
 			}
