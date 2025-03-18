@@ -1,0 +1,247 @@
+{
+    "table": {
+        "navigate_button_content": "E-postarbetsflöde",
+        "no_data": {
+            "title": "Hantera dina begäran om e-post",
+            "description": "Aktiva e-postmallar för att börja skicka automatiska e-postmeddelanden till kunder.",
+            "setting_email_templates": "Inställning av e-postmallar"
+        },
+        "title": "Begäran om gransknings-e-post",
+        "second_title": "Skicka e-post manuellt",
+        "search_placeholder": "Ange en e-postadress eller ordernummer",
+        "all_status": "Alla statusar",
+        "email_type": "E-posttyp",
+        "email_review_request": "Begäran om gransknings-e-post",
+        "remind_request_review": "Påminnelse om begäran om gransknings-e-post",
+        "thank_you_email": "Tack-e-post",
+        "just_now": "Just nu",
+        "order_id": "Ordernummer",
+        "buyer": "Köpare",
+        "location": "Plats",
+        "product": "Produkt",
+        "purchase_time": "Köptid",
+        "schedule_date": "Schemalägg datum",
+        "send_now": "Skicka nu",
+        "send_again": "Skicka igen"
+    },
+    "campaign": {
+        "banner": {
+            "title": "Kundrecensioner är kraftfulla!",
+            "content": "Några meningar i en recension kan ha större inflytande på konsumenter än en hel webbplats. Få dina kundrecensioner med våra inbyggda e-postkampanjer och mallar för att göra ditt liv enklare!"
+        },
+        "email_content": "E-postinnehåll",
+        "email_content_description": "Skapa e-postinnehåll med anpassat språk för att säkerställa att dina kunder lätt förstår meddelandet",
+        "email_will_be_sent": "E-post kommer att skickas",
+        "title": "E-postarbetsflöde",
+        "not_active": "inte aktiv",
+        "running": "Kör",
+        "save_just_now": "Spara just nu",
+        "send_test": "Skicka test",
+        "send_test_email": "Skicka test-e-post",
+        "enter_email_address": "Ange e-postadress nedan",
+        "confirm": "Bekräfta",
+        "when_to_send": "När ska det skickas",
+        "all_change_save": "Alla ändringar sparade",
+        "all_customer": "Alla kunder",
+        "email_schedule": "E-postschema",
+        "email_scheduling": "E-postplanering",
+        "email_scheduling_subtitle": "Anpassa tidpunkten när e-post skickas till kunder som kommer från olika geografiska områden",
+        "to": "Till",
+        "subject": "Ämne",
+        "preview": "Förhandsgranska",
+        "from": "Från",
+        "branding": "Varumärke",
+        "logo": "Logotyp",
+        "personalization": "Personifiering",
+        "active_require_toast": "Du behöver aktivera utlösare för begäran om granskning",
+        "product_quantity": "Produktkvantitet",
+        "star_rating_icon": "Stjärnbetygsikon",
+        "call_to_action_btn": "Handlingsknapp (Skriv en recension)",
+        "request_review": {
+            "title": "Begär recension",
+            "content": "Efter <strong>{{day}}</strong> dagar och ett <strong>{{status}}</strong> skickas ett automatiskt e-postmeddelande till kunden för att begära en recension av produkten.",
+            "toast_active": "Recensionsförfrågan aktiverad",
+            "toast_deactive": "Recensionsförfrågan inaktiverad"
+        },
+        "request_review_reminder": {
+            "title": "Påminnelse om recension",
+            "content": "Efter <strong>{{days}}</strong> dagar från det första recensionsförfrågningsmeddelandet skickas en påminnelse automatiskt om inget svar mottas. Aktiv endast om recensionsförfrågan är aktiverad.",
+            "after_review_request_mail": "efter recensionsförfrågan",
+            "toast_active": "Påminnelse aktiverad",
+            "toast_deactive": "Påminnelse inaktiverad"
+        },
+        "thank_you_for_review": {
+            "title": "Tack för recensionen",
+            "content": "Efter att en kund lämnar en recension skickas automatiskt ett tackmail. Rabattkoder och erbjudanden kan läggas till. Aktiv endast om recensionsförfrågan är aktiverad.",
+            "content_2": "<strong>{{days}}</strong> dagar efter att en kund lämnar en recension skickas automatiskt ett tackmail. Rabattkoder och erbjudanden kan läggas till. Aktiv endast om recensionsförfrågan är aktiverad.",
+            "after_review_submit": "Recension inskickad",
+            "review_submitted": "Recension inskickad",
+            "approve_for_review": "Recension godkänd",
+            "toast_active": "Tackmail aktiverat",
+            "toast_deactive": "Tackmail inaktiverat"
+        },
+        "send_test_success": "E-postmeddelandet skickades framgångsrikt",
+        "send_test_hepltext": "Ange e-postadress nedan",
+        "store_name": "Butiksnamn",
+        "first_name": "Förnamn",
+        "last_name": "Efternamn",
+        "email": "E-post",
+        "city": "Stad",
+        "state_province": "Stat/Provins",
+        "country": "Land",
+        "request_review_emails": "Begära gransknings-e-postmeddelanden",
+        "background_color": "Bakgrundsfärg",
+        "text_color": "Textfärg",
+        "show_header": "Visa rubrik",
+        "hide_header": "Dölj rubrik",
+        "order_status": "Orderstatus",
+        "complete": "Slutför",
+        "completed": "Slutförd",
+        "order_paid": "Betald",
+        "default": "Standard",
+        "add_country_timing": "Lägg till landspecifik tidpunkt",
+        "type_a_language_name": "Skriv in ett språknamn",
+        "no_language_found": "Inget språk hittades som matchar: ",
+        "rabattkupong": "Rabattkupong",
+        "automation": "Automatisering",
+        "discount_description": "Uppmuntra kunder att lämna en recension genom att erbjuda rabatt på deras nästa köp",
+        "email_queue": "Manuell e-postbegäran",
+        "email_queue_description": "Skicka begäran om e-post för de beställningar som inte skickas automatiskt",
+        "country_selected_count": "{{selected}} av {{total}} valda",
+        "country_group": {
+            "asia": "Asien",
+            "europe": "Europa",
+            "africa": "Afrika",
+            "north_america": "Nordamerika",
+            "south_america": "Sydamerika",
+            "oceania": "Oceanien"
+        }
+    },
+    "email_template": {
+        "request_review": {
+            "subject": "Nöjd med ditt köp av {{PRODUCT_NAME}}? Lämna en recension nu!",
+            "preview_text": "Tack för ditt senaste köp. Vi hoppas att du älskar det! Om du gör det kommer din recension att vara mycket meningsfull för oss",
+            "body": {
+                "title": "Hur var din upplevelse? 🤗",
+                "html": "<h2>Hur var din upplevelse? 🤗</h2>",
+                "content": {
+                    "html": "<p><strong>Hej </strong>{{FIRST_NAME}}</p>\n<p>Vi vill kolla läget och se hur du njuter av din shopping på {{STORE_NAME}}</p>\n<p>Om du har en stund skulle det vara fantastiskt om du kunde dela dina tankar och erfarenheter med oss och andra kunder. Din godkännande är allt 🤩.</p>\n",
+                    "raw": "{'blocks':[{'key':'e8our','text':'Hej {{FIRST_NAME}}','type':'unstyled','depth':0,'inlineStyleRanges':[{'offset':0,'length':6,'style':'BOLD'}],'entityRanges':[],'data':{}},{'key':'eustq','text':'Vi vill kolla läget och se hur du njuter av din shopping på {{STORE_NAME}}','type':'unstyled','depth':0,'inlineStyleRanges':[],'entityRanges':[],'data':{}},{'key':'7tjk7','text':'Om du har en stund skulle det vara fantastiskt om du kunde dela dina tankar och erfarenheter med oss och andra kunder. Din godkännande är allt 🤩.','type':'unstyled','depth':0,'inlineStyleRanges':[],'entityRanges':[],'data':{}}],'entityMap':{}}"
+                },
+                "product": {
+                    "rate_this_item": {
+                        "text": "Betygsätt den här artikeln"
+                    }
+                }
+            }
+        },
+        "thank_you_email": {
+            "subject": "Tack för att du lämnade en recension!❤️",
+            "preview_text": "Tack för ditt senaste köp. Vi hoppas att du älskar det! Om du gör det kommer din recension att vara mycket meningsfull för oss",
+            "body": {
+                "html": "<h2>Tack för att du lämnade en recension!❤️</h2>",
+                "title": "Tack för att du lämnade en recension!❤️",
+                "content": {
+                    "html": "<p><strong>Hej </strong>{{FIRST_NAME}}</p>\n<p>Hej Tack för att du lämnade en recension av ditt senaste köp. Vi älskar att höra feedback och uppskattar den tid du tog för att dela din erfarenhet med den här artikeln.</p>",
+                    "raw": "{'blocks':[{'key':'e8our','text':'Hej {{FIRST_NAME}}','type':'unstyled','depth':0,'inlineStyleRanges':[{'offset':0,'length':6,'style':'BOLD'}],'entityRanges':[],'data':{}},{'key':'eustq','text':'Tack för att du lämnade en recension av ditt senaste köp. Vi älskar att höra feedback och uppskattar den tid du tog för att dela din erfarenhet med den här artikeln.','type':'unstyled','depth':0,'inlineStyleRanges':[],'entityRanges':[],'data':{}},{'key':'al478','text':'','type':'unstyled','depth':0,'inlineStyleRanges':[],'entityRanges':[],'data':{}}],'entityMap':{}}"
+                },
+                "reviews": {
+                    "review_on": "Recensioner på",
+                    "btn_shop_now": "Handla nu"
+                }
+            }
+        },
+        "tone_voice": {
+            "friendly": {
+                "request_review": {
+                    "subject": "Nöjd med ditt köp av {{PRODUCT_NAME}}? Lämna en recension nu!",
+                    "content": "<p><strong>Hej </strong>{{FIRST_NAME}}</p>\n<p>Vi vill kolla läget och se hur du njuter av din shopping på {{STORE_NAME}}</p>\n<p>Om du har en stund skulle det vara fantastiskt om du kunde dela dina tankar och erfarenheter med oss och andra kunder. Din godkännande är allt 🤩.</p>\n<p>Varmt,</p>\n<p>{{STORE_NAME}}-teamet</p>"
+                },
+                "request_review_reminder": {
+                    "subject": "Hur var din upplevelse? Låt oss veta.",
+                    "content": "Tack för ditt senaste köp. Vi hoppas att du älskar det! Om du gör det kommer din recension att vara mycket meningsfull för oss"
+                },
+                "thank_you_email": {
+                    "subject": "Tack för att du lämnade en recension!❤️",
+                    "content": "<p><strong>Hej </strong>{{FIRST_NAME}}</p>\n<p>Tack för att du lämnade en recension av ditt senaste köp. Vi älskar att höra feedback och uppskattar den tid du tog för att dela din erfarenhet med den här artikeln.</p>"
+                }
+            },
+            "professional": {
+                "request_review": {
+                    "subject": "Din åsikt är viktig: Dela dina tankar om {{PRODUCT_NAME}}",
+                    "content": "<p><strong>Kära </strong>{{FIRST_NAME}}</p>\n<p>Vi hoppas att du njuter av ditt senaste köp av {{PRODUCT_NAME}} från {{STORE_NAME}}. Din åsikt är avgörande för att hjälpa oss förbättra vårt utbud och ge den bästa möjliga upplevelsen för alla våra kunder.</p>\n<p>Vi vill gärna att du delar dina tankar om {{PRODUCT_NAME}} genom att lämna en recension på vår webbplats. Din ärliga feedback uppskattas mycket.</p>\n<p>Tack för din tid och fortsatta support.</p>\n<p>Med vänliga hälsningar,</p>\n<p>{{STORE_NAME}}-teamet</p>"
+                },
+                "request_review_reminder": {
+                    "subject": "Din senaste upplevelse med {{STORE_NAME}}",
+                    "content": "<p><strong>Hej</strong> {{FIRST_NAME}}</p>\n<p>Tack för att du valde {{STORE_NAME}}! Vi hoppas att du njuter av ditt senaste köp. Din åsikt är värdefull, och vi skulle uppskatta om du kunde ta en stund att dela din upplevelse.</p>\n<p>Med vänliga hälsningar,</p>\n<p>{{STORE_NAME}}</p>"
+                },
+                "thank_you_email": {
+                    "subject": "Recension mottagen: Din åsikt är viktig!",
+                    "content": "<p><strong>Kära </strong>{{FIRST_NAME}}</p>\n<p>Tack för att du tog dig tid att skicka in en recension av ditt senaste köp. Din feedback är värdefull för oss när vi strävar efter att kontinuerligt förbättra våra produkter och tjänster. Vi uppskattar att du delar dina insikter.</p>"
+                }
+            },
+            "persuasive": {
+                "request_review": {
+                    "subject": "Få exklusiva förmåner! Dela din recension av {{PRODUCT_NAME}}",
+                    "content": "<p><strong>Hej </strong>{{FIRST_NAME}}</p>\n<p>Njuter du av din nya {{PRODUCT_NAME}} från {{STORE_NAME}}? Vi skulle älska att höra om det!</p>\n<p>Genom att dela din ärliga recension på vår webbplats hjälper du andra att fatta informerade beslut och kan också låsa upp exklusiva förmåner för dig, som en specialkupong till ditt nästa köp!</p>\n<p>Det tar bara några minuter att lämna en recension, och det kommer att göra en stor skillnad.</p>\n<p>Klicka på stjärnorna och dela dina tankar idag!</p>\n<p>Tack,</p>\n<p>{{STORE_NAME}}-teamet</p>"
+                },
+                "request_review_reminder": {
+                    "subject": "Lås upp exklusiva förmåner med din recension!",
+                    "content": "<p><strong>Hej</strong> {{FIRST_NAME}},</p>\n<p>Ditt senaste köp från {{STORE_NAME}} betyder mycket för oss! Dela dina tankar, lås upp exklusiva förmåner och njut av något speciellt bara för dig.</p>\n<p>Tack för att du valde {{STORE_NAME}}!</p>\n<p>Varmt välkommen,</p>\n<p>{{STORE_NAME}}</p>"
+                },
+                "thank_you_email": {
+                    "subject": "Hjälp andra att handla smartare: Dela din recensionsupplevelse!",
+                    "content": "<p><strong>Hej</strong> {{FIRST_NAME}},</p>\n<p>Vi uppskattar att du lämnade en recension av ditt senaste köp! Dina insikter är värdefulla för andra kunder, och vi uppskattar verkligen att du tog dig tid att bidra till vår gemenskap. Genom att dela din erfarenhet hjälper du andra att fatta informerade beslut.</p>"
+                }
+            },
+            "supportive": {
+                "request_review": {
+                    "subject": "Vi finns här för att hjälpa! Dela din upplevelse med {{PRODUCT_NAME}}",
+                    "content": "<p><strong>Hej </strong>{{FIRST_NAME}}</p>\n<p>Vi hoppas att du trivs med din nya {{PRODUCT_NAME}} från {{STORE_NAME}}.</p>\n<p>Din recension på vår webbplats hjälper inte bara andra, utan den hjälper oss också att se till att vi ger bästa möjliga support till våra kunder.</p>\n<p>Du är välkommen att dela dina tankar om {{PRODUCT_NAME}}, både positiva och negativa. Vi värdesätter dina synpunkter och vill se till att du är helt nöjd.</p>\n<p>Om du har några frågor eller behöver hjälp med din {{PRODUCT_NAME}}, tveka inte att kontakta vårt vänliga kundserviceteam.</p>\n<p>Vi är alltid glada att hjälpa till!</p>\n<p>Varmt välkommen,</p>\n<p>{{STORE_NAME}}-teamet</p>"
+                },
+                "request_review_reminder": {
+                    "subject": "Din åsikt är viktig för {{STORE_NAME}}",
+                    "content": "<p><strong>Kära</strong> {{FIRST_NAME}},</p>\n<p>Vi hoppas att du är nöjd med ditt senaste köp från {{STORE_NAME}}. Din feedback är viktig. Ta gärna en stund att dela dina tankar.</p>\n<p>Tack för att du är en värdefull kund hos {{STORE_NAME}}.</p>\n<p>Med vänliga hälsningar,</p>\n<p>{{STORE_NAME}}</p>"
+                },
+                "thank_you_email": {
+                    "subject": "Vi såg din recension!",
+                    "content": "<p><strong>Hej</strong> {{FIRST_NAME}},</p>\n<p>Vi såg din recension av ditt senaste köp och ville uttrycka vårt uppriktiga tack! Din feedback är viktig för oss, eftersom den hjälper oss att se till att vi ger bästa möjliga upplevelse för alla våra kunder.</p>"
+                }
+            }
+        }
+    },
+    "qr_code_setting": {
+        "page_title": "QR-kodhantering",
+        "store_qr_code": "Butikens QR-kod",
+        "store_qr_code_description": "Skapa och anpassa unika QR-koder för din butik, vilket gör det möjligt för kunder att hantera och granska sina beställningar med bara en skanning. Förbättra din butiks kundupplevelse med snabb och bekväm QR-kodintegration.",
+        "download_qr_code": "Ladda ner QR-kod",
+        "scan_analysis": "Skanningsanalys",
+        "bar_chart": "Stapeldiagram",
+        "line_chart": "Linjediagram",
+        "total_scans": "Totala skanningar",
+        "operating_system_scan": "Operativsystemskanning",
+        "total_scan": "Total skanning",
+        "rate": "Betygsätt",
+        "top_country": "Topp land",
+        "country": "Land",
+        "top_cities": "Topp städer",
+        "cities": "Städer",
+        "modal_customize": {
+            "title": "Butikens QR-kodredigerare",
+            "frame": "Ram",
+            "background_color": "Bakgrundsfärg",
+            "transparent_background": "Transparent bakgrund",
+            "logo": "Logotyp",
+            "upload_logo": "Ladda upp logotyp",
+            "pattern_color": "Mönsterfärg",
+            "custom_pattern_color": "Anpassad mönsterfärg",
+            "frame_color": "Ramfärg"
+        }
+    },
+    "product_photo": "Produktfoto",
+    "product_name": "Produktnamn",
+    "quantity": "Antal",
+    "unsubcribe": "Avsluta prenumeration",
+    "resync-order": "Synkronisera order på nytt",
+    "resync-helptext": "Systemet kommer att synkronisera alla dina tidigare beställningar."
+}

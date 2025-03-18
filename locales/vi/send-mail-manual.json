@@ -1,0 +1,23 @@
+{
+    "send_mail": {
+        "title": "Gửi Email Thủ Công",
+        "subject": "Gửi email yêu cầu cho các đơn hàng không được gửi tự động"
+    },
+
+    "table": {
+        "orders": "Đơn Hàng",
+        "date": "Ngày",
+        "customer": "Khách Hàng",
+        "total": "Tổng",
+        "fulfillment_status": "Trạng Thái Hoàn Thành",
+        "items": "Mặt Hàng"
+    },
+    "empty_search": {
+        "title": "Không tìm thấy đơn hàng",
+        "description": "Hãy thử thay đổi bộ lọc hoặc từ khóa tìm kiếm"
+    },
+    "banner": {
+        "title": "Cập nhật",
+        "content": "Để sử dụng tính năng này, bạn cần cấp quyền 'read_orders' bổ sung cho TrustShop. Để cấp quyền, vui lòng nhấp vào nút bên dưới"
+    }
+}

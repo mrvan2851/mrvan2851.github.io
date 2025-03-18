@@ -1,0 +1,169 @@
+{
+    "step_1": {
+        "button": "Kom igång",
+        "sub_title": "Kom igång genom att ansluta din Shopify-butik. TrustShop kommer att integreras sömlöst med din butik, vilket gör det enkelt att hantera recensioner och engagera sig med kunderna.",
+        "title": "✋ Välkommen till TrustShop",
+        "select_language": "Vad är ditt primära språk för kommunikation?",
+        "select_language_subtitle": "Välj ditt föredragna språk för gränssnittet.",
+        "help_text": "Du kan alltid ändra det primära språket senare i inställningarna.",
+        "app_language": "App språk"
+    },
+    "step_2": {
+        "quick_guide": {
+            "reload_btn": "Ladda om",
+            "recheck_btn": "Fel. Klicka för att kontrollera igen",
+            "step_1": "<p>Klicka på <span>Aktivera app-embed</span>-knappen</p>",
+            "step_2": "<p>En sida öppnas och appen är <span>auto aktiverad</span></p>",
+            "step_3": "<p>Klicka på <span>Spara</span>-knappen (uppe till höger) och se till att du får ett framgångsmeddelande</p>",
+            "step_4": "<p>Gå tillbaka till denna <span>onboarding-sida</span> för att fortsätta onboarding för <span>TrustShop</span>.</p>",
+            "success_btn": "App-embed aktiverad framgångsrikt",
+            "sub_title": "Aktivera appen enkelt genom att följa dessa steg: ",
+            "title": "👉 Missa inte denna guide 👈",
+            "not_detect_embedded": "Aktivering misslyckades. Försök igen.",
+            "add_widget_helptext": "Har du problem med att lägga till widgeten? Kontakta oss för detaljerad hjälp!",
+            "helptext": "<p>Detta steg lägger till nödvändig kod för att visa recensioner på din butik.<p><p><i>Oroa dig inte - detta kommer inte att påverka din butiks design eller layout.</i></p>"
+        },
+        "sub_title": "Visa recensioner sömlöst senare steg",
+        "title": "Automatiska recensionförfrågningar",
+        "email_setting_title": "Ställ in e-postförfrågan om recension",
+        "email_setting_subtitle": "Recensionsförfrågningar kommer automatiskt att skickas baserat på inställningarna nedan",
+        "customer_in_country": "Kunder i land",
+        "default_country": "Standard (Alla länder)",
+        "send_email_request_review": "Skicka e-postförfrågan om recension",
+        "after_order": "Efter att beställningsstatusen är",
+        "add_more_country": "Lägg till fler länder",
+        "help_text": "Du kan alltid ändra denna konfiguration senare i inställningarna."
+    },
+    "step_3": {
+        "v1": {
+            "quick_guide": {
+                "title": "Lägg till Recensionswidget",
+                "reload_btn": "Ladda om",
+                "recheck_btn": "Fel. Klicka för att kontrollera igen",
+                "step_1": "<p>Öppna <1>templates/product.liquid</1> i redigeraren</p>",
+                "step_2": "<p>Lägg till följande kod i slutet av din temafil</p>",
+                "step_3": "<p>Klicka på <span>Spara</span></p>",
+                "step_4": "<p>Återgå till denna <span>onboarding-sida</span> för att fortsätta onboarding.</p>",
+                "helptext": "<p>Detta steg lägger till nödvändig kod för att visa recensioner på din butik.<p><p><i>Oroa dig inte - detta kommer inte att påverka din butiks design eller layout.</i></p>"
+            }
+        },
+        "v2": {
+            "quick_guide": {
+                "title": "Lägg till Recensionswidget",
+                "reload_btn": "Ladda om",
+                "recheck_btn": "Fel. Klicka för att kontrollera igen",
+                "step_1": "<p>Klicka på knappen <span>Lägg till widget</span></p>",
+                "step_2": "<p>Widgeten kommer automatiskt att läggas till i din produktmall</p>",
+                "step_3": "<p>Klicka på <span>Spara</span> för att bekräfta ändringarna</p>",
+                "step_4": "Kolla din produktens sida för att se recensionerna i aktion",
+                "step_5": "<p>Återgå till denna <span>onboarding-sida</span> för att fortsätta onboarding</p>",
+                "helptext": "<p>Detta steg lägger till nödvändig kod för att visa recensioner på din butik.</p><p><i>Oroa dig inte - detta kommer inte att påverka din butiks design eller layout.</i></p>"
+            }
+        },
+        "quick_guide": {
+            "sub_title": "Följ dessa enkla steg för att aktivera produktrecensioner på din butik:",
+            "title": "Snabbguide",
+            "not_detect_widget": "Vi kunde inte upptäcka någon widget. Försök igen!",
+            "add_widget_helptext": "Har du problem med att lägga till widgeten? Kontakta oss för detaljerad hjälp!",
+            "success_btn": "Widget tillagd framgångsrikt"
+        },
+        "sub_title": "Visa recensionswidget på din webbutik.",
+        "title": "Ställ in produktrecensionsvisning",
+        "enable_app_embed": "Aktivera appintegration",
+        "enable_app_embed_subtitle": "Följ dessa enkla steg för att aktivera produktrecensioner på din butik",
+        "add_widget_btn": "Lägg till widget",
+        "enable_embed": "Aktivera appintegration"
+    },
+    "step_4": {
+        "button": "Gå till instrumentpanelen",
+        "sub_title": "Grattis! Du är nu redo att turbo-ladda ditt varumärke med recensioner och hänvisningar. Gör dig redo att se ditt företag växa!",
+        "title": "Du är redo!",
+        "import_text": "Importera recensioner enkelt från Product Reviews by Shopify, Judge.me, Loox och mer",
+        "import_button": "Importera recensioner",
+        "dashboard_text": "Börja hantera recensioner och engagera kunder med ditt varumärke",
+        "dashboard_button": "Gå till instrumentpanelen"
+    },
+    "pricing_page": {
+        "title": "Enkel, rak prisstruktur!",
+        "sub_title": "7 dagars gratis provperiod. Inga dolda avgifter.",
+        "free_plan_des": "Eller kom igång gratis, perfekt för nybörjare.",
+        "recommended": "Rekommenderad",
+        "pricing_card": {
+            "basic": {
+                "title": "Standard",
+                "sub_title": "Perfekt för små företag.",
+                "benefit": {
+                    "1": "<p><span>200</span> beställningsrecensionsförfrågningar/månad</p>",
+                    "2": "<p>Få tillgång till de flesta premiumfunktionerna</p>",
+                    "3": "<p>Shopify flow integration</p>",
+                    "4": "<p>Prioriterad kundsupport</p>"
+                }
+            },
+            "pro": {
+                "title": "Enterprise",
+                "sub_title": "Ta ditt företag till nästa nivå.",
+                "benefit": {
+                    "1": "<p><span>1 500</span> beställningsrecensionsförfrågningar/månad</p>",
+                    "2": "<p>Få tillgång till <span>alla premiumfunktioner.</span></p>",
+                    "3": "<p>Recensionsdetaljsida</p>",
+                    "4": "<p>Anpassad domän</p>",
+                    "5": "<p>Shopify flow integration</p>",
+                    "6": "<p>Prioriterad kundsupport</p>"
+                }
+            },
+            "unlimited": {
+                "title": "Ultimate",
+                "sub_title": "Det finns inga gränser för din tillväxt.",
+                "benefit": {
+                    "1": "<p><span>Ultimate</span> beställningsrecensionsförfrågningar</p>",
+                    "2": "<p>Få tillgång till <span>alla premiumfunktioner.</span></p>",
+                    "3": "<p>Recensionsdetaljsida</p>",
+                    "4": "<p>Anpassad domän</p>",
+                    "5": "<p>Shopify flow integration</p>",
+                    "6": "<p>Prioriterad kundsupport</p>"
+                }
+            }
+        }
+    },
+    "modal_compare_plans": {
+        "title": "Jämför planer",
+        "pricing_card": {
+            "free": {
+                "title": "Basic",
+                "sub_title": "Kom igång gratis, perfekt för nybörjare.",
+                "benefit": {
+                    "1": "<p><span>50</span> beställningsrecensionsförfrågningar/månad</p>",
+                    "2": "<p>Grundläggande åtkomst till recensionswidgeten</p>",
+                    "3": "<p>Grundläggande redigering av recensions-e-post</p>",
+                    "4": "<p>Endast uppladdning av bilder från recensenter</p>"
+                }
+            },
+            "basic": {
+                "title": "Standard",
+                "sub_title": "Perfekt för små företag eller individer.",
+                "benefit": {
+                    "1": "<p><span>200</span> beställningsrecensionsförfrågningar/månad</p>",
+                    "2": "<p>Få tillgång till <span>de flesta premiumfunktioner</span></p>",
+                    "3": "<p>Helt anpassningsbar widget</p>",
+                    "4": "<p>Recensionsvideo</p>",
+                    "5": "<p>Google Shopping</p>",
+                    "6": "<p>Skydda dina recensioner</p>"
+                }
+            },
+            "pro": {
+                "title": "Enterprise",
+                "sub_title": "Ta ditt företag till nästa nivå.",
+                "benefit": {
+                    "1": "<p><span>1 500</span> beställningsrecensionsförfrågningar/månad</p>",
+                    "2": "<p>Få tillgång till <span>alla premiumfunktioner.</span></p>",
+                    "3": "<p>Helt anpassningsbar widget</p>",
+                    "4": "<p>Recensionsvideo</p>",
+                    "5": "<p>Google Shopping</p>",
+                    "6": "<p>Skydda dina recensioner</p>",
+                    "7": "<p>Recensionsdetaljsida</p>",
+                    "8": "<p>Anpassad domän</p>"
+                }
+            }
+        }
+    }
+}

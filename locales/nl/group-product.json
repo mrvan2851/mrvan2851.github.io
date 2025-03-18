@@ -1,0 +1,41 @@
+{
+    "group_overview": {
+        "titel": "Combineer productbeoordeling",
+        "beschrijving": "Gebruik combinaties om beoordelingen te delen over vergelijkbare producten, bundels te maken en aangepaste weergaven te ontwikkelen",
+        "create_button": "Groep maken",
+        "delete_group_message": "Als je de groep verwijdert, worden alle beoordelingen gescheiden en teruggezet naar hun oorspronkelijke producten. Je hebt geen toegang meer en deze actie kan niet ongedaan worden gemaakt. Wil je doorgaan?",
+        "delete_group": "Groep verwijderen",
+        "limit_function": "Upgrade naar een hoger plan om deze functie te gebruiken. <1>Bekijk prijzen</1>"
+    },
+    "create_group_page": {
+        "title": "Groepsproduct maken",
+        "group_name": "Groepsnaam",
+        "product_in_this_group": "Producten in deze groep",
+        "description": "Voeg producten toe aan deze groep",
+        "sub_description": "Selecteer product om toe te voegen aan deze groep",
+        "add_product": "Product toevoegen",
+        "unsaved_change_title": "Weet je zeker dat je wilt afsluiten?",
+        "unsaved_change_message": "Je groep is niet opgeslagen. Als je afsluit, gaan je instellingen verloren. Wil je doorgaan?"
+    },
+    "create_group_modal": {
+        "title": "Groepsproduct maken",
+        "select_product_for": "Selecteer product voor",
+        "add_product_to_group": "Product toevoegen aan groep",
+        "search_product": "Zoek product",
+        "product": "Product",
+        "total_reviews": "Totaal aantal beoordelingen",
+        "average_rating": "Gemiddelde beoordeling",
+        "no_product_found": "Geen product gevonden",
+        "no_result_for": "Geen resultaat voor "
+    },
+    "group_detail_page": {
+        "group_rating_summary": "Groepsbeoordelingssamenvatting",
+        "products_in_group": "Producten in groep",
+        "reviews_in_group": "Beoordelingen in groep",
+        "delete_product": "Product verwijderen",
+        "most_helpful": "Meest behulpzaam",
+        "newest": "Nieuwste",
+        "delete_confirm_title": "Product uit groep verwijderen",
+        "delete_confirm_message": "Weet je zeker dat je dit product wilt verwijderen?"
+    }
+}

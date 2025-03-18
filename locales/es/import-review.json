@@ -1,0 +1,42 @@
+{
+    "title": "Importar reseñas",
+    "subtitle": "La extensión te permite recopilar reseñas valiosas de AliExpress",
+    "extension_installation": "Instalación de la extensión",
+    "page_primary_button": "Cambiar configuración de importación",
+    "guild": {
+        "title": "Instalación de la extensión",
+        "subtitle": "Instala nuestra extensión para recopilar reseñas de AliExpress",
+        "step": "<p>Instala nuestra extensión para recopilar reseñas de AliExpress:</p><p>Haz clic en \"<strong>Instalar extensión TrustShop</strong>\".</p><p>Serás redirigido automáticamente a la \"Chrome Web Store\". Haz clic en \"<strong>Añadir a Chrome</strong>\".</p> <p>Sigue las instrucciones para completar el proceso de instalación.</p><p><strong>Actualiza</strong> esta página y comienza a importar reseñas. </p>",
+        "btn_install_extension": "Instalar extensión TrustShop",
+        "refresh_page": "Actualizar página"
+    },
+    "product": "Producto",
+    "aliexpress_link": "Enlace de AliExpress",
+    "save_changes": "Guardar cambios",
+    "import": "Importar",
+    "enter_aliexpress_link_here": "Ingresa el enlace de AliExpress aquí",
+    "import_settings": "Configuración de importación",
+    "change_product": "Cambiar producto",
+    "aliexpress_product_link": "Enlace del producto de AliExpress",
+    "enter_a_link": "Ingresa un enlace",
+    "quantity": "Cantidad",
+    "enter_a_quantity": "Ingresa una cantidad",
+    "content_option": "Opción de contenido",
+    "contain_photos": "Contiene fotos",
+    "conatain_videos": "Contiene videos",
+    "contain_review_content": "Contiene contenido de reseña",
+    "customer_country": "País del cliente",
+    "search_country": "Buscar país",
+    "all_countries": "Todos los países",
+    "date_range": "Rango de fechas",
+    "filter_date": {
+        "today": "Hoy",
+        "yesterday": "Ayer",
+        "last_7_days": "Últimos 7 días",
+        "last_month": "Último mes",
+        "last_year": "Último año",
+        "all_times": "Todo el tiempo"
+    },
+    "banner_success": "Hemos importado comentarios para",
+    "banner_error": "Hubo un error al intentar importar comentarios"
+}

@@ -1,0 +1,518 @@
+{
+    "limit_function": {
+        "widget_limit": "Denne funktion er kun tilgængelig på Standard- og Enterprise-planerne. Opgrader din plan for at få adgang til denne funktion.",
+        "setting_function_limit": {
+            "badge": "Fra {{plan}}",
+            "content": "Opgrader din plan for at tilpasse denne funktion."
+        }
+    },
+    "list_widget": {
+        "review_display": "Anmeldelsesvisning",
+        "review_display_description": "Vis alle kundeanmeldelser, der giver indsigt i brugeroplevelser med produktet.",
+        "review_testimonial": "Anmeldelsesudtalelse",
+        "review_testimonial_description": "Fremhæv topanmeldelser i et roterende karuselformat for at tiltrække opmærksomhed til fremragende feedback.",
+        "review_onepage": "Anmeldelsesside",
+        "review_onepage_description": "En side, der viser alle kundeanmeldelser, hvilket gør det nemt at gennemse oplevelser.",
+        "product_rating": "Produktvurdering",
+        "product_rating_description": "Vis produktets samlede vurdering baseret på en 5-stjernet skala.",
+        "global_setting": "Global indstilling",
+        "global_setting_description": "Gør det muligt for brugere at administrere elementer. Ændringer, der foretages, vil blive anvendt på alle widgets"
+    },
+    "discount_voucher": {
+        "title": "Rabatkupon",
+        "sub_title": "Motiver kunder til at efterlade en anmeldelse ved at tilbyde rabat til deres næste køb",
+        "preview": "Forhåndsvisning",
+        "toggle_discount_voucher": "Aktivér rabat",
+        "save_btn": "Gem",
+        "coupon_shopify": {
+            "title": "Shopify-kupon",
+            "sub_title": "Shopify-rabatkode",
+            "no_code": "Du har ikke opsat nogen kode.",
+            "off_example": "Dette er et eksempel på næste linje (ikke oversætte): 80% RABAT",
+            "off": "RABAT",
+            "check_discount_button": "Tjek rabat",
+            "check_success": "Rabatter tilgængelige",
+            "check_fail": "Rabatten eksisterer ikke, se venligst hvordan du får en rabat <1>her</1>."
+        },
+        "coupon_auto": {
+            "title": "Auto-rabat",
+            "review_for_photo": "Anmeldelse for billede",
+            "discount_code": "Auto-rabatkode",
+            "discount_for_review_only_content": "Rabat for alle anmeldelser",
+            "discount_for_review_photos": "Rabat for anmeldelser med fotos",
+            "discount_for_review_videos": "Rabat for anmeldelser med video",
+            "discount_expire_after": "Rabat udløber efter"
+        },
+        "tabs": {
+            "email_before": "E-mail Før",
+            "email_after": "E-mail Efter"
+        },
+        "coupon_design": {
+            "title": "Kupon design",
+            "voucher_color": "Kupons farve",
+            "text_color": "Tekst farve",
+            "button_color": "Knap farve",
+            "button_text_color": "Knap tekst farve"
+        },
+        "general": {
+            "choose_your_design_template": "Vælg din designskabelon",
+            "template": "Skabelon",
+            "coupon_message": "Kuponbesked",
+            "call_to_action_button_content": "Handlingsknap indhold"
+        },
+        "voucher_setting": {
+            "title": "Rabatkupon og produkt",
+            "icon": "Ikon",
+            "icon_and_highlight": "Ikon og fremhævning Rabattekstfarve",
+            "message": "Besked",
+            "button_title": "Knap titel",
+            "button_label": "Knap etiket",
+            "button_background": "Knap baggrund",
+            "message_background": "Besked baggrund"
+        },
+        "set_up_discount": "Opsæt rabat",
+        "display_discount": "Vis rabat",
+        "review_request": "Anmodning om anmeldelse",
+        "review_request_description": "Tilpas anmodnings-e-mails med brugerdefineret ikon, farver og en skræddersyet handlingsopfordringsbesked.",
+        "thank_email": "Tak-email",
+        "thank_email_description": "Tilpas tak-e-mails med brugerdefinerede rabatkoder, stil og beskeder efter kunderne har efterladt en anmeldelse.",
+        "submitted_review_popup": "Indsendt anmeldelses-popup",
+        "submitted_review_popup_description": "Vis en tak-popup efter køb, der viser kunderne en rabatkode til deres næste ordre.",
+        "type_discount_code_after_review_label": "Kunder modtager rabatkoder, når de skriver anmeldelser for:",
+        "type_discount_code_after_review_value": {
+            "order": "Bestilling - En rabatkode per bestilling",
+            "product": "Produkt - En rabatkode per produkt"
+        }
+    },
+    "product_rating": {
+        "product_rating": "Produktside",
+        "collection_rating": "Kategoriside",
+        "hide_rating_when_empty": "Skjul stjernebedømmelse, når der ingen anmeldelser er",
+        "review_information": {
+            "title": "Anmeldelsesinformation",
+            "show_total_reviews": "Vis samlet antal anmeldelser",
+            "show_avg_rating": "Vis gennemsnitlig bedømmelse"
+        },
+        "widget_style": {
+            "title": "Widget-stil",
+            "full_5_star": "(Fuld 5 stjerner)",
+            "1_star": "(1 stjerne)"
+        },
+        "text_before": "Tekst før",
+        "text_after": "Tekst efter",
+        "font_size": {
+            "title": "Skriftstørrelse",
+            "star_size": "Stjerneikon størrelse",
+            "text_avg_rating": "Gennemsnitlig bedømmelse",
+            "text_total_rating": "Samlet antal anmeldelser"
+        },
+        "language": {
+            "title": "Sprog",
+            "label_rating": "Bedømmelsesetiket",
+            "label_rating_helptext": "Når der kun er én anmeldelse",
+            "label_ratings": "Bedømmelsesetiket (flertal)",
+            "label_ratings_helptext": "Når der er flere anmeldelser"
+        },
+        "modal_add_rating_manually": {
+            "rating_title": "Tilføj stjernebedømmelse manuelt",
+            "widget_title": "Tilføj widget manuelt",
+            "guild_rating": "Kopiér koden nedenfor og indsæt den i de specifikke sektioner, hvor du vil vise stjernebedømmelsen. <1>Læs mere</1>",
+            "guild_widget": "Kopiér koden nedenfor og indsæt den i de specifikke sektioner, hvor du vil vise widgetten. <1>Læs mere</1>",
+            "guild_onepage": "Se vejledningen til, hvordan du opretter en anmeldelsesside <1>her</1>.<br /> Hvis du har brug for hjælp, kontakt os venligst via e-mail på support@trustshop.io.",
+            "collection_title": "Tilføj kategoribedømmelse",
+            "onepage_title": "Tilføj anmeldelsesside",
+            "testimonial_title": "Tilføj anbefaling",
+            "guild_collection": "Kopiér koden nedenfor og indsæt den i de specifikke sektioner, hvor du vil vise kategoribedømmelsen. <1>Læs mere</1>"
+        },
+        "custom_color": {
+            "title": "Brugerdefineret farve",
+            "star_icon": "Stjerneikon",
+            "star_icon_empty": "Stjerneikon (Tom)",
+            "avg_rating": "Gennemsnitlig bedømmelse",
+            "total_number_of_reviews": "Samlet antal anmeldelser"
+        }
+    },
+    "review_display": {
+        "widget_area": "Widget-område",
+        "choose_layout": {
+            "title": "Vælg Layout",
+            "list": "Liste",
+            "grid": "Gitter"
+        },
+        "summary_box": {
+            "title": "Resuméboks",
+            "left": "Venstre",
+            "top": "Top"
+        },
+        "color_schema": {
+            "title": "Farveskema",
+            "custom_color_schemes": "Brugerdefinerede farveskemaer",
+            "primary_color": "Primær",
+            "secondary_color": "Sekundær",
+            "title_text_color": "Titeltekst",
+            "all_photos_button_color": "Alle fotos-knap",
+            "primary_text_color": "Primær tekst",
+            "secondary_text_color": "Sekundær tekst",
+            "star_icon": "Stjerneikon",
+            "border": "Kant",
+            "filter_sort_background": "Filter-sorteringsbaggrund",
+            "filter_sort_text": "Filter-sorteringstekst",
+            "rating_process_color": "Bedømmelsesproces",
+            "rating_process_empty_color": "Bedømmelsesproces tom",
+            "users_name": "Brugernavn",
+            "loadmore_color": "Indlæs mere",
+            "bg_base_color": "Widget-baggrund",
+            "slide_button": "Skubbe knap",
+            "slide_arrow": "Skubbe pil",
+            "modal_all_medias_headline_title": "Overskriftstitel",
+            "modal_all_medias_filter_label": "Filteretiket",
+            "modal_all_medias_filter_background": "Filterbaggrund",
+            "modal_all_medias_selected_filter_label": "Valgt - Filteretiket",
+            "modal_all_medias_selected_filter_background": "Valgt - Filterbaggrund",
+            "modal_all_medias_star_icon": "Stjerne",
+            "modal_all_medias_rating_background": "Bedømmelsesbaggrund",
+            "modal_all_medias_item_border": "Valgt mediekant",
+            "modal_all_medias_navigate_button": "Navigationsknap",
+            "modal_all_medias_navigate_arrow": "Navigationspil",
+            "modal_all_medias_review_customer_name": "Kundenavn",
+            "modal_all_medias_review_time": "Anmeldelsestidspunkt",
+            "modal_all_medias_review_star": "Anmeldelsesstjerne",
+            "modal_all_medias_review_star_disable": "Standard anmeldelsesstjerne",
+            "modal_all_medias_review_title": "Anmeldelsestitel",
+            "modal_all_medias_review_content": "Anmeldelsesindhold",
+            "modal_all_medias_review_media_background": "Anmeldelsesmediebaggrund",
+            "modal_all_medias_review_background": "Anmeldelsesbaggrund",
+            "modal_all_medias_card_background": "Kortbaggrund",
+            "modal_all_medias_close_button": "Luk-knap baggrund",
+            "modal_all_medias_close_icon": "Luk-ikon",
+            "modal_detail_customer_name": "Kundenavn",
+            "modal_detail_review_time_title": "Anmeldelsestidstitel",
+            "modal_detail_review_star": "Stjerne",
+            "modal_detail_review_star_default": "Standardstjerne",
+            "modal_detail_review_star_field_background": "Stjernefelt baggrund",
+            "modal_detail_review_title": "Anmeldelsestitel",
+            "modal_detail_review_content": "Anmeldelsesindhold",
+            "modal_detail_navigator_button": "Navigationsknap",
+            "modal_detail_navigator_arrow": "Navigationspil",
+            "modal_detail_purchased_item": "Købt vare",
+            "modal_detail_product_name": "Produktnavn",
+            "modal_detail_product_price": "Produktpris",
+            "modal_detail_icon_title": "Ikontitel",
+            "modal_detail_selected_icon": "Valgt ikon",
+            "modal_detail_icon_background": "Ikonbaggrund",
+            "modal_detail_divider": "Opdeler",
+            "modal_detail_card_background": "Kortbaggrund",
+            "modal_detail_close_button": "Luk-knap baggrund",
+            "modal_detail_close_icon": "Luk-ikon",
+            "form_write_review_star_color": "Stjerneikonfarve",
+            "reset_to_default_title": "Nulstil farveskemaer til standard?",
+            "reset_to_default_content": "Ændringer, du har foretaget, gemmes muligvis ikke",
+            "page_background_color": "Sidebaggrund",
+            "star_icon_color": "Stjerneikon",
+            "line_color": "Kant",
+            "user_name_color": "Brugernavn",
+            "load_more_color": "Indlæs mere",
+            "product_background_color": "Produktbaggrund",
+            "product_text_color": "Produkttekst",
+            "reply_title_color": "Svar-titel",
+            "reply_content_color": "Svar-indhold",
+            "reply_background_color": "Svar-baggrund"
+        },
+        "information_display": {
+            "title": "Information display",
+            "write_a_reivew_button": "Skriv en anmeldelses knap",
+            "review_date": "Anmeldelsesdato",
+            "button_report": "Rapportknap",
+            "button_helpful": "Hjælpsom knap",
+            "customer_information": {
+                "title": "Kundeinformation",
+                "customer_profile_picture": "Vis kundeavatar",
+                "customer_country_flag": "Vis kundens lands flag"
+            },
+            "review_filter": "Anmeldelsesfilter",
+            "review_per_page": "Anmeldelse pr. side",
+            "summary": "Resumé",
+            "number_of_review": "Antal anmeldelser",
+            "divider": "Opdeling",
+            "text_1": "Overskrift",
+            "text_2": "Underoverskrift",
+            "show_review_media": "Vis anmeldelsesmedier",
+            "image_gallery": "Billedgalleri",
+            "star_rating": "Stjernemærkning",
+            "customer_name_display": "Visning af kundens navn",
+            "anonymous": "Anonym",
+            "reviewer_selects": "Anmelder vælger",
+            "number_of_reviews": "Antal anmeldelser",
+            "form_write_review": {
+                "show_product_image": "Vis produktbillede",
+                "show_add_photo_btn": "Vis tilføj foto-knap",
+                "show_add_video_btn": "Vis tilføj video-knap",
+                "required_review_title": "Påkrævet anmeldelsestitel",
+                "hide_review_title": "Skjul anmeldelsestitel"
+            }
+        },
+        "card_content": {
+            "title": "Kortindhold",
+            "show_review_media": "Vis anmeldelsesmedier",
+            "show_review_time": "Vis anmeldelsestid",
+            "show_purchase_items": "Vis købsvarer",
+            "show_star_rating": "Vis stjernemærkning",
+            "show_helpful_button": "Vis hjælpsom knap",
+            "image_per_row": "Billede pr. række",
+            "filter": "Filter",
+            "gallery_filter": "Gallerifilter",
+            "star_size_helptext": "I demoen er størrelsen halvdelen af den faktiske størrelse"
+        },
+        "content": {
+            "title": "Indhold",
+            "widget_language": "Widget sprog",
+            "header_widget": {
+                "title": "Widget overskrift",
+                "customer_review_title": "Kundeanmeldelsestitel",
+                "review_submit": "Anmeldelse send",
+                "write_review_button": "Skriv anmeldelses knap",
+                "review_with_comments": "Anmeldelse med kommentarer",
+                "text_total_reviews": "Tekst total anmeldelser"
+            },
+            "label_of_filter": {
+                "title": "Filtermærke",
+                "all": "Alle",
+                "most_helpful": "Mest hjælpsomme",
+                "highest_rating": "Højeste vurdering",
+                "lowest_rating": "Laveste vurdering",
+                "oldest": "Ældste",
+                "newest": "Nyeste",
+                "review_with_photos": "Anmeldelse med fotos",
+                "stars_filter": "Stjerner filter(1-5)"
+            },
+            "content_review": {
+                "title": "Indholdsanmeldelse",
+                "text_review_on": "Tekst anmeldelse på",
+                "text_helpful": "Tekst hjælpsom",
+                "button_loadmore_review": "Knap indlæs mere anmeldelse"
+            },
+            "modal_write_review": {
+                "title": "Modal skriv anmeldelse",
+                "modal_write_review_title": "Modal skriv anmeldelsestitel",
+                "text_write_reviews": "Tekst skriv anmeldelser",
+                "text_click_to_rate": "Tekst klik for at vurdere",
+                "label_customer_name": "Mærkat kundenavn",
+                "placeholder_customer_name": "Pladsholder kundenavn",
+                "label_customer_email": "Mærkat kundemail",
+                "placeholder_customer_email": "Pladsholder kundemail",
+                "label_review_title": "Mærkat anmeldelsestitel",
+                "placeholder_review_title": "Pladsholder anmeldelsestitel",
+                "label_review_content": "Mærkat anmeldelsesindhold",
+                "placeholder_review_content": "Pladsholder anmeldelsesindhold",
+                "label_characters_remaining": "Mærkat tegn tilbage",
+                "button_add_photo_text": "Knap tilføj fototekst",
+                "button_back": "Knap tilbage",
+                "button_submit": "Knap indsend"
+            },
+            "validate_message_label": {
+                "title": "Valider meddelelsesmærke",
+                "input": "Indtastning",
+                "email": "E-mail",
+                "image_upload_fail": "Billede upload fejl",
+                "image_upload_size": "Billede upload størrelse ( <10MB )",
+                "image_upload_type": "Billede upload type (.bmp, .jpeg eller .png)"
+            },
+            "modal_image": {
+                "title": "Modal billede",
+                "review_for": "Anmeldelse for",
+                "image_from_this_review": "Billede fra denne anmeldelse"
+            },
+            "modal_report": {
+                "title": "Modal rapport"
+            }
+        },
+        "tabs": {
+            "default": "Standard",
+            "no_reviews": "Ingen anmeldelser",
+            "modal": {
+                "all_medias": "Alle medier",
+                "review_detail": "Anmeldelsesdetaljer",
+                "form_write_review": "Formular Skriv anmeldelse",
+                "popup_after_review": {
+                    "success": "Popup efter anmeldelse - succes",
+                    "pending": "Popup efter anmeldelse - afventer"
+                }
+            }
+        },
+        "no_reviews": {
+            "section_title": "Afsnits titel",
+            "section_border": "Afsnits grænse",
+            "show_border": "Vis grænse",
+            "title": "Ingen anmeldelse",
+            "text_no_reviews": "Tekst ingen anmeldelser",
+            "call_to_action": "Handlingsopfordring",
+            "call_to_action_color": "Handlingsopfordring",
+            "call_to_action_text_color": "Handlingsopfordring tekst",
+            "border_color": "Grænse",
+            "section_title_color": "Afsnits titel",
+            "text_no_review_color": "Tekst ingen anmeldelser",
+            "page_no_review_star_color": "Stjernefarve"
+        },
+        "popup_submitted_review": {
+            "layout": {
+                "title": "Layout",
+                "default": "Standard",
+                "without_media": "Anmeldelseskort - uden medier",
+                "disable": "Deaktiver anmeldelseskort"
+            },
+            "title": {
+                "title": "Titel",
+                "headline_label": "Overskrift label",
+                "content_label": "Indhold label",
+                "button_label": "Knap label"
+            },
+            "color_schema": {
+                "title": "Farveskema",
+                "popup_background": "Popup baggrund",
+                "popup_icon": "Popup ikon",
+                "popup_headline": "Popup overskrift",
+                "popup_content": "Popup indhold",
+                "product_name": "Produktnavn",
+                "product_price": "Produktpris",
+                "review_card_background": "Anmeldelseskort baggrund",
+                "review_card_title": "Anmeldelseskort titel",
+                "review_card_content": "Anmeldelseskort indhold",
+                "review_card_border": "Anmeldelseskort kant",
+                "star_active": "Stjerne - aktiv",
+                "star_disable": "Stjerne - deaktiveret",
+                "customer_name": "Kundens navn",
+                "customer_email": "Kundens e-mail",
+                "button_border": "Knap - kant",
+                "button_background": "Knap baggrund",
+                "button_title": "Knap titel"
+            }
+        }
+    },
+    "review_testimonial": {
+        "choose_review": {
+            "title": "Vælg anmeldelser til visning",
+            "auto_new_5": "Hent automatisk nyeste 5-stjernede anmeldelser",
+            "auto_helptext": "Anmeldelser opdateres hver 10. minut",
+            "number_of_reviews": "Antal anmeldelser",
+            "choose_manually": "Vælg manuelt",
+            "choose_manually_button": "Ændre",
+            "selected": "valgt til visning i karusellen",
+            "warning": "Karusellen ser bedre ud med mindst 3 anmeldelser",
+            "warning_2": "e-mail anmodet",
+            "warning_3": "import for at få flere",
+            "modal": {
+                "title": "Vælg anmeldelser manuelt"
+            }
+        },
+        "title": {
+            "title": "Titel",
+            "title_label": "Titel etiket"
+        },
+        "card_content": {
+            "title": "Kortindhold",
+            "customer_name_display": "Vis kundens navn",
+            "anonymous": "Anonym",
+            "product_name": "Produktnavn",
+            "product_image": "Produktbillede",
+            "display_star_rating": "Vis stjernebedømmelsesikon",
+            "display_customer_avatar": "Vis kundens avatar",
+            "show_product_information": "Vis produktinformation",
+            "show_customer_flag": "Vis kundens flag",
+            "show_review_date": "Vis anmeldelsesdato",
+            "review_title": "Anmeldelsestitel",
+            "review_date": "Anmeldelsesdato"
+        },
+        "movement": {
+            "title": "Automatisk bevægelse",
+            "auto_movement": "Automatisk bevægelse",
+            "time_between_reviews": "Tid mellem anmeldelser (sekunder)",
+            "arrow_navigation": "Pile navigation"
+        },
+        "color_schemes": {
+            "title": "Farveskemaer",
+            "headline": "Overskrift",
+            "content": "Indhold",
+            "navigator_button": "Navigationsknap",
+            "navigator_arrow": "Navigationspil",
+            "page_indicator": "Sideindikator",
+            "verified_tag": "Verificeret mærke",
+            "divider": "Skillelinje",
+            "border": "Kant",
+            "link_title": "Linktitel",
+            "customer_name": "Kundenavn",
+            "star": "Stjerne",
+            "navigator": "Navigator",
+            "arrow_icon": "Pileikon",
+            "product_background": "Produktbaggrund",
+            "card_background": "Kortbaggrund",
+            "widget_background": "Widget baggrund",
+            "product_name": "Produktnavn",
+            "review_date": "Anmeldelsesdato"
+        }
+    },
+    "review_onepage": {
+        "review_source": {
+            "title": "Anmeldelsesource",
+            "subtitle": "Vælg de produkter, der skal vises anmeldelser for på anmeldelsessiden",
+            "all_product": "Alle produkter",
+            "select_product": "Vælg produkt",
+            "warning": "Du skal vælge mindst ét produkt for at vise det på anmeldelsessiden.",
+            "help_text": "Som standard vises alle offentliggjorte anmeldelser"
+        },
+        "one_page_header": {
+            "title": "Én side overskrift"
+        },
+        "review_display": {
+            "title": "Informationsvisning",
+            "summary_box": "Resumé boks",
+            "product": "Produkt"
+        }
+    },
+    "after_review_submitted": {
+        "show_discount_code": "Vis rabatkode",
+        "discount_code_color": "Rabatkode farve",
+        "message_background_color": "Besked baggrundsfarve",
+        "title_label": "Titel etiket",
+        "description_label": "Beskrivelse etiket",
+        "title_label_color": "Titel etiket farve",
+        "description_label_color": "Beskrivelse etiket farve",
+        "show_submitted_review": "Vis indsendt anmeldelse",
+        "button_label": "Knap etiket"
+    },
+    "tabs": {
+        "discount_voucher": "Rabatkupon",
+        "product_rating": "Produktvurdering",
+        "review_display": "Anmeldelsesvisning",
+        "review_testimonial": "Anmeldelsesudtalelse",
+        "review_onepage": "Anmeldelsesside"
+    },
+    "title": "Widgethåndtering",
+    "add_widget_guild": {
+        "title": "Hvordan installerer man widgeten?",
+        "enable_global_script": "Før du begynder, skal du sikre dig, at du har <strong><span>Aktiver TrustShop Global</span> app-embed i Shopify Admin</strong>",
+        "add_widget_v2": {
+            "title": "Tilføj widget via: Shopify App Block",
+            "for": "(til tema 2.0)",
+            "step": {
+                "step_1": "Klik på <strong><span>Tilføj widget</span></strong> for at åbne Shopify Admin",
+                "step_2": "<strong>Shopify editor</strong> åbnes, og widgeten tilføjes automatisk",
+                "step_3": "Klik på <strong>Gem-knappen</strong> (øverst til højre) og sørg for, at en succesmeddelelse vises"
+            }
+        },
+        "add_widget_v1": {
+            "title": "Tilføj widget via: Manuel",
+            "for": "(til tema 1.0 - Vintage tema)",
+            "description": "Kopier koden nedenfor, og indsæt den i de specifikke sektioner, hvor du vil vise widgeten. <span>Læs mere</span>"
+        }
+    },
+    "multi_lang": {
+        "enable": {
+            "title": "Auto-oversættelse er aktiv",
+            "content": "Automatisk oversættelse af widgetindhold er aktiveret. Hvis du vil ændre det, skal du tilpasse indstillingerne i <1>Bedømmelsesindstillinger</1>."
+        },
+        "disable": {
+            "content": "Prøv funktionen, der automatisk ændrer sproget baseret på køberens land.",
+            "button": "Gå til globale indstillinger"
+        }
+    }
+}

@@ -1,0 +1,365 @@
+{
+    "general": {
+        "email_setting": {
+            "email": {
+                "reply_to_email": "Svar-til Email",
+                "reply_to_email_helptext": "Kunder vil sende til denne email.",
+                "sender_email": "Afsender Email",
+                "sender_email_helptext": "Denne email vil blive brugt til at sende til dine kunder.",
+                "sender_name": "Afsender Navn",
+                "title": "Email Indstilling",
+                "send_email_from_source": "Send anmeldelsesanmodning email til ordre fra:",
+                "web": "Online butik",
+                "pos": "POS",
+                "shopify_draft_order": "Kladdeordre",
+                "email_blocklist": "Email blokliste",
+                "email_blocklist_helptext": "Anmodnings- og påmindelsesemails vil ikke blive sendt til disse emails",
+                "block_email_placeholder": "Tryk Enter for at tilføje ny email",
+                "unblock_message_title": "Send emails som tidligere blev blokeret",
+                "unblock_message": "Vil du sende de emails som tidligere blev blokeret, eller annullere deres afsendelse?",
+                "remember_choice_time": "Husk mit svar i 1 time",
+                "block_send_email_conditions": "Bloker afsendelse af emails efter betingelser",
+                "product_block_list": "Produkt blokliste",
+                "select_product": "Vælg produkt",
+                "order_tag_blocklist": "Ordre blokliste",
+                "order_tag_blocklist_placeholder": "Tryk Enter for at tilføje tags",
+                "order_tag_blocklist_helptext": "Anmodnings- og påmindelsesemails vil ikke sende emails fra ordrer, der indeholder tags i ovenstående liste"
+            },
+            "sub_title": "Finjuster dine email indstillinger for forbedret produktivitet og kommunikation",
+            "title": "Email Indstilling",
+            "custom_domain": {
+                "edit_domain_btn": "Rediger domæne",
+                "page": {
+                    "title": "tilpasset domæne",
+                    "empty_page": {
+                        "description": "Link dit tilpassede email-domæne for at sende beskeder fra din brands email-adresse. Dette vil forbedre din brands professionalisme og hjælpe dine beskeder med at skille sig ud i modtagernes indbakker.",
+                        "external_link": "Lær hvordan du opsætter",
+                        "add_domain_btn": "Tilføj din email-adresse"
+                    },
+                    "overview_page": {
+                        "unverified": "Ubekræftet",
+                        "verified": "Bekræftet",
+                        "edit_domain": "Rediger domæne",
+                        "config_dns_settings": "Konfigurer DNS-indstillinger",
+                        "config_dns_settings_helptext": "Indsæt følgende MX-, SPF- og DKIM-poster i dine DNS-indstillinger for at godkende <strong>{{domain}}</strong>.",
+                        "show_config": "Vis konfiguration",
+                        "record_config": {
+                            "type": "TYPE",
+                            "name": "VÆRTNAVN",
+                            "value": "VÆRDI",
+                            "priority": "PRIORITET",
+                            "mx": {
+                                "title": "MX-post",
+                                "sub_title": "Indstil to MX-poster, der stemmer overens med nedenstående detaljer:"
+                            },
+                            "spf": {
+                                "title": "SPF-post",
+                                "sub_title": "Inkluder en SPF-post, der matcher nedenstående detaljer:"
+                            },
+                            "dkim": {
+                                "title": "DKIM-post",
+                                "sub_title": "Inkluder en DKIM-post, der matcher nedenstående detaljer:"
+                            },
+                            "dmarc": {
+                                "title": "DMARC-post",
+                                "sub_title": "Inkluder en DMARC-post, der matcher nedenstående detaljer:"
+                            },
+                            "custom_from": {
+                                "title": "CUSTOM FROM-post",
+                                "sub_title": "Inkluder en CUSTOM FROM-post, der matcher nedenstående detaljer:"
+                            },
+                            "notice": "Bemærk: Din {{config}} post er endnu ikke blevet bekræftet. Det kan tage et par timer eller endda op til 72 timer for DNS-poster at blive fuldt udbredt.",
+                            "verify_domain": "Bekræft domæne"
+                        },
+                        "modal_add_domain": {
+                            "title": "Tilføj din email-adresse",
+                            "input_label": "Indtast den email-adresse, du gerne vil bruge til at sende beskeder.",
+                            "validate_domain": "Du kan kun tilføje dit eget domæne. Trusthop understøtter ikke tilføjelse af offentlige domæner (f.eks. gmail.com, yahoo.com)",
+                            "add_domain_btn": "Tilføj domæne"
+                        },
+                        "modal_delete_domain": {
+                            "title": "Slet tilpasset domæne?",
+                            "description": "Hvis du sletter dit tilpassede domæne, vil du vende tilbage til at bruge standarddomænet og vil ikke længere kunne bruge dette domæne. Denne handling kan ikke fortrydes. Vil du fortsætte?"
+                        }
+                    }
+                }
+            },
+            "unsubscribe_management": {
+                "title": "Afmeldingsstyring",
+                "subtitle": "Spor og administrer kunder, der har afmeldt sig fra dine anmeldelsesanmodningsmails.",
+                "customer_have_unsubscribed": "Kunder har afmeldt sig",
+                "email": "Email",
+                "topic_type": "Emnetype",
+                "unsubscribe_date": "Afmeldingsdato",
+                "delete_title": "Slet afmelding",
+                "delete_unsubscribe_confirm": "Er du sikker på, at du vil slette denne/disse email(s)? Denne handling kan ikke fortrydes.",
+                "no_unsubscribe_title": "Ingen afmeldte kunder",
+                "no_unsubscribe_description": "Oplysninger om kunder, der har afmeldt sig fra emails, vil blive vist her"
+            }
+        },
+        "general_setting": {
+            "profile": {
+                "logo": "Logo",
+                "logo_helptext": "Accepterer .gif, .jpg og .png",
+                "select_image": "Vælg Billede",
+                "store_email": "Butik Email",
+                "store_email_helptext": "Vi vil bruge denne adresse, hvis vi har brug for at kontakte dig angående din konto.",
+                "store_name": "Butik Navn",
+                "store_name_helptext": "Vises i email overskrifter uden et tilføjet logo.",
+                "store_url": "Butik URL",
+                "title": "Profil",
+                "time": {
+                    "time_format": "Tidsformat",
+                    "sample": {
+                        "12h": "12 Timer",
+                        "24h": "24 Timer"
+                    }
+                },
+                "date": {
+                    "date_format": "Datoformat",
+                    "sample": {
+                        "month_day_year": "Aug 05 2006",
+                        "day_month_day_year": "Sat Aug 05 2006",
+                        "day_of_week_month_day_year": "Saturday, August 05 2006",
+                        "day_month_day_year_slash": "Sat 08/05/2006",
+                        "day_month_day_year_slash_short_year": "Sat 8/5/06",
+                        "month_day_year_slash": "08/05/2006",
+                        "month_day_year_slash_short_year": "8/5/06",
+                        "month_day_year_time": "Aug 05 2006",
+                        "day_month_day_year_time": "Sat Aug 05 2006",
+                        "day_of_week_month_day_year_time": "Saturday, August 05 2006",
+                        "day_month_day_year_slash_time": "Sat 08/05/2006",
+                        "day_month_day_year_slash_short_year_time": "Sat 8/5/06",
+                        "month_day_year_slash_time": "08/05/2006",
+                        "month_day_year_slash_short_year_time": "8/5/06"
+                    }
+                }
+            },
+            "sub_title": "Konfigurer din konto med din email, logo og sociale medier",
+            "title": "Generel Indstilling"
+        },
+        "social_links": {
+            "social": {
+                "helptext": "Inkluderer sociale kanaler i email footer",
+                "title": "Social Indstilling"
+            },
+            "mobile_apps": {
+                "title": "Mobilapps",
+                "sub_title": "Inkluderer sociale kanaler i email footer"
+            },
+            "sub_title": "Tilpas dine sociale link indstillinger for at dele og kommunikere effektivt med dine kunder",
+            "title": "Sociale Links"
+        },
+        "review_action": {
+            "title": "Eksportér/Slet anmeldelser",
+            "subtitle": "Eksportér og slet alle anmeldelser på din butik",
+            "export_review": "Eksportér anmeldelser",
+            "export_review_helptext": "Det vil tage et par minutter at eksportere anmeldelserne. Eksportfilen vil blive sendt til din email på <1>{{email}}</1>.",
+            "delete_all": "Slet alle",
+            "delete_all_helptext": "Denne handling kan ikke fortrydes, så sørg for at være sikker, inden du sletter anmeldelser.",
+            "delete_confirm": "Denne handling kan ikke fortrydes, så sørg for at være sikker, inden du sletter anmeldelser"
+        }
+    },
+    "review": {
+        "auto_publish_reviews": {
+            "title": "Automatisk offentliggørelse af anmeldelser",
+            "sub_title": "Vælg de anmeldelser, du ønsker at automatisk offentliggøre. Ændringer vil kun påvirke nye anmeldelser.",
+            "enable_auto_publish_reviews": "Aktiver automatisk offentliggørelse af anmeldelser",
+            "auto_publish_reviews_if": "Automatisk offentliggørelse af nye anmeldelser til butikken, hvis:"
+        },
+        "new_review_notification": {
+            "title": "Notifikation om ny anmeldelse",
+            "sub_title": "Modtag e-mail-notifikationer for nye anmeldelsesindsendelser. Dette inkluderer ikke anmeldelser, der er tilføjet via import.",
+            "enable_new_review_notification": "Aktiver notifikation om ny anmeldelse",
+            "send_email_to_merchant_if": "Send e-mail til forhandleren, hvis kunder efterlader en anmeldelse",
+            "receive_email": "Modtag e-mail-notifikationer for negative anmeldelsesindsendelser",
+            "selected_lang_for_system_email": "Vælg sprog for system-e-mail"
+        },
+        "protect_reviews": {
+            "title": "Beskyt dine anmeldelser",
+            "sub_title": "Indstil relevante nøgleord for at beskytte dine anmeldelser og forhindre, at følsomt indhold som pornografi, vold, terrorisme, svindel, phishing-links eller malware vises i dem.",
+            "enable_protect_reviews": "Aktiver beskyttelse af anmeldelser",
+            "block_additional_words_description": "Vi har allerede blokeret de mest almindelige bandeord. Tilføj flere ord ved at skrive i boksen nedenfor.",
+            "add_word_placeholder": "Skriv et nøgleord og tryk på enter",
+            "search_language_placeholder": "Søg efter sprog",
+            "no_language_found": "Ingen sprog fundet, der matcher {{lang}}",
+            "lang_have_added": "{{lang}} er blevet tilføjet"
+        },
+        "auto_send_email": {
+            "title": "Automatisk send e-mail til kunder",
+            "sub_title": "Når du svarer på en kundeanmeldelse i anmeldelsesstyringssektionen, sender systemet automatisk en e-mail til kunden med indholdet af dit svar",
+            "enable_auto_send_email": "Aktiver e-mail-afsendelse",
+            "send_email_to_merchant_when_source": "Send e-mails til kunder, når du svarer på deres anmeldelser via kilden:",
+            "store_front": "Butiksfacade",
+            "email": "E-mail",
+            "import_csv": "Importer CSV"
+        },
+        "review_translate": {
+            "title": "Oversæt anmeldelsesindhold",
+            "sub_title": "En oversættelsesknap vil blive vist på anmeldelser, så købere nemt kan oversætte dem til deres modersmål.",
+            "review_content_translation": "Oversættelse af anmeldelsesindhold",
+            "example": "Eksempel"
+        },
+        "multi_lang": {
+            "title": "Oversæt widget-sprog",
+            "sub_title": "Widgetens indhold vil automatisk blive oversat til sproget for de kunder, der handler på din butik i forskellige markeder.",
+            "auto_multi_lang": "Automatisk skift mellem sprog",
+            "description": "Som standard vises alle anmeldelses-widgets på engelsk. Når du aktiverer denne funktion, skifter sproget på widgeten automatisk til kundens sprog i det land, de besøger fra."
+        }
+    },
+    "tabs": {
+        "general": "Generel",
+        "review": "Anmeldelse",
+        "import_review": "Importer Anmeldelse",
+        "gg_shopping": "Google Produktanmeldelse",
+        "pricing": "Prissætning",
+        "global_display": "Global Visning",
+        "integrations": "Integrationer"
+    },
+    "title": "Indstilling",
+    "import_review": {
+        "save_success": "Gemt med succes!",
+        "save_error": "Uventet fejl!",
+        "filter_review": {
+            "title": "Filtrer anmeldelser",
+            "sub_title": "De anmeldelser, der opfylder betingelserne, vil blive importeret",
+            "quantity_import": "Antal import",
+            "generate": "Generer tilfældigt antal",
+            "auto_publish_review_label": "Automatisk offentliggør anmeldelser med",
+            "contain_option_label": "Indeholder mulighed",
+            "contain_photos": "Indeholder billeder",
+            "contain_review_content": "Indeholder anmeldelsesindhold",
+            "customer_country": "Kundeland",
+            "date_range": "Datointerval",
+            "skip_review": "Spring anmeldelser over med nøgleord",
+            "skip_review_value": "AliExpress, Ali AliExpress, Svig, Fup, Falsk, Forfalskning, Imitation, Replika, Værre"
+        },
+        "generate_title": {
+            "title": "Generer anmeldelsestitler",
+            "sub_title": "Generer automatisk anmeldelsestitler baseret på stjernerne, hvis kilden ikke har en titel",
+            "star": {
+                "1_star": "1 stjerne",
+                "2_star": "2 stjerner",
+                "3_star": "3 stjerner",
+                "4_star": "4 stjerner",
+                "5_star": "5 stjerner"
+            },
+            "title_placeholder": "Perfekt i enhver detalje!",
+            "title_random": {
+                "title": "Tilfældig titel",
+                "sub_title": "Generer tilfældig titel til anmeldelser"
+            },
+            "new_title": "Ny titel"
+        }
+    },
+    "filter_date": {
+        "all_times": "Hvornår som helst",
+        "today": "I dag",
+        "yesterday": "I går",
+        "last_7_days": "Sidste 7 dage",
+        "last_month": "Sidste måned",
+        "last_year": "Sidste år"
+    },
+    "gg_shopping": {
+        "title": "Google produktanmeldelse",
+        "sub_title": "Vis strålende kundeanmeldelser direkte på dine Google Shopping-annoncer for at fange mere opmærksomhed og opbygge tillid.",
+        "google_product_review": {
+            "title": "Google produktanmeldelsesfeed",
+            "generate_feed": "Generer produktanmeldelsesfeed",
+            "generate_feed_helptext": "Juster opdateringsplanen for at være i overensstemmelse med indstillingerne i Google Merchant Center",
+            "fetch_frequency": "Hentningsfrekvens",
+            "daily": "Daglig",
+            "weekly": "Ugentlig",
+            "monthly": "Månedlig",
+            "fetch_date": "Hentningsdato",
+            "fetch_time": "Hentningstidspunkt",
+            "time_zone": "Tidszone",
+            "disabled": "Deaktiveret",
+            "XML_file_name": "XML-filnavn",
+            "view_instructions": "Se instruktioner"
+        },
+        "reviewer_content": {
+            "title": "Anmelderindhold",
+            "reviewer_name_format": "Anmeldernavnformat",
+            "includes_medias": "Inkluder anmeldelsesfotos/videoer",
+            "include_personal_info": "Inkluder anmeldelse med personlige oplysninger",
+            "include_personal_info_helptext": "Erstat personlige oplysninger med asterisker"
+        },
+        "advanced_setting": {
+            "title": "Avancerede indstillinger",
+            "add_gtin": "Tilføj GTIN i feeden (Standard)",
+            "add_mpn": "Tilføj MPN i feeden",
+            "add_mpn_helptext": "Dette vil inkludere samme SKU-værdi i Shopify-administratoren",
+            "exclude_out_of_store": "Udeluk anmeldelser for produkter, der ikke er i butikken"
+        }
+    },
+    "global_display": {
+        "icon_and_corner": {
+            "title": "Visningsindstillinger",
+            "subtitle": "Når en egenskab nedenfor ændres, opdateres hele systemet tilsvarende",
+            "star_icon": {
+                "title": "Stjernesymbol",
+                "icon_style": "Ikonstil"
+            },
+            "element_corner": {
+                "title": "Hjørneindstillinger for elementer",
+                "button_radius": "Knaphjørneradius",
+                "other_element": "Andre elementers hjørner",
+                "element": "Element"
+            }
+        },
+        "reviewer_name": {
+            "title": "Visning af anmelderens navn",
+            "sub_title": "Vælg standardindtastning af anmelderens navn fra formularen eller tilpas manuelt",
+            "reviewer_name_format": "Format for anmelderens navn",
+            "default": {
+                "label": "Standard",
+                "helptext": "Automatisk visning af anmelderens navn fra anmeldelsesformularen"
+            },
+            "manually": {
+                "label": "Manuelt",
+                "helptext": "Vælg et standardformat for visning af navn. Anvend det derefter på alle anmeldere",
+                "name_display_format": "Navnevisningsformat"
+            }
+        },
+        "reviewer_avt_format": {
+            "title": "Anmelder avatar indstilling",
+            "sub_title": "Indstil din anmelders avatar ved at vælge farver eller bruge alternative illustrationer",
+            "colorful_avt": {
+                "label": "Farverig avatar",
+                "helptext": "Automatisk generer avatar fra farvehjul"
+            },
+            "base_color_avt": {
+                "label": "Basisfarve avatar",
+                "helptext": "Opret anmelder avatar med en basisfarve"
+            },
+            "gravatar_avt": {
+                "label": "Gravatar avatar",
+                "helptext": "Brug Gravatar til at vise anmelder avatar"
+            }
+        },
+        "review_date_format": {
+            "title": "Anmeldelses datoformat",
+            "sub_title": "Opsæt datoformatet på tværs af alle dine widgets.",
+            "sample": "Eksempel"
+        }
+    },
+    "rich_snippet": {
+        "title": "Rich snippet",
+        "description": "Giv brugerne mulighed for at oprette Rich Snippets, der forbedrer synligheden i søgningen ved at vise ekstra oplysninger som vurderinger, priser og tilgængelighed direkte i søgeresultaterne, hvilket driver mere engagement og forbedrer SEO.",
+        "check_snippet": "Tjek snippet",
+        "seo_integrations": "SEO integrationer",
+        "seo_description": "Disse snippet-apps synkroniseres automatisk med Trustshop anmeldelses-snippets.",
+        "text_field_label": "Indtast din produktlink for at tjekke snippet",
+        "text_field_placeholder": "Indtast produktlink"
+    },
+    "partner_integrations": {
+        "third_party_apps": "Tredjeparts apps",
+        "partner_list": {
+            "langwill": "Oversæt din butik til 138 sprog og konverter automatisk valutaer for at øge salget verden over.",
+            "ilana": "Optimer din SEO-trafik ved at fremhæve dine anmeldelser, priser og forretningsdetaljer i søgeresultater.",
+            "shopify_flow": "Tilpas din butik og automatiser dine opgaver ved hjælp af Shopify Flows low-code editor."
+        },
+        "integrations_now": "Integrationer nu"
+    }
+}

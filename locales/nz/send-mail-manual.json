@@ -1,0 +1,22 @@
+{
+    "send_mail": {
+        "title": "Īmēra Tono ā-Ringa",
+        "subject": "Tukuna ngā īmēra tono mō ngā ota kāore i tukuna aunoa"
+    },
+    "table": {
+        "orders": "Ngā Ota",
+        "date": "Rā",
+        "customer": "Kaihoko",
+        "total": "Tapeke",
+        "fulfillment_status": "Tūnga Whakatutuki",
+        "items": "Tūemi"
+    },
+    "empty_search": {
+        "title": "Kāore he ota i kitea",
+        "description": "Whakarerekē i ngā whiriwhiringa, whakapātaitia te kupu rapu"
+    },
+    "banner": {
+        "title": "Whiwhi mahi",
+        "content": "Ki te whakamahi i tēnei āhuatanga, me whakaaetia koe ki te whakapau kōrero 'whakamahinga ota' anō ki TrustShop. Ki te whakaaetia te whakapau kōrero, tīmata i te pātene i raro nei"
+    }
+}

@@ -1,0 +1,184 @@
+{
+    "plan": {
+        "for_free": "Gratuit",
+        "title": "Plan",
+        "free": "Basique",
+        "basic": "Standard",
+        "pro": "Entreprise",
+        "unlimited": "Ultime",
+        "free_plan": "Plan Basique",
+        "basic_plan": "Plan Standard",
+        "pro_plan": "Plan Entreprise",
+        "unlimited_plan": "Plan Ultime"
+    },
+    "basic": "De base",
+    "fully": "Complètement",
+    "per_month": "par mois",
+    "plan_active": "{{plan}} activé",
+    "discount_offer_time": "pour les {{time}} prochains",
+    "origin_price": "Prix d'origine ",
+    "order/month": "commandes/mois",
+    "request_reviews": "Demander un avis",
+    "upgrade_plan": "Mettre à niveau le plan",
+    "select_plan": "Sélectionner {{plan}}",
+    "start_free": "Commencer gratuitement",
+    "unlimited": "Illimité",
+    "modal_pricing_title": "Débloquez des fonctionnalités premium avec notre tarification flexible",
+    "best_choice": "Meilleur choix",
+    "coming_soon": "Bientôt disponible",
+    "process_bar": {
+        "title": "Total des emails complétés",
+        "subtitle": "Ce décompte sera actualisé le <strong>{{date}}</strong>",
+        "order_count": "{{used}} sur {{total}} commandes complétées"
+    },
+    "plan_table": {
+        "title": "Plans tarifaires",
+        "subtitle": "Découvrez des plans d'abonnement personnalisés conçus pour faire évoluer votre entreprise!",
+        "start_trial": "Commencez l'essai gratuit de {{day}} jours",
+        "current_plan": "Plan actuel",
+        "upgrade": "Mettre à niveau",
+        "select_plan": "Choisir le plan",
+        "downgrade": "Déclasser",
+        "pricing_card": {
+            "free": "Accédez aux fonctionnalités essentielles avec notre Plan Gratuit, parfait pour les débutants.",
+            "basic": "Obtenez des outils avancés et du support avec le Plan Standard pour les individus",
+            "pro": "Renforcez votre entreprise avec notre Plan Entreprise tout compris",
+            "unlimited": "Il n'y a pas de limite à votre croissance"
+        },
+        "modal_downgrade": {
+            "title": "Ne perdez pas l'accès à des fonctionnalités puissantes!",
+            "subtitle": "Votre boutique utilise certaines fonctionnalités premium. Désactivez-les pour rétrograder votre plan:",
+            "discount_voucher": "Bon de réduction automatique",
+            "customize_widget": "Widget personnalisé",
+            "upload_video": "Télécharger des vidéos lors de la rédaction d'un avis",
+            "review_testimonial": "Témoignage",
+            "modal_all_image": "Paramètres de toutes les images en modal",
+            "review_page": "Page de toutes les critiques",
+            "google_shopping": "Google shopping",
+            "global_display": "Affichage global",
+            "group_product": "Produit de groupe",
+            "custom_domain": "Dominio personalizado",
+            "qr_code": "Gestion des codes QR",
+            "review_translation": "Traduction d'avis",
+            "multi_lang": "Widget multilingue",
+            "ai_functionality": "Fonctionnalité IA",
+            "insights_and_segmentation": "Informations et segmentation",
+            "review_detail_page": "Page de détails de l'avis",
+            "import_custom_csv": "Importer un CSV personnalisé",
+            "protect_review": "Protéger l'avis"
+        },
+        "primary_collapse": {
+            "title": "Découvrez le meilleur plan pour vos besoins",
+            "email_quota": "Demander un avis",
+            "email_quota_helptext": "Nous calculons votre quota en fonction du nombre de commandes, et non du nombre d'e-mails de demande d'avis envoyés. Par exemple, si vous envoyez trois e-mails (demande, rappel et remerciement), cela compte toujours comme un seul.",
+            "order_per_month": "Total des commandes/mois",
+            "discount_voucher": "Bon de réduction",
+            "customize_widget": "Widget personnalisé",
+            "upload_video": "Vidéo d'avis",
+            "review_testimonial": "Témoignage d'avis",
+            "modal_all_image": "Modal toutes les images",
+            "review_page": "Page de toutes les critiques",
+            "google_shopping": "Google shopping",
+            "global_display": "Affichage global",
+            "group_product": "Produit de groupe",
+            "custom_domain": "Dominio personalizado",
+            "qr_code": "Gestion des codes QR",
+            "review_translation": "Traduction d'avis",
+            "multi_lang": "Widget multilingue",
+            "ai_functionality": "Fonctionnalité IA",
+            "insights_and_segmentation": "Informations et segmentation",
+            "review_detail_page": "Page de détails de l'avis",
+            "import_custom_csv": "Importer un CSV personnalisé",
+            "protect_review": "Protéger l'avis"
+        },
+        "details_collapse": {
+            "title": "Comparez le widget personnalisé entre les plans d'abonnement",
+            "widgetBox": {
+                "title": "Boîte de widget (par défaut)",
+                "choose_layout": "Choisir la mise en page",
+                "summary_box": "Boîte de résumé",
+                "color_scheme": "Schéma de couleurs",
+                "information_display": "Affichage des informations",
+                "content": "Contenu"
+            },
+            "widgetBoxNoReview": {
+                "title": "Boîte de widget (pas d'avis)",
+                "content": "Contenu",
+                "color_scheme": "Schéma de couleurs"
+            },
+            "modalReviewDetail": {
+                "title": "Détail de l'avis en modal",
+                "all_settings": "Tous les réglages"
+            },
+            "modal_all_image": {
+                "title": "Modal toutes les images",
+                "all_settings": "Tous les réglages"
+            },
+            "formWriteReview": {
+                "title": "Formulaire d'écriture d'avis",
+                "review_with_video": "Avis avec vidéo"
+            }
+        }
+    },
+    "free_banner": {
+        "title": "Accédez aux fonctionnalités essentielles avec notre Plan Gratuit, parfait pour les débutants.",
+        "email_quota_limit": "Limite de quota d'e-mails {{limit}} commandes/mois",
+        "basic_access": "Accès de base au widget d'avis",
+        "basic_edit_email": "Modification basique de l'e-mail de demande",
+        "upload_media": "Téléchargement d'images uniquement par les évaluateurs",
+        "quick_chat": "Support de chat rapide",
+        "visible_brand": "Marque TrustShop visible"
+    },
+    "basic_banner": {
+        "everything_in_basic": "Tout dans le plan Basique",
+        "email_quota": "Limite de quota d'e-mails {{limit}} commandes/mois",
+        "discount_voucher": "Bon de réduction automatique",
+        "customize_widget": "Widget personnalisé",
+        "upload_video": "Téléchargement de vidéos lors de la rédaction d'un avis",
+        "review_testimonial": "Témoignage",
+        "modal_all_image": "Paramètres de toutes les images en modal",
+        "review_page": "Page de toutes les critiques",
+        "google_shopping": "Google shopping",
+        "global_display": "Affichage global",
+        "group_product": "Produit de groupe",
+        "custom_domain": "Dominio personalizado",
+        "qr_code": "Gestion des codes QR",
+        "review_translation": "Traduction d'avis",
+        "multi_lang": "Widget multilingue",
+        "ai_functionality": "Fonctionnalité IA",
+        "insights_and_segmentation": "Informations et segmentation",
+        "review_detail_page": "Page de détails de l'avis",
+        "import_custom_csv": "Importer un CSV personnalisé",
+        "protect_review": "Protéger l'avis"
+    },
+    "frequency_ask": {
+        "title": "Questions fréquemment posées",
+        "list_questions": {
+            "1": {
+                "title": "Comment le quota de demandes d'avis est-il calculé ?",
+                "subtitle": "Le quota est basé sur le nombre de commandes. Si vous activez les trois types d'e-mails - Demande d'avis, Rappel d'avis et Remerciement. Un seul quota sera compté par commande."
+            },
+            "2": {
+                "title": "Mon quota sera-t-il utilisé si je n'envoie pas de demandes d'avis via TrustShop ?",
+                "subtitle": "Non, votre quota ne sera déduit que si vous utilisez la fonctionnalité de demande d'avis de TrustShop. Si vous n'utilisez pas cette fonctionnalité, votre quota reste inchangé."
+            },
+            "3": {
+                "title": "Puis-je rétrograder mon plan ?",
+                "subtitle": "Oui, vous pouvez rétrograder votre plan à tout moment si vous n'avez plus besoin des fonctionnalités payantes. Assurez-vous simplement de désactiver toutes les fonctionnalités payantes avant de rétrograder. Si vous avez besoin d'aide, notre équipe de support est toujours là pour vous aider."
+            },
+            "4": {
+                "title": "Serai-je facturé pendant la période d'essai ?",
+                "subtitle": "Non, vous ne serez pas facturé pendant l'essai. Les frais ne commenceront qu'une fois la période d'essai terminée."
+            }
+        }
+    },
+    "modal_charge_success": {
+        "title": "Vous êtes maintenant un membre {{plan}}!",
+        "content": "Merci d'avoir choisi notre abonnement premium! Préparez-vous à bénéficier d'avantages exclusifs et d'un support de premier ordre. Rendons ce voyage extraordinaire."
+    },
+    "special_offer": {
+        "title": "Offre Spéciale : 30% de Réduction pour Votre Fidélité !",
+        "content": "Pour vous montrer notre reconnaissance pour votre soutien, nous vous offrons une <1>réduction spéciale de 30%</1> sur tout plan d'abonnement pour les deux prochains mois. Merci d'être un client précieux !",
+        "remain_time": "Temps restant pour l'offre :"
+    }
+}

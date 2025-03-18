@@ -1,0 +1,109 @@
+{
+    "welcome_app" : {
+        "title": "Bem-vindo às avaliações de produtos"
+    },
+    "popup": {
+        "button": "Avalie-nos",
+        "content": "Seu feedback impulsiona a melhoria do TrustShop. Gostaríamos de saber como você avalia nosso aplicativo?",
+        "title": "Sua opinião é importante para nós!",
+        "modal_rate": {
+            "title": "Por que você se sente insatisfeito com o TrustShop?",
+            "option_1": {
+            "title": "Difícil de usar ou configurar",
+            "content": "Eu achei difícil usar o aplicativo quando:"
+            },
+            "option_2": "Insatisfeito com o suporte",
+            "option_3": {
+            "title": "Recursos limitados ou ausentes",
+            "content": "O aplicativo deveria ter mais recursos, como:"
+            }
+        }
+    },
+    "setup_guide": {
+        "card_1": {
+            "content": "Exiba avaliações em sua loja online",
+            "title": "Adicionar widget à loja online"
+        },
+        "card_2": {
+            "button": "Configurar e-mail",
+            "content": "Personalize o horário em que o e-mail de solicitação e o e-mail de agradecimento serão enviados",
+            "title": "Configurar e-mail de solicitação"
+        },
+        "card_3": {
+            "button": "Personalizar widget",
+            "content": "Personalize o widget de avaliações para se alinhar às preferências do seu cliente",
+            "title": "Personalizar widget"
+        },
+        "card_4": {
+            "button": "Voucher de desconto",
+            "content": "Incentive os clientes a deixarem uma avaliação oferecendo um desconto em sua próxima compra",
+            "title": "Voucher de desconto"
+        },
+        "title": "Guia de Configuração"
+    },
+    "statistics": {
+        "all": "Todos",
+        "all_reviews": "Todas as avaliações",
+        "avg_star_rating": "Classificação média por estrelas",
+        "title": "As suas perceções de avaliação"
+    },
+    "whats-new": {
+        "slide_1": {
+            "title": "🌍 Avaliações em vários idiomas: ligue-se a clientes em todo o mundo",
+            "date_time": "Atualizado: 1 de março de 2025",
+            "content": {
+                "text" : "A estrela desta atualização é o nosso novo widget multilingue e a funcionalidade de tradução de avaliações. No mercado global atual, as barreiras linguísticas não devem limitar o potencial da sua loja. Com o TrustShop 2.8, os clientes podem agora traduzir as avaliações para o seu idioma nativo com um único clique."
+            },
+            "button": "Saber mais"
+        },
+        "slide_2": {
+            "title": "Nova coleção de revisão de código QR",
+            "date_time": "Atualizado: 6 de fevereiro de 2025",
+            "content": {
+                "text" : "Uma nova forma de recolher avaliações de clientes. Quando os clientes digitalizam o código QR, podem:",
+                "list": [
+                    "Veja produtos que ainda não avaliaram",
+                    "Envie novas avaliações facilmente",
+                    "Veja as avaliações anteriores",
+                    "Acompanhe os códigos de desconto ganhos"
+                ]
+            },
+            "button": "Saber mais"
+        },
+        "slide_3": {
+            "title": "Personalização avançada de modelos de e-mail",
+            "date_time": "Atualizado: 6 de fevereiro de 2025",
+            "content": {
+                "text": "Aperfeiçoe a apresentação da sua marca com uma personalização de e-mail melhorada:",
+                "list": [
+                    "Posicionamento flexível do logótipo",
+                    "Tamanho do logótipo personalizável",
+                    "Configurações de preenchimento ajustáveis",
+                    "Opções de cor de fundo"
+                ]
+            },
+            "button": "Saber mais"
+        },
+        "slide_4": {
+            "title": "Gestão avançada de lista de cancelamento de subscrição",
+            "date_time": "Atualizado: 11 de janeiro de 2025",
+            "content": {
+                "text": "Mantenha a comunicação com os seus clientes limpa e eficaz com o nosso novo sistema de gestão de cancelamento de subscrição. Acompanhe, analise e mantenha as suas listas de clientes com precisão"
+            },
+            "button": "Saber mais"
+        },
+        "slide_5": {
+            "title": "Integração de detalhes do cliente nativo do Shopify",
+            "date_time": "Atualizado: 11 de janeiro de 2025",
+            "content": {
+                "text": "Aceda às avaliações dos clientes diretamente na página de detalhes do cliente da Shopify. Chega de alternar entre separadores – tudo o que precisa está exatamente onde precisa!"
+            },
+            "button": "Saber mais"
+        },
+        "title": "O que há de novo"
+    },
+    "popup_support" : {
+        "title": "Como podemos ajudá-lo?",
+        "content": "Pode aceder aos nossos extensos documentos de ajuda, e a nossa equipa está sempre disponível para ajudá-lo. Basta entrar em contacto connosco!"
+    }
+}

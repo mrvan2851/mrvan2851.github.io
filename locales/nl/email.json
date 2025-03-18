@@ -1,0 +1,247 @@
+{
+    "table": {
+        "navigate_button_content": "E-mail Workflow",
+        "no_data": {
+            "title": "Beheer uw verzoek e-mails",
+            "description": "Activeer e-mail sjablonen om geautomatiseerde e-mails naar klanten te sturen.",
+            "setting_email_templates": "E-mail sjablonen instellen"
+        },
+        "title": "Beoordelingsverzoek e-mail",
+        "second_title": "Stuur handmatig een e-mail",
+        "search_placeholder": "Voer een e-mailadres of bestelnummer in",
+        "all_status": "Alle statussen",
+        "email_type": "E-mailtype",
+        "email_review_request": "Beoordelingsverzoek e-mail",
+        "remind_request_review": "Herinnering beoordelingsverzoek e-mail",
+        "thank_you_email": "Bedankt e-mail",
+        "just_now": "Zojuist",
+        "order_id": "Bestelnummer",
+        "buyer": "Koper",
+        "location": "Locatie",
+        "product": "Product",
+        "purchase_time": "Aankooptijd",
+        "schedule_date": "Geplande datum",
+        "send_now": "Nu verzenden",
+        "send_again": "Opnieuw verzenden"
+    },
+    "campaign": {
+        "banner": {
+            "title": "Klantbeoordelingen zijn krachtig!",
+            "content": "Een paar zinnen in een beoordeling kunnen meer invloed hebben op consumenten dan een hele website. Verkrijg beoordelingen van uw klanten met onze ingebouwde e-mailcampagnes en sjablonen om uw leven gemakkelijker te maken!"
+        },
+        "email_content": "E-mailinhoud",
+        "email_content_description": "Stel e-mailinhoud samen met op maat gemaakte taal om ervoor te zorgen dat uw klanten de boodschap gemakkelijk begrijpen",
+        "email_will_be_sent": "E-mail wordt verzonden",
+        "title": "Flow",
+        "not_active": "niet actief",
+        "running": "Actief",
+        "save_just_now": "Nu opslaan",
+        "send_test": "Test verzenden",
+        "send_test_email": "Test e-mail verzenden",
+        "enter_email_address": "Voer hieronder een e-mailadres in",
+        "confirm": "Bevestigen",
+        "when_to_send": "Wanneer verzenden",
+        "all_change_save": "Alle wijzigingen opgeslagen",
+        "all_customer": "Alle klanten",
+        "email_schedule": "E-mailplanning",
+        "email_scheduling": "E-mailplanning",
+        "email_scheduling_subtitle": "Pas de tijd aan waarop de e-mail wordt verzonden naar klanten uit verschillende geografische gebieden",
+        "to": "Naar",
+        "subject": "Onderwerp",
+        "preview": "Voorbeeld",
+        "from": "Van",
+        "branding": "Branding",
+        "logo": "Logo",
+        "personalization": "Personalisatie",
+        "active_require_toast": "U moet het verzoek om beoordeling activeren",
+        "product_quantity": "Producthoeveelheid",
+        "star_rating_icon": "Sterwaarderingspictogram",
+        "call_to_action_btn": "Call-to-action-knop (Schrijf een beoordel",
+        "request_review": {
+            "title": "Beoordeling aanvragen",
+            "content": "Na <strong>{{day}}</strong> dagen en een <strong>{{status}}</strong> wordt er automatisch een e-mail gestuurd naar de klant om een beoordeling van het product te vragen.",
+            "toast_active": "Beoordelingsaanvraag geactiveerd",
+            "toast_deactive": "Beoordelingsaanvraag gedeactiveerd"
+        },
+        "request_review_reminder": {
+            "title": "Herinnering voor beoordeling",
+            "content": "Na <strong>{{days}}</strong> dagen na de eerste beoordelingsaanvraag wordt er automatisch een herinnering gestuurd als er geen reactie is ontvangen. Alleen actief als de beoordelingsaanvraag is ingeschakeld.",
+            "after_review_request_mail": "na beoordelingsaanvraag",
+            "toast_active": "Herinnering geactiveerd",
+            "toast_deactive": "Herinnering gedeactiveerd"
+        },
+        "thank_you_for_review": {
+            "title": "Bedankt voor uw beoordeling",
+            "content": "Nadat een klant een beoordeling achterlaat, wordt automatisch een bedankmail gestuurd. Kortingscodes en aanbiedingen kunnen worden toegevoegd. Alleen actief als de beoordelingsaanvraag is ingeschakeld.",
+            "content_2": "<strong>{{days}}</strong> dagen nadat een klant een beoordeling heeft achtergelaten, wordt automatisch een bedankmail gestuurd. Kortingscodes en aanbiedingen kunnen worden toegevoegd. Alleen actief als de beoordelingsaanvraag is ingeschakeld.",
+            "after_review_submit": "Beoordeling ingediend",
+            "review_submitted": "Beoordeling ingediend",
+            "approve_for_review": "Beoordeling goedgekeurd",
+            "toast_active": "Bedankmail geactiveerd",
+            "toast_deactive": "Bedankmail gedeactiveerd"
+        },
+        "send_test_success": "E-mail is succesvol verzonden",
+        "send_test_hepltext": "Voer hieronder een e-mailadres in",
+        "store_name": "Winkelnaam",
+        "first_name": "Voornaam",
+        "last_name": "Achternaam",
+        "email": "E-mail",
+        "city": "Stad",
+        "state_province": "Staat/Provincie",
+        "country": "Land",
+        "request_review_emails": "E-mails voor beoordelingsverzoeken",
+        "background_color": "Achtergrondkleur",
+        "text_color": "Tekstkleur",
+        "show_header": "Koptekst weergeven",
+        "hide_header": "Koptekst verbergen",
+        "order_status": "Bestelstatus",
+        "complete": "Voltooid",
+        "completed": "Voltooid",
+        "order_paid": "Betaald",
+        "default": "Standaard",
+        "add_country_timing": "Landtijd toevoegen",
+        "type_a_language_name": "Typ een taalnaam",
+        "no_language_found": "Geen taal gevonden die overeenkomt met: ",
+        "discount_voucher": "Kortingsbon",
+        "automation": "Automatisering",
+        "discount_description": "Stimuleer klanten om een beoordeling achter te laten door korting aan te bieden voor hun volgende aankoop",
+        "email_queue": "Handmatige e-mailaanvraag",
+        "email_queue_description": "Stuur aanvraag-e-mails voor de bestellingen die niet automatisch worden verzonden",
+        "country_selected_count": "{{selected}} van {{total}} geselecteerd",
+        "country_group": {
+            "asia": "Azië",
+            "europe": "Europa",
+            "africa": "Afrika",
+            "north_america": "Noord-Amerika",
+            "south_america": "Zuid-Amerika",
+            "oceania": "Oceanië"
+        }
+    },
+    "email_template": {
+        "request_review": {
+            "subject": "Bent u tevreden met uw aankoop van {{PRODUCT_NAME}}? Laat nu een beoordeling achter!",
+            "preview_text": "Bedankt voor uw recente aankoop. We hopen dat u ervan geniet! Als dat zo is, is uw beoordeling erg waardevol voor ons",
+            "body": {
+                "title": "Hoe was uw ervaring? 🤗",
+                "html": "<h2>Hoe was uw ervaring? 🤗</h2>",
+                "content": {
+                    "html": "<p><strong>Hallo </strong>{{FIRST_NAME}}</p>\n<p>We willen graag controleren hoe u geniet van uw winkelervaring bij {{STORE_NAME}}</p>\n<p>Als u een moment heeft, zou het geweldig zijn als u uw gedachten en ervaringen met ons en mede-shoppers zou kunnen delen. Uw goedkeuring is alles 🤩.</p>\n",
+                    "raw": "{'blocks':[{'key':'e8our','text':'Hallo {{FIRST_NAME}}','type':'unstyled','depth':0,'inlineStyleRanges':[{'offset':0,'length':6,'style':'BOLD'}],'entityRanges':[],'data':{}},{'key':'eustq','text':'We willen graag controleren hoe u geniet van uw winkelervaring bij {{STORE_NAME}}','type':'unstyled','depth':0,'inlineStyleRanges':[],'entityRanges':[],'data':{}},{'key':'7tjk7','text':'Als u een moment heeft, zou het geweldig zijn als u uw gedachten en ervaringen met ons en mede-shoppers zou kunnen delen. Uw goedkeuring is alles 🤩.','type':'unstyled','depth':0,'inlineStyleRanges':[],'entityRanges':[],'data':{}}],'entityMap':{}}"
+                },
+                "product": {
+                    "rate_this_item": {
+                        "text": "Beoordeel dit item"
+                    }
+                }
+            }
+        },
+        "thank_you_email": {
+            "subject": "Bedankt voor het achterlaten van een beoordeling!❤️",
+            "preview_text": "Bedankt voor uw recente aankoop. We hopen dat u ervan geniet! Als dat zo is, is uw beoordeling erg waardevol voor ons",
+            "body": {
+                "html": "<h2>Bedankt voor het achterlaten van een beoordeling!❤️</h2>",
+                "title": "Bedankt voor het achterlaten van een beoordeling!❤️",
+                "content": {
+                    "html": "<p><strong>Hallo </strong>{{FIRST_NAME}}</p>\n<p>Hallo Bedankt voor het achterlaten van een beoordeling van uw meest recente aankoop. We horen graag feedback en waarderen de tijd die u hebt genomen om uw ervaring met dit item(s) te delen.</p>",
+                    "raw": "{'blocks':[{'key':'e8our','text':'Hallo {{FIRST_NAME}}','type':'unstyled','depth':0,'inlineStyleRanges':[{'offset':0,'length':6,'style':'BOLD'}],'entityRanges':[],'data':{}},{'key':'eustq','text':'Bedankt voor het achterlaten van een beoordeling van uw meest recente aankoop. We horen graag feedback en waarderen de tijd die u hebt genomen om uw ervaring met dit item(s) te delen.','type':'unstyled','depth':0,'inlineStyleRanges':[],'entityRanges':[],'data':{}},{'key':'al478','text':'','type':'unstyled','depth':0,'inlineStyleRanges':[],'entityRanges':[],'data':{}}],'entityMap':{}}"
+                },
+                "reviews": {
+                    "review_on": "Beoordelingen op",
+                    "btn_shop_now": "Nu winkelen"
+                }
+            }
+        },
+        "tone_voice": {
+            "friendly": {
+                "request_review": {
+                    "subject": "Bent u tevreden met uw aankoop van {{PRODUCT_NAME}}? Laat nu een beoordeling achter!",
+                    "content": "<p><strong>Hallo </strong>{{FIRST_NAME}}</p>\n<p>We willen graag controleren hoe u geniet van uw winkelervaring bij {{STORE_NAME}}</p>\n<p>Als u een moment heeft, zou het geweldig zijn als u uw gedachten en ervaringen met ons en mede-shoppers zou kunnen delen. Uw goedkeuring is alles 🤩.</p>\n<p>Met vriendelijke groet,</p>\n<p>Het {{STORE_NAME}} Team</p>"
+                },
+                "request_review_reminder": {
+                    "subject": "Hoe was uw ervaring? Laat het ons weten.",
+                    "content": "Bedankt voor uw recente aankoop. We hopen dat u ervan geniet! Als dat zo is, is uw beoordeling erg waardevol voor ons"
+                },
+                "thank_you_email": {
+                    "subject": "Bedankt voor het achterlaten van een beoordeling!❤️",
+                    "content": "<p><strong>Hallo </strong>{{FIRST_NAME}}</p>\n<p>Hallo Bedankt voor het achterlaten van een beoordeling van uw meest recente aankoop. We horen graag feedback en waarderen de tijd die u hebt genomen om uw ervaring met dit item(s) te delen.</p>"
+                }
+            },
+            "professional": {
+                "request_review": {
+                    "subject": "Uw feedback is belangrijk: Deel uw gedachten over {{PRODUCT_NAME}}",
+                    "content": "<p><strong>Beste </strong>{{FIRST_NAME}}</p>\n<p>We hopen dat u geniet van uw recente aankoop van {{PRODUCT_NAME}} bij {{STORE_NAME}}. Uw feedback is cruciaal om onze aanbiedingen te verbeteren en de best mogelijke ervaring te bieden aan al onze klanten.</p>\n<p>We nodigen u vriendelijk uit om uw gedachten over {{PRODUCT_NAME}} te delen door een beoordeling achter te laten op onze website. Uw eerlijke feedback wordt zeer gewaardeerd.</p>\n<p>Bedankt voor uw tijd en voortdurende steun.</p>\n<p>Met vriendelijke groet,</p>\n<p>Het {{STORE_NAME}} Team</p>"
+                },
+                "request_review_reminder": {
+                    "subject": "Uw recente ervaring met {{STORE_NAME}}",
+                    "content": "<p><strong>Hallo</strong> {{FIRST_NAME}}</p>\n<p>Bedankt voor het kiezen van {{STORE_NAME}}! We hopen dat u geniet van uw recente aankoop. Uw mening is waardevol en we zouden het op prijs stellen als u een moment zou kunnen nemen om uw ervaring te delen.</p>\n<p>Met vriendelijke groet,</p>\n<p>{{STORE_NAME}}</p>"
+                },
+                "thank_you_email": {
+                    "subject": "Beoordeling ontvangen: Uw mening telt!",
+                    "content": "<p><strong>Beste </strong>{{FIRST_NAME}}</p>\n<p>Bedankt dat u de tijd heeft genomen om een beoordeling van uw recente aankoop in te dienen. Uw feedback is waardevol voor ons, omdat we streven naar voortdurende verbetering van onze producten en diensten. We waarderen het dat u uw inzichten deelt.</p>"
+                }
+            },
+            "persuasive": {
+                "request_review": {
+                    "subject": "Ontgrendel exclusieve voordelen! Deel uw beoordeling van {{PRODUCT_NAME}}",
+                    "content": "<p><strong>Hallo </strong>{{FIRST_NAME}}</p>\n<p>Geniet u van uw nieuwe {{PRODUCT_NAME}} van {{STORE_NAME}}? We horen er graag over!</p>\n<p>Het delen van uw eerlijke beoordeling op onze website helpt anderen bij het nemen van geïnformeerde beslissingen en kan ook exclusieve voordelen voor u ontgrendelen, zoals een speciale coupon voor uw volgende aankoop!</p>\n<p>Het kost slechts een paar minuten om een beoordeling achter te laten en het zal een groot verschil maken.</p>\n<p>Klik op sterren en deel vandaag nog uw gedachten!</p>\n<p>Bedankt,</p>\n<p>Het {{STORE_NAME}} Team</p>"
+                },
+                "request_review_reminder": {
+                    "subject": "Ontgrendel exclusieve voordelen met uw beoordeling!",
+                    "content": "<p><strong>Hallo</strong> {{FIRST_NAME}},</p>\n<p>Uw recente aankoop bij {{STORE_NAME}} betekent veel voor ons! Deel uw gedachten, ontgrendel exclusieve voordelen en geniet van iets speciaals alleen voor u.</p>\n<p>Bedankt dat u voor {{STORE_NAME}} heeft gekozen!</p>\n<p>Hartelijke groeten,</p>\n<p>{{STORE_NAME}}</p>"
+                },
+                "thank_you_email": {
+                    "subject": "Help anderen slimmer te winkelen: Deel uw beoordelingservaring!",
+                    "content": "<p><strong>Hallo</strong> {{FIRST_NAME}},</p>\n<p>We waarderen het dat u een beoordeling heeft achtergelaten van uw recente aankoop! Uw inzichten zijn waardevol voor andere shoppers en we waarderen het dat u de tijd heeft genomen om bij te dragen aan onze community. Door uw ervaring te delen, helpt u anderen bij het nemen van geïnformeerde beslissingen.</p>"
+                }
+            },
+            "supportive": {
+                "request_review": {
+                    "subject": "We staan voor u klaar! Deel uw ervaring met {{PRODUCT_NAME}}",
+                    "content": "<p><strong>Hallo </strong>{{FIRST_NAME}}</p>\n<p>We hopen dat u zich thuis voelt met uw nieuwe {{PRODUCT_NAME}} van {{STORE_NAME}}.</p>\n<p>Uw beoordeling op onze website helpt niet alleen anderen, maar helpt ons ook ervoor te zorgen dat we de best mogelijke ondersteuning bieden aan onze klanten.</p>\n<p>Voel u vrij om uw gedachten over {{PRODUCT_NAME}}, goed of slecht, te delen. We waarderen uw input en willen ervoor zorgen dat u volledig tevreden bent.</p>\n<p>Als u vragen heeft of hulp nodig heeft met uw {{PRODUCT_NAME}}, aarzel dan niet om contact op te nemen met ons vriendelijke klantenserviceteam.</p>\n<p>We helpen u graag!</p>\n<p>Met vriendelijke groet,</p>\n<p>Het {{STORE_NAME}} Team</p>"
+                },
+                "request_review_reminder": {
+                    "subject": "Uw mening is belangrijk voor {{STORE_NAME}}",
+                    "content": "<p><strong>Beste</strong> {{FIRST_NAME}},</p>\n<p>We hopen dat u tevreden bent met uw recente aankoop bij {{STORE_NAME}}. Uw feedback is belangrijk. Neem alstublieft een moment om uw gedachten te delen.</p>\n<p>Bedankt dat u een gewaardeerde klant bent van {{STORE_NAME}}.</p>\n<p>Met vriendelijke groet,</p>\n<p>{{STORE_NAME}}</p>"
+                },
+                "thank_you_email": {
+                    "subject": "We hebben uw beoordeling gezien!",
+                    "content": "<p><strong>Hallo</strong> {{FIRST_NAME}},</p>\n<p>We hebben uw beoordeling van uw recente aankoop gezien en willen u hartelijk bedanken! Uw feedback is belangrijk voor ons, omdat het ons helpt ervoor te zorgen dat we de best mogelijke ervaring bieden aan al onze klanten.</p>"
+                }
+            }
+        }
+    },
+    "qr_code_setting": {
+        "page_title": "QR-codebeheer",
+        "store_qr_code": "Winkel QR-code",
+        "store_qr_code_description": "Maak en pas unieke QR-codes aan voor uw winkel, zodat klanten hun bestellingen kunnen beheren en beoordelen met slechts een scan. Verbeter de klantervaring van uw winkel met snelle en handige QR-code-integratie.",
+        "download_qr_code": "QR-code downloaden",
+        "scan_analysis": "Scananalyse",
+        "bar_chart": "Staafdiagram",
+        "line_chart": "Lijndiagram",
+        "total_scans": "Totaal aantal scans",
+        "operating_system_scan": "Besturingssysteemscan",
+        "total_scan": "Totale scan",
+        "rate": "Tarief",
+        "top_country": "Topland",
+        "country": "Land",
+        "top_cities": "Topsteden",
+        "cities": "Steden",
+        "modal_customize": {
+            "title": "Winkel QR-code-editor",
+            "frame": "Kader",
+            "background_color": "Achtergrondkleur",
+            "transparent_background": "Transparante achtergrond",
+            "logo": "Logo",
+            "upload_logo": "Logo uploaden",
+            "pattern_color": "Patroonkleur",
+            "custom_pattern_color": "Aangepaste patroonkleur",
+            "frame_color": "Kaderkleur"
+        }
+    },
+    "product_photo": "Productfoto",
+    "product_name": "Productnaam",
+    "quantity": "Hoeveelheid",
+    "unsubcribe": "Afmelden",
+    "resync-order": "Bestelling opnieuw synchroniseren",
+    "resync-helptext": "Het systeem zal al uw eerdere bestellingen synchroniseren."
+}

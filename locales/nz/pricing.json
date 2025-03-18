@@ -1,0 +1,184 @@
+{
+    "plan": {
+        "for_free": "Koreutu",
+        "title": "Mahere",
+        "free": "Pūmau",
+        "basic": "Paerewa",
+        "pro": "Māngai",
+        "unlimited": "Katoa",
+        "free_plan": "Mahere Pūmau",
+        "basic_plan": "Mahere Paerewa",
+        "pro_plan": "Mahere Māngai",
+        "unlimited_plan": "Mahere Katoa"
+    },
+    "basic": "Pūmau",
+    "fully": "Katoa",
+    "per_month": "ia marama",
+    "plan_active": "{{plan}} kua whakahohehia",
+    "discount_offer_time": "mō te {{time}} e whai ake nei",
+    "origin_price": "Utu taketake ",
+    "order/month": "ōkawa/marama",
+    "request_reviews": "Tono whakamātau",
+    "upgrade_plan": "Whakahou i te mahere",
+    "select_plan": "Tāpirihia te {{plan}}",
+    "start_free": "Tīmata kore utu",
+    "unlimited": "Koreutu",
+    "modal_pricing_title": "Whakatūwherahia ngā Āhuatanga Premium me Tāu Tātaritanga Flex",
+    "best_choice": "Tīmatanga pai",
+    "coming_soon": "Kei te tae tonu",
+    "process_bar": {
+        "title": "Tōpū īmēra kua oti",
+        "subtitle": "Ka whakahouhia tēnei tatauranga i te <strong>{{date}}</strong>",
+        "order_count": "{{used}} o {{total}} ōkawa kua oti"
+    },
+    "plan_table": {
+        "title": "Ngā Mahere Utu",
+        "subtitle": "Kimi i ngā mahere o ngā rēhita e whakaritea ana hei whakanui i tō pakihi!",
+        "start_trial": "Tīmata te whakamātautau koreutu mō ngā rā {{day}}",
+        "current_plan": "Mahere o nāianei",
+        "upgrade": "Whakahou",
+        "select_plan": "Tāpirihia te mahere",
+        "downgrade": "Hōmai",
+        "pricing_card": {
+            "free": "Whakaatu ki ngā āhuatanga matua me tā mātou Mahere Pūmau, pai mō ngā tīmata.",
+            "basic": "Tiki āhuatanga me te tautoko whakamīharo me te Mahere Paerewa mō ngā tangata whaiaro",
+            "pro": "Whakawhānui i tō pakihi me te Mahere Māngai katoa",
+            "unlimited": "Kāore he rohe mō tō tipu"
+        },
+        "modal_downgrade": {
+            "title": "Kaua e ngaro te uru ki ngā āhuatanga kaha!",
+            "subtitle": "Kei te whakamahi tō toa i ētahi āhuatanga premium. Whakamutua ēnei hei whakaheke i tō mahere:",
+            "discount_voucher": "Rihita tīhāte",
+            "customize_widget": "Whakaitihia te whirihoranga",
+            "upload_video": "Takiata i ngā ataata i te wā e tuhinga ana i te arotake",
+            "review_testimonial": "Pūnaha",
+            "modal_all_image": "Whakatakotoria ngā whakaahua katoa i te modal",
+            "review_page": "Pānga katoa ki ngā arotake",
+            "google_shopping": "Google Shopping",
+            "global_display": "Whakaatu Ao",
+            "group_product": "Rōpū Hua",
+            "custom_domain": "Tūtohu ritenga",
+            "qr_code": "Rangahau waehere QR",
+            "review_translation": "Arotake whakamāori",
+            "multi_lang": "Wikiti reo maha",
+            "ai_functionality": "Mahi AI",
+            "insights_and_segmentation": "Māramatanga me te whakawhitiwhiti",
+            "review_detail_page": "Whārangi arotake",
+            "import_custom_csv": "Kawemai CSV ritenga",
+            "protect_review": "Tiakina te arotake"
+        },
+        "primary_collapse": {
+            "title": "Tāuta te mahere pai mō tō hiahia",
+            "email_quota": "Tono whakamātau",
+            "email_quota_helptext": "Ka tātaritia e mātou tō rārangi i runga i te maha o ngā tono, kāore i runga i te maha o ngā īmēra tono arotake kua tukuna. Hei tauira, mēnā ka tukuna e koe e toru ngā īmēra (tono, whakamaharatanga, me te mihi), ka kiia anō he kotahi noa iho.",
+            "order_per_month": "Katoa ōkawa/marama",
+            "discount_voucher": "Rihita tīhāte",
+            "customize_widget": "Whakaitihia te whirihoranga",
+            "upload_video": "Ataata arotake",
+            "review_testimonial": "Pūnaha arotake",
+            "modal_all_image": "Whakatakotoria ngā whakaahua katoa i te modal",
+            "review_page": "Pānga katoa ki ngā arotake",
+            "google_shopping": "Google Shopping",
+            "global_display": "Whakaatu Ao",
+            "group_product": "Rōpū Hua",
+            "custom_domain": "Tūtohu ritenga",
+            "qr_code": "Rangahau waehere QR",
+            "review_translation": "Arotake whakamāori",
+            "multi_lang": "Wikiti reo maha",
+            "ai_functionality": "Mahi AI",
+            "insights_and_segmentation": "Māramatanga me te whakawhitiwhiti",
+            "review_detail_page": "Whārangi arotake",
+            "import_custom_csv": "Kawemai CSV ritenga",
+            "protect_review": "Tiakina te arotake"
+        },
+        "details_collapse": {
+            "title": "Whakaritea te whirihoranga widget i waenga i ngā mahere rēhita",
+            "widgetBox": {
+                "title": "Box widget (tūmataiti)",
+                "choose_layout": "Whiriwhiria te whakatakotoranga",
+                "summary_box": "Kete Whakarāpopoto",
+                "color_scheme": "Taupānga Tae",
+                "information_display": "Whakaatu mōhiotanga",
+                "content": "Tāuru"
+            },
+            "widgetBoxNoReview": {
+                "title": "Box widget (kāore he arotake)",
+                "content": "Tāuru",
+                "color_scheme": "Taupānga Tae"
+            },
+            "modalReviewDetail": {
+                "title": "Whakatakotoria ngā āhuatanga arotake modal",
+                "all_settings": "Ngā whakatakotoranga katoa"
+            },
+            "modal_all_image": {
+                "title": "Whakatakotoria ngā whakaahua katoa i te modal",
+                "all_settings": "Ngā whakatakotoranga katoa"
+            },
+            "formWriteReview": {
+                "title": "Pūnaha arotake tuhinga",
+                "review_with_video": "Arotake me te ataata"
+            }
+        }
+    },
+    "free_banner": {
+        "title": "Whakauru ki ngā āhuatanga matua me to mātou Mahere Pūmau, pai mō ngā tīmata.",
+        "email_quota_limit": "Te whakararuraru īmēra {{limit}} ōkawa/marama",
+        "basic_access": "Whakauru paerewa ki te whirihoranga arotake",
+        "basic_edit_email": "Whakauru paerewa i te whakatika īmēra tono",
+        "upload_media": "Whakauru whakaahua anake e ngā kaituhi",
+        "quick_chat": "Tautoko Whakawhitiwhiti āhua",
+        "visible_brand": "Whakaatu Brand TrustShop"
+    },
+    "basic_banner": {
+        "everything_in_basic": "Ngā mea katoa i te Mahere Paerewa",
+        "email_quota": "Te whakararuraru īmēra {{limit}} ōkawa/marama",
+        "discount_voucher": "Rihita tīhāte aunoa",
+        "customize_widget": "Whakaitihia te whirihoranga",
+        "upload_video": "Takiata i ngā ataata i te wā e tuhinga ana i te arotake",
+        "review_testimonial": "Pūnaha arotake",
+        "modal_all_image": "Whakatakotoria ngā whakaahua katoa i te modal",
+        "review_page": "Pānga katoa ki ngā arotake",
+        "google_shopping": "Google Shopping",
+        "global_display": "Whakaatu Ao",
+        "group_product": "Rōpū Hua",
+        "custom_domain": "Tūtohu ritenga",
+        "qr_code": "Rangahau waehere QR",
+        "review_translation": "Arotake whakamāori",
+        "multi_lang": "Wikiti reo maha",
+        "ai_functionality": "Mahi AI",
+        "insights_and_segmentation": "Māramatanga me te whakawhitiwhiti",
+        "review_detail_page": "Whārangi arotake",
+        "import_custom_csv": "Kawemai CSV ritenga",
+        "protect_review": "Tiakina te arotake"
+    },
+    "frequency_ask": {
+        "title": "Frequently asked questions",
+        "list_questions": {
+            "1": {
+                "title": "Me pēhea te tatau i te rahinga tono arotake?",
+                "subtitle": "Kei te āhua o te maha o ngā ota te tatau rahinga. Mēnā ka whakahohea e koe ngā momo mēra katoa e toru—Tono Arotake, Whakamaumahara Arotake, me te Whakawhetai. Kotahi noa te rahinga ka tatauhia mō ia ota."
+            },
+            "2": {
+                "title": "Ka whakamahia taku rahinga mēnā kāore au e tuku tono arotake mā TrustShop?",
+                "subtitle": "Kāo, ka tangohia tō rahinga anake mēnā ka whakamahi koe i te āhuatanga tono arotake a TrustShop. Mēnā kāore koe e whakamahi i tēnei āhuatanga, kāore tō rahinga e pāngia."
+            },
+            "3": {
+                "title": "Ka taea e au te heke iho i taku mahere?",
+                "subtitle": "Āe, ka taea e koe te heke iho i tō mahere i ngā wā katoa mēnā kāore koe e hiahia ana i ngā āhuatanga utu. Me mōhio koe ki te whakakore i ngā āhuatanga utu katoa i mua i te hekenga iho. Mēnā e hiahia ana koe i te āwhina, kei konei tonu tō mātou rōpū tautoko hei āwhina i a koe."
+            },
+            "4": {
+                "title": "Ka utua au i te wā o te wā whakamātautau?",
+                "subtitle": "Kāo, kāore koe e utua i te wā whakamātautau. Ka timata ngā utu anake i te mutunga o te wā whakamātautau."
+            }
+        }
+    },
+    "modal_charge_success": {
+        "title": "Kei te membre {{plan}} ināianei!",
+        "content": "Ngā mihi mō te whiriwhiri i tā mātou rēhita premium! Whakaritea mō ngā painga motuhake me ngā tautoko tino pai. Kia waiho tēnei haerenga hei tino whakamīharo."
+    },
+    "special_offer": {
+        "title": "Tukunga Motuhake: 30% Whakataunga mō tōu piringa!",
+        "content": "Hei whakaatu i tō mātou maioha mō tō tautoko, kei te tuku mātou he <1>30% whakataunga motuhake</1> ki a koe mō tētahi mahere ohaurunga mō ngā marama e rua e haere ake nei. Ngā mihi mō tōu noho hei kiritaki nui!",
+        "remain_time": "Wā e toe ana mō te tuku:"
+    }
+}

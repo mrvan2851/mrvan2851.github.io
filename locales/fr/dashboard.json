@@ -1,0 +1,109 @@
+{
+    "welcome_app" : {
+        "title": "Bienvenue dans les évaluations de produits"
+    },
+    "popup": {
+        "button": "Évaluez-nous",
+        "content": "Votre avis contribue à l'amélioration de TrustShop. Nous aimerions savoir comment vous évaluez notre application.",
+        "title": "Votre opinion compte pour nous !",
+        "modal_rate": {
+            "title": "Pourquoi vous sentez-vous mécontent de TrustShop ?",
+            "option_1": {
+                "title": "Difficulté à utiliser ou à configurer",
+                "content": "J'ai eu du mal à utiliser l'application lorsque :"
+            },
+            "option_2": "Insatisfait du support",
+            "option_3": {
+                "title": "Fonctionnalités limitées ou manquantes",
+                "content": "L'application devrait avoir plus de fonctionnalités, telles que :"
+            }
+        }
+    },
+    "setup_guide": {
+        "card_1": {
+            "content": "Affichez les avis sur votre boutique en ligne",
+            "title": "Ajoutez un widget à votre boutique en ligne"
+        },
+        "card_2": {
+            "button": "Configurer le courrier",
+            "content": "Personnalisez l'heure à laquelle les e-mails de demande et de remerciement seront envoyés",
+            "title": "Configurer l'e-mail de demande"
+        },
+        "card_3": {
+            "button": "Personnalisez le widget",
+            "content": "Personnalisez le widget d'avis pour qu'il corresponde aux préférences de vos clients",
+            "title": "Personnalisez le widget"
+        },
+        "card_4": {
+            "button": "Bon de réduction",
+            "content": "Encouragez les clients à laisser un avis en leur offrant une réduction pour leur prochain achat",
+            "title": "Bon de réduction"
+        },
+        "title": "Guide de configuration"
+    },
+    "statistics": {
+        "all": "Tous",
+        "all_reviews": "Tous les avis",
+        "avg_star_rating": "Note moyenne des étoiles",
+        "title": "Vos avis"
+    },
+    "whats-new": {
+        "slide_1": {
+            "title": "🌍 Avis multilingues : connectez-vous avec des clients du monde entier",
+            "date_time": "Mise à jour : 1 mars 2025",
+            "content": {
+                "text" : "La vedette de cette mise à jour est notre nouvelle fonctionnalité de traduction des avis et des widgets multilingues. Sur le marché mondial actuel, les barrières linguistiques ne devraient pas limiter le potentiel de votre boutique. Avec TrustShop 2.8, les clients peuvent désormais traduire les avis dans leur langue maternelle en un seul clic."
+            },
+            "button": "En savoir plus"
+        },
+        "slide_2": {
+            "title": "Nouvelle collection de critiques de codes QR",
+            "date_time": "Mise à jour : 6 février 2025",
+            "content": {
+                "text" : "Une nouvelle façon de recueillir les avis des clients. Lorsque les clients scannent le code QR, ils peuvent :",
+                "list": [
+                    "Voir les produits qu'ils n'ont pas encore évalués",
+                    "Soumettez facilement de nouveaux avis",
+                    "Voir leurs avis précédents",
+                    "Suivez leurs codes de réduction gagnés"
+                ]
+            },
+            "button": "En savoir plus"
+        },
+        "slide_3": {
+            "title": "Personnalisation avancée des modèles d'e-mails",
+            "date_time": "Mise à jour : 6 février 2025",
+            "content": {
+                "text": "Perfectionnez la présentation de votre marque grâce à une personnalisation améliorée des e-mails :",
+                "list": [
+                    "Positionnement flexible du logo",
+                    "Taille du logo personnalisable",
+                    "Réglages de rembourrage réglables",
+                    "Options de couleur d'arrière-plan"
+                ]
+            },
+            "button": "En savoir plus"
+        },
+        "slide_4": {
+            "title": "Gestion avancée des listes de désabonnement",
+            "date_time": "Mise à jour : 11 janvier 2025",
+            "content": {
+                "text": "Gardez vos communications clients claires et efficaces grâce à notre nouveau système de gestion des désabonnements. Suivez, analysez et maintenez vos listes de clients avec précision"
+            },
+            "button": "En savoir plus"
+        },
+        "slide_5": {
+            "title": "Intégration native des informations client Shopify",
+            "date_time": "Mise à jour : 11 janvier 2025",
+            "content": {
+                "text": "Accédez aux avis clients directement depuis la page des détails client de Shopify. Plus besoin de passer d'un onglet à l'autre : tout ce dont vous avez besoin se trouve exactement là où vous en avez besoin !"
+            },
+            "button": "En savoir plus"
+        },
+        "title": "Quoi de neuf"
+    },
+    "popup_support" : {
+        "title": "Comment pouvons-nous vous aider?",
+        "content": "Vous pouvez accéder à nos nombreux documents d'aide et notre équipe est toujours disponible pour vous aider. Contactez-nous !"
+    }
+}

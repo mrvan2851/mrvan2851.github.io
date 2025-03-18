@@ -1,0 +1,22 @@
+{
+    "send_mail": {
+        "title": "Manuell Förfrågnings-E-post",
+        "subject": "Skicka förfrågningsmail för beställningar som inte skickas automatiskt"
+    },
+    "table": {
+        "orders": "Beställningar",
+        "date": "Datum",
+        "customer": "Kund",
+        "total": "Totalt",
+        "fulfillment_status": "Utförandestatus",
+        "items": "Artiklar"
+    },
+    "empty_search": {
+        "title": "Inga beställningar hittades",
+        "description": "Försök att ändra filter eller sökterm"
+    },
+    "banner": {
+        "title": "Behöver åtgärd",
+        "content": "För att använda den här funktionen måste du ge ytterligare behörighet för 'läs beställningar' till TrustShop. För att ge behörighet, klicka på knappen nedan"
+    }
+}

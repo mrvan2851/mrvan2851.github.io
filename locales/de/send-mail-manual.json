@@ -1,0 +1,22 @@
+{
+    "send_mail": {
+        "title": "Manuelle Anfrage-E-Mail",
+        "subject": "Anfrage-E-Mails für Bestellungen senden, die nicht automatisch versendet werden"
+    },
+    "table": {
+        "orders": "Bestellungen",
+        "date": "Datum",
+        "customer": "Kunde",
+        "total": "Gesamtbetrag",
+        "fulfillment_status": "Erfüllungsstatus",
+        "items": "Artikel"
+    },
+    "empty_search": {
+        "title": "Keine Bestellungen gefunden",
+        "description": "Versuchen Sie, die Filter oder Suchbegriffe zu ändern"
+    },
+    "banner": {
+        "title": "Aktion erforderlich",
+        "content": "Um diese Funktion zu nutzen, müssen Sie TrustShop zusätzliche Berechtigungen zum Lesen von Bestellungen gewähren. Klicken Sie bitte auf den untenstehenden Button, um die Berechtigung zu gewähren."
+    }
+}

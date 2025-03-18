@@ -1,0 +1,90 @@
+{
+    "toast": {
+        "email": {
+            "update_success": "E-Mail erfolgreich aktualisiert",
+            "invalid_email": "Ungültige E-Mail!",
+            "failed": "E-Mail senden fehlgeschlagen",
+            "failed_reason": "E-Mail senden fehlgeschlagen",
+            "get_campain_fail": "Abruf fehlgeschlagen.",
+            "get_campaign_failed": "Abrufen der Kampagne fehlgeschlagen",
+            "get_queue_failed": "Abrufen der Warteschlange fehlgeschlagen",
+            "require_title": "Um diese E-Mail zu aktivieren, muss eine Änderung vorgenommen werden:",
+            "require": "Sie müssen die Trigger-Anfrage zur Überprüfung aktivieren",
+            "success": "Erfolgreich gesendet",
+            "empty": "Einige Felder sind leer, bitte füllen Sie diese aus oder löschen Sie sie vor dem Speichern.",
+            "send_again_success": "E-Mail ist geplant"
+        },
+        "failed": "Fehlgeschlagen!",
+        "get_status_fail": "Abruf fehlgeschlagene Informationen.",
+        "onboarding": {
+            "reload": "Fehlgeschlagen! Bitte versuchen Sie es erneut",
+            "skip_enable_app_embed": "Möchten Sie das Aktivieren der App-Einbettung überspringen?",
+            "skip_enable_app_embed_notice": "Die Aktivierung der App-Einbettung ermöglicht es, das Widget in Ihrem Shop anzuzeigen. Wenn Sie möchten, können Sie diesen Schritt überspringen und die App-Einbettung später in den Einstellungen aktivieren.",
+            "skip_add_block_title": "Möchten Sie das Hinzufügen des Widgets überspringen?",
+            "skip_add_block_notice": "Das Hinzufügen des Widgets zeigt Ihre Bewertungen in Ihrem Shop an. Wenn Sie möchten, können Sie diesen Schritt überspringen und das Widget später in den Einstellungen hinzufügen.",
+            "enable_app_embed": "Skript erfolgreich aktiviert",
+            "add_app_block_success": "Widget erfolgreich hinzugefügt"
+        },
+        "publish_fail": "Veröffentlichung fehlgeschlagen.",
+        "reply_fail": "Antwort fehlgeschlagen.",
+        "review": {
+            "delete_photo_fail": "Foto löschen fehlgeschlagen.",
+            "delete_reply_fail": "Antwort löschen fehlgeschlagen.",
+            "get_review_fail": "Abrufen der Bewertungen fehlgeschlagen.",
+            "publish_fail": "Veröffentlichung fehlgeschlagen.",
+            "reject_fail": "Ablehnen fehlgeschlagen."
+        },
+        "saved": "Gespeichert",
+        "server_error_title": "Serverfehler",
+        "server_error": "Etwas ist schief gelaufen. Bitte versuchen Sie es später erneut",
+        "setting": {
+            "validate_fail": "Einige Felder sind ungültig."
+        },
+        "widget": {
+            "missing_shopify_code": "Sie müssen einen Shopify-Code in das Textfeld eingeben",
+            "review_filter_null": "Das Bewertungsfilter-Feld muss mindestens eines haben."
+        },
+        "import_review": {
+            "success": "Erfolgreich importiert"
+        },
+        "add_widget_v1_confirm": "Danke für die Bestätigung",
+        "export_review": {
+            "success": "Export wird verarbeitet, die Exportdatei wird an Ihre E-Mail {{email}} gesendet",
+            "failed": "Exportfehler, bitte kontaktieren Sie uns für Unterstützung"
+        },
+        "delete_review": {
+            "success": "Erfolgreich gelöscht",
+            "failed": "Löschfehler."
+        },
+        "group_product": {
+            "at_least_2_product": "Bitte wählen Sie mindestens 2 Produkte aus",
+            "create_success": "Gruppe erfolgreich erstellt",
+            "delete_success": "Gruppe {{name}} gelöscht",
+            "update_success": "Gruppe erfolgreich aktualisiert",
+            "add_product_success": "Produkt erfolgreich hinzugefügt",
+            "delete_product_success": "Produkt erfolgreich gelöscht"
+        },
+        "delete_failed": "Löschen fehlgeschlagen.",
+        "add_failed": "Hinzufügen fehlgeschlagen",
+        "update_failed": "Aktualisierung fehlgeschlagen"
+    },
+    "validate": {
+        "empty_input": "Bitte füllen Sie dieses Feld aus!",
+        "greater_than_0": "Wert muss größer als 0 sein!",
+        "smaller_than_100": "Wert darf nicht mehr als 100 betragen!",
+        "invalid_email": "Ungültige E-Mail!",
+        "invalid_url": "Ungültige URL!",
+        "word_not_allow": "nicht erlaubt!",
+        "this_field_required": "Dieses Feld ist erforderlich!",
+        "invalid_quantity": "Menge muss eine Zahl zwischen 5 und 200 sein!",
+        "quantity_review_per_page": "Menge nur zwischen 1 und 10!",
+        "quantity": "Maximale Anzahl von Bewertungen ist 200",
+        "import_review": {
+            "fail": "Import fehlgeschlagen. Bitte versuchen Sie es erneut",
+            "size": "Dateigröße überschreitet das Maximum (5MB)",
+            "type": "Dateityp ist ungültig"
+        },
+        "limit_email_send_test": "Bitte warten Sie 90 Sekunden, bevor Sie die nächste E-Mail senden!",
+        "email_exist": "E-Mail existiert bereits!"
+    }
+}

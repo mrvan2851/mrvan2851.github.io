@@ -1,0 +1,518 @@
+{
+    "limit_function": {
+        "widget_limit": "Níl an ghné seo ar fáil ach ar na pleananna Caighdeánacha agus Fiontraíochta. Uasghrádaigh do phlean le rochtain a fháil ar an ngné seo.",
+        "setting_function_limit": {
+            "badge": "Ó {{plan}}",
+            "content": "Uasghrádaigh do phlean chun an ghné seo a shaincheapadh."
+        }
+    },
+    "list_widget": {
+        "review_display": "Taispeáint Léirmheasa",
+        "review_display_description": "Taispeáin gach léirmheas custaiméara, ag tabhairt léargas ar thaithí úsáideoirí leis an táirge.",
+        "review_testimonial": "Léirmheas Teistiméireachta",
+        "review_testimonial_description": "Déan béim ar na léirmheasanna is fearr i bhformáid carbhán rothlach chun aird a tharraingt ar aiseolas suntasach.",
+        "review_onepage": "Leathanach Léirmheasa",
+        "review_onepage_description": "Leathanach a thaispeánann gach léirmheas custaiméara, ag ligean do bhrabhsáil éasca ar thaithí.",
+        "product_rating": "Rátáil Táirge",
+        "product_rating_description": "Taispeáin rátáil iomlán an táirge bunaithe ar scála 5 réalta.",
+        "global_setting": "Socruithe Domhanda",
+        "global_setting_description": "Cumasaíonn sé d'úsáideoirí eilimintí a bhainistiú. Beidh aon athruithe a dhéantar i bhfeidhm ar gach giuirléid."
+    },
+    "discount_voucher": {
+        "title": "Fógra Síniú",
+        "sub_title": "Múineann custaiméirí chun athbhreithniú a fhágáil trí chúpon a thairiscint don chéad cheann eile",
+        "preview": "Réamhamharc",
+        "toggle_discount_voucher": "Cumasaigh sínithe",
+        "save_btn": "Sábháil",
+        "coupon_shopify": {
+            "title": "Cúpon Shopify",
+            "sub_title": "Cód díosca Shopify",
+            "no_code": "Níl aon chód socraithe agat.",
+            "off_example": "Seo sampla don chéad líne eile (gan aistriú): 80% OFF",
+            "off": "OFF",
+            "check_discount_button": "Seiceáil sínithe",
+            "check_success": "Sínithe ar fáil",
+            "check_fail": "Níl an sínithe ann, féach conas sínithe a fháil <1>anseo</1>."
+        },
+        "coupon_auto": {
+            "title": "Sínithe uathoibríoch",
+            "review_for_photo": "Athbhreithniú do ghrianghraif",
+            "discount_code": "Cód sínithe uathoibríoch",
+            "discount_for_review_only_content": "Sínithe do gach athbhreithniú",
+            "discount_for_review_photos": "Sínithe do gach athbhreithniú le grianghraif",
+            "discount_for_review_videos": "Sínithe do gach athbhreithniú le físeáin",
+            "discount_expire_after": "Sínithe ag críochnú tar éis"
+        },
+        "tabs": {
+            "email_before": "Ríomhphost Roimh",
+            "email_after": "Ríomhphost Tar Éis"
+        },
+        "coupon_design": {
+            "title": "Dearadh Cúipéin",
+            "voucher_color": "Dath an chúipéin",
+            "text_color": "Dath an téacs",
+            "button_color": "Dath an cnaipe",
+            "button_text_color": "Dath téacs an chnaipe"
+        },
+        "general": {
+            "choose_your_design_template": "Roghnaigh do dhearadh teimpléad",
+            "template": "Teimpléad",
+            "coupon_message": "Teachtaireacht an chúipéin",
+            "call_to_action_button_content": "Cuirtear gníomh ar fáil cnaipe"
+        },
+        "voucher_setting": {
+            "title": "Fógra Síniú agus Táirge",
+            "icon": "Íomhá",
+            "icon_and_highlight": "Íomhá & Dath Réamhghníomhach Téacs Sínithe",
+            "message": "Teachtaireacht",
+            "button_title": "Teideal an Chnaipe",
+            "button_label": "Téacs an Chnaipe",
+            "button_background": "Cúlra an Chnaipe",
+            "message_background": "Cúlra na Teachtaireachta"
+        },
+        "set_up_discount": "Socraigh lascaine",
+        "display_discount": "Taispeáin lascaine",
+        "review_request": "Iarratas athbhreithnithe",
+        "review_request_description": "Pearsanú ríomhphoist iarratais athbhreithnithe le deilbhín saincheaptha, dathanna, agus teachtaireacht gnímh saincheaptha.",
+        "thank_email": "Ríomhphost buíochais",
+        "thank_email_description": "Saincheap ríomhphoist buíochais le stíleanna cód lascaine saincheaptha agus teachtaireachtaí tar éis do chustaiméirí athbhreithniú a fhágáil.",
+        "submitted_review_popup": "Pop-up athbhreithnithe curtha isteach",
+        "submitted_review_popup_description": "Taispeáin pop-up buíochais tar éis ceannacháin, ag taispeáint cód lascaine do chustaiméirí don chéad ordú eile.",
+        "type_discount_code_after_review_label": "Faigheann custaiméirí códanna lascaine nuair a scríobhann siad léirmheasanna do:",
+        "type_discount_code_after_review_value": {
+            "order": "Ordú - Cód lascaine amháin in aghaidh an ordaithe",
+            "product": "Táirge - Cód lascaine amháin in aghaidh an táirge"
+        }
+    },
+    "product_rating": {
+        "product_rating": "Leathanach Táirge",
+        "collection_rating": "Leathanach Bailiúcháin",
+        "hide_rating_when_empty": "Folaigh rátáil réalta nuair nach bhfuil aon léirmheas ann",
+        "review_information": {
+            "title": "Eolas faoin Léirmheas",
+            "show_total_reviews": "Taispeáin líon iomlán na léirmheasanna",
+            "show_avg_rating": "Taispeáin meánráta na léirmheasanna"
+        },
+        "widget_style": {
+            "title": "Stíl an Giuirléid",
+            "full_5_star": "(Lán 5 réalta)",
+            "1_star": "(1 réalta)"
+        },
+        "text_before": "Téacs roimh",
+        "text_after": "Téacs tar éis",
+        "font_size": {
+            "title": "Méid na Clófhoirne",
+            "star_size": "Méid na n-íomhánna réalta",
+            "text_avg_rating": "Meánráta",
+            "text_total_rating": "Líon iomlán na léirmheasanna"
+        },
+        "language": {
+            "title": "Teanga",
+            "label_rating": "Lipéad rátála",
+            "label_rating_helptext": "Nuair atá ach léirmheas amháin ann",
+            "label_ratings": "Lipéad rátálacha",
+            "label_ratings_helptext": "Nuair atá níos mó ná léirmheas amháin ann"
+        },
+        "modal_add_rating_manually": {
+            "rating_title": "Cuir rátáil réalta leis de láimh",
+            "widget_title": "Cuir an giuirléid leis de láimh",
+            "guild_rating": "Cóipeáil an cód thíos agus greamaigh é sna rannóga ar leith ina dteastaíonn uait an rátáil réalta a thaispeáint. <1>Níos mó eolais</1>",
+            "guild_widget": "Cóipeáil an cód thíos agus greamaigh é sna rannóga ar leith ina dteastaíonn uait an giuirléid a thaispeáint. <1>Níos mó eolais</1>",
+            "guild_onepage": "Féach an rang teagaisc ar conas leathanach léirmheasa a chruthú <1>anseo</1>.<br /> Má theastaíonn cúnamh uait, déan teagmháil linn ag support@trustshop.io.",
+            "collection_title": "Cuir rátáil an bhailiúcháin leis",
+            "onepage_title": "Cuir leathanach léirmheasa leis",
+            "testimonial_title": "Cuir teistiméireacht leis",
+            "guild_collection": "Cóipeáil an cód thíos agus greamaigh é sna rannóga ar leith ina dteastaíonn uait rátáil an bhailiúcháin a thaispeáint. <1>Níos mó eolais</1>"
+        },
+        "custom_color": {
+            "title": "Dathanna Saincheaptha",
+            "star_icon": "Deilbhín réalta",
+            "star_icon_empty": "Deilbhín réalta (folamh)",
+            "avg_rating": "Meánráta",
+            "total_number_of_reviews": "Líon iomlán na léirmheasanna"
+        }
+    },
+    "review_display": {
+        "widget_area": "Limistéar Wigéid",
+        "choose_layout": {
+            "title": "Roghnaigh Leagan",
+            "list": "Liosta",
+            "grid": "Grafa"
+        },
+        "summary_box": {
+            "title": "Bosca Achoimre",
+            "left": "Ar chlé",
+            "top": "Ar bharr"
+        },
+        "color_schema": {
+            "title": "Scéim Datha",
+            "custom_color_schemes": "Scéimeanna Datha Saincheaptha",
+            "primary_color": "Bun-dhath",
+            "secondary_color": "Dath tánaisteach",
+            "title_text_color": "Dath an teidil",
+            "all_photos_button_color": "Cnaipe Gach Grianghraf",
+            "primary_text_color": "Príomhdhath an téacs",
+            "secondary_text_color": "Dath tánaisteach an téacs",
+            "star_icon": "Deilbhín réalta",
+            "border": "Teorainn",
+            "filter_sort_background": "Cúlra an scagaire agus an sórtála",
+            "filter_sort_text": "Téacs an scagaire agus an sórtála",
+            "rating_process_color": "Dath an phróisis rátála",
+            "rating_process_empty_color": "Dath folamh an phróisis rátála",
+            "users_name": "Ainm an úsáideora",
+            "loadmore_color": "Luchtaigh Tuilleadh",
+            "bg_base_color": "Cúlra an ghiuirléid",
+            "slide_button": "Cnaipe sleamhnáin",
+            "slide_arrow": "Saighead sleamhnáin",
+            "modal_all_medias_headline_title": "Teideal an cheanntásca",
+            "modal_all_medias_filter_label": "Lipéad an scagaire",
+            "modal_all_medias_filter_background": "Cúlra an scagaire",
+            "modal_all_medias_selected_filter_label": "Lipéad an scagaire roghnaithe",
+            "modal_all_medias_selected_filter_background": "Cúlra an scagaire roghnaithe",
+            "modal_all_medias_star_icon": "Réalta",
+            "modal_all_medias_rating_background": "Cúlra an rátála",
+            "modal_all_medias_item_border": "Teorainn an mhíre roghnaithe",
+            "modal_all_medias_navigate_button": "Cnaipe nascleanúna",
+            "modal_all_medias_navigate_arrow": "Saighead nascleanúna",
+            "modal_all_medias_review_customer_name": "Ainm an chustaiméara",
+            "modal_all_medias_review_time": "Am an léirmheasa",
+            "modal_all_medias_review_star": "Réalta an léirmheasa",
+            "modal_all_medias_review_star_disable": "Réalta réamhshocraithe an léirmheasa",
+            "modal_all_medias_review_title": "Teideal an léirmheasa",
+            "modal_all_medias_review_content": "Ábhar an léirmheasa",
+            "modal_all_medias_review_media_background": "Cúlra an mheáin léirmheasa",
+            "modal_all_medias_review_background": "Cúlra an léirmheasa",
+            "modal_all_medias_card_background": "Cúlra an chárta",
+            "modal_all_medias_close_button": "Cúlra an chnaipe dúnadh",
+            "modal_all_medias_close_icon": "Deilbhín an dúnadh",
+            "modal_detail_customer_name": "Ainm an chustaiméara",
+            "modal_detail_review_time_title": "Teideal ama an léirmheasa",
+            "modal_detail_review_star": "Réalta",
+            "modal_detail_review_star_default": "Réalta réamhshocraithe",
+            "modal_detail_review_star_field_background": "Cúlra an réimse réaltaí",
+            "modal_detail_review_title": "Teideal an léirmheasa",
+            "modal_detail_review_content": "Ábhar an léirmheasa",
+            "modal_detail_navigator_button": "Cnaipe nascleanúna",
+            "modal_detail_navigator_arrow": "Saighead nascleanúna",
+            "modal_detail_purchased_item": "Mír a ceannaíodh",
+            "modal_detail_product_name": "Ainm an táirge",
+            "modal_detail_product_price": "Praghas an táirge",
+            "modal_detail_icon_title": "Teideal an deilbhín",
+            "modal_detail_selected_icon": "Deilbhín roghnaithe",
+            "modal_detail_icon_background": "Cúlra an deilbhín",
+            "modal_detail_divider": "Rannán",
+            "modal_detail_card_background": "Cúlra an chárta",
+            "modal_detail_close_button": "Cúlra an chnaipe dúnadh",
+            "modal_detail_close_icon": "Deilbhín an dúnadh",
+            "form_write_review_star_color": "Dath an deilbhín réalta",
+            "reset_to_default_title": "Athshocraigh na scéimeanna datha go réamhshocraithe?",
+            "reset_to_default_content": "D’fhéadfadh sé nach sábhálfar na hathruithe a rinne tú",
+            "page_background_color": "Cúlra an leathanaigh",
+            "star_icon_color": "Dath an deilbhín réalta",
+            "line_color": "Teorainn",
+            "user_name_color": "Ainm an úsáideora",
+            "load_more_color": "Luchtaigh tuilleadh",
+            "product_background_color": "Cúlra an táirge",
+            "product_text_color": "Téacs an táirge",
+            "reply_title_color": "Teideal an fhreagra",
+            "reply_content_color": "Ábhar an fhreagra",
+            "reply_background_color": "Cúlra an fhreagra"
+        },
+        "information_display": {
+            "title": "Taispeáin Eolas",
+            "write_a_reivew_button": "Scríobh gníomh athbhreithnithe",
+            "review_date": "Dáta athbhreithnithe",
+            "button_report": "Cnaipe tuairisc",
+            "button_helpful": "Cnaipe cabhrach",
+            "customer_information": {
+                "title": "Eolas Custaiméara",
+                "customer_profile_picture": "Taispeáin avatar an chustaiméara",
+                "customer_country_flag": "Taispeáin bratach tíre an chustaiméara"
+            },
+            "review_filter": "Scagaire athbhreithnithe",
+            "review_per_page": "Athbhreithnithe in aghaidh na leathanaigh",
+            "summary": "Achoimre",
+            "number_of_review": "Líon na n-athbhreithnithe",
+            "divider": "Deilbhéar",
+            "text_1": "Ceann",
+            "text_2": "Focheann",
+            "show_review_media": "Taispeáin meáin athbhreithnithe",
+            "image_gallery": "Gailearaí íomhá",
+            "star_rating": "Rátáil réalta",
+            "customer_name_display": "Taispeáin ainm an chustaiméara",
+            "anonymous": "Gan ainm",
+            "reviewer_selects": "Roghnaíonn an athbhreithneoir",
+            "number_of_reviews": "Líon na n-athbhreithnithe",
+            "form_write_review": {
+                "show_product_image": "Taispeáin íomhá an táirge",
+                "show_add_photo_btn": "Taispeáin cnaipe Cuir grianghraf leis",
+                "show_add_video_btn": "Taispeáin cnaipe Cuir físeán leis",
+                "required_review_title": "Teideal Athbhreithnithe Riachtanach",
+                "hide_review_title": "Folaigh teideal athbhreithnithe"
+            }
+        },
+        "card_content": {
+            "title": "Ábhar an Chárta",
+            "show_review_media": "Taispeáin meáin athbhreithnithe",
+            "show_review_time": "Taispeáin am athbhreithnithe",
+            "show_purchase_items": "Taispeáin míreanna ceannach",
+            "show_star_rating": "Taispeáin rátáil réalta",
+            "show_helpful_button": "Taispeáin cnaipe cabhrach",
+            "image_per_row": "Íomhá in aghaidh na sraithe",
+            "filter": "Scagaire",
+            "gallery_filter": "Scagaire na gailearaí",
+            "star_size_helptext": "Sa taispeántas, tá an méid leath den méid fíor"
+        },
+        "content": {
+            "title": "Ábhar",
+            "widget_language": "Teanga Wigéid",
+            "header_widget": {
+                "title": "Ceann Wigéid",
+                "customer_review_title": "Teideal athbhreithnithe custaiméara",
+                "review_submit": "Cuir athbhreithniú isteach",
+                "write_review_button": "Scríobh gníomh athbhreithnithe",
+                "review_with_comments": "Athbhreithniú le tuairiscí",
+                "text_total_reviews": "Teacs iomlán athbhreithnithe"
+            },
+            "label_of_filter": {
+                "title": "Clibeáil an scagaire",
+                "all": "Gach",
+                "most_helpful": "Is cabhrach is mó",
+                "highest_rating": "Is airde rátáil",
+                "lowest_rating": "Is ísle rátáil",
+                "oldest": "Is sine",
+                "newest": "Is nua",
+                "review_with_photos": "Athbhreithniú le grianghraif",
+                "stars_filter": "Scagaire réaltaí (1-5)"
+            },
+            "content_review": {
+                "title": "Ábhar athbhreithnithe",
+                "text_review_on": "Teacs athbhreithnithe ar",
+                "text_helpful": "Teacs cabhrach",
+                "button_loadmore_review": "Clibeáil níos mó athbhreithnithe"
+            },
+            "modal_write_review": {
+                "title": "Clibeáil scríobh athbhreithnithe",
+                "modal_write_review_title": "Teideal clibeáil scríobh athbhreithnithe",
+                "text_write_reviews": "Teacs scríobh athbhreithnithe",
+                "text_click_to_rate": "Teacs cliceáil chun rátáil a chur",
+                "label_customer_name": "Clibeáil ainm an chustaiméara",
+                "placeholder_customer_name": "Iontráil ainm an chustaiméara",
+                "label_customer_email": "Clibeáil seoladh ríomhphoist an chustaiméara",
+                "placeholder_customer_email": "Iontráil seoladh ríomhphoist an chustaiméara",
+                "label_review_title": "Clibeáil teideal athbhreithnithe",
+                "placeholder_review_title": "Iontráil teideal athbhreithnithe",
+                "label_review_content": "Clibeáil ábhar athbhreithnithe",
+                "placeholder_review_content": "Iontráil ábhar athbhreithnithe",
+                "label_characters_remaining": "Clibeáil carachtair atá fágtha",
+                "button_add_photo_text": "Clibeáil téacs grianghraf a chur leis",
+                "button_back": "Clibeáil siar",
+                "button_submit": "Clibeáil isteach"
+            },
+            "validate_message_label": {
+                "title": "Clibeáil Leibhéal Fógraíochta Fíorú",
+                "input": "Iontráil",
+                "email": "Ríomhphost",
+                "image_upload_fail": "Theip ar uaslódáil íomhá",
+                "image_upload_size": "Méid uaslódáil íomhá ( <10MB )",
+                "image_upload_type": "Cineál uaslódáil íomhá (.bmp, .jpeg nó .png)"
+            },
+            "modal_image": {
+                "title": "Clibeáil íomhá",
+                "review_for": "Athbhreithniú do",
+                "image_from_this_review": "Íomhá ón athbhreithniú seo"
+            },
+            "modal_report": {
+                "title": "Clibeáil tuairisc"
+            }
+        },
+        "tabs": {
+            "default": "Réamhshocraithe",
+            "no_reviews": "Gan Athbhreithnithe",
+            "modal": {
+                "all_medias": "Gach Meán",
+                "review_detail": "Sonraí Athbhreithnithe",
+                "form_write_review": "Foirm Scríobh Athbhreithniú",
+                "popup_after_review": {
+                    "success": "Pop-up tar éis athbhreithnithe - rath",
+                    "pending": "Pop-up tar éis athbhreithnithe - ar feitheamh"
+                }
+            }
+        },
+        "no_reviews": {
+            "section_title": "Teideal an Rannáin",
+            "section_border": "Teorainn an Rannáin",
+            "show_border": "Taispeáin teorainn",
+            "title": "Gan athbhreithniú",
+            "text_no_reviews": "Teacs gan athbhreithnithe",
+            "call_to_action": "Glan chun gníomh",
+            "call_to_action_color": "Gníomh chun gníomh",
+            "call_to_action_text_color": "Téacs gníomh chun gníomh",
+            "border_color": "Teorainn",
+            "section_title_color": "Teideal an rannáin",
+            "text_no_review_color": "Teacs gan athbhreithnithe",
+            "page_no_review_star_color": "Réalta na leathanaigh"
+        },
+        "popup_submitted_review": {
+            "layout": {
+                "title": "Leagan amach",
+                "default": "Réamhshocraithe",
+                "without_media": "Cárta athbhreithnithe - gan meáin",
+                "disable": "Cárta athbhreithnithe a mhúchadh"
+            },
+            "title": {
+                "title": "Teideal",
+                "headline_label": "Clibeáil na teidil",
+                "content_label": "Clibeáil an ábhair",
+                "button_label": "Clibeáil an ghrúpa"
+            },
+            "color_schema": {
+                "title": "Scéim dathanna",
+                "popup_background": "Cúlra an phop-up",
+                "popup_icon": "Iocón an phop-up",
+                "popup_headline": "Ceanntásc an phop-up",
+                "popup_content": "Ábhar an phop-up",
+                "product_name": "Ainm an táirge",
+                "product_price": "Praghas an táirge",
+                "review_card_background": "Cúlra cárta athbhreithnithe",
+                "review_card_title": "Teideal cárta athbhreithnithe",
+                "review_card_content": "Ábhar cárta athbhreithnithe",
+                "review_card_border": "Teorainn cárta athbhreithnithe",
+                "star_active": "Réalta - gníomhach",
+                "star_disable": "Réalta - múchta",
+                "customer_name": "Ainm an chustaiméara",
+                "customer_email": "Ríomhphost an chustaiméara",
+                "button_border": "Cnaipe - teorainn",
+                "button_background": "Cnaipe - cúlra",
+                "button_title": "Teideal an chnaipe"
+            }
+        }
+    },
+    "review_testimonial": {
+        "choose_review": {
+            "title": "Roghnaigh na tuairimí le taispeáint",
+            "auto_new_5": "Faigh na tuairimí 5 réalta is déanaí go huathoibríoch",
+            "auto_helptext": "Athraíonn na tuairimí gach 10 nóiméad",
+            "number_of_reviews": "Uimhir na dtuairimí",
+            "choose_manually": "Roghnaigh de láimh",
+            "choose_manually_button": "Athraigh",
+            "selected": "roghnaithe le taispeáint san ardán",
+            "warning": "Beidh cuma níos fearr ar an gcarraigín le níos mó ná 3 tuairim",
+            "warning_2": "díolachán ríomhphoist",
+            "warning_3": "a chur isteach",
+            "modal": {
+                "title": "Roghnaigh na tuairimí de láimh"
+            }
+        },
+        "title": {
+            "title": "Teideal",
+            "title_label": "Lipéad teidil"
+        },
+        "card_content": {
+            "title": "Ábhar cárta",
+            "customer_name_display": "Taispeáin ainm an chustaiméara",
+            "anonymous": "Gan ainm",
+            "product_name": "Ainm an táirge",
+            "product_image": "Íomhá an táirge",
+            "display_star_rating": "Show star rating icon",
+            "display_customer_avatar": "Show customer avatar",
+            "show_product_information": "Show product information",
+            "show_customer_flag": "Show customer country flag",
+            "show_review_date": "Show review date",
+            "review_title": "Teideal an léirmheasa",
+            "review_date": "Dáta an léirmheasa"
+        },
+        "movement": {
+            "title": "Gluaiseacht uathoibríoch",
+            "auto_movement": "Gluaiseacht uathoibríoch",
+            "time_between_reviews": "Am idir léirmheasanna (soicindí)",
+            "arrow_navigation": "Loingseoireacht saighead"
+        },
+        "color_schemes": {
+            "title": "Scéimeanna dathanna",
+            "headline": "Ceannteideal",
+            "content": "Ábhar",
+            "navigator_button": "Cnaipe loingseoireachta",
+            "navigator_arrow": "Saighead loingseoireachta",
+            "page_indicator": "Táscaire leathanaigh",
+            "verified_tag": "Clib deimhnithe",
+            "divider": "Rannán",
+            "border": "Teorainn",
+            "link_title": "Teideal na naisc",
+            "customer_name": "Ainm an chustaiméara",
+            "star": "Réalta",
+            "navigator": "Loingseoir",
+            "arrow_icon": "Deilbhín saighead",
+            "product_background": "Cúlra an táirge",
+            "card_background": "Cúlra an chárta",
+            "widget_background": "Cúlra an ghiuirléid",
+            "product_name": "Product name",
+            "review_date": "Review date"
+        }
+    },
+    "review_onepage": {
+        "review_source": {
+            "title": "Tairgeadh na h-athbhreithnithe",
+            "subtitle": "Roghnaigh na táirgí le taispeáint athbhreithnithe ar leathanach na n-athbhreithnithe",
+            "all_product": "Gach táirge",
+            "select_product": "Roghnaigh táirge",
+            "warning": "Ní mór duit laigeacht ar a laghad a roghnú chun a thaispeáint ar leathanach na n-athbhreithnithe.",
+            "help_text": "Taispeántar gach athbhreithniú foilsithe de faoí dháil"
+        },
+        "one_page_header": {
+            "title": "Ceannaire leathanach amháin"
+        },
+        "review_display": {
+            "title": "Taispeántas eolais",
+            "summary_box": "Bosca achoimre",
+            "product": "Táirge"
+        }
+    },
+    "after_review_submitted": {
+        "show_discount_code": "Taispeáin cód lascaine",
+        "discount_code_color": "Dath cód lascaine",
+        "message_background_color": "Dath cúlra na teachtaireachta",
+        "title_label": "Lipéad teidil",
+        "description_label": "Lipéad tuairisc",
+        "title_label_color": "Dath lipéad teidil",
+        "description_label_color": "Dath lipéad tuairisc",
+        "show_submitted_review": "Taispeáin athbhreithniú curtha isteach",
+        "button_label": "Téacs an chnaipe"
+    },
+    "tabs": {
+        "discount_voucher": "Dearbhán lascaine",
+        "product_rating": "Rátáil táirge",
+        "review_display": "Taispeáint léirmheasa",
+        "review_testimonial": "Léirmheas",
+        "review_onepage": "Leathanach athbhreithnithe"
+    },
+    "title": "Bainistíocht Wigéid",
+    "add_widget_guild": {
+        "title": "Conas an giuirléid a shuiteáil?",
+        "enable_global_script": "Sula dtosaíonn tú, déan cinnte go bhfuil <strong><span>Gníomhachtaigh an feidhmchlár TrustShop Global</span> in Shopify Admin</strong>",
+        "add_widget_v2": {
+            "title": "Cuir giuirléid leis tríd: Bloc Aip Shopify",
+            "for": "(do théama 2.0)",
+            "step": {
+                "step_1": "Cliceáil ar <strong><span>Cuir giuirléid leis</span></strong> chun Shopify Admin a oscailt",
+                "step_2": "Osclófar an <strong>eagarthóir Shopify</strong> agus cuirfear an giuirléid leis go huathoibríoch",
+                "step_3": "Cliceáil ar an <strong>cnaipe Sábháil</strong> (ag an gcúinne barr ar dheis) agus déan cinnte go bhfeiceann tú teachtaireacht rathúil"
+            }
+        },
+        "add_widget_v1": {
+            "title": "Cuir giuirléid leis tríd: Lámhleabhar",
+            "for": "(do théama 1.0 - Téama seanré)",
+            "description": "Cóipeáil an cód thíos agus greamaigh é sna rannóga ar mhaith leat an giuirléid a thaispeáint. <span>Níos mó eolais</span>"
+        }
+    },
+    "multi_lang": {
+        "enable": {
+            "title": "Tá aistriúchán uathoibríoch gníomhach",
+            "content": "Tá aistriúchán uathoibríoch ábhar na giuirléide cumasaithe. Más mian leat é a athrú, déan na socruithe a shaincheapadh i <anchor>Socruithe athbhreithnithe</anchor>."
+        },
+        "disable": {
+            "content": "Bain triail as an ngné a athraíonn an teanga go huathoibríoch de réir thír an cheannaitheora.",
+            "button": "Téigh go dtí na socruithe domhanda"
+        }
+    }
+}

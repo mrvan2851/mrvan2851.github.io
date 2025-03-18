@@ -1,0 +1,110 @@
+{
+    "welcome_app" : {
+        "title": "Chào mừng đến với Đánh giá sản phẩm"
+    },
+    "popup": {
+        "button": "Đánh giá",
+        "content": "Những chia sẻ của bạn sẽ giúp cho đội ngũ TrustShop cải thiện sản phẩm, phục vụ tốt hơn nhu cầu của bạn.",
+        "title": "Chia sẻ trải nghiệm của bạn với TrustShop",
+        "modal_rate": {
+            "title": "Tại sao bạn cảm thấy không hài lòng với TrustShop?",
+            "option_1": {
+            "title": "Khó sử dụng hoặc cài đặt",
+            "content": "Tôi cảm thấy khó sử dụng ứng dụng khi:"
+            },
+            "option_2": "Không hài lòng với hỗ trợ",
+            "option_3": {
+            "title": "Các tính năng bị hạn chế hoặc thiếu",
+            "content": "Ứng dụng nên có thêm các tính năng như:"
+            }
+        }
+    },
+    "setup_guide": {
+        "card_1": {
+            "button": "Thêm",
+            "content": "Hiển thị widget và cho phép khách hàng đánh giá sản phẩm",
+            "title": "Thêm widget vào trang cửa hàng online"
+        },
+        "card_2": {
+            "button": "Thiết lập email",
+            "content": "Chỉnh sửa thời gian, cách thức và nội dung của những email xin đánh giá",
+            "title": "Thiết lập"
+        },
+        "card_3": {
+            "button": "Cá nhân hóa widget",
+            "content": "Tùy chỉnh cách widget hiển thị để thu hút khách hàng và đồng bộ với bộ nhận diện thương hiệu",
+            "title": "Chỉnh sửa"
+        },
+        "card_4": {
+            "button": "Thiết lập mã giảm giá",
+            "content": "Tặng phiếu giảm giá cho khách hàng để khuyến khích họ để lại đánh giá và ý kiến",
+            "title": "Thiết lập"
+        },
+        "title": "Hướng dẫn"
+    },
+    "statistics": {
+        "all": "Tất cả",
+        "all_reviews": "Tất cả đánh giá",
+        "avg_star_rating": "Xếp hạng sao trung bình",
+        "title": "Nhận xét sâu sắc của bạn"
+    },
+    "whats-new": {
+        "slide_1": {
+            "title": "🌍 Đánh giá đa ngôn ngữ: Kết nối với khách hàng trên toàn thế giới",
+            "date_time": "Cập nhật: 01/03/2025",
+            "content": {
+                "text" : "Ngôi sao của bản cập nhật này là tính năng Tiện ích đa ngôn ngữ và Dịch đánh giá mới của chúng tôi. Trong thị trường toàn cầu ngày nay, rào cản ngôn ngữ không nên hạn chế tiềm năng của cửa hàng bạn. Với TrustShop 2.8, giờ đây khách hàng có thể dịch đánh giá sang ngôn ngữ mẹ đẻ của họ chỉ bằng một cú nhấp chuột."
+            },
+            "button": "Tìm hiểu thêm"
+        },
+        "slide_2": {
+            "title": "Bộ sưu tập đánh giá mã QR mới",
+            "date_time": "Cập nhật: 6 tháng 2 năm 2025",
+            "content": {
+                "text" : "Một cách mới để thu thập đánh giá của khách hàng. Khi khách hàng quét mã QR, họ có thể:",
+                "list": [
+                    "Xem các sản phẩm họ chưa đánh giá",
+                    "Gửi đánh giá mới dễ dàng",
+                    "Xem các đánh giá trước đó của họ",
+                    "Theo dõi mã giảm giá họ kiếm được"
+                ]
+            },
+            "button": "Tìm hiểu thêm"
+        },
+        "slide_3": {
+            "title": "Tùy chỉnh mẫu email nâng cao",
+            "date_time": "Cập nhật: 6 tháng 2 năm 2025",
+            "content": {
+                "text": "Hoàn thiện cách trình bày thương hiệu của bạn với khả năng tùy chỉnh email nâng cao:",
+                "list": [
+                    "Vị trí logo linh hoạt",
+                    "Kích thước logo có thể tùy chỉnh",
+                    "Cài đặt đệm có thể điều chỉnh",
+                    "Tùy chọn màu nền"
+                ]
+            },
+            "button": "Tìm hiểu thêm"
+        },
+        "slide_4": {
+            "title": "Quản lý danh sách hủy đăng ký nâng cao",
+            "date_time": "Cập nhật: 11 tháng 1 năm 2025",
+            "content": {
+                "text": "Giữ cho giao tiếp với khách hàng của bạn sạch sẽ và hiệu quả với hệ thống quản lý hủy đăng ký mới của chúng tôi. Theo dõi, phân tích và duy trì danh sách khách hàng của bạn một cách chính xác"
+            },
+            "button": "Tìm hiểu thêm"
+        },
+        "slide_5": {
+            "title": "Tích hợp thông tin chi tiết khách hàng của Shopify gốc",
+            "date_time": "Cập nhật: 11 tháng 1 năm 2025",
+            "content": {
+                "text": "Truy cập đánh giá của khách hàng trực tiếp từ trang thông tin chi tiết của khách hàng trên Shopify. Không cần phải chuyển đổi giữa các tab nữa – mọi thứ bạn cần đều nằm ngay tại nơi bạn cần!"
+            },
+            "button": "Tìm hiểu thêm"
+        },
+        "title": "Có gì mới"
+    },
+    "popup_support" : {
+        "title": "Chúng tôi có thể giúp gì cho bạn?",
+        "content": "Bạn có thể truy cập vào các tài liệu trợ giúp mở rộng của chúng tôi và nhóm của chúng tôi luôn sẵn sàng hỗ trợ bạn. Chỉ cần liên hệ với chúng tôi!"
+    }
+}

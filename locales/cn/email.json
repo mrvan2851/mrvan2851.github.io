@@ -1,0 +1,247 @@
+{
+    "table": {
+        "navigate_button_content": "电子邮件工作流程",
+        "no_data": {
+            "title": "管理您的请求电子邮件",
+            "description": "激活电子邮件模板以开始向客户发送自动化电子邮件。",
+            "setting_email_templates": "设置电子邮件模板"
+        },
+        "title": "审核请求电子邮件",
+        "second_title": "手动发送电子邮件",
+        "search_placeholder": "输入电子邮件或订单号",
+        "all_status": "所有状态",
+        "email_type": "电子邮件类型",
+        "email_review_request": "审核请求电子邮件",
+        "remind_request_review": "提醒请求审核电子邮件",
+        "thank_you_email": "感谢电子邮件",
+        "just_now": "刚刚",
+        "order_id": "订单号",
+        "buyer": "买家",
+        "location": "位置",
+        "product": "产品",
+        "purchase_time": "购买时间",
+        "schedule_date": "计划日期",
+        "send_now": "立即发送",
+        "send_again": "重新发送"
+    },
+    "campaign": {
+        "banner": {
+            "title": "客户评价非常有力量！",
+            "content": "一篇评论中的几句话可能比整个网站对消费者的影响更大。通过我们内置的电子邮件活动和模板，轻松获取客户评价，让您的生活更轻松！"
+        },
+        "email_content": "电子邮件内容",
+        "email_content_description": "使用定制语言来制作电子邮件内容，以确保您的客户能够轻松理解信息",
+        "email_will_be_sent": "将发送电子邮件",
+        "title": "电子邮件工作流程",
+        "not_active": "未激活",
+        "running": "运行中",
+        "save_just_now": "刚刚保存",
+        "send_test": "发送测试",
+        "send_test_email": "发送测试电子邮件",
+        "enter_email_address": "在下方输入电子邮件地址",
+        "confirm": "确认",
+        "when_to_send": "何时发送",
+        "all_change_save": "已保存所有更改",
+        "all_customer": "所有客户",
+        "email_schedule": "电子邮件计划",
+        "email_scheduling": "电子邮件调度",
+        "email_scheduling_subtitle": "自定义电子邮件发送时间，针对来自不同地理区域的客户",
+        "to": "收件人",
+        "subject": "主题",
+        "preview": "预览",
+        "from": "发件人",
+        "branding": "品牌",
+        "logo": "商标",
+        "personalization": "个性化",
+        "active_require_toast": "您需要激活触发请求审核",
+        "product_quantity": "商品数量",
+        "star_rating_icon": "星级评分图标",
+        "call_to_action_btn": "行动按钮（撰写评论）",
+        "request_review": {
+            "title": "请求评价",
+            "content": "<strong>{{day}}</strong> 天后，在 <strong>{{status}}</strong> 的情况下，系统会自动发送邮件请求客户对产品进行评价。",
+            "toast_active": "请求评价已激活",
+            "toast_deactive": "请求评价已禁用"
+        },
+        "request_review_reminder": {
+            "title": "评价请求提醒",
+            "content": "在发送初次评价请求邮件后 <strong>{{days}}</strong> 天，如果未收到回复，系统将自动发送提醒邮件。仅在评价请求邮件激活后有效。",
+            "after_review_request_mail": "在评价请求邮件之后",
+            "toast_active": "提醒邮件已激活",
+            "toast_deactive": "提醒邮件已禁用"
+        },
+        "thank_you_for_review": {
+            "title": "感谢评价",
+            "content": "客户提交评价后，系统将自动发送感谢邮件。可添加优惠券和折扣码。仅在评价请求邮件激活后有效。",
+            "content_2": "在客户提交评价后 <strong>{{days}}</strong> 天，系统将自动发送感谢邮件。可添加优惠券和折扣码。仅在评价请求邮件激活后有效。",
+            "after_review_submit": "评价已提交",
+            "review_submitted": "评价已提交",
+            "approve_for_review": "评价已批准",
+            "toast_active": "感谢邮件已激活",
+            "toast_deactive": "感谢邮件已禁用"
+        },
+        "send_test_success": "电子邮件已成功发送",
+        "send_test_hepltext": "在下方输入电子邮件地址",
+        "store_name": "商店名称",
+        "first_name": "名字",
+        "last_name": "姓氏",
+        "email": "电子邮件",
+        "city": "城市",
+        "state_province": "州/省",
+        "country": "国家",
+        "request_review_emails": "请求审核电子邮件",
+        "background_color": "背景颜色",
+        "show_header": "显示标题",
+        "text_color": "文字颜色",
+        "hide_header": "隐藏标题",
+        "order_status": "订单状态",
+        "complete": "已完成",
+        "completed": "已完成",
+        "order_paid": "已支付",
+        "default": "默认",
+        "add_country_timing": "添加国家时间",
+        "type_a_language_name": "输入语言名称",
+        "no_language_found": "找不到匹配的语言：",
+        "discount_voucher": "折扣券",
+        "automation": "自动化",
+        "discount_description": "通过提供下次购买的折扣来激励客户留下评价",
+        "email_queue": "手动请求电子邮件",
+        "email_queue_description": "发送未自动发送订单的请求电子邮件",
+        "country_selected_count": "{{selected}} 个国家中的 {{total}} 个已选择",
+        "country_group": {
+            "asia": "亚洲",
+            "europe": "欧洲",
+            "africa": "非洲",
+            "north_america": "北美洲",
+            "south_america": "南美洲",
+            "oceania": "大洋洲"
+        }
+    },
+    "email_template": {
+        "request_review": {
+            "subject": "购买{{PRODUCT_NAME}}开心吗？现在留下评价吧！",
+            "preview_text": "感谢您最近的购买。我们希望您喜欢！如果您喜欢，您的评价对我们来说非常重要",
+            "body": {
+                "title": "您的体验如何？🤗",
+                "html": "<h2>您的体验如何？🤗</h2>",
+                "content": {
+                    "html": "<p><strong>您好 </strong>{{FIRST_NAME}}</p>\n<p>我们想了解您在{{STORE_NAME}}购物的体验如何</p>\n<p>如果您有时间，如果您能与我们和其他购物者分享您的想法和经历，那将是非常棒的。您的认可是一切🤩。</p>\n",
+                    "raw": "{'blocks':[{'key':'e8our','text':'您好 {{FIRST_NAME}}','type':'unstyled','depth':0,'inlineStyleRanges':[{'offset':0,'length':6,'style':'BOLD'}],'entityRanges':[],'data':{}},{'key':'eustq','text':'我们想了解您在{{STORE_NAME}}购物的体验如何','type':'unstyled','depth':0,'inlineStyleRanges':[],'entityRanges':[],'data':{}},{'key':'7tjk7','text':'如果您有时间，如果您能与我们和其他购物者分享您的想法和经历，那将是非常棒的。您的认可是一切🤩。','type':'unstyled','depth':0,'inlineStyleRanges':[],'entityRanges':[],'data':{}}],'entityMap':{}}"
+                },
+                "product": {
+                    "rate_this_item": {
+                        "text": "给此商品评分"
+                    }
+                }
+            }
+        },
+        "thank_you_email": {
+            "subject": "感谢您留下评价！❤️",
+            "preview_text": "感谢您最近的购买。我们希望您喜欢！如果您喜欢，您的评价对我们来说非常重要",
+            "body": {
+                "html": "<h2>感谢您留下评价！❤️</h2>",
+                "title": "感谢您留下评价！❤️",
+                "content": {
+                    "html": "<p><strong>您好 </strong>{{FIRST_NAME}}</p>\n<p>您好，感谢您留下对最新购买的评价。我们喜欢听取反馈，并感谢您花时间与我们分享您对此商品的体验。</p>",
+                    "raw": "{'blocks':[{'key':'e8our','text':'您好 {{FIRST_NAME}}','type':'unstyled','depth':0,'inlineStyleRanges':[{'offset':0,'length':6,'style':'BOLD'}],'entityRanges':[],'data':{}},{'key':'eustq','text':'感谢您留下对最新购买的评价。我们喜欢听取反馈，并感谢您花时间与我们分享您对此商品的体验。','type':'unstyled','depth':0,'inlineStyleRanges':[],'entityRanges':[],'data':{}},{'key':'al478','text':'','type':'unstyled','depth':0,'inlineStyleRanges':[],'entityRanges':[],'data':{}}],'entityMap':{}}"
+                },
+                "reviews": {
+                    "review_on": "评价于",
+                    "btn_shop_now": "立即购物"
+                }
+            }
+        },
+        "tone_voice": {
+            "friendly": {
+                "request_review": {
+                    "subject": "购买{{PRODUCT_NAME}}开心吗？现在留下评价吧！",
+                    "content": "<p><strong>您好 </strong>{{FIRST_NAME}}</p>\n<p>我们想了解您在{{STORE_NAME}}购物的体验如何</p>\n<p>如果您有时间，如果您能与我们和其他购物者分享您的想法和经历，那将是非常棒的。您的认可是一切🤩。</p>\n<p>温馨地,</p>\n<p>{{STORE_NAME}}团队</p>"
+                },
+                "request_review_reminder": {
+                    "subject": "您的体验如何？请告诉我们。",
+                    "content": "感谢您最近的购买。我们希望您喜欢！如果您喜欢，您的评价对我们来说非常重要"
+                },
+                "thank_you_email": {
+                    "subject": "感谢您留下评价！❤️",
+                    "content": "<p><strong>您好 </strong>{{FIRST_NAME}}</p>\n<p>您好，感谢您留下对最新购买的评价。我们喜欢听取反馈，并感谢您花时间与我们分享您对此商品的体验。</p>"
+                }
+            },
+            "professional": {
+                "request_review": {
+                    "subject": "您的反馈很重要：分享对{{PRODUCT_NAME}}的想法",
+                    "content": "<p><strong>亲爱的 </strong>{{FIRST_NAME}}</p>\n<p>我们希望您喜欢来自{{STORE_NAME}}的最新购买的{{PRODUCT_NAME}}。您的反馈对我们改进产品并为所有客户提供最佳体验至关重要。</p>\n<p>我们诚邀您在我们的网站上分享对{{PRODUCT_NAME}}的想法，留下评价。我们非常感谢您真诚的反馈。</p>\n<p>感谢您的时间和持续的支持。</p>\n<p>真诚地,</p>\n<p>{{STORE_NAME}}团队</p>"
+                },
+                "request_review_reminder": {
+                    "subject": "您在{{STORE_NAME}}的最近体验",
+                    "content": "<p><strong>您好</strong> {{FIRST_NAME}}</p>\n<p>感谢您选择{{STORE_NAME}}！我们希望您喜欢最近的购买。您的意见很重要，如果您能花一点时间分享您的体验，我们将不胜感激。</p>\n<p>最诚挚的问候,</p>\n<p>{{STORE_NAME}}</p>"
+                },
+                "thank_you_email": {
+                    "subject": "收到评价：您的想法很重要！",
+                    "content": "<p><strong>亲爱的 </strong>{{FIRST_NAME}}</p>\n<p>感谢您抽出时间提交对最近购买的评价。您的反馈对我们非常重要，我们致力于不断改进我们的产品和服务。感谢您分享您的见解。</p>"
+                }
+            },
+            "persuasive": {
+                "request_review": {
+                    "subject": "解锁独家福利！分享对{{PRODUCT_NAME}}的评价",
+                    "content": "<p><strong>您好 </strong>{{FIRST_NAME}}</p>\n<p>您喜欢来自{{STORE_NAME}}的新{{PRODUCT_NAME}}吗？我们很想听听您的想法！</p>\n<p>在我们的网站上分享您真实的评价有助于其他人做出明智的决策，还可能为您解锁独家福利，即下次购买时的特别优惠券！</p>\n<p>只需几分钟留下评价，将产生巨大的影响。</p>\n<p>点击星星并立即分享您的想法！</p>\n<p>感谢,</p>\n<p>{{STORE_NAME}}团队</p>"
+                },
+                "request_review_reminder": {
+                    "subject": "通过评价解锁独家福利！",
+                    "content": "<p><strong>您好</strong> {{FIRST_NAME}},</p>\n<p>您最近从{{STORE_NAME}}购买的商品对我们来说意义重大！分享您的想法，解锁独家福利，享受特别的专属待遇。</p>\n<p>感谢您选择{{STORE_NAME}}！</p>\n<p>热情的问候,</p>\n<p>{{STORE_NAME}}</p>"
+                },
+                "thank_you_email": {
+                    "subject": "帮助他人更明智地购物：分享您的评价体验！",
+                    "content": "<p><strong>您好</strong> {{FIRST_NAME}},</p>\n<p>感谢您留下对最近购买的评价！您的见解对其他购物者非常有价值，我们真诚感谢您抽出时间为我们的社区做出贡献。通过分享您的体验，您帮助他人做出明智的决策。</p>"
+                }
+            },
+            "supportive": {
+                "request_review": {
+                    "subject": "我们在这里帮助您！分享您对{{PRODUCT_NAME}}的体验",
+                    "content": "<p><strong>您好 </strong>{{FIRST_NAME}}</p>\n<p>我们希望您在{{STORE_NAME}}购买的新{{PRODUCT_NAME}}上过得愉快。</p>\n<p>在我们的网站上留下您的评价不仅有助于他人，还有助于我们确保为客户提供最佳的支持。</p>\n<p>请随时分享您对{{PRODUCT_NAME}}的任何想法，无论是好是坏。我们重视您的意见，并希望确保您完全满意。</p>\n<p>如果您对{{PRODUCT_NAME}}有任何问题或需要帮助，请随时联系我们友好的客户服务团队。</p>\n<p>我们非常乐意帮助您！</p>\n<p>温馨地,</p>\n<p>{{STORE_NAME}}团队</p>"
+                },
+                "request_review_reminder": {
+                    "subject": "您对{{STORE_NAME}}的意见很重要",
+                    "content": "<p><strong>亲爱的</strong> {{FIRST_NAME}},</p>\n<p>我们希望您对最近从{{STORE_NAME}}购买的商品感到满意。您的反馈很重要。请花一点时间分享您的想法。</p>\n<p>感谢您成为{{STORE_NAME}}的尊贵客户。</p>\n<p>最诚挚的问候,</p>\n<p>{{STORE_NAME}}</p>"
+                },
+                "thank_you_email": {
+                    "subject": "我们看到了您的评价！",
+                    "content": "<p><strong>您好</strong> {{FIRST_NAME}},</p>\n<p>我们看到了您对最近购买的评价，并想向您表示衷心的感谢！您的反馈对我们非常重要，因为它帮助我们确保为所有客户提供最佳的体验。</p>"
+                }
+            }
+        }
+    },
+    "qr_code_setting": {
+        "page_title": "二维码管理",
+        "store_qr_code": "商店二维码",
+        "store_qr_code_description": "创建和定制独特的商店二维码，让客户只需扫描即可管理和查看订单。通过快速便捷的二维码集成，提升您的商店客户体验。",
+        "download_qr_code": "下载二维码",
+        "scan_analysis": "扫描分析",
+        "bar_chart": "柱状图",
+        "line_chart": "折线图",
+        "total_scans": "总扫描次数",
+        "operating_system_scan": "操作系统扫描",
+        "total_scan": "总扫描",
+        "rate": "比率",
+        "top_country": "热门国家",
+        "country": "国家",
+        "top_cities": "热门城市",
+        "cities": "城市",
+        "modal_customize": {
+            "title": "商店二维码编辑器",
+            "frame": "框架",
+            "background_color": "背景颜色",
+            "transparent_background": "透明背景",
+            "logo": "商标",
+            "upload_logo": "上传商标",
+            "pattern_color": "图案颜色",
+            "custom_pattern_color": "自定义图案颜色",
+            "frame_color": "框架颜色"
+        }
+    },
+    "product_photo": "产品照片",
+    "product_name": "产品名称",
+    "quantity": "数量",
+    "unsubcribe": "取消订阅",
+    "resync-order": "重新同步订单",
+    "resync-helptext": "系统将同步您所有以前的订单。"
+}

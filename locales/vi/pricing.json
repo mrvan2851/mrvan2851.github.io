@@ -1,0 +1,184 @@
+{
+    "plan": {
+        "for_free": "Miễn phí",
+        "title": "Kế hoạch",
+        "free": "Cơ bản",
+        "basic": "Tiêu chuẩn",
+        "pro": "Doanh nghiệp",
+        "unlimited": "Tối ưu",
+        "free_plan": "Gói Cơ bản",
+        "basic_plan": "Gói Tiêu chuẩn",
+        "pro_plan": "Gói Doanh nghiệp",
+        "unlimited_plan": "Gói Tối ưu"
+    },
+    "basic": "Cơ bản",
+    "fully": "Tất cả",
+    "per_month": "mỗi tháng",
+    "plan_active": "{{plan}} đã được kích hoạt",
+    "discount_offer_time": "trong {{time}} tới",
+    "origin_price": "Giá gốc ",
+    "order/month": "đơn hàng/tháng",
+    "request_reviews": "Mail xin đánh giá",
+    "upgrade_plan": "Nâng cấp Gói",
+    "select_plan": "Chọn {{plan}}",
+    "start_free": "Bắt đầu miễn phí",
+    "unlimited": "Không giới hạn",
+    "modal_pricing_title": "Mở khóa các tính năng Premium với Giá cả Linh hoạt của Chúng tôi",
+    "best_choice": "Lựa chọn tốt nhất",
+    "coming_soon": "Sắp ra mắt",
+    "process_bar": {
+        "title": "Tổng số email đã hoàn thành",
+        "subtitle": "Số lượng này sẽ được làm mới vào ngày <strong>{{date}}</strong>",
+        "order_count": "{{used}} trong {{total}} đơn hàng đã hoàn thành"
+    },
+    "plan_table": {
+        "title": "Kế hoạch Giá cả",
+        "subtitle": "Khám phá các kế hoạch đăng ký tùy chỉnh được thiết kế để nâng cao doanh nghiệp của bạn!",
+        "start_trial": "Bắt đầu dùng thử miễn phí {{day}} ngày",
+        "current_plan": "Kế hoạch hiện tại",
+        "upgrade": "Nâng cấp",
+        "select_plan": "Chọn kế hoạch",
+        "downgrade": "Giảm cấp",
+        "pricing_card": {
+            "free": "Truy cập các tính năng thiết yếu với Kế hoạch Cơ bản của chúng tôi, hoàn hảo cho người mới bắt đầu.",
+            "basic": "Nhận công cụ và hỗ trợ nâng cao với Kế hoạch Tiêu chuẩn cho cá nhân",
+            "pro": "Cung cấp sức mạnh cho doanh nghiệp của bạn với Kế hoạch Doanh nghiệp toàn diện của chúng tôi",
+            "unlimited": "Không có giới hạn cho sự phát triển của bạn"
+        },
+        "modal_downgrade": {
+            "title": "Đừng mất quyền truy cập vào các tính năng mạnh mẽ!",
+            "subtitle": "Cửa hàng của bạn đang sử dụng một số tính năng cao cấp. Tắt chúng để giảm cấp kế hoạch của bạn:",
+            "discount_voucher": "Phiếu giảm giá tự động",
+            "customize_widget": "Tiện ích tùy chỉnh",
+            "upload_video": "Tải video khi viết đánh giá",
+            "review_testimonial": "Lời chứng thực",
+            "modal_all_image": "Cài đặt tất cả hình ảnh modal",
+            "review_page": "Trang tất cả đánh giá",
+            "google_shopping": "Google Shopping",
+            "group_product": "Nhóm Sản phẩm",
+            "global_display": "Hiển thị cục bộ",
+            "custom_domain": "Tên miền tùy chỉnh",
+            "qr_code": "Quản lý mã QR",
+            "review_translation": "Dịch đánh giá",
+            "multi_lang": "Widget đa ngôn ngữ",
+            "ai_functionality": "Chức năng AI",
+            "insights_and_segmentation": "Thông tin và phân đoạn",
+            "review_detail_page": "Trang chi tiết đánh giá",
+            "import_custom_csv": "Nhập CSV tùy chỉnh",
+            "protect_review": "Bảo vệ đánh giá"
+        },
+        "primary_collapse": {
+            "title": "Khám phá kế hoạch tốt nhất cho nhu cầu của bạn",
+            "email_quota": "Mail xin đánh giá",
+            "email_quota_helptext": "Chúng tôi tính hạn mức của bạn dựa trên số lượng đơn đặt hàng, không phải số lượng email yêu cầu đánh giá đã gửi. Ví dụ, nếu bạn gửi ba email (yêu cầu, nhắc nhở và cảm ơn), nó vẫn chỉ được tính là một.",
+            "order_per_month": "Tổng số đơn hàng/tháng",
+            "discount_voucher": "Phiếu giảm giá",
+            "customize_widget": "Tiện ích tùy chỉnh",
+            "upload_video": "Video đánh giá",
+            "review_testimonial": "Lời chứng thực đánh giá",
+            "modal_all_image": "Tất cả hình ảnh modal",
+            "review_page": "Trang tất cả đánh giá",
+            "google_shopping": "Google Shopping",
+            "group_product": "Nhóm Sản phẩm",
+            "global_display": "Hiển thị cục bộ",
+            "custom_domain": "Tên miền tùy chỉnh",
+            "qr_code": "Quản lý mã QR",
+            "review_translation": "Dịch đánh giá",
+            "multi_lang": "Widget đa ngôn ngữ",
+            "ai_functionality": "Chức năng AI",
+            "insights_and_segmentation": "Thông tin và phân đoạn",
+            "review_detail_page": "Trang chi tiết đánh giá",
+            "import_custom_csv": "Nhập CSV tùy chỉnh",
+            "protect_review": "Bảo vệ đánh giá"
+        },
+        "details_collapse": {
+            "title": "So sánh tiện ích tùy chỉnh giữa các kế hoạch đăng ký",
+            "widgetBox": {
+                "title": "Hộp tiện ích (mặc định)",
+                "choose_layout": "Chọn Bố cục",
+                "summary_box": "Hộp Tóm tắt",
+                "color_scheme": "Bảng màu",
+                "information_display": "Hiển thị Thông tin",
+                "content": "Nội dung"
+            },
+            "widgetBoxNoReview": {
+                "title": "Hộp tiện ích (không có đánh giá)",
+                "content": "Nội dung",
+                "color_scheme": "Bảng màu"
+            },
+            "modalReviewDetail": {
+                "title": "Modal Đánh giá chi tiết",
+                "all_settings": "Tất cả cài đặt"
+            },
+            "modal_all_image": {
+                "title": "Modal tất cả hình ảnh",
+                "all_settings": "Tất cả cài đặt"
+            },
+            "formWriteReview": {
+                "title": "Mẫu viết đánh giá",
+                "review_with_video": "Đánh giá với video"
+            }
+        }
+    },
+    "free_banner": {
+        "title": "Truy cập các tính năng thiết yếu với Gói Miễn phí của chúng tôi, hoàn hảo cho người mới bắt đầu.",
+        "email_quota_limit": "Hạn mức email {{limit}} đơn hàng/tháng",
+        "basic_access": "Truy cập cơ bản vào tiện ích đánh giá",
+        "basic_edit_email": "Chỉnh sửa email Yêu cầu cơ bản",
+        "upload_media": "Chỉ tải lên Hình ảnh bởi Người đánh giá",
+        "quick_chat": "Hỗ trợ Chat nhanh",
+        "visible_brand": "Hiển thị Thương hiệu TrustShop"
+    },
+    "basic_banner": {
+        "everything_in_basic": "Mọi thứ trong gói Cơ bản",
+        "email_quota": "Hạn mức email {{limit}} đơn hàng/tháng",
+        "discount_voucher": "Phiếu giảm giá tự động",
+        "customize_widget": "Tiện ích tùy chỉnh",
+        "upload_video": "Tải video khi viết đánh giá",
+        "review_testimonial": "Lời chứng thực",
+        "modal_all_image": "Cài đặt tất cả hình ảnh modal",
+        "review_page": "Trang tất cả đánh giá",
+        "google_shopping": "Google Shopping",
+        "global_display": "Hiển thị cục bộ",
+        "group_product": "Nhóm Sản phẩm",
+        "custom_domain": "Tên miền tùy chỉnh",
+        "qr_code": "Quản lý mã QR",
+        "review_translation": "Dịch đánh giá",
+        "multi_lang": "Widget đa ngôn ngữ",
+        "ai_functionality": "Chức năng AI",
+        "insights_and_segmentation": "Thông tin và phân đoạn",
+        "review_detail_page": "Trang chi tiết đánh giá",
+        "import_custom_csv": "Nhập CSV tùy chỉnh",
+        "protect_review": "Bảo vệ đánh giá"
+    },
+    "frequency_ask": {
+        "title": "Câu hỏi thường gặp",
+        "list_questions": {
+            "1": {
+                "title": "Hạn mức yêu cầu đánh giá được tính như thế nào?",
+                "subtitle": "Hạn mức được tính dựa trên số lượng đơn hàng. Nếu bạn kích hoạt cả ba loại email—Yêu cầu đánh giá, Nhắc nhở đánh giá và Thư cảm ơn. Chỉ một hạn mức sẽ được tính cho mỗi đơn hàng."
+            },
+            "2": {
+                "title": "Hạn mức của tôi có bị sử dụng nếu tôi không gửi yêu cầu đánh giá qua TrustShop?",
+                "subtitle": "Không, hạn mức của bạn sẽ chỉ bị trừ nếu bạn sử dụng tính năng yêu cầu đánh giá của TrustShop. Nếu bạn không sử dụng tính năng này, hạn mức của bạn sẽ không bị ảnh hưởng."
+            },
+            "3": {
+                "title": "Tôi có thể hạ cấp gói của mình không?",
+                "subtitle": "Có, bạn có thể hạ cấp gói của mình bất cứ lúc nào nếu bạn không cần sử dụng các tính năng trả phí nữa. Hãy đảm bảo vô hiệu hóa tất cả các tính năng trả phí trước khi hạ cấp. Nếu cần trợ giúp, đội ngũ hỗ trợ của chúng tôi luôn sẵn sàng hỗ trợ bạn."
+            },
+            "4": {
+                "title": "Tôi có bị tính phí trong thời gian dùng thử không?",
+                "subtitle": "Không, bạn sẽ không bị tính phí trong thời gian dùng thử. Việc tính phí chỉ bắt đầu sau khi thời gian dùng thử kết thúc."
+            }
+        }
+    },
+    "modal_charge_success": {
+        "title": "Bạn hiện là thành viên {{plan}}!",
+        "content": "Cảm ơn bạn đã chọn gói đăng ký cao cấp của chúng tôi! Sẵn sàng để nhận các lợi ích độc quyền và hỗ trợ hàng đầu. Hãy làm cho hành trình này trở nên đặc biệt."
+    },
+    "special_offer": {
+        "title": "Ưu Đãi Đặc Biệt: Giảm 30% Khi Đồng Hành Cùng Chúng Tôi!",
+        "content": "Để bày tỏ lòng biết ơn vì sự ủng hộ của bạn, chúng tôi đang cung cấp cho bạn một <1>ưu đãi đặc biệt giảm 30%</1> cho bất kỳ gói đăng ký nào trong hai tháng tới. Cảm ơn bạn đã là một khách hàng quý giá!",
+        "remain_time": "Thời gian còn lại cho ưu đãi:"
+    }
+}

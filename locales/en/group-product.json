@@ -1,0 +1,41 @@
+{
+    "group_overview": {
+        "title": "Group product",
+        "description": "Group similar products to share and display reviews together, streamline bundles, and create custom review displays effortlessly.",
+        "create_button": "Create group",
+        "delete_group_message": "If you delete the group, all reviews will be separated and revert to their original products. You will no longer have access, and this action cannot be undone. Do you want to continue?",
+        "delete_group": "Delete group",
+        "limit_function": "Upgrade to higher plan to use this feature. <1>See pricing</1>"
+    },
+    "create_group_page": {
+        "title": "Create group product",
+        "group_name": "Group name",
+        "product_in_this_group": "Products in this group",
+        "description": "Add products to this group",
+        "sub_description": "Select product to add to this group",
+        "add_product": "Add product",
+        "unsaved_change_title": "Are you sure you want to exit?",
+        "unsaved_change_message": "Your group hasn't been saved. If you exit, your settings will be lost. Do you want to continue?"
+    },
+    "create_group_modal": {
+        "title": "Create group product",
+        "select_product_for": "Select product for",
+        "add_product_to_group": "Add product to group",
+        "search_product": "Search product",
+        "product": "Product",
+        "total_reviews": "Total reviews",
+        "average_rating": "Average rating",
+        "no_product_found": "No product found",
+        "no_result_for": "No result for "
+    },
+    "group_detail_page": {
+        "group_rating_summary": "Group rating summary",
+        "products_in_group": "Products in group",
+        "reviews_in_group": "Reviews in group",
+        "delete_product": "Delete product",
+        "most_helpful": "Most helpful",
+        "newest": "Newest",
+        "delete_confirm_title": "Delete product from group",
+        "delete_confirm_message": "Are you sure you want to delete this product?"
+    }
+}

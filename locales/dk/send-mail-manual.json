@@ -1,0 +1,22 @@
+{
+    "send_mail": {
+        "title": "Manuel Anmodnings Email",
+        "subject": "Send anmodnings-emails for ordrer der ikke sendes automatisk"
+    },
+    "table": {
+        "orders": "Ordrer",
+        "date": "Dato",
+        "customer": "Kunde",
+        "total": "Total",
+        "fulfillment_status": "Opfyldelsesstatus",
+        "items": "Varer"
+    },
+    "empty_search": {
+        "title": "Ingen ordrer fundet",
+        "description": "Prøv at ændre filtrene eller søgetermen"
+    },
+    "banner": {
+        "title": "Behov for handling",
+        "content": "For at bruge denne funktion skal du give yderligere tilladelser til 'læs ordrer' til TrustShop. For at give tilladelse skal du klikke på knappen nedenfor"
+    }
+}

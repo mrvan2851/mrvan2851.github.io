@@ -1,0 +1,22 @@
+{
+    "send_mail": {
+        "title": "Correo de Solicitud Manual",
+        "subject": "Enviar correos de solicitud para los pedidos que no se envían automáticamente"
+    },
+    "table": {
+        "orders": "Pedidos",
+        "date": "Fecha",
+        "customer": "Cliente",
+        "total": "Total",
+        "fulfillment_status": "Estado de Cumplimiento",
+        "items": "Artículos"
+    },
+    "empty_search": {
+        "title": "No se encontraron pedidos",
+        "description": "Intenta cambiar los filtros o término de búsqueda"
+    },
+    "banner": {
+        "title": "Acción necesaria",
+        "content": "Para utilizar esta función, debes otorgar permisos adicionales de 'lectura de pedidos' a TrustShop. Para otorgar permiso, haz clic en el botón a continuación"
+    }
+}

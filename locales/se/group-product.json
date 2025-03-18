@@ -1,0 +1,41 @@
+{
+    "group_overview": {
+        "title": "Grupprodukt",
+        "description": "Gruppera liknande produkter för att dela och visa recensioner tillsammans, strömlinjeforma paket och skapa anpassade recensionsvisningar enkelt.",
+        "create_button": "Skapa grupp",
+        "delete_group_message": "Om du tar bort gruppen kommer alla recensioner att separeras och återgå till sina ursprungliga produkter. Du kommer inte längre ha tillgång, och denna åtgärd kan inte ångras. Vill du fortsätta?",
+        "delete_group": "Ta bort grupp",
+        "limit_function": "Uppgradera till högre plan för att använda denna funktion. <1>Se priser</1>"
+    },
+    "create_group_page": {
+        "title": "Skapa grupp produkt",
+        "group_name": "Gruppnamn",
+        "product_in_this_group": "Produkter i denna grupp",
+        "description": "Lägg till produkter i denna grupp",
+        "sub_description": "Välj produkt att lägga till i denna grupp",
+        "add_product": "Lägg till produkt",
+        "unsaved_change_title": "Är du säker på att du vill avsluta?",
+        "unsaved_change_message": "Din grupp har inte sparats. Om du avslutar kommer dina inställningar att gå förlorade. Vill du fortsätta?"
+    },
+    "create_group_modal": {
+        "title": "Skapa gruppprodukt",
+        "select_product_for": "Välj produkt för",
+        "add_product_to_group": "Lägg till produkt i grupp",
+        "search_product": "Sök produkt",
+        "product": "Produkt",
+        "total_reviews": "Totala recensioner",
+        "average_rating": "Genomsnittligt betyg",
+        "no_product_found": "Ingen produkt hittades",
+        "no_result_for": "Inget resultat för "
+    },
+    "group_detail_page": {
+        "group_rating_summary": "Gruppens betygssammanfattning",
+        "products_in_group": "Produkter i gruppen",
+        "reviews_in_group": "Recensioner i gruppen",
+        "delete_product": "Ta bort produkt",
+        "most_helpful": "Mest hjälpsam",
+        "newest": "Nyaste",
+        "delete_confirm_title": "Ta bort produkt från grupp",
+        "delete_confirm_message": "Är du säker på att du vill ta bort denna produkt?"
+    }
+}

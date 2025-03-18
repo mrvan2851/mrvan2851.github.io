@@ -1,0 +1,90 @@
+{
+    "toast": {
+        "email": {
+            "update_success": "メールの更新に成功しました",
+            "invalid_email": "無効なメールアドレス！",
+            "failed": "メールの送信に失敗しました",
+            "failed_reason": "メールの送信に失敗しました",
+            "get_campain_fail": "取得に失敗しました。",
+            "get_campaign_failed": "キャンペーンの取得に失敗しました",
+            "get_queue_failed": "キューの取得に失敗しました",
+            "require_title": "このメールを有効にするには、1つの変更が必要です：",
+            "require": "レビューリクエストをアクティブにする必要があります",
+            "success": "送信に成功しました",
+            "empty": "いくつかのフィールドが空です。保存する前に入力または削除してください。",
+            "send_again_success": "メールがスケジュールされました"
+        },
+        "failed": "失敗しました！",
+        "get_status_fail": "情報の取得に失敗しました。",
+        "onboarding": {
+            "reload": "失敗しました！もう一度お試しください",
+            "skip_enable_app_embed": "アプリ埋め込みを有効にしないようにしますか？",
+            "skip_enable_app_embed_notice": "アプリ埋め込みを有効にすると、店舗でウィジェットを表示できるようになります。もし希望すれば、このステップをスキップし、後で設定で有効にできます。",
+            "skip_add_block_title": "ウィジェットを追加しないようにしますか？",
+            "skip_add_block_notice": "ウィジェットを追加することで、レビューが店舗に表示されます。希望すれば、このステップをスキップし、後で設定でウィジェットを追加できます。",
+            "enable_app_embed": "スクリプトの有効化に成功しました",
+            "add_app_block_success": "ウィジェットの追加に成功しました"
+        },
+        "publish_fail": "公開に失敗しました。",
+        "reply_fail": "返信に失敗しました。",
+        "review": {
+            "delete_photo_fail": "写真の削除に失敗しました。",
+            "delete_reply_fail": "返信の削除に失敗しました。",
+            "get_review_fail": "レビューの取得に失敗しました。",
+            "publish_fail": "公開に失敗しました。",
+            "reject_fail": "拒否に失敗しました。"
+        },
+        "saved": "保存しました",
+        "server_error_title": "サーバーエラー",
+        "server_error": "何かがうまくいきませんでした。後でもう一度お試しください",
+        "setting": {
+            "validate_fail": "いくつかのフィールドが無効です。"
+        },
+        "widget": {
+            "missing_shopify_code": "テキストフィールドにShopifyコードを入力する必要があります",
+            "review_filter_null": "レビューのフィルターには、少なくとも1つの項目が必要です"
+        },
+        "import_review": {
+            "success": "正常にインポートされました"
+        },
+        "add_widget_v1_confirm": "確認ありがとうございます",
+        "export_review": {
+            "success": "エクスポート処理中、エクスポートファイルは{{email}}に送信されます",
+            "failed": "エクスポートエラー、サポートにお問い合わせください"
+        },
+        "delete_review": {
+            "success": "削除に成功しました",
+            "failed": "削除エラー。"
+        },
+        "group_product": {
+            "at_least_2_product": "少なくとも2つの商品を選択してください",
+            "create_success": "グループ作成に成功しました",
+            "delete_success": "グループ{{name}}の削除に成功しました",
+            "update_success": "グループの更新に成功しました",
+            "add_product_success": "商品追加に成功しました",
+            "delete_product_success": "商品削除に成功しました"
+        },
+        "delete_failed": "削除に失敗しました。",
+        "add_failed": "追加に失敗しました",
+        "update_failed": "更新に失敗しました"
+    },
+    "validate": {
+        "empty_input": "このフィールドを記入してください！",
+        "greater_than_0": "値は0より大きくなければなりません！",
+        "smaller_than_100": "値は100を超えてはなりません！",
+        "invalid_email": "無効なメールアドレス！",
+        "invalid_url": "無効なURL！",
+        "word_not_allow": "許可されていません！",
+        "this_field_required": "このフィールドは必須です！",
+        "invalid_quantity": "数量は5から200の間の数字である必要があります！",
+        "quantity_review_per_page": "数量は1から10の間でなければなりません！",
+        "quantity": "最大レビュー数は200です",
+        "import_review": {
+            "fail": "インポートに失敗しました。もう一度お試しください",
+            "size": "ファイルサイズが最大サイズ（5MB）を超えています",
+            "type": "無効なファイルタイプです"
+        },
+        "limit_email_send_test": "次のメール送信まで90秒待機してください！",
+        "email_exist": "メールアドレスはすでに存在します！"
+    }
+}

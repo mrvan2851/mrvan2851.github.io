@@ -1,0 +1,365 @@
+{
+    "general": {
+        "email_setting": {
+            "email": {
+                "reply_to_email": "返信先メール",
+                "reply_to_email_helptext": "顧客はこのメールに送信します。",
+                "sender_email": "送信者メール",
+                "sender_email_helptext": "このメールは顧客に送信されます。",
+                "sender_name": "送信者名",
+                "title": "メール設定",
+                "send_email_from_source": "次のソースから注文にレビューリクエストメールを送信:",
+                "web": "オンラインストア",
+                "pos": "POS",
+                "shopify_draft_order": "ドラフト注文",
+                "email_blocklist": "メールブロックリスト",
+                "email_blocklist_helptext": "リクエストおよびリマインダーメールはこれらのメールには送信されません",
+                "block_email_placeholder": "Enterキーを押して新しいメールを追加",
+                "unblock_message_title": "以前にブロックされたメールを送信",
+                "unblock_message": "以前にブロックされたメールを送信しますか、それとも送信をキャンセルしますか？",
+                "remember_choice_time": "1時間応答を記憶する",
+                "block_send_email_conditions": "条件によるメール送信のブロック",
+                "product_block_list": "製品ブロックリスト",
+                "select_product": "製品を選択",
+                "order_tag_blocklist": "注文ブロックリスト",
+                "order_tag_blocklist_placeholder": "Enterキーを押してタグを追加",
+                "order_tag_blocklist_helptext": "リクエストおよびリマインダーメールは、上記のリストに含まれるタグを含む注文からのメールを送信しません"
+            },
+            "sub_title": "生産性とコミュニケーションを向上させるためにメール設定を微調整します",
+            "title": "メール設定",
+            "custom_domain": {
+                "edit_domain_btn": "ドメインを編集",
+                "page": {
+                    "title": "カスタムドメイン",
+                    "empty_page": {
+                        "description": "カスタムメールドメインをリンクして、ブランドのメールアドレスからメッセージを送信します。これにより、ブランドの専門性が向上し、受信者の受信トレイでメッセージが目立つようになります。",
+                        "external_link": "設定方法を学ぶ",
+                        "add_domain_btn": "メールアドレスを追加"
+                    },
+                    "overview_page": {
+                        "unverified": "未確認",
+                        "verified": "確認済み",
+                        "edit_domain": "ドメインを編集",
+                        "config_dns_settings": "DNS設定を構成する",
+                        "config_dns_settings_helptext": "次のMX、SPF、およびDKIMレコードをDNS設定に挿入して<strong>{{domain}}</strong>を認証します。",
+                        "show_config": "設定を表示",
+                        "record_config": {
+                            "type": "タイプ",
+                            "name": "ホスト名",
+                            "value": "値",
+                            "priority": "優先度",
+                            "mx": {
+                                "title": "MXレコード",
+                                "sub_title": "以下の詳細に従って2つのMXレコードを設定します:"
+                            },
+                            "spf": {
+                                "title": "SPFレコード",
+                                "sub_title": "以下の詳細に一致するSPFレコードを含めます:"
+                            },
+                            "dkim": {
+                                "title": "DKIMレコード",
+                                "sub_title": "以下の詳細に一致するDKIMレコードを含めます:"
+                            },
+                            "dmarc": {
+                                "title": "DMARCレコード",
+                                "sub_title": "以下の詳細に一致するDMARCレコードを含めます:"
+                            },
+                            "custom_from": {
+                                "title": "CUSTOM FROMレコード",
+                                "sub_title": "以下の詳細に一致するCUSTOM FROMレコードを含めます:"
+                            },
+                            "notice": "通知: あなたの{{config}}レコードはまだ確認されていません。DNSレコードが完全に伝播するには数時間から最大72時間かかる場合があります。",
+                            "verify_domain": "ドメインを確認"
+                        },
+                        "modal_add_domain": {
+                            "title": "メールアドレスを追加",
+                            "input_label": "メッセージ送信用に使用したいメールアドレスを入力してください。",
+                            "validate_domain": "自分のドメインのみ追加できます。Trusthopは公開ドメイン（例: gmail.com, yahoo.com）の追加をサポートしていません。",
+                            "add_domain_btn": "ドメインを追加"
+                        },
+                        "modal_delete_domain": {
+                            "title": "カスタムドメインを削除しますか？",
+                            "description": "カスタムドメインを削除すると、デフォルトのドメインに戻り、このドメインを使用できなくなります。この操作は元に戻せません。続行しますか？"
+                        }
+                    }
+                }
+            },
+            "unsubscribe_management": {
+                "title": "配信停止管理",
+                "subtitle": "レビューリクエストメールの配信を停止した顧客を追跡および管理します。",
+                "customer_have_unsubscribed": "顧客が配信停止しました",
+                "email": "メール",
+                "topic_type": "トピックタイプ",
+                "unsubscribe_date": "配信停止日",
+                "delete_title": "配信停止を削除",
+                "delete_unsubscribe_confirm": "このメールを削除してもよろしいですか？この操作は元に戻せません。",
+                "no_unsubscribe_title": "配信停止した顧客はいません",
+                "no_unsubscribe_description": "メールの配信を停止した顧客に関する情報はここに表示されます"
+            }
+        },
+        "general_setting": {
+            "profile": {
+                "logo": "ロゴ",
+                "logo_helptext": ".gif、.jpg、および.pngを受け入れます",
+                "select_image": "画像を選択",
+                "store_email": "ストアメール",
+                "store_email_helptext": "アカウントに関して連絡が必要な場合にこのアドレスを使用します。",
+                "store_name": "ストア名",
+                "store_name_helptext": "ロゴが追加されていない場合にメールヘッダーに表示されます。",
+                "store_url": "ストアURL",
+                "title": "プロフィール",
+                "time": {
+                    "time_format": "時刻形式",
+                    "sample": {
+                        "12h": "12 時間",
+                        "24h": "24 時間"
+                    }
+                },
+                "date": {
+                    "date_format": "日付形式",
+                    "sample": {
+                        "month_day_year": "Aug 05 2006",
+                        "day_month_day_year": "Sat Aug 05 2006",
+                        "day_of_week_month_day_year": "Saturday, August 05 2006",
+                        "day_month_day_year_slash": "Sat 08/05/2006",
+                        "day_month_day_year_slash_short_year": "Sat 8/5/06",
+                        "month_day_year_slash": "08/05/2006",
+                        "month_day_year_slash_short_year": "8/5/06",
+                        "month_day_year_time": "Aug 05 2006",
+                        "day_month_day_year_time": "Sat Aug 05 2006",
+                        "day_of_week_month_day_year_time": "Saturday, August 05 2006",
+                        "day_month_day_year_slash_time": "Sat 08/05/2006",
+                        "day_month_day_year_slash_short_year_time": "Sat 8/5/06",
+                        "month_day_year_slash_time": "08/05/2006",
+                        "month_day_year_slash_short_year_time": "8/5/06"
+                    }
+                }
+            },
+            "sub_title": "メール、ロゴ、およびソーシャルメディアでアカウントを設定します",
+            "title": "一般設定"
+        },
+        "social_links": {
+            "social": {
+                "helptext": "メールフッターにソーシャルチャンネルを含めます",
+                "title": "ソーシャル設定"
+            },
+            "mobile_apps": {
+                "title": "モバイルアプリ",
+                "sub_title": "メールフッターにソーシャルチャンネルを含めます"
+            },
+            "sub_title": "顧客との効果的な共有とコミュニケーションのためにソーシャルリンクの設定をカスタマイズします",
+            "title": "ソーシャルリンク"
+        },
+        "review_action": {
+            "title": "レビューのエクスポート/削除",
+            "subtitle": "ストアのすべてのレビューをエクスポートして削除する",
+            "export_review": "レビューのエクスポート",
+            "export_review_helptext": "レビューのエクスポートには数分かかる場合があります。エクスポートファイルは<1>{{email}}</1>にメールで送信されます。",
+            "delete_all": "すべて削除",
+            "delete_all_helptext": "この操作は元に戻せませんので、レビューを削除する前に確認してください。",
+            "delete_confirm": "この操作は元に戻せませんので、レビューを削除する前に確認してください"
+        }
+    },
+    "review": {
+        "auto_publish_reviews": {
+            "title": "自動レビュー公開",
+            "sub_title": "自動公開したいレビューを選択してください。変更は新しいレビューにのみ影響します。",
+            "enable_auto_publish_reviews": "自動レビュー公開を有効にする",
+            "auto_publish_reviews_if": "以下の場合に新しいレビューをストアに自動公開:"
+        },
+        "new_review_notification": {
+            "title": "新しいレビュー通知",
+            "sub_title": "新しいレビューの提出についてメール通知を受け取ります。インポートで追加されたレビューは含まれません。",
+            "enable_new_review_notification": "新しいレビュー通知を有効にする",
+            "send_email_to_merchant_if": "顧客がレビューを残した場合、商人にメールを送信",
+            "receive_email": "否定的なレビュー提出についてメール通知を受け取る",
+            "selected_lang_for_system_email": "システムメールの言語を選択"
+        },
+        "protect_reviews": {
+            "title": "レビューを保護する",
+            "sub_title": "レビューを保護するための関連するキーワードを設定し、ポルノ、暴力、テロリズム、詐欺、フィッシングリンク、またはマルウェアなどのセンシティブなコンテンツが表示されないようにします。",
+            "enable_protect_reviews": "レビュー保護を有効にする",
+            "block_additional_words_description": "最も一般的な悪口はすでにブロックされています。下のボックスに他の言葉を入力して追加してください。",
+            "add_word_placeholder": "キーワードを入力し、Enterを押します",
+            "search_language_placeholder": "言語を検索",
+            "no_language_found": "{{lang}} に一致する言語が見つかりません",
+            "lang_have_added": "{{lang}} が追加されました"
+        },
+        "auto_send_email": {
+            "title": "顧客に自動でメールを送信",
+            "sub_title": "レビュー管理セクションで顧客のレビューに返信すると、システムは返信内容を含むメールをその顧客に自動的に送信します",
+            "enable_auto_send_email": "メール送信を有効にする",
+            "send_email_to_merchant_when_source": "次のソースを通じてレビューに返信する際、顧客にメールを送信します:",
+            "store_front": "ストアフロント",
+            "email": "メール",
+            "import_csv": "CSVをインポート"
+        },
+        "review_translate": {
+            "title": "レビューコンテンツの翻訳",
+            "sub_title": "レビューに翻訳ボタンが表示され、購入者は簡単に自分の母国語に翻訳できます。",
+            "review_content_translation": "レビューコンテンツの翻訳",
+            "example": "例"
+        },
+        "multi_lang": {
+            "title": "ウィジェットの言語を翻訳",
+            "sub_title": "ウィジェットのコンテンツは、あなたのショップがサービスを提供している各市場で、買い物客の言語に自動的に翻訳されます。",
+            "auto_multi_lang": "自動多言語切替",
+            "description": "デフォルトでは、すべてのレビューウィジェットは英語で表示されます。この機能を有効にすると、ウィジェットに表示される言語は、訪問者がいる国の買い物客の言語に自動的に切り替わります。"
+        }
+    },
+    "tabs": {
+        "general": "一般",
+        "review": "レビュー",
+        "import_review": "レビューのインポート",
+        "gg_shopping": "Google製品レビュー",
+        "pricing": "価格設定",
+        "global_display": "グローバル表示",
+        "integrations": "統合"
+    },
+    "title": "設定",
+    "import_review": {
+        "save_success": "保存に成功しました！",
+        "save_error": "予期しないエラーが発生しました！",
+        "filter_review": {
+            "title": "レビューのフィルタリング",
+            "sub_title": "条件を満たすレビューがインポートされます",
+            "quantity_import": "インポート数",
+            "generate": "ランダムな数量を生成",
+            "auto_publish_review_label": "つ星でレビューを自動公開する",
+            "contain_option_label": "オプションを含む",
+            "contain_photos": "写真を含む",
+            "contain_review_content": "レビューコンテンツを含む",
+            "customer_country": "顧客の国",
+            "date_range": "日付範囲",
+            "skip_review": "キーワードを含むレビューをスキップする",
+            "skip_review_value": "AliExpress、Ali AliExpress、Fraud、Scam、Fake、Counterfeit、Knockoff、Imitation、Replica、Worse"
+        },
+        "generate_title": {
+            "title": "レビュータイトルの生成",
+            "sub_title": "ソースにタイトルがない場合、星の評価に基づいて自動的にレビュータイトルを生成します",
+            "star": {
+                "1_star": "1つ星",
+                "2_star": "2つ星",
+                "3_star": "3つ星",
+                "4_star": "4つ星",
+                "5_star": "5つ星"
+            },
+            "title_placeholder": "細部に完璧！",
+            "title_random": {
+                "title": "ランダムなタイトル",
+                "sub_title": "レビューのためのランダムなタイトルを生成します"
+            },
+            "new_title": "新しいタイトル"
+        }
+    },
+    "filter_date": {
+        "all_times": "すべての時間",
+        "today": "今日",
+        "yesterday": "昨日",
+        "last_7_days": "過去7日間",
+        "last_month": "先月",
+        "last_year": "昨年"
+    },
+    "gg_shopping": {
+        "title": "Google製品レビュー",
+        "sub_title": "Googleショッピングリストに輝く顧客のテストモニアルを表示して、より多くの注目を集め、信頼を築きます。",
+        "google_product_review": {
+            "title": "Google製品レビューフィード",
+            "generate_feed": "製品レビューフィードを生成する",
+            "generate_feed_helptext": "Google Merchant Centerの設定に合わせて更新スケジュールを変更します",
+            "fetch_frequency": "取得頻度",
+            "daily": "毎日",
+            "weekly": "毎週",
+            "monthly": "毎月",
+            "fetch_date": "取得日",
+            "fetch_time": "取得時間",
+            "time_zone": "タイムゾーン",
+            "disabled": "無効",
+            "XML_file_name": "XMLファイル名",
+            "view_instructions": "手順を表示する"
+        },
+        "reviewer_content": {
+            "title": "レビューコンテンツ",
+            "reviewer_name_format": "レビュアー名の形式",
+            "includes_medias": "レビューの写真/動画を含む",
+            "include_personal_info": "個人情報を含むレビューを含む",
+            "include_personal_info_helptext": "個人情報をアスタリスクで置き換えます"
+        },
+        "advanced_setting": {
+            "title": "高度な設定",
+            "add_gtin": "フィードにGTINを追加する（デフォルト）",
+            "add_mpn": "フィードにMPNを追加する",
+            "add_mpn_helptext": "これにより、Shopify管理者に同じSKU値が含まれます",
+            "exclude_out_of_store": "ストア外の製品のレビューを除外する"
+        }
+    },
+    "global_display": {
+        "icon_and_corner": {
+            "title": "表示設定",
+            "subtitle": "以下の属性が変更されると、システム全体がそれに応じて更新されます",
+            "star_icon": {
+                "title": "星アイコン",
+                "icon_style": "アイコンスタイル"
+            },
+            "element_corner": {
+                "title": "要素の角",
+                "button_radius": "ボタンの角の半径",
+                "other_element": "他の要素の角",
+                "element": "要素"
+            }
+        },
+        "reviewer_name": {
+            "title": "レビュアー名の表示",
+            "sub_title": "フォームからデフォルトのレビュアー名を選択するか、手動でカスタマイズします",
+            "reviewer_name_format": "レビュアー名の形式",
+            "default": {
+                "label": "デフォルト",
+                "helptext": "レビュー フォームからレビュアーの名前を自動的に表示します"
+            },
+            "manually": {
+                "label": "手動",
+                "helptext": "デフォルトの名前表示形式を選択します。その後、すべてのレビュアーに適用します",
+                "name_display_format": "名前表示形式"
+            }
+        },
+        "reviewer_avt_format": {
+            "title": "レビュアーアバター設定",
+            "sub_title": "レビュアーのアバターを、カラーを選んだり、別のイラストを使用して設定します",
+            "colorful_avt": {
+                "label": "カラフルアバター",
+                "helptext": "カラーホイールから自動的にアバターを生成します"
+            },
+            "base_color_avt": {
+                "label": "ベースカラ―アバター",
+                "helptext": "ベースカラーを使用してレビュアーアバターを作成します"
+            },
+            "gravatar_avt": {
+                "label": "Gravatarアバター",
+                "helptext": "Gravatarを使用してレビュアーアバターを表示します"
+            }
+        },
+        "review_date_format": {
+            "title": "レビュー日付形式",
+            "sub_title": "すべてのウィジェットで日付形式を設定します。",
+            "sample": "サンプル"
+        }
+    },
+    "rich_snippet": {
+        "title": "リッチスニペット",
+        "description": "ユーザーがリッチスニペットを作成できるようにし、評価、価格、在庫などの追加情報を検索結果に直接表示して検索の可視性を高め、エンゲージメントを促進し、SEOを改善します。",
+        "check_snippet": "スニペットを確認",
+        "seo_integrations": "SEO統合",
+        "seo_description": "これらのスニペットアプリはTrustshopのレビュースニペットと自動的に同期されます。",
+        "text_field_label": "スニペットを確認するために製品リンクを入力してください",
+        "text_field_placeholder": "製品詳細リンクを入力"
+    },
+    "partner_integrations": {
+        "third_party_apps": "サードパーティアプリ",
+        "partner_list": {
+            "langwill": "ストアを138の言語に翻訳し、通貨を自動変換して世界中での売上を伸ばします。",
+            "ilana": "検索結果でレビュー、価格、ビジネスの詳細を強調表示してSEOトラフィックを最適化します。",
+            "shopify_flow": "Shopify Flowのローコードエディタを使用してストアをカスタマイズし、タスクを自動化します。"
+        },
+        "integrations_now": "今すぐ統合"
+    }
+}

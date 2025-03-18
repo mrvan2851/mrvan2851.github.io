@@ -1,0 +1,42 @@
+{
+    "title": "Importeer beoordelingen",
+    "subtitle": "De extensie stelt u in staat waardevolle beoordelingen van AliExpress te verzamelen",
+    "extension_installation": "Extensie installatie",
+    "page_primary_button": "Importinstellingen wijzigen",
+    "guild": {
+        "title": "Extensie installatie",
+        "subtitle": "Installeer onze extensie om beoordelingen van AliExpress te verzamelen",
+        "step": "<p>Installeer onze extensie om beoordelingen van AliExpress te verzamelen:</p><p>Klik op \"<strong>TrustShop extensie installeren</strong>\".</p><p>U wordt automatisch doorgestuurd naar de \"Chrome web store\". Klik op \"<strong>Toevoegen aan Chrome</strong>\".</p> <p>Volg de instructies om het installatieproces te voltooien.</p><p><strong>Vernieuw</strong> deze pagina en begin met het importeren van beoordelingen. </p>",
+        "btn_install_extension": "TrustShop extensie installeren",
+        "refresh_page": "Pagina vernieuwen"
+    },
+    "product": "Product",
+    "aliexpress_link": "AliExpress link",
+    "save_changes": "Wijzigingen opslaan",
+    "import": "Importeren",
+    "enter_aliexpress_link_here": "Voer hier de AliExpress link in",
+    "import_settings": "Importeer instellingen",
+    "change_product": "Product wijzigen",
+    "aliexpress_product_link": "AliExpress product link",
+    "enter_a_link": "Voer een link in",
+    "quantity": "Hoeveelheid",
+    "enter_a_quantity": "Voer een hoeveelheid in",
+    "content_option": "Inhoudsoptie",
+    "contain_photos": "Bevat foto's",
+    "conatain_videos": "Bevat video's",
+    "contain_review_content": "Bevat beoordelingsinhoud",
+    "customer_country": "Klantland",
+    "search_country": "Zoek land",
+    "all_countries": "Alle landen",
+    "date_range": "Datumreeks",
+    "filter_date": {
+        "today": "Vandaag",
+        "yesterday": "Gisteren",
+        "last_7_days": "Laatste 7 dagen",
+        "last_month": "Laatste maand",
+        "last_year": "Laatste jaar",
+        "all_times": "Alle tijden"
+    },
+    "banner_success": "We hebben recensies geïmporteerd voor",
+    "banner_error": "Er is een fout opgetreden bij het importeren van recensies"
+}

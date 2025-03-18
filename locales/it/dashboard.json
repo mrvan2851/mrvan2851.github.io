@@ -1,0 +1,109 @@
+{
+  "welcome_app" : {
+        "title": "Benvenuti alle recensioni dei prodotti"
+    },
+  "popup": {
+    "button": "Valutaci",
+    "content": "Il tuo feedback guida il miglioramento di TrustShop. Ci piacerebbe sapere come valuti la nostra app?",
+    "title": "La tua opinione è importante per noi!",
+    "modal_rate": {
+        "title": "Perché ti senti insoddisfatto di TrustShop?",
+        "option_1": {
+            "title": "Difficile da usare o configurare",
+            "content": "Ho trovato difficile utilizzare l'app quando:"
+        },
+        "option_2": "Non soddisfatto del supporto",
+        "option_3": {
+            "title": "Funzionalità limitate o mancanti",
+            "content": "L'app dovrebbe avere più funzionalità, come ad esempio:"
+        }
+    }
+  },
+  "setup_guide": {
+    "card_1": {
+      "content": "Mostra le recensioni sul tuo negozio online",
+      "title": "Aggiungi widget al negozio online"
+    },
+    "card_2": {
+      "button": "Configura email",
+      "content": "Personalizza l'orario in cui verranno inviate le email di richiesta e di ringraziamento",
+      "title": "Configura email di richiesta"
+    },
+    "card_3": {
+      "button": "Personalizza widget",
+      "content": "Personalizza il widget delle recensioni in base alle preferenze dei tuoi clienti",
+      "title": "Personalizza widget"
+    },
+    "card_4": {
+      "button": "Buono sconto",
+      "content": "Incentiva i clienti a lasciare una recensione offrendo uno sconto per il loro prossimo acquisto",
+      "title": "Buono sconto"
+    },
+    "title": "Guida alla configurazione"
+  },
+  "statistics": {
+    "all": "Tutto",
+    "all_reviews": "Tutte le recensioni",
+    "avg_star_rating": "平均星評価",
+    "title": "Le tue opinioni sulle recensioni"
+  },
+ "whats-new": {
+        "slide_1": {
+            "title": "🌍 Recensioni multilingua: connettiti con i clienti in tutto il mondo",
+            "date_time": "Aggiornato: 1 marzo 2025",
+            "content": {
+                "text" : "La star di questo aggiornamento è il nostro nuovo widget multilingua e la funzionalità di traduzione delle recensioni. Nel mercato globale odierno, le barriere linguistiche non dovrebbero limitare il potenziale del tuo negozio. Con TrustShop 2.8, i clienti possono ora tradurre le recensioni nella loro lingua madre con un solo clic."
+            },
+            "button": "Saperne di più"
+        },
+        "slide_2": {
+            "title": "Nuova raccolta di recensioni di codici QR",
+            "date_time": "Aggiornato: 6 febbraio 2025",
+            "content": {
+                "text" : "Un nuovo modo per raccogliere le recensioni dei clienti. Quando i clienti scansionano il codice QR, possono:",
+                "list": [
+                    "Guarda i prodotti che non hanno ancora recensito",
+                    "Invia nuove recensioni facilmente",
+                    "Visualizza le loro recensioni precedenti",
+                    "Tieni traccia dei codici sconto guadagnati"
+                ]
+            },
+            "button": "Saperne di più"
+        },
+        "slide_3": {
+            "title": "Personalizzazione avanzata dei modelli di posta elettronica",
+            "date_time": "Aggiornato: 6 febbraio 2025",
+            "content": {
+                "text": "Perfeziona la presentazione del tuo marchio con una personalizzazione avanzata delle e-mail:",
+                "list": [
+                    "Posizionamento flessibile del logo",
+                    "Dimensioni del logo personalizzabili",
+                    "Impostazioni di imbottitura regolabili",
+                    "Opzioni colore di sfondo"
+                ]
+            },
+            "button": "Saperne di più"
+        },
+        "slide_4": {
+            "title": "Gestione avanzata dell'elenco di annullamento dell'iscrizione",
+            "date_time": "Aggiornato: 11 gennaio 2025",
+            "content": {
+                "text": "Mantieni la comunicazione con i tuoi clienti pulita ed efficace con il nostro nuovo sistema di gestione delle cancellazioni. Traccia, analizza e gestisci con precisione i tuoi elenchi clienti"
+            },
+            "button": "Saperne di più"
+        },
+        "slide_5": {
+            "title": "Integrazione nativa dei dettagli del cliente Shopify",
+            "date_time": "Aggiornato: 11 gennaio 2025",
+            "content": {
+                "text": "Accedi alle recensioni dei clienti direttamente dalla pagina dei dettagli cliente di Shopify. Non dovrai più passare da una scheda all'altra: tutto ciò di cui hai bisogno è proprio dove ti serve!"
+            },
+            "button": "Saperne di più"
+        },
+        "title": "Cosa c'è di nuovo"
+    },
+  "popup_support" : {
+      "title": "Come possiamo aiutarti?",
+      "content": "Puoi accedere ai nostri ampi documenti di aiuto e il nostro team è sempre disponibile ad assisterti. Contattaci!"
+  }
+}

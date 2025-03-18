@@ -1,0 +1,184 @@
+{
+    "plan": {
+        "for_free": "無料",
+        "title": "プラン",
+        "free": "基本",
+        "basic": "スタンダード",
+        "pro": "エンタープライズ",
+        "unlimited": "究極",
+        "free_plan": "基本プラン",
+        "basic_plan": "スタンダードプラン",
+        "pro_plan": "エンタープライズプラン",
+        "unlimited_plan": "究極プラン"
+    },
+    "basic": "基本",
+    "fully": "完全に",
+    "per_month": "月額",
+    "plan_active": "{{plan}} が有効になりました",
+    "discount_offer_time": "次の{{time}}間",
+    "origin_price": "元の価格 ",
+    "order/month": "注文/月",
+    "request_reviews": "レビューリクエスト",
+    "upgrade_plan": "プランのアップグレード",
+    "select_plan": "{{plan}}を選択",
+    "start_free": "無料で始める",
+    "unlimited": "無制限",
+    "modal_pricing_title": "柔軟な料金でプレミアム機能をアンロック",
+    "best_choice": "ベストチョイス",
+    "coming_soon": "近日公開",
+    "process_bar": {
+        "title": "完了したメールの総数",
+        "subtitle": "このカウントは<strong>{{date}}</strong>に更新されます",
+        "order_count": "{{used}} / {{total}} 注文が完了しました"
+    },
+    "plan_table": {
+        "title": "料金プラン",
+        "subtitle": "ビジネスを成長させるためにカスタマイズされたサブスクリプションプランを見つけましょう！",
+        "start_trial": "{{day}}日間の無料トライアルを開始",
+        "current_plan": "現在のプラン",
+        "upgrade": "アップグレード",
+        "select_plan": "プランを選択",
+        "downgrade": "ダウングレード",
+        "pricing_card": {
+            "free": "初心者に最適な基本プランで必要な機能にアクセスできます。",
+            "basic": "個人向けの高度なツールとサポートをスタンダードプランで利用できます。",
+            "pro": "包括的なエンタープライズプランでビジネスを強化しましょう。",
+            "unlimited": "成長に限界はありません"
+        },
+        "modal_downgrade": {
+            "title": "強力な機能へのアクセスを失わないでください！",
+            "subtitle": "あなたのストアはプレミアム機能をいくつか使用しています。プランをダウングレードするには、それらを無効にしてください：",
+            "discount_voucher": "自動割引クーポン",
+            "customize_widget": "カスタマイズされたウィジェット",
+            "upload_video": "レビューを書くときの動画アップロード",
+            "review_testimonial": "証言",
+            "modal_all_image": "すべての画像設定モーダル",
+            "review_page": "すべてのレビューのページ",
+            "google_shopping": "Google ショッピング",
+            "global_display": "グローバル表示",
+            "custom_domain": "カスタムドメイン",
+            "qr_code": "QRコード管理",
+            "review_translation": "レビュー翻訳",
+            "multi_lang": "多言語ウィジェット",
+            "group_product": "グループ製品",
+            "ai_functionality": "AI機能",
+            "insights_and_segmentation": "洞察とセグメンテーション",
+            "review_detail_page": "レビュー詳細ページ",
+            "import_custom_csv": "カスタムCSVのインポート",
+            "protect_review": "レビューを保護する"
+        },
+        "primary_collapse": {
+            "title": "あなたのニーズに最適なプランを見つける",
+            "email_quota": "レビューリクエスト",
+            "email_quota_helptext": "当社は、レビューリクエストのメール送信回数ではなく、注文数に基づいてクォータを計算します。例えば、リクエスト、リマインダー、お礼の3通のメールを送信した場合でも、1回とカウントされます。",
+            "order_per_month": "月間注文数",
+            "discount_voucher": "割引クーポン",
+            "customize_widget": "カスタマイズされたウィジェット",
+            "upload_video": "レビュー動画",
+            "review_testimonial": "レビュー証言",
+            "modal_all_image": "すべての画像モーダル",
+            "review_page": "すべてのレビューのページ",
+            "google_shopping": "Google ショッピング",
+            "global_display": "グローバル表示",
+            "group_product": "グループ製品",
+            "custom_domain": "カスタムドメイン",
+            "qr_code": "QRコード管理",
+            "review_translation": "レビュー翻訳",
+            "multi_lang": "多言語ウィジェット",
+            "ai_functionality": "AI機能",
+            "insights_and_segmentation": "洞察とセグメンテーション",
+            "review_detail_page": "レビュー詳細ページ",
+            "import_custom_csv": "カスタムCSVのインポート",
+            "protect_review": "レビューを保護する"
+        },
+        "details_collapse": {
+            "title": "サブスクリプションプラン間のカスタムウィジェットを比較する",
+            "widgetBox": {
+                "title": "ウィジェットボックス (デフォルト)",
+                "choose_layout": "レイアウトを選択",
+                "summary_box": "サマリーボックス",
+                "color_scheme": "カラースキーム",
+                "information_display": "情報表示",
+                "content": "コンテンツ"
+            },
+            "widgetBoxNoReview": {
+                "title": "ウィジェットボックス (レビューなし)",
+                "content": "コンテンツ",
+                "color_scheme": "カラースキーム"
+            },
+            "modalReviewDetail": {
+                "title": "モーダルレビューの詳細",
+                "all_settings": "すべての設定"
+            },
+            "modal_all_image": {
+                "title": "すべての画像モーダル",
+                "all_settings": "すべての設定"
+            },
+            "formWriteReview": {
+                "title": "レビュー作成フォーム",
+                "review_with_video": "動画付きレビュー"
+            }
+        }
+    },
+    "free_banner": {
+        "title": "無料プランで必要な機能にアクセスできます。初心者に最適です。",
+        "email_quota_limit": "メールクォータ制限 {{limit}} 注文/月",
+        "basic_access": "レビューウィジェットへの基本アクセス",
+        "basic_edit_email": "リクエストメールの基本編集",
+        "upload_media": "レビュワーによる画像のみのアップロード",
+        "quick_chat": "クイックチャットサポート",
+        "visible_brand": "TrustShopブランドの表示"
+    },
+    "basic_banner": {
+        "everything_in_basic": "基本プランのすべて",
+        "email_quota": "メールクォータ制限 {{limit}} 注文/月",
+        "discount_voucher": "自動割引クーポン",
+        "customize_widget": "カスタマイズされたウィジェット",
+        "upload_video": "レビューを書くときの動画アップロード",
+        "review_testimonial": "証言",
+        "modal_all_image": "すべての画像設定モーダル",
+        "review_page": "すべてのレビューのページ",
+        "google_shopping": "Google ショッピング",
+        "global_display": "グローバル表示",
+        "group_product": "グループ製品",
+        "custom_domain": "カスタムドメイン",
+        "qr_code": "QRコード管理",
+        "review_translation": "レビュー翻訳",
+        "multi_lang": "多言語ウィジェット",
+        "ai_functionality": "AI機能",
+        "insights_and_segmentation": "洞察とセグメンテーション",
+        "review_detail_page": "レビュー詳細ページ",
+        "import_custom_csv": "カスタムCSVのインポート",
+        "protect_review": "レビューを保護する"
+    },
+    "frequency_ask": {
+        "title": "よくある質問",
+        "list_questions": {
+            "1": {
+                "title": "レビューリクエストのクォータはどのように計算されますか？",
+                "subtitle": "クォータは注文数に基づいて計算されます。Request Reviews、Review Reminder、Thank Youの3種類のメールをすべて有効にした場合でも、1つのクォータが1つの注文に対してカウントされます。"
+            },
+            "2": {
+                "title": "TrustShopを介してレビューリクエストを送信しない場合、クォータは使用されますか？",
+                "subtitle": "いいえ、クォータはTrustShopのレビューリクエスト機能を利用した場合にのみ差し引かれます。この機能を使用しない場合、クォータは影響を受けません。"
+            },
+            "3": {
+                "title": "プランをダウングレードすることはできますか？",
+                "subtitle": "はい、有料の機能が必要なくなった場合はいつでもプランをダウングレードすることができます。ただし、ダウングレードする前にすべての有料機能を無効にすることを忘れないでください。サポートチームが常にお手伝いいたしますので、お困りの場合はお気軽にお問い合わせください。"
+            },
+            "4": {
+                "title": "トライアル期間中に料金が発生しますか？",
+                "subtitle": "いいえ、トライアル期間中には料金は発生しません。料金はトライアル期間が終了した後にのみ発生します。"
+            }
+        }
+    },
+    "modal_charge_success": {
+        "title": "{{plan}} メンバーになりました！",
+        "content": "プレミアムサブスクリプションを選んでいただきありがとうございます！独占的な特典と高レベルのサポートをお楽しみください。この旅を特別なものにしましょう。"
+    },
+    "special_offer": {
+        "title": "特別オファー：私たちと一緒にいるための30％オフ！",
+        "content": "サポートへの感謝の気持ちを込めて、次の2ヶ月間のサブスクリプションプランに対して特別な<1>30％割引</1>を提供しています。貴重なお客様でいてくれてありがとうございます！",
+        "remain_time": "オファーの残り時間："
+    }
+}

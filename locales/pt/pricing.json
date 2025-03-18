@@ -1,0 +1,184 @@
+{
+    "plan": {
+        "for_free": "Grátis",
+        "title": "Plano",
+        "free": "Gratuito",
+        "basic": "Padrão",
+        "pro": "Empresarial",
+        "unlimited": "Ilimitado",
+        "free_plan": "Plano Gratuito",
+        "basic_plan": "Plano Padrão",
+        "pro_plan": "Plano Empresarial",
+        "unlimited_plan": "Plano Ilimitado"
+    },
+    "basic": "Básico",
+    "fully": "Totalmente",
+    "per_month": "por mês",
+    "plan_active": "{{plan}} ativado",
+    "discount_offer_time": "pelos próximos {{time}}",
+    "origin_price": "Preço original ",
+    "order/month": "pedidos/mês",
+    "request_reviews": "Solicitar avaliação",
+    "upgrade_plan": "Atualizar plano",
+    "select_plan": "Selecionar {{plan}}",
+    "start_free": "Comece grátis",
+    "unlimited": "Ilimitado",
+    "modal_pricing_title": "Desbloqueie Recursos Premium com Nossa Precificação Flexível",
+    "best_choice": "Melhor escolha",
+    "coming_soon": "Em Breve",
+    "process_bar": {
+        "title": "Total de e-mails concluídos",
+        "subtitle": "Esta contagem será atualizada em <strong>{{date}}</strong>",
+        "order_count": "{{used}} de {{total}} pedidos concluídos"
+    },
+    "plan_table": {
+        "title": "Planos de Preços",
+        "subtitle": "Descubra planos de assinatura personalizados projetados para elevar o seu negócio!",
+        "start_trial": "Inicie a avaliação gratuita de {{day}} dias",
+        "current_plan": "Plano atual",
+        "upgrade": "Atualizar",
+        "select_plan": "Selecionar plano",
+        "downgrade": "Rebaixar",
+        "pricing_card": {
+            "free": "Acesse funcionalidades essenciais com o nosso Plano Gratuito, perfeito para iniciantes.",
+            "basic": "Obtenha ferramentas e suporte avançados com o Plano Padrão para indivíduos",
+            "pro": "Potencie sua empresa com nosso Plano Empresarial completo",
+            "unlimited": "Crescimento ilimitado"
+        },
+        "modal_downgrade": {
+            "title": "Não Perda o Acesso a Recursos Poderosos!",
+            "subtitle": "Sua loja está usando alguns recursos premium. Desative-os para rebaixar seu plano:",
+            "discount_voucher": "Voucher de desconto automático",
+            "customize_widget": "Widget personalizado",
+            "upload_video": "Upload de vídeos ao escrever uma avaliação",
+            "review_testimonial": "Testemunho",
+            "modal_all_image": "Configuração de todas as imagens do modal",
+            "review_page": "Página de todas as avaliações",
+            "google_shopping": "Google Shopping",
+            "global_display": "Exibição global",
+            "group_product": "Agrupar produtos",
+            "custom_domain": "Domínio personalizado",
+            "qr_code": "Gestão de códigos QR",
+            "review_translation": "Tradução de avaliações",
+            "multi_lang": "Widget multilíngue",
+            "ai_functionality": "Funcionalidade de IA",
+            "insights_and_segmentation": "Informações e segmentação",
+            "review_detail_page": "Página de detalhes de avaliações",
+            "import_custom_csv": "Importar CSV personalizado",
+            "protect_review": "Proteger avaliação"
+        },
+        "primary_collapse": {
+            "title": "Descubra o Melhor Plano para Suas Necessidades",
+            "email_quota": "Solicitar avaliação",
+            "email_quota_helptext": "Calculamos sua cota com base no número de pedidos, não no número de e-mails de solicitação de avaliação enviados. Por exemplo, se você enviar três e-mails (solicitação, lembrete e agradecimento), ainda será contado como um.",
+            "order_per_month": "Total de pedidos/mês",
+            "discount_voucher": "Voucher de desconto",
+            "customize_widget": "Widget personalizado",
+            "upload_video": "Vídeos de avaliação",
+            "review_testimonial": "Testemunho de avaliação",
+            "modal_all_image": "Todas as imagens do modal",
+            "review_page": "Página de todas as avaliações",
+            "google_shopping": "Google Shopping",
+            "global_display": "Exibição global",
+            "group_product": "Agrupar produtos",
+            "custom_domain": "Domínio personalizado",
+            "qr_code": "Gestão de códigos QR",
+            "review_translation": "Tradução de avaliações",
+            "multi_lang": "Widget multilíngue",
+            "ai_functionality": "Funcionalidade de IA",
+            "insights_and_segmentation": "Informações e segmentação",
+            "review_detail_page": "Página de detalhes de avaliações",
+            "import_custom_csv": "Importar CSV personalizado",
+            "protect_review": "Proteger avaliação"
+        },
+        "details_collapse": {
+            "title": "Compare o widget personalizado entre planos de assinatura",
+            "widgetBox": {
+                "title": "Caixa de widget (padrão)",
+                "choose_layout": "Escolher Layout",
+                "summary_box": "Caixa de Resumo",
+                "color_scheme": "Esquema de Cores",
+                "information_display": "Exibição de Informações",
+                "content": "Conteúdo"
+            },
+            "widgetBoxNoReview": {
+                "title": "Caixa de widget (sem avaliações)",
+                "content": "Conteúdo",
+                "color_scheme": "Esquema de Cores"
+            },
+            "modalReviewDetail": {
+                "title": "Detalhes do Modal de Avaliação",
+                "all_settings": "Todas as configurações"
+            },
+            "modal_all_image": {
+                "title": "Todas as imagens do Modal",
+                "all_settings": "Todas as configurações"
+            },
+            "formWriteReview": {
+                "title": "Formulário de escrever avaliações",
+                "review_with_video": "Avaliação com vídeo"
+            }
+        }
+    },
+    "free_banner": {
+        "title": "Acesse recursos essenciais com nosso Plano Gratuito, perfeito para iniciantes.",
+        "email_quota_limit": "Limite de cota de e-mail {{limit}} pedidos/mês",
+        "basic_access": "Acesso básico ao widget de avaliações",
+        "basic_edit_email": "Edição básica de e-mail de solicitação",
+        "upload_media": "Apenas upload de imagem por avaliadores",
+        "quick_chat": "Suporte de chat rápido",
+        "visible_brand": "Marca TrustShop visível"
+    },
+    "basic_banner": {
+        "everything_in_basic": "Tudo no plano Básico",
+        "email_quota": "Limite de cota de e-mail {{limit}} pedidos/mês",
+        "discount_voucher": "Voucher de desconto automático",
+        "customize_widget": "Widget personalizado",
+        "upload_video": "Upload de vídeos ao escrever uma avaliação",
+        "review_testimonial": "Testemunho",
+        "modal_all_image": "Configuração de todas as imagens do modal",
+        "review_page": "Página de todas as avaliações",
+        "google_shopping": "Google Shopping",
+        "global_display": "Exibição global",
+        "group_product": "Agrupar produtos",
+        "custom_domain": "Domínio personalizado",
+        "qr_code": "Gestão de códigos QR",
+        "review_translation": "Tradução de avaliações",
+        "multi_lang": "Widget multilíngue",
+        "ai_functionality": "Funcionalidade de IA",
+        "insights_and_segmentation": "Informações e segmentação",
+        "review_detail_page": "Página de detalhes de avaliações",
+        "import_custom_csv": "Importar CSV personalizado",
+        "protect_review": "Proteger avaliação"
+    },
+    "frequency_ask": {
+        "title": "Perguntas frequentes",
+        "list_questions": {
+            "1": {
+                "title": "Como é calculada a cota de solicitação de avaliações?",
+                "subtitle": "A cota é baseada no número de pedidos. Se você habilitar os três tipos de e-mails - Solicitar Avaliações, Lembrete de Avaliação e Agradecimento. Apenas uma cota será contada por pedido."
+            },
+            "2": {
+                "title": "Minha cota será utilizada se eu não enviar solicitações de avaliação através do TrustShop?",
+                "subtitle": "Não, sua cota só será deduzida se você utilizar o recurso de solicitação de avaliação do TrustShop. Se você não usar esse recurso, sua cota não será afetada."
+            },
+            "3": {
+                "title": "Posso rebaixar meu plano?",
+                "subtitle": "Sim, você pode rebaixar seu plano a qualquer momento se não precisar mais dos recursos pagos. Apenas certifique-se de desabilitar todos os recursos pagos antes de rebaixar. Se precisar de ajuda, nossa equipe de suporte está sempre aqui para ajudar."
+            },
+            "4": {
+                "title": "Serei cobrado durante o período de avaliação?",
+                "subtitle": "Não, você não será cobrado durante o período de avaliação. As cobranças só começarão após o término do período de avaliação."
+            }
+        }
+    },
+    "modal_charge_success": {
+        "title": "Você agora é um membro {{plan}}!",
+        "content": "Obrigado por escolher nossa assinatura premium! Prepare-se para benefícios exclusivos e suporte de alta qualidade. Vamos tornar essa jornada extraordinária."
+    },
+    "special_offer": {
+        "title": "Oferta Especial: 30% de Desconto por Estar Conosco!",
+        "content": "Para mostrar nosso apreço pelo seu apoio, estamos oferecendo um <1>desconto especial de 30%</1> em qualquer plano de assinatura pelos próximos dois meses. Obrigado por ser um cliente valorizado!",
+        "remain_time": "Tempo restante para a oferta:"
+    }
+}

@@ -1,0 +1,90 @@
+{
+    "toast": {
+        "email": {
+            "update_success": "E-mail succesvol bijgewerkt",
+            "invalid_email": "Ongeldige e-mail!",
+            "failed": "E-mail verzenden mislukt",
+            "failed_reason": "E-mail verzenden mislukt",
+            "get_campain_fail": "Ophalen mislukt.",
+            "get_campaign_failed": "Campagne ophalen mislukt",
+            "get_queue_failed": "Ophalen wachtrij mislukt",
+            "require_title": "Om deze e-mail te activeren, moet 1 wijziging worden aangebracht:",
+            "require": "Je moet een trigger voor het aanvragen van een recensie activeren",
+            "success": "Succesvol verzonden",
+            "empty": "Sommige velden zijn leeg, vul ze in of verwijder ze voordat je opslaat.",
+            "send_again_success": "E-mail is ingepland"
+        },
+        "failed": "Mislukt!",
+        "get_status_fail": "Informatie ophalen mislukt.",
+        "onboarding": {
+            "reload": "Mislukt! Probeer het opnieuw",
+            "skip_enable_app_embed": "App insluiten overslaan?",
+            "skip_enable_app_embed_notice": "Door de app-insluiting in te schakelen, kun je de widget in je winkel weergeven. Als je dat wilt, kun je deze stap overslaan en later de insluiting inschakelen in de instellingen.",
+            "skip_add_block_title": "Widget toevoegen overslaan?",
+            "skip_add_block_notice": "Door de widget toe te voegen, wordt je recensie in je winkel weergegeven. Als je dat wilt, kun je deze stap overslaan en de widget later in de instellingen toevoegen.",
+            "enable_app_embed": "Script succesvol ingeschakeld",
+            "add_app_block_success": "Widget succesvol toegevoegd"
+        },
+        "publish_fail": "Publiceren mislukt.",
+        "reply_fail": "Antwoorden mislukt.",
+        "review": {
+            "delete_photo_fail": "Foto verwijderen mislukt.",
+            "delete_reply_fail": "Antwoord verwijderen mislukt.",
+            "get_review_fail": "Recensies ophalen mislukt.",
+            "publish_fail": "Publiceren mislukt.",
+            "reject_fail": "Afwijzen mislukt."
+        },
+        "saved": "Opgeslagen",
+        "server_error_title": "Serverfout",
+        "server_error": "Er is iets misgegaan. Probeer het later opnieuw",
+        "setting": {
+            "validate_fail": "Sommige velden zijn ongeldig."
+        },
+        "widget": {
+            "missing_shopify_code": "Je moet een Shopify-code invoeren in het tekstveld",
+            "review_filter_null": "Het recensiefilterveld moet ten minste één item bevatten"
+        },
+        "import_review": {
+            "success": "Succesvol geïmporteerd"
+        },
+        "add_widget_v1_confirm": "Bedankt voor de bevestiging",
+        "export_review": {
+            "success": "Exporteren in behandeling, het exportbestand wordt naar je e-mail gestuurd op {{email}}",
+            "failed": "Exportfout, neem contact met ons op voor ondersteuning"
+        },
+        "delete_review": {
+            "success": "Succesvol verwijderd",
+            "failed": "Verwijderfout."
+        },
+        "group_product": {
+            "at_least_2_product": "Selecteer ten minste 2 producten",
+            "create_success": "Groep succesvol aangemaakt",
+            "delete_success": "Groep {{name}} succesvol verwijderd",
+            "update_success": "Groep succesvol bijgewerkt",
+            "add_product_success": "Product succesvol toegevoegd",
+            "delete_product_success": "Product succesvol verwijderd"
+        },
+        "delete_failed": "Verwijderen mislukt.",
+        "add_failed": "Toevoegen mislukt",
+        "update_failed": "Bijwerken mislukt"
+    },
+    "validate": {
+        "empty_input": "Vul dit veld in!",
+        "greater_than_0": "Waarde moet groter zijn dan 0!",
+        "smaller_than_100": "Waarde mag niet groter zijn dan 100!",
+        "invalid_email": "Ongeldige e-mail!",
+        "invalid_url": "Ongeldige URL!",
+        "word_not_allow": "Niet toegestaan!",
+        "this_field_required": "Dit veld is verplicht!",
+        "invalid_quantity": "Hoeveelheid moet een nummer zijn tussen 5 en 200!",
+        "quantity_review_per_page": "Hoeveelheid moet tussen 1 en 10 liggen!",
+        "quantity": "Maximaal aantal recensies is 200",
+        "import_review": {
+            "fail": "Importeren mislukt. Probeer het opnieuw",
+            "size": "Bestand overschrijdt de maximale grootte (5MB)",
+            "type": "Bestandstype is ongeldig"
+        },
+        "limit_email_send_test": "Wacht 90 seconden om de volgende e-mail te verzenden!",
+        "email_exist": "E-mail bestaat al!"
+    }
+}

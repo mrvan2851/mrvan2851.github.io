@@ -1,0 +1,518 @@
+{
+    "limit_function": {
+        "widget_limit": "Deze functie is alleen beschikbaar in de Standaard- en Enterprise-plannen. Upgrade uw plan om toegang te krijgen tot deze functie.",
+        "setting_function_limit": {
+            "badge": "Vanaf {{plan}}",
+            "content": "Upgrade uw plan om deze functie aan te passen."
+        }
+    },
+    "list_widget": {
+        "review_display": "Beoordelingsweergave",
+        "review_display_description": "Toon alle klantbeoordelingen, waardoor inzicht wordt gegeven in gebruikerservaringen met het product.",
+        "review_testimonial": "Beoordelingstestimonial",
+        "review_testimonial_description": "Markeer topbeoordelingen in een roterend carrouselformaat om de aandacht te vestigen op opvallende feedback.",
+        "review_onepage": "Beoordelingspagina",
+        "review_onepage_description": "Een pagina waarop alle klantbeoordelingen worden weergegeven, zodat ervaringen gemakkelijk kunnen worden doorgebladerd.",
+        "product_rating": "Productbeoordeling",
+        "product_rating_description": "Toon de algemene beoordeling van het product op basis van een 5-sterrenschaal.",
+        "global_setting": "Globale instelling",
+        "global_setting_description": "Hiermee kunnen gebruikers elementen beheren. Alle wijzigingen worden toegepast op alle widgets."
+    },
+    "discount_voucher": {
+        "title": "Kortingsbon",
+        "sub_title": "Stimuleer klanten om een beoordeling achter te laten door korting aan te bieden voor hun volgende aankoop",
+        "preview": "Voorbeeld",
+        "toggle_discount_voucher": "Korting inschakelen",
+        "save_btn": "Opslaan",
+        "coupon_shopify": {
+            "title": "Shopify Coupon",
+            "sub_title": "Shopify kortingscode",
+            "no_code": "Je hebt nog geen code ingesteld.",
+            "off_example": "Dit is een voorbeeld voor de volgende regel (niet vertalen): 80% KORTING",
+            "off": "KORTING",
+            "check_discount_button": "Korting controleren",
+            "check_success": "Kortingen beschikbaar",
+            "check_fail": "Korting bestaat niet, bekijk hier hoe je een korting kunt krijgen <1>hier</1>."
+        },
+        "coupon_auto": {
+            "title": "Automatische korting",
+            "review_for_photo": "Beoordeling voor foto",
+            "discount_code": "Automatische kortingscode",
+            "discount_for_review_only_content": "Korting voor alle beoordelingen",
+            "discount_for_review_photos": "Korting voor beoordelingen met foto's",
+            "discount_for_review_videos": "Korting voor beoordelingen met video",
+            "discount_expire_after": "Korting verloopt na"
+        },
+        "tabs": {
+            "email_before": "E-mail voor",
+            "email_after": "E-mail na"
+        },
+        "coupon_design": {
+            "title": "Coupon ontwerp",
+            "voucher_color": "Voucher kleur",
+            "text_color": "Tekstkleur",
+            "button_color": "Knopkleur",
+            "button_text_color": "Knop tekstkleur"
+        },
+        "general": {
+            "choose_your_design_template": "Kies je ontwerpsjabloon",
+            "template": "Sjabloon",
+            "coupon_message": "Coupon bericht",
+            "call_to_action_button_content": "Call-to-action knop inhoud"
+        },
+        "voucher_setting": {
+            "title": "Kortingsbon en product",
+            "icon": "Icoon",
+            "icon_and_highlight": "Icoon & Highlight Tekstkleur korting",
+            "message": "Bericht",
+            "button_title": "Knop titel",
+            "button_label": "Knop label",
+            "button_background": "Knop achtergrond",
+            "message_background": "Bericht achtergrond"
+        },
+        "set_up_discount": "Korting instellen",
+        "display_discount": "Korting weergeven",
+        "review_request": "Beoordelingsverzoek",
+        "review_request_description": "Personaliseer beoordelingsverzoek-e-mails met een aangepast pictogram, kleuren en een op maat gemaakte call-to-action boodschap.",
+        "thank_email": "Bedank-e-mail",
+        "thank_email_description": "Pas bedank-e-mails aan met aangepaste kortingscode stijlen en berichten nadat klanten een beoordeling hebben achtergelaten.",
+        "submitted_review_popup": "Ingediende beoordeling popup",
+        "submitted_review_popup_description": "Toon een bedank-popup na aankoop, waarin klanten een kortingscode voor hun volgende bestelling wordt getoond.",
+        "type_discount_code_after_review_label": "Klanten ontvangen kortingscodes wanneer ze recensies schrijven voor:",
+        "type_discount_code_after_review_value": {
+            "order": "Bestelling - Één kortingscode per bestelling",
+            "product": "Product - Één kortingscode per product"
+        }
+    },
+    "product_rating": {
+        "product_rating": "Productpagina",
+        "collection_rating": "Collectiepagina",
+        "hide_rating_when_empty": "Verberg sterbeoordeling wanneer er geen beoordelingen zijn",
+        "review_information": {
+            "title": "Beoordelingsinformatie",
+            "show_total_reviews": "Toon het totaal aantal beoordelingen",
+            "show_avg_rating": "Toon de gemiddelde beoordeling"
+        },
+        "widget_style": {
+            "title": "Widgetstijl",
+            "full_5_star": "(Volledige 5 sterren)",
+            "1_star": "(1 ster)"
+        },
+        "text_before": "Tekst ervoor",
+        "text_after": "Tekst erna",
+        "font_size": {
+            "title": "Lettergrootte",
+            "star_size": "Stericoon grootte",
+            "text_avg_rating": "Gemiddelde beoordeling",
+            "text_total_rating": "Totaal aantal beoordelingen"
+        },
+        "language": {
+            "title": "Taal",
+            "label_rating": "Beoordelingslabel",
+            "label_rating_helptext": "Wanneer er slechts één beoordeling is",
+            "label_ratings": "Beoordelingslabels",
+            "label_ratings_helptext": "Wanneer er meerdere beoordelingen zijn"
+        },
+        "modal_add_rating_manually": {
+            "rating_title": "Handmatig sterbeoordeling toevoegen",
+            "widget_title": "Handmatig widget toevoegen",
+            "guild_rating": "Kopieer de onderstaande code en plak deze in de specifieke secties waar je de sterbeoordeling wilt weergeven. <1>Meer informatie</1>",
+            "guild_widget": "Kopieer de onderstaande code en plak deze in de specifieke secties waar je de widget wilt weergeven. <1>Meer informatie</1>",
+            "guild_onepage": "Bekijk de tutorial over hoe je een beoordelingspagina maakt <1>hier</1>.<br /> Als je hulp nodig hebt, neem dan contact met ons op via e-mail: support@trustshop.io.",
+            "collection_title": "Collectiebeoordeling toevoegen",
+            "onepage_title": "Beoordelingspagina toevoegen",
+            "testimonial_title": "Getuigenis toevoegen",
+            "guild_collection": "Kopieer de onderstaande code en plak deze in de specifieke secties waar je de collectiebeoordeling wilt weergeven. <1>Meer informatie</1>"
+        },
+        "custom_color": {
+            "title": "Aangepaste kleur",
+            "star_icon": "Stericoon",
+            "star_icon_empty": "Stericoon (leeg)",
+            "avg_rating": "Gemiddelde beoordeling",
+            "total_number_of_reviews": "Totaal aantal beoordelingen"
+        }
+    },
+    "review_display": {
+        "widget_area": "Widgetgebied",
+        "choose_layout": {
+            "title": "Kies lay-out",
+            "list": "Lijst",
+            "grid": "Raster"
+        },
+        "summary_box": {
+            "title": "Samenvattingsbox",
+            "left": "Links",
+            "top": "Boven"
+        },
+        "color_schema": {
+            "title": "Kleurschema",
+            "custom_color_schemes": "Aangepaste kleurenschema's",
+            "primary_color": "Primaire kleur",
+            "secondary_color": "Secundaire kleur",
+            "title_text_color": "Titeltekst",
+            "all_photos_button_color": "Alle foto's knop",
+            "primary_text_color": "Primaire tekst",
+            "secondary_text_color": "Secundaire tekst",
+            "star_icon": "Ster icoon",
+            "border": "Rand",
+            "filter_sort_background": "Filter-sort achtergrond",
+            "filter_sort_text": "Filter-sort tekst",
+            "rating_process_color": "Beoordelingsproces",
+            "rating_process_empty_color": "Leeg beoordelingsproces",
+            "users_name": "Gebruikersnaam",
+            "loadmore_color": "Meer laden",
+            "bg_base_color": "Widget achtergrond",
+            "slide_button": "Schuifknop",
+            "slide_arrow": "Schuifpijl",
+            "modal_all_medias_headline_title": "Koptekst titel",
+            "modal_all_medias_filter_label": "Filterlabel",
+            "modal_all_medias_filter_background": "Filter achtergrond",
+            "modal_all_medias_selected_filter_label": "Geselecteerd - Filterlabel",
+            "modal_all_medias_selected_filter_background": "Geselecteerd - Filter achtergrond",
+            "modal_all_medias_star_icon": "Ster",
+            "modal_all_medias_rating_background": "Beoordelingsachtergrond",
+            "modal_all_medias_item_border": "Rand geselecteerd media-item",
+            "modal_all_medias_navigate_button": "Navigatieknop",
+            "modal_all_medias_navigate_arrow": "Navigatiepijl",
+            "modal_all_medias_review_customer_name": "Naam klant",
+            "modal_all_medias_review_time": "Beoordelingstijd",
+            "modal_all_medias_review_star": "Beoordelingsster",
+            "modal_all_medias_review_star_disable": "Standaard beoordelingsster",
+            "modal_all_medias_review_title": "Beoordelingstitel",
+            "modal_all_medias_review_content": "Beoordelingsinhoud",
+            "modal_all_medias_review_media_background": "Achtergrond beoordeling media",
+            "modal_all_medias_review_background": "Beoordelingsachtergrond",
+            "modal_all_medias_card_background": "Kaart achtergrond",
+            "modal_all_medias_close_button": "Sluitknop achtergrond",
+            "modal_all_medias_close_icon": "Sluit icoon",
+            "modal_detail_customer_name": "Naam klant",
+            "modal_detail_review_time_title": "Beoordelingstijd titel",
+            "modal_detail_review_star": "Ster",
+            "modal_detail_review_star_default": "Standaard ster",
+            "modal_detail_review_star_field_background": "Sterveld achtergrond",
+            "modal_detail_review_title": "Beoordelingstitel",
+            "modal_detail_review_content": "Beoordelingsinhoud",
+            "modal_detail_navigator_button": "Navigatieknop",
+            "modal_detail_navigator_arrow": "Navigatiepijl",
+            "modal_detail_purchased_item": "Aangekocht item",
+            "modal_detail_product_name": "Productnaam",
+            "modal_detail_product_price": "Productprijs",
+            "modal_detail_icon_title": "Icoontitel",
+            "modal_detail_selected_icon": "Geselecteerd icoon",
+            "modal_detail_icon_background": "Icoon achtergrond",
+            "modal_detail_divider": "Verdeler",
+            "modal_detail_card_background": "Kaart achtergrond",
+            "modal_detail_close_button": "Sluitknop achtergrond",
+            "modal_detail_close_icon": "Sluit icoon",
+            "form_write_review_star_color": "Ster icoon kleur",
+            "reset_to_default_title": "Kleurenschema’s terugzetten naar standaard?",
+            "reset_to_default_content": "Wijzigingen die je hebt gemaakt worden mogelijk niet opgeslagen",
+            "page_background_color": "Pagina achtergrond",
+            "star_icon_color": "Ster icoon kleur",
+            "line_color": "Rand",
+            "user_name_color": "Gebruikersnaam kleur",
+            "load_more_color": "Meer laden",
+            "product_background_color": "Product achtergrond",
+            "product_text_color": "Producttekst",
+            "reply_title_color": "Antwoordtitel",
+            "reply_content_color": "Antwoordinhoud",
+            "reply_background_color": "Antwoord achtergrond"
+        },
+        "information_display": {
+            "title": "Informatieweergave",
+            "write_a_reivew_button": "Schrijf een beoordeling knop",
+            "review_date": "Beoordelingsdatum",
+            "button_report": "Rapporteer knop",
+            "button_helpful": "Nuttig knop",
+            "customer_information": {
+                "title": "Klantinformatie",
+                "customer_profile_picture": "Toon klantavatar",
+                "customer_country_flag": "Toon klantlandvlag"
+            },
+            "review_filter": "Beoordelingsfilter",
+            "review_per_page": "Beoordelingen per pagina",
+            "summary": "Samenvatting",
+            "number_of_review": "Aantal beoordelingen",
+            "divider": "Scheidingsteken",
+            "text_1": "Kop",
+            "text_2": "Subkop",
+            "show_review_media": "Toon beoordelingsmedia",
+            "image_gallery": "Afbeeldingengalerij",
+            "star_rating": "Sterbeoordeling",
+            "customer_name_display": "Weergave klantnaam",
+            "anonymous": "Anoniem",
+            "reviewer_selects": "Beoordelaar selecteert",
+            "number_of_reviews": "Aantal beoordelingen",
+            "form_write_review": {
+                "show_product_image": "Productafbeelding tonen",
+                "show_add_photo_btn": "Knop Foto toevoegen tonen",
+                "show_add_video_btn": "Knop Video toevoegen tonen",
+                "required_review_title": "Beoordelingstitel vereist",
+                "hide_review_title": "Beoordelingstitel verbergen"
+            }
+        },
+        "card_content": {
+            "title": "Kaartinhoud",
+            "show_review_media": "Toon beoordelingsmedia",
+            "show_review_time": "Toon beoordelingstijd",
+            "show_purchase_items": "Toon aankoopitems",
+            "show_star_rating": "Toon sterbeoordeling",
+            "show_helpful_button": "Toon nuttige knop",
+            "image_per_row": "Afbeelding per rij",
+            "filter": "Filter",
+            "gallery_filter": "Galerijfilter",
+            "star_size_helptext": "In de demo is de grootte de helft van de werkelijke grootte"
+        },
+        "content": {
+            "title": "Inhoud",
+            "widget_language": "Widgettaal",
+            "header_widget": {
+                "title": "Widgetheader",
+                "customer_review_title": "Titel klantbeoordeling",
+                "review_submit": "Beoordeling indienen",
+                "write_review_button": "Schrijf een beoordeling knop",
+                "review_with_comments": "Beoordeling met opmerkingen",
+                "text_total_reviews": "Tekst totale beoordelingen"
+            },
+            "label_of_filter": {
+                "title": "Label van filter",
+                "all": "Alle",
+                "most_helpful": "Meest nuttig",
+                "highest_rating": "Hoogste beoordeling",
+                "lowest_rating": "Laagste beoordeling",
+                "oldest": "Oudste",
+                "newest": "Nieuwste",
+                "review_with_photos": "Beoordeling met foto's",
+                "stars_filter": "Sterrenfilter (1-5)"
+            },
+            "content_review": {
+                "title": "Beoordelingsinhoud",
+                "text_review_on": "Tekst beoordeling op",
+                "text_helpful": "Tekst nuttig",
+                "button_loadmore_review": "Meer laden knop beoordeling"
+            },
+            "modal_write_review": {
+                "title": "Modaal beoordeling schrijven",
+                "modal_write_review_title": "Modaal beoordeling schrijven titel",
+                "text_write_reviews": "Tekst beoordelingen schrijven",
+                "text_click_to_rate": "Tekst klik om te beoordelen",
+                "label_customer_name": "Label klantnaam",
+                "placeholder_customer_name": "Plaatsaanduiding klantnaam",
+                "label_customer_email": "Label klant e-mail",
+                "placeholder_customer_email": "Plaatsaanduiding klant e-mail",
+                "label_review_title": "Label beoordelingstitel",
+                "placeholder_review_title": "Plaatsaanduiding beoordelingstitel",
+                "label_review_content": "Label beoordelingsinhoud",
+                "placeholder_review_content": "Plaatsaanduiding beoordelingsinhoud",
+                "label_characters_remaining": "Label resterende tekens",
+                "button_add_photo_text": "Knop foto toevoegen tekst",
+                "button_back": "Knop terug",
+                "button_submit": "Knop indienen"
+            },
+            "validate_message_label": {
+                "title": "Valideringsbericht label",
+                "input": "Invoer",
+                "email": "E-mail",
+                "image_upload_fail": "Afbeelding uploaden mislukt",
+                "image_upload_size": "Afbeelding uploaden grootte ( <10MB )",
+                "image_upload_type": "Afbeelding uploaden type (.bmp, .jpeg of .png)"
+            },
+            "modal_image": {
+                "title": "Modaal afbeelding",
+                "review_for": "Beoordeling voor",
+                "image_from_this_review": "Afbeelding van deze beoordeling"
+            },
+            "modal_report": {
+                "title": "Modaal rapport"
+            }
+        },
+        "tabs": {
+            "default": "Standaard",
+            "no_reviews": "Geen beoordelingen",
+            "modal": {
+                "all_medias": "Alle media",
+                "review_detail": "Beoordelingsdetail",
+                "form_write_review": "Formulier Schrijf beoordeling",
+                "popup_after_review": {
+                    "success": "Popup na beoordeling - succes",
+                    "pending": "Popup na beoordeling - in afwachting"
+                }
+            }
+        },
+        "no_reviews": {
+            "section_title": "Sectietitel",
+            "section_border": "Sectierand",
+            "show_border": "Rand tonen",
+            "title": "Geen beoordeling",
+            "text_no_reviews": "Tekst geen beoordelingen",
+            "call_to_action": "Call to action",
+            "call_to_action_color": "Call-to-action kleur",
+            "call_to_action_text_color": "Call-to-action tekstkleur",
+            "border_color": "Randkleur",
+            "section_title_color": "Sectietitel kleur",
+            "text_no_review_color": "Tekst geen beoordelingen kleur",
+            "page_no_review_star_color": "Sterkleur"
+        },
+        "popup_submitted_review": {
+            "layout": {
+                "title": "Lay-out",
+                "default": "Standaard",
+                "without_media": "Reviewkaart - zonder media",
+                "disable": "Reviewkaart uitschakelen"
+            },
+            "title": {
+                "title": "Titel",
+                "headline_label": "Koptekstlabel",
+                "content_label": "Inhoudlabel",
+                "button_label": "Knoplabel"
+            },
+            "color_schema": {
+                "title": "Kleurenpalet",
+                "popup_background": "Popup achtergrond",
+                "popup_icon": "Popup icoon",
+                "popup_headline": "Popup koptekst",
+                "popup_content": "Popup inhoud",
+                "product_name": "Productnaam",
+                "product_price": "Productprijs",
+                "review_card_background": "Reviewkaart achtergrond",
+                "review_card_title": "Reviewkaart titel",
+                "review_card_content": "Reviewkaart inhoud",
+                "review_card_border": "Reviewkaart rand",
+                "star_active": "Ster - actief",
+                "star_disable": "Ster - uitgeschakeld",
+                "customer_name": "Klantnaam",
+                "customer_email": "Klant e-mail",
+                "button_border": "Knop - rand",
+                "button_background": "Knop - achtergrond",
+                "button_title": "Knop titel"
+            }
+        }
+    },
+    "review_testimonial": {
+        "choose_review": {
+            "title": "Kies beoordelingen om te tonen",
+            "auto_new_5": "Automatisch de nieuwste 5-sterren beoordelingen ophalen",
+            "auto_helptext": "Beoordelingen worden elke 10 minuten bijgewerkt",
+            "number_of_reviews": "Aantal beoordelingen",
+            "choose_manually": "Handmatig kiezen",
+            "choose_manually_button": "Veranderen",
+            "selected": "geselecteerd om in de carrousel weer te geven",
+            "warning": "De carrousel ziet er beter uit met minimaal 3 beoordelingen",
+            "warning_2": "verzend je verzoek via e-mail",
+            "warning_3": "voer in om te ontvangen",
+            "modal": {
+                "title": "Handmatig beoordelingen kiezen"
+            }
+        },
+        "title": {
+            "title": "Titel",
+            "title_label": "Titel label"
+        },
+        "card_content": {
+            "title": "Kaartinhoud",
+            "customer_name_display": "Klantnaam weergeven",
+            "anonymous": "Anoniem",
+            "product_name": "Productnaam",
+            "product_image": "Productafbeelding",
+            "display_star_rating": "Toon sterwaardering pictogram",
+            "display_customer_avatar": "Toon klantavatar",
+            "show_product_information": "Toon productinformatie",
+            "show_customer_flag": "Toon vlag van klantland",
+            "show_review_date": "Toon beoordelingsdatum",
+            "review_title": "Titel van de beoordeling",
+            "review_date": "Beoordelingsdatum"
+        },
+        "movement": {
+            "title": "Automatische beweging",
+            "auto_movement": "Automatische beweging",
+            "time_between_reviews": "Tijd tussen beoordelingen (seconden)",
+            "arrow_navigation": "Pijlnavigatie"
+        },
+        "color_schemes": {
+            "title": "Kleurenschema's",
+            "headline": "Kop",
+            "content": "Inhoud",
+            "navigator_button": "Navigatieknop",
+            "navigator_arrow": "Navigatiepijl",
+            "page_indicator": "Pagina-indicator",
+            "verified_tag": "Geverifieerd label",
+            "divider": "Scheidingslijn",
+            "border": "Rand",
+            "link_title": "Linktitel",
+            "customer_name": "Klantnaam",
+            "star": "Ster",
+            "navigator": "Navigator",
+            "arrow_icon": "Pictogram van pijl",
+            "product_background": "Achtergrond van het product",
+            "card_background": "Achtergrond van de kaart",
+            "widget_background": "Achtergrond van de widget",
+            "product_name": "Productnaam",
+            "review_date": "Beoordelingsdatum"
+        }
+    },
+    "review_onepage": {
+        "review_source": {
+            "title": "Beoordelingsbron",
+            "subtitle": "Selecteer de producten om beoordelingen op de beoordelingspagina weer te geven",
+            "all_product": "Alle producten",
+            "select_product": "Selecteer product",
+            "warning": "Je moet ten minste één product selecteren om op de beoordelingspagina weer te geven.",
+            "help_text": "Standaard worden alle gepubliceerde beoordelingen weergegeven"
+        },
+        "one_page_header": {
+            "title": "Eén pagina koptekst"
+        },
+        "review_display": {
+            "title": "Informatie weergeven",
+            "summary_box": "Samenvattingsbox",
+            "product": "Product"
+        }
+    },
+    "after_review_submitted": {
+        "show_discount_code": "Kortingscode tonen",
+        "discount_code_color": "Kleur van kortingscode",
+        "message_background_color": "Achtergrondkleur van bericht",
+        "title_label": "Titel label",
+        "description_label": "Beschrijving label",
+        "title_label_color": "Kleur van titel label",
+        "description_label_color": "Kleur van beschrijving label",
+        "show_submitted_review": "Ingediende beoordeling tonen",
+        "button_label": "Knop label"
+    },
+    "tabs": {
+        "discount_voucher": "Kortingsbon",
+        "product_rating": "Productbeoordeling",
+        "review_display": "Beoordelingsweergave",
+        "review_testimonial": "Beoordelingstestimonial",
+        "review_onepage": "Recensiepagina"
+    },
+    "title": "Widgetbeheer",
+    "add_widget_guild": {
+        "title": "Hoe installeer je de widget?",
+        "enable_global_script": "Voordat je begint, zorg ervoor dat je <strong><span>de TrustShop Global</span> app-embed in Shopify Admin hebt ingeschakeld</strong>",
+        "add_widget_v2": {
+            "title": "Widget toevoegen via: Shopify App Block",
+            "for": "(voor thema 2.0)",
+            "step": {
+                "step_1": "Klik op <strong><span>Widget toevoegen</span></strong> om Shopify Admin te openen",
+                "step_2": "De <strong>Shopify-editor</strong> wordt geopend en de widget wordt automatisch toegevoegd",
+                "step_3": "Klik op de <strong>Opslaan-knop</strong> (rechtsboven) en controleer of er een succesbericht verschijnt"
+            }
+        },
+        "add_widget_v1": {
+            "title": "Widget handmatig toevoegen",
+            "for": "(voor thema 1.0 - Vintage thema)",
+            "description": "Kopieer de onderstaande code en plak deze in de specifieke secties waar je de widget wilt tonen. <span>Meer informatie</span>"
+        }
+    },
+    "multi_lang": {
+        "enable": {
+            "title": "Automatische vertaling is actief",
+            "content": "Automatische vertaling van de widgetinhoud is ingeschakeld. Als je dit wilt wijzigen, pas dan de instellingen aan in <anchor>Beoordelingsinstellingen</anchor>."
+        },
+        "disable": {
+            "content": "Probeer de functie waarmee de taal automatisch wordt aangepast aan het land van de koper.",
+            "button": "Ga naar globale instellingen"
+        }
+    }
+}

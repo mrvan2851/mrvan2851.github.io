@@ -1,0 +1,22 @@
+{
+    "send_mail": {
+        "title": "手動リクエストメール",
+        "subject": "自動送信されない注文のリクエストメールを送信する"
+    },
+    "table": {
+        "orders": "注文",
+        "date": "日付",
+        "customer": "顧客",
+        "total": "合計",
+        "fulfillment_status": "履行状況",
+        "items": "アイテム"
+    },
+    "empty_search": {
+        "title": "注文が見つかりません",
+        "description": "フィルタや検索条件を変更してみてください"
+    },
+    "banner": {
+        "title": "アクションが必要です",
+        "content": "この機能を使用するには、TrustShopに追加の「注文の読み取り」権限を付与する必要があります。権限を付与するには、以下のボタンをクリックしてください"
+    }
+}

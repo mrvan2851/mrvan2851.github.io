@@ -1,0 +1,247 @@
+{
+    "table": {
+        "navigate_button_content": "E-mail Workflow",
+        "no_data": {
+            "title": "Administrer dine anmodningse-mails",
+            "description": "Aktive e-mail-skabeloner til at begynde at sende automatiserede e-mails til kunder.",
+            "setting_email_templates": "Indstilling af e-mail-skabeloner"
+        },
+        "title": "Anmodning om e-mail",
+        "second_title": "Anmodning om e-mail",
+        "search_placeholder": "Indtast en e-mail eller ordrenummer",
+        "all_status": "Alle statusser",
+        "email_type": "E-mail type",
+        "email_review_request": "Anmodning om anmeldelse via e-mail",
+        "remind_request_review": "Påmindelse om anmodning om anmeldelse via e-mail",
+        "thank_you_email": "Takke-e-mail",
+        "just_now": "Lige nu",
+        "order_id": "Ordre id",
+        "buyer": "Køber",
+        "location": "Placering",
+        "product": "Produkt",
+        "purchase_time": "Købstidspunkt",
+        "schedule_date": "Planlæg dato",
+        "send_now": "Send nu",
+        "send_again": "Send igen"
+    },
+    "campaign": {
+        "banner": {
+            "title": "Kundeanmeldelser er kraftfulde!",
+            "content": "Et par sætninger i en anmeldelse kan have mere indflydelse på forbrugere end en hel hjemmeside. Få dine kundeanmeldelser med vores indbyggede e-mailkampagner og skabeloner for at gøre dit liv lettere!"
+        },
+        "email_content": "E-mail indhold",
+        "email_content_description": "Skræddersy e-mailindhold med tilpasset sprog for at sikre, at dine kunder nemt forstår budskabet",
+        "email_will_be_sent": "E-mail vil blive sendt",
+        "title": "E-mail Workflow",
+        "not_active": "ikke aktiv",
+        "running": "Kører",
+        "save_just_now": "Gem lige nu",
+        "send_test": "Send test",
+        "send_test_email": "Send test-e-mail",
+        "enter_email_address": "Indtast e-mailadresse nedenfor",
+        "confirm": "Bekræft",
+        "when_to_send": "Hvornår skal det sendes",
+        "all_change_save": "Alle ændringer er gemt",
+        "all_customer": "Alle kunder",
+        "email_schedule": "E-mailplan",
+        "email_scheduling": "E-mailplanlægning",
+        "email_scheduling_subtitle": "Tilpas tidspunktet, hvor e-mailen sendes til kunder, der kommer fra forskellige geografiske områder",
+        "to": "Til",
+        "subject": "Emne",
+        "preview": "Forhåndsvisning",
+        "from": "Fra",
+        "branding": "Branding",
+        "logo": "Logo",
+        "personalization": "Personliggørelse",
+        "active_require_toast": "Du skal aktivere anmodning om anmeldelse",
+        "product_quantity": "Produktmængde",
+        "star_rating_icon": "Stjernebedømmelsesikon",
+        "call_to_action_btn": "Handlingsknap (Skriv en anmeldelse)",
+        "request_review": {
+            "title": "Anmod om anmeldelse",
+            "content": "Efter <strong>{{day}}</strong> dage og en <strong>{{status}}</strong> vil der automatisk blive sendt en e-mail til kunden med en anmodning om at anmelde produktet.",
+            "toast_active": "Anmodning om anmeldelse aktiveret",
+            "toast_deactive": "Anmodning om anmeldelse deaktiveret"
+        },
+        "request_review_reminder": {
+            "title": "Påmindelse om anmeldelse",
+            "content": "Efter <strong>{{days}}</strong> dage fra den første anmodnings-e-mail bliver der automatisk sendt en påmindelse, hvis der ikke modtages svar. Kun aktiv, hvis anmeldelses-e-mailen er aktiveret.",
+            "after_review_request_mail": "efter anmeldelses-e-mail",
+            "toast_active": "Påmindelses-e-mail aktiveret",
+            "toast_deactive": "Påmindelses-e-mail deaktiveret"
+        },
+        "thank_you_for_review": {
+            "title": "Tak for din anmeldelse",
+            "content": "Når en kunde afgiver en anmeldelse, sendes der automatisk en tak-e-mail. Rabatkoder og tilbud kan tilføjes. Kun aktiv, hvis anmeldelses-e-mailen er aktiveret.",
+            "content_2": "<strong>{{days}}</strong> dage efter en kunde har afgivet en anmeldelse, sendes der automatisk en tak-e-mail. Rabatkoder og tilbud kan tilføjes. Kun aktiv, hvis anmeldelses-e-mailen er aktiveret.",
+            "after_review_submit": "Anmeldelse sendt",
+            "review_submitted": "Anmeldelse sendt",
+            "approve_for_review": "Anmeldelse godkendt",
+            "toast_active": "Tak-e-mail aktiveret",
+            "toast_deactive": "Tak-e-mail deaktiveret"
+        },
+        "send_test_success": "E-mail blev sendt med succes",
+        "send_test_hepltext": "Indtast e-mailadresse nedenfor",
+        "store_name": "Butiksnavn",
+        "first_name": "Fornavn",
+        "last_name": "Efternavn",
+        "email": "E-mail",
+        "city": "By",
+        "state_province": "Stat/Provins",
+        "country": "Land",
+        "request_review_emails": "Anmod om anmeldelse via e-mail",
+        "background_color": "Baggrundsfarve",
+        "show_header": "Vis header",
+        "text_color": "Tekstfarve",
+        "hide_header": "Skjul header",
+        "order_status": "Ordrestatus",
+        "complete": "Fuldført",
+        "completed": "Fuldført",
+        "order_paid": "Betalt",
+        "default": "Standard",
+        "add_country_timing": "Tilføj landstid",
+        "type_a_language_name": "Indtast et sprognavn",
+        "no_language_found": "Ingen sprog fundet der matcher: ",
+        "discount_voucher": "Rabatkupon",
+        "automation": "Automatisering",
+        "discount_description": "Tilskynd kunder til at skrive en anmeldelse ved at tilbyde rabat på deres næste køb",
+        "email_queue": "Manuel e-mailanmodning",
+        "email_queue_description": "Send anmodnings-e-mails for ordrer, der ikke sendes automatisk",
+        "country_selected_count": "{{selected}} af {{total}} valgt",
+        "country_group": {
+            "asia": "Asien",
+            "europe": "Europa",
+            "africa": "Afrika",
+            "north_america": "Nordamerika",
+            "south_america": "Sydamerika",
+            "oceania": "Oceanien"
+        }
+    },
+    "email_template": {
+        "request_review": {
+            "subject": "Er du glad for at købe {{PRODUCT_NAME}}? Skriv en anmeldelse nu!",
+            "preview_text": "Tak for dit seneste køb. Vi håber, du elsker det! Hvis du gør det, vil din anmeldelse være meget meningsfuld for os",
+            "body": {
+                "title": "Hvordan var din oplevelse? 🤗",
+                "html": "<h2>Hvordan var din oplevelse? 🤗</h2>",
+                "content": {
+                    "html": "<p><strong>Hej </strong>{{FIRST_NAME}}</p>\n<p>Vi vil gerne høre, hvordan du nyder din shopping hos {{STORE_NAME}}</p>\n<p>Hvis du har et øjeblik, ville det være fantastisk, hvis du kunne dele dine tanker og oplevelser med os og andre kunder. Din godkendelse betyder alt 🤩.</p>\n",
+                    "raw": "{'blocks':[{'key':'e8our','text':'Hej {{FIRST_NAME}}','type':'unstyled','depth':0,'inlineStyleRanges':[{'offset':0,'length':6,'style':'BOLD'}],'entityRanges':[],'data':{}},{'key':'eustq','text':'Vi vil gerne høre, hvordan du nyder din shopping hos {{STORE_NAME}}','type':'unstyled','depth':0,'inlineStyleRanges':[],'entityRanges':[],'data':{}},{'key':'7tjk7','text':'Hvis du har et øjeblik, ville det være fantastisk, hvis du kunne dele dine tanker og oplevelser med os og andre kunder. Din godkendelse betyder alt 🤩.','type':'unstyled','depth':0,'inlineStyleRanges':[],'entityRanges':[],'data':{}}],'entityMap':{}}"
+                },
+                "product": {
+                    "rate_this_item": {
+                        "text": "Bedøm dette emne"
+                    }
+                }
+            }
+        },
+        "thank_you_email": {
+            "subject": "Tak for at skrive en anmeldelse!❤️",
+            "preview_text": "Tak for dit seneste køb. Vi håber, du elsker det! Hvis du gør det, vil din anmeldelse være meget meningsfuld for os",
+            "body": {
+                "html": "<h2>Tak for at skrive en anmeldelse!❤️</h2>",
+                "title": "Tak for at skrive en anmeldelse!❤️",
+                "content": {
+                    "html": "<p><strong>Hej </strong>{{FIRST_NAME}}</p>\n<p>Hej Tak for at skrive en anmeldelse af dit seneste køb. Vi elsker at høre feedback og sætter pris på den tid, du tog for at dele din oplevelse med dette/disse emne(r).</p>",
+                    "raw": "{'blocks':[{'key':'e8our','text':'Hej {{FIRST_NAME}}','type':'unstyled','depth':0,'inlineStyleRanges':[{'offset':0,'length':6,'style':'BOLD'}],'entityRanges':[],'data':{}},{'key':'eustq','text':'Tak for at skrive en anmeldelse af dit seneste køb. Vi elsker at høre feedback og sætter pris på den tid, du tog for at dele din oplevelse med dette/disse emne(r).','type':'unstyled','depth':0,'inlineStyleRanges':[],'entityRanges':[],'data':{}},{'key':'al478','text':'','type':'unstyled','depth':0,'inlineStyleRanges':[],'entityRanges':[],'data':{}}],'entityMap':{}}"
+                },
+                "reviews": {
+                    "review_on": "Anmeldelser på",
+                    "btn_shop_now": "Shop nu"
+                }
+            }
+        },
+        "tone_voice": {
+            "friendly": {
+                "request_review": {
+                    "subject": "Er du glad for at købe {{PRODUCT_NAME}}? Skriv en anmeldelse nu!",
+                    "content": "<p><strong>Hej </strong>{{FIRST_NAME}}</p>\n<p>Vi vil gerne høre, hvordan du nyder din shopping hos {{STORE_NAME}}</p>\n<p>Hvis du har et øjeblik, ville det være fantastisk, hvis du kunne dele dine tanker og oplevelser med os og andre kunder. Din godkendelse betyder alt 🤩.</p>\n<p>Varmt,</p>\n<p>{{STORE_NAME}} Team</p>"
+                },
+                "request_review_reminder": {
+                    "subject": "Hvordan var din oplevelse? Lad os vide det.",
+                    "content": "Tak for dit seneste køb. Vi håber, du elsker det! Hvis du gør det, vil din anmeldelse være meget meningsfuld for os"
+                },
+                "thank_you_email": {
+                    "subject": "Tak for at skrive en anmeldelse!❤️",
+                    "content": "<p><strong>Hej </strong>{{FIRST_NAME}}</p>\n<p>Hej Tak for at skrive en anmeldelse af dit seneste køb. Vi elsker at høre feedback og sætter pris på den tid, du tog for at dele din oplevelse med dette/disse emne(r).</p>"
+                }
+            },
+            "professional": {
+                "request_review": {
+                    "subject": "Din feedback betyder noget: Del dine tanker om {{PRODUCT_NAME}}",
+                    "content": "<p><strong>Kære </strong>{{FIRST_NAME}}</p>\n<p>Vi håber, du nyder dit seneste køb af {{PRODUCT_NAME}} fra {{STORE_NAME}}. Din feedback er afgørende for at hjælpe os med at forbedre vores tilbud og give den bedst mulige oplevelse for alle vores kunder.</p>\n<p>Vi vil gerne invitere dig til at dele dine tanker om {{PRODUCT_NAME}} ved at skrive en anmeldelse på vores hjemmeside. Din ærlige feedback værdsættes meget.</p>\n<p>Tak for din tid og fortsatte støtte.</p>\n<p>Med venlig hilsen,</p>\n<p>{{STORE_NAME}} Team</p>"
+                },
+                "request_review_reminder": {
+                    "subject": "Din Seneste Oplevelse med {{STORE_NAME}}",
+                    "content": "<p><strong>Hej</strong> {{FIRST_NAME}}</p>\n<p>Tak for at vælge {{STORE_NAME}}! Vi håber, du nyder dit seneste køb. Din mening er værdifuld, og vi ville sætte pris på, hvis du kunne tage et øjeblik til at dele din oplevelse.</p>\n<p>Bedste hilsner,</p>\n<p>{{STORE_NAME}}</p>"
+                },
+                "thank_you_email": {
+                    "subject": "Anmeldelse Modtaget: Dine tanker betyder noget!",
+                    "content": "<p><strong>Kære </strong>{{FIRST_NAME}}</p>\n<p>Tak for at tage dig tid til at indsende en anmeldelse af dit seneste køb. Din feedback er værdifuld for os, da vi stræber efter løbende at forbedre vores produkter og service. Vi sætter pris på, at du deler dine indsigter.</p>"
+                }
+            },
+            "persuasive": {
+                "request_review": {
+                    "subject": "Få Eksklusive Fordele! Del Din Anmeldelse af {{PRODUCT_NAME}}",
+                    "content": "<p><strong>Hej </strong>{{FIRST_NAME}}</p>\n<p>Nyd din nye {{PRODUCT_NAME}} fra {{STORE_NAME}}? Vi vil gerne høre om det!</p>\n<p>Ved at dele din ærlige anmeldelse på vores hjemmeside hjælper du andre med at træffe informerede beslutninger og kan også låse eksklusive fordele op for dig, som f.eks. en særlig kupon til dit næste køb!</p>\n<p>Det tager kun et par minutter at skrive en anmeldelse, og det vil gøre en stor forskel.</p>\n<p>Klik på stjernerne og del dine tanker i dag!</p>\n<p>Tak,</p>\n<p>{{STORE_NAME}} Team</p>"
+                },
+                "request_review_reminder": {
+                    "subject": "Lås Eksklusive Fordele op med Din Anmeldelse!",
+                    "content": "<p><strong>Hej</strong> {{FIRST_NAME}},</p>\n<p>Dit seneste køb fra {{STORE_NAME}} betyder meget for os! Del dine tanker, lås eksklusive fordele op og nyd noget særligt kun for dig.</p>\n<p>Tak for at vælge {{STORE_NAME}}!</p>\n<p>Varme hilsner,</p>\n<p>{{STORE_NAME}}</p>"
+                },
+                "thank_you_email": {
+                    "subject": "Hjælp Andre med at Shoppe Smartere: Del Din Anmeldelsesoplevelse!",
+                    "content": "<p><strong>Hej</strong> {{FIRST_NAME}},</p>\n<p>Vi sætter pris på, at du har efterladt en anmeldelse af dit seneste køb! Dine indsigter er værdifulde for andre kunder, og vi sætter virkelig pris på, at du har taget dig tid til at bidrage til vores fællesskab. Ved at dele din oplevelse hjælper du andre med at træffe informerede beslutninger.</p>"
+                }
+            },
+            "supportive": {
+                "request_review": {
+                    "subject": "Vi er her for at hjælpe! Del din oplevelse med {{PRODUCT_NAME}}",
+                    "content": "<p><strong>Hej </strong>{{FIRST_NAME}}</p>\n<p>Vi håber, du er godt tilfreds med din nye {{PRODUCT_NAME}} fra {{STORE_NAME}}.</p>\n<p>Din anmeldelse på vores hjemmeside hjælper ikke kun andre, men det hjælper os også med at sikre, at vi yder den bedst mulige support til vores kunder.</p>\n<p>Du er velkommen til at dele dine tanker om {{PRODUCT_NAME}}, gode eller dårlige. Vi værdsætter din feedback og ønsker at sikre, at du er helt tilfreds.</p>\n<p>Hvis du har spørgsmål eller brug for hjælp med din {{PRODUCT_NAME}}, er du velkommen til at kontakte vores venlige kundeserviceteam.</p>\n<p>Vi er altid glade for at hjælpe!</p>\n<p>Varme hilsner,</p>\n<p>{{STORE_NAME}} Team</p>"
+                },
+                "request_review_reminder": {
+                    "subject": "Din Mening Betyder Noget for {{STORE_NAME}}",
+                    "content": "<p><strong>Kære</strong> {{FIRST_NAME}},</p>\n<p>Vi håber, du er tilfreds med dit seneste køb fra {{STORE_NAME}}. Din feedback er vigtig. Tag venligst et øjeblik til at dele dine tanker.</p>\n<p>Tak fordi du er en værdsat kunde hos {{STORE_NAME}}.</p>\n<p>Bedste hilsner,</p>\n<p>{{STORE_NAME}}</p>"
+                },
+                "thank_you_email": {
+                    "subject": "Vi Har Set Din Anmeldelse!",
+                    "content": "<p><strong>Hej</strong> {{FIRST_NAME}},</p>\n<p>Vi har set din anmeldelse af dit seneste køb, og vi vil gerne udtrykke vores oprigtige tak! Din feedback er vigtig for os, da den hjælper os med at sikre, at vi yder den bedst mulige oplevelse for alle vores kunder.</p>"
+                }
+            }
+        }
+    },
+    "qr_code_setting": {
+        "page_title": "QR-kodeadministration",
+        "store_qr_code": "Butiks QR-kode",
+        "store_qr_code_description": "Opret og tilpas unikke QR-koder til din butik, så kunderne kan administrere og gennemgå deres ordrer med blot en scanning. Forbedr din butiks kundeoplevelse med hurtig og bekvem QR-kodeintegration.",
+        "download_qr_code": "Download QR-kode",
+        "scan_analysis": "Scan-analyse",
+        "bar_chart": "Søjlediagram",
+        "line_chart": "Linjediagram",
+        "total_scans": "Samlede scanninger",
+        "operating_system_scan": "Operativsystemscanning",
+        "total_scan": "Samlet scanning",
+        "rate": "Rate",
+        "top_country": "Topland",
+        "country": "Land",
+        "top_cities": "Topbyer",
+        "cities": "Byer",
+        "modal_customize": {
+            "title": "Butiks QR-kode editor",
+            "frame": "Ramme",
+            "background_color": "Baggrundsfarve",
+            "transparent_background": "Gennemsigtig baggrund",
+            "logo": "Logo",
+            "upload_logo": "Upload logo",
+            "pattern_color": "Mønsterfarve",
+            "custom_pattern_color": "Tilpasset mønsterfarve",
+            "frame_color": "Ramme farve"
+        }
+    },
+    "product_photo": "Produktfoto",
+    "product_name": "Produktnavn",
+    "quantity": "Antal",
+    "unsubcribe": "Afmeld",
+    "resync-order": "Synkroniser ordre igen",
+    "resync-helptext": "Systemet vil synkronisere alle dine tidligere ordrer."
+}

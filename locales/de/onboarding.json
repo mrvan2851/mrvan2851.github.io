@@ -1,0 +1,169 @@
+{
+    "step_1": {
+        "button": "Loslegen",
+        "sub_title": "Starten Sie, indem Sie Ihren Shopify-Shop verbinden. TrustShop wird nahtlos in Ihren Shop integriert, sodass Sie Bewertungen verwalten und mit Kunden interagieren können.",
+        "title": "✋ Willkommen bei TrustShop",
+        "select_language": "Was ist Ihre primäre Kommunikationssprache?",
+        "select_language_subtitle": "Wählen Sie Ihre bevorzugte Sprache für die Benutzeroberfläche.",
+        "help_text": "Sie können die primäre Sprache später jederzeit in den Einstellungen ändern.",
+        "app_language": "App-Sprache"
+    },
+    "step_2": {
+        "quick_guide": {
+            "reload_btn": "Neu laden",
+            "recheck_btn": "Fehler. Klicken Sie, um erneut zu überprüfen",
+            "step_1": "<p>Klicken Sie auf die Schaltfläche <span>App einbetten aktivieren</span></p>",
+            "step_2": "<p>Es wird eine Seite geöffnet und die App wird <span>automatisch aktiviert</span></p>",
+            "step_3": "<p>Klicken Sie auf die Schaltfläche <span>Speichern</span> (oben rechts) und stellen Sie sicher, dass eine Erfolgsmeldung erscheint</p>",
+            "step_4": "<p>Gehen Sie zurück zu dieser <span>Onboarding-Seite</span>, um mit dem Onboarding von TrustShop fortzufahren.</p>",
+            "success_btn": "App-Einbettung erfolgreich aktiviert",
+            "sub_title": "Aktivieren Sie die App einfach, indem Sie diese Schritte befolgen: ",
+            "title": "👉 Verpassen Sie diesen Leitfaden nicht 👈",
+            "not_detect_embedded": "Aktivierung nicht erfolgreich. Bitte versuchen Sie es erneut.",
+            "add_widget_helptext": "Probleme beim Hinzufügen des Widgets? Kontaktieren Sie uns für detaillierte Hilfe!",
+            "helptext": "<p>Dieser Schritt fügt den notwendigen Code hinzu, um Bewertungen in Ihrem Shop anzuzeigen.</p><p><i>Keine Sorge - dies wird das Design oder Layout Ihres Shops nicht beeinflussen.</i></p>"
+        },
+        "sub_title": "Zeigen Sie später Bewertungen nahtlos an",
+        "title": "Automatische Bewertungsanforderungen",
+        "email_setting_title": "E-Mail-Bewertungsanforderung einrichten",
+        "email_setting_subtitle": "Bewertungsanforderungs-E-Mails werden automatisch basierend auf den folgenden Einstellungen gesendet",
+        "customer_in_country": "Kunden im Land",
+        "default_country": "Standard (Alle Länder)",
+        "send_email_request_review": "E-Mail-Bewertungsanforderung senden",
+        "after_order": "Nachdem der Bestellstatus",
+        "add_more_country": "Weitere Länder hinzufügen",
+        "help_text": "Sie können diese Konfiguration später jederzeit in den Einstellungen ändern."
+    },
+    "step_3": {
+        "v1": {
+            "quick_guide": {
+                "title": "Widget für Bewertungen hinzufügen",
+                "reload_btn": "Neu laden",
+                "recheck_btn": "Fehler. Klicken Sie, um erneut zu überprüfen",
+                "step_1": "<p>Öffnen Sie <1>templates/product.liquid</1> im Editor</p>",
+                "step_2": "<p>Fügen Sie den folgenden Code am Ende Ihrer Themen-Datei hinzu</p>",
+                "step_3": "<p>Klicken Sie auf <span>Speichern</span></p>",
+                "step_4": "<p>Gehen Sie zurück zu dieser <span>Onboarding-Seite</span>, um mit dem Onboarding fortzufahren.</p>",
+                "helptext": "<p>Dieser Schritt fügt den notwendigen Code hinzu, um Bewertungen in Ihrem Shop anzuzeigen.</p><p><i>Keine Sorge - dies wird das Design oder Layout Ihres Shops nicht beeinflussen.</i></p>"
+            }
+        },
+        "v2": {
+            "quick_guide": {
+                "title": "Widget für Bewertungen hinzufügen",
+                "reload_btn": "Neu laden",
+                "recheck_btn": "Fehler. Klicken Sie, um erneut zu überprüfen",
+                "step_1": "<p>Klicken Sie auf die Schaltfläche <span>Widget hinzufügen</span></p>",
+                "step_2": "<p>Das Widget wird automatisch in Ihre Produktvorlage eingefügt</p>",
+                "step_3": "<p>Klicken Sie auf <span>Speichern</span>, um die Änderungen zu bestätigen</p>",
+                "step_4": "Überprüfen Sie Ihre Produktseite, um die Bewertungen in Aktion zu sehen",
+                "step_5": "<p>Gehen Sie zurück zu dieser <span>Onboarding-Seite</span>, um mit dem Onboarding fortzufahren</p>",
+                "helptext": "<p>Dieser Schritt fügt den notwendigen Code hinzu, um Bewertungen in Ihrem Shop anzuzeigen.</p><p><i>Keine Sorge - dies wird das Design oder Layout Ihres Shops nicht beeinflussen.</i></p>"
+            }
+        },
+        "quick_guide": {
+            "sub_title": "Folgen Sie diesen einfachen Schritten, um Produktbewertungen in Ihrem Shop zu aktivieren:",
+            "title": "Schnellübersicht",
+            "not_detect_widget": "Wir können kein Widget erkennen. Bitte versuchen Sie es erneut!",
+            "add_widget_helptext": "Probleme beim Hinzufügen des Widgets? Kontaktieren Sie uns für detaillierte Hilfe!",
+            "success_btn": "Widget erfolgreich hinzugefügt"
+        },
+        "sub_title": "Zeigen Sie das Bewertungs-Widget in Ihrem Online-Shop an.",
+        "title": "Produktbewertungsanzeige einrichten",
+        "enable_app_embed": "App-Integration aktivieren",
+        "enable_app_embed_subtitle": "Folgen Sie diesen einfachen Schritten, um Produktbewertungen in Ihrem Shop zu aktivieren",
+        "add_widget_btn": "Widget hinzufügen",
+        "enable_embed": "App-Einbettung aktivieren"
+    },
+    "step_4": {
+        "button": "Zum Dashboard",
+        "sub_title": "Herzlichen Glückwunsch! Sie sind jetzt bereit, Ihre Marke mit der Kraft von Bewertungen und Empfehlungen zu boosten. Machen Sie sich bereit, Ihr Geschäft florieren zu sehen!",
+        "title": "Sie sind bereit!",
+        "import_text": "Importieren Sie Bewertungen nahtlos von Product Reviews by Shopify, Judge.me, Loox und mehr",
+        "import_button": "Bewertungen importieren",
+        "dashboard_text": "Beginnen Sie, Bewertungen zu verwalten und mit Ihren Kunden zu interagieren",
+        "dashboard_button": "Zum Dashboard"
+    },
+    "pricing_page": {
+        "title": "Einfache, unkomplizierte Preisgestaltung!",
+        "sub_title": "7 Tage kostenlos. Keine versteckten Gebühren.",
+        "free_plan_des": "Oder starten Sie kostenlos, perfekt für Anfänger.",
+        "recommended": "Empfohlen",
+        "pricing_card": {
+            "basic": {
+                "title": "Standard",
+                "sub_title": "Perfekt für kleine Unternehmen.",
+                "benefit": {
+                    "1": "<p><span>200</span> Bestellungen Bewertungsanfragen/Monat</p>",
+                    "2": "<p>Zugang zu den meisten Premium-Funktionen</p>",
+                    "3": "<p>Shopify Flow-Integration</p>",
+                    "4": "<p>Priorisierter Kundensupport</p>"
+                }
+            },
+            "pro": {
+                "title": "Enterprise",
+                "sub_title": "Bringen Sie Ihr Geschäft auf das nächste Level.",
+                "benefit": {
+                    "1": "<p><span>1.500</span> Bestellungen Bewertungsanfragen/Monat</p>",
+                    "2": "<p>Zugang zu <span>allen Premium-Funktionen</span></p>",
+                    "3": "<p>Bewertungsdetailseite</p>",
+                    "4": "<p>Eigene Domain</p>",
+                    "5": "<p>Shopify Flow-Integration</p>",
+                    "6": "<p>Priorisierter Kundensupport</p>"
+                }
+            },
+            "unlimited": {
+                "title": "Ultimate",
+                "sub_title": "Es gibt keine Grenze für Ihr Wachstum.",
+                "benefit": {
+                    "1": "<p><span>Unbegrenzte</span> Bestell-Bewertungsanfragen</p>",
+                    "2": "<p>Zugang zu <span>allen Premium-Funktionen</span></p>",
+                    "3": "<p>Bewertungsdetailseite</p>",
+                    "4": "<p>Eigene Domain</p>",
+                    "5": "<p>Shopify Flow-Integration</p>",
+                    "6": "<p>Priorisierter Kundensupport</p>"
+                }
+            }
+        }
+    },
+    "modal_compare_plans": {
+        "title": "Tarife vergleichen",
+        "pricing_card": {
+            "free": {
+                "title": "Basis",
+                "sub_title": "Kostenlos starten, ideal für Anfänger.",
+                "benefit": {
+                    "1": "<p><span>50</span> Bestellungen Bewertungsanfragen/Monat</p>",
+                    "2": "<p>Grundlegender Zugang zum Bewertungs-Widget</p>",
+                    "3": "<p>Grundlegende Bearbeitung der Anfrage-E-Mail</p>",
+                    "4": "<p>Nur Bild-Uploads von Rezensenten</p>"
+                }
+            },
+            "basic": {
+                "title": "Standard",
+                "sub_title": "Perfekt für kleine Unternehmen oder Einzelpersonen.",
+                "benefit": {
+                    "1": "<p><span>200</span> Bestellungen Bewertungsanfragen/Monat</p>",
+                    "2": "<p>Zugang zu <span>den meisten Premium-Funktionen</span></p>",
+                    "3": "<p>Vollständig anpassbares Widget</p>",
+                    "4": "<p>Bewertungs-Videos</p>",
+                    "5": "<p>Google Shopping</p>",
+                    "6": "<p>Schutz Ihrer Bewertungen</p>"
+                }
+            },
+            "pro": {
+                "title": "Enterprise",
+                "sub_title": "Bringen Sie Ihr Geschäft auf das nächste Level.",
+                "benefit": {
+                    "1": "<p><span>1.500</span> Bestellungen Bewertungsanfragen/Monat</p>",
+                    "2": "<p>Zugang zu <span>allen Premium-Funktionen</span></p>",
+                    "3": "<p>Vollständig anpassbares Widget</p>",
+                    "4": "<p>Bewertungs-Videos</p>",
+                    "5": "<p>Google Shopping</p>",
+                    "6": "<p>Schutz Ihrer Bewertungen</p>",
+                    "7": "<p>Bewertungsdetailseite</p>",
+                    "8": "<p>Eigene Domain</p>"
+                }
+            }
+        }
+    }
+}

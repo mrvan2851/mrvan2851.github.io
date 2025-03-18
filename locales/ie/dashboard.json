@@ -1,0 +1,109 @@
+{
+    "welcome_app" : {
+        "title": "Fáilte go Léirmheasanna Táirge"
+    },
+    "popup": {
+        "button": "Luigh orainn",
+        "content": "Tugann do chuid aiseanna dúinn feabhas a chur ar TrustShop. Ba bhreá linn a fháil amach conas a mheasfá ár bhfeidhmchlár?",
+        "title": "Tá do tuairim tábhachtach dúinn!",
+        "modal_rate": {
+            "title": "Cén fáth a bhfuil drogall ort faoi TrustShop?",
+            "option_1": {
+                "title": "Deacair a úsáid nó a shocrú",
+                "content": "Bhí deacair dom an app a úsáid nuair a:"
+            },
+            "option_2": "Ní bhíonn mé sásta leis an tacaíocht",
+            "option_3": {
+                "title": "Gnéithe teoranta nó eascaithe",
+                "content": "Ba cheart go mbeadh níos mó gnéithe ag an app, mar shampla:"
+            }
+        }
+    },
+    "setup_guide": {
+        "card_1": {
+            "content": "Léirigh léirmheasanna ar do siopa ar líne",
+            "title": "Cuir wigéad le do siopa ar líne"
+        },
+        "card_2": {
+            "button": "Cumraigh ríomhphost",
+            "content": "Saincheap an t-am nuair a chuirfear ríomhphost iarratais agus an ríomhphost buíoch chugat",
+            "title": "Cumraigh ríomhphost iarratais"
+        },
+        "card_3": {
+            "button": "Saincheap wigéad",
+            "content": "Saincheap wigéad léirmheasanna le freagra a thabhairt ar mhian do chustaiméirí",
+            "title": "Saincheap wigéad"
+        },
+        "card_4": {
+            "button": "Seachadadh gutháin",
+            "content": "Inseoidh tú do chustaiméirí le léirmheas a fhágáil trí fhoirmhéadadh a thairiscint díobh ar a gcéad ceannaigh eile",
+            "title": "Seachadadh gutháin"
+        },
+        "title": "Treoir Cumraithe"
+    },
+    "statistics": {
+        "all": "Gach",
+        "all_reviews": "Gach Léirmheas",
+        "avg_star_rating": "Meán rátáil réalta",
+        "title": "Do léargais athbhreithnithe"
+    },
+    "whats-new": {
+        "slide_1": {
+            "title": "🌍 Léirmheasanna Ilteangacha: Nasc le Custaiméirí ar fud an Domhain",
+            "date_time": "Nuashonraithe: 1 Márta, 2025",
+            "content": {
+                "text" : "Is í réalta an nuashonraithe seo ár ngné nua Giuirléid Ilteangacha agus Aistriúcháin Athbhreithnithe . I margadh domhanda an lae inniu, níor cheart go gcuirfeadh bacainní teanga teorainn le cumas do shiopa. Le TrustShop 2.8, is féidir le custaiméirí anois léirmheasanna a aistriú go dtí a dteanga dhúchais le cliceáil amháin."
+            },
+            "button": "Foghlaim níos mó"
+        },
+        "slide_2": {
+            "title": "Bailiúchán Nua Athbhreithnithe Cóid QR",
+            "date_time": "Nuashonraithe: 6 Feabhra, 2025",
+            "content": {
+                "text" : "Bealach nua le hathbhreithnithe custaiméirí a bhailiú. Nuair a dhéanann custaiméirí an cód QR a scanadh, is féidir leo:",
+                "list": [
+                    "Féach ar tháirgí nach bhfuil athbhreithniú déanta orthu go fóill",
+                    "Cuir léirmheasanna nua isteach go héasca",
+                    "Féach ar a léirmheasanna roimhe seo",
+                    "Rianaigh a gcóid lascaine tuillte"
+                ]
+            },
+            "button": "Foghlaim níos mó"
+        },
+        "slide_3": {
+            "title": "Saincheapadh Teimpléad Ríomhphoist Casta",
+            "date_time": "Nuashonraithe: 6 Feabhra, 2025",
+            "content": {
+                "text": "Foirfe do chur i láthair branda le saincheaptha feabhsaithe ríomhphoist:",
+                "list": [
+                    "Suímh lógó solúbtha",
+                    "Méid lógó customizable",
+                    "Socruithe stuála inchoigeartaithe",
+                    "Roghanna dath an chúlra"
+                ]
+            },
+            "button": "Foghlaim níos mó"
+        },
+        "slide_4": {
+            "title": "Ardbhainistíocht Liosta Díliostáil",
+            "date_time": "Nuashonraithe: 11 Eanáir, 2025",
+            "content": {
+                "text": "Coinnigh do chumarsáid le custaiméirí glan agus éifeachtach lenár gcóras bainistithe díliostála nua. Déan do liostaí custaiméirí a rianú, a anailísiú agus a chothabháil go beacht"
+            },
+            "button": "Foghlaim níos mó"
+        },
+        "slide_5": {
+            "title": "Comhtháthú Sonraí Custaiméara Dúchasach Shopify",
+            "date_time": "Nuashonraithe: 11 Eanáir, 2025",
+            "content": {
+                "text": "Faigh rochtain ar léirmheasanna custaiméirí go díreach ó leathanach sonraí custaiméara Shopify. Ná haistrigh níos mó idir cluaisíní - tá gach rud atá uait ceart nuair a theastaíonn uait é!"
+            },
+            "button": "Foghlaim níos mó"
+        },
+        "title": "Cad atá nua"
+    },
+    "popup_support" : {
+        "title": "Conas is féidir linn cabhrú leat?",
+        "content": "Is féidir leat teacht ar ár gcáipéisí fairsinge cabhrach, agus bíonn ár bhfoireann ar fáil i gcónaí chun cabhrú leat. Just a déan teagmháil linn!"
+    }
+}

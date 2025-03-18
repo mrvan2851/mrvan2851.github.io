@@ -1,0 +1,247 @@
+{
+    "table": {
+        "navigate_button_content": "E-Mail-Workflow",
+        "no_data": {
+            "title": "Verwalten Sie Ihre Anfrage-E-Mails",
+            "description": "Aktive E-Mail-Vorlagen, um automatisierte E-Mails an Kunden zu senden.",
+            "setting_email_templates": "E-Mail-Vorlagen einstellen"
+        },
+        "title": "E-Mail zur Überprüfung anfordern",
+        "second_title": "E-Mail manuell senden",
+        "search_placeholder": "Geben Sie eine E-Mail-Adresse oder Bestellnummer ein",
+        "all_status": "Alle Status",
+        "email_type": "E-Mail-Typ",
+        "email_review_request": "E-Mail zur Überprüfung anfordern",
+        "remind_request_review": "Erinnerungs-E-Mail zur Überprüfung anfordern",
+        "thank_you_email": "Dankeschön-E-Mail",
+        "just_now": "Gerade eben",
+        "order_id": "Bestellnummer",
+        "buyer": "Käufer",
+        "location": "Standort",
+        "product": "Produkt",
+        "purchase_time": "Kaufzeit",
+        "schedule_date": "Geplantes Datum",
+        "send_now": "Jetzt senden",
+        "send_again": "Erneut senden"
+    },
+    "campaign": {
+        "banner": {
+            "title": "Kundenbewertungen sind mächtig!",
+            "content": "Ein paar Sätze in einer Bewertung können mehr Einfluss auf Verbraucher haben als eine ganze Website. Holen Sie sich Kundenbewertungen mit unseren integrierten E-Mail-Kampagnen und Vorlagen, um Ihr Leben einfacher zu machen!"
+        },
+        "email_content": "E-Mail-Inhalt",
+        "email_content_description": "Gestalten Sie den E-Mail-Inhalt mit maßgeschneiderter Sprache, um sicherzustellen, dass Ihre Kunden die Botschaft leicht erfassen",
+        "email_will_be_sent": "E-Mail wird gesendet",
+        "title": "E-Mail-Workflow",
+        "not_active": "nicht aktiv",
+        "running": "Läuft",
+        "save_just_now": "Gerade eben speichern",
+        "send_test": "Test senden",
+        "send_test_email": "Test-E-Mail senden",
+        "enter_email_address": "Geben Sie unten Ihre E-Mail-Adresse ein",
+        "confirm": "Bestätigen",
+        "when_to_send": "Wann senden",
+        "all_change_save": "Alle Änderungen gespeichert",
+        "all_customer": "Alle Kunden",
+        "email_schedule": "E-Mail-Zeitplan",
+        "email_scheduling": "E-Mail-Zeitplanung",
+        "email_scheduling_subtitle": "Passen Sie die Zeit an, zu der die E-Mail an Kunden gesendet wird, die aus verschiedenen geografischen Gebieten stammen",
+        "to": "An",
+        "subject": "Betreff",
+        "preview": "Vorschau",
+        "from": "Von",
+        "branding": "Branding",
+        "logo": "Logo",
+        "personalization": "Personalisierung",
+        "active_require_toast": "Sie müssen die Anforderung zur Überprüfung aktivieren",
+        "product_quantity": "Produktmenge",
+        "star_rating_icon": "Sternebewertungs-Symbol",
+        "call_to_action_btn": "Aufforderung zur Handlung (Bewertung schreiben)",
+        "request_review": {
+            "title": "Bewertung anfordern",
+            "content": "Nach <strong>{{day}}</strong> Tagen und einem <strong>{{status}}</strong> wird automatisch eine E-Mail an den Kunden gesendet, um eine Produktbewertung anzufordern.",
+            "toast_active": "Bewertungsanfrage aktiviert",
+            "toast_deactive": "Bewertungsanfrage deaktiviert"
+        },
+        "request_review_reminder": {
+            "title": "Bewertungserinnerung",
+            "content": "Nach <strong>{{days}}</strong> Tagen nach der ersten Bewertungsanfrage-E-Mail wird automatisch eine Erinnerung gesendet, wenn keine Antwort erfolgt. Nur aktiv, wenn Bewertungsanfrage-E-Mail aktiv ist.",
+            "after_review_request_mail": "nach Bewertungsanfrage-E-Mail",
+            "toast_active": "Erinnerungs-E-Mail aktiviert",
+            "toast_deactive": "Erinnerungs-E-Mail deaktiviert"
+        },
+        "thank_you_for_review": {
+            "title": "Danke für Ihre Bewertung",
+            "content": "Nachdem ein Kunde eine Bewertung abgegeben hat, wird automatisch eine Dankes-E-Mail gesendet. Gutscheincodes und Rabatte können hinzugefügt werden. Nur aktiv, wenn Bewertungsanfrage-E-Mail aktiv ist.",
+            "content_2": "<strong>{{days}}</strong> Tage nach Abgabe einer Bewertung wird automatisch eine Dankes-E-Mail gesendet. Gutscheincodes und Rabatte können hinzugefügt werden. Nur aktiv, wenn Bewertungsanfrage-E-Mail aktiv ist.",
+            "after_review_submit": "Bewertung eingereicht",
+            "review_submitted": "Bewertung eingereicht",
+            "approve_for_review": "Bewertung genehmigt",
+            "toast_active": "Dankes-E-Mail aktiviert",
+            "toast_deactive": "Dankes-E-Mail deaktiviert"
+        },
+        "send_test_success": "E-Mail wurde erfolgreich gesendet",
+        "send_test_hepltext": "Geben Sie unten Ihre E-Mail-Adresse ein",
+        "store_name": "Shop-Name",
+        "first_name": "Vorname",
+        "last_name": "Nachname",
+        "email": "E-Mail",
+        "city": "Stadt",
+        "state_province": "Bundesland/Provinz",
+        "country": "Land",
+        "request_review_emails": "E-Mails zur Überprüfung anfordern",
+        "background_color": "Hintergrundfarbe",
+        "show_header": "Header anzeigen",
+        "text_color": "Textfarbe",
+        "hide_header": "Header ausblenden",
+        "order_status": "Bestellstatus",
+        "complete": "Abgeschlossen",
+        "completed": "Abgeschlossen",
+        "order_paid": "Bezahlt",
+        "default": "Standard",
+        "add_country_timing": "Länderzeit hinzufügen",
+        "type_a_language_name": "Geben Sie einen Sprachnamen ein",
+        "no_language_found": "Keine Übereinstimmung für die Sprache gefunden: ",
+        "discount_voucher": "Rabattgutschein",
+        "automation": "Automatisierung",
+        "discount_description": "Bieten Sie Kunden einen Anreiz, eine Bewertung abzugeben, indem Sie einen Rabatt für ihren nächsten Einkauf anbieten",
+        "email_queue": "Manuelle E-Mail-Anfrage",
+        "email_queue_description": "Senden Sie Anforderungs-E-Mails für Bestellungen, die nicht automatisch gesendet werden",
+        "country_selected_count": "{{selected}} von {{total}} ausgewählt",
+        "country_group": {
+            "asia": "Asien",
+            "europe": "Europa",
+            "africa": "Afrika",
+            "north_america": "Nordamerika",
+            "south_america": "Südamerika",
+            "oceania": "Ozeanien"
+        }
+    },
+    "email_template": {
+        "request_review": {
+            "subject": "Hat Ihnen der Kauf von {{PRODUCT_NAME}} gefallen? Hinterlassen Sie jetzt eine Bewertung!",
+            "preview_text": "Vielen Dank für Ihren kürzlichen Kauf. Wir hoffen, es gefällt Ihnen! Wenn ja, ist Ihre Bewertung für uns sehr bedeutsam",
+            "body": {
+                "title": "Wie war Ihre Erfahrung? 🤗",
+                "html": "<h2>Wie war Ihre Erfahrung? 🤗</h2>",
+                "content": {
+                    "html": "<p><strong>Hallo </strong>{{FIRST_NAME}}</p>\n<p>Wir möchten nachfragen, wie Ihnen Ihr Einkauf bei {{STORE_NAME}} gefällt</p>\n<p>Wenn Sie einen Moment Zeit haben, wäre es großartig, wenn Sie Ihre Gedanken und Erfahrungen mit uns und anderen Käufern teilen könnten. Ihre Zustimmung ist alles 🤩.</p>\n",
+                    "raw": "{'blocks':[{'key':'e8our','text':'Hallo {{FIRST_NAME}}','type':'unstyled','depth':0,'inlineStyleRanges':[{'offset':0,'length':6,'style':'BOLD'}],'entityRanges':[],'data':{}},{'key':'eustq','text':'Wir möchten nachfragen, wie Ihnen Ihr Einkauf bei {{STORE_NAME}} gefällt','type':'unstyled','depth':0,'inlineStyleRanges':[],'entityRanges':[],'data':{}},{'key':'7tjk7','text':'Wenn Sie einen Moment Zeit haben, wäre es großartig, wenn Sie Ihre Gedanken und Erfahrungen mit uns und anderen Käufern teilen könnten. Ihre Zustimmung ist alles 🤩.','type':'unstyled','depth':0,'inlineStyleRanges':[],'entityRanges':[],'data':{}}],'entityMap':{}}"
+                },
+                "product": {
+                    "rate_this_item": {
+                        "text": "Bewerten Sie diesen Artikel"
+                    }
+                }
+            }
+        },
+        "thank_you_email": {
+            "subject": "Vielen Dank für Ihre Bewertung!❤️",
+            "preview_text": "Vielen Dank für Ihren kürzlichen Kauf. Wir hoffen, es gefällt Ihnen! Wenn ja, ist Ihre Bewertung für uns sehr bedeutsam",
+            "body": {
+                "html": "<h2>Vielen Dank für Ihre Bewertung!❤️</h2>",
+                "title": "Vielen Dank für Ihre Bewertung!❤️",
+                "content": {
+                    "html": "<p><strong>Hallo </strong>{{FIRST_NAME}}</p>\n<p>Hallo, vielen Dank für Ihre Bewertung Ihres letzten Einkaufs. Wir freuen uns über Feedback und schätzen die Zeit, die Sie sich genommen haben, um Ihre Erfahrung mit diesem Artikel/Ihren Artikeln zu teilen.</p>",
+                    "raw": "{'blocks':[{'key':'e8our','text':'Hallo {{FIRST_NAME}}','type':'unstyled','depth':0,'inlineStyleRanges':[{'offset':0,'length':6,'style':'BOLD'}],'entityRanges':[],'data':{}},{'key':'eustq','text':'Vielen Dank für Ihre Bewertung Ihres letzten Einkaufs. Wir freuen uns über Feedback und schätzen die Zeit, die Sie sich genommen haben, um Ihre Erfahrung mit diesem Artikel/Ihren Artikeln zu teilen.','type':'unstyled','depth':0,'inlineStyleRanges':[],'entityRanges':[],'data':{}},{'key':'al478','text':'','type':'unstyled','depth':0,'inlineStyleRanges':[],'entityRanges':[],'data':{}}],'entityMap':{}}"
+                },
+                "reviews": {
+                    "review_on": "Bewertungen zu",
+                    "btn_shop_now": "Jetzt einkaufen"
+                }
+            }
+        },
+        "tone_voice": {
+            "friendly": {
+                "request_review": {
+                    "subject": "Hat Ihnen der Kauf von {{PRODUCT_NAME}} gefallen? Hinterlassen Sie jetzt eine Bewertung!",
+                    "content": "<p><strong>Hallo </strong>{{FIRST_NAME}}</p>\n<p>Wir möchten nachfragen, wie Ihnen Ihr Einkauf bei {{STORE_NAME}} gefällt</p>\n<p>Wenn Sie einen Moment Zeit haben, wäre es großartig, wenn Sie Ihre Gedanken und Erfahrungen mit uns und anderen Käufern teilen könnten. Ihre Zustimmung ist alles 🤩.</p>\n<p>Herzliche Grüße,</p>\n<p>Das {{STORE_NAME}} Team</p>"
+                },
+                "request_review_reminder": {
+                    "subject": "Wie war Ihre Erfahrung? Lassen Sie es uns wissen.",
+                    "content": "Vielen Dank für Ihren kürzlichen Kauf. Wir hoffen, es gefällt Ihnen! Wenn ja, ist Ihre Bewertung für uns sehr bedeutsam"
+                },
+                "thank_you_email": {
+                    "subject": "Vielen Dank für Ihre Bewertung!❤️",
+                    "content": "<p><strong>Hallo </strong>{{FIRST_NAME}}</p>\n<p>Hallo, vielen Dank für Ihre Bewertung Ihres letzten Einkaufs. Wir freuen uns über Feedback und schätzen die Zeit, die Sie sich genommen haben, um Ihre Erfahrung mit diesem Artikel/Ihren Artikeln zu teilen.</p>"
+                }
+            },
+            "professional": {
+                "request_review": {
+                    "subject": "Ihre Meinung ist wichtig: Teilen Sie Ihre Gedanken zu {{PRODUCT_NAME}}",
+                    "content": "<p><strong>Liebe/r </strong>{{FIRST_NAME}}</p>\n<p>Wir hoffen, dass Ihnen Ihr kürzlicher Kauf von {{PRODUCT_NAME}} bei {{STORE_NAME}} gefällt. Ihre Meinung ist entscheidend, um unser Angebot zu verbessern und die bestmögliche Erfahrung für alle unsere Kunden zu bieten.</p>\n<p>Wir laden Sie herzlich ein, Ihre Gedanken zu {{PRODUCT_NAME}} zu teilen, indem Sie eine Bewertung auf unserer Website hinterlassen. Ihr ehrliches Feedback wird sehr geschätzt.</p>\n<p>Vielen Dank für Ihre Zeit und Ihre fortwährende Unterstützung.</p>\n<p>Mit freundlichen Grüßen,</p>\n<p>Das {{STORE_NAME}} Team</p>"
+                },
+                "request_review_reminder": {
+                    "subject": "Ihre kürzliche Erfahrung mit {{STORE_NAME}}",
+                    "content": "<p><strong>Hallo</strong> {{FIRST_NAME}}</p>\n<p>Vielen Dank, dass Sie sich für {{STORE_NAME}} entschieden haben! Wir hoffen, dass Ihnen Ihr kürzlicher Kauf gefällt. Ihre Meinung ist wertvoll und wir würden es sehr schätzen, wenn Sie sich einen Moment Zeit nehmen könnten, um Ihre Erfahrung zu teilen.</p>\n<p>Beste Grüße,</p>\n<p>{{STORE_NAME}}</p>"
+                },
+                "thank_you_email": {
+                    "subject": "Bewertung erhalten: Ihre Meinung zählt!",
+                    "content": "<p><strong>Liebe/r </strong>{{FIRST_NAME}}</p>\n<p>Vielen Dank, dass Sie sich die Zeit genommen haben, eine Bewertung Ihres kürzlichen Kaufs abzugeben. Ihr Feedback ist für uns wertvoll, da wir ständig daran arbeiten, unsere Produkte und Dienstleistungen zu verbessern. Wir schätzen es, dass Sie Ihre Erkenntnisse teilen.</p>"
+                }
+            },
+            "persuasive": {
+                "request_review": {
+                    "subject": "Exklusive Vorteile freischalten! Teilen Sie Ihre Bewertung von {{PRODUCT_NAME}}",
+                    "content": "<p><strong>Hallo </strong>{{FIRST_NAME}}</p>\n<p>Genießen Sie Ihr neues {{PRODUCT_NAME}} von {{STORE_NAME}}? Wir würden gerne davon hören!</p>\n<p>Indem Sie Ihre ehrliche Bewertung auf unserer Website teilen, helfen Sie anderen, informierte Entscheidungen zu treffen, und können auch exklusive Vorteile für Sie freischalten, wie einen speziellen Gutschein für Ihren nächsten Einkauf!</p>\n<p>Es dauert nur wenige Minuten, um eine Bewertung abzugeben, und es macht einen großen Unterschied.</p>\n<p>Klicken Sie auf die Sterne und teilen Sie Ihre Gedanken noch heute!</p>\n<p>Danke,</p>\n<p>Das {{STORE_NAME}} Team</p>"
+                },
+                "request_review_reminder": {
+                    "subject": "Exklusive Vorteile mit Ihrer Bewertung freischalten!",
+                    "content": "<p><strong>Hallo</strong> {{FIRST_NAME}},</p>\n<p>Ihr kürzlicher Kauf bei {{STORE_NAME}} bedeutet uns viel! Teilen Sie Ihre Gedanken, schalten Sie exklusive Vorteile frei und genießen Sie etwas Besonderes nur für Sie.</p>\n<p>Vielen Dank, dass Sie {{STORE_NAME}} gewählt haben!</p>\n<p>Herzliche Grüße,</p>\n<p>{{STORE_NAME}}</p>"
+                },
+                "thank_you_email": {
+                    "subject": "Helfen Sie anderen beim intelligenten Einkaufen: Teilen Sie Ihre Bewertungserfahrung!",
+                    "content": "<p><strong>Hallo</strong> {{FIRST_NAME}},</p>\n<p>Wir danken Ihnen, dass Sie eine Bewertung Ihres kürzlichen Kaufs hinterlassen haben! Ihre Erkenntnisse sind wertvoll für andere Käufer und wir schätzen es sehr, dass Sie sich die Zeit genommen haben, zu unserer Community beizutragen. Indem Sie Ihre Erfahrung teilen, helfen Sie anderen, informierte Entscheidungen zu treffen.</p>"
+                }
+            },
+            "supportive": {
+                "request_review": {
+                    "subject": "Wir sind für Sie da! Teilen Sie Ihre Erfahrung mit {{PRODUCT_NAME}}",
+                    "content": "<p><strong>Hallo </strong>{{FIRST_NAME}}</p>\n<p>Wir hoffen, dass Sie sich mit Ihrem neuen {{PRODUCT_NAME}} von {{STORE_NAME}} gut zurechtfinden.</p>\n<p>Ihre Bewertung auf unserer Website hilft nicht nur anderen, sondern auch uns, sicherzustellen, dass wir den bestmöglichen Support für unsere Kunden bieten.</p>\n<p>Teilen Sie gerne Ihre Gedanken zu {{PRODUCT_NAME}}, egal ob positiv oder negativ. Wir schätzen Ihre Meinung und möchten sicherstellen, dass Sie vollkommen zufrieden sind.</p>\n<p>Wenn Sie Fragen haben oder Unterstützung bei Ihrem {{PRODUCT_NAME}} benötigen, zögern Sie bitte nicht, sich an unser freundliches Kundenserviceteam zu wenden.</p>\n<p>Wir helfen Ihnen gerne weiter!</p>\n<p>Herzliche Grüße,</p>\n<p>Das {{STORE_NAME}} Team</p>"
+                },
+                "request_review_reminder": {
+                    "subject": "Ihre Meinung ist wichtig für {{STORE_NAME}}",
+                    "content": "<p><strong>Liebe/r</strong> {{FIRST_NAME}},</p>\n<p>Wir hoffen, dass Sie mit Ihrem kürzlichen Kauf bei {{STORE_NAME}} zufrieden sind. Ihre Meinung ist wichtig. Bitte nehmen Sie sich einen Moment Zeit, um Ihre Gedanken zu teilen.</p>\n<p>Vielen Dank, dass Sie ein geschätzter Kunde von {{STORE_NAME}} sind.</p>\n<p>Beste Grüße,</p>\n<p>{{STORE_NAME}}</p>"
+                },
+                "thank_you_email": {
+                    "subject": "Wir haben Ihre Bewertung gesehen!",
+                    "content": "<p><strong>Hallo</strong> {{FIRST_NAME}},</p>\n<p>Wir haben Ihre Bewertung Ihres kürzlichen Kaufs gesehen und möchten uns herzlich bedanken! Ihr Feedback ist für uns wichtig, da es uns hilft, sicherzustellen, dass wir die bestmögliche Erfahrung für alle unsere Kunden bieten.</p>"
+                }
+            }
+        }
+    },
+    "qr_code_setting": {
+        "page_title": "QR-Code-Verwaltung",
+        "store_qr_code": "Store-QR-Code",
+        "store_qr_code_description": "Erstellen und anpassen einzigartiger QR-Codes für Ihren Store, damit Kunden ihre Bestellungen mit nur einem Scan verwalten und überprüfen können. Verbessern Sie das Kundenerlebnis Ihres Stores mit schneller und bequemer QR-Code-Integration.",
+        "download_qr_code": "QR-Code herunterladen",
+        "scan_analysis": "Scan-Analyse",
+        "bar_chart": "Balkendiagramm",
+        "line_chart": "Liniendiagramm",
+        "total_scans": "Gesamtscans",
+        "operating_system_scan": "Betriebssystem-Scan",
+        "total_scan": "Gesamtscan",
+        "rate": "Rate",
+        "top_country": "Top-Land",
+        "country": "Land",
+        "top_cities": "Top-Städte",
+        "cities": "Städte",
+        "modal_customize": {
+            "title": "Store-QR-Code-Editor",
+            "frame": "Rahmen",
+            "background_color": "Hintergrundfarbe",
+            "transparent_background": "Transparenter Hintergrund",
+            "logo": "Logo",
+            "upload_logo": "Logo hochladen",
+            "pattern_color": "Musterfarbe",
+            "custom_pattern_color": "Benutzerdefinierte Musterfarbe",
+            "frame_color": "Rahmenfarbe"
+        }
+    },
+    "product_photo": "Produktfoto",
+    "product_name": "Produktname",
+    "quantity": "Menge",
+    "unsubcribe": "Abbestellen",
+    "resync-order": "Bestellung erneut synchronisieren",
+    "resync-helptext": "Das System wird alle Ihre vorherigen Bestellungen synchronisieren."
+}

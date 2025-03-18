@@ -1,0 +1,184 @@
+{
+    "plan": {
+        "for_free": "Gratis",
+        "title": "Plan",
+        "free": "Básico",
+        "basic": "Estándar",
+        "pro": "Empresa",
+        "ultimate": "Definitivo",
+        "free_plan": "Plan Básico",
+        "basic_plan": "Plan Estándar",
+        "pro_plan": "Plan Empresarial",
+        "ultimate_plan": "Plan Definitivo"
+    },
+    "basic": "Básico",
+    "fully": "Totalmente",
+    "per_month": "por mes",
+    "plan_active": "{{plan}} activado",
+    "discount_offer_time": "durante los próximos {{time}}",
+    "origin_price": "Precio original ",
+    "order/month": "órdenes/mes",
+    "request_reviews": "Solicitar revisión",
+    "upgrade_plan": "Actualizar plan",
+    "select_plan": "Seleccionar {{plan}}",
+    "start_free": "Comenzar gratis",
+    "unlimited": "Ilimitado",
+    "modal_pricing_title": "Desbloquee funciones premium con nuestros precios flexibles",
+    "best_choice": "Mejor elección",
+    "coming_soon": "Próximamente",
+    "process_bar": {
+        "title": "Total de correos completados",
+        "subtitle": "Este recuento se actualizará el <strong>{{date}}</strong>",
+        "order_count": "{{used}} de {{total}} órdenes completadas"
+    },
+    "plan_table": {
+        "title": "Planes de precios",
+        "subtitle": "Descubra planes de suscripción personalizados diseñados para elevar su negocio!",
+        "start_trial": "Comienza la prueba gratuita de {{day}} días",
+        "current_plan": "Plan actual",
+        "upgrade": "Actualizar",
+        "select_plan": "Seleccionar plan",
+        "downgrade": "Degradar",
+        "pricing_card": {
+            "free": "Acceda a funciones esenciales con nuestro Plan Gratis, perfecto para principiantes.",
+            "basic": "Obtenga herramientas avanzadas y soporte con el Plan Estándar para individuos",
+            "pro": "Potencie su empresa con nuestro plan empresarial todo incluido",
+            "unlimited": "No hay límite para tu crecimiento"
+        },
+        "modal_downgrade": {
+            "title": "¡No pierda el acceso a funciones poderosas!",
+            "subtitle": "Su tienda está utilizando algunas funciones premium. Desactívelas para degradar su plan:",
+            "discount_voucher": "Cupón de descuento automático",
+            "customize_widget": "Widget personalizado",
+            "upload_video": "Subir videos al escribir una reseña",
+            "review_testimonial": "Testimonio",
+            "modal_all_image": "Configuración de todas las imágenes modal",
+            "review_page": "Página de todas las reseñas",
+            "google_shopping": "Google shopping",
+            "global_display": "Visualización global",
+            "group_product": "Agrupar productos",
+            "custom_domain": "Dominio personalizado",
+            "qr_code": "Gestión de códigos QR",
+            "review_translation": "Traducción de reseñas",
+            "multi_lang": "Widget multilingüe",
+            "ai_functionality": "Funcionalidad de IA",
+            "insights_and_segmentation": "Información y segmentación",
+            "review_detail_page": "Página de detalles de reseñas",
+            "import_custom_csv": "Importar CSV personalizado",
+            "protect_review": "Proteger reseña"
+        },
+        "primary_collapse": {
+            "title": "Descubra el mejor plan para sus necesidades",
+            "email_quota": "Solicitar revisión",
+            "email_quota_helptext": "Calculamos tu cuota en función del número de pedidos, no del número de correos electrónicos de solicitud de reseñas enviados. Por ejemplo, si envías tres correos electrónicos (solicitud, recordatorio y agradecimiento), sigue contando como uno solo.",
+            "order_per_month": "Total de órdenes/mes",
+            "discount_voucher": "Cupón de descuento",
+            "customize_widget": "Widget personalizado",
+            "upload_video": "Video de reseña",
+            "review_testimonial": "Testimonio de reseña",
+            "modal_all_image": "Modal todas las imágenes",
+            "review_page": "Página de todas las reseñas",
+            "google_shopping": "Google shopping",
+            "global_display": "Visualización global",
+            "group_product": "Agrupar productos",
+            "custom_domain": "Dominio personalizado",
+            "qr_code": "Gestión de códigos QR",
+            "review_translation": "Traducción de reseñas",
+            "multi_lang": "Widget multilingüe",
+            "ai_functionality": "Funcionalidad de IA",
+            "insights_and_segmentation": "Información y segmentación",
+            "review_detail_page": "Página de detalles de reseñas",
+            "import_custom_csv": "Importar CSV personalizado",
+            "protect_review": "Proteger reseña"
+        },
+        "details_collapse": {
+            "title": "Compare el widget personalizado entre los planes de suscripción",
+            "widgetBox": {
+                "title": "Caja de widget (predeterminado)",
+                "choose_layout": "Elegir diseño",
+                "summary_box": "Caja de resumen",
+                "color_scheme": "Esquema de color",
+                "information_display": "Visualización de información",
+                "content": "Contenido"
+            },
+            "widgetBoxNoReview": {
+                "title": "Caja de widget (sin reseñas)",
+                "content": "Contenido",
+                "color_scheme": "Esquema de color"
+            },
+            "modalReviewDetail": {
+                "title": "Detalle de la reseña modal",
+                "all_settings": "Todas las configuraciones"
+            },
+            "modal_all_image": {
+                "title": "Modal todas las imágenes",
+                "all_settings": "Todas las configuraciones"
+            },
+            "formWriteReview": {
+                "title": "Formulario de escribir reseñas",
+                "review_with_video": "Reseña con video"
+            }
+        }
+    },
+    "free_banner": {
+        "title": "Accede a funciones esenciales con nuestro Plan Gratis, perfecto para principiantes.",
+        "email_quota_limit": "Límite de cuota de correo electrónico {{limit}} órdenes/mes",
+        "basic_access": "Acceso básico al widget de reseñas",
+        "basic_edit_email": "Edición básica del correo electrónico de solicitud",
+        "upload_media": "Solo subir imágenes por parte de los revisores",
+        "quick_chat": "Soporte de chat rápido",
+        "visible_brand": "Marca TrustShop visible"
+    },
+    "basic_banner": {
+        "everything_in_basic": "Todo en el plan Básico",
+        "email_quota": "Límite de cuota de correo electrónico {{limit}} órdenes/mes",
+        "discount_voucher": "Cupón de descuento automático",
+        "customize_widget": "Widget personalizado",
+        "upload_video": "Subir videos al escribir una reseña",
+        "review_testimonial": "Testimonio",
+        "modal_all_image": "Configuración de todas las imágenes modal",
+        "review_page": "Página de todas las reseñas",
+        "google_shopping": "Google shopping",
+        "global_display": "Visualización global",
+        "group_product": "Agrupar productos",
+        "custom_domain": "Dominio personalizado",
+        "review_translation": "Traducción de reseñas",
+        "qr_code": "Gestión de códigos QR",
+        "multi_lang": "Widget multilingüe",
+        "ai_functionality": "Funcionalidad de IA",
+        "insights_and_segmentation": "Información y segmentación",
+        "review_detail_page": "Página de detalles de reseñas",
+        "import_custom_csv": "Importar CSV personalizado",
+        "protect_review": "Proteger reseña"
+    },
+    "frequency_ask": {
+        "title": "Preguntas frecuentes",
+        "list_questions": {
+            "1": {
+                "title": "¿Cómo se calcula la cuota de solicitudes de reseñas?",
+                "subtitle": "La cuota se basa en el número de pedidos. Si habilitas los tres tipos de correos electrónicos: Solicitud de reseñas, Recordatorio de reseñas y Gracias. Solo se contará una cuota por pedido."
+            },
+            "2": {
+                "title": "¿Se utilizará mi cuota si no envío solicitudes de reseñas a través de TrustShop?",
+                "subtitle": "No, tu cuota solo se deducirá si utilizas la función de solicitud de reseñas de TrustShop. Si no utilizas esta función, tu cuota no se verá afectada."
+            },
+            "3": {
+                "title": "¿Puedo degradar mi plan?",
+                "subtitle": "Sí, puedes degradar tu plan en cualquier momento si ya no necesitas las funciones pagas. Solo asegúrate de desactivar todas las funciones pagas antes de degradar. Si necesitas ayuda, nuestro equipo de soporte siempre está aquí para ayudarte."
+            },
+            "4": {
+                "title": "¿Se me cobrará durante el período de prueba?",
+                "subtitle": "No, no se te cobrará durante la prueba. Los cargos solo comenzarán una vez que finalice el período de prueba."
+            }
+        }
+    },
+    "modal_charge_success": {
+        "title": "¡Ahora eres un miembro {{plan}}!",
+        "content": "¡Gracias por elegir nuestra suscripción premium! Prepárese para beneficios exclusivos y soporte de primera categoría. Hagamos de este viaje algo extraordinario."
+    },
+    "special_offer": {
+        "title": "Oferta Especial: ¡30% de Descuento por Estar con Nosotros!",
+        "content": "Para mostrar nuestro agradecimiento por tu apoyo, te ofrecemos un <1>descuento especial del 30%</1> en cualquier plan de suscripción durante los próximos dos meses. ¡Gracias por ser un cliente valioso!",
+        "remain_time": "Tiempo restante para la oferta:"
+    }
+}

@@ -1,0 +1,518 @@
+{
+    "limit_function": {
+        "widget_limit": "この機能は、スタンダードおよびエンタープライズプランでのみ利用できます。この機能にアクセスするには、プランをアップグレードしてください。",
+        "setting_function_limit": {
+            "badge": "{{plan}}から",
+            "content": "この機能をカスタマイズするには、プランをアップグレードしてください。"
+        }
+    },
+    "list_widget": {
+        "review_display": "レビュー表示",
+        "review_display_description": "すべての顧客レビューを表示し、製品のユーザー体験に関する洞察を提供します。",
+        "review_testimonial": "レビューと証言",
+        "review_testimonial_description": "注目のフィードバックを引き付けるために、回転カルーセル形式でトップレビューを強調表示します。",
+        "review_onepage": "レビューページ",
+        "review_onepage_description": "すべての顧客レビューを表示するページで、体験を簡単に閲覧できます。",
+        "product_rating": "製品評価",
+        "product_rating_description": "5つ星スケールに基づいて製品の総合評価を表示します。",
+        "global_setting": "グローバル設定",
+        "global_setting_description": "ユーザーが要素を管理できるようにします。行われた変更はすべてのウィジェットに適用されます。"
+    },
+    "discount_voucher": {
+        "title": "割引クーポン",
+        "sub_title": "次回の購入に割引を提供して、顧客にレビューを残すように促す",
+        "preview": "プレビュー",
+        "toggle_discount_voucher": "割引を有効にする",
+        "save_btn": "保存",
+        "coupon_shopify": {
+            "title": "Shopifyクーポン",
+            "sub_title": "Shopifyの割引コード",
+            "no_code": "コードが設定されていません。",
+            "off_example": "次の行の例です（翻訳しない）：80% OFF",
+            "off": "OFF",
+            "check_discount_button": "割引を確認する",
+            "check_success": "割引が利用可能です",
+            "check_fail": "割引が存在しません。割引の入手方法については、<1>こちら</1>をご覧ください。"
+        },
+        "coupon_auto": {
+            "title": "自動割引",
+            "review_for_photo": "写真付きレビュー",
+            "discount_code": "自動割引コード",
+            "discount_for_review_only_content": "すべてのレビューに対する割引",
+            "discount_for_review_photos": "写真付きレビューに対する割引",
+            "discount_for_review_videos": "動画付きレビューに対する割引",
+            "discount_expire_after": "割引の有効期限"
+        },
+        "tabs": {
+            "email_before": "レビュー前のメール",
+            "email_after": "レビュー後のメール"
+        },
+        "coupon_design": {
+            "title": "クーポンデザイン",
+            "voucher_color": "クーポンの色",
+            "text_color": "テキストの色",
+            "button_color": "ボタンの色",
+            "button_text_color": "ボタンのテキストの色"
+        },
+        "general": {
+            "choose_your_design_template": "デザインテンプレートを選択",
+            "template": "テンプレート",
+            "coupon_message": "クーポンメッセージ",
+            "call_to_action_button_content": "コールトゥアクションボタンの内容"
+        },
+        "voucher_setting": {
+            "title": "割引クーポンと製品",
+            "icon": "アイコン",
+            "icon_and_highlight": "アイコンとハイライトの割引テキストの色",
+            "message": "メッセージ",
+            "button_title": "ボタンのタイトル",
+            "button_label": "ボタンのラベル",
+            "button_background": "ボタンの背景",
+            "message_background": "メッセージの背景"
+        },
+        "set_up_discount": "割引を設定する",
+        "display_discount": "割引を表示する",
+        "review_request": "レビューリクエスト",
+        "review_request_description": "カスタムアイコン、色、およびカスタマイズされたコールトゥアクションメッセージでレビューリクエストメールをパーソナライズします。",
+        "thank_email": "感謝メール",
+        "thank_email_description": "顧客がレビューを残した後、カスタム割引コードのスタイルとメッセージで感謝メールをカスタマイズします。",
+        "submitted_review_popup": "レビュー送信ポップアップ",
+        "submitted_review_popup_description": "購入後に感謝のポップアップを表示し、次回の注文に使用できる割引コードを顧客に表示します。",
+        "type_discount_code_after_review_label": "お客様がレビューを書いた際に割引コードを受け取る対象：",
+        "type_discount_code_after_review_value": {
+            "order": "注文 - 1注文につき1つの割引コード",
+            "product": "商品 - 1商品につき1つの割引コード"
+        }
+    },
+    "product_rating": {
+        "product_rating": "商品ページ",
+        "collection_rating": "コレクションページ",
+        "hide_rating_when_empty": "レビューがない場合、星評価を非表示にする",
+        "review_information": {
+            "title": "レビュー情報",
+            "show_total_reviews": "総レビュー数を表示",
+            "show_avg_rating": "平均評価を表示"
+        },
+        "widget_style": {
+            "title": "ウィジェットのスタイル",
+            "full_5_star": "(満点5つ星)",
+            "1_star": "(1つ星)"
+        },
+        "text_before": "前のテキスト",
+        "text_after": "後のテキスト",
+        "font_size": {
+            "title": "フォントサイズ",
+            "star_size": "星アイコンのサイズ",
+            "text_avg_rating": "平均評価",
+            "text_total_rating": "総レビュー数"
+        },
+        "language": {
+            "title": "言語",
+            "label_rating": "評価ラベル",
+            "label_rating_helptext": "レビューが1件のみの場合",
+            "label_ratings": "評価ラベル（複数）",
+            "label_ratings_helptext": "レビューが複数ある場合"
+        },
+        "modal_add_rating_manually": {
+            "rating_title": "手動で星評価を追加",
+            "widget_title": "手動でウィジェットを追加",
+            "guild_rating": "以下のコードをコピーし、星評価を表示したい特定のセクションに貼り付けてください。<1>詳細はこちら</1>",
+            "guild_widget": "以下のコードをコピーし、ウィジェットを表示したい特定のセクションに貼り付けてください。<1>詳細はこちら</1>",
+            "guild_onepage": "レビュー専用ページの作成方法についてのチュートリアルを<1>こちら</1>でご覧ください。<br /> サポートが必要な場合は、support@trustshop.io までお問い合わせください。",
+            "collection_title": "コレクションの評価を追加",
+            "onepage_title": "レビュー専用ページを追加",
+            "testimonial_title": "お客様の声を追加",
+            "guild_collection": "以下のコードをコピーし、コレクション評価を表示したい特定のセクションに貼り付けてください。<1>詳細はこちら</1>"
+        },
+        "custom_color": {
+            "title": "カスタムカラー",
+            "star_icon": "星アイコン",
+            "star_icon_empty": "星アイコン（空）",
+            "avg_rating": "平均評価",
+            "total_number_of_reviews": "総レビュー数"
+        }
+    },
+    "review_display": {
+        "widget_area": "ウィジェットエリア",
+        "choose_layout": {
+            "title": "レイアウトを選択",
+            "list": "リスト",
+            "grid": "グリッド"
+        },
+        "summary_box": {
+            "title": "サマリーボックス",
+            "left": "左",
+            "top": "上"
+        },
+        "color_schema": {
+            "title": "カラースキーム",
+            "custom_color_schemes": "カスタムカラースキーム",
+            "primary_color": "プライマリーカラー",
+            "secondary_color": "セカンダリーカラー",
+            "title_text_color": "タイトルのテキストカラー",
+            "all_photos_button_color": "すべての写真ボタン",
+            "primary_text_color": "プライマリーテキストカラー",
+            "secondary_text_color": "セカンダリーテキストカラー",
+            "star_icon": "スターアイコン",
+            "border": "ボーダー",
+            "filter_sort_background": "フィルター・ソートの背景",
+            "filter_sort_text": "フィルター・ソートのテキスト",
+            "rating_process_color": "評価プロセス",
+            "rating_process_empty_color": "評価プロセス（空）",
+            "users_name": "ユーザー名",
+            "loadmore_color": "もっと読み込む",
+            "bg_base_color": "ウィジェット背景",
+            "slide_button": "スライドボタン",
+            "slide_arrow": "スライド矢印",
+            "modal_all_medias_headline_title": "ヘッドラインタイトル",
+            "modal_all_medias_filter_label": "フィルターラベル",
+            "modal_all_medias_filter_background": "フィルターの背景",
+            "modal_all_medias_selected_filter_label": "選択済み - フィルターラベル",
+            "modal_all_medias_selected_filter_background": "選択済み - フィルターの背景",
+            "modal_all_medias_star_icon": "スター",
+            "modal_all_medias_rating_background": "評価の背景",
+            "modal_all_medias_item_border": "選択されたメディアの枠線",
+            "modal_all_medias_navigate_button": "ナビゲーションボタン",
+            "modal_all_medias_navigate_arrow": "ナビゲーション矢印",
+            "modal_all_medias_review_customer_name": "顧客名",
+            "modal_all_medias_review_time": "レビュー時間",
+            "modal_all_medias_review_star": "レビューのスター",
+            "modal_all_medias_review_star_disable": "デフォルトのレビューのスター",
+            "modal_all_medias_review_title": "レビュータイトル",
+            "modal_all_medias_review_content": "レビュー内容",
+            "modal_all_medias_review_media_background": "レビューのメディア背景",
+            "modal_all_medias_review_background": "レビューの背景",
+            "modal_all_medias_card_background": "カードの背景",
+            "modal_all_medias_close_button": "閉じるボタンの背景",
+            "modal_all_medias_close_icon": "閉じるアイコン",
+            "modal_detail_customer_name": "顧客名",
+            "modal_detail_review_time_title": "レビュー時間タイトル",
+            "modal_detail_review_star": "スター",
+            "modal_detail_review_star_default": "デフォルトスター",
+            "modal_detail_review_star_field_background": "スター欄の背景",
+            "modal_detail_review_title": "レビュータイトル",
+            "modal_detail_review_content": "レビュー内容",
+            "modal_detail_navigator_button": "ナビゲーションボタン",
+            "modal_detail_navigator_arrow": "ナビゲーション矢印",
+            "modal_detail_purchased_item": "購入商品",
+            "modal_detail_product_name": "商品名",
+            "modal_detail_product_price": "商品価格",
+            "modal_detail_icon_title": "アイコンタイトル",
+            "modal_detail_selected_icon": "選択されたアイコン",
+            "modal_detail_icon_background": "アイコンの背景",
+            "modal_detail_divider": "区切り線",
+            "modal_detail_card_background": "カードの背景",
+            "modal_detail_close_button": "閉じるボタンの背景",
+            "modal_detail_close_icon": "閉じるアイコン",
+            "form_write_review_star_color": "スターアイコンの色",
+            "reset_to_default_title": "カラースキームをデフォルトにリセットしますか？",
+            "reset_to_default_content": "変更内容が保存されない可能性があります",
+            "page_background_color": "ページの背景",
+            "star_icon_color": "スターアイコンの色",
+            "line_color": "ボーダー",
+            "user_name_color": "ユーザー名の色",
+            "load_more_color": "もっと読み込む",
+            "product_background_color": "商品の背景",
+            "product_text_color": "商品のテキストカラー",
+            "reply_title_color": "返信タイトルの色",
+            "reply_content_color": "返信内容の色",
+            "reply_background_color": "返信の背景"
+        },
+        "information_display": {
+            "title": "情報の表示",
+            "write_a_reivew_button": "レビューを書くボタン",
+            "review_date": "レビュー日付",
+            "button_report": "報告ボタン",
+            "button_helpful": "役に立つボタン",
+            "customer_information": {
+                "title": "顧客情報",
+                "customer_profile_picture": "顧客のアバターを表示",
+                "customer_country_flag": "顧客の国旗を表示"
+            },
+            "review_filter": "レビューフィルター",
+            "review_per_page": "ページごとのレビュー数",
+            "summary": "概要",
+            "number_of_review": "レビュー数",
+            "divider": "区切り線",
+            "text_1": "見出し",
+            "text_2": "サブ見出し",
+            "show_review_media": "レビューメディアを表示",
+            "image_gallery": "画像ギャラリー",
+            "star_rating": "スターレーティング",
+            "customer_name_display": "顧客名の表示",
+            "anonymous": "匿名",
+            "reviewer_selects": "レビュアーが選択",
+            "number_of_reviews": "レビュー数",
+            "form_write_review": {
+                "show_product_image": "製品画像を表示",
+                "show_add_photo_btn": "写真追加ボタンを表示",
+                "show_add_video_btn": "ビデオ追加ボタンを表示",
+                "required_review_title": "レビュータイトルが必要",
+                "hide_review_title": "レビュータイトルを非表示"
+            }
+        },
+        "card_content": {
+            "title": "カードの内容",
+            "show_review_media": "レビューメディアを表示",
+            "show_review_time": "レビューの時間を表示",
+            "show_purchase_items": "購入アイテムを表示",
+            "show_star_rating": "スターレーティングを表示",
+            "show_helpful_button": "役に立つボタンを表示",
+            "image_per_row": "行ごとの画像数",
+            "filter": "フィルター",
+            "gallery_filter": "ギャラリーフィルター",
+            "star_size_helptext": "デモでは、サイズは実際のサイズの半分です"
+        },
+        "content": {
+            "title": "コンテンツ",
+            "widget_language": "ウィジェットの言語",
+            "header_widget": {
+                "title": "ウィジェットヘッダー",
+                "customer_review_title": "顧客レビュータイトル",
+                "review_submit": "レビューを送信",
+                "write_review_button": "レビューを書くボタン",
+                "review_with_comments": "コメント付きレビュー",
+                "text_total_reviews": "総レビュー数のテキスト"
+            },
+            "label_of_filter": {
+                "title": "フィルターラベル",
+                "all": "すべて",
+                "most_helpful": "最も役に立つ",
+                "highest_rating": "最高評価",
+                "lowest_rating": "最低評価",
+                "oldest": "古い順",
+                "newest": "新しい順",
+                "review_with_photos": "写真付きレビュー",
+                "stars_filter": "スターフィルター（1-5）"
+            },
+            "content_review": {
+                "title": "レビューコンテンツ",
+                "text_review_on": "レビューのテキスト",
+                "text_helpful": "役に立つテキスト",
+                "button_loadmore_review": "もっと読むボタン"
+            },
+            "modal_write_review": {
+                "title": "レビューを書くモーダル",
+                "modal_write_review_title": "レビューを書くモーダルのタイトル",
+                "text_write_reviews": "レビューを書くテキスト",
+                "text_click_to_rate": "クリックして評価",
+                "label_customer_name": "顧客名のラベル",
+                "placeholder_customer_name": "顧客名のプレースホルダー",
+                "label_customer_email": "顧客メールのラベル",
+                "placeholder_customer_email": "顧客メールのプレースホルダー",
+                "label_review_title": "レビュータイトルのラベル",
+                "placeholder_review_title": "レビュータイトルのプレースホルダー",
+                "label_review_content": "レビューコンテンツのラベル",
+                "placeholder_review_content": "レビューコンテンツのプレースホルダー",
+                "label_characters_remaining": "残りの文字数のラベル",
+                "button_add_photo_text": "写真を追加するボタンのテキスト",
+                "button_back": "戻るボタン",
+                "button_submit": "送信ボタン"
+            },
+            "validate_message_label": {
+                "title": "バリデーションメッセージラベル",
+                "input": "入力",
+                "email": "メール",
+                "image_upload_fail": "画像のアップロードに失敗しました",
+                "image_upload_size": "画像のアップロードサイズ（<10MB）",
+                "image_upload_type": "画像のアップロードタイプ（.bmp、.jpeg、または.png）"
+            },
+            "modal_image": {
+                "title": "モーダル画像",
+                "review_for": "レビュー対象",
+                "image_from_this_review": "このレビューからの画像"
+            },
+            "modal_report": {
+                "title": "モーダル報告"
+            }
+        },
+        "tabs": {
+            "default": "デフォルト",
+            "no_reviews": "レビューなし",
+            "modal": {
+                "all_medias": "すべてのメディア",
+                "review_detail": "レビューの詳細",
+                "form_write_review": "フォーム レビューを書く",
+                "popup_after_review": {
+                    "success": "レビュー後のポップアップ - 成功",
+                    "pending": "レビュー後のポップアップ - 保留中"
+                }
+            }
+        },
+        "no_reviews": {
+            "section_title": "セクションタイトル",
+            "section_border": "セクションボーダー",
+            "show_border": "ボーダーを表示",
+            "title": "レビューなし",
+            "text_no_reviews": "レビューがありません",
+            "call_to_action": "アクションを呼び出す",
+            "call_to_action_color": "アクション呼び出し",
+            "call_to_action_text_color": "アクション呼び出しのテキスト",
+            "border_color": "ボーダー",
+            "section_title_color": "セクションタイトル",
+            "text_no_review_color": "レビューなしのテキスト",
+            "page_no_review_star_color": "スターカラー"
+        },
+        "popup_submitted_review": {
+            "layout": {
+                "title": "レイアウト",
+                "default": "デフォルト",
+                "without_media": "レビューカード - メディアなし",
+                "disable": "レビューカードを無効にする"
+            },
+            "title": {
+                "title": "タイトル",
+                "headline_label": "ヘッドラインラベル",
+                "content_label": "コンテンツラベル",
+                "button_label": "ボタンラベル"
+            },
+            "color_schema": {
+                "title": "カラースキーム",
+                "popup_background": "ポップアップ背景",
+                "popup_icon": "ポップアップアイコン",
+                "popup_headline": "ポップアップヘッドライン",
+                "popup_content": "ポップアップコンテンツ",
+                "product_name": "製品名",
+                "product_price": "製品価格",
+                "review_card_background": "レビューカード背景",
+                "review_card_title": "レビューカードタイトル",
+                "review_card_content": "レビューカードコンテンツ",
+                "review_card_border": "レビューカードボーダー",
+                "star_active": "星 - アクティブ",
+                "star_disable": "星 - 無効",
+                "customer_name": "顧客名",
+                "customer_email": "顧客のメール",
+                "button_border": "ボタン - ボーダー",
+                "button_background": "ボタン - 背景",
+                "button_title": "ボタンタイトル"
+            }
+        }
+    },
+    "review_testimonial": {
+        "choose_review": {
+            "title": "表示するレビューを選択",
+            "auto_new_5": "最新の5つ星レビューを自動取得",
+            "auto_helptext": "レビューは10分ごとに更新されます",
+            "number_of_reviews": "レビューの数",
+            "choose_manually": "手動で選択",
+            "choose_manually_button": "変更",
+            "selected": "カルーセルに表示するために選択された",
+            "warning": "カルーセルは少なくとも3つのレビューがあるとより見栄えが良くなります",
+            "warning_2": "メールでリクエストを送信してください",
+            "warning_3": "受け取るには入力してください",
+            "modal": {
+                "title": "手動でレビューを選択"
+            }
+        },
+        "title": {
+            "title": "タイトル",
+            "title_label": "タイトルラベル"
+        },
+        "card_content": {
+            "title": "カードの内容",
+            "customer_name_display": "顧客の名前を表示",
+            "anonymous": "匿名",
+            "product_name": "製品名",
+            "product_image": "製品画像",
+            "display_star_rating": "星評価アイコンを表示",
+            "display_customer_avatar": "顧客アバターを表示",
+            "show_product_information": "製品情報を表示",
+            "show_customer_flag": "顧客の国旗を表示",
+            "show_review_date": "レビュー日を表示",
+            "review_title": "レビューのタイトル",
+            "review_date": "レビューの日付"
+        },
+        "movement": {
+            "title": "自動移動",
+            "auto_movement": "自動移動",
+            "time_between_reviews": "スライド間の時間 (秒)",
+            "arrow_navigation": "矢印ナビゲーション"
+        },
+        "color_schemes": {
+            "title": "カラースキーム",
+            "headline": "見出し",
+            "content": "内容",
+            "navigator_button": "ナビゲーターボタン",
+            "navigator_arrow": "ナビゲーターの矢印",
+            "page_indicator": "ページインジケーター",
+            "verified_tag": "認証タグ",
+            "divider": "区切り線",
+            "border": "枠線",
+            "link_title": "リンクタイトル",
+            "customer_name": "顧客名",
+            "star": "星",
+            "navigator": "ナビゲーター",
+            "arrow_icon": "矢印アイコン",
+            "product_background": "製品の背景",
+            "card_background": "カードの背景",
+            "widget_background": "ウィジェットの背景",
+            "product_name": "製品名",
+            "review_date": "レビュー日"
+        }
+    },
+    "review_onepage": {
+        "review_source": {
+            "title": "レビューソース",
+            "subtitle": "レビューページに表示する製品を選択してください",
+            "all_product": "すべての製品",
+            "select_product": "製品を選択",
+            "warning": "レビューページに表示するには、少なくとも1つの製品を選択する必要があります。",
+            "help_text": "デフォルトで、すべての公開されたレビューが表示されます"
+        },
+        "one_page_header": {
+            "title": "1ページのヘッダー"
+        },
+        "review_display": {
+            "title": "情報表示",
+            "summary_box": "サマリーボックス",
+            "product": "製品"
+        }
+    },
+    "after_review_submitted": {
+        "show_discount_code": "割引コードを表示",
+        "discount_code_color": "割引コードの色",
+        "message_background_color": "メッセージの背景色",
+        "title_label": "タイトルラベル",
+        "description_label": "説明ラベル",
+        "title_label_color": "タイトルラベルの色",
+        "description_label_color": "説明ラベルの色",
+        "show_submitted_review": "送信されたレビューを表示",
+        "button_label": "ボタンラベル"
+    },
+    "tabs": {
+        "discount_voucher": "割引クーポン",
+        "product_rating": "製品評価",
+        "review_display": "レビュー表示",
+        "review_testimonial": "レビューと証言",
+        "review_onepage": "レビュー ページ"
+    },
+    "title": "ウィジェット管理",
+    "add_widget_guild": {
+        "title": "ウィジェットをインストールする方法",
+        "enable_global_script": "始める前に、<strong><span>Shopify管理画面でTrustShop Globalアプリ埋め込みを有効にする</span></strong>ことを確認してください",
+        "add_widget_v2": {
+            "title": "ウィジェットを追加する方法: Shopifyアプリブロック経由",
+            "for": "(テーマ2.0向け)",
+            "step": {
+                "step_1": "<strong><span>ウィジェットを追加</span></strong>をクリックしてShopify管理画面を開く",
+                "step_2": "<strong>Shopifyエディター</strong>が開き、ウィジェットが自動的に追加されます",
+                "step_3": "<strong>保存ボタン</strong>（右上）をクリックし、成功メッセージが表示されることを確認する"
+            }
+        },
+        "add_widget_v1": {
+            "title": "ウィジェットを手動で追加する方法",
+            "for": "(テーマ1.0 - ビンテージテーマ向け)",
+            "description": "以下のコードをコピーして、ウィジェットを表示したい特定のセクションに貼り付けてください。 <span>詳細はこちら</span>"
+        }
+    },
+    "multi_lang": {
+        "enable": {
+            "title": "自動翻訳が有効です",
+            "content": "ウィジェットのコンテンツの自動翻訳が有効になっています。変更したい場合は、<anchor>レビュー設定</anchor>でカスタマイズしてください。"
+        },
+        "disable": {
+            "content": "購入者の国に応じて言語を自動的に変更する機能を試してください。",
+            "button": "グローバル設定に移動"
+        }
+    }
+}

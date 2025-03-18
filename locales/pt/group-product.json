@@ -1,0 +1,41 @@
+{
+    "group_overview": {
+        "title": "Grupo de produtos",
+        "description": "Agrupe produtos semelhantes para compartilhar e exibir avaliações juntos, simplificar pacotes e criar exibições de avaliações personalizadas com facilidade.",
+        "create_button": "Criar grupo",
+        "delete_group_message": "Se você excluir o grupo, todas as avaliações serão separadas e voltarão aos seus produtos originais. Você não terá mais acesso e esta ação não poderá ser desfeita. Você quer continuar?",
+        "delete_group": "Excluir grupo",
+        "limit_function": "Atualize para um plano superior para usar esta função. <1>Ver preços</1>"
+    },
+    "create_group_page": {
+        "title": "Criar grupo de produtos",
+        "group_name": "Nome do grupo",
+        "product_in_this_group": "Produtos neste grupo",
+        "description": "Adicione produtos a este grupo",
+        "sub_description": "Selecione o produto para adicionar a este grupo",
+        "add_product": "Adicionar produto",
+        "unsaved_change_title": "Tem certeza de que deseja sair?",
+        "unsaved_change_message": "Seu grupo não foi salvo. Se você sair, suas configurações serão perdidas. Você quer continuar?"
+    },
+    "create_group_modal": {
+        "title": "Criar Grupo de Produtos",
+        "select_product_for": "Selecionar produto para",
+        "add_product_to_group": "Adicionar produto ao grupo",
+        "search_product": "Buscar produto",
+        "product": "Produto",
+        "total_reviews": "Total de avaliações",
+        "average_rating": "Classificação média",
+        "no_product_found": "Nenhum produto encontrado",
+        "no_result_for": "Nenhum resultado para "
+    },
+    "group_detail_page": {
+        "group_rating_summary": "Resumo da classificação do grupo",
+        "products_in_group": "Produtos no grupo",
+        "reviews_in_group": "Avaliações no grupo",
+        "delete_product": "Excluir produto",
+        "most_helpful": "Mais útil",
+        "newest": "Mais recente",
+        "delete_confirm_title": "Excluir produto do grupo",
+        "delete_confirm_message": "Tem certeza de que deseja excluir este produto?"
+    }
+}

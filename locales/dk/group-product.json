@@ -1,0 +1,41 @@
+{
+    "group_overview": {
+        "title": "Gruppeprodukt",
+        "description": "Grupper lignende produkter for at dele og vise anmeldelser sammen, strømline bundter og oprette brugerdefinerede anmeldelsesvisninger uden besvær.",
+        "create_button": "Opret gruppe",
+        "delete_group_message": "Hvis du sletter gruppen, vil alle anmeldelser blive adskilt og vende tilbage til deres oprindelige produkter. Du vil ikke længere have adgang, og denne handling kan ikke fortrydes. Vil du fortsætte?",
+        "delete_group": "Slet gruppe",
+        "limit_function": "Opgrader til højere plan for at bruge denne funktion. <1>Se priser</1>"
+    },
+    "create_group_page": {
+        "title": "Opret gruppeprodukt",
+        "group_name": "Gruppenavn",
+        "product_in_this_group": "Produkter i denne gruppe",
+        "description": "Tilføj produkter til denne gruppe",
+        "sub_description": "Vælg produkt for at tilføje til denne gruppe",
+        "add_product": "Tilføj produkt",
+        "unsaved_change_title": "Er du sikker på, at du vil afslutte?",
+        "unsaved_change_message": "Din gruppe er ikke blevet gemt. Hvis du afslutter, vil dine indstillinger gå tabt. Vil du fortsætte?"
+    },
+    "create_group_modal": {
+        "title": "Opret gruppeprodukt",
+        "select_product_for": "Vælg produkt til",
+        "add_product_to_group": "Tilføj produkt til gruppe",
+        "search_product": "Søg produkt",
+        "product": "Produkt",
+        "total_reviews": "Samlede anmeldelser",
+        "average_rating": "Gennemsnitlig vurdering",
+        "no_product_found": "Ingen produkter fundet",
+        "no_result_for": "Intet resultat for "
+    },
+    "group_detail_page": {
+        "group_rating_summary": "Gruppevurderingsoversigt",
+        "products_in_group": "Produkter i gruppen",
+        "reviews_in_group": "Anmeldelser i gruppen",
+        "delete_product": "Slet produkt",
+        "most_helpful": "Mest nyttige",
+        "newest": "Nyeste",
+        "delete_confirm_title": "Slet produkt fra gruppe",
+        "delete_confirm_message": "Er du sikker på, at du vil slette dette produkt?"
+    }
+}

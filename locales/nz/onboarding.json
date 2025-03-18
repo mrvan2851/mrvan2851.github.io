@@ -1,0 +1,169 @@
+{
+    "step_1": {
+        "button": "Tīmatahia",
+        "sub_title": "Tīmatahia mā te hono i tō toa Shopify. Ka hono māmā te TrustShop ki tō toa, hei whakamāmā i te whakahaere arotake me te whakarite hono ki ngā kiritaki.",
+        "title": "✋ Haere mai ki TrustShop",
+        "select_language": "He aha te reo matua mō tō kōrero?",
+        "select_language_subtitle": "Tīpakohia tō reo pai mō te atanga.",
+        "help_text": "Ka taea e koe te huri i te reo matua i ngā wa katoa i ngā tautuhinga.",
+        "app_language": "Reo o te taupānga"
+    },
+    "step_2": {
+        "quick_guide": {
+            "reload_btn": "Tārua anō",
+            "recheck_btn": "Hapa. Pāwhiria hei tirotiro anō",
+            "step_1": "<p>Pāwhiria te pātea <span>Enable app embed</span></p>",
+            "step_2": "<p>Ka tuwhera he whārangi, ā, ka <span>hono aunoa</span> te taupānga</p>",
+            "step_3": "<p>Pāwhiria te pātea <span>Save</span> (i te kokonga rōpū-matau) ā, me kite koe i te karere angitū</p>",
+            "step_4": "<p>Hoki mai ki tēnei <span>whārangi tiimata</span> hei haere tonu ki te tiimata i te <span>TrustShop</span>.</p>",
+            "success_btn": "I te angitū te hono i te taupānga",
+            "sub_title": "Hono i te taupānga māmā i ngā hipanga e whai ake nei: ",
+            "title": "👉 Arohia tēnei aratohu 👈",
+            "not_detect_embedded": "Kāore e taea te kite i te taupānga. Tēnā whakaarahia anō.",
+            "add_widget_helptext": "Kei te raru koe i te tāpiri i te wāhitau? Tēnā whakapā mai ki a mātou mō ngā tautoko taipitopito!",
+            "helptext": "<p>Ko tēnei peka e tāpiri ana i ngā waehere e hiahiatia ana hei whakaatu arotake i tō toa.</p><p><i>Aroha mai, kāore e pā ki te hoahoa ratau te rārangi o tō toa.</i></p>"
+        },
+        "sub_title": "Whakaatu arotake i ngā hipanga e whai ake nei.",
+        "title": "Tono Arotake Aunoa",
+        "email_setting_title": "Whakaritea te tono arotake īmēra",
+        "email_setting_subtitle": "Ka tukuna ngā īmēra tono arotake aunoa i runga i ngā tautuhinga kei raro nei",
+        "customer_in_country": "Ngā kiritaki kei te whenua",
+        "default_country": "Taunoa (Ngā whenua katoa)",
+        "send_email_request_review": "Tukua te tono arotake īmēra",
+        "after_order": "I muri i te pātea wāhitau",
+        "add_more_country": "Tāpiri whenua anō",
+        "help_text": "Ka taea e koe te huri i tēnei tautuhinga i ngā wa katoa i ngā tautuhinga."
+    },
+    "step_3": {
+        "v1": {
+            "quick_guide": {
+                "title": "Tāpiri Widget Arotake",
+                "reload_btn": "Tārua Anō",
+                "recheck_btn": "Hē. Pāwhiritia ki te whiwhi anō",
+                "step_1": "<p>Whakatāia <1>templates/product.liquid</1> i roto i te etita</p>",
+                "step_2": "<p>Tāpiri te waehere kei raro i te kōnae ariā</p>",
+                "step_3": "<p>Pāwhiritia <span>Save</span></p>",
+                "step_4": "<p>Hoki ki tēnei <span>whārangi rongoā</span> hei whainga i te mahi rongoā.</p>",
+                "helptext": "<p>Ko tēnei peka e tāpiri ana i ngā waehere e hiahiatia ana hei whakaatu arotake i tō toa.</p><p><i>Aroha mai, kāore e pā ki te hoahoa ratau te rārangi o tō toa.</i></p>"
+            }
+        },
+        "v2": {
+            "quick_guide": {
+                "title": "Tāpiri Widget Arotake",
+                "reload_btn": "Tārua Anō",
+                "recheck_btn": "Hē. Pāwhiritia ki te whiwhi anō",
+                "step_1": "<p>Pāwhiritia te paetukutuku <span>Widget tāpiri</span></p>",
+                "step_2": "<p>Ko te widget ka tāpiri ki tō tauira hua</p>",
+                "step_3": "<p>Pāwhiritia <span>Save</span> hei whakamana i ngā huringa</p>",
+                "step_4": "Tirohia tō whārangi hua hei kite i ngā arotake i runga i te mahi",
+                "step_5": "<p>Hoki ki tēnei <span>whārangi rongoā</span> hei whainga i te mahi rongoā</p>",
+                "helptext": "<p>Ko tēnei peka e tāpiri ana i ngā waehere e hiahiatia ana hei whakaatu arotake i tō toa.</p><p><i>Aroha mai, kāore e pā ki te hoahoa ratau te rārangi o tō toa.</i></p>"
+            }
+        },
+        "quick_guide": {
+            "sub_title": "Tēnā haere i ēnei paerewa hei whakatūpato arotake i tō toa:",
+            "title": "Rarangi Paerewa",
+            "not_detect_widget": "Aroha mai, kāore mātou i te kite i te widget. Me mēnā, whakamātauria anō!",
+            "add_widget_helptext": "Kei te raru koe i te tāpiri i te widget? Hono mai ki mātou mō ngā rongoā whai take!",
+            "success_btn": "I tāpiri te widget pai"
+        },
+        "sub_title": "Whakaatuhia te widget arotake i tō toa ipurangi.",
+        "title": "Tūhono te whakaaturanga arotake hua",
+        "enable_app_embed": "Whakaūhia te hātepe Rongoā App",
+        "enable_app_embed_subtitle": "Tēnā haere i ēnei paerewa hei whakatūpato arotake i tō toa",
+        "add_widget_btn": "Tāpiri Widget",
+        "enable_embed": "Whakaūhia te hātepe App"
+    },
+    "step_4": {
+        "button": "Pātea ki te rārangi whakahaere",
+        "sub_title": "Nāu te mahi! Kua tae koe ki te tautoko ki te tipu o tō tohu me ngā arotake me ngā tohutoro. Ko te wā kei te tūturu tō pakihi!",
+        "title": "Kua tae koe ki te wā!",
+        "import_text": "Tāpiri arotake māmā mai i ngā Arotake Hua e Shopify, Judge.me, Loox, me ētahi atu",
+        "import_button": "Tāpiri arotake",
+        "dashboard_text": "Tīmata ki te whakahaere arotake me te hoko kiritaki ki tō tohu",
+        "dashboard_button": "Pātea ki te rārangi whakahaere"
+    },
+    "pricing_page": {
+        "title": "Uara māmā, māmā hoki!",
+        "sub_title": "7 rā whakamātautau kore utu. Kāore he utu huna.",
+        "free_plan_des": "Rangahaua noa ki te tīmata, pai mō ngā tīmatanga.",
+        "recommended": "Tūtohua",
+        "pricing_card": {
+            "basic": {
+                "title": "Paerewa",
+                "sub_title": "He pai mō ngā pakihi iti.",
+                "benefit": {
+                    "1": "<p><span>200</span> arotake tono /marama</span>",
+                    "2": "<p>Ka taea te whakamahi i ngā āhuatanga paerewa</p>",
+                    "3": "<p>Hono i te hononga Shopify</p>",
+                    "4": "<p>Whakaritea tautoko kiritaki</p>"
+                }
+            },
+            "pro": {
+                "title": "Pakihi",
+                "sub_title": "Tīmata ki tō pakihi ki te rahi ake.",
+                "benefit": {
+                    "1": "<p><span>1,500</span> arotake tono /marama</p>",
+                    "2": "<p>Ka taea te whakamahi i <span>ngā āhuatanga premium</span>.</p>",
+                    "3": "<p>Whakaaturanga paetukutuku arotake</p>",
+                    "4": "<p>Roa paetukutuku</p>",
+                    "5": "<p>Hono i te hononga Shopify</p>",
+                    "6": "<p>Whakaritea tautoko kiritaki</p>"
+                }
+            },
+            "unlimited": {
+                "title": "Katoa",
+                "sub_title": "Aroha mai, kāore e paingia tō pākiki.",
+                "benefit": {
+                    "1": "<p><span>Katoa</span> arotake tono</p>",
+                    "2": "<p>Ka taea te whakamahi i <span>ngā āhuatanga premium</span>.</p>",
+                    "3": "<p>Whakaaturanga paetukutuku arotake</p>",
+                    "4": "<p>Roa paetukutuku</p>",
+                    "5": "<p>Hono i te hononga Shopify</p>",
+                    "6": "<p>Whakaritea tautoko kiritaki</p>"
+                }
+            }
+        }
+    },
+    "modal_compare_plans": {
+        "title": "Tāruarua i ngā Mahere",
+        "pricing_card": {
+            "free": {
+                "title": "Paerewa",
+                "sub_title": "Tīmatahia kore utu, pai mō ngā tīmatanga.",
+                "benefit": {
+                    "1": "<p><span>50</span> arotake tono /marama</span>",
+                    "2": "<p>Paerewa ki te wāhitau arotake</p>",
+                    "3": "<p>Paerewa ki te īmēra tono</p>",
+                    "4": "<p>Āwhina i te whakauru i ngā whakaahua a ngā arotake</p>"
+                }
+            },
+            "basic": {
+                "title": "Paerewa",
+                "sub_title": "Pai mō ngā pakihi iti me ngā tangata whaihua.",
+                "benefit": {
+                    "1": "<p><span>200</span> arotake tono /marama</span>",
+                    "2": "<p>Ka taea te whakamahi i <span>ngā āhuatanga premium</span></p>",
+                    "3": "<p>Wāhitau whakarite</p>",
+                    "4": "<p>Arotake ataata</p>",
+                    "5": "<p>Google hoko</p>",
+                    "6": "<p>Kia tiakina i ngā arotake</p>"
+                }
+            },
+            "pro": {
+                "title": "Pakihi",
+                "sub_title": "Tīmata ki tō pakihi ki te rahi ake.",
+                "benefit": {
+                    "1": "<p><span>1,500</span> arotake tono /marama</p>",
+                    "2": "<p>Ka taea te whakamahi i <span>ngā āhuatanga premium</span></p>",
+                    "3": "<p>Wāhitau whakarite</p>",
+                    "4": "<p>Arotake ataata</p>",
+                    "5": "<p>Google hoko</p>",
+                    "6": "<p>Kia tiakina i ngā arotake</p>",
+                    "7": "<p>Whakaaturanga paetukutuku arotake</p>",
+                    "8": "<p>Roa paetukutuku</p>"
+                }
+            }
+        }
+    }
+}

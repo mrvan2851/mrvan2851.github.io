@@ -1,0 +1,41 @@
+{
+    "group_overview": {
+        "title": "Grupo de productos",
+        "description": "Agrupa productos similares para compartir y mostrar reseñas juntas, simplificar paquetes y crear pantallas de reseñas personalizadas sin esfuerzo.",
+        "create_button": "Crear grupo",
+        "delete_group_message": "Si eliminas el grupo, todas las reseñas se separarán y volverán a sus productos originales. Ya no tendrás acceso, y esta acción no se puede deshacer. ¿Quieres continuar?",
+        "delete_group": "Eliminar grupo",
+        "limit_function": "Actualiza a un plan superior para usar esta función. <1>Ver precios</1>"
+    },
+    "create_group_page": {
+        "title": "Crear grupo de productos",
+        "group_name": "Nombre del grupo",
+        "product_in_this_group": "Productos en este grupo",
+        "description": "Añadir productos a este grupo",
+        "sub_description": "Selecciona producto para añadir a este grupo",
+        "add_product": "Añadir producto",
+        "unsaved_change_title": "¿Estás seguro de que quieres salir?",
+        "unsaved_change_message": "Tu grupo no ha sido guardado. Si sales, tus configuraciones se perderán. ¿Quieres continuar?"
+    },
+    "create_group_modal": {
+        "title": "Crear grupo de productos",
+        "select_product_for": "Seleccionar producto para",
+        "add_product_to_group": "Añadir producto al grupo",
+        "search_product": "Buscar producto",
+        "product": "Producto",
+        "total_reviews": "Total de reseñas",
+        "average_rating": "Calificación promedio",
+        "no_product_found": "No se encontró producto",
+        "no_result_for": "Sin resultados para "
+    },
+    "group_detail_page": {
+        "group_rating_summary": "Resumen de calificaciones del grupo",
+        "products_in_group": "Productos en el grupo",
+        "reviews_in_group": "Reseñas en el grupo",
+        "delete_product": "Eliminar producto",
+        "most_helpful": "Más útil",
+        "newest": "Más reciente",
+        "delete_confirm_title": "Eliminar producto del grupo",
+        "delete_confirm_message": "¿Estás seguro de que quieres eliminar este producto?"
+    }
+}

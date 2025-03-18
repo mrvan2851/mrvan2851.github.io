@@ -1,0 +1,90 @@
+{
+    "toast": {
+        "email": {
+            "update_success": "E-mail atualizado com sucesso",
+            "invalid_email": "E-mail inválido!",
+            "failed": "Falha ao enviar o e-mail",
+            "failed_reason": "Falha ao enviar o e-mail",
+            "get_campain_fail": "Falha ao recuperar os dados.",
+            "get_campaign_failed": "Falha ao recuperar a campanha",
+            "get_queue_failed": "Falha ao recuperar a fila",
+            "require_title": "Para ativar este e-mail, é necessário fazer 1 alteração:",
+            "require": "Você precisa ativar a solicitação de revisão",
+            "success": "Enviado com sucesso",
+            "empty": "Alguns campos estão vazios, preencha ou exclua-os antes de salvar.",
+            "send_again_success": "E-mail agendado"
+        },
+        "failed": "Falha!",
+        "get_status_fail": "Falha ao recuperar as informações.",
+        "onboarding": {
+            "reload": "Falha! Tente novamente",
+            "skip_enable_app_embed": "Pular habilitação de widget?",
+            "skip_enable_app_embed_notice": "Habilitar o widget permite exibir o componente na sua loja. Se preferir, você pode pular essa etapa e habilitar o widget mais tarde nas Configurações.",
+            "skip_add_block_title": "Pular adicionar widget?",
+            "skip_add_block_notice": "Adicionar widget permite exibir as avaliações na sua loja. Se preferir, você pode pular essa etapa e adicionar o widget mais tarde nas Configurações.",
+            "enable_app_embed": "Script habilitado com sucesso",
+            "add_app_block_success": "Widget adicionado com sucesso"
+        },
+        "publish_fail": "Falha ao publicar.",
+        "reply_fail": "Falha ao responder.",
+        "review": {
+            "delete_photo_fail": "Falha ao excluir a foto.",
+            "delete_reply_fail": "Falha ao excluir a resposta.",
+            "get_review_fail": "Falha ao recuperar avaliações.",
+            "publish_fail": "Falha ao publicar.",
+            "reject_fail": "Falha ao rejeitar."
+        },
+        "saved": "Salvo",
+        "server_error_title": "Erro no servidor",
+        "server_error": "Algo deu errado. Tente novamente mais tarde",
+        "setting": {
+            "validate_fail": "Alguns campos são inválidos."
+        },
+        "widget": {
+            "missing_shopify_code": "Você deve inserir um código Shopify no campo de texto",
+            "review_filter_null": "O filtro de avaliações deve ter pelo menos um valor."
+        },
+        "import_review": {
+            "success": "Importado com sucesso"
+        },
+        "add_widget_v1_confirm": "Obrigado por confirmar",
+        "export_review": {
+            "success": "Exportação em andamento, o arquivo será enviado para o seu e-mail em {{email}}",
+            "failed": "Erro na exportação, entre em contato para suporte"
+        },
+        "delete_review": {
+            "success": "Deletado com sucesso",
+            "failed": "Erro ao deletar."
+        },
+        "group_product": {
+            "at_least_2_product": "Selecione pelo menos 2 produtos",
+            "create_success": "Grupo criado com sucesso",
+            "delete_success": "Grupo {{name}} deletado",
+            "update_success": "Grupo atualizado com sucesso",
+            "add_product_success": "Produto adicionado com sucesso",
+            "delete_product_success": "Produto deletado com sucesso"
+        },
+        "delete_failed": "Falha ao excluir.",
+        "add_failed": "Falha ao adicionar",
+        "update_failed": "Falha ao atualizar"
+    },
+    "validate": {
+        "empty_input": "Preencha este campo!",
+        "greater_than_0": "O valor deve ser maior que 0!",
+        "smaller_than_100": "O valor não pode ser maior que 100!",
+        "invalid_email": "E-mail inválido!",
+        "invalid_url": "URL inválido!",
+        "word_not_allow": "não permitido!",
+        "this_field_required": "Este campo é obrigatório!",
+        "invalid_quantity": "A quantidade deve ser um número entre 5 e 200!",
+        "quantity_review_per_page": "A quantidade deve ser entre 1 e 10!",
+        "quantity": "Número máximo de avaliações é 200",
+        "import_review": {
+            "fail": "Falha na importação. Tente novamente",
+            "size": "O arquivo excede o tamanho máximo (5MB)",
+            "type": "Tipo de arquivo inválido"
+        },
+        "limit_email_send_test": "Aguarde 90 segundos para enviar o próximo e-mail!",
+        "email_exist": "E-mail já existe!"
+    }
+}

@@ -1,0 +1,365 @@
+{
+    "general": {
+        "email_setting": {
+            "email": {
+                "reply_to_email": "Correo de respuesta",
+                "reply_to_email_helptext": "Los clientes enviarán a este correo.",
+                "sender_email": "Correo del remitente",
+                "sender_email_helptext": "Este correo se usará para enviar a sus clientes.",
+                "sender_name": "Nombre del remitente",
+                "title": "Configuración de correo electrónico",
+                "send_email_from_source": "Enviar correo de solicitud de reseña al pedido desde:",
+                "web": "Tienda en línea",
+                "pos": "POS",
+                "shopify_draft_order": "Pedido provisional",
+                "email_blocklist": "Lista de correos bloqueados",
+                "email_blocklist_helptext": "No se enviarán correos de solicitud y recordatorio a estos correos",
+                "block_email_placeholder": "Presiona Enter para agregar un nuevo correo",
+                "unblock_message_title": "Enviar correos que fueron bloqueados previamente",
+                "unblock_message": "¿Desea enviar los correos que fueron bloqueados previamente o cancelar su envío?",
+                "remember_choice_time": "Recordar mi respuesta por 1 hora",
+                "block_send_email_conditions": "Bloquear el envío de correos por condiciones",
+                "product_block_list": "Lista de productos bloqueados",
+                "select_product": "Seleccionar producto",
+                "order_tag_blocklist": "Lista de pedidos bloqueados",
+                "order_tag_blocklist_placeholder": "Presiona Enter para agregar etiquetas",
+                "order_tag_blocklist_helptext": "No se enviarán correos de solicitud y recordatorio desde pedidos que contengan etiquetas en la lista anterior"
+            },
+            "sub_title": "Ajuste la configuración de correo electrónico para mejorar la productividad y las comunicaciones",
+            "title": "Configuración de correo electrónico",
+            "custom_domain": {
+                "edit_domain_btn": "Editar dominio",
+                "page": {
+                    "title": "dominio personalizado",
+                    "empty_page": {
+                        "description": "Vincula tu dominio de correo electrónico personalizado para enviar mensajes desde la dirección de correo electrónico de tu marca. Esto mejorará el profesionalismo de tu marca y ayudará a que tus mensajes se destaquen en las bandejas de entrada de los destinatarios.",
+                        "external_link": "Aprende cómo configurar",
+                        "add_domain_btn": "Añadir tu dirección de correo electrónico"
+                    },
+                    "overview_page": {
+                        "unverified": "No verificado",
+                        "verified": "Verificado",
+                        "edit_domain": "Editar dominio",
+                        "config_dns_settings": "Configurar ajustes de DNS",
+                        "config_dns_settings_helptext": "Inserta los siguientes registros MX, SPF y DKIM en la configuración de tu DNS para autenticar <strong>{{domain}}</strong>.",
+                        "show_config": "Mostrar configuración",
+                        "record_config": {
+                            "type": "TIPO",
+                            "name": "NOMBRE DEL HOST",
+                            "value": "VALOR",
+                            "priority": "PRIORIDAD",
+                            "mx": {
+                                "title": "Registro MX",
+                                "sub_title": "Configura dos registros MX que coincidan con los detalles a continuación:"
+                            },
+                            "spf": {
+                                "title": "Registro SPF",
+                                "sub_title": "Incluye un registro SPF que coincida con los detalles a continuación:"
+                            },
+                            "dkim": {
+                                "title": "Registro DKIM",
+                                "sub_title": "Incluye un registro DKIM que coincida con los detalles a continuación:"
+                            },
+                            "dmarc": {
+                                "title": "Registro DMARC",
+                                "sub_title": "Incluye un registro DMARC que coincida con los detalles a continuación:"
+                            },
+                            "custom_from": {
+                                "title": "Registro CUSTOM FROM",
+                                "sub_title": "Incluye un registro CUSTOM FROM que coincida con los detalles a continuación:"
+                            },
+                            "notice": "Aviso: Tu registro {{config}} aún no ha sido verificado. Puede tardar unas horas o incluso hasta 72 horas para que los registros DNS se propaguen completamente.",
+                            "verify_domain": "Verificar dominio"
+                        },
+                        "modal_add_domain": {
+                            "title": "Añadir tu dirección de correo electrónico",
+                            "input_label": "Introduce la dirección de correo electrónico que te gustaría usar para enviar mensajes.",
+                            "validate_domain": "Solo puedes añadir tu propio dominio. Trusthop no admite la adición de dominios públicos (por ejemplo, gmail.com, yahoo.com)",
+                            "add_domain_btn": "Añadir dominio"
+                        },
+                        "modal_delete_domain": {
+                            "title": "¿Eliminar dominio personalizado?",
+                            "description": "Si eliminas tu dominio personalizado, volverás a usar el dominio predeterminado y ya no podrás usar este dominio. Esta acción no se puede deshacer. ¿Quieres continuar?"
+                        }
+                    }
+                }
+            },
+            "unsubscribe_management": {
+                "title": "Gestión de bajas",
+                "subtitle": "Rastrea y gestiona los clientes que se han dado de baja de tus correos electrónicos de solicitud de reseñas.",
+                "customer_have_unsubscribed": "Clientes se han dado de baja",
+                "email": "Correo electrónico",
+                "topic_type": "Tipo de tema",
+                "unsubscribe_date": "Fecha de baja",
+                "delete_title": "Eliminar baja",
+                "delete_unsubscribe_confirm": "¿Estás seguro de que deseas eliminar este/estos correo(s)? Esta acción no se puede deshacer.",
+                "no_unsubscribe_title": "No hay clientes dados de baja",
+                "no_unsubscribe_description": "La información sobre los clientes que se han dado de baja de los correos electrónicos aparecerá aquí"
+            }
+        },
+        "general_setting": {
+            "profile": {
+                "logo": "Logo",
+                "logo_helptext": "Acepta .gif, .jpg y .png",
+                "select_image": "Seleccionar imagen",
+                "store_email": "Correo electrónico de la tienda",
+                "store_email_helptext": "Utilizaremos esta dirección si necesitamos comunicarnos con usted acerca de su cuenta.",
+                "store_name": "Nombre de la tienda",
+                "store_name_helptext": "Aparece en los encabezados de correo electrónico sin agregar un logotipo.",
+                "store_url": "URL de la tienda",
+                "title": "Perfil",
+                "time": {
+                    "time_format": "Formato de hora",
+                    "sample": {
+                        "12h": "12 Hour",
+                        "24h": "24 Hour"
+                    }
+                },
+                "date": {
+                    "date_format": "Formato de fecha",
+                    "sample": {
+                        "month_day_year": "Aug 05 2006",
+                        "day_month_day_year": "Sat Aug 05 2006",
+                        "day_of_week_month_day_year": "Saturday, August 05 2006",
+                        "day_month_day_year_slash": "Sat 08/05/2006",
+                        "day_month_day_year_slash_short_year": "Sat 8/5/06",
+                        "month_day_year_slash": "08/05/2006",
+                        "month_day_year_slash_short_year": "8/5/06",
+                        "month_day_year_time": "Aug 05 2006",
+                        "day_month_day_year_time": "Sat Aug 05 2006",
+                        "day_of_week_month_day_year_time": "Saturday, August 05 2006",
+                        "day_month_day_year_slash_time": "Sat 08/05/2006",
+                        "day_month_day_year_slash_short_year_time": "Sat 8/5/06",
+                        "month_day_year_slash_time": "08/05/2006",
+                        "month_day_year_slash_short_year_time": "8/5/06"
+                    }
+                }
+            },
+            "sub_title": "Configure su cuenta con su correo electrónico, logotipo y redes sociales",
+            "title": "Configuración general"
+        },
+        "social_links": {
+            "social": {
+                "helptext": "Incluye el canal social en el pie de página del correo electrónico",
+                "title": "Configuración social"
+            },
+            "mobile_apps": {
+                "title": "Aplicaciones móviles",
+                "sub_title": "Incluye el canal social en el pie de página del correo electrónico"
+            },
+            "sub_title": "Personalice la configuración de sus enlaces sociales para compartir y comunicarse de manera efectiva con sus clientes",
+            "title": "Enlaces sociales"
+        },
+        "review_action": {
+            "title": "Exportar/Eliminar reseñas",
+            "sub_título": "Exportar y eliminar todas las reseñas de tu tienda",
+            "export_review": "Exportar reseñas",
+            "export_review_helptext": "Tomará unos minutos exportar las reseñas. El archivo de exportación se enviará a tu correo electrónico en <1>{{email}}</1>.",
+            "delete_all": "Eliminar todo",
+            "delete_all_helptext": "Esta acción no se puede deshacer, así que asegúrate antes de eliminar las reseñas.",
+            "delete_confirm": "Esta acción no se puede deshacer, así que asegúrate antes de eliminar las reseñas"
+        }
+    },
+    "review": {
+        "auto_publish_reviews": {
+            "title": "Publicar automáticamente reseñas",
+            "sub_title": "Seleccione qué reseñas desea publicar automáticamente. Cualquier cambio solo afectará a las nuevas reseñas.",
+            "enable_auto_publish_reviews": "Habilitar publicación automática de reseñas",
+            "auto_publish_reviews_if": "Publicar automáticamente nuevas reseñas en la tienda si:"
+        },
+        "new_review_notification": {
+            "title": "Notificación de nueva reseña",
+            "sub_title": "Reciba notificaciones por correo electrónico de nuevas reseñas enviadas. Esto no incluye las reseñas agregadas mediante importación.",
+            "enable_new_review_notification": "Habilitar notificación de nueva reseña",
+            "send_email_to_merchant_if": "Enviar correo electrónico al comerciante si los clientes dejan una reseña",
+            "receive_email": "Recibir notificaciones por correo electrónico de reseñas negativas",
+            "selected_lang_for_system_email": "Seleccionar idioma para correos electrónicos del sistema"
+        },
+        "protect_reviews": {
+            "title": "Proteger tus reseñas",
+            "sub_title": "Configura palabras clave relevantes para proteger tus reseñas y evitar que aparezcan contenidos sensibles como pornografía, violencia, terrorismo, fraudes, enlaces de phishing o malware.",
+            "enable_protect_reviews": "Habilitar protección de reseñas",
+            "block_additional_words_description": "Ya hemos bloqueado las groserías más comunes. Agrega más palabras escribiéndolas en el cuadro a continuación.",
+            "add_word_placeholder": "Escribe una palabra clave y presiona enter",
+            "search_language_placeholder": "Buscar idioma",
+            "no_language_found": "No se encontró ningún idioma que coincida con {{lang}}",
+            "lang_have_added": "{{lang}} ha sido agregado"
+        },
+        "auto_send_email": {
+            "title": "Enviar correos electrónicos automáticamente al cliente",
+            "sub_title": "Cuando respondas a una reseña de un cliente en la sección de gestión de reseñas, el sistema enviará automáticamente un correo electrónico al cliente con el contenido de tu respuesta",
+            "enable_auto_send_email": "Habilitar envío de correos electrónicos",
+            "send_email_to_merchant_when_source": "Enviar correos electrónicos a los clientes cuando respondas a sus reseñas a través de la fuente:",
+            "store_front": "Tienda física",
+            "email": "Correo electrónico",
+            "import_csv": "Importar CSV"
+        },
+        "review_translate": {
+            "title": "Traducir el contenido de las reseñas",
+            "sub_title": "Se mostrará un botón de traducir en las reseñas, permitiendo a los compradores traducir fácilmente el contenido a su idioma nativo.",
+            "review_content_translation": "Traducción del contenido de la reseña",
+            "example": "Ejemplo"
+        },
+        "multi_lang": {
+            "title": "Traducir el idioma del widget",
+            "sub_title": "El contenido del widget se traducirá automáticamente al idioma de los compradores en cada mercado donde opere tu tienda.",
+            "auto_multi_lang": "Cambio automático de idioma",
+            "description": "De forma predeterminada, todos los widgets de reseñas se mostrarán en inglés. Cuando actives esta función, el idioma del widget cambiará automáticamente al idioma del comprador según el país desde el que esté visitando."
+        }
+    },
+    "tabs": {
+        "general": "General",
+        "review": "Reseña",
+        "import_review": "Importar reseña",
+        "gg_shopping": "Reseña de productos de Google",
+        "pricing": "Precios",
+        "global_display": "Visualización Global",
+        "integrations": "Integraciones"
+    },
+    "title": "Configuración",
+    "import_review": {
+        "save_success": "¡Guardado exitosamente!",
+        "save_error": "¡Error inesperado!",
+        "filter_review": {
+            "title": "Filtrar reseñas",
+            "sub_title": "Se importarán las reseñas que cumplan con las condiciones",
+            "quantity_import": "Cantidad de importación",
+            "generate": "Generar cantidad aleatoria",
+            "auto_publish_review_label": "Publicar automáticamente las reseñas con",
+            "contain_option_label": "Contener opción",
+            "contain_photos": "Contener fotos",
+            "contain_review_content": "Contener contenido de reseña",
+            "customer_country": "País del cliente",
+            "date_range": "Rango de fechas",
+            "skip_review": "Omitir reseñas con palabras clave",
+            "skip_review_value": "AliExpress, Ali AliExpress, Fraude, Estafa, Falso, Imitación, Réplica, Peor"
+        },
+        "generate_title": {
+            "title": "Generar títulos de reseñas",
+            "sub_title": "Generar automáticamente títulos de reseñas basados en las calificaciones de estrellas si la fuente no tiene un título",
+            "star": {
+                "1_star": "1 estrella",
+                "2_star": "2 estrellas",
+                "3_star": "3 estrellas",
+                "4_star": "4 estrellas",
+                "5_star": "5 estrellas"
+            },
+            "title_placeholder": "¡Perfecto en todos los detalles!",
+            "title_random": {
+                "title": "Título aleatorio",
+                "sub_title": "Generar título aleatorio para las reseñas"
+            },
+            "new_title": "Nuevo título"
+        }
+    },
+    "filter_date": {
+        "all_times": "Cualquier momento",
+        "today": "Hoy",
+        "yesterday": "Ayer",
+        "last_7_days": "Últimos 7 días",
+        "last_month": "Último mes",
+        "last_year": "Último año"
+    },
+    "gg_shopping": {
+        "title": "Reseña de productos de Google",
+        "sub_title": "Muestra testimonios de clientes destacados directamente en tus listados de Google Shopping para captar más atención y generar confianza.",
+        "google_product_review": {
+            "title": "Feed de reseñas de productos de Google",
+            "generate_feed": "Generar el feed de reseñas de productos",
+            "generate_feed_helptext": "Modifica la frecuencia de actualización para que coincida con la configuración en Google Merchant Center",
+            "fetch_frequency": "Frecuencia de obtención",
+            "daily": "Diario",
+            "weekly": "Semanal",
+            "monthly": "Mensual",
+            "fetch_date": "Fecha de obtención",
+            "fetch_time": "Hora de obtención",
+            "time_zone": "Zona horaria",
+            "disabled": "Desactivado",
+            "XML_file_name": "Nombre del archivo XML",
+            "view_instructions": "Ver instrucciones"
+        },
+        "reviewer_content": {
+            "title": "Contenido del revisor",
+            "reviewer_name_format": "Formato del nombre del revisor",
+            "includes_medias": "Incluir fotos/videos de la reseña",
+            "include_personal_info": "Incluir reseñas que contengan información personal",
+            "include_personal_info_helptext": "Reemplazar la información personal con asteriscos"
+        },
+        "advanced_setting": {
+            "title": "Configuración avanzada",
+            "add_gtin": "Agregar GTIN en el feed (Predeterminado)",
+            "add_mpn": "Agregar MPN en el feed",
+            "add_mpn_helptext": "Esto incluirá el mismo valor de SKU en el administrador de Shopify",
+            "exclude_out_of_store": "Excluir reseñas de productos fuera de la tienda"
+        }
+    },
+    "global_display": {
+        "icon_and_corner": {
+            "title": "Configuración de visualización",
+            "subtitle": "Cuando se cambie un atributo a continuación, todo el sistema se actualizará en consecuencia",
+            "star_icon": {
+                "title": "Icono de estrella",
+                "icon_style": "Estilo del icono"
+            },
+            "element_corner": {
+                "title": "Esquinas de los elementos",
+                "button_radius": "Radio de las esquinas de los botones",
+                "other_element": "Esquinas de otros elementos",
+                "element": "Elemento"
+            }
+        },
+        "reviewer_name": {
+            "title": "Visualización del nombre del revisor",
+            "sub_title": "Seleccione la entrada predeterminada del nombre del revisor desde el formulario o personalícelo manualmente",
+            "reviewer_name_format": "Formato del nombre del revisor",
+            "default": {
+                "label": "Predeterminado",
+                "helptext": "Mostrar automáticamente el nombre del revisor desde el formulario de revisión"
+            },
+            "manually": {
+                "label": "Manual",
+                "helptext": "Elija un formato de visualización de nombre predeterminado y aplíquelo a todos los revisores",
+                "name_display_format": "Formato de visualización del nombre"
+            }
+        },
+        "reviewer_avt_format": {
+            "title": "Configuración del avatar del revisor",
+            "sub_title": "Configura el avatar de tu revisor eligiendo colores o usando ilustraciones alternativas",
+            "colorful_avt": {
+                "label": "Avatar colorido",
+                "helptext": "Generar avatar automáticamente desde la rueda de colores"
+            },
+            "base_color_avt": {
+                "label": "Avatar de color base",
+                "helptext": "Crear avatar del revisor con un color base"
+            },
+            "gravatar_avt": {
+                "label": "Avatar de Gravatar",
+                "helptext": "Usar Gravatar para mostrar el avatar del revisor"
+            }
+        },
+        "review_date_format": {
+            "title": "Formato de fecha de la reseña",
+            "sub_title": "Configura el formato de fecha en todos tus widgets.",
+            "sample": "Muestra"
+        }
+    },
+    "rich_snippet": {
+        "title": "Fragmento enriquecido",
+        "description": "Permite a los usuarios crear fragmentos enriquecidos, mejorando la visibilidad en los resultados de búsqueda al mostrar información adicional como valoraciones, precios y disponibilidad directamente en los resultados de búsqueda, lo que impulsa más interacciones y mejora el SEO.",
+        "check_snippet": "Verificar fragmento",
+        "seo_integrations": "Integraciones SEO",
+        "seo_description": "Estas aplicaciones de fragmentos se sincronizan automáticamente con los fragmentos de reseñas de Trustshop.",
+        "text_field_label": "Ingresa tu enlace de producto para verificar el fragmento",
+        "text_field_placeholder": "Introduce el enlace del producto"
+    },
+    "partner_integrations": {
+        "third_party_apps": "Aplicaciones de terceros",
+        "partner_list": {
+            "langwill": "Traduce tu tienda a 138 idiomas y convierte automáticamente las monedas para aumentar las ventas en todo el mundo.",
+            "ilana": "Optimiza tu tráfico SEO destacando tus reseñas, precios y detalles comerciales en los resultados de búsqueda.",
+            "shopify_flow": "Personaliza tu tienda y automatiza tus tareas usando el editor de bajo código de Shopify Flow."
+        },
+        "integrations_now": "Integraciones ahora"
+    }
+}

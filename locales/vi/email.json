@@ -1,0 +1,247 @@
+{
+    "table": {
+        "navigate_button_content": "Luồng Email",
+        "no_data": {
+            "title": "Quản lý email",
+            "description": "Kích hoạt các mẫu email để bắt đầu gửi email tự động đến khách hàng.",
+            "setting_email_templates": "Cài đặt mẫu email"
+        },
+        "title": "Mail xin đánh giá",
+        "second_title": "Gửi email thủ công",
+        "search_placeholder": "Nhập địa chỉ mail hoặc mã đơn hàng",
+        "all_status": "Tất cả trạng thái",
+        "email_type": "Loại mail",
+        "email_review_request": "Mail xin đánh giá",
+        "remind_request_review": "Mail nhắc nhở đánh giá",
+        "thank_you_email": "Mail cám ơn",
+        "just_now": "Bây giờ",
+        "order_id": "Mã đơn hàng",
+        "buyer": "Khách hàng",
+        "location": "Quốc gia",
+        "product": "Sản phẩm",
+        "purchase_time": "Thời gian đặt hàng",
+        "schedule_date": "Ngày gửi mail",
+        "send_now": "Gửi ngay",
+        "send_again": "Gửi lại"
+    },
+    "campaign": {
+        "banner": {
+            "title": "Tùy chỉnh mail gửi đến khách hàng",
+            "content": "TrustShop cung cấp cho bạn công cụ tự động trong việc gửi mail xin đánh giá từ những khách hàng của bạn"
+        },
+        "email_content": "Nội dung Email",
+        "email_content_description": "Tạo nội dung email với ngôn ngữ phù hợp để đảm bảo khách hàng dễ dàng hiểu thông điệp",
+        "email_will_be_sent": "Email sẽ được gửi đi",
+        "title": "Luồng Email",
+        "not_active": "Tắt",
+        "running": "Bật",
+        "save_just_now": "Lưu ngay",
+        "send_test": "Gửi mail mẫu",
+        "send_test_email": "Gửi mail mẫu",
+        "enter_email_address": "Nhập địa chỉ email",
+        "confirm": "Xác nhận",
+        "when_to_send": "Thời gian gửi",
+        "all_change_save": "Đã lưu mọi thay đổi",
+        "all_customer": "Tất cả khách hàng",
+        "email_schedule": "Lịch gửi mail",
+        "email_scheduling": "Lập Kế Hoạch Gửi Email",
+        "email_scheduling_subtitle": "Tùy chỉnh thời gian khi gửi email đến khách hàng đến từ các khu vực địa lý khác nhau",
+        "to": "Tới",
+        "subject": "Chủ đề",
+        "preview": "Xem trước",
+        "from": "Từ",
+        "branding": "Thông tin cửa hàng",
+        "logo": "Logo",
+        "personalization": "Cá nhân hóa",
+        "active_require_toast": "Mail xin đánh giá đang tắt",
+        "product_quantity": "Số lượng sản phẩm",
+        "star_rating_icon": "Biểu tượng đánh giá sao",
+        "call_to_action_btn": "Nút kêu gọi hành động (Viết đánh giá)",
+        "request_review": {
+            "title": "Yêu cầu đánh giá",
+            "content": "Sau <strong>{{day}}</strong> ngày và một <strong>{{status}}</strong>, một email tự động sẽ được gửi đến khách hàng để yêu cầu họ đánh giá sản phẩm.",
+            "toast_active": "Yêu cầu đánh giá đã được kích hoạt",
+            "toast_deactive": "Yêu cầu đánh giá đã bị vô hiệu hóa"
+        },
+        "request_review_reminder": {
+            "title": "Nhắc nhở đánh giá",
+            "content": "Sau <strong>{{days}}</strong> ngày kể từ khi gửi email yêu cầu đánh giá đầu tiên, một email nhắc nhở sẽ được gửi tự động nếu không nhận được phản hồi. Chỉ hoạt động nếu email yêu cầu đánh giá được bật.",
+            "after_review_request_mail": "sau email yêu cầu đánh giá",
+            "toast_active": "Nhắc nhở email đã được kích hoạt",
+            "toast_deactive": "Nhắc nhở email đã bị vô hiệu hóa"
+        },
+        "thank_you_for_review": {
+            "title": "Cảm ơn vì đánh giá",
+            "content": "Sau khi khách hàng để lại đánh giá, một email cảm ơn sẽ được gửi tự động. Có thể thêm mã giảm giá và ưu đãi. Chỉ hoạt động nếu email yêu cầu đánh giá được bật.",
+            "content_2": "<strong>{{days}}</strong> ngày sau khi khách hàng để lại đánh giá, một email cảm ơn sẽ được gửi tự động. Có thể thêm mã giảm giá và ưu đãi. Chỉ hoạt động nếu email yêu cầu đánh giá được bật.",
+            "after_review_submit": "Đánh giá đã được gửi",
+            "review_submitted": "Đánh giá đã được gửi",
+            "approve_for_review": "Đánh giá đã được duyệt",
+            "toast_active": "Email cảm ơn đã được kích hoạt",
+            "toast_deactive": "Email cảm ơn đã bị vô hiệu hóa"
+        },
+        "send_test_success": "Email được gửi thành công",
+        "send_test_hepltext": "Nhập địa chỉ mail",
+        "store_name": "Tên cửa hàng",
+        "first_name": "Họ",
+        "last_name": "Tên",
+        "email": "Email",
+        "city": "Thành phố/Quận",
+        "state_province": "Tỉnh",
+        "country": "Đất nước",
+        "request_review_emails": "Mail xin đánh giá",
+        "background_color": "Màu nền",
+        "text_color": "Màu văn bản",
+        "show_header": "Hiển thị phần đầu",
+        "hide_header": "Ẩn phần đầu",
+        "order_status": "Trạng thái đơn hàng",
+        "complete": "Hoàn thành",
+        "completed": "Đã hoàn thành",
+        "order_paid": "Đã thanh toán",
+        "default": "Mặc định",
+        "add_country_timing": "Thêm quốc gia",
+        "type_a_language_name": "Nhập ngôn ngữ",
+        "no_language_found": "Không tìm thấy kết quả phù hợp: ",
+        "discount_voucher": "Mã giảm giá",
+        "automation": "Tự động hóa",
+        "discount_description": "Khuyến khích khách hàng để lại đánh giá bằng cách cung cấp giảm giá cho lần mua hàng tiếp theo của họ",
+        "email_queue": "Gửi email thủ công",
+        "email_queue_description": "Gửi email yêu cầu cho các đơn hàng chưa được gửi tự động",
+        "country_selected_count": "{{selected}} trong tổng số {{total}} đã chọn",
+        "country_group": {
+            "asia": "Châu Á",
+            "europe": "Châu Âu",
+            "africa": "Châu Phi",
+            "north_america": "Bắc Mỹ",
+            "south_america": "Nam Mỹ",
+            "oceania": "Châu Đại Dương"
+        }
+    },
+    "email_template": {
+        "request_review": {
+            "subject": "Hài lòng với việc mua hàng {{PRODUCT_NAME}}? Hãy để lại đánh giá ngay bây giờ!",
+            "preview_text": "Cảm ơn bạn đã mua hàng gần đây. Chúng tôi hy vọng bạn thích nó! Nếu có, đánh giá của bạn sẽ rất quan trọng với chúng tôi",
+            "body": {
+                "title": "Bạn có trải nghiệm như thế nào? 🤗",
+                "html": "<h2>Bạn có trải nghiệm như thế nào? 🤗</h2>",
+                "content": {
+                    "html": "<p><strong>Xin chào </strong>{{FIRST_NAME}}</p>\n<p>Chúng tôi muốn kiểm tra và biết bạn đang thích thú như thế nào khi mua sắm tại {{STORE_NAME}}</p>\n<p>Nếu bạn có chút thời gian, rất tuyệt nếu bạn có thể chia sẻ suy nghĩ và trải nghiệm của mình với chúng tôi và cộng đồng mua sắm. Sự đánh giá của bạn là tất cả 🤩.</p>\n",
+                    "raw": "{'blocks':[{'key':'e8our','text':'Xin chào {{FIRST_NAME}}','type':'unstyled','depth':0,'inlineStyleRanges':[{'offset':0,'length':6,'style':'BOLD'}],'entityRanges':[],'data':{}},{'key':'eustq','text':'Chúng tôi muốn kiểm tra và biết bạn đang thích thú như thế nào khi mua sắm tại {{STORE_NAME}}','type':'unstyled','depth':0,'inlineStyleRanges':[],'entityRanges':[],'data':{}},{'key':'7tjk7','text':'Nếu bạn có chút thời gian, rất tuyệt nếu bạn có thể chia sẻ suy nghĩ và trải nghiệm của mình với chúng tôi và cộng đồng mua sắm. Sự đánh giá của bạn là tất cả 🤩.','type':'unstyled','depth':0,'inlineStyleRanges':[],'entityRanges':[],'data':{}}],'entityMap':{}}"
+                },
+                "product": {
+                    "rate_this_item": {
+                        "text": "Đánh giá sản phẩm này"
+                    }
+                }
+            }
+        },
+        "thank_you_email": {
+            "subject": "Cảm ơn bạn đã để lại đánh giá! ❤️",
+            "preview_text": "Cảm ơn bạn đã mua hàng gần đây. Chúng tôi hy vọng bạn thích nó! Nếu có, đánh giá của bạn sẽ rất quan trọng với chúng tôi",
+            "body": {
+                "html": "<h2>Cảm ơn bạn đã để lại đánh giá! ❤️</h2>",
+                "title": "Cảm ơn bạn đã để lại đánh giá! ❤️",
+                "content": {
+                    "html": "<p><strong>Xin chào </strong>{{FIRST_NAME}}</p>\n<p>Xin cảm ơn bạn đã để lại đánh giá về việc mua sắm gần đây. Chúng tôi rất vui khi nghe được phản hồi và đánh giá thời gian bạn dành để chia sẻ trải nghiệm của mình với sản phẩm này.</p>",
+                    "raw": "{'blocks':[{'key':'e8our','text':'Xin chào {{FIRST_NAME}}','type':'unstyled','depth':0,'inlineStyleRanges':[{'offset':0,'length':6,'style':'BOLD'}],'entityRanges':[],'data':{}},{'key':'eustq','text':'Xin cảm ơn bạn đã để lại đánh giá về việc mua sắm gần đây. Chúng tôi rất vui khi nghe được phản hồi và đánh giá thời gian bạn dành để chia sẻ trải nghiệm của mình với sản phẩm này.','type':'unstyled','depth':0,'inlineStyleRanges':[],'entityRanges':[],'data':{}},{'key':'al478','text':'','type':'unstyled','depth':0,'inlineStyleRanges':[],'entityRanges':[],'data':{}}],'entityMap':{}}"
+                },
+                "reviews": {
+                    "review_on": "Thời điểm đánh giá",
+                    "btn_shop_now": "Mua ngay"
+                }
+            }
+        },
+        "tone_voice": {
+            "friendly": {
+                "request_review": {
+                    "subject": "Khách yêu có hài lòng với sản phẩm {{PRODUCT_NAME}}?🤩",
+                    "content": "<p><strong>Chào </strong>{{FIRST_NAME}}</p>\n<p>Shop mình muốn đảm bảo mọi trải nghiệm mua sắm tại {{STORE_NAME}} sẽ thật trọn vẹn.</p>\n<p>Nếu có chút thời gian, bạn có thể chia sẻ ý kiến và trải nghiệm của mình với cộng đồng mua sắm và chúng mình không? Sự ủng hộ của bạn quan trọng lắm đấy 🤩.</p>\n<p>Chân thành,</p>\n<p>Đội ngũ {{STORE_NAME}}</p>"
+                },
+                "request_review_reminder": {
+                    "subject": "Bạn thích {{PRODUCT_NAME}} không? Chia sẻ cảm nhận của bạn!",
+                    "content": "<p><strong>Chào </strong>{{FIRST_NAME}}</p>\n<p>Cảm ơn bạn đã mua {{PRODUCT_NAME}} từ {{STORE_NAME}}! Chúng tôi rất tò mò muốn biết bạn có thích sản phẩm này không.</p>\n<p>Bạn có thể chia sẻ trải nghiệm của bạn bằng cách viết vài dòng đánh giá trên trang web của chúng tôi. Đánh giá của bạn sẽ giúp ích rất nhiều cho những người mua sắm khác đang tìm hiểu về {{PRODUCT_NAME}}.</p>\n<p>Cảm ơn bạn đã dành thời gian!</p>\n<p>Trân trọng,</p>\n<p>Nhóm {{STORE_NAME}}</p>"
+                },
+                "thank_you_email": {
+                    "subject": "Cảm ơn bạn đã để lại đánh giá! ❤️",
+                    "content": "<p><strong>Chào </strong>{{FIRST_NAME}}</p>\n<p>Cảm ơn bạn đã mua {{PRODUCT_NAME}} từ {{STORE_NAME}}! Chúng tôi rất tò mò muốn biết bạn có thích sản phẩm này không.</p>\n<p>Bạn có thể chia sẻ trải nghiệm của bạn bằng cách viết vài dòng đánh giá trên trang web của chúng tôi. Đánh giá của bạn sẽ giúp ích rất nhiều cho những người mua sắm khác đang tìm hiểu về {{PRODUCT_NAME}}.</p>\n<p>Cảm ơn bạn đã dành thời gian!</p>\n<p>Trân trọng,</p>\n<p>Nhóm {{STORE_NAME}}</p>"
+                }
+            },
+            "professional": {
+                "request_review": {
+                    "subject": "Mời đánh giá sản phẩm {{PRODUCT_NAME}} và nhận voucher🌟",
+                    "content": "<p><strong>Chào bạn </strong>{{FIRST_NAME}}</p>\n<p>Chúng tôi hy vọng bạn đã có những trải nghiệm tuyệt vời với việc mua sắm {{PRODUCT_NAME}} tại {{STORE_NAME}}. Đánh giá từ bạn giúp chúng tôi hoàn thiện sản phẩm và mang lại trải nghiệm tốt nhất cho khách hàng.</p>\n<p>Shop kính mời bạn chia sẻ ý kiến về {{PRODUCT_NAME}} bằng cách để lại đánh giá trên trang web của shop.</p>\n<p>Cảm ơn bạn vì đã dành thời gian và hỗ trợ.</p>\n<p>Trân trọng,</p>\n<p>Đội ngũ {{STORE_NAME}}</p>"
+                },
+                "request_review_reminder": {
+                    "subject": "Vui lòng chia sẻ đánh giá của bạn về {{PRODUCT_NAME}}",
+                    "content": "<p><strong>Kính gửi </strong> {{FIRST_NAME}}</p>\n<p>Chúng tôi hy vọng bạn đang hài lòng với {{PRODUCT_NAME}} mà bạn đã mua từ {{STORE_NAME}}. Phản hồi của bạn đóng vai trò quan trọng trong việc giúp chúng tôi nâng cao chất lượng sản phẩm và dịch vụ.</p>\n<p>Vui lòng dành ít phút để chia sẻ đánh giá của bạn về {{PRODUCT_NAME}} trên trang web của chúng tôi. Bằng cách này, bạn sẽ giúp chúng tôi hiểu rõ hơn về trải nghiệm của khách hàng và cải thiện sản phẩm tốt hơn.</p>\n<p>Sự đóng góp của bạn sẽ được đánh giá cao.</p>\n<p>Trân trọng,</p>\n<p>Nhóm {{STORE_NAME}}</p>"
+                },
+                "thank_you_email": {
+                    "subject": "Tuyệt vời! Cảm ơn bạn đã đánh giá, {{FIRST_NAME}}!",
+                    "content": "<p>Thật tuyệt vời khi nhận được đánh giá của bạn, {{FIRST_NAME}}! Chúng tôi rất muốn biết ý kiến của bạn về sản phẩm bạn vừa mua. Phản hồi của bạn rất hữu ích cho chúng tôi!</p>"
+                }
+            },
+            "persuasive": {
+                "request_review": {
+                    "subject": "Mở khóa ưu đãi độc quyền! Chia sẻ đánh giá của bạn về {{PRODUCT_NAME}} ⭐️",
+                    "content": "<p><strong>Chào bạn </strong>{{FIRST_NAME}}</p>\n<p>Bạn đang thưởng thức {{PRODUCT_NAME}} mới từ {{STORE_NAME}} phải không? Chúng mình muốn nghe cảm nhận của bạn!</p>\n<p>Việc chia sẻ đánh giá trên trang web của chúng mình không chỉ giúp người khác có quyết định đúng đắn, mà còn có thể mở khóa ưu đãi độc quyền cho bạn: ưu đãi đặc biệt cho lần mua sắm tiếp theo!</p>\n<p>Nhấp vào đây và chia sẻ cảm nhận của bạn ngay hôm nay!</p>\n<p>Click stars and share your thoughts today!</p>\n<p>Cảm ơn bạn,</p>\n<p>Đội ngũ {{STORE_NAME}}</p>"
+                },
+                "request_review_reminder": {
+                    "subject": "Chia sẻ đánh giá và nhận ưu đãi hấp dẫn!",
+                    "content": "<p><strong>Chào</strong> {{FIRST_NAME}},</p>\n<p>Bạn đã trải nghiệm {{PRODUCT_NAME}} mới từ {{STORE_NAME}} chưa? Chúng tôi rất muốn nghe đánh giá của bạn!</p>\n<p>Hãy chia sẻ suy nghĩ của bạn về {{PRODUCT_NAME}} trên trang web của chúng tôi để giúp đỡ những người mua sắm khác và nhận ngay ưu đãi đặc biệt cho lần mua tiếp theo!</p>\n<p>Chỉ mất vài phút để viết đánh giá, bạn sẽ nhận được nhiều lợi ích.</p>\n<p>Cảm ơn bạn,</p>\n<p>Nhóm {{STORE_NAME}}</p>"
+                },
+                "thank_you_email": {
+                    "subject": "Tuyệt vời! Cảm ơn bạn đã đánh giá, {{FIRST_NAME}}!",
+                    "content": "<p>Thật tuyệt vời khi nhận được đánh giá của bạn, {{FIRST_NAME}}! Chúng tôi rất muốn biết ý kiến của bạn về sản phẩm bạn vừa mua. Phản hồi của bạn rất hữu ích cho chúng tôi!</p>"
+                }
+            },
+            "supportive": {
+                "request_review": {
+                    "subject": "Chúng mình ở đây để hỗ trợ! Hãy chia sẻ trải nghiệm với {{PRODUCT_NAME}} 🌈",
+                    "content": "<p><strong>Chào bạn </strong>{{FIRST_NAME}}</p>\n<p>Chúng mình hy vọng bạn đang hài lòng với {{PRODUCT_NAME}} mới từ {{STORE_NAME}}.</p>\n<p>Chúng mình hiểu rằng đôi khi bạn có thể gặp câu hỏi hoặc muốn chia sẻ phản hồi về quá trình mua sắm của bạn. Chúng mình sẵn sàng hỗ trợ!</p>\n<p>Đánh giá của bạn không chỉ giúp người khác, mà còn giúp chúng mình đảm bảo rằng chúng mình cung cấp hỗ trợ tốt nhất cho khách hàng.</p>\n<p>Hãy thoải mái chia sẻ mọi ý kiến về {{PRODUCT_NAME}}, dù là tích cực hay tiêu cực. Chúng mình rất trân trọng ý kiến của bạn và muốn đảm bảo rằng bạn hoàn toàn hài lòng.</p>\n<p>Nếu bạn có bất kỳ câu hỏi hoặc cần hỗ trợ với {{PRODUCT_NAME}}, đừng ngần ngại liên hệ với đội ngũ dịch vụ khách hàng thân thiện của chúng mình.</p>\n<p>Chúng mình luôn sẵn lòng giúp đỡ!</p>\n<p>Trân trọng,</p>\n<p>Đội ngũ {{STORE_NAME}}</p>"
+                },
+                "request_review_reminder": {
+                    "subject": "{{STORE_NAME}} luôn sẵn sàng hỗ trợ bạn!",
+                    "content": "<p><strong>Kính gửi</strong> {{FIRST_NAME}},</p>\n<p>Cảm ơn bạn đã mua {{PRODUCT_NAME}} từ {{STORE_NAME}}. Chúng tôi mong muốn bạn có trải nghiệm tốt nhất với sản phẩm này.</p>\n<p>Nếu bạn có bất kỳ câu hỏi hoặc phản hồi nào về {{PRODUCT_NAME}}, vui lòng chia sẻ với chúng tôi bằng cách viết đánh giá trên trang web của chúng tôi. Đánh giá của bạn sẽ giúp chúng tôi cải thiện sản phẩm và dịch vụ, đồng thời hỗ trợ những người mua sắm khác.</p>\n<p>Đội ngũ chăm sóc khách hàng thân thiện của chúng tôi luôn sẵn sàng giải đáp mọi thắc mắc của bạn. Bạn có thể liên hệ với chúng tôi qua email hoặc điện thoại.</p>\n<p>Cảm ơn bạn đã tin tưởng {{STORE_NAME}}!</p>\n<p>Trân trọng,</p>\n<p>Nhóm {{STORE_NAME}}</p>"
+                },
+                "thank_you_email": {
+                    "subject": "Tuyệt vời! Cảm ơn bạn đã đánh giá, {{FIRST_NAME}}!",
+                    "content": "<p>Thật tuyệt vời khi nhận được đánh giá của bạn, {{FIRST_NAME}}! Chúng tôi rất muốn biết ý kiến của bạn về sản phẩm bạn vừa mua. Phản hồi của bạn rất hữu ích cho chúng tôi!</p>"
+                }
+            }
+        }
+    },
+    "qr_code_setting": {
+        "page_title": "Quản lý mã QR",
+        "store_qr_code": "Mã QR cửa hàng",
+        "store_qr_code_description": "Tạo và tùy chỉnh mã QR độc đáo cho cửa hàng của bạn, cho phép khách hàng quản lý và xem lại đơn hàng chỉ với một lần quét. Nâng cao trải nghiệm khách hàng của cửa hàng bạn với tích hợp mã QR nhanh chóng và tiện lợi.",
+        "download_qr_code": "Tải mã QR",
+        "scan_analysis": "Phân tích quét",
+        "bar_chart": "Biểu đồ cột",
+        "line_chart": "Biểu đồ đường",
+        "total_scans": "Tổng số lần quét",
+        "operating_system_scan": "Quét hệ điều hành",
+        "total_scan": "Tổng số lần quét",
+        "rate": "Tỷ lệ",
+        "top_country": "Quốc gia hàng đầu",
+        "country": "Quốc gia",
+        "top_cities": "Thành phố hàng đầu",
+        "cities": "Thành phố",
+        "modal_customize": {
+            "title": "Trình chỉnh sửa mã QR cửa hàng",
+            "frame": "Khung",
+            "background_color": "Màu nền",
+            "transparent_background": "Nền trong suốt",
+            "logo": "Logo",
+            "upload_logo": "Tải lên logo",
+            "pattern_color": "Màu mẫu",
+            "custom_pattern_color": "Màu mẫu tùy chỉnh",
+            "frame_color": "Màu khung"
+        }
+    },
+    "product_photo": "Ảnh sản phẩm",
+    "product_name": "Tên sản phẩm",
+    "quantity": "Số lượng",
+    "unsubscribe": "Hủy đăng ký",
+    "resync-order": "Đồng bộ lại đơn hàng",
+    "resync-helptext": "Hệ thống sẽ đồng bộ tất cả các đơn hàng trước đây của bạn."
+}

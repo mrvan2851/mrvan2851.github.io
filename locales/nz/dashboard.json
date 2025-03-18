@@ -1,0 +1,109 @@
+{
+  "welcome_app" : {
+        "title": "Nau mai ki nga Arotake Hua"
+    },
+  "popup": {
+    "button": "Whakarēhita i a mātou",
+    "content": "Ka whakahaerehia e ō whakaaro i te whakapai a TrustShop. Ka nui te aroha ki te mōhio ki te whakarēhita i te taupānga a mātou?",
+    "title": "Whai whakaaro a koutou ki a mātou!",
+    "modal_rate": {
+        "title": "He aha te whakakore i a koe ki a TrustShop?",
+        "option_1": {
+            "title": "Whakamahia, whakatūturu rānei",
+            "content": "I whakararuraru ahau ki te whakamahi i te taupānga i te wā e:"
+        },
+        "option_2": "Kāore i te whakararuraru ki te tautoko",
+        "option_3": {
+            "title": "He whakararuraru, he whakakore rānei ngā āhuatanga",
+            "content": "Me whai ētahi atu āhuatanga i te taupānga, pērā i te:"
+        }
+    }
+  },
+  "setup_guide": {
+    "card_1": {
+      "content": "Whakaaturia ngā whakatauranga i runga i tō toa hiko",
+      "title": "Tāpiri whītiki ki te toa hiko"
+    },
+    "card_2": {
+      "button": "Whakarite īmēra",
+      "content": "Whakarite i te wā ka tukuna ai te īmēra tono me te īmēra whakawhētai",
+      "title": "Whakarite īmēra tono"
+    },
+    "card_3": {
+      "button": "Whakarite whītiki",
+      "content": "Whakarite i te whītiki whakatauranga kia whakakotahi ai ki ngā hiahia a ō hoa kiritaki",
+      "title": "Whakarite whītiki"
+    },
+    "card_4": {
+      "button": "Tūtohu utuwhenua",
+      "content": "Whakamanahia ngā kiritaki ki te whakakore i tētahi whakatauranga mā te whakarōpū i tō rātou hoko whakamua",
+      "title": "Tūtohu utuwhenua"
+    },
+    "title": "Whakarite Aratohu"
+  },
+  "statistics": {
+    "all": "Katoa",
+    "all_reviews": "Ngā arotake katoa",
+    "avg_star_rating": "Whakatauranga whetu toharite",
+    "title": "Ko o tirohanga arotake"
+  },
+  "whats-new": {
+        "slide_1": {
+            "title": "🌍 Nga Arotakenga Reo-maha: Hono atu ki nga Kaihokohoko o te Ao",
+            "date_time": "Whakahoutia: Maehe 1, 2025",
+            "content": {
+                "text" : "Ko te whetu o tenei whakahōu ko ta maatau Wāhitau Reo-maha me te Whakamaori Arotake. I roto i te maakete o te ao o tenei ra, kaua nga arai reo e aukati i te kaha o to toa. Ma te TrustShop 2.8, ka taea e nga kaihoko te whakamaori i nga arotake ki o raatau reo ma te paato kotahi."
+            },
+            "button": "Ako atu"
+        },
+        "slide_2": {
+            "title": "Kohinga Arotake Waehere QR Hou",
+            "date_time": "Whakahoutia: Feb 6, 2025",
+            "content": {
+                "text" : "He huarahi hou ki te kohikohi i nga arotake a nga kaihoko. Ina matawai nga kaihoko i te waehere QR, ka taea e ratou:",
+                "list": [
+                    "Tirohia nga hua kaore ano kia arotakehia",
+                    "He ngawari te tuku arotake hou",
+                    "Tirohia o raatau arotake o mua",
+                    "Aroturuki i a raatau waehere utu utu"
+                ]
+            },
+            "button": "Ako atu"
+        },
+        "slide_3": {
+            "title": "Whakaritenga Tauira Īmēra Arā Atu Anō",
+            "date_time": "Whakahoutia: Feb 6, 2025",
+            "content": {
+                "text": "Whakapaipai i to whakaaturanga tohu me te whakapai ake i nga whakaritenga imeera:",
+                "list": [
+                    "Turanga moko hangore",
+                    "Te rahi o te tohu tohu",
+                    "Tautuhinga padding taea te whakarite",
+                    "Nga whiringa tae papamuri"
+                ]
+            },
+            "button": "Ako atu"
+        },
+        "slide_4": {
+            "title": "Whakahaere Rarangi Whakakore Ake Ake",
+            "date_time": "Whakahoutia: Hanuere 11, 2025",
+            "content": {
+                "text": "Kia ma, kia whai hua te whakawhitiwhiti korero a to kaihoko me ta maatau punaha whakahaere whakakore ohauru hou. Aroturuki, tātari, kia mau tonu to rarangi kaihoko"
+            },
+            "button": "Ako atu"
+        },
+        "slide_5": {
+            "title": "Maori Shopify Nga Taipitopito Kaihoko Whakauru",
+            "date_time": "Whakahoutia: Hanuere 11, 2025",
+            "content": {
+                "text": "Whakauruhia nga arotake a nga kaihoko mai i te wharangi taipitopito kaihoko a Shopify. Kaua e huri i waenga i nga ripa - ko nga mea katoa e hiahia ana koe kei te tika ki te waahi e hiahia ana koe!"
+            },
+            "button": "Ako atu"
+        },
+        "title": "He aha te mea hou"
+    },
+  "popup_support" : {
+      "title": "Me pehea e taea ai e matou te awhina ia koe?",
+      "content": "Ka taea e koe te uru atu ki a maatau tuhinga awhina nui, a kei te watea tonu ta matou roopu ki te awhina ia koe. Me whakapā noa mai!"
+  }
+}

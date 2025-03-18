@@ -1,0 +1,109 @@
+{
+  "welcome_app" : {
+        "title": "Welkom bij Productbeoordelingen"
+    },
+  "popup": {
+    "button": "Beoordeel ons",
+    "content": "Uw feedback stimuleert de verbetering van TrustShop. We zouden graag willen weten hoe u onze app zou beoordelen?",
+    "title": "Uw mening is belangrijk voor ons!",
+    "modal_rate": {
+        "title": "Waarom voelt u zich slecht over TrustShop?",
+        "option_1": {
+            "title": "Moeilijk te gebruiken of op te zetten",
+            "content": "Ik vond de app moeilijk te gebruiken toen:"
+        },
+        "option_2": "Niet tevreden met de ondersteuning",
+        "option_3": {
+            "title": "Beperkte of ontbrekende functies",
+            "content": "De app zou meer functies moeten hebben, zoals:"
+        }
+    }
+  },
+  "setup_guide": {
+    "card_1": {
+      "content": "Toon beoordelingen op uw online winkel",
+      "title": "Widget toevoegen aan online winkel"
+    },
+    "card_2": {
+      "button": "Mail instellen",
+      "content": "Pas de tijd aan waarop de verzoek-e-mail en bedank-e-mail worden verzonden",
+      "title": "Verzoek-e-mail instellen"
+    },
+    "card_3": {
+      "button": "Widget aanpassen",
+      "content": "Pas de beoordelingswidget aan op de voorkeuren van uw klant",
+      "title": "Widget aanpassen"
+    },
+    "card_4": {
+      "button": "Kortingsbon",
+      "content": "Stimuleer klanten om een beoordeling achter te laten door een korting aan te bieden voor hun volgende aankoop",
+      "title": "Kortingsbon"
+    },
+    "title": "Installatiegids"
+  },
+  "statistics": {
+    "all": "Alle",
+    "all_reviews": "Alle beoordelingen",
+    "avg_star_rating": "Gemiddelde sterrenbeoordeling",
+    "title": "Uw beoordelingsinzichten"
+  },
+  "whats-new": {
+        "slide_1": {
+            "title": "🌍 Meertalige beoordelingen: maak contact met klanten over de hele wereld",
+            "date_time": "Bijgewerkt: 1 maart 2025",
+            "content": {
+                "text" : "De ster van deze update is onze nieuwe Multi-Language Widget en Review Translation-functie. In de huidige wereldwijde marktplaats mogen taalbarrières het potentieel van uw winkel niet beperken. Met TrustShop 2.8 kunnen klanten nu met één klik beoordelingen vertalen naar hun moedertaal."
+            },
+            "button": "Meer informatie"
+        },
+        "slide_2": {
+            "title": "Nieuwe QR-codebeoordelingscollectie",
+            "date_time": "Bijgewerkt: 6 feb. 2025",
+            "content": {
+                "text" : "Een nieuwe manier om klantbeoordelingen te verzamelen. Wanneer klanten de QR-code scannen, kunnen ze:",
+                "list": [
+                    "Bekijk producten die ze nog niet hebben beoordeeld",
+                    "Dien eenvoudig nieuwe beoordelingen in",
+                    "Bekijk hun vorige recensies",
+                    "Volg hun verdiende kortingscodes"
+                ]
+            },
+            "button": "Meer informatie"
+        },
+        "slide_3": {
+            "title": "Geavanceerde aanpassing van e-mailsjablonen",
+            "date_time": "Bijgewerkt: 6 feb. 2025",
+            "content": {
+                "text": "Verbeter de presentatie van uw merk met verbeterde e-mailpersonalisatie:",
+                "list": [
+                    "Flexibele logo-positionering",
+                    "Aanpasbare logo-grootte",
+                    "Verstelbare vullinginstellingen",
+                    "Achtergrondkleuropties"
+                ]
+            },
+            "button": "Meer informatie"
+        },
+        "slide_4": {
+            "title": "Geavanceerd beheer van uitschrijflijsten",
+            "date_time": "Bijgewerkt: 11 jan. 2025",
+            "content": {
+                "text": "Houd uw klantcommunicatie schoon en effectief met ons nieuwe uitschrijfbeheersysteem. Volg, analyseer en onderhoud uw klantenlijsten met precisie"
+            },
+            "button": "Meer informatie"
+        },
+        "slide_5": {
+            "title": "Integratie van native Shopify-klantgegevens",
+            "date_time": "Bijgewerkt: 11 jan. 2025",
+            "content": {
+                "text": "Krijg direct toegang tot klantbeoordelingen vanaf de klantgegevenspagina van Shopify. Nooit meer wisselen tussen tabbladen: alles wat u nodig hebt, staat precies waar u het nodig hebt!"
+            },
+            "button": "Meer informatie"
+        },
+        "title": "Wat is er nieuw"
+    },
+  "popup_support" : {
+      "title": "Hoe kunnen wij u helpen?",
+      "content": "U kunt onze uitgebreide helpdocumenten raadplegen en ons team staat altijd voor u klaar. Neem gewoon contact met ons op!"
+  }
+}

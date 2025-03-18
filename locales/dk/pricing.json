@@ -1,0 +1,184 @@
+{
+    "plan": {
+        "for_free": "Gratis",
+        "title": "Plan",
+        "free": "Grundlæggende",
+        "basic": "Standard",
+        "pro": "Enterprise",
+        "ultimate": "Ultimate",
+        "free_plan": "Grundlæggende plan",
+        "basic_plan": "Standard plan",
+        "pro_plan": "Enterprise plan",
+        "ultimate_plan": "Ultimate plan"
+    },
+    "basic": "Grundlæggende",
+    "fully": "Fuldt ud",
+    "plan_active": "{{plan}} aktiveret",
+    "per_month": "pr. måned",
+    "discount_offer_time": "i de næste {{time}}",
+    "origin_price": "Originalpris ",
+    "order/month": "ordrer/måned",
+    "request_reviews": "Anmod om anmeldelse",
+    "upgrade_plan": "Opgrader plan",
+    "select_plan": "Vælg {{plan}}",
+    "start_free": "Start gratis",
+    "unlimited": "Ubegrænset",
+    "modal_pricing_title": "Lås op for Premium-funktioner med vores fleksible prissætning",
+    "best_choice": "Bedste valg",
+    "coming_soon": "Kommer snart",
+    "process_bar": {
+        "title": "Samlede fuldførte e-mails",
+        "subtitle": "Denne optælling vil blive opdateret den <strong>{{date}}</strong>",
+        "order_count": "{{used}} af {{total}} ordrer fuldført"
+    },
+    "plan_table": {
+        "title": "Prisplaner",
+        "subtitle": "Oplev tilpassede abonnementsplaner designet til at løfte din virksomhed!",
+        "start_trial": "Start {{day}} dages gratis prøveperiode",
+        "current_plan": "Nuværende plan",
+        "upgrade": "Opgradere",
+        "select_plan": "Vælg plan",
+        "downgrade": "Nedgradere",
+        "pricing_card": {
+            "free": "Få adgang til essentielle funktioner med vores gratis plan, perfekt til begyndere.",
+            "basic": "Få avancerede værktøjer og support med Standard-planen for enkeltpersoner",
+            "pro": "Giv din virksomhed styrke med vores altomfattende Enterprise-plan",
+            "unlimited": "Ubegrænset vækst"
+        },
+        "modal_downgrade": {
+            "title": "Mister ikke adgangen til kraftfulde funktioner!",
+            "subtitle": "Din butik bruger nogle premium-funktioner. Sluk dem for at nedgradere din plan:",
+            "discount_voucher": "Automatisk rabatkupon",
+            "customize_widget": "Tilpasset widget",
+            "upload_video": "Upload videoer, når du skriver en anmeldelse",
+            "review_testimonial": "Anmeldelse",
+            "modal_all_image": "Modal alle billedeindstillinger",
+            "review_page": "Alle anmeldelser side",
+            "google_shopping": "Google shopping",
+            "global_display": "Global visning",
+            "group_product": "Gruppe produkt",
+            "custom_domain": "Brugerdefineret domæne",
+            "qr_code": "QR-kodehåndtering",
+            "review_translation": "Anmeldelse oversættelse",
+            "multi_lang": "Flersproget widget",
+            "ai_functionality": "AI-funktionalitet",
+            "insights_and_segmentation": "Indsigt og segmentering",
+            "review_detail_page": "Anmeldelsesdetaljeside",
+            "import_custom_csv": "Importer tilpasset CSV",
+            "protect_review": "Beskyt anmeldelse"
+        },
+        "primary_collapse": {
+            "title": "Find den bedste plan til dine behov",
+            "email_quota": "Anmod om anmeldelse",
+            "email_quota_helptext": "Vi beregner din kvote baseret på antallet af ordrer, ikke antallet af anmeldelsesanmodningsmails sendt. For eksempel, hvis du sender tre e-mails (anmodning, påmindelse og tak), tæller det stadig kun som én.",
+            "order_per_month": "Samlede ordrer/måned",
+            "discount_voucher": "Rabatkupon",
+            "customize_widget": "Tilpasset widget",
+            "upload_video": "Anmeldelse video",
+            "review_testimonial": "Anmeldelse testimonial",
+            "modal_all_image": "Modal alle billeder",
+            "review_page": "Alle anmeldelser side",
+            "google_shopping": "Google shopping",
+            "global_display": "Global visning",
+            "group_product": "Gruppe produkt",
+            "custom_domain": "Brugerdefineret domæne",
+            "qr_code": "QR-kodehåndtering",
+            "review_translation": "Anmeldelse oversættelse",
+            "multi_lang": "Flersproget widget",
+            "ai_functionality": "AI-funktionalitet",
+            "insights_and_segmentation": "Indsigt og segmentering",
+            "review_detail_page": "Anmeldelsesdetaljeside",
+            "import_custom_csv": "Importer tilpasset CSV",
+            "protect_review": "Beskyt anmeldelse"
+        },
+        "details_collapse": {
+            "title": "Sammenlign det tilpassede widget mellem abonnementsplanerne",
+            "widgetBox": {
+                "title": "Widget boks (standard)",
+                "choose_layout": "Vælg layout",
+                "summary_box": "Sammenfatningsboks",
+                "color_scheme": "Farveskema",
+                "information_display": "Informationsdisplay",
+                "content": "Indhold"
+            },
+            "widgetBoxNoReview": {
+                "title": "Widget boks (ingen anmeldelser)",
+                "content": "Indhold",
+                "color_scheme": "Farveskema"
+            },
+            "modalReviewDetail": {
+                "title": "Modal anmeldelse detaljer",
+                "all_settings": "Alle indstillinger"
+            },
+            "modal_all_image": {
+                "title": "Modal alle billeder",
+                "all_settings": "Alle indstillinger"
+            },
+            "formWriteReview": {
+                "title": "Anmeldelsesformular",
+                "review_with_video": "Anmeldelse med video"
+            }
+        }
+    },
+    "free_banner": {
+        "title": "Få adgang til essentielle funktioner med vores gratis plan, perfekt til begyndere.",
+        "email_quota_limit": "Email kvote begrænsning {{limit}} ordrer/måned",
+        "basic_access": "Grundlæggende adgang til anmeldelseswidget",
+        "basic_edit_email": "Grundlæggende redigering af anmodnings-e-mail",
+        "upload_media": "Kun upload af billeder af anmeldere",
+        "quick_chat": "Hurtig chat-support",
+        "visible_brand": "Synlig TrustShop-brand"
+    },
+    "basic_banner": {
+        "everything_in_basic": "Alt i Standard-planen",
+        "email_quota": "Email kvote begrænsning {{limit}} ordrer/måned",
+        "discount_voucher": "Automatisk rabatkupon",
+        "customize_widget": "Tilpasset widget",
+        "upload_video": "Upload videoer, når du skriver en anmeldelse",
+        "review_testimonial": "Anmeldelse",
+        "modal_all_image": "Modal alle billedeindstillinger",
+        "review_page": "Alle anmeldelser side",
+        "google_shopping": "Google shopping",
+        "global_display": "Global visning",
+        "group_product": "Gruppe produkt",
+        "custom_domain": "Brugerdefineret domæne",
+        "qr_code": "QR-kodehåndtering",
+        "review_translation": "Anmeldelse oversættelse",
+        "multi_lang": "Flersproget widget",
+        "ai_functionality": "AI-funktionalitet",
+        "insights_and_segmentation": "Indsigt og segmentering",
+        "review_detail_page": "Anmeldelsesdetaljeside",
+        "import_custom_csv": "Importer tilpasset CSV",
+        "protect_review": "Beskyt anmeldelse"
+    },
+    "frequency_ask": {
+        "title": "Ofte stillede spørgsmål",
+        "list_questions": {
+            "1": {
+                "title": "Hvordan beregnes kvoten for anmodning om anmeldelser?",
+                "subtitle": "Kvoten er baseret på antallet af ordrer. Hvis du aktiverer alle tre typer e-mails - Anmod om anmeldelser, Påmindelse om anmeldelse og Tak. Kun én kvote tælles pr. ordre."
+            },
+            "2": {
+                "title": "Vil min kvote blive brugt, hvis jeg ikke sender anmeldelsesanmodninger gennem TrustShop?",
+                "subtitle": "Nej, din kvote vil kun blive trukket fra, hvis du bruger TrustShops funktion til anmodning om anmeldelser. Hvis du ikke bruger denne funktion, påvirkes din kvote ikke."
+            },
+            "3": {
+                "title": "Kan jeg nedgradere min plan?",
+                "subtitle": "Ja, du kan nedgradere din plan når som helst, hvis du ikke længere har brug for de betalte funktioner. Sørg bare for at deaktivere alle betalte funktioner, inden du nedgraderer. Hvis du har brug for hjælp, er vores supportteam altid klar til at hjælpe."
+            },
+            "4": {
+                "title": "Vil der blive opkrævet i løbet af prøveperioden?",
+                "subtitle": "Nej, der vil ikke blive opkrævet i løbet af prøveperioden. Betalingen begynder først, når prøveperioden udløber."
+            }
+        }
+    },
+    "modal_charge_success": {
+        "title": "Du er nu et {{plan}} medlem!",
+        "content": "Tak fordi du valgte vores premium-abonnement! Gør dig klar til eksklusive fordele og førsteklasses support. Lad os gøre denne rejse ekstraordinær."
+    },
+    "special_offer": {
+        "title": "Særtilbud: 30% rabat for at være med os!",
+        "content": "For at vise vores påskønnelse af din støtte tilbyder vi dig en særlig <1>30% rabat</1> på enhver abonnementsplan i de næste to måneder. Tak fordi du er en værdsat kunde!",
+        "remain_time": "Tilbuddet udløber om:"
+    }
+}

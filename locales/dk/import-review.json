@@ -1,0 +1,42 @@
+{
+    "title": "Importer anmeldelser",
+    "subtitle": "Udvidelsen giver dig mulighed for at indsamle værdifulde anmeldelser fra AliExpress",
+    "extension_installation": "Udvidelsesinstallation",
+    "page_primary_button": "Ændre importindstillinger",
+    "guild": {
+        "title": "Udvidelsesinstallation",
+        "subtitle": "Installer vores udvidelse for at indsamle anmeldelser fra AliExpress",
+        "step": "<p>Installer vores udvidelse for at indsamle anmeldelser fra AliExpress:</p><p>Klik på \"<strong>Installer TrustShop udvidelse</strong>\".</p><p>Du vil automatisk blive omdirigeret til \"Chrome Webshop\". Klik på \"<strong>Tilføj til Chrome</strong>\".</p> <p>Følg instruktionerne for at fuldføre installationsprocessen.</p><p><strong>Opdater</strong> denne side og begynd at importere anmeldelser.</p>",
+        "btn_install_extension": "Installer TrustShop udvidelse",
+        "refresh_page": "Opdater side"
+    },
+    "product": "Produkt",
+    "aliexpress_link": "AliExpress link",
+    "save_changes": "Gem ændringer",
+    "import": "Importer",
+    "enter_aliexpress_link_here": "Indtast AliExpress link her",
+    "import_settings": "Importindstillinger",
+    "change_product": "Skift produkt",
+    "aliexpress_product_link": "AliExpress produktlink",
+    "enter_a_link": "Indtast et link",
+    "quantity": "Antal",
+    "enter_a_quantity": "Indtast et antal",
+    "content_option": "Indholdsmulighed",
+    "contain_photos": "Indeholder billeder",
+    "conatain_videos": "Indeholder videoer",
+    "contain_review_content": "Indeholder anmeldelsesindhold",
+    "customer_country": "Kundeland",
+    "search_country": "Søg land",
+    "all_countries": "Alle lande",
+    "date_range": "Datointerval",
+    "filter_date": {
+        "today": "I dag",
+        "yesterday": "I går",
+        "last_7_days": "Sidste 7 dage",
+        "last_month": "Sidste måned",
+        "last_year": "Sidste år",
+        "all_times": "Alle tider"
+    },
+    "banner_success": "Vi har importeret anmeldelser for",
+    "banner_error": "Der opstod en fejl under forsøg på at importere anmeldelser"
+}

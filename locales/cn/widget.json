@@ -1,0 +1,515 @@
+{
+    "limit_function": {
+        "widget_limit": "此功能仅在标准和企业计划中可用。请升级您的计划以访问此功能。",
+        "setting_function_limit": {
+            "badge": "从{{plan}}开始",
+            "content": "升级您的计划以自定义此功能。"
+        }
+    },
+    "list_widget": {
+        "review_display": "评论显示",
+        "review_display_description": "显示所有客户评论，提供产品用户体验的见解。",
+        "review_testimonial": "评论推荐",
+        "review_testimonial_description": "以旋转轮播格式突出显示顶级评论，吸引对突出反馈的注意。",
+        "review_onepage": "评论页面",
+        "review_onepage_description": "显示所有客户评论的页面，便于浏览体验。",
+        "product_rating": "产品评分",
+        "product_rating_description": "显示基于5星级评分的产品总体评分。",
+        "global_setting": "全局设置",
+        "global_setting_description": "允许用户管理元素，所做的任何更改将应用于所有小部件"
+    },
+    "discount_voucher": {
+        "title": "折扣券",
+        "sub_title": "通过为下一次购买提供折扣来激励客户留下评论",
+        "preview": "预览",
+        "toggle_discount_voucher": "启用折扣",
+        "save_btn": "保存",
+        "coupon_shopify": {
+            "title": "Shopify 优惠券",
+            "sub_title": "Shopify 优惠码",
+            "no_code": "您尚未设置任何代码。",
+            "off_example": "这是下一行的示例（不翻译）：80% OFF",
+            "off": "OFF",
+            "check_discount_button": "检查折扣",
+            "check_success": "可用折扣",
+            "check_fail": "折扣不存在，请查看如何获得折扣<1>这里</1>。"
+        },
+        "coupon_auto": {
+            "title": "自动折扣",
+            "review_for_photo": "为照片评论",
+            "discount_code": "自动折扣码",
+            "discount_for_review_only_content": "所有评论的折扣",
+            "discount_for_review_photos": "带有照片的评论的折扣",
+            "discount_for_review_videos": "带有视频的评论的折扣",
+            "discount_expire_after": "折扣到期时间"
+        },
+        "tabs": {
+            "email_before": "邮件前",
+            "email_after": "邮件后"
+        },
+        "coupon_design": {
+            "title": "优惠券设计",
+            "voucher_color": "券颜色",
+            "text_color": "文本颜色",
+            "button_color": "按钮颜色",
+            "button_text_color": "按钮文本颜色"
+        },
+        "general": {
+            "choose_your_design_template": "选择您的设计模板",
+            "template": "模板",
+            "coupon_message": "优惠券消息",
+            "call_to_action_button_content": "呼叫至动作按钮内容"
+        },
+        "voucher_setting": {
+            "title": "折扣券和产品",
+            "icon": "图标",
+            "icon_and_highlight": "图标和突出显示的折扣文本颜色",
+            "message": "消息",
+            "button_title": "按钮标题",
+            "button_label": "按钮标签",
+            "button_background": "按钮背景",
+            "message_background": "消息背景"
+        },
+        "set_up_discount": "设置折扣",
+        "display_discount": "显示折扣",
+        "review_request": "评论请求",
+        "review_request_description": "通过自定义图标、颜色和量身定制的号召性用语消息个性化评论请求电子邮件。",
+        "thank_email": "感谢邮件",
+        "thank_email_description": "在客户留下评论后，通过自定义折扣代码样式和消息来定制感谢邮件。",
+        "submitted_review_popup": "提交的评论弹出窗口",
+        "submitted_review_popup_description": "购买后显示感谢弹出窗口，向客户展示下一个订单的折扣码。",
+        "type_discount_code_after_review_label": "客户在撰写以下评论时可获得折扣码：",
+        "type_discount_code_after_review_value": {
+            "order": "订单 - 每个订单一个折扣码",
+            "product": "产品 - 每个产品一个折扣码"
+        }
+    },
+    "product_rating": {
+        "product_rating": "产品页面",
+        "collection_rating": "集合页面",
+        "hide_rating_when_empty": "当没有评论时隐藏星级评分",
+        "review_information": {
+            "title": "评论信息",
+            "show_total_reviews": "显示总评论数",
+            "show_avg_rating": "显示评论的平均评分"
+        },
+        "widget_style": {
+            "title": "小部件样式",
+            "full_5_star": "（满 5 星）",
+            "1_star": "（1 星）"
+        },
+        "text_before": "前置文本",
+        "text_after": "后置文本",
+        "font_size": {
+            "title": "字体大小",
+            "star_size": "星级图标大小",
+            "text_avg_rating": "平均评分",
+            "text_total_rating": "总评论数"
+        },
+        "language": {
+            "title": "语言",
+            "label_rating": "评分标签",
+            "label_rating_helptext": "当只有一条评论时",
+            "label_ratings": "评分标签（复数）",
+            "label_ratings_helptext": "当有多个评论时"
+        },
+        "modal_add_rating_manually": {
+            "rating_title": "手动添加星级评分",
+            "widget_title": "手动添加小部件",
+            "guild_rating": "复制以下代码，并将其粘贴到您希望显示星级评分的特定部分。<1>了解更多</1>",
+            "guild_widget": "复制以下代码，并将其粘贴到您希望显示小部件的特定部分。<1>了解更多</1>",
+            "guild_onepage": "查看如何创建评论页面的教程 <1>这里</1>。<br /> 如果您需要帮助，请通过邮箱 support@trustshop.io 联系我们。",
+            "collection_title": "添加集合评分",
+            "onepage_title": "添加评论页面",
+            "testimonial_title": "添加推荐",
+            "guild_collection": "复制以下代码，并将其粘贴到您希望显示集合评分的特定部分。<1>了解更多</1>"
+        },
+        "custom_color": {
+            "title": "自定义颜色",
+            "star_icon": "星级图标",
+            "star_icon_empty": "星级图标（空）",
+            "avg_rating": "平均评分",
+            "total_number_of_reviews": "总评论数"
+        }
+    },
+    "review_display": {
+        "widget_area": "小部件区域",
+        "choose_layout": {
+            "title": "选择布局",
+            "list": "列表",
+            "grid": "网格"
+        },
+        "summary_box": {
+            "title": "摘要框",
+            "left": "左侧",
+            "top": "顶部"
+        },
+        "color_schema": {
+            "title": "颜色方案",
+            "custom_color_schemes": "自定义颜色方案",
+            "primary_color": "主要颜色",
+            "secondary_color": "次要颜色",
+            "title_text_color": "标题文字颜色",
+            "all_photos_button_color": "所有照片按钮颜色",
+            "primary_text_color": "主要文字颜色",
+            "secondary_text_color": "次要文字颜色",
+            "star_icon": "星标图标",
+            "border": "边框",
+            "filter_sort_background": "筛选排序背景",
+            "filter_sort_text": "筛选排序文字",
+            "rating_process_color": "评分过程颜色",
+            "rating_process_empty_color": "评分过程空颜色",
+            "users_name": "用户名",
+            "loadmore_color": "加载更多颜色",
+            "bg_base_color": "小部件背景",
+            "slide_button": "滑动按钮",
+            "slide_arrow": "滑动箭头",
+            "modal_all_medias_headline_title": "标题",
+            "modal_all_medias_filter_label": "筛选标签",
+            "modal_all_medias_filter_background": "筛选背景",
+            "modal_all_medias_selected_filter_label": "选中的筛选标签",
+            "modal_all_medias_selected_filter_background": "选中的筛选背景",
+            "modal_all_medias_star_icon": "星标",
+            "modal_all_medias_rating_background": "评分背景",
+            "modal_all_medias_item_border": "选中的媒体边框",
+            "modal_all_medias_navigate_button": "导航按钮",
+            "modal_all_medias_navigate_arrow": "导航箭头",
+            "modal_all_medias_review_customer_name": "客户名称",
+            "modal_all_medias_review_time": "评论时间",
+            "modal_all_medias_review_star": "评论星标",
+            "modal_all_medias_review_star_disable": "默认评论星标",
+            "modal_all_medias_review_title": "评论标题",
+            "modal_all_medias_review_content": "评论内容",
+            "modal_all_medias_review_media_background": "评论媒体背景",
+            "modal_all_medias_review_background": "评论背景",
+            "modal_all_medias_card_background": "卡片背景",
+            "modal_all_medias_close_button": "关闭按钮背景",
+            "modal_all_medias_close_icon": "关闭图标",
+            "modal_detail_customer_name": "客户名称",
+            "modal_detail_review_time_title": "评论时间标题",
+            "modal_detail_review_star": "星标",
+            "modal_detail_review_star_default": "默认星标",
+            "modal_detail_review_star_field_background": "星标字段背景",
+            "modal_detail_review_title": "评论标题",
+            "modal_detail_review_content": "评论内容",
+            "modal_detail_navigator_button": "导航按钮",
+            "modal_detail_navigator_arrow": "导航箭头",
+            "modal_detail_purchased_item": "购买商品",
+            "modal_detail_product_name": "产品名称",
+            "modal_detail_product_price": "产品价格",
+            "modal_detail_icon_title": "图标标题",
+            "modal_detail_selected_icon": "选中的图标",
+            "modal_detail_icon_background": "图标背景",
+            "modal_detail_divider": "分隔线",
+            "modal_detail_card_background": "卡片背景",
+            "modal_detail_close_button": "关闭按钮背景",
+            "modal_detail_close_icon": "关闭图标",
+            "form_write_review_star_color": "星标图标颜色",
+            "reset_to_default_title": "重置颜色方案为默认？",
+            "reset_to_default_content": "您所做的更改可能不会被保存",
+            "page_background_color": "页面背景",
+            "star_icon_color": "星标图标颜色",
+            "line_color": "边框颜色",
+            "user_name_color": "用户名颜色",
+            "load_more_color": "加载更多颜色",
+            "product_background_color": "产品背景",
+            "product_text_color": "产品文字颜色",
+            "reply_title_color": "回复标题颜色",
+            "reply_content_color": "回复内容颜色",
+            "reply_background_color": "回复背景颜色"
+        },
+        "information_display": {
+            "title": "信息显示",
+            "write_a_reivew_button": "撰写评论按钮",
+            "review_date": "评论日期",
+            "button_report": "举报按钮",
+            "button_helpful": "有用按钮",
+            "customer_information": {
+                "title": "客户信息",
+                "customer_profile_picture": "显示客户头像",
+                "customer_country_flag": "显示客户国旗"
+            },
+            "review_filter": "评论筛选",
+            "review_per_page": "每页评论数",
+            "summary": "摘要",
+            "number_of_review": "评论数量",
+            "divider": "分隔线",
+            "text_1": "标题",
+            "text_2": "副标题",
+            "show_review_media": "显示评论媒体",
+            "image_gallery": "图像库",
+            "star_rating": "星级评分",
+            "customer_name_display": "客户名称显示",
+            "anonymous": "匿名",
+            "reviewer_selects": "评论者选择",
+            "number_of_reviews": "评论数量",
+            "form_write_review": {
+                "show_product_image": "显示产品图像",
+                "show_add_photo_btn": "显示添加照片按钮",
+                "show_add_video_btn": "显示添加视频按钮",
+                "required_review_title": "评论标题必填",
+                "hide_review_title": "隐藏评论标题"
+            }
+        },
+        "card_content": {
+            "title": "卡片内容",
+            "show_review_media": "显示评论媒体",
+            "show_review_time": "显示评论时间",
+            "show_purchase_items": "显示购买商品",
+            "show_star_rating": "显示星级评分",
+            "show_helpful_button": "显示有用按钮",
+            "image_per_row": "每行图像数",
+            "filter": "筛选",
+            "gallery_filter": "图像库筛选",
+            "star_size_helptext": "在演示中，大小是实际大小的一半"
+        },
+        "content": {
+            "title": "内容",
+            "widget_language": "小部件语言",
+            "header_widget": {
+                "title": "小部件标题",
+                "customer_review_title": "客户评论标题",
+                "review_submit": "提交评论",
+                "write_review_button": "撰写评论按钮",
+                "review_with_comments": "带有评论的评论",
+                "text_total_reviews": "评论总数文本"
+            },
+            "label_of_filter": {
+                "title": "筛选标签",
+                "all": "全部",
+                "most_helpful": "最有帮助",
+                "highest_rating": "最高评分",
+                "lowest_rating": "最低评分",
+                "oldest": "最旧",
+                "newest": "最新",
+                "review_with_photos": "带有照片的评论",
+                "stars_filter": "星级筛选（1-5）"
+            },
+            "content_review": {
+                "title": "评论内容",
+                "text_review_on": "评论于",
+                "text_helpful": "有用",
+                "button_loadmore_review": "加载更多评论按钮"
+            },
+            "modal_write_review": {
+                "title": "撰写评论模态框",
+                "modal_write_review_title": "撰写评论标题",
+                "text_write_reviews": "撰写评论文本",
+                "text_click_to_rate": "点击评分文本",
+                "label_customer_name": "客户名称标签",
+                "placeholder_customer_name": "客户名称占位符",
+                "label_customer_email": "客户电子邮件标签",
+                "placeholder_customer_email": "客户电子邮件占位符",
+                "label_review_title": "评论标题标签",
+                "placeholder_review_title": "评论标题占位符",
+                "label_review_content": "评论内容标签",
+                "placeholder_review_content": "评论内容占位符",
+                "label_characters_remaining": "剩余字符标签",
+                "button_add_photo_text": "添加照片按钮文本",
+                "button_back": "返回按钮",
+                "button_submit": "提交按钮"
+            },
+            "validate_message_label": {
+                "title": "验证消息标签",
+                "input": "输入",
+                "email": "电子邮件",
+                "image_upload_fail": "图像上传失败",
+                "image_upload_size": "图像上传大小（<10MB）",
+                "image_upload_type": "图像上传类型（.bmp、.jpeg或.png）"
+            },
+            "modal_image": {
+                "title": "模态框图像",
+                "review_for": "评论于",
+                "image_from_this_review": "来自此评论的图像"
+            },
+            "modal_report": {
+                "title": "模态框举报"
+            }
+        },
+        "tabs": {
+            "default": "默认",
+            "no_reviews": "无评论",
+            "modal": {
+                "all_medias": "所有媒体",
+                "review_detail": "评论详情",
+                "form_write_review": "表单撰写评论",
+                "popup_after_review": {
+                    "success": "评论后弹窗 - 成功",
+                    "pending": "评论后弹窗 - 待处理"
+                }
+            }
+        },
+        "no_reviews": {
+            "section_title": "部分标题",
+            "section_border": "部分边框",
+            "show_border": "显示边框",
+            "title": "无评论",
+            "text_no_reviews": "无评论文本",
+            "call_to_action": "呼叫至动作",
+            "call_to_action_color": "呼叫至动作颜色",
+            "call_to_action_text_color": "呼叫至动作文本颜色",
+            "border_color": "边框颜色",
+            "section_title_color": "部分标题颜色",
+            "text_no_review_color": "无评论文本颜色",
+            "page_no_review_star_color": "星标颜色"
+        },
+        "popup_submitted_review": {
+            "layout": {
+                "title": "布局",
+                "default": "默认",
+                "without_media": "无媒体的评论卡",
+                "disable": "禁用评论卡"
+            },
+            "title": {
+                "title": "标题",
+                "headline_label": "标题标签",
+                "content_label": "内容标签",
+                "button_label": "按钮标签"
+            },
+            "color_schema": {
+                "title": "配色方案",
+                "popup_background": "弹窗背景",
+                "popup_icon": "弹窗图标",
+                "popup_headline": "弹窗标题",
+                "popup_content": "弹窗内容",
+                "product_name": "产品名称",
+                "product_price": "产品价格",
+                "review_card_background": "评论卡背景",
+                "review_card_title": "评论卡标题",
+                "review_card_content": "评论卡内容",
+                "review_card_border": "评论卡边框",
+                "star_active": "星星 - 激活",
+                "star_disable": "星星 - 禁用",
+                "customer_name": "顾客姓名",
+                "customer_email": "顾客邮箱",
+                "button_border": "按钮 - 边框",
+                "button_background": "按钮背景",
+                "button_title": "按钮标题"
+            }
+        }
+    },
+    "review_testimonial": {
+        "choose_review": {
+            "title": "选择要显示的评论",
+            "auto_new_5": "自动获取最新的5星评论",
+            "auto_helptext": "每10分钟更新一次评论",
+            "number_of_reviews": "评论数量",
+            "choose_manually": "手动选择",
+            "choose_manually_button": "更改",
+            "selected": "选择在轮播中显示",
+            "warning": "轮播至少需要3条评论才会更美观",
+            "warning_2": "邮件请求",
+            "warning_3": "导入以获取更多",
+            "modal": {
+                "title": "手动选择评论"
+            }
+        },
+        "title": {
+            "title": "标题",
+            "title_label": "标题标签"
+        },
+        "card_content": {
+            "title": "卡片内容",
+            "customer_name_display": "客户名称显示",
+            "anonymous": "匿名",
+            "product_name": "产品名称",
+            "product_image": "产品图像",
+            "display_star_rating": "显示星级评分图标",
+            "display_customer_avatar": "显示客户头像",
+            "show_product_information": "显示产品信息",
+            "show_customer_flag": "显示客户国家旗帜",
+            "show_review_date": "显示评论日期",
+            "review_title": "评论标题",
+            "review_date": "评论日期"
+        },
+        "movement": {
+            "title": "移动",
+            "auto_movement": "自动移动",
+            "time_between_reviews": "两个幻灯片之间的时间（秒）",
+            "arrow_navigation": "箭头导航"
+        },
+        "color_schemes": {
+            "title": "颜色方案",
+            "headline": "标题",
+            "content": "内容",
+            "link_title": "链接标题",
+            "customer_name": "客户名称",
+            "star": "星标",
+            "navigator": "导航器",
+            "arrow_icon": "箭头图标",
+            "product_background": "产品背景",
+            "card_background": "卡片背景",
+            "widget_background": "小部件背景",
+            "navigator_arrow": "导航箭头",
+            "navigator_button": "导航按钮",
+            "border": "描边",
+            "product_name": "产品名称",
+            "review_date": "评论日期"
+        }
+    },
+    "review_onepage": {
+        "review_source": {
+            "title": "评论来源",
+            "subtitle": "选择要在评论页面上显示的产品",
+            "all_product": "所有产品",
+            "select_product": "选择产品",
+            "warning": "您需要选择至少一个产品以在评论页面上显示。",
+            "help_text": "默认显示所有已发布的评论"
+        },
+        "one_page_header": {
+            "title": "单页标题"
+        },
+        "review_display": {
+            "title": "信息显示",
+            "summary_box": "总结框",
+            "product": "产品"
+        }
+    },
+    "after_review_submitted": {
+        "show_discount_code": "显示折扣码",
+        "discount_code_color": "折扣码颜色",
+        "message_background_color": "消息背景颜色",
+        "title_label": "标题标签",
+        "description_label": "描述标签",
+        "title_label_color": "标题标签颜色",
+        "description_label_color": "描述标签颜色",
+        "show_submitted_review": "显示提交的评论",
+        "button_label": "按钮标签"
+    },
+    "tabs": {
+        "discount_voucher": "折扣券",
+        "product_rating": "产品评分",
+        "review_display": "评论显示",
+        "review_testimonial": "评论推荐",
+        "review_onepage": "评论页面"
+    },
+    "title": "小部件管理",
+    "add_widget_guild": {
+        "title": "如何安装小部件？",
+        "enable_global_script": "在开始之前，确保你已在 Shopify 管理后台 <strong><span>启用 TrustShop 全局</span> 应用嵌入</strong>",
+        "add_widget_v2": {
+            "title": "通过 Shopify 应用块添加小部件",
+            "for": "(适用于主题 2.0)",
+            "step": {
+                "step_1": "点击 <strong><span>添加小部件</span></strong> 打开 Shopify 管理后台",
+                "step_2": "<strong>Shopify 编辑器</strong> 将打开并自动添加小部件",
+                "step_3": "点击 <strong>保存按钮</strong>（位于右上角）并确保看到成功消息"
+            }
+        },
+        "add_widget_v1": {
+            "title": "通过手动添加小部件",
+            "for": "(适用于主题 1.0 - 经典主题)",
+            "description": "复制下面的代码并粘贴到你希望显示小部件的特定部分。<span>了解更多</span>"
+        }
+    },
+    "multi_lang": {
+        "enable": {
+            "title": "自动翻译已激活",
+            "content": "小部件内容的自动翻译已启用。如果你想更改它，请在 <1>评论设置</1> 中自定义设置。"
+        },
+        "disable": {
+            "content": "尝试根据买家的国家自动更改语言的功能。",
+            "button": "前往全局设置"
+        }
+    }
+}

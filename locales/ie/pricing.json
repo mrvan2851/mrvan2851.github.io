@@ -1,0 +1,184 @@
+{
+    "plan": {
+        "for_free": "Saor in aisce",
+        "title": "Plean",
+        "free": "Bunúsach",
+        "basic": "Caighdeán",
+        "pro": "Fiontar",
+        "unlimited": "Neamhtheoranta",
+        "free_plan": "Plean Bunúsach",
+        "basic_plan": "Plean Caighdeán",
+        "pro_plan": "Plean Fiontar",
+        "unlimited_plan": "Plean Neamhtheoranta"
+    },
+    "basic": "Básach",
+    "fully": "Go hiomlán",
+    "per_month": "in aghaidh na míosa",
+    "plan_active": "{{plan}} gníomhachtaithe",
+    "discount_offer_time": "ar feadh na chéad {{time}} eile",
+    "origin_price": "Praghas bunaidh ",
+    "order/month": "orduithe/mí",
+    "request_reviews": "Iarr léirmheas",
+    "upgrade_plan": "Uasghrádú plean",
+    "select_plan": "Roghnaigh {{plan}}",
+    "start_free": "Tosaigh saor in aisce",
+    "unlimited": "Neamhtheoranta",
+    "modal_pricing_title": "Díghlasáil Gnéithe Préimhe le ár bPraghsáil Solúbtha",
+    "best_choice": "An rogha is fearr",
+    "coming_soon": "Ag teacht go luath",
+    "process_bar": {
+        "title": "Ríomhphoist iomlán críochnaithe",
+        "subtitle": "Déanfar an comhaireamh seo a athnuachan ar an <strong>{{date}}</strong>",
+        "order_count": "{{used}} de {{total}} orduithe críochnaithe"
+    },
+    "plan_table": {
+        "title": "Pleananna praghsála",
+        "subtitle": "Faigh pleananna síntiúis saincheaptha deartha chun do ghnó a ardú!",
+        "start_trial": "Tosaigh triail saor in aisce ar feadh {{day}} lá",
+        "current_plan": "Plean reatha",
+        "upgrade": "Uasghrádú",
+        "select_plan": "Roghnaigh plean",
+        "downgrade": "Íoslódáil",
+        "pricing_card": {
+            "free": "Rochtain ar ghnéithe riachtanacha le ár bPlean Saor in aisce, foirfe do thosaitheoirí.",
+            "basic": "Faigh uirlisí agus tacaíocht ardleibhéil leis an bPlean Caighdeán do dhaoine aonair",
+            "pro": "Cumhachtaigh do chuideachta lenár bPlean Fiontar uilechuimsitheach",
+            "unlimited": "Níl aon teorainn le do fhás"
+        },
+        "modal_downgrade": {
+            "title": "Ná caill rochtain ar ghnéithe cumhachtacha!",
+            "subtitle": "Tá do stór ag úsáid roinnt gnéithe préimhe. Múch iad chun do phlean a íoslódáil:",
+            "discount_voucher": "Dearbhán lascaine uathoibríoch",
+            "customize_widget": "Fírinne saincheaptha",
+            "upload_video": "Físeáin a uaslódáil nuair a scríobhann tú léirmheas",
+            "review_testimonial": "Fianaise",
+            "modal_all_image": "Gach socrú íomhá modal",
+            "review_page": "Leathanach na Léirmheasanna Uile",
+            "google_shopping": "Siopadóireacht Google",
+            "global_display": "Taispeántas domhanda",
+            "group_product": "Táirge grúpa",
+            "custom_domain": "Fearann saincheaptha",
+            "qr_code": "Bainistíocht cód QR",
+            "review_translation": "Aistriú léirmheas",
+            "multi_lang": "Giuirléid ilteangach",
+            "ai_functionality": "Feidhmíocht AI",
+            "insights_and_segmentation": "Faisnéis agus rannpháirtíocht",
+            "review_detail_page": "Leathanach Sonraí Léirmheas",
+            "import_custom_csv": "Iompórtáil CSV saincheaptha",
+            "protect_review": "Cosain athbhreithniú"
+        },
+        "primary_collapse": {
+            "title": "Faigh an plean is fearr do do riachtanais",
+            "email_quota": "Iarr léirmheas",
+            "email_quota_helptext": "Déanaimid do chuóta a ríomh bunaithe ar líon na n-orduithe, ní ar líon na ríomhphoist iarratais athbhreithnithe a sheoltar. Mar shampla, má sheolann tú trí ríomhphost (iarratas, meabhrúchán, agus buíochas), tá sé fós á chomhaireamh mar aon cheann amháin.",
+            "order_per_month": "Iomlán ordaithe/mí",
+            "discount_voucher": "Dearbhán lascaine",
+            "customize_widget": "Fírinne saincheaptha",
+            "upload_video": "Físeán léirmheasa",
+            "review_testimonial": "Fianaise léirmheasa",
+            "modal_all_image": "Gach íomhá modal",
+            "review_page": "Leathanach na Léirmheasanna Uile",
+            "google_shopping": "Siopadóireacht Google",
+            "global_display": "Taispeántas Domhanda",
+            "group_product": "Táirge grúpa",
+            "custom_domain": "Fearann saincheaptha",
+            "qr_code": "Bainistíocht cód QR",
+            "review_translation": "Aistriú léirmheas",
+            "multi_lang": "Giuirléid ilteangach",
+            "ai_functionality": "Feidhmíocht AI",
+            "insights_and_segmentation": "Faisnéis agus Rannpháirtíocht",
+            "review_detail_page": "Leathanach Sonraí Léirmheas",
+            "import_custom_csv": "Iompórtáil CSV saincheaptha",
+            "protect_review": "Cosain athbhreithniú"
+        },
+        "details_collapse": {
+            "title": "Comparáid idir an fírinne saincheaptha idir pleananna síntiúis",
+            "widgetBox": {
+                "title": "Bosca Fírinne (réamhshocraithe)",
+                "choose_layout": "Roghnaigh Leagan Amach",
+                "summary_box": "Bosca Achoimre",
+                "color_scheme": "Scéim Datha",
+                "information_display": "Taispeántas Eolais",
+                "content": "Ábhar"
+            },
+            "widgetBoxNoReview": {
+                "title": "Bosca Fírinne (gan léirmheasanna)",
+                "content": "Ábhar",
+                "color_scheme": "Scéim Datha"
+            },
+            "modalReviewDetail": {
+                "title": "Sonraí an Léirmheas Modal",
+                "all_settings": "Gach socrú"
+            },
+            "modal_all_image": {
+                "title": "Gach íomhá modal",
+                "all_settings": "Gach socrú"
+            },
+            "formWriteReview": {
+                "title": "Foirm scríobh léirmheasanna",
+                "review_with_video": "Léirmheas le físeán"
+            }
+        }
+    },
+    "free_banner": {
+        "title": "Rochtain ar ghnéithe riachtanacha le ár bPlean Saor in aisce, foirfe do thosaitheoirí.",
+        "email_quota_limit": "Teorainn cuóta ríomhphoist {{limit}} orduithe/mí",
+        "basic_access": "Rochtain bhunúsach ar ghnéithe bosca léirmheas",
+        "basic_edit_email": "Cuir Iarratas Ríomhphoist in Eagar go Básach",
+        "upload_media": "Uaslódáil íomhá amháin ag léirmheasaithe",
+        "quick_chat": "Tacaíocht Comhrá Gasta",
+        "visible_brand": "Brand TrustShop Feicthe"
+    },
+    "basic_banner": {
+        "everything_in_basic": "Gach rud sa phlean Caighdeán",
+        "email_quota": "Teorainn cuóta ríomhphoist {{limit}} orduithe/mí",
+        "discount_voucher": "Dearbhán lascaine uathoibríoch",
+        "customize_widget": "Fírinne saincheaptha",
+        "upload_video": "Físeáin a uaslódáil nuair a scríobhann tú léirmheas",
+        "review_testimonial": "Fianaise",
+        "modal_all_image": "Gach socrú íomhá modal",
+        "review_page": "Leathanach na Léirmheasanna Uile",
+        "google_shopping": "Siopadóireacht Google",
+        "global_display": "Taispeántas Domhanda",
+        "group_product": "Táirge grúpa",
+        "custom_domain": "Fearann saincheaptha",
+        "qr_code": "Bainistíocht cód QR",
+        "review_translation": "Aistriú léirmheas",
+        "multi_lang": "Giuirléid ilteangach",
+        "ai_functionality": "Feidhmíocht AI",
+        "insights_and_segmentation": "Faisnéis agus Rannpháirtíocht",
+        "review_detail_page": "Leathanach Sonraí Léirmheas",
+        "import_custom_csv": "Iompórtáil CSV saincheaptha",
+        "protect_review": "Cosain athbhreithniú"
+    },
+    "frequency_ask": {
+        "title": "Ceisteanna atá á gcur go minic",
+        "list_questions": {
+            "1": {
+                "title": "Conas a ríomhtar an cuóta iarratais léirmheas?",
+                "subtitle": "Bunaithe ar líon na n-orduithe atá an cuóta. Má chumasann tú na trí chineál ríomhphoist—Iarr Léirmheas, Cuimhnigh ar Léirmheas, agus Buíochas. Ní bheidh ach cuóta amháin á chomhaireamh in aghaidh gach ordú."
+            },
+            "2": {
+                "title": "An n-úsáidfidh mo chuóta má ní sheolaim iarratais léirmheas trí TrustShop?",
+                "subtitle": "Ní bheidh do chuóta á ghearradh ach amháin más féidir leat feidhmiú le gné iarratais léirmheas TrustShop. Má ní úsáideann tú an ghné seo, ní bheidh tionchar ar do chuóta."
+            },
+            "3": {
+                "title": "An féidir liom mo phlean a íoslódáil?",
+                "subtitle": "Is féidir leat do phlean a íoslódáil ag am ar bith más gá duit na gnéithe íoctha. Cinntigh go bhfuil gach gné íoctha díchumasaithe sula ndéanann tú íoslódáil. Má tá cabhair uait, tá foireann tacaíochta againn anseo chun cuidiú leat."
+            },
+            "4": {
+                "title": "An gcuirfear táille orm i rith an tréimhse triail?",
+                "subtitle": "Ní chuirfear táille ort i rith an triail. Beidh na táillí ag tosú ach amháin nuair a chríochnaíonn an tréimhse triail."
+            }
+        }
+    },
+    "modal_charge_success": {
+        "title": "Tá tú anois ina ball {{plan}}!",
+        "content": "Go raibh maith agat as ár síntiús préimhe a roghnú! Bí réidh le haghaidh buntáistí eisiacha agus tacaíocht barrleibhéil. Déanaimis an turas seo neamhghnách."
+    },
+    "special_offer": {
+        "title": "Tairiscint Speisialta: Lascaine 30% as a bheith Linn!",
+        "content": "Chun ár mbuíochas a léiriú as do thacaíocht, táimid ag tairiscint <1>lascaine speisialta 30%</1> duit ar aon phlean síntiúis don dá mhí amach romhainn. Go raibh maith agat as a bheith i do chustaiméir luachmhar!",
+        "remain_time": "Am atá fágtha don tairiscint:"
+    }
+}

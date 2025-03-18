@@ -1,0 +1,169 @@
+{
+    "step_1": {
+        "button": "Tosaigh",
+        "sub_title": "Tosaigh trí do stór Shopify a cheangailt. Rachaidh TrustShop i bhfeidhm go réidh le do shiopa, rud a dhéanfaidh bainistiú athbhreithnithe agus idirghníomhaíocht leis na custaiméirí níos éasca.",
+        "title": "✋ Fáilte go TrustShop",
+        "select_language": "Cén teanga atá agat mar do phríomhtheanga cumarsáide?",
+        "select_language_subtitle": "Roghnaigh an teanga is fearr leat don chóras.",
+        "help_text": "Is féidir leat an teanga phríomhúil a athrú i gcónaí sa socruithe.",
+        "app_language": "Teanga an aip"
+    },
+    "step_2": {
+        "quick_guide": {
+            "reload_btn": "Athluchtú",
+            "recheck_btn": "Earráid. Cliceáil chun athcheiceáil",
+            "step_1": "<p>Cliceáil ar an gcnaipe <span>Ceadaigh comhoiriúnú aip</span></p>",
+            "step_2": "<p>Osclófar leathanach agus beidh an aip <span>gníomhachtaithe go huathoibríoch</span></p>",
+            "step_3": "<p>Cliceáil ar an gcnaipe <span>Sábháil</span> (ag an gcúinne uachtarach deas) agus cinntigh go bhfeiceann tú teachtaireacht rathúlachta</p>",
+            "step_4": "<p>Filleadh ar an <span>leathanach fáilte</span> seo chun leanúint ar aghaidh le do chomhtháthú TrustShop.</p>",
+            "success_btn": "Comhoiriúnú aip rathúil",
+            "sub_title": "Gníomhachtú an aip go héasca trí na céimeanna seo a leanúint: ",
+            "title": "👉 Ná caill an treoir seo 👈",
+            "not_detect_embedded": "Ní raibh sé ábalta an aip a gníomhachtú. Déan iarracht arís.",
+            "add_widget_helptext": "Ag dul i ngleic leis an bhfadhb maidir le cur leis an gcliog? Déan teagmháil linn le haghaidh cúnamh mionsonraithe!",
+            "helptext": "<p>Cuireann an chéim seo an cód riachtanach chun athbhreithnithe a thaispeáint ar fud do shiopa.</p><p><i>Ná bí buartha - ní dhéanfaidh sé seo tionchar ar dhearadh nó comhréir do shiopa.</i></p>"
+        },
+        "sub_title": "Taispeánfaidh athbhreithnithe go réidh sna céimeanna atá le teacht",
+        "title": "Iarrataí athbhreithnithe uathoibríocha",
+        "email_setting_title": "Socraigh iarratas ar athbhreithniú trí ríomhphost",
+        "email_setting_subtitle": "Seolfar ríomhphoist iarratais ar athbhreithnithe go huathoibríoch bunaithe ar na socruithe thíos",
+        "customer_in_country": "Custaiméirí sa tír",
+        "default_country": "Deafált (Gach tír)",
+        "send_email_request_review": "Seol iarratas ar athbhreithniú trí ríomhphost",
+        "after_order": "Tar éis don stádas ordaithe a bheith",
+        "add_more_country": "Cuir níos mó tíortha leis",
+        "help_text": "Is féidir leat an comhréim seo a athrú i gcónaí sa socruithe."
+    },
+    "step_3": {
+        "v1": {
+            "quick_guide": {
+                "title": "Cuir Widget Athbhreithnithe",
+                "reload_btn": "Athlódáil",
+                "recheck_btn": "Earráid. Cliceáil chun athbhreithniú a dhéanamh",
+                "step_1": "<p>Oscail <1>templates/product.liquid</1> sa t-eagarthóir</p>",
+                "step_2": "<p>Cuir an cód seo a leanas ag bun do chomhad téama</p>",
+                "step_3": "<p>Cliceáil <span>Sábháil</span></p>",
+                "step_4": "<p>Fill ar an <span>leathanach comhoiriúnaithe</span> seo chun leanúint le comhoiriúnú.</p>",
+                "helptext": "<p>Cuireann an chéim seo an cód riachtanach chun athbhreithnithe a thaispeáint ar fud do shiopa.</p><p><i>Ná bí buartha - ní dhéanfaidh sé seo tionchar ar dhearadh nó comhréir do shiopa.</i></p>"
+            }
+        },
+        "v2": {
+            "quick_guide": {
+                "title": "Cuir Widget Athbhreithnithe",
+                "reload_btn": "Athlódáil",
+                "recheck_btn": "Earráid. Cliceáil chun athbhreithniú a dhéanamh",
+                "step_1": "<p>Cliceáil ar an gcnaipe <span>Cuir Widget</span></p>",
+                "step_2": "<p.Cuirfear an widget go huathoibríoch le do shamhail táirge</p>",
+                "step_3": "<p>Cliceáil <span>Sábháil</span> chun na hathruithe a dhearbhú</p>",
+                "step_4": "Seiceáil le do thoil do leathanach táirge chun na hathbhreithnithe a fheiceáil i ngníomh",
+                "step_5": "<p>Fill ar an <span>leathanach comhoiriúnaithe</span> seo chun leanúint le comhoiriúnú</p>",
+                "helptext": "<p>Cuireann an chéim seo an cód riachtanach chun athbhreithnithe a thaispeáint ar fud do shiopa.</p><p><i>Ná bí buartha - ní dhéanfaidh sé seo tionchar ar dhearadh nó comhréir do shiopa.</i></p>"
+            }
+        },
+        "quick_guide": {
+            "sub_title": "Lean na céimeanna simplí seo chun athbhreithnithe táirgí a ghríosú i do shiopa:",
+            "title": "Treoir ghréine",
+            "not_detect_widget": "Ní féidir linn widget a aimsiú. Déan iarracht arís!",
+            "add_widget_helptext": "An bhfuil fadhbanna agat leis an widget a chur leis? Glaoigh orainn le haghaidh tacaíochta mionsonraithe!",
+            "success_btn": "Widget curtha leis go rathúil"
+        },
+        "sub_title": "Taispeáin widget athbhreithnithe i do shiopa ar líne.",
+        "title": "Configiúr an taispeántas athbhreithnithe táirgí",
+        "enable_app_embed": "Ceadaigh Comhoiriúnú na feidhmchláir",
+        "enable_app_embed_subtitle": "Lean na céimeanna simplí seo chun athbhreithnithe táirgí a ghríosú i do shiopa",
+        "add_widget_btn": "Cuir widget leis",
+        "enable_embed": "Ceadaigh comhoiriúnú app"
+    },
+    "step_4": {
+        "button": "Téigh go dtí an painéal rialaithe",
+        "sub_title": "Comhghairdeas! Tá tú réidh anois chun do bhranda a neartú le cumhacht na n-athbhreithnithe agus moltaí. Bí réidh chun do ghnó a fheiceáil ag fás!",
+        "title": "Tá tú réidh!",
+        "import_text": "Iompórtáil athbhreithnithe go héasca ó Product Reviews by Shopify, Judge.me, Loox, agus níos mó",
+        "import_button": "Iompórtáil athbhreithnithe",
+        "dashboard_text": "Tosaigh ag bainistiú athbhreithnithe agus ag idirghníomhú le do chustaiméirí",
+        "dashboard_button": "Téigh go dtí an painéal rialaithe"
+    },
+    "pricing_page": {
+        "title": "Praghsáil shimplí agus díreach!",
+        "sub_title": "Triail saor in aisce ar feadh 7 lá. Gan aon táillí folaithe.",
+        "free_plan_des": "Nó tosaigh go saor, foirfe do thosaitheoirí.",
+        "recommended": "Moltar",
+        "pricing_card": {
+            "basic": {
+                "title": "Caighdeán",
+                "sub_title": "Foirfe do ghnóthaí beaga.",
+                "benefit": {
+                    "1": "<p><span>200</span> iarratais athbhreithnithe in aghaidh ordaithe/mí</p>",
+                    "2": "<p>Rochtain ar na gnéithe préimhe is mó</p>",
+                    "3": "<p>Comhoiriúnú Shopify Flow</p>",
+                    "4": "<p>Tacaíocht do chustaiméirí tosaíochta</p>"
+                }
+            },
+            "pro": {
+                "title": "Enterprise",
+                "sub_title": "Tóg do ghnó go dtí an leibhéal eile.",
+                "benefit": {
+                    "1": "<p><span>1,500</span> iarratais athbhreithnithe in aghaidh ordaithe/mí</p>",
+                    "2": "<p>Rochtain ar <span>gach gné préimhe.</span></p>",
+                    "3": "<p>Leathanach sonraí athbhreithnithe</p>",
+                    "4": "<p>Dómhain saincheaptha</p>",
+                    "5": "<p>Comhoiriúnú Shopify Flow</p>",
+                    "6": "<p>Tacaíocht do chustaiméirí tosaíochta</p>"
+                }
+            },
+            "unlimited": {
+                "title": "Neamhtheoranta",
+                "sub_title": "Níl aon teorainn le do fhorbairt.",
+                "benefit": {
+                    "1": "<p><span>Neamhtheoranta</span> iarratais athbhreithnithe</p>",
+                    "2": "<p>Rochtain ar <span>gach gné préimhe.</span></p>",
+                    "3": "<p>Leathanach sonraí athbhreithnithe</p>",
+                    "4": "<p>Dómhain saincheaptha</p>",
+                    "5": "<p>Comhoiriúnú Shopify Flow</p>",
+                    "6": "<p>Tacaíocht do chustaiméirí tosaíochta</p>"
+                }
+            }
+        }
+    },
+    "modal_compare_plans": {
+        "title": "Comparáid Phleananna",
+        "pricing_card": {
+            "free": {
+                "title": "Bunúsach",
+                "sub_title": "Tosaigh go saor, foirfe do thosaitheoirí.",
+                "benefit": {
+                    "1": "<p><span>50</span> iarratais athbhreithnithe in aghaidh ordaithe/mí</p>",
+                    "2": "<p>Rochtain bhunúsach ar widget athbhreithnithe</p>",
+                    "3": "<p>Éditeáil bunúsach iarratais ríomhphoist</p>",
+                    "4": "<p>Íomhánna amháin ón athbhreithnitheoir</p>"
+                }
+            },
+            "basic": {
+                "title": "Caighdeán",
+                "sub_title": "Foirfe do ghnóthaí beaga nó daoine aonair.",
+                "benefit": {
+                    "1": "<p><span>200</span> iarratais athbhreithnithe in aghaidh ordaithe/mí</p>",
+                    "2": "<p>Rochtain ar <span>na gnéithe préimhe is mó</span></p>",
+                    "3": "<p>Widget atá uile-chuimsitheach</p>",
+                    "4": "<p>Físeáin athbhreithnithe</p>",
+                    "5": "<p>Google Shopping</p>",
+                    "6": "<p>Cosaint ar do chuid athbhreithnithe</p>"
+                }
+            },
+            "pro": {
+                "title": "Enterprise",
+                "sub_title": "Tóg do ghnó go dtí an leibhéal eile.",
+                "benefit": {
+                    "1": "<p><span>1,500</span> iarratais athbhreithnithe in aghaidh ordaithe/mí</p>",
+                    "2": "<p>Rochtain ar <span>gach gné préimhe.</span></p>",
+                    "3": "<p>Widget atá uile-chuimsitheach</p>",
+                    "4": "<p>Físeáin athbhreithnithe</p>",
+                    "5": "<p>Google Shopping</p>",
+                    "6": "<p>Cosaint ar do chuid athbhreithnithe</p>",
+                    "7": "<p>Leathanach sonraí athbhreithnithe</p>",
+                    "8": "<p>Dómhain saincheaptha</p>"
+                }
+            }
+        }
+    }
+}

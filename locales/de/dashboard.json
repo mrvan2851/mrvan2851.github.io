@@ -1,0 +1,109 @@
+{
+    "welcome_app" : {
+        "title": "Willkommen bei den Produktbewertungen"
+    },
+    "popup": {
+        "button": "Bewerten Sie uns",
+        "content": "Ihr Feedback treibt die Verbesserung von TrustShop voran. Wir würden gerne wissen, wie Sie unsere App bewerten würden.",
+        "title": "Ihre Meinung ist uns wichtig!",
+        "modal_rate": {
+            "title": "Warum fühlen Sie sich schlecht über TrustShop?",
+            "option_1": {
+                "title": "Schwer zu bedienen oder einzurichten",
+                "content": "Ich fand die App schwer zu bedienen, als:"
+            },
+            "option_2": "Nicht zufrieden mit dem Support",
+            "option_3": {
+                "title": "Eingeschränkte oder fehlende Funktionen",
+                "content": "Die App sollte mehr Funktionen haben, wie zum Beispiel:"
+            }
+        }
+    },
+    "setup_guide": {
+        "card_1": {
+            "content": "Zeigen Sie Bewertungen in Ihrem Online-Shop an",
+            "title": "Widget zum Online-Shop hinzufügen"
+        },
+        "card_2": {
+            "button": "E-Mail einrichten",
+            "content": "Passen Sie die Zeit an, zu der die Anfrage-E-Mail und die Dankes-E-Mail gesendet werden sollen",
+            "title": "Anfrage-E-Mail einrichten"
+        },
+        "card_3": {
+            "button": "Widget anpassen",
+            "content": "Passen Sie das Bewertungs-Widget an die Vorlieben Ihrer Kunden an",
+            "title": "Widget anpassen"
+        },
+        "card_4": {
+            "button": "Rabattgutschein",
+            "content": "Motivieren Sie Kunden, eine Bewertung abzugeben, indem Sie einen Rabatt für ihren nächsten Einkauf anbieten",
+            "title": "Rabattgutschein"
+        },
+        "title": "Setup-Anleitung"
+    },
+    "statistics": {
+        "all": "Alle",
+        "all_reviews": "Alle Bewertungen",
+        "avg_star_rating": "Durchschnittliche Sternebewertung",
+        "title": "Ihre Bewertungseinblicke"
+    },
+   "whats-new": {
+        "slide_1": {
+            "title": "🌍 Mehrsprachige Rezensionen: Verbinden Sie sich mit Kunden weltweit",
+            "date_time": "Aktualisiert: 1. März 2025",
+            "content": {
+                "text" : "Der Star dieses Updates ist unser neues mehrsprachiges Widget und die Funktion zur Übersetzung von Bewertungen. Auf dem heutigen globalen Markt sollten Sprachbarrieren das Potenzial Ihres Shops nicht einschränken. Mit TrustShop 2.8 können Kunden Bewertungen jetzt mit einem einzigen Klick in ihre Muttersprache übersetzen."
+            },
+            "button": "Mehr erfahren"
+        },
+        "slide_2": {
+            "title": "Neue QR-Code-Review-Sammlung",
+            "date_time": "Aktualisiert: 6. Feb. 2025",
+            "content": {
+                "text" : "Eine neue Möglichkeit, Kundenbewertungen zu sammeln. Wenn Kunden den QR-Code scannen, können sie:",
+                "list": [
+                    "Produkte anzeigen, die noch nicht bewertet wurden",
+                    "Einfach neue Bewertungen abgeben",
+                    "Vorherige Bewertungen ansehen",
+                    "Verfolgen Sie die verdienten Rabattcodes"
+                ]
+            },
+            "button": "Mehr erfahren"
+        },
+        "slide_3": {
+            "title": "Erweiterte Anpassung von E-Mail-Vorlagen",
+            "date_time": "Aktualisiert: 6. Feb. 2025",
+            "content": {
+                "text": "Perfektionieren Sie Ihre Markenpräsentation mit erweiterter E-Mail-Anpassung:",
+                "list": [
+                    "Flexible Logopositionierung",
+                    "Anpassbare Logogröße",
+                    "Einstellbare Polsterungseinstellungen",
+                    "Hintergrundfarboptionen"
+                ]
+            },
+            "button": "Mehr erfahren"
+        },
+        "slide_4": {
+            "title": "Erweiterte Verwaltung von Abmeldelisten",
+            "date_time": "Aktualisiert: 11. Januar 2025",
+            "content": {
+                "text": "Sorgen Sie mit unserem neuen Abmeldemanagementsystem für eine saubere und effektive Kundenkommunikation. Verfolgen, analysieren und pflegen Sie Ihre Kundenlisten präzise"
+            },
+            "button": "Mehr erfahren"
+        },
+        "slide_5": {
+            "title": "Native Shopify-Integration mit Kundendetails",
+            "date_time": "Aktualisiert: 11. Januar 2025",
+            "content": {
+                "text": "Greifen Sie direkt von der Kundendetailseite von Shopify auf Kundenbewertungen zu. Kein Wechseln mehr zwischen Registerkarten – alles, was Sie brauchen, ist genau dort, wo Sie es brauchen!"
+            },
+            "button": "Mehr erfahren"
+        },
+        "title": "Was ist neu"
+    },
+    "popup_support" : {
+        "title": "Wie können wir Ihnen helfen?",
+        "content": "Sie haben Zugriff auf unsere umfangreichen Hilfedokumente und unser Team steht Ihnen jederzeit mit Rat und Tat zur Seite. Kontaktieren Sie uns einfach!"
+    }
+}

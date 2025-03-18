@@ -1,0 +1,42 @@
+{
+    "title": "Tāuta arotake",
+    "subtitle": "Ka whakahohe i a koe ki te whiwhi tātai whai whakaaro nui mai i AliExpress",
+    "extension_installation": "Whakatakoto whakahohe",
+    "page_primary_button": "Whakarerekē i ngā tautuhinga whakauru",
+    "guild": {
+        "title": "Whakatakoto whakahohe",
+        "subtitle": "Whakatakoto i to tatou whakahohe ki te whiwhi tātai whai whakaaro mai i AliExpress",
+        "step": "<p>Whakatakoto i to tatou whakahohe ki te whiwhi tātai whai whakaaro mai i AliExpress:</p><p>Pāwhiritia \"<strong>Whakatakoto TrustShop whakahohe</strong>\".</p><p>Ka whakakorengia koe ki te \"Chrome web store\". Pāwhiritia \"<strong>Tāpiri ki Chrome</strong>\".</p> <p>Whakarongo ki nga whakamarama kia whakakītia te whakatakoto.</p><p><strong>Whakahōu</strong> i tēnei whārangi, ā, tīmata te whakararuraru i ngā tātai whai whakaaro. </p>",
+        "btn_install_extension": "Whakatakoto TrustShop whakahohe",
+        "refresh_page": "Whakahōu whārangi"
+    },
+    "product": "Mahinga",
+    "aliexpress_link": "Hononga AliExpress",
+    "save_changes": "Tiaki ngā whakarerekētanga",
+    "import": "Whakararuru",
+    "enter_aliexpress_link_here": "Tāuru i te hononga AliExpress i konei",
+    "import_settings": "Whakararuru Whirihoranga",
+    "change_product": "Panonitia te mahinga",
+    "aliexpress_product_link": "Hononga mahinga AliExpress",
+    "enter_a_link": "Tāuru i tētahi hononga",
+    "quantity": "Maha",
+    "enter_a_quantity": "Tāuru i tētahi maha",
+    "content_option": "Kōwhiringa ihirangi",
+    "contain_photos": "Whai whakaahua",
+    "conatain_videos": "Whai ataata",
+    "contain_review_content": "Whai ihirangi tātai whakaaro",
+    "customer_country": "Whenua kiritaki",
+    "search_country": "Rapu whenua",
+    "all_countries": "Ngā whenua katoa",
+    "date_range": "Rohe rā",
+    "filter_date": {
+        "today": "Tēnei rā",
+        "yesterday": "Ināianei",
+        "last_7_days": "Whakamutunga 7 rā",
+        "last_month": "Whakamutunga marama",
+        "last_year": "Whakamutunga tau",
+        "all_times": "Ngā wā katoa"
+    },
+    "banner_success": "Kua kawemai ngā arotake mō",
+    "banner_error": "I puta he hapa i te wā e whakaputa arotake ana"
+}

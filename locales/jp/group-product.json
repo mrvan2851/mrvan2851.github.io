@@ -1,0 +1,41 @@
+{
+    "group_overview": {
+        "title": "グループ製品",
+        "description": "類似製品をグループ化してレビューを共有および表示し、バンドルを簡素化し、カスタムレビュー表示を簡単に作成します。",
+        "create_button": "グループを作成",
+        "delete_group_message": "グループを削除すると、すべてのレビューが分離され、元の製品に戻ります。アクセスできなくなり、この操作は元に戻せません。続行しますか？",
+        "delete_group": "グループを削除",
+        "limit_function": "この機能を使用するには、より高いプランにアップグレードしてください。 <1>価格を見る</1>"
+    },
+    "create_group_page": {
+        "title": "グループ製品を作成",
+        "group_name": "グループ名",
+        "product_in_this_group": "このグループの製品",
+        "description": "このグループに製品を追加",
+        "sub_description": "このグループに追加する製品を選択",
+        "add_product": "製品を追加",
+        "unsaved_change_title": "本当に終了しますか？",
+        "unsaved_change_message": "グループが保存されていません。終了すると、設定が失われます。続行しますか？"
+    },
+    "create_group_modal": {
+        "title": "グループ製品を作成",
+        "select_product_for": "の製品を選択",
+        "add_product_to_group": "グループに製品を追加",
+        "search_product": "製品を検索",
+        "product": "製品",
+        "total_reviews": "総レビュー数",
+        "average_rating": "平均評価",
+        "no_product_found": "製品が見つかりません",
+        "no_result_for": "の結果がありません"
+    },
+    "group_detail_page": {
+        "group_rating_summary": "グループ評価の概要",
+        "products_in_group": "グループ内の製品",
+        "reviews_in_group": "グループ内のレビュー",
+        "delete_product": "製品を削除",
+        "most_helpful": "最も役立つ",
+        "newest": "最新",
+        "delete_confirm_title": "グループから製品を削除",
+        "delete_confirm_message": "この製品を削除してもよろしいですか？"
+    }
+}

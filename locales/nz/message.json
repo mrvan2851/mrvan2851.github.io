@@ -1,0 +1,90 @@
+{
+    "toast": {
+        "email": {
+            "update_success": "Kua whakahoutia te īmēra",
+            "invalid_email": "He īmēra hē!",
+            "failed": "I raru te tuku īmēra",
+            "failed_reason": "I raru te tuku īmēra",
+            "get_campain_fail": "I raru te tiki i ngā rārangi.",
+            "get_campaign_failed": "I raru te tiki i te kampene",
+            "get_queue_failed": "I raru te tiki i te rārangi",
+            "require_title": "Hei whakahohe i tēnei īmēra, me tango 1 panonitanga:",
+            "require": "Me whakahou te tono arotake rīpene",
+            "success": "I tukuna ngā pārongo i runga i te angitu",
+            "empty": "Kei te ngaro etahi o ngā rāngai, kōreroa e noho hei te tango i ngā raraunga",
+            "send_again_success": "Kua tīpako te īmēra"
+        },
+        "failed": "Raru!",
+        "get_status_fail": "I raru i te tiki i te whakaaturanga.",
+        "onboarding": {
+            "reload": "Raru! Ngāwari tonu whakamātau",
+            "skip_enable_app_embed": "Pātai kē te whakahohe i te whaitaki?",
+            "skip_enable_app_embed_notice": "Ko te whakahohe i te whaitaki ka taea te whakaatu i te widget i tō toa. Mēnā kāore e hiahia, ka taea e koe te pātai i tēnei i muri i te whakahohe i ngā Tautuhinga.",
+            "skip_add_block_title": "Pātai kē te tāpiri i te widget?",
+            "skip_add_block_notice": "Ko te tāpiri i te widget ka taea te whakaatu i ngā arotake i tō toa. Mēnā kāore e hiahia, ka taea e koe te pātai i tēnei i muri i te tāpiri i ngā Tautuhinga.",
+            "enable_app_embed": "Kua whakahohehia te rāpiti",
+            "add_app_block_success": "Kua tāpirihia te widget"
+        },
+        "publish_fail": "I raru te whakaputa.",
+        "reply_fail": "I raru te whakahoki.",
+        "review": {
+            "delete_photo_fail": "I raru te tango i te whakaahua.",
+            "delete_reply_fail": "I raru te tango i te whakautu.",
+            "get_review_fail": "I raru te tiki i ngā arotake.",
+            "publish_fail": "I raru te whakaputa.",
+            "reject_fail": "I raru te whakahē."
+        },
+        "saved": "Kua rongoā",
+        "server_error_title": "Hē o te tūmau",
+        "server_error": "I raru te tukanga. Ngāwari tonu whakamātau anō",
+        "setting": {
+            "validate_fail": "Kei te hē etahi o ngā rāngai."
+        },
+        "widget": {
+            "missing_shopify_code": "Me tāpiri te waehere Shopify ki te rāngai kuputuhi",
+            "review_filter_null": "Me whai i te paearu arotake i te rārangi"
+        },
+        "import_review": {
+            "success": "I whakauruhia ngātahi"
+        },
+        "add_widget_v1_confirm": "Ngā mihi mō te whakatau",
+        "export_review": {
+            "success": "Kei te whakahaerehia te tārua, ka tukuna atu te kōnae ki tō īmēra i te {{email}}",
+            "failed": "I raru te tārua, tēnā whakapā mai mō te tautoko"
+        },
+        "delete_review": {
+            "success": "I māmā te tango",
+            "failed": "I raru te tango."
+        },
+        "group_product": {
+            "at_least_2_product": "Me tīpako i te iti rawa o ngā hua e 2",
+            "create_success": "I waihangatia te rōpū",
+            "delete_success": "I tango te rōpū {{name}}",
+            "update_success": "I whakahoutia te rōpū",
+            "add_product_success": "I tāpiri te hua",
+            "delete_product_success": "I tango te hua"
+        },
+        "delete_failed": "I raru te tango.",
+        "add_failed": "I raru te tāpiri",
+        "update_failed": "I raru te whakahou"
+    },
+    "validate": {
+        "empty_input": "Me kōreroa tēnei rāngai!",
+        "greater_than_0": "Me nui atu i te 0 te uara!",
+        "smaller_than_100": "Kāore e taea te kākahu ki te 100 te uara!",
+        "invalid_email": "He īmēra hē!",
+        "invalid_url": "He URL hē!",
+        "word_not_allow": "Aroha mai, kāore e whakaaetia!",
+        "this_field_required": "Me kākahu tēnei rāngai!",
+        "invalid_quantity": "Me rōpū pūāhua rahi i waenga i te 5 ki te 200!",
+        "quantity_review_per_page": "Ko te rōpū me 1-10!",
+        "quantity": "Te rōpū hou e pa ana ki 200",
+        "import_review": {
+            "fail": "I raru te whakaurunga. Ngāwari tonu whakamātau anō",
+            "size": "Ko te rahi o te kōnae kua neke ake i te 5MB",
+            "type": "He rerekē te momo kōnae"
+        },
+        "limit_email_send_test": "Me tatari 90 hēkona hei tono e pātea ki te īmēra i te hē.",
+        "email_exist": "E pa ana te īmēra"
+    }
+}

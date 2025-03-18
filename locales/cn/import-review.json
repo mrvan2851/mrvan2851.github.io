@@ -1,0 +1,42 @@
+{
+    "title": "导入评论",
+    "subtitle": "该扩展程序使您能够收集来自AliExpress的有价值的评论",
+    "extension_installation": "扩展程序安装",
+    "page_primary_button": "更改导入设置",
+    "guild": {
+        "title": "扩展程序安装",
+        "subtitle": "安装我们的扩展程序以收集来自AliExpress的评论",
+        "step": "<p>安装我们的扩展程序以收集来自AliExpress的评论：</p><p>点击“<strong>安装TrustShop扩展程序</strong>”。</p><p>您将自动重定向到“Chrome网上应用店”。点击“<strong>添加至Chrome</strong>”。</p> <p>按照说明完成安装过程。</p><p><strong>刷新</strong>此页面并开始导入评论。</p>",
+        "btn_install_extension": "安装TrustShop扩展程序",
+        "refresh_page": "刷新页面"
+    },
+    "product": "产品",
+    "aliexpress_link": "AliExpress链接",
+    "save_changes": "保存更改",
+    "import": "导入",
+    "enter_aliexpress_link_here": "在此处输入AliExpress链接",
+    "import_settings": "导入设置",
+    "change_product": "更改产品",
+    "aliexpress_product_link": "AliExpress产品链接",
+    "enter_a_link": "输入链接",
+    "quantity": "数量",
+    "enter_a_quantity": "输入数量",
+    "content_option": "内容选项",
+    "contain_photos": "包含照片",
+    "conatain_videos": "包含视频",
+    "contain_review_content": "包含评论内容",
+    "customer_country": "客户国家",
+    "search_country": "搜索国家",
+    "all_countries": "所有国家",
+    "date_range": "日期范围",
+    "filter_date": {
+        "today": "今天",
+        "yesterday": "昨天",
+        "last_7_days": "过去7天",
+        "last_month": "上个月",
+        "last_year": "去年",
+        "all_times": "所有时间"
+    },
+    "banner_success": "我们已成功导入评论",
+    "banner_error": "导入评论时出现错误"
+}

@@ -1,0 +1,247 @@
+{
+    "table": {
+        "navigate_button_content": "Sreabhadh Oibre Ríomhphoist",
+        "no_data": {
+            "title": "Bain úsáid as do ríomhphoist iarratais",
+            "description": "Teimpléid ríomhphoist gníomhach a shocrú chun ríomhphoist uathoibríoch a sheoladh chuig custaiméirí.",
+            "setting_email_templates": "Socrú teimpléid ríomhphoist"
+        },
+        "title": "Ríomhphost iarratais athbhreithnithe",
+        "second_title": "Seoladh ríomhphoist go huathoibríoch",
+        "search_placeholder": "Cuir isteach ríomhphost nó uimhir ordaithe",
+        "all_status": "Gach stádas",
+        "email_type": "Cineál Ríomhphoist",
+        "email_review_request": "Ríomhphost iarratais athbhreithnithe",
+        "remind_request_review": "Ríomhphost cuimhneacháin iarratais athbhreithnithe",
+        "thank_you_email": "Ríomhphost buíochais",
+        "just_now": "Faoi láthair",
+        "order_id": "Id Ordaithe",
+        "buyer": "Ceannaitheoir",
+        "location": "Áit",
+        "product": "Táirge",
+        "purchase_time": "Am Ceannach",
+        "schedule_date": "Dáta Sceidealaithe",
+        "send_now": "Cuir anois",
+        "send_again": "Seol arís"
+    },
+    "campaign": {
+        "banner": {
+            "title": "Tá sé cumhachtach go mbeadh léirmheasanna custaiméirí agat!",
+            "content": "Is féidir cúpla abairt i léirmheas a bheith níos tiontaithe ar chustaiméirí ná láithreán gréasáin iomlán. Faigh do léirmheasanna custaiméirí le campáin ríomhphoist agus teimpléid atá againn chun do shaol a dhéanamh níos éasca!"
+        },
+        "email_content": "Ábhar Ríomhphoist",
+        "email_content_description": "Cruthaigh ábhar ríomhphoist le teanga ar leith chun a chinntiú go dtuigeann do chustaiméirí an teachtaireacht go héasca",
+        "email_will_be_sent": "Cuirfear Ríomhphost",
+        "title": "Sreabhadh Oibre Ríomhphoist",
+        "not_active": "neamhghníomhach",
+        "running": "Ag rith",
+        "save_just_now": "Sábháil faoi láthair",
+        "send_test": "Cuir tástáil",
+        "send_test_email": "Cuir ríomhphost tástála",
+        "enter_email_address": "Cuir seoladh ríomhphoist thíos",
+        "confirm": "Deimhnigh",
+        "when_to_send": "Cathain a sheoladh",
+        "all_change_save": "Sábháladh gach athrú",
+        "all_customer": "Gach Custaiméir",
+        "email_schedule": "Sceideal Ríomhphoist",
+        "email_scheduling": "Sceidealú Ríomhphoist",
+        "email_scheduling_subtitle": "Saincheaptha am a shocrú nuair a sheoltar ríomhphoist chuig custaiméirí ó réigiúin éagsúla",
+        "to": "Go",
+        "subject": "Ábhar",
+        "preview": "Réamhamharc",
+        "from": "Ó",
+        "branding": "Brandáil",
+        "logo": "Lógó",
+        "personalization": "Pearsantú",
+        "active_require_toast": "Ní mór duit iarratas athbhreithnithe a chur ar siúl",
+        "product_quantity": "Cainníocht táirge",
+        "star_rating_icon": "Deilbhín rátála réalta",
+        "call_to_action_btn": "Cnaipe gnímh (Scríobh léirmheas)",
+        "request_review": {
+            "title": "Iarr athbhreithniú",
+            "content": "Tar éis <strong>{{day}}</strong> lá agus <strong>{{status}}</strong>, seolfar ríomhphost uathoibríoch chuig an gcustaiméir ag iarraidh orthu athbhreithniú a dhéanamh ar an táirge.",
+            "toast_active": "Iarratas ar athbhreithniú gníomhachtaithe",
+            "toast_deactive": "Iarratas ar athbhreithniú díghníomhachtaithe"
+        },
+        "request_review_reminder": {
+            "title": "Meabhrúchán athbhreithnithe",
+            "content": "Tar éis <strong>{{days}}</strong> lá tar éis an chéad ríomhphost iarratais ar athbhreithniú a sheoladh, seolfar meabhrúchán uathoibríoch mura bhfaightear freagra. Ní bheidh sé gníomhach ach amháin má tá an ríomhphost iarratais ar athbhreithniú gníomhach.",
+            "after_review_request_mail": "tar éis an ríomhphost iarratais ar athbhreithniú",
+            "toast_active": "Meabhrúchán gníomhachtaithe",
+            "toast_deactive": "Meabhrúchán díghníomhachtaithe"
+        },
+        "thank_you_for_review": {
+            "title": "Go raibh maith agat as do léirmheas",
+            "content": "Tar éis do chustaiméir athbhreithniú a dhéanamh, seolfar ríomhphost buíochais uathoibríoch. Is féidir cód lascaine agus tairiscintí a chur leis. Ní bheidh sé gníomhach ach amháin má tá an ríomhphost iarratais ar athbhreithniú gníomhach.",
+            "content_2": "Tar éis <strong>{{days}}</strong> lá tar éis do chustaiméir athbhreithniú a dhéanamh, seolfar ríomhphost buíochais uathoibríoch. Is féidir cód lascaine agus tairiscintí a chur leis. Ní bheidh sé gníomhach ach amháin má tá an ríomhphost iarratais ar athbhreithniú gníomhach.",
+            "after_review_submit": "Athbhreithniú curtha isteach",
+            "review_submitted": "Athbhreithniú curtha isteach",
+            "approve_for_review": "Athbhreithniú faofa",
+            "toast_active": "Ríomhphost buíochais gníomhachtaithe",
+            "toast_deactive": "Ríomhphost buíochais díghníomhachtaithe"
+        },
+        "send_test_success": "Seoladh ríomhphoist go rathúil",
+        "send_test_hepltext": "Cuir seoladh ríomhphoist thíos",
+        "store_name": "Ainm an Siopa",
+        "first_name": "Céadainm",
+        "last_name": "Sloinne",
+        "email": "Ríomhphost",
+        "city": "Cathair",
+        "state_province": "Stát/Príomhchúige",
+        "country": "Tír",
+        "request_review_emails": "Ríomhphoist iarratais",
+        "background_color": "Dath Cúlra",
+        "text_color": "Dath téacs",
+        "show_header": "Taispeáin ceann",
+        "hide_header": "Folaigh ceann",
+        "order_status": "Stádas Ordaithe",
+        "complete": "Criochnaithe",
+        "completed": "Criochnaithe",
+        "order_paid": "Íoctha",
+        "default": "Réamhshocraithe",
+        "add_country_timing": "Cuir am réigiún leis",
+        "type_a_language_name": "Cuir ainm teanga isteach",
+        "no_language_found": "Níor aimsíodh teanga a chuaigh i bhfeidhm: ",
+        "discount_voucher": "Dearbhán lascaine",
+        "automation": "Uathoibriú",
+        "discount_description": "Spreag custaiméirí chun léirmheas a fhágáil trí lascaine a thairiscint don chéad cheannach eile",
+        "email_queue": "Iarratas ríomhphoist láimhe",
+        "email_queue_description": "Seol ríomhphoist iarratais do na horduithe nach seoltar go huathoibríoch",
+        "country_selected_count": "{{selected}} as {{total}} roghnaithe",
+        "country_group": {
+            "asia": "Áise",
+            "europe": "Eoraip",
+            "africa": "Afraic",
+            "north_america": "Meiriceá Thuaidh",
+            "south_america": "Meiriceá Theas",
+            "oceania": "Aigéine"
+        }
+    },
+    "email_template": {
+        "request_review": {
+            "subject": "Sásta go bhfuil tú ag ceannach {{PRODUCT_NAME}}? Fág léirmheas anois!",
+            "preview_text": "Go raibh maith agat as do cheannach déanaí. Tá súil againn go mbainfidh tú taitneamh as! Má dhéanann tú, beidh do léirmheas an-tábhachtach dúinn",
+            "body": {
+                "title": "Conas a bhí do thaithí? 🤗",
+                "html": "<h2>Conas a bhí do thaithí? 🤗</h2>",
+                "content": {
+                    "html": "<p><strong>Hallo </strong>{{FIRST_NAME}}</p>\n<p>Ba mhaith linn a fháil amach conas atá tú ag baint taitneamh as do shiopadóireacht ag {{STORE_NAME}}</p>\n<p>Má tá tairbhe agat le do chuid ama, ba mhaith linn dá mbeifeá in ann do mheasanna agus do thaithí a roinnt linn agus le shiopadóirí eile. Is é do dhearbhaíocht an rud is tábhachtaí 🤩.</p>\n",
+                    "raw": "{'blocks':[{'key':'e8our','text':'Hallo {{FIRST_NAME}}','type':'unstyled','depth':0,'inlineStyleRanges':[{'offset':0,'length':6,'style':'BOLD'}],'entityRanges':[],'data':{}},{'key':'eustq','text':'Ba mhaith linn a fháil amach conas atá tú ag baint taitneamh as do shiopadóireacht ag {{STORE_NAME}}','type':'unstyled','depth':0,'inlineStyleRanges':[],'entityRanges':[],'data':{}},{'key':'7tjk7','text':'Má tá tairbhe agat le do chuid ama, ba mhaith linn dá mbeifeá in ann do mheasanna agus do thaithí a roinnt linn agus le shiopadóirí eile. Is é do dhearbhaíocht an rud is tábhachtaí 🤩.','type':'unstyled','depth':0,'inlineStyleRanges':[],'entityRanges':[],'data':{}}],'entityMap':{}}"
+                },
+                "product": {
+                    "rate_this_item": {
+                        "text": "Meas an t-earra"
+                    }
+                }
+            }
+        },
+        "thank_you_email": {
+            "subject": "Go raibh maith agat as léirmheas a fhágáil!❤️",
+            "preview_text": "Go raibh maith agat as do cheannach déanaí. Tá súil againn go mbainfidh tú taitneamh as! Má dhéanann tú, beidh do léirmheas an-tábhachtach dúinn",
+            "body": {
+                "html": "<h2>Go raibh maith agat as léirmheas a fhágáil!❤️</h2>",
+                "title": "Go raibh maith agat as léirmheas a fhágáil!❤️",
+                "content": {
+                    "html": "<p><strong>Hallo </strong>{{FIRST_NAME}}</p>\n<p>Hallo Go raibh maith agat as léirmheas a fhágáil ar do cheannach déanaí. Is breá linn a chloisteáil faoina tuairimí agus is fiú an t-am a ghlac tú chun do thaithí a roinnt ar an mír seo.</p>",
+                    "raw": "{'blocks':[{'key':'e8our','text':'Hallo {{FIRST_NAME}}','type':'unstyled','depth':0,'inlineStyleRanges':[{'offset':0,'length':6,'style':'BOLD'}],'entityRanges':[],'data':{}},{'key':'eustq','text':'Go raibh maith agat as léirmheas a fhágáil ar do cheannach déanaí. Is breá linn a chloisteáil faoina tuairimí agus is fiú an t-am a ghlac tú chun do thaithí a roinnt ar an mír seo.','type':'unstyled','depth':0,'inlineStyleRanges':[],'entityRanges':[],'data':{}},{'key':'al478','text':'','type':'unstyled','depth':0,'inlineStyleRanges':[],'entityRanges':[],'data':{}}],'entityMap':{}}"
+                },
+                "reviews": {
+                    "review_on": "Léirmheasanna ar",
+                    "btn_shop_now": "Siopadóireacht anois"
+                }
+            }
+        },
+        "tone_voice": {
+            "friendly": {
+                "request_review": {
+                    "subject": "Sásta go bhfuil tú ag ceannach {{PRODUCT_NAME}}? Fág léirmheas anois!",
+                    "content": "<p><strong>Hallo </strong>{{FIRST_NAME}}</p>\n<p>Ba mhaith linn a fháil amach conas atá tú ag baint taitneamh as do shiopadóireacht ag {{STORE_NAME}}</p>\n<p>Má tá tairbhe agat le do chuid ama, ba mhaith linn dá mbeifeá in ann do mheasanna agus do thaithí a roinnt linn agus le shiopadóirí eile. Is é do dhearbhaíocht an rud is tábhachtaí 🤩.</p>\n<p>Go deo le buíochas,</p>\n<p> Foireann {{STORE_NAME}}</p>"
+                },
+                "request_review_reminder": {
+                    "subject": "Conas a bhí do thaithí? Inis dúinn.",
+                    "content": "Go raibh maith agat as do cheannach déanaí. Tá súil againn go mbainfidh tú taitneamh as! Má dhéanann tú, beidh do léirmheas an-tábhachtach dúinn"
+                },
+                "thank_you_email": {
+                    "subject": "Go raibh maith agat as léirmheas a fhágáil!❤️",
+                    "content": "<p><strong>Hallo </strong>{{FIRST_NAME}}</p>\n<p>Hallo Go raibh maith agat as léirmheas a fhágáil ar do cheannach déanaí. Is breá linn a chloisteáil faoina tuairimí agus is fiú an t-am a ghlac tú chun do thaithí a roinnt ar an mír seo.</p>"
+                }
+            },
+            "professional": {
+                "request_review": {
+                    "subject": "Tábhachtach: Roinn do Mheasúnú ar {{PRODUCT_NAME}}",
+                    "content": "<p><strong>A chara </strong>{{FIRST_NAME}}</p>\n<p>Tá súil againn go bhfuil taitneamh agat as do cheannach déanaí ar {{PRODUCT_NAME}} ó {{STORE_NAME}}. Tá do mheasúnú tábhachtach chun cuidiú linn feabhas a chur ar ár dtairgí agus an taithí is fearr a chur ar fáil do gach custaiméir.</p>\n<pCuireannimid fáilte roimh d'fhreagra ar {{PRODUCT_NAME}} trí léirmheas a fhágáil ar ár láithreán gréasáin. Moltar go mór do thaithí fíorúil.</p>\n<p>Go raibh maith agat as do chuid ama agus as do thacaíocht leanúnach.</p>\n<p>Le meas,</p>\n<p> Foireann {{STORE_NAME}}</p>"
+                },
+                "request_review_reminder": {
+                    "subject": "Do Thaithí Déanaí le {{STORE_NAME}}",
+                    "content": "<p><strong>Haigh</strong> {{FIRST_NAME}}</p>\n<p>Go raibh maith agat as roghnú {{STORE_NAME}}! Tá súil againn go bhfuil taitneamh agat as do cheannach déanaí. Tá do thuairim tábhachtach, agus bheadh ​​muid buíoch díot dá mbeifeá in ann do thaithí a roinnt.</p>\n<p>Le gach dea-ghuí,</p>\n<p>{{STORE_NAME}}</p>"
+                },
+                "thank_you_email": {
+                    "subject": "Léirmheas Faighte: Tábhacht do Thuairimí!",
+                    "content": "<p><strong>A chara </strong>{{FIRST_NAME}}</p>\n<p>Go raibh maith agat as do chuid ama a thabhairt chun léirmheas a chur isteach ar do cheannach déanaí. Tá do thuairimí tábhachtacha dúinn agus muid ag streachailt chun feabhas a chur go leanúnach ar ár dtáirgí agus ár seirbhísí. Míle buíochas as do chuid léargas a roinnt.</p>"
+                }
+            },
+            "persuasive": {
+                "request_review": {
+                    "subject": "Buntáistí Speisialta a Oscailt! Roinn do Léirmheas ar {{PRODUCT_NAME}}",
+                    "content": "<p><strong>Haigh </strong>{{FIRST_NAME}}</p>\n<p>An bhfuil taitneamh agat as do {{PRODUCT_NAME}} nua ó {{STORE_NAME}}? Ba mhaith linn a chloisteáil faoi!</p>\n<p>Trí do léirmheas fíorúil a roinnt ar ár láithreán gréasáin, cabhraíonn tú le daoine eile cinntí eolach a dhéanamh agus d'fhéadfadh sé freisin buntáistí speisialta a oscailt duit, is é sin cupán speisialta ar do cheannach arís!</p>\n<p.Ní mór ach cúpla nóiméad a thógáil chun léirmheas a fhágáil, agus déanfaidh sé difríocht mór.</p>\n<p>Cliceáil ar na réaltaí agus roinn do thuairimí inniu!</p>\n<p>Go raibh,</p>\n<p>Foireann {{STORE_NAME}}</p>"
+                },
+                "request_review_reminder": {
+                    "subject": "Buntáistí Speisialta le do Léirmheas!",
+                    "content": "<p><strong>Dia dhuit</strong> {{FIRST_NAME}},</p>\n<p>Tá an cheannach déanaí agat ó {{STORE_NAME}} tá an-tábhachtach dúinn! Roinn do thuairimí, buntáistí speisialta a oscailt, agus bain taitneamh as rud speisialta duitse féin.</p>\n<p>Go raibh maith agat as roghnú {{STORE_NAME}}!</p>\n<p>Le gach dea-ghuí,</p>\n<p>{{STORE_NAME}}</p>"
+                },
+                "thank_you_email": {
+                    "subject": "Cabhair do Dhaoine Eile Siopáil Níos Cliste: Roinn do Thaithí Léirmheas!",
+                    "content": "<p><strong>Haigh</strong> {{FIRST_NAME}},</p>\n<p>Is fiú dúinn do léirmheas a fhágáil ar do cheannach déanaí! Tá do thuairimí luachmhar do shiopadóirí eile, agus is mór againn go ndéanann tú an t-am a thógáil chun cuidiú le cinntí eolach a dhéanamh ag daoine eile.</p>"
+                }
+            },
+            "supportive": {
+                "request_review": {
+                    "subject": "Táimid Anseo chun Cabhrú! Roinn do Thaithí ar {{PRODUCT_NAME}}",
+                    "content": "<p><strong>Dia dhuit </strong>{{FIRST_NAME}}</p>\n<p>Tá súil againn go bhfuil tú ag déanamh maithiúnais le do {{PRODUCT_NAME}} nua ó {{STORE_NAME}}.</p>\n<p>Ní amháin go gcabhraíonn do léirmheas ar ár láithreán gréasáin le daoine eile, ach cabhraíonn sé freisin linn a chinntiú go bhfuil tacaíocht is fearr ar fáil dár gcustaiméirí.</p>\n<p>Bíodh le do thoil ag roinnt aon smaointe atá agat ar {{PRODUCT_NAME}}, maith nó olc. Tá luach mór leagtha againn ar do thuairimí agus ba mhaith linn a chinntiú go bhfuil tú sásta go hiomlán.</p>\n<p>Má tá ceist ar bith ort nó má tá cabhair de dhíth ort le do {{PRODUCT_NAME}}, ná bíodh drogall ort teagmháil a dhéanamh le foireann ár gcomhairleachta custaiméirí cairdiúil.</p>\n<p>Táimid i gcónaí sásta cabhrú!</p>\n<p>Le gach dea-ghuí,</p>\n<p>Foireann {{STORE_NAME}}</p>"
+                },
+                "request_review_reminder": {
+                    "subject": "Tábhacht do Thuairimí do {{STORE_NAME}}",
+                    "content": "<p><strong>A chara</strong> {{FIRST_NAME}},</p>\n<p>Tá súil againn go bhfuil tú sásta le do cheannach déanaí ó {{STORE_NAME}}. Tá do thuairimí tábhachtacha. Cuir cúpla nóiméad de do chuid ama le do thuairimí a roinnt.</p>\n<p>Go raibh maith agat as bheith ina chustaiméir luachmhar de {{STORE_NAME}}.</p>\n<p>Le gach dea-ghuí,</p>\n<p>{{STORE_NAME}}</p>"
+                },
+                "thank_you_email": {
+                    "subject": "Chonaiceamar do Léirmheas!",
+                    "content": "<p><strong>Haigh</strong> {{FIRST_NAME}},</p>\n<p>Chonaiceamar do léirmheas ar do cheannach déanaí agus ba mhaith linn ár mbuíochas a ghabháil leat! Tá do thuairimí tábhachtacha dúinn, mar chabhraíonn sé linn a chinntiú go bhfuilimid ag cur ar fáil an taithí is fearr is féidir dár gcustaiméirí go léir.</p>"
+                }
+            }
+        }
+    },
+    "qr_code_setting": {
+        "page_title": "Bainistíocht Cód QR",
+        "store_qr_code": "Cód QR an tSiopa",
+        "store_qr_code_description": "Cruthaigh agus saincheap cód QR uathúil do do shiopa, ag ligean do chustaiméirí a n-orduithe a bhainistiú agus a athbhreithniú le scanadh amháin. Feabhsaigh taithí do chustaiméirí le comhtháthú cód QR tapa agus áisiúil.",
+        "download_qr_code": "Íoslódáil Cód QR",
+        "scan_analysis": "Anailís Scanadh",
+        "bar_chart": "Cairt Bharra",
+        "line_chart": "Cairt Líne",
+        "total_scans": "Iomlán Scanadh",
+        "operating_system_scan": "Scanadh Córas Oibriúcháin",
+        "total_scan": "Iomlán Scanadh",
+        "rate": "Ráta",
+        "top_country": "Barr Tír",
+        "country": "Tír",
+        "top_cities": "Barr Cathracha",
+        "cities": "Cathracha",
+        "modal_customize": {
+            "title": "Eagarthóir cód QR an tSiopa",
+            "frame": "Fráma",
+            "background_color": "Dath Cúlra",
+            "transparent_background": "Cúlra Trédhearcach",
+            "logo": "Lógó",
+            "upload_logo": "Uaslódáil lógó",
+            "pattern_color": "Dath Patrún",
+            "custom_pattern_color": "Dath Patrún Saincheaptha",
+            "frame_color": "Dath Fráma"
+        }
+    },
+    "product_photo": "Grianghraf Táirge",
+    "product_name": "Ainm an Táirge",
+    "quantity": "Meastachán",
+    "unsubcribe": "Éirigh as",
+    "resync-order": "Athshioncronaigh ordú",
+    "resync-helptext": "Déanfaidh an córas gach ordú roimhe seo a shioncronú."
+}

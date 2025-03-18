@@ -1,0 +1,22 @@
+{
+    "send_mail": {
+        "title": "Handmatige Aanvraag E-mail",
+        "subject": "Verzend aanvraag e-mails voor bestellingen die niet automatisch verzonden worden"
+    },
+    "table": {
+        "orders": "Bestellingen",
+        "date": "Datum",
+        "customer": "Klant",
+        "total": "Totaal",
+        "fulfillment_status": "Vervullingsstatus",
+        "items": "Items"
+    },
+    "empty_search": {
+        "title": "Geen bestellingen gevonden",
+        "description": "Probeer de filters of zoekterm te wijzigen"
+    },
+    "banner": {
+        "title": "Actie vereist",
+        "content": "Om deze functie te gebruiken, moet je TrustShop extra 'lees bestellingen' machtigingen verlenen. Klik op de onderstaande knop om toestemming te verlenen"
+    }
+}

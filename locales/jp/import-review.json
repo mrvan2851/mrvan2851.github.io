@@ -1,0 +1,42 @@
+{
+    "title": "レビューをインポート",
+    "subtitle": "この拡張機能を使用して、AliExpressから貴重なレビューを収集できます",
+    "extension_installation": "拡張機能のインストール",
+    "page_primary_button": "インポート設定の変更",
+    "guild": {
+        "title": "拡張機能のインストール",
+        "subtitle": "AliExpressからレビューを収集するために、拡張機能をインストールしてください",
+        "step": "<p>AliExpressからレビューを収集するために、拡張機能をインストールしてください:</p><p>「<strong>TrustShop拡張機能をインストール</strong>」をクリックします。</p><p>自動的に「Chromeウェブストア」にリダイレクトされます。 「<strong>Chromeに追加</strong>」をクリックします。</p> <p>インストールプロセスを完了するための指示に従ってください。</p><p>このページを<strong>更新</strong>して、レビューのインポートを開始します。</p>",
+        "btn_install_extension": "TrustShop拡張機能をインストール",
+        "refresh_page": "ページを更新"
+    },
+    "product": "商品",
+    "aliexpress_link": "AliExpressのリンク",
+    "save_changes": "変更を保存",
+    "import": "インポート",
+    "enter_aliexpress_link_here": "ここにAliExpressのリンクを入力してください",
+    "import_settings": "インポート設定",
+    "change_product": "商品を変更",
+    "aliexpress_product_link": "AliExpressの商品リンク",
+    "enter_a_link": "リンクを入力",
+    "quantity": "数量",
+    "enter_a_quantity": "数量を入力",
+    "content_option": "コンテンツオプション",
+    "contain_photos": "写真を含む",
+    "conatain_videos": "動画を含む",
+    "contain_review_content": "レビューコンテンツを含む",
+    "customer_country": "顧客の国",
+    "search_country": "検索国",
+    "all_countries": "すべての国",
+    "date_range": "日付範囲",
+    "filter_date": {
+        "today": "今日",
+        "yesterday": "昨日",
+        "last_7_days": "過去7日間",
+        "last_month": "先月",
+        "last_year": "昨年",
+        "all_times": "すべての期間"
+    },
+    "banner_success": "レビューをインポートしました",
+    "banner_error": "レビューのインポート中にエラーが発生しました"
+}

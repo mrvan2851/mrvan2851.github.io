@@ -1,0 +1,365 @@
+{
+    "general": {
+        "email_setting": {
+            "email": {
+                "reply_to_email": "Antwoord-naar E-mail",
+                "reply_to_email_helptext": "Klanten zullen naar dit e-mailadres sturen.",
+                "sender_email": "Afzender E-mail",
+                "sender_email_helptext": "Dit e-mailadres wordt gebruikt om naar uw klanten te sturen.",
+                "sender_name": "Afzender Naam",
+                "title": "E-mail instelling",
+                "send_email_from_source": "Stuur beoordelingsverzoek e-mail naar bestelling van:",
+                "web": "Online winkel",
+                "pos": "POS",
+                "shopify_draft_order": "Conceptbestelling",
+                "email_blocklist": "E-mail blokkadelijst",
+                "email_blocklist_helptext": "Verzoek- en herinneringsmails worden niet naar deze e-mails gestuurd",
+                "block_email_placeholder": "Druk op Enter om een nieuwe e-mail toe te voegen",
+                "unblock_message_title": "Stuur e-mails die eerder geblokkeerd waren",
+                "unblock_message": "Wilt u de e-mails sturen die eerder geblokkeerd waren, of annuleren?",
+                "remember_choice_time": "Onthoud mijn antwoord voor 1 uur",
+                "block_send_email_conditions": "Blokkeer het verzenden van e-mails op basis van voorwaarden",
+                "product_block_list": "Product blokkadelijst",
+                "select_product": "Selecteer product",
+                "order_tag_blocklist": "Bestelling blokkadelijst",
+                "order_tag_blocklist_placeholder": "Druk op Enter om tags toe te voegen",
+                "order_tag_blocklist_helptext": "Verzoek- en herinneringsmails worden niet verzonden vanuit bestellingen met tags in de bovenstaande lijst"
+            },
+            "sub_title": "Pas uw e-mailinstellingen aan voor verbeterde productiviteit en communicatie",
+            "title": "E-mail instelling",
+            "custom_domain": {
+                "edit_domain_btn": "Domein bewerken",
+                "page": {
+                    "title": "aangepast domein",
+                    "empty_page": {
+                        "description": "Koppel uw aangepaste e-maildomein om berichten te verzenden vanaf het e-mailadres van uw merk. Dit zal de professionaliteit van uw merk verbeteren en helpen uw berichten op te vallen in de inboxen van ontvangers.",
+                        "external_link": "Leer hoe u het instelt",
+                        "add_domain_btn": "Voeg uw e-mailadres toe"
+                    },
+                    "overview_page": {
+                        "unverified": "Niet geverifieerd",
+                        "verified": "Geverifieerd",
+                        "edit_domain": "Domein bewerken",
+                        "config_dns_settings": "DNS-instellingen configureren",
+                        "config_dns_settings_helptext": "Voer de volgende MX-, SPF- en DKIM-records in uw DNS-instellingen in om <strong>{{domain}}</strong> te verifiëren.",
+                        "show_config": "Configuratie weergeven",
+                        "record_config": {
+                            "type": "TYPE",
+                            "name": "HOSTNAAM",
+                            "value": "WAARDE",
+                            "priority": "PRIORITEIT",
+                            "mx": {
+                                "title": "MX-record",
+                                "sub_title": "Stel twee MX-records in die overeenkomen met de onderstaande details:"
+                            },
+                            "spf": {
+                                "title": "SPF-record",
+                                "sub_title": "Voeg een SPF-record toe dat overeenkomt met de onderstaande details:"
+                            },
+                            "dkim": {
+                                "title": "DKIM-record",
+                                "sub_title": "Voeg een DKIM-record toe dat overeenkomt met de onderstaande details:"
+                            },
+                            "dmarc": {
+                                "title": "DMARC-record",
+                                "sub_title": "Voeg een DMARC-record toe dat overeenkomt met de onderstaande details:"
+                            },
+                            "custom_from": {
+                                "title": "CUSTOM FROM-record",
+                                "sub_title": "Voeg een CUSTOM FROM-record toe dat overeenkomt met de onderstaande details:"
+                            },
+                            "notice": "Opmerking: Uw {{config}}-record is nog niet geverifieerd. Het kan enkele uren of zelfs tot 72 uur duren voordat DNS-records volledig zijn doorgevoerd.",
+                            "verify_domain": "Domein verifiëren"
+                        },
+                        "modal_add_domain": {
+                            "title": "Voeg uw e-mailadres toe",
+                            "input_label": "Voer het e-mailadres in dat u wilt gebruiken voor het verzenden van berichten.",
+                            "validate_domain": "U kunt alleen uw eigen domein toevoegen. Trusthop ondersteunt het toevoegen van openbare domeinen (bijv. gmail.com, yahoo.com) niet",
+                            "add_domain_btn": "Domein toevoegen"
+                        },
+                        "modal_delete_domain": {
+                            "title": "Aangepast domein verwijderen?",
+                            "description": "Als u uw aangepaste domein verwijdert, keert u terug naar het gebruik van het standaarddomein en kunt u dit domein niet meer gebruiken. Deze actie kan niet ongedaan worden gemaakt. Wilt u doorgaan?"
+                        }
+                    }
+                }
+            },
+            "unsubscribe_management": {
+                "title": "Afmeldbeheer",
+                "subtitle": "Volg en beheer klanten die zich hebben afgemeld voor uw beoordelingsverzoek-e-mails.",
+                "customer_have_unsubscribed": "Klanten hebben zich afgemeld",
+                "email": "E-mail",
+                "topic_type": "Onderwerp type",
+                "unsubscribe_date": "Afmelddatum",
+                "delete_title": "Afmelding verwijderen",
+                "delete_unsubscribe_confirm": "Weet u zeker dat u deze e-mail(s) wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt.",
+                "no_unsubscribe_title": "Geen afgemelde klanten",
+                "no_unsubscribe_description": "Informatie over klanten die zich hebben afgemeld voor e-mails verschijnt hier"
+            }
+        },
+        "general_setting": {
+            "profile": {
+                "logo": "Logo",
+                "logo_helptext": "Accepteert .gif, .jpg en .png",
+                "select_image": "Selecteer afbeelding",
+                "store_email": "Winkel e-mail",
+                "store_email_helptext": "We gebruiken dit adres om contact met u op te nemen over uw account.",
+                "store_name": "Winkelnaam",
+                "store_name_helptext": "Verschijnt in e-mailkoppen zonder toegevoegd logo.",
+                "store_url": "Winkel URL",
+                "title": "Profiel",
+                "time": {
+                    "time_format": "Tijdsformaat",
+                    "sample": {
+                        "12h": "12 Uur",
+                        "24h": "24 Uur"
+                    }
+                },
+                "date": {
+                    "date_format": "Datumformaat",
+                    "sample": {
+                        "month_day_year": "Aug 05 2006",
+                        "day_month_day_year": "Sat Aug 05 2006",
+                        "day_of_week_month_day_year": "Saturday, August 05 2006",
+                        "day_month_day_year_slash": "Sat 08/05/2006",
+                        "day_month_day_year_slash_short_year": "Sat 8/5/06",
+                        "month_day_year_slash": "08/05/2006",
+                        "month_day_year_slash_short_year": "8/5/06",
+                        "month_day_year_time": "Aug 05 2006",
+                        "day_month_day_year_time": "Sat Aug 05 2006",
+                        "day_of_week_month_day_year_time": "Saturday, August 05 2006",
+                        "day_month_day_year_slash_time": "Sat 08/05/2006",
+                        "day_month_day_year_slash_short_year_time": "Sat 8/5/06",
+                        "month_day_year_slash_time": "08/05/2006",
+                        "month_day_year_slash_short_year_time": "8/5/06"
+                    }
+                }
+            },
+            "sub_title": "Configureer uw account met uw e-mail, logo en sociale media",
+            "title": "Algemene instelling"
+        },
+        "social_links": {
+            "social": {
+                "helptext": "Inclusief sociale kanalen in de voettekst van e-mails",
+                "title": "Sociale instelling"
+            },
+            "mobile_apps": {
+                "title": "Mobiele apps",
+                "sub_title": "Inclusief sociale kanalen in de e-mailfooter"
+            },
+            "sub_title": "Pas uw sociale linkinstellingen aan om effectief te delen en te communiceren met uw klanten",
+            "title": "Sociale links"
+        },
+        "review_action": {
+            "title": "Beoordelingen exporteren/verwijderen",
+            "subtitle": "Beoordelingen exporteren en verwijderen van uw winkel",
+            "export_review": "Beoordelingen exporteren",
+            "export_review_helptext": "Het duurt enkele minuten voordat de beoordelingen zijn geëxporteerd. Het exportbestand wordt naar uw e-mail gestuurd op <1>{{email}}</1>.",
+            "delete_all": "Alles verwijderen",
+            "delete_all_helptext": "Deze actie kan niet ongedaan worden gemaakt, dus zorg ervoor dat u zeker bent voordat u beoordelingen verwijdert.",
+            "delete_confirm": "Deze actie kan niet ongedaan worden gemaakt, dus zorg ervoor dat u zeker bent voordat u beoordelingen verwijdert"
+        }
+    },
+    "review": {
+        "auto_publish_reviews": {
+            "title": "Automatisch beoordelingen publiceren",
+            "sub_title": "Selecteer welke beoordelingen u automatisch wilt publiceren. Wijzigingen hebben alleen invloed op nieuwe beoordelingen.",
+            "enable_auto_publish_reviews": "Automatisch publiceren van beoordelingen inschakelen",
+            "auto_publish_reviews_if": "Publiceer nieuwe beoordelingen automatisch in de winkel als:"
+        },
+        "new_review_notification": {
+            "title": "Nieuwe beoordelingsmelding",
+            "sub_title": "Ontvang e-mailmeldingen voor nieuwe beoordeling indieningen. Dit omvat geen beoordelingen die via import zijn toegevoegd.",
+            "enable_new_review_notification": "Nieuwe beoordelingsmelding inschakelen",
+            "send_email_to_merchant_if": "Stuur een e-mail naar de verkoper als klanten een beoordeling achterlaten",
+            "receive_email": "Ontvang e-mailmeldingen voor negatieve beoordelingsindieningen",
+            "selected_lang_for_system_email": "Selecteer taal voor systeem e-mail"
+        },
+        "protect_reviews": {
+            "title": "Bescherm uw beoordelingen",
+            "sub_title": "Stel relevante zoekwoorden in om uw beoordelingen te beschermen en te voorkomen dat gevoelige inhoud zoals pornografie, geweld, terrorisme, fraude, phishinglinks of malware in de beoordelingen verschijnt.",
+            "enable_protect_reviews": "Bescherming van beoordelingen inschakelen",
+            "block_additional_words_description": "We hebben al de meest voorkomende beledigingen geblokkeerd. Voeg meer woorden toe door ze in het onderstaande vak te typen.",
+            "add_word_placeholder": "Typ een trefwoord en druk op Enter",
+            "search_language_placeholder": "Zoektaal",
+            "no_language_found": "Geen taal gevonden die overeenkomt met {{lang}}",
+            "lang_have_added": "{{lang}} is toegevoegd"
+        },
+        "auto_send_email": {
+            "title": "Automatisch e-mails naar klanten verzenden",
+            "sub_title": "Wanneer je reageert op een klantbeoordeling in het beoordelingsbeheer, stuurt het systeem automatisch een e-mail naar die klant met de inhoud van jouw reactie",
+            "enable_auto_send_email": "E-mails verzenden inschakelen",
+            "send_email_to_merchant_when_source": "E-mails naar klanten verzenden wanneer je reageert op hun beoordelingen via bron:",
+            "store_front": "Winkelpagina",
+            "email": "E-mail",
+            "import_csv": "CSV importeren"
+        },
+        "review_translate": {
+            "title": "Vertaal de inhoud van beoordelingen",
+            "sub_title": "Er wordt een vertaalknop weergegeven bij beoordelingen, zodat kopers de inhoud eenvoudig naar hun moedertaal kunnen vertalen.",
+            "review_content_translation": "Vertaling van beoordeling inhoud",
+            "example": "Voorbeeld"
+        },
+        "multi_lang": {
+            "title": "Vertaal de widgettaal",
+            "sub_title": "De inhoud van de widget wordt automatisch vertaald naar de taal van de kopers in elke markt die je winkel bedient.",
+            "auto_multi_lang": "Automatisch meertalige taalwisseling",
+            "description": "Standaard worden alle beoordelingswidgets in het Engels weergegeven. Wanneer je deze functie inschakelt, wordt de taal die op de widget wordt weergegeven automatisch aangepast aan de taal van de koper in het land dat ze bezoeken."
+        }
+    },
+    "tabs": {
+        "general": "Algemeen",
+        "review": "Beoordeling",
+        "import_review": "Beoordeling importeren",
+        "gg_shopping": "Google product review",
+        "pricing": "Prijzen",
+        "global_display": "Globale Weergave",
+        "integrations": "Integraties"
+    },
+    "title": "Instelling",
+    "import_review": {
+        "save_success": "Succesvol opgeslagen!",
+        "save_error": "Onverwachte fout!",
+        "filter_review": {
+            "title": "Beoordelingen filteren",
+            "sub_title": "De beoordelingen die aan de voorwaarden voldoen, worden geïmporteerd",
+            "quantity_import": "Hoeveelheid importeren",
+            "generate": "Willekeurige hoeveelheid genereren",
+            "auto_publish_review_label": "Automatisch beoordelingen publiceren met",
+            "contain_option_label": "Bevat optie",
+            "contain_photos": "Bevat foto's",
+            "contain_review_content": "Bevat beoordelingsinhoud",
+            "customer_country": "Klantland",
+            "date_range": "Datumreeks",
+            "skip_review": "Beoordelingen overslaan met trefwoorden",
+            "skip_review_value": "AliExpress, Ali AliExpress, Fraude, Oplichting, Nep, Vervalsing, Imitatie, Replica, Slechter"
+        },
+        "generate_title": {
+            "title": "Beoordelingstitels genereren",
+            "sub_title": "Automatisch beoordelingstitels genereren op basis van de sterbeoordelingen als de bron geen titel heeft",
+            "star": {
+                "1_star": "1 ster",
+                "2_star": "2 sterren",
+                "3_star": "3 sterren",
+                "4_star": "4 sterren",
+                "5_star": "5 sterren"
+            },
+            "title_placeholder": "Perfect in elk detail!",
+            "title_random": {
+                "title": "Willekeurige titel",
+                "sub_title": "Genereer willekeurige titel voor beoordelingen"
+            },
+            "new_title": "Nieuwe titel"
+        }
+    },
+    "filter_date": {
+        "all_times": "Altijd",
+        "today": "Vandaag",
+        "yesterday": "Gisteren",
+        "last_7_days": "Laatste 7 dagen",
+        "last_month": "Laatste maand",
+        "last_year": "Laatste jaar"
+    },
+    "gg_shopping": {
+        "title": "Google product review",
+        "sub_title": "Toon glanzende klantgetuigenissen rechtstreeks op uw Google Shopping-vermeldingen om meer aandacht te trekken en vertrouwen op te bouwen.",
+        "google_product_review": {
+            "title": "Google product review-feed",
+            "generate_feed": "Genereer de product review-feed",
+            "generate_feed_helptext": "Pas het update-schema aan om af te stemmen op de instellingen in Google Merchant Center",
+            "fetch_frequency": "Ophaalfrequentie",
+            "daily": "Dagelijks",
+            "weekly": "Wekelijks",
+            "monthly": "Maandelijks",
+            "fetch_date": "Ophaaldatum",
+            "fetch_time": "Ophaaltijd",
+            "time_zone": "Tijdzone",
+            "disabled": "Uitgeschakeld",
+            "XML_file_name": "XML-bestandsnaam",
+            "view_instructions": "Bekijk instructies"
+        },
+        "reviewer_content": {
+            "title": "Inhoud van de beoordelaar",
+            "reviewer_name_format": "Indeling van de naam van de beoordelaar",
+            "includes_medias": "Inclusief foto's/video's van de beoordeling",
+            "include_personal_info": "Inclusief beoordelingen met persoonlijke informatie",
+            "include_personal_info_helptext": "Vervang persoonlijke informatie door asterisken"
+        },
+        "advanced_setting": {
+            "title": "Geavanceerde instelling",
+            "add_gtin": "Voeg GTIN toe aan de feed (Standaard)",
+            "add_mpn": "Voeg MPN toe aan de feed",
+            "add_mpn_helptext": "Dit zal dezelfde SKU-waarde opnemen in de Shopify-beheerder",
+            "exclude_out_of_store": "Sluit beoordelingen uit voor producten die niet in de winkel zijn"
+        }
+    },
+    "global_display": {
+        "icon_and_corner": {
+            "title": "Weergave-instellingen",
+            "subtitle": "Wanneer een eigenschap hieronder wordt gewijzigd, wordt het hele systeem dienovereenkomstig bijgewerkt",
+            "star_icon": {
+                "title": "Ster-icoon",
+                "icon_style": "Icoonstijl"
+            },
+            "element_corner": {
+                "title": "Hoeken van elementen",
+                "button_radius": "Knophoekradius",
+                "other_element": "Hoeken van andere elementen",
+                "element": "Element"
+            }
+        },
+        "reviewer_name": {
+            "title": "Weergave van de naam van de recensent",
+            "sub_title": "Selecteer de standaard invoer van de recensentnaam uit het formulier of pas deze handmatig aan",
+            "reviewer_name_format": "Formaat van de recensentnaam",
+            "default": {
+                "label": "Standaard",
+                "helptext": "Toon automatisch de naam van de recensent vanuit het beoordelingsformulier"
+            },
+            "manually": {
+                "label": "Handmatig",
+                "helptext": "Kies een standaardweergaveformaat voor de naam. Pas dit vervolgens toe op alle recensenten",
+                "name_display_format": "Weergaveformaat voor naam"
+            }
+        },
+        "reviewer_avt_format": {
+            "title": "Beoordelaar avatar instelling",
+            "sub_title": "Stel de avatar van uw beoordelaar in door kleuren te kiezen of alternatieve illustraties te gebruiken",
+            "colorful_avt": {
+                "label": "Kleurrijke avatar",
+                "helptext": "Genereer automatisch een avatar uit het kleurenwiel"
+            },
+            "base_color_avt": {
+                "label": "Basis kleur avatar",
+                "helptext": "Maak een beoordelaar avatar met een basiskleur"
+            },
+            "gravatar_avt": {
+                "label": "Gravatar avatar",
+                "helptext": "Gebruik Gravatar om de beoordelaar avatar weer te geven"
+            }
+        },
+        "review_date_format": {
+            "title": "Beoordelingsdatum formaat",
+            "sub_title": "Stel het datumformaat in voor al uw widgets.",
+            "sample": "Voorbeeld"
+        }
+    },
+    "rich_snippet": {
+        "title": "Rich snippet",
+        "description": "Stel gebruikers in staat om Rich Snippets te maken, waarmee de zichtbaarheid in zoekresultaten wordt vergroot door extra informatie zoals beoordelingen, prijzen en beschikbaarheid rechtstreeks in de zoekresultaten weer te geven, wat de betrokkenheid vergroot en de SEO verbetert.",
+        "check_snippet": "Snippet controleren",
+        "seo_integrations": "SEO-integraties",
+        "seo_description": "Deze snippet-apps synchroniseren automatisch met Trustshop-review-snippets.",
+        "text_field_label": "Voer uw productlink in om het snippet te controleren",
+        "text_field_placeholder": "Voer de productlink in"
+    },
+    "partner_integrations": {
+        "third_party_apps": "Apps van derden",
+        "partner_list": {
+            "langwill": "Vertaal uw winkel in 138 talen en converteer automatisch valuta's om wereldwijd de verkoop te verhogen.",
+            "ilana": "Optimaliseer uw SEO-verkeer door uw beoordelingen, prijzen en bedrijfsgegevens in zoekresultaten te benadrukken.",
+            "shopify_flow": "Pas uw winkel aan en automatiseer uw taken met behulp van de low-code editor van Shopify Flow."
+        },
+        "integrations_now": "Integraties nu"
+    }
+}

@@ -1,0 +1,60 @@
+{
+  "title": "Import reviews",
+  "subtitle": "The extension enables you to collect valuable reviews from AliExpress",
+  "page_primary_button": "Change import settings",
+  "extension_installation": "Extension installation",
+  "guild": {
+    "title": "Extension installation",
+    "subtitle": "Install our extension to collect reviews from AliExpress",
+    "step": "<p>Install our extension to collect reviews from AliExpress:</p><p>Click \"<strong>Install TrustShop extension</strong>\".</p><p>You'll be automatically redirected to the \"Chrome web store\". Click \"<strong>Add to Chrome</strong>\".</p> <p>Follow the instructions to complete the installation process.</p><p><strong>Refresh</strong> this page and start importing reviews. </p>",
+    "btn_install_extension": "Install TrustShop extension",
+    "refresh_page": "Refresh page"
+  },
+  "product": "Product",
+  "aliexpress_link": "AliExpress link",
+  "save_changes": "Save changes",
+  "import": "Import",
+  "enter_aliexpress_link_here": "Enter AliExpress link here",
+  "import_settings": "Import settings",
+  "change_product": "Change product",
+  "aliexpress_product_link": "AliExpress product link",
+  "enter_a_link": "Enter a link",
+  "quantity": "Quantity",
+  "enter_a_quantity": "Enter a quantity",
+  "content_option": "Content option",
+  "contain_photos": "Contain photos",
+  "contain_videos": "Contain videos",
+  "contain_review_content": "Contain review content",
+  "customer_country": "Customer country",
+  "search_country": "Search country",
+  "all_countries": "All countries",
+  "date_range": "Date range",
+  "filter_date": {
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "last_7_days": "Last 7 days",
+    "last_month": "Last month",
+    "last_year": "Last year",
+    "all_times": "All times"
+  },
+  "banner_success": "We've imported reviews for",
+  "banner_error": "There was an error trying to import reviews",
+
+  "sidebar": {
+    "title": "Import file from other platform/app"
+  },
+  "content": {
+    "dropzone_label": "Upload your file CSV here",
+    "quick_guide": "Quick guide on how to add a CSV file to Trustshop reviews",
+    "import_title": "Import review"
+  },
+  "tabs": {
+    "import_csv": "Import CSV File",
+    "import_ali": "Import review from AliExpress"
+  },
+  "drop_zone": {
+    "btn_import": "Browse file",
+    "hint_1": "Drag and drop file here",
+    "hint_2": "*Accepts .csv, .xlsx, max size 5MB"
+  }
+}

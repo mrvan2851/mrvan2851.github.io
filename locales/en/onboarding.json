@@ -1,0 +1,169 @@
+{
+    "step_1": {
+        "button": "Get started",
+        "sub_title": "Get started by connecting your Shopify store. TrustShop will seamlessly integrate with your shop, making it easy to manage reviews and engage with customers.",
+        "title": "✋ Welcome to TrustShop",
+        "select_language": "What is your primary language of communication?",
+        "select_language_subtitle": "Select your preferred language for the interface.",
+        "help_text": "You can always change the primary language later in the settings.",
+        "app_language": "App language"
+    },
+    "step_2": {
+        "quick_guide": {
+            "reload_btn": "Reload",
+            "recheck_btn": "Error. Click to recheck",
+            "step_1": "<p>Click <span>Enable app embed</span> button</p>",
+            "step_2": "<p> Wait for automatic integration (takes about 5 seconds)</p>",
+            "step_3": "<p>Click <span>Save</span> button (at the top-right corner) and ensure that you see a success massage appears</p>",
+            "step_4": "<p>Return to this page </p>",
+            "helptext": "<p>This step adds necessary code to display reviews across your store.<p><p><i>Don't worry - this won't affect your store's design or layout.</i></p>",
+            "success_btn": "Enable app embed successfully",
+            "sub_title": "Enable the app easily by following these steps: ",
+            "title": "👉 Don't miss this guide 👈",
+            "not_detect_embedded": "Enable unsuccessfully. Please try again.",
+            "add_widget_helptext": "Having trouble adding the widget? Reach out us for detailed assistance!"
+        },
+        "sub_title": "Display reviews seamlessly later steps",
+        "title": "Automatic Review Request Settings",
+        "email_setting_title": "Set up email review request",
+        "email_setting_subtitle": "Set up when and how customers receive review requests via email. Choose timing based on order status and customize by country.",
+        "customer_in_country": "Customers in country",
+        "default_country": "Default (All countries)",
+        "send_email": "Send email",
+        "after_order": "After the order status is",
+        "add_more_country": "Add more country",
+        "help_text": "You can always change this configuration later in the settings."
+    },
+    "step_3": {
+        "v1": {
+            "quick_guide": {
+                "title": "Add review widget",
+                "reload_btn": "Reload",
+                "recheck_btn": "Error. Click to recheck",
+                "step_1": "<p>Open <1>templates/product.liquid</1> in editor</p>",
+                "step_2": "<p>Add the following code to the bottom of your theme file</p>",
+                "step_3": "<p>Click <span>Save</span></p>",
+                "step_4": "<p>Return to this <span>onboarding page</span> to continue onboarding.</p>",
+                "helptext": "<p>The widget will show  customer reviews for each product.<p><p><i>Don't worry - this won't affect your store's design or layout.</i></p>"
+            }
+        },
+        "v2": {
+            "quick_guide": {
+                "title": "2. Add review widget",
+                "reload_btn": "Reload",
+                "recheck_btn": "Error. Click to recheck",
+                "step_1": "<p>Click <span>Add widget</span> button</p>",
+                "step_2": "<p>The widget will be automatically added to your product template </p>",
+                "step_3": "<p>Click <span>Save</span> to confirm changes </p>",
+                "step_4": "Check your product page to see the reviews in action",
+                "step_5": "<p>Return to this <span>onboarding page</span> to continue onboarding</p>",
+                "helptext": "<p>The widget will show  customer reviews for each product.<p><p><i>Don't worry - this won't affect your store's design or layout.</i></p>"
+            }
+        },
+        "quick_guide": {
+            "sub_title": "Follow these simple steps to activate product reviews on your store: ",
+            "title": "A quick guide",
+            "not_detect_widget": "We can't detect any widget. Please try again!",
+            "add_widget_helptext": "Having trouble adding the widget? Reach out us for detailed assistance!",
+            "success_btn": "Add widget successfully"
+        },
+        "sub_title": "Show review widget on your online store.",
+        "title": "Set Up Product Reviews Display",
+        "enable_app_embed": "1. Enable app integration",
+        "enable_app_embed_subtitle": "Follow these simple steps to activate product reviews on your store",
+        "add_widget_btn": "Add widget",
+        "enable_embed": "Enable embed app"
+    },
+    "step_4": {
+        "button": "Go to dashboard",
+        "sub_title": "Congratulations! You're now all set to supercharge your brand with the power of reviews and referrals. Get ready to watch your business thrive!",
+        "title": "You're all set!",
+        "import_text": "Import reviews seamlessly from Product Reviews by Shopify, Judge.me, Loox, and more",
+        "import_button": "Import reviews",
+        "dashboard_text": "Start to manage reviews and make customers engaging with your brand",
+        "dashboard_button": "Go to dashboard"
+    },
+    "pricing_page": {
+        "title": "Simple, straight forward pricing!",
+        "sub_title": "7 day-free trial. No hidden fees.",
+        "free_plan_des": "Or get started for free, perfect for beginners.",
+        "recommended": "Recommended",
+        "pricing_card": {
+            "basic": {
+                "title": "Standard",
+                "sub_title": "Perfect for small businesses.",
+                "benefit": {
+                    "1": "<p><span>200</span> orders review requests/month</span>",
+                    "2": "<p>Get access to most premium features</p>",
+                    "3": "<p>Shopify flow integration</p>",
+                    "4": "<p>Priority customer support</p>"
+                }
+            },
+            "pro": {
+                "title": "Enterprise",
+                "sub_title": "Take your business to the next level.",
+                "benefit": {
+                    "1": "<p><span>1,500</span> orders review requests/month</p>",
+                    "2": "<p>Get access to <span>all premium features.</span></p>",
+                    "3": "<p>Review detail page</p>",
+                    "4": "<p>Custom domain</p>",
+                    "5": "<p>Shopify flow integration</p>",
+                    "6": "<p>Priority customer support</p>"
+                }
+            },
+            "unlimited": {
+                "title": "Ultimate",
+                "sub_title": "There is no limit to your growth.",
+                "benefit": {
+                    "1": "<p><span>Ultimate</span> order request reviews</p>",
+                    "2": "<p>Get access to <span>all premium features.</span></p>",
+                    "3": "<p>Review detail page</p>",
+                    "4": "<p>Custom domain</p>",
+                    "5": "<p>Shopify flow integration</p>",
+                    "6": "<p>Priority customer support</p>"
+                }
+            }
+        }
+    },
+    "modal_compare_plans": {
+        "title": "Compare plans",
+        "pricing_card": {
+            "free": {
+                "title": "Basic",
+                "sub_title": "Get started for free, perfect for beginners.",
+                "benefit": {
+                    "1": "<p><span>50</span> orders review requests/month</span>",
+                    "2": "<p>Basic access to reviews widget</p>",
+                    "3": "<p>Basic edit Request email</p>",
+                    "4": "<p>Only upload Image by Reviewers</p>"
+                }
+            },
+            "basic": {
+                "title": "Standard",
+                "sub_title": "Perfect for small businesses or individuals.",
+                "benefit": {
+                    "1": "<p><span>200</span> orders review requests/month</span>",
+                    "2": "<p>Get access to <span>most premium features</span></p>",
+                    "3": "<p>Fully customizable widget</p>",
+                    "4": "<p>Reviews video</p>",
+                    "5": "<p>Google shopping</p>",
+                    "6": "<p>Protect your reviews</p>"
+                }
+            },
+            "pro": {
+                "title": "Enterprise",
+                "sub_title": "Take your business to the next level.",
+                "benefit": {
+                    "1": "<p><span>1,500</span> orders review requests/month</p>",
+                    "2": "<p>Get access to <span>all premium features.</span></p>",
+                    "3": "<p>Fully customizable widget</p>",
+                    "4": "<p>Reviews video</p>",
+                    "5": "<p>Google shopping</p>",
+                    "6": "<p>Protect your reviews</p>",
+                    "7": "<p>Review detail page</p>",
+                    "8": "<p>Custom domain</p>"
+                }
+            }
+        }
+    }
+}

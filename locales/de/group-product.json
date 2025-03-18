@@ -1,0 +1,41 @@
+{
+    "group_overview": {
+        "title": "Gruppenprodukt",
+        "description": "Gruppieren Sie ähnliche Produkte, um Bewertungen gemeinsam anzuzeigen, Bündel zu optimieren und benutzerdefinierte Bewertungsanzeigen mühelos zu erstellen.",
+        "create_button": "Gruppe erstellen",
+        "delete_group_message": "Wenn Sie die Gruppe löschen, werden alle Bewertungen getrennt und auf ihre ursprünglichen Produkte zurückgesetzt. Sie haben keinen Zugriff mehr und diese Aktion kann nicht rückgängig gemacht werden. Möchten Sie fortfahren?",
+        "delete_group": "Gruppe löschen",
+        "limit_function": "Aktualisieren Sie auf einen höheren Plan, um diese Funktion zu nutzen. <1>Preise anzeigen</1>"
+    },
+    "create_group_page": {
+        "title": "Gruppenprodukt erstellen",
+        "group_name": "Gruppenname",
+        "product_in_this_group": "Produkte in dieser Gruppe",
+        "description": "Produkte zu dieser Gruppe hinzufügen",
+        "sub_description": "Produkt auswählen, um es zu dieser Gruppe hinzuzufügen",
+        "add_product": "Produkt hinzufügen",
+        "unsaved_change_title": "Sind Sie sicher, dass Sie beenden möchten?",
+        "unsaved_change_message": "Ihre Gruppe wurde nicht gespeichert. Wenn Sie beenden, gehen Ihre Einstellungen verloren. Möchten Sie fortfahren?"
+    },
+    "create_group_modal": {
+        "title": "Gruppenprodukt erstellen",
+        "select_product_for": "Produkt auswählen für",
+        "add_product_to_group": "Produkt zur Gruppe hinzufügen",
+        "search_product": "Produkt suchen",
+        "product": "Produkt",
+        "total_reviews": "Gesamtbewertungen",
+        "average_rating": "Durchschnittliche Bewertung",
+        "no_product_found": "Kein Produkt gefunden",
+        "no_result_for": "Kein Ergebnis für "
+    },
+    "group_detail_page": {
+        "group_rating_summary": "Gruppenbewertungsübersicht",
+        "products_in_group": "Produkte in der Gruppe",
+        "reviews_in_group": "Bewertungen in der Gruppe",
+        "delete_product": "Produkt löschen",
+        "most_helpful": "Am hilfreichsten",
+        "newest": "Neueste",
+        "delete_confirm_title": "Produkt aus der Gruppe löschen",
+        "delete_confirm_message": "Sind Sie sicher, dass Sie dieses Produkt löschen möchten?"
+    }
+}

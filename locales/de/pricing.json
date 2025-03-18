@@ -1,0 +1,184 @@
+{
+    "plan": {
+        "for_free": "Kostenlos",
+        "title": "Plan",
+        "free": "Kostenlos",
+        "basic": "Grundlegend",
+        "pro": "Unternehmen",
+        "unlimited": "Ultimate",
+        "free_plan": "Kostenloser Plan",
+        "basic_plan": "Grundlegender Plan",
+        "pro_plan": "Unternehmensplan",
+        "unlimited_plan": "Ultimativer Plan"
+    },
+    "basic": "Grundlegend",
+    "fully": "Vollständig",
+    "per_month": "pro Monat",
+    "plan_active": "{{plan}} aktiviert",
+    "discount_offer_time": "für die nächsten {{time}}",
+    "origin_price": "Originalpreis ",
+    "order/month": "Bestellungen/Monat",
+    "request_reviews": "Überprüfung anfordern",
+    "upgrade_plan": "Plan upgraden",
+    "select_plan": "{{plan}} auswählen",
+    "start_free": "Kostenlos starten",
+    "unlimited": "Unbegrenzt",
+    "modal_pricing_title": "Premium-Funktionen mit unserer flexiblen Preisgestaltung freischalten",
+    "best_choice": "Beste Wahl",
+    "coming_soon": "Demnächst",
+    "process_bar": {
+        "title": "Abgeschlossene E-Mails insgesamt",
+        "subtitle": "Dieser Zähler wird am <strong>{{date}}</strong> aktualisiert",
+        "order_count": "{{used}} von {{total}} Bestellungen abgeschlossen"
+    },
+    "plan_table": {
+        "title": "Preispläne",
+        "subtitle": "Entdecken Sie maßgeschneiderte Abonnementpläne, die Ihr Unternehmen voranbringen!",
+        "start_trial": "Beginnen Sie die {{day}}-tägige kostenlose Testversion",
+        "current_plan": "Aktueller Plan",
+        "upgrade": "Upgrade",
+        "select_plan": "Plan auswählen",
+        "downgrade": "Downgrade",
+        "pricing_card": {
+            "free": "Greifen Sie auf wesentliche Funktionen mit unserem kostenlosen Plan zu, perfekt für Anfänger.",
+            "basic": "Erhalten Sie fortschrittliche Tools und Support mit dem Standard-Plan für Einzelpersonen",
+            "pro": "Stärken Sie Ihr Unternehmen mit unserem umfassenden Enterprise-Plan",
+            "unlimited": "Es gibt keine Grenzen für Ihr Wachstum"
+        },
+        "modal_downgrade": {
+            "title": "Verlieren Sie nicht den Zugriff auf leistungsstarke Funktionen!",
+            "subtitle": "Ihr Shop nutzt einige Premium-Funktionen. Deaktivieren Sie diese, um Ihren Plan zu downgraden:",
+            "discount_voucher": "Automatischer Rabattgutschein",
+            "customize_widget": "Angepasstes Widget",
+            "upload_video": "Videos hochladen beim Schreiben einer Bewertung",
+            "review_testimonial": "Testimonial",
+            "modal_all_image": "Modal alle Bild Einstellungen",
+            "review_page": "Alle Bewertungen Seite",
+            "google_shopping": "Google Shopping",
+            "global_display": "Globale Anzeige",
+            "group_product": "Produktgruppe",
+            "custom_domain": "Benutzerdefinierte Domain",
+            "qr_code": "QR-Code-Verwaltung",
+            "review_translation": "Bewertungsübersetzung",
+            "multi_lang": "Mehrsprachiges Widget",
+            "ai_functionality": "KI-Funktionalität",
+            "insights_and_segmentation": "Einblicke und Segmentierung",
+            "review_detail_page": "Bewertungsdetailseite",
+            "import_custom_csv": "Benutzerdefinierte CSV importieren",
+            "protect_review": "Bewertung schützen"
+        },
+        "primary_collapse": {
+            "title": "Entdecken Sie den besten Plan für Ihre Bedürfnisse",
+            "email_quota": "Überprüfung anfordern",
+            "email_quota_helptext": "Wir berechnen Ihr Kontingent basierend auf der Anzahl der Bestellungen, nicht auf der Anzahl der versendeten Bewertungsanfragen. Zum Beispiel, wenn Sie drei E-Mails senden (Anfrage, Erinnerung und Danke), zählt es trotzdem nur als eine.",
+            "order_per_month": "Gesamtbestellungen/Monat",
+            "discount_voucher": "Rabattgutschein",
+            "customize_widget": "Angepasstes Widget",
+            "upload_video": "Bewertungsvideo",
+            "review_testimonial": "Bewertungstestimonial",
+            "modal_all_image": "Modal alle Bilder",
+            "review_page": "Alle Bewertungen Seite",
+            "google_shopping": "Google Shopping",
+            "global_display": "Globale Anzeige",
+            "group_product": "Produktgruppe",
+            "custom_domain": "Benutzerdefinierte Domain",
+            "qr_code": "QR-Code-Verwaltung",
+            "review_translation": "Bewertungsübersetzung",
+            "multi_lang": "Mehrsprachiges Widget",
+            "ai_functionality": "KI-Funktionalität",
+            "insights_and_segmentation": "Einblicke und Segmentierung",
+            "review_detail_page": "Bewertungsdetailseite",
+            "import_custom_csv": "Benutzer definierte CSV importieren",
+            "protect_review": "Bewertung schützen"
+        },
+        "details_collapse": {
+            "title": "Vergleichen Sie das angepasste Widget zwischen den Abonnementplänen",
+            "widgetBox": {
+                "title": "Widget Box (Standard)",
+                "choose_layout": "Layout wählen",
+                "summary_box": "Zusammenfassung Box",
+                "color_scheme": "Farbschema",
+                "information_display": "Informationsanzeige",
+                "content": "Inhalt"
+            },
+            "widgetBoxNoReview": {
+                "title": "Widget Box (keine Bewertungen)",
+                "content": "Inhalt",
+                "color_scheme": "Farbschema"
+            },
+            "modalReviewDetail": {
+                "title": "Modal Bewertung Details",
+                "all_settings": "Alle Einstellungen"
+            },
+            "modal_all_image": {
+                "title": "Modal alle Bilder",
+                "all_settings": "Alle Einstellungen"
+            },
+            "formWriteReview": {
+                "title": "Bewertungsformular",
+                "review_with_video": "Bewertung mit Video"
+            }
+        }
+    },
+    "free_banner": {
+        "title": "Greifen Sie auf wesentliche Funktionen mit unserem kostenlosen Plan zu, perfekt für Anfänger.",
+        "email_quota_limit": "E-Mail-Kontingentbegrenzung {{limit}} Bestellungen/Monat",
+        "basic_access": "Grundlegender Zugriff auf das Bewertungs-Widget",
+        "basic_edit_email": "Grundlegende Bearbeitung der Anfrage-E-Mail",
+        "upload_media": "Nur Bilder von Bewertern hochladen",
+        "quick_chat": "Schneller Chat-Support",
+        "visible_brand": "Sichtbare TrustShop-Marke"
+    },
+    "basic_banner": {
+        "everything_in_basic": "Alles im Basisplan",
+        "email_quota": "E-Mail-Kontingentbegrenzung {{limit}} Bestellungen/Monat",
+        "discount_voucher": "Automatischer Rabattgutschein",
+        "customize_widget": "Angepasstes Widget",
+        "upload_video": "Videos hochladen beim Schreiben einer Bewertung",
+        "review_testimonial": "Testimonial",
+        "modal_all_image": "Modal alle Bild Einstellungen",
+        "review_page": "Alle Bewertungen Seite",
+        "google_shopping": "Google Shopping",
+        "global_display": "Globale Anzeige",
+        "group_product": "Produktgruppe",
+        "custom_domain": "Benutzerdefinierte Domain",
+        "qr_code": "QR-Code-Verwaltung",
+        "review_translation": "Bewertungsübersetzung",
+        "multi_lang": "Mehrsprachiges Widget",
+        "ai_functionality": "KI-Funktionalität",
+        "insights_and_segmentation": "Einblicke und Segmentierung",
+        "review_detail_page": "Bewertungsdetailseite",
+        "import_custom_csv": "Benutzerdefinierte CSV importieren",
+        "protect_review": "Bewertung schützen"
+    },
+    "frequency_ask": {
+        "title": "Häufig gestellte Fragen",
+        "list_questions": {
+            "1": {
+                "title": "Wie wird das Kontingent für Bewertungsanfragen berechnet?",
+                "subtitle": "Das Kontingent basiert auf der Anzahl der Bestellungen. Wenn Sie alle drei Arten von E-Mails aktivieren - Bewertungsanfrage, Erinnerung an Bewertung und Dankeschön - wird nur ein Kontingent pro Bestellung gezählt."
+            },
+            "2": {
+                "title": "Wird mein Kontingent genutzt, wenn ich keine Bewertungsanfragen über TrustShop sende?",
+                "subtitle": "Nein, Ihr Kontingent wird nur abgezogen, wenn Sie die Bewertungsanfrage-Funktion von TrustShop nutzen. Wenn Sie diese Funktion nicht verwenden, bleibt Ihr Kontingent unberührt."
+            },
+            "3": {
+                "title": "Kann ich meinen Plan downgraden?",
+                "subtitle": "Ja, Sie können Ihren Plan jederzeit downgraden, wenn Sie die kostenpflichtigen Funktionen nicht mehr benötigen. Stellen Sie einfach sicher, dass Sie alle kostenpflichtigen Funktionen deaktivieren, bevor Sie downgraden. Wenn Sie Hilfe benötigen, steht Ihnen unser Support-Team jederzeit zur Verfügung."
+            },
+            "4": {
+                "title": "Werde ich während der Testphase berechnet?",
+                "subtitle": "Nein, während der Testphase fallen keine Kosten an. Die Gebühren beginnen erst, wenn die Testphase abgelaufen ist."
+            }
+        }
+    },
+    "modal_charge_success": {
+        "title": "Sie sind jetzt ein {{plan}}-Mitglied!",
+        "content": "Danke, dass Sie sich für unser Premium-Abonnement entschieden haben! Freuen Sie sich auf exklusive Vorteile und erstklassigen Support. Lassen Sie uns diese Reise außergewöhnlich machen."
+    },
+    "special_offer": {
+        "title": "Sonderangebot: 30% Rabatt für Ihre Treue!",
+        "content": "Um unsere Wertschätzung für Ihre Unterstützung zu zeigen, bieten wir Ihnen einen speziellen <1>30% Rabatt</1> auf jeden Abonnementplan für die nächsten zwei Monate. Vielen Dank, dass Sie ein geschätzter Kunde sind!",
+        "remain_time": "Verbleibende Zeit für das Angebot:"
+    }
+}

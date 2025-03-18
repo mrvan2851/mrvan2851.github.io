@@ -1,0 +1,169 @@
+{
+    "step_1": {
+        "button": "Begin",
+        "sub_title": "Laten we beginnen met het verbinden van je Shopify-winkel. TrustShop integreert naadloos met je winkel, zodat je reviews kunt beheren en klanten kunt betrekken.",
+        "title": "✋ Welkom bij TrustShop",
+        "select_language": "Wat is de belangrijkste taal die je wilt gebruiken?",
+        "select_language_subtitle": "Kies de taal voor de interface.",
+        "help_text": "Je kunt de taal later aanpassen in de instellingen.",
+        "app_language": "Taal van de app"
+    },
+    "step_2": {
+        "quick_guide": {
+            "reload_btn": "Herladen",
+            "recheck_btn": "Fout. Klik om opnieuw te controleren",
+            "step_1": "<p>Klik op de knop om <span>App-invoer in te schakelen</span></p>",
+            "step_2": "<p>De pagina wordt geopend en de app wordt <span>automatisch ingeschakeld</span></p>",
+            "step_3": "<p>Klik op de <span>Opslaan</span> knop (rechtsboven) en controleer of het succesbericht verschijnt</p>",
+            "step_4": "<p>Ga terug naar deze <span>onboardingpagina</span> om verder te gaan met de instellingen van TrustShop.</p>",
+            "success_btn": "App-invoer succesvol voltooid",
+            "sub_title": "Volg deze stappen om de app eenvoudig in te schakelen:",
+            "title": "👉 Mis deze gids niet 👈",
+            "not_detect_embedded": "Invoer is mislukt. Probeer het opnieuw.",
+            "add_widget_helptext": "Problemen met het toevoegen van de widget? Laat het ons weten als je gedetailleerde ondersteuning nodig hebt!",
+            "helptext": "<p>Deze stap voegt de nodige code toe om reviews in je winkel weer te geven.</p><p><i>Maak je geen zorgen - dit heeft geen invloed op het ontwerp of de lay-out van je winkel.</i></p>"
+        },
+        "sub_title": "Volg deze stappen om reviews naadloos te tonen",
+        "title": "Automatische reviewverzoeken",
+        "email_setting_title": "E-mailinstellingen voor reviewverzoeken",
+        "email_setting_subtitle": "E-mail voor reviewverzoeken wordt automatisch verzonden op basis van de onderstaande instellingen",
+        "customer_in_country": "Klant in land",
+        "default_country": "Standaard (alle landen)",
+        "send_email_request_review": "E-mailverzoek voor review verzenden",
+        "after_order": "Na orderstatus",
+        "add_more_country": "Meer landen toevoegen",
+        "help_text": "Deze instellingen kunnen later worden gewijzigd in de instellingen."
+    },
+    "step_3": {
+        "v1": {
+            "quick_guide": {
+                "title": "Review Widget Toevoegen",
+                "reload_btn": "Herladen",
+                "recheck_btn": "Fout. Klik om opnieuw te controleren",
+                "step_1": "<p>Open <1>templates/product.liquid</1> in de editor</p>",
+                "step_2": "<p>Voeg de volgende code toe aan de onderkant van je themabestand</p>",
+                "step_3": "<p>Klik op <span>Opslaan</span></p>",
+                "step_4": "<p>Keer terug naar deze <span>onboardingpagina</span> om door te gaan met de onboarding.</p>",
+                "helptext": "<p>Deze stap voegt de nodige code toe om reviews in je winkel weer te geven.</p><p><i>Maak je geen zorgen - dit heeft geen invloed op het ontwerp of de lay-out van je winkel.</i></p>"
+            }
+        },
+        "v2": {
+            "quick_guide": {
+                "title": "Review Widget Toevoegen",
+                "reload_btn": "Herladen",
+                "recheck_btn": "Fout. Klik om opnieuw te controleren",
+                "step_1": "<p>Klik op de knop <span>Widget toevoegen</span></p>",
+                "step_2": "<p>De widget wordt automatisch toegevoegd aan je producttemplate</p>",
+                "step_3": "<p>Klik op <span>Opslaan</span> om de wijzigingen te bevestigen</p>",
+                "step_4": "Controleer je productpagina om de reviews in actie te zien",
+                "step_5": "<p>Keer terug naar deze <span>onboardingpagina</span> om door te gaan met de onboarding</p>",
+                "helptext": "<p>Deze stap voegt de nodige code toe om reviews in je winkel weer te geven.</p><p><i>Maak je geen zorgen - dit heeft geen invloed op het ontwerp of de lay-out van je winkel.</i></p>"
+            }
+        },
+        "quick_guide": {
+            "sub_title": "Volg deze eenvoudige stappen om productreviews in je winkel te activeren:",
+            "title": "Snelle gids",
+            "not_detect_widget": "We kunnen geen widget detecteren. Probeer het opnieuw!",
+            "add_widget_helptext": "Problemen met het toevoegen van de widget? Neem contact met ons op voor gedetailleerde hulp!",
+            "success_btn": "Widget succesvol toegevoegd"
+        },
+        "sub_title": "Toon de reviewwidget op je online winkel.",
+        "title": "Stel de weergave van productreviews in",
+        "enable_app_embed": "Schakel app-integratie in",
+        "enable_app_embed_subtitle": "Volg deze eenvoudige stappen om productreviews in je winkel te activeren",
+        "add_widget_btn": "Widget toevoegen",
+        "enable_embed": "Schakel de embed-app in"
+    },
+    "step_4": {
+        "button": "Naar dashboard",
+        "sub_title": "Gefeliciteerd! Je bent klaar om je merk te versterken met de kracht van reviews en verwijzingen. We kijken uit naar je zakelijke groei!",
+        "title": "Klaar!",
+        "import_text": "Naadloze import van reviews van Product Reviews by Shopify, Judge.me, Loox en meer",
+        "import_button": "Importeer reviews",
+        "dashboard_text": "Beheer reviews en begin met klantbetrokkenheid",
+        "dashboard_button": "Naar dashboard"
+    },
+    "pricing_page": {
+        "title": "Eenvoudige en transparante prijzen!",
+        "sub_title": "7 dagen gratis proefperiode. Geen verborgen kosten.",
+        "free_plan_des": "Of begin gratis, perfect voor beginners.",
+        "recommended": "Aanbevolen",
+        "pricing_card": {
+            "basic": {
+                "title": "Standaard",
+                "sub_title": "Perfect voor kleine bedrijven.",
+                "benefit": {
+                    "1": "<p><span>200</span> reviewverzoeken per maand</p>",
+                    "2": "<p>Toegang tot de meeste premium functies</p>",
+                    "3": "<p>Shopify Flow-integratie</p>",
+                    "4": "<p>Prioritaire klantenservice</p>"
+                }
+            },
+            "pro": {
+                "title": "Enterprise",
+                "sub_title": "Breng je bedrijf naar het volgende niveau.",
+                "benefit": {
+                    "1": "<p><span>1.500</span> reviewverzoeken per maand</p>",
+                    "2": "<p>Toegang tot <span>alle premium functies</span></p>",
+                    "3": "<p>Reviewdetailpagina</p>",
+                    "4": "<p>Aangepaste domeinen</p>",
+                    "5": "<p>Shopify Flow-integratie</p>",
+                    "6": "<p>Prioritaire klantenservice</p>"
+                }
+            },
+            "unlimited": {
+                "title": "Onbeperkt",
+                "sub_title": "Groei zonder beperkingen.",
+                "benefit": {
+                    "1": "<p><span>Onbeperkt</span> reviewverzoeken</p>",
+                    "2": "<p>Toegang tot <span>alle premium functies</span></p>",
+                    "3": "<p>Reviewdetailpagina</p>",
+                    "4": "<p>Aangepaste domeinen</p>",
+                    "5": "<p>Shopify Flow-integratie</p>",
+                    "6": "<p>Prioritaire klantenservice</p>"
+                }
+            }
+        }
+    },
+    "modal_compare_plans": {
+        "title": "Vergelijk plannen",
+        "pricing_card": {
+            "free": {
+                "title": "Basis",
+                "sub_title": "Begin gratis, perfect voor beginners.",
+                "benefit": {
+                    "1": "<p><span>50</span> reviewverzoeken per maand</p>",
+                    "2": "<p>Basis review-widget</p>",
+                    "3": "<p>Basis e-mailbewerking voor reviewverzoeken</p>",
+                    "4": "<p>Beperkingen voor het uploaden van afbeeldingen door reviewers</p>"
+                }
+            },
+            "basic": {
+                "title": "Standaard",
+                "sub_title": "Perfect voor kleine bedrijven.",
+                "benefit": {
+                    "1": "<p><span>200</span> reviewverzoeken per maand</p>",
+                    "2": "<p>Toegang tot de meeste premium functies</p>",
+                    "3": "<p>Volledige review-widgetfunctionaliteit</p>",
+                    "4": "<p>Video-reviews</p>",
+                    "5": "<p>Google Shopping</p>",
+                    "6": "<p>Reviewbeveiliging</p>"
+                }
+            },
+            "pro": {
+                "title": "Enterprise",
+                "sub_title": "Breng je bedrijf naar het volgende niveau.",
+                "benefit": {
+                    "1": "<p><span>1.500</span> reviewverzoeken per maand</p>",
+                    "2": "<p>Toegang tot alle premium functies</p>",
+                    "3": "<p>Volledige review-widgetfunctionaliteit</p>",
+                    "4": "<p>Video-reviews</p>",
+                    "5": "<p>Google Shopping</p>",
+                    "6": "<p>Reviewbeveiliging</p>",
+                    "7": "<p>Reviewdetailpagina</p>",
+                    "8": "<p>Aangepaste domeinen</p>"
+                }
+            }
+        }
+    }
+}

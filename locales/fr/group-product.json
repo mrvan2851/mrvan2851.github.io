@@ -1,0 +1,41 @@
+{
+    "group_overview": {
+        "title": "Groupe de produits",
+        "description": "Groupez des produits similaires pour partager et afficher les avis ensemble, simplifier les ensembles et créer des affichages d'avis personnalisés sans effort.",
+        "create_button": "Créer un groupe",
+        "delete_group_message": "Si vous supprimez le groupe, tous les avis seront séparés et reviendront à leurs produits d'origine. Vous n'y aurez plus accès, et cette action ne peut pas être annulée. Voulez-vous continuer ?",
+        "delete_group": "Supprimer le groupe",
+        "limit_function": "Mettez à niveau vers un plan supérieur pour utiliser cette fonctionnalité. <1>Voir les tarifs</1>"
+    },
+    "create_group_page": {
+        "title": "Créer un groupe de produits",
+        "group_name": "Nom du groupe",
+        "product_in_this_group": "Produits dans ce groupe",
+        "description": "Ajouter des produits à ce groupe",
+        "sub_description": "Sélectionnez un produit à ajouter à ce groupe",
+        "add_product": "Ajouter un produit",
+        "unsaved_change_title": "Êtes-vous sûr de vouloir quitter ?",
+        "unsaved_change_message": "Votre groupe n'a pas été enregistré. Si vous quittez, vos paramètres seront perdus. Voulez-vous continuer ?"
+    },
+    "create_group_modal": {
+        "title": "Créer un groupe de produits",
+        "select_product_for": "Sélectionner un produit pour",
+        "add_product_to_group": "Ajouter un produit au groupe",
+        "search_product": "Rechercher un produit",
+        "product": "Produit",
+        "total_reviews": "Total des avis",
+        "average_rating": "Note moyenne",
+        "no_product_found": "Aucun produit trouvé",
+        "no_result_for": "Aucun résultat pour "
+    },
+    "group_detail_page": {
+        "group_rating_summary": "Résumé des notes du groupe",
+        "products_in_group": "Produits dans le groupe",
+        "reviews_in_group": "Avis dans le groupe",
+        "delete_product": "Supprimer le produit",
+        "most_helpful": "Le plus utile",
+        "newest": "Le plus récent",
+        "delete_confirm_title": "Supprimer le produit du groupe",
+        "delete_confirm_message": "Êtes-vous sûr de vouloir supprimer ce produit ?"
+    }
+}

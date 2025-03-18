@@ -1,0 +1,365 @@
+{
+    "general": {
+        "email_setting": {
+            "email": {
+                "reply_to_email": "Email de resposta",
+                "reply_to_email_helptext": "Os clientes enviarão para este email.",
+                "sender_email": "Email do remetente",
+                "sender_email_helptext": "Este email será usado para enviar aos seus clientes.",
+                "sender_name": "Nome do remetente",
+                "title": "Configuração de Email",
+                "send_email_from_source": "Enviar email de solicitação de avaliação para pedido de:",
+                "web": "Loja online",
+                "pos": "POS",
+                "shopify_draft_order": "Pedido rascunho",
+                "email_blocklist": "Lista de bloqueio de email",
+                "email_blocklist_helptext": "Emails de solicitação e lembrete não serão enviados para esses emails",
+                "block_email_placeholder": "Pressione Enter para adicionar novo email",
+                "unblock_message_title": "Enviar emails que foram bloqueados anteriormente",
+                "unblock_message": "Você quer enviar os emails que foram bloqueados anteriormente ou cancelar o envio?",
+                "remember_choice_time": "Lembrar minha resposta por 1 hora",
+                "block_send_email_conditions": "Bloquear envio de emails por condições",
+                "product_block_list": "Lista de bloqueio de produtos",
+                "select_product": "Selecionar produto",
+                "order_tag_blocklist": "Lista de bloqueio de pedidos",
+                "order_tag_blocklist_placeholder": "Pressione Enter para adicionar tags",
+                "order_tag_blocklist_helptext": "Emails de solicitação e lembrete não serão enviados para pedidos contendo tags na lista acima"
+            },
+            "sub_title": "Ajuste suas configurações de email para maior produtividade e comunicação",
+            "title": "Configuração de Email",
+            "custom_domain": {
+                "edit_domain_btn": "Editar domínio",
+                "page": {
+                    "title": "domínio personalizado",
+                    "empty_page": {
+                        "description": "Vincule seu domínio de email personalizado para enviar mensagens do endereço de email da sua marca. Isso aumentará o profissionalismo da sua marca e ajudará suas mensagens a se destacarem nas caixas de entrada dos destinatários.",
+                        "external_link": "Saiba como configurar",
+                        "add_domain_btn": "Adicione seu endereço de email"
+                    },
+                    "overview_page": {
+                        "unverified": "Não verificado",
+                        "verified": "Verificado",
+                        "edit_domain": "Editar domínio",
+                        "config_dns_settings": "Configurar configurações de DNS",
+                        "config_dns_settings_helptext": "Insira os seguintes registros MX, SPF e DKIM nas configurações de DNS para autenticar <strong>{{domain}}</strong>.",
+                        "show_config": "Mostrar configuração",
+                        "record_config": {
+                            "type": "TIPO",
+                            "name": "NOME DO HOST",
+                            "value": "VALOR",
+                            "priority": "PRIORIDADE",
+                            "mx": {
+                                "title": "Registro MX",
+                                "sub_title": "Defina dois registros MX que correspondam aos detalhes abaixo:"
+                            },
+                            "spf": {
+                                "title": "Registro SPF",
+                                "sub_title": "Inclua um registro SPF que corresponda aos detalhes abaixo:"
+                            },
+                            "dkim": {
+                                "title": "Registro DKIM",
+                                "sub_title": "Inclua um registro DKIM que corresponda aos detalhes abaixo:"
+                            },
+                            "dmarc": {
+                                "title": "Registro DMARC",
+                                "sub_title": "Inclua um registro DMARC que corresponda aos detalhes abaixo:"
+                            },
+                            "custom_from": {
+                                "title": "Registro CUSTOM FROM",
+                                "sub_title": "Inclua um registro CUSTOM FROM que corresponda aos detalhes abaixo:"
+                            },
+                            "notice": "Aviso: Seu registro {{config}} ainda não foi verificado. Pode levar algumas horas ou até 72 horas para que os registros DNS se propaguem completamente.",
+                            "verify_domain": "Verificar domínio"
+                        },
+                        "modal_add_domain": {
+                            "title": "Adicione seu endereço de email",
+                            "input_label": "Digite o endereço de email que você gostaria de usar para enviar mensagens.",
+                            "validate_domain": "Você só pode adicionar seu próprio domínio. O Trusthop não suporta a adição de domínios públicos (por exemplo, gmail.com, yahoo.com)",
+                            "add_domain_btn": "Adicionar domínio"
+                        },
+                        "modal_delete_domain": {
+                            "title": "Excluir domínio personalizado?",
+                            "description": "Se você excluir seu domínio personalizado, voltará a usar o domínio padrão e não poderá mais usar este domínio. Esta ação não pode ser desfeita. Você quer continuar?"
+                        }
+                    }
+                }
+            },
+            "unsubscribe_management": {
+                "title": "Gerenciamento de cancelamento de inscrição",
+                "subtitle": "Acompanhe e gerencie os clientes que cancelaram a inscrição dos seus emails de solicitação de avaliação.",
+                "customer_have_unsubscribed": "Clientes cancelaram a inscrição",
+                "email": "Email",
+                "topic_type": "Tipo de tópico",
+                "unsubscribe_date": "Data de cancelamento",
+                "delete_title": "Excluir cancelamento de inscrição",
+                "delete_unsubscribe_confirm": "Tem certeza de que deseja excluir este(s) email(s)? Esta ação não pode ser desfeita.",
+                "no_unsubscribe_title": "Nenhum cliente cancelou a inscrição",
+                "no_unsubscribe_description": "Informações sobre clientes que cancelaram a inscrição dos emails aparecerão aqui"
+            }
+        },
+        "general_setting": {
+            "profile": {
+                "logo": "Logo",
+                "logo_helptext": "Aceita .gif, .jpg e .png",
+                "select_image": "Selecionar Imagem",
+                "store_email": "Email da Loja",
+                "store_email_helptext": "Usaremos este endereço se precisarmos entrar em contato com você sobre sua conta.",
+                "store_name": "Nome da Loja",
+                "store_name_helptext": "Aparece nos cabeçalhos de email sem um logotipo adicionado.",
+                "store_url": "URL da Loja",
+                "title": "Perfil",
+                "time": {
+                    "time_format": "Formato de Hora",
+                    "sample": {
+                        "12h": "12 horas",
+                        "24h": "24 horas"
+                    }
+                },
+                "date": {
+                    "date_format": "Formato de Data",
+                    "sample": {
+                        "month_day_year": "Aug 05 2006",
+                        "day_month_day_year": "Sat Aug 05 2006",
+                        "day_of_week_month_day_year": "Saturday, August 05 2006",
+                        "day_month_day_year_slash": "Sat 08/05/2006",
+                        "day_month_day_year_slash_short_year": "Sat 8/5/06",
+                        "month_day_year_slash": "08/05/2006",
+                        "month_day_year_slash_short_year": "8/5/06",
+                        "month_day_year_time": "Aug 05 2006",
+                        "day_month_day_year_time": "Sat Aug 05 2006",
+                        "day_of_week_month_day_year_time": "Saturday, August 05 2006",
+                        "day_month_day_year_slash_time": "Sat 08/05/2006",
+                        "day_month_day_year_slash_short_year_time": "Sat 8/5/06",
+                        "month_day_year_slash_time": "08/05/2006",
+                        "month_day_year_slash_short_year_time": "8/5/06"
+                    }
+                }
+            },
+            "sub_title": "Configure sua conta com seu email, logotipo e mídias sociais",
+            "title": "Configuração Geral"
+        },
+        "social_links": {
+            "social": {
+                "helptext": "Inclui canal social no rodapé do email",
+                "title": "Configuração Social"
+            },
+            "mobile_apps": {
+                "title": "Aplicativos móveis",
+                "sub_title": "Inclui canal social no rodapé do email"
+            },
+            "sub_title": "Personalize suas configurações de links sociais para compartilhar e se comunicar efetivamente com seus clientes",
+            "title": "Links Sociais"
+        },
+        "review_action": {
+            "title": "Exportar/Excluir avaliações",
+            "sub_title": "Exportar e excluir todas as avaliações da sua loja",
+            "export_review": "Exportar avaliações",
+            "export_review_helptext": "Levará alguns minutos para as avaliações serem exportadas. O arquivo de exportação será enviado para o seu email em <1>{{email}}</1>.",
+            "delete_all": "Excluir todas",
+            "delete_all_helptext": "Esta ação não pode ser desfeita, portanto, certifique-se antes de excluir as avaliações.",
+            "delete_confirm": "Esta ação não pode ser desfeita, portanto, certifique-se antes de excluir as avaliações"
+        }
+    },
+    "review": {
+        "auto_publish_reviews": {
+            "title": "Publicação automática de avaliações",
+            "sub_title": "Selecione quais avaliações deseja publicar automaticamente. Quaisquer alterações afetarão apenas as avaliações novas.",
+            "enable_auto_publish_reviews": "Habilitar publicação automática de avaliações",
+            "auto_publish_reviews_if": "Publicar automaticamente novas avaliações na loja se:"
+        },
+        "new_review_notification": {
+            "title": "Notificação de nova avaliação",
+            "sub_title": "Receba notificações por e-mail sobre novas avaliações enviadas. Isso não inclui avaliações adicionadas por importação",
+            "enable_new_review_notification": "Habilitar notificação de nova avaliação",
+            "send_email_to_merchant_if": "Enviar e-mail para o comerciante se os clientes deixarem uma avaliação",
+            "receive_email": "Receber notificações por e-mail para avaliações negativas",
+            "selected_lang_for_system_email": "Selecione o idioma para o e-mail do sistema"
+        },
+        "protect_reviews": {
+            "title": "Proteger suas avaliações",
+            "sub_title": "Defina palavras-chave relevantes para proteger suas avaliações e evitar que conteúdo sensível como pornografia, violência, terrorismo, fraudes, links de phishing ou malware apareçam nelas.",
+            "enable_protect_reviews": "Habilitar proteção de avaliações",
+            "block_additional_words_description": "Já bloqueamos as ofensas mais comuns. Adicione mais palavras digitando no campo abaixo.",
+            "add_word_placeholder": "Digite uma palavra-chave e pressione Enter",
+            "search_language_placeholder": "Pesquisar idioma",
+            "no_language_found": "Nenhum idioma encontrado correspondente a {{lang}}",
+            "lang_have_added": "{{lang}} foi adicionado"
+        },
+        "auto_send_email": {
+            "title": "Enviar e-mails automaticamente para o cliente",
+            "sub_title": "Quando você responde a uma avaliação de cliente na seção de gerenciamento de avaliações, o sistema enviará automaticamente um e-mail para esse cliente com o conteúdo da sua resposta",
+            "enable_auto_send_email": "Ativar envio de e-mail",
+            "send_email_to_merchant_when_source": "Enviar e-mails para clientes ao responder às avaliações deles pela fonte:",
+            "store_front": "Loja",
+            "email": "E-mail",
+            "import_csv": "Importar CSV"
+        },
+        "review_translate": {
+            "title": "Traduzir o conteúdo das avaliações",
+            "sub_title": "Um botão de tradução será exibido nas avaliações, permitindo que os compradores traduzam facilmente o conteúdo para o seu idioma nativo.",
+            "review_content_translation": "Tradução do conteúdo da avaliação",
+            "example": "Exemplo"
+        },
+        "multi_lang": {
+            "title": "Traduzir o idioma do widget",
+            "sub_title": "O conteúdo do widget será traduzido automaticamente para o idioma dos compradores em cada mercado que sua loja atende.",
+            "auto_multi_lang": "Troca automática de idioma",
+            "description": "Por padrão, todos os widgets de avaliação serão exibidos em inglês. Ao ativar este recurso, o idioma exibido no widget será alterado automaticamente para o idioma do comprador no país que ele está visitando."
+        }
+    },
+    "tabs": {
+        "general": "Geral",
+        "review": "Avaliação",
+        "import_review": "Importar Avaliação",
+        "gg_shopping": "Avaliação de Produtos do Google",
+        "pricing": "Precificação",
+        "global_display": "Exibição Global",
+        "integrations": "Integrações"
+    },
+    "title": "Configuração",
+    "import_review": {
+        "save_success": "Salvo com sucesso!",
+        "save_error": "Erro inesperado!",
+        "filter_review": {
+            "title": "Filtrar avaliações",
+            "sub_title": "As avaliações que atendem às condições serão importadas",
+            "quantity_import": "Quantidade de importação",
+            "generate": "Gerar quantidade aleatória",
+            "auto_publish_review_label": "Publicar automaticamente avaliações com",
+            "contain_option_label": "Contém opção",
+            "contain_photos": "Contém fotos",
+            "contain_review_content": "Contém conteúdo da avaliação",
+            "customer_country": "País do Cliente",
+            "date_range": "Intervalo de Datas",
+            "skip_review": "Ignorar avaliações com palavras-chave",
+            "skip_review_value": "AliExpress, Ali AliExpress, Fraude, Golpe, Falso, Falsificado, Imitação, Réplica, Pior"
+        },
+        "generate_title": {
+            "title": "Gerar títulos de avaliações",
+            "sub_title": "Gerar automaticamente títulos de avaliações com base nas classificações de estrelas se a fonte não tiver um título",
+            "star": {
+                "1_star": "1 estrela",
+                "2_star": "2 estrelas",
+                "3_star": "3 estrelas",
+                "4_star": "4 estrelas",
+                "5_star": "5 estrelas"
+            },
+            "title_placeholder": "Perfeito em todos os detalhes!",
+            "title_random": {
+                "title": "Título Aleatório",
+                "sub_title": "Gerar título aleatório para avaliações"
+            },
+            "new_title": "Novo título"
+        }
+    },
+    "filter_date": {
+        "all_times": "Qualquer período",
+        "today": "Hoje",
+        "yesterday": "Ontem",
+        "last_7_days": "Últimos 7 dias",
+        "last_month": "Último mês",
+        "last_year": "Último ano"
+    },
+    "gg_shopping": {
+        "title": "Avaliação de produtos do Google",
+        "sub_title": "Apresente depoimentos positivos de clientes diretamente em suas listagens do Google Shopping para chamar mais atenção e construir confiança.",
+        "google_product_review": {
+            "title": "Feed de avaliação de produtos do Google",
+            "generate_feed": "Gerar o feed de avaliação de produtos",
+            "generate_feed_helptext": "Modifique a frequência de atualização para alinhar com as configurações no Google Merchant Center",
+            "fetch_frequency": "Frequência de busca",
+            "daily": "Diariamente",
+            "weekly": "Semanalmente",
+            "monthly": "Mensalmente",
+            "fetch_date": "Data de busca",
+            "fetch_time": "Horário de busca",
+            "time_zone": "Fuso horário",
+            "disabled": "Desabilitado",
+            "XML_file_name": "Nome do arquivo XML",
+            "view_instructions": "Ver instruções"
+        },
+        "reviewer_content": {
+            "title": "Conteúdo do avaliador",
+            "reviewer_name_format": "Formato do nome do avaliador",
+            "includes_medias": "Incluir fotos/vídeos da avaliação",
+            "include_personal_info": "Incluir avaliações contendo informações pessoais",
+            "include_personal_info_helptext": "Substituir informações pessoais por asteriscos"
+        },
+        "advanced_setting": {
+            "title": "Configuração avançada",
+            "add_gtin": "Adicionar GTIN no feed (Padrão)",
+            "add_mpn": "Adicionar MPN no feed",
+            "add_mpn_helptext": "Isso incluirá o mesmo valor de SKU no admin do Shopify",
+            "exclude_out_of_store": "Excluir avaliações de produtos fora de estoque"
+        }
+    },
+    "global_display": {
+        "icon_and_corner": {
+            "title": "Configurações de Exibição",
+            "subtitle": "Quando um atributo abaixo é alterado, todo o sistema será atualizado de acordo",
+            "star_icon": {
+                "title": "Ícone de estrela",
+                "icon_style": "Estilo do ícone"
+            },
+            "element_corner": {
+                "title": "Cantos dos elementos",
+                "button_radius": "Raio dos cantos do botão",
+                "other_element": "Cantos de outros elementos",
+                "element": "Elemento"
+            }
+        },
+        "reviewer_name": {
+            "title": "Exibição do nome do avaliador",
+            "sub_title": "Selecione a entrada de nome do avaliador padrão do formulário ou personalize manualmente",
+            "reviewer_name_format": "Formato do nome do avaliador",
+            "default": {
+                "label": "Padrão",
+                "helptext": "Exibir automaticamente o nome do avaliador do formulário de avaliação"
+            },
+            "manually": {
+                "label": "Manual",
+                "helptext": "Escolha um formato de exibição de nome padrão. Em seguida, aplique-o a todos os avaliadores",
+                "name_display_format": "Formato de exibição de nome"
+            }
+        },
+        "reviewer_avt_format": {
+            "title": "Configuração do avatar do avaliador",
+            "sub_title": "Defina o avatar do seu avaliador escolhendo cores ou usando ilustrações alternativas",
+            "colorful_avt": {
+                "label": "Avatar colorido",
+                "helptext": "Gerar avatar automaticamente a partir da roda de cores"
+            },
+            "base_color_avt": {
+                "label": "Avatar de cor base",
+                "helptext": "Criar avatar do avaliador com uma cor base"
+            },
+            "gravatar_avt": {
+                "label": "Avatar Gravatar",
+                "helptext": "Usar Gravatar para exibir o avatar do avaliador"
+            }
+        },
+        "review_date_format": {
+            "title": "Formato da data da avaliação",
+            "sub_title": "Configure o formato da data em todos os seus widgets.",
+            "sample": "Exemplo"
+        }
+    },
+    "rich_snippet": {
+        "title": "Rich snippet",
+        "description": "Permita que os usuários criem Rich Snippets, aumentando a visibilidade na pesquisa ao exibir informações adicionais, como avaliações, preços e disponibilidade diretamente nos resultados da pesquisa, gerando mais engajamento e melhorando o SEO.",
+        "check_snippet": "Verificar snippet",
+        "seo_integrations": "Integrações SEO",
+        "seo_description": "Esses aplicativos de snippet sincronizam automaticamente com os snippets de avaliações do Trustshop.",
+        "text_field_label": "Digite o link do seu produto para verificar o snippet",
+        "text_field_placeholder": "Digite o link do produto"
+    },
+    "partner_integrations": {
+        "third_party_apps": "Aplicativos de terceiros",
+        "partner_list": {
+            "langwill": "Traduza sua loja para 138 idiomas e converta automaticamente moedas para aumentar as vendas em todo o mundo.",
+            "ilana": "Otimize seu tráfego de SEO destacando suas avaliações, preços e detalhes comerciais nos resultados de pesquisa.",
+            "shopify_flow": "Personalize sua loja e automatize suas tarefas usando o editor de baixo código do Shopify Flow."
+        },
+        "integrations_now": "Integrações agora"
+    }
+}

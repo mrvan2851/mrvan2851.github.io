@@ -1,0 +1,22 @@
+{
+    "send_mail": {
+        "title": "Email de Demande Manuelle",
+        "subject": "Envoyer des emails de demande pour les commandes qui ne sont pas envoyées automatiquement"
+    },
+    "table": {
+        "orders": "Commandes",
+        "date": "Date",
+        "customer": "Client",
+        "total": "Total",
+        "fulfillment_status": "Statut d'Exécution",
+        "items": "Articles"
+    },
+    "empty_search": {
+        "title": "Aucune commande trouvée",
+        "description": "Essayez de modifier les filtres ou le terme de recherche"
+    },
+    "banner": {
+        "title": "Action requise",
+        "content": "Pour utiliser cette fonctionnalité, vous devez accorder des autorisations supplémentaires de 'lecture des commandes' à TrustShop. Pour accorder l'autorisation, veuillez cliquer sur le bouton ci-dessous"
+    }
+}

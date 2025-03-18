@@ -1,0 +1,246 @@
+{
+    "table": {
+        "navigate_button_content": "Rere īmēra",
+        "no_data": {
+            "title": "Whakahaere i ō īmēra tono",
+            "description": "Whakahohea ngā tauira īmēra ki te tīmata i te tuku īmēra āwhina ki ngā kiritaki.",
+            "setting_email_templates": "Whakatūturu i ngā tauira īmēra"
+        },
+        "title": "Īmēra tono whakamātau",
+        "second_title": "Tukuna he īmēra ā-ringa",
+        "search_placeholder": "Whakauru īmēra rānei tau hōkuanga",
+        "all_status": "Ngā whakapau kōrero katoa",
+        "email_type": "Momo īmēra",
+        "email_review_request": "Īmēra tono whakamātau",
+        "remind_request_review": "Īmēra whakamātau whakamahara",
+        "thank_you_email": "Īmēra whakawhetai",
+        "just_now": "Ināianei",
+        "order_id": "Tuhinga Whakarongo",
+        "buyer": "Hoko",
+        "location": "Rohe",
+        "product": "Whakaputanga",
+        "purchase_time": "Wā Hoko",
+        "schedule_date": "Rā Whakarāpopototanga",
+        "send_now": "Tuku Ināianei",
+        "send_again": "Tukuna anō"
+    },
+    "campaign": {
+        "banner": {
+            "title": "He whakapau kōrero ākonga te hunga whakamātau!",
+            "content": "Ka whai whakapau kōrero ākonga i ngā momo īmēra me ngā tauira īmēra i roto i ā mātou whakapau kōrero īmēra whakamahere me ngā tauira hei whakapau kōrero ākonga."
+        },
+        "email_content": "Kaupapa īmēra",
+        "email_content_description": "Whakarite i te kaupapa īmēra me te reo whakararuraru hei whakamārama i te whakaaro ki ngā kiritaki",
+        "email_will_be_sent": "Ka tukuna te īmēra",
+        "title": "Rere īmēra",
+        "not_active": "kāore i whakatinanatia",
+        "running": "E whakahaere ana",
+        "save_just_now": "Tiakina ināianei",
+        "send_test": "Tuku whakamātau",
+        "send_test_email": "Tuku īmēra whakamātau",
+        "enter_email_address": "Whakauru i te wāhitau īmēra i raro nei",
+        "confirm": "Whakamana",
+        "when_to_send": "Ina whakapau kōrero",
+        "all_change_save": "I tiakina ngā huringa katoa",
+        "all_customer": "Ngā Kiritaki Katoa",
+        "email_schedule": "Mahere īmēra",
+        "email_scheduling": "Whakarite i te wā īmēra ka tukuna ki ngā kiritaki e haere mai ana i ngā rohe whenua rerekē",
+        "to": "Ki",
+        "subject": "Kaupapa",
+        "preview": "Tirohanga",
+        "from": "Mai i",
+        "branding": "Whakaputa",
+        "logo": "Rahinga",
+        "personalization": "Whakapiri",
+        "active_require_toast": "Me whakatinana koe i te tono whakamātau",
+        "product_quantity": "Te rahinga hua",
+        "star_rating_icon": "Tohu whakatauranga whetū",
+        "call_to_action_btn": "Pātene karanga ki te mahi (Tuhia he arotake)",
+        "request_review": {
+            "title": "Tono Arotake",
+            "content": "I muri i te <strong>{{day}}</strong> rā me te <strong>{{status}}</strong>, ka tukuna aunoa he īmēra ki te kiritaki hei tono i a rātou ki te tuku arotake mō te hua.",
+            "toast_active": "Tono arotake kua whakahohea",
+            "toast_deactive": "Tono arotake kua whakakorehia"
+        },
+        "request_review_reminder": {
+            "title": "Whakamaumahara Arotake",
+            "content": "I muri i te <strong>{{days}}</strong> rā mai i te tuku īmēra tono arotake tuatahi, ka tukuna aunoa he īmēra whakamaumahara mēnā kāore he whakautu i riro. Ka whakahohea anake mēnā kei te noho te tono arotake.",
+            "after_review_request_mail": "i muri i te tono arotake",
+            "toast_active": "Īmēra whakamaumahara kua whakahohea",
+            "toast_deactive": "Īmēra whakamaumahara kua whakakorehia"
+        },
+        "thank_you_for_review": {
+            "title": "Ngā Mihi mō tō Arotake",
+            "content": "I muri i te tuku arotake a te kiritaki, ka tukuna aunoa he īmēra whakawhetai. Ka taea te tāpiri waehere utu me ngā tuku. Ka whakahohea anake mēnā kei te noho te tono arotake.",
+            "content_2": "I muri i te <strong>{{days}}</strong> rā i te tuku arotake, ka tukuna aunoa he īmēra whakawhetai. Ka taea te tāpiri waehere utu me ngā tuku. Ka whakahohea anake mēnā kei te noho te tono arotake.",
+            "after_review_submit": "Arotake kua tukuna",
+            "review_submitted": "Arotake kua tukuna",
+            "approve_for_review": "Arotake kua whakaaetia",
+            "toast_active": "Īmēra whakawhetai kua whakahohea",
+            "toast_deactive": "Īmēra whakawhetai kua whakakorehia"
+        },
+        "send_test_success": "I tukuna te īmēra i te whakamātau",
+        "send_test_hepltext": "Whakauru i te wāhitau īmēra i raro nei",
+        "store_name": "Ingoa toa",
+        "first_name": "Ingoa tuatahi",
+        "last_name": "Ingoa whakamutunga",
+        "email": "Īmēra",
+        "city": "Taone",
+        "state_province": "Rohe/Whenua",
+        "country": "Whenua",
+        "request_review_emails": "Īmēra tono whakamātau",
+        "background_color": "Tae whakararo",
+         "text_color": "Rangi kuputuhi",
+        "show_header": "Whakaatu taitara",
+        "hide_header": "Huna taitara",
+        "order_status": "Tūnga hōkuanga",
+        "complete": "Whakakore",
+        "completed": "Kua whakakore",
+        "order_paid": "Utua",
+        "default": "Taunoa",
+        "add_country_timing": "Tāpiri i te wā o te whenua",
+        "type_a_language_name": "Whakauru i te ingoa reo",
+        "no_language_found": "Kāore i kitea he reo e tautuhi ana: ",
+        "discount_voucher": "Puka whakahekenga utu",
+        "automation": "Aunoa",
+        "discount_description": "Whakamanahia ngā kiritaki ki te waiho i tētahi arotake mā te tuku whakahekenga mō tō rātou hoko e whai ake nei",
+        "email_queue": "Tono īmēra ā-ringa",
+        "email_queue_description": "Tukua ngā īmēra tono mō ngā ota kāore i tukuna aunoa",
+        "country_selected_count": "{{selected}} o {{total}} kua tīpakohia",
+        "country_group": {
+            "asia": "Āhia",
+            "europe": "Eurōpa",
+            "africa": "Āwherika",
+            "north_america": "Amerika ki te Raki",
+            "south_america": "Amerika ki te Tonga",
+            "oceania": "Te Moananui-a-Kiwa"
+        }
+    },
+    "email_template": {
+        "request_review": {
+            "subject": "Kei te hari te hoko i te {{PRODUCT_NAME}}? Whakakaha i tēnei wā!",
+            "preview_text": "Mihi ana mātou ki a koe mō tō hoko whakamutunga. Tūmanako ana mātou ka whiwhi koe i te aroha! Ki te whiwhi koe, ka whai whakapau kōrero tino whai mana ki a mātou",
+            "body": {
+                "title": "He aha te whaiaro o tō whakamātautau? 🤗",
+                "html": "<h2>He aha te whaiaro o tō whakamātautau? 🤗</h2>",
+                "content": {
+                    "html": "<p><strong>Kia ora </strong>{{FIRST_NAME}}</p>\n<p>He hiahia mātou ki te whakarongo me te kite i te whakamātau o tō whakararuraru i te hoko i te {{STORE_NAME}}</p>\n<p>Ki te whai i te wā, ka pai ki te whakapau kōrero i ō whakaaro me ō wheako me mātou me ngā kaihoko. Ko tō whakaaetanga te mea whakapau kōrero whai mana 🤩.</p>\n",
+                    "raw": "{'blocks':[{'key':'e8our','text':'Kia ora {{FIRST_NAME}}','type':'unstyled','depth':0,'inlineStyleRanges':[{'offset':0,'length':6,'style':'BOLD'}],'entityRanges':[],'data':{}},{'key':'eustq','text':'He hiahia mātou ki te whakarongo me te kite i te whakamātau o tō whakararuraru i te hoko i te {{STORE_NAME}}','type':'unstyled','depth':0,'inlineStyleRanges':[],'entityRanges':[],'data':{}},{'key':'7tjk7','text':'Ki te whai i te wā, ka pai ki te whakapau kōrero i ō whakaaro me ō wheako me mātou me ngā kaihoko. Ko tō whakaaetanga te mea whakapau kōrero whai mana 🤩.','type':'unstyled','depth':0,'inlineStyleRanges':[],'entityRanges':[],'data':{}}],'entityMap':{}}"
+                },
+                "product": {
+                    "rate_this_item": {
+                        "text": "Whakarātina i tēnei whakaputanga"
+                    }
+                }
+            }
+        },
+        "thank_you_email": {
+            "subject": "Mihi ki a koe mō te whakamātau!❤️",
+            "preview_text": "Mihi ana mātou ki a koe mō tō hoko whakamutunga. Tūmanako ana mātou ka whiwhi koe i te aroha! Ki te whiwhi koe, ka whai whakapau kōrero tino whai mana ki a mātou",
+            "body": {
+                "html": "<h2>Mihi ki a koe mō te whakamātau!❤️</h2>",
+                "title": "Mihi ki a koe mō te whakamātau!❤️",
+                "content": {
+                    "html": "<p><strong>Kia ora </strong>{{FIRST_NAME}}</p>\n<p>Kia ora, he mihi ki a koe mō te whakamātau whakamutunga. E whakapau kōrero ana mātou ki te whakarongo me te whakamihi i te wā i whakapau kōrero koe mō tēnei whakaputanga.</p>",
+                    "raw": "{'blocks':[{'key':'e8our','text':'Kia ora {{FIRST_NAME}}','type':'unstyled','depth':0,'inlineStyleRanges':[{'offset':0,'length':6,'style':'BOLD'}],'entityRanges':[],'data':{}},{'key':'eustq','text':'Kia ora, he mihi ki a koe mō te whakamātau whakamutunga. E whakapau kōrero ana mātou ki te whakarongo me te whakamihi i te wā i whakapau kōrero koe mō tēnei whakaputanga.','type':'unstyled','depth':0,'inlineStyleRanges':[],'entityRanges':[],'data':{}},{'key':'al478','text':'','type':'unstyled','depth':0,'inlineStyleRanges':[],'entityRanges':[],'data':{}}],'entityMap':{}}"
+                },
+                "reviews": {
+                    "review_on": "Whakamātau ana",
+                    "btn_shop_now": "Hoko ināianei"
+                }
+            }
+        },
+        "tone_voice": {
+            "friendly": {
+                "request_review": {
+                    "subject": "Kei te hari te hoko i te {{PRODUCT_NAME}}? Whakakaha i tēnei wā!",
+                    "content": "<p><strong>Kia ora </strong>{{FIRST_NAME}}</p>\n<p>Kei te hiahia mātou ki te whakarongo me te kite i te whakamātau o tō whakararuraru i te hoko i te {{STORE_NAME}}</p>\n<p>Ki te whai i te wā, ka pai ki te whakapau kōrero i ō whakaaro me ō wheako me mātou me ngā kaihoko. Ko tō whakaaetanga te mea whakapau kōrero whai mana 🤩.</p>\n<p>Ngā mihi,</p>\n<p>Te Whānau o {{STORE_NAME}}</p>"
+                },
+                "request_review_reminder": {
+                    "subject": "He aha te whaiaro o tō whakamātautau? Kia whakamōhio mai.",
+                    "content": "Ngā mihi mō tō hoko whakamutunga. Tūmanako ana mātou ka whiwhi koe i te aroha! Ki te whiwhi koe, ka whai whakapau kōrero tino whai mana ki a mātou"
+                },
+                "thank_you_email": {
+                    "subject": "Mihi ki a koe mō te whakamātau!❤️",
+                    "content": "<p><strong>Kia ora </strong>{{FIRST_NAME}}</p>\n<p>Kia ora, he mihi ki a koe mō te whakamātau whakamutunga. E whakapau kōrero ana mātou ki te whakarongo me te whakamihi i te wā i whakapau kōrero koe mō tēnei whakaputanga.</p>"
+                }
+            },
+            "professional": {
+                "request_review": {
+                    "subject": "He Whaiwhakaaro Nui: Whakapuaki ō Whakaaro mō {{PRODUCT_NAME}}",
+                    "content": "<p><strong>Tēnā koe </strong>{{FIRST_NAME}}</p>\n<p>Ko te tino whiwhi i tō hoko whakamutunga o {{PRODUCT_NAME}} mai i {{STORE_NAME}}. He whaiwhakaaro nui tō whakapuaki hei āwhina i a mātou ki te whakapai i ā mātou whakarato me te whakapau kōrero pai rawa atu mō ngā kiritaki katoa.</p>\n<p>Ko te karanga aroha tēnei ki a koe ki te whakapuaki ō whakaaro mō {{PRODUCT_NAME}} mā te whakakore i tētahi whakamātautau i runga i ā mātou paetukutuku. Ka whakaae whakapau kōrero tō whakaaro tika.</p>\n<p>Ngā mihi mō tō wā me tō tautoko tonu.</p>\n<p>Nā,</p>\n<p>Te Whānau o {{STORE_NAME}}</p>"
+                },
+                "request_review_reminder": {
+                    "subject": "Tō Wheako Whakamutunga me {{STORE_NAME}}",
+                    "content": "<p><strong>Kia ora</strong> {{FIRST_NAME}}</p>\n<p>Ngā mihi mō tō whakarite i te hoko whakamutunga i {{STORE_NAME}}! Tino whaiwhakaaro ana mātou ki tō wheako whakamutunga, ā, ka whakaae mātou ki te whiwhi i ō whakaaro.</p>\n<p>Ngā mihi nui,</p>\n<p>{{STORE_NAME}}</p>"
+                },
+                "thank_you_email": {
+                    "subject": "Whakaputanga Whakamātau: He Whaiwhakaaro Nui!",
+                    "content": "<p><strong>Tēnā koe </strong>{{FIRST_NAME}}</p>\n<p>Ngā mihi ki a koe mō te whakapuaki i tō whakaaro mō tō hoko whakamutunga. He whaiwhakaaro nui tō whakapuaki ki a mātou i ā mātou whakarato me ā mātou ratonga. Ka whakaae mātou ki te whakapuaki i ō whakaaro.</p>"
+                }
+            },
+            "persuasive": {
+                "request_review": {
+                    "subject": "Whakatūwhera Ngā Painga Whakamātau! Whakapuaki ō Whakaaro mō {{PRODUCT_NAME}}",
+                    "content": "<p><strong>Kia ora </strong>{{FIRST_NAME}}</p>\n<p>E whai ana koe i tō {{PRODUCT_NAME}} hōu mai i {{STORE_NAME}}? He aroha ki te whakarongo ki āu whakaaro!</p>\n<p>Ko te whakapuaki ō whakaaro tika i runga i ā mātou paetukutuku e āwhina ana i ētahi atu ki te whakarite i ngā whakatau whakamātau me te whakatūwhera i ngā painga whakamātau whakamutunga mōu, arā, he kuponu motuhake mō tō hoko whakamutunga kei te haere mai!</p>\n<p>He wāhi noa iho e whiwhi ana i ētahi hēkona ki te whakapuaki ō whakaaro, ā, ka whakarerekē i te āhua.</p>\n<p>Pāwhiritia ngā whetū me whakapuaki ō whakaaro i tēnei rā!</p>\n<p>Ngā mihi,</p>\n<p>Te Whānau o {{STORE_NAME}}</p>"
+                },
+                "request_review_reminder": {
+                    "subject": "Whakatūwhera Ngā Painga Motuhake me tō Whakaaro!",
+                    "content": "<p><strong>Kia ora</strong> {{FIRST_NAME}},</p>\n<p>Ko tō hoko whakamutunga mai i {{STORE_NAME}} he mea nui ki a mātou! Whakapuaki ō whakaaro, whakatūwhera ngā painga motuhake, ā, whakarauora i tētahi mea motuhake mōu anō.</p>\n<p>Ngā mihi mō tō whiriwhiri i {{STORE_NAME}}!</p>\n<p>Ngā mihi aroha,</p>\n<p>{{STORE_NAME}}</p>"
+                },
+                "thank_you_email": {
+                    "subject": "Āwhina i ētahi atu ki te Hoko Mārama: Whakapuaki ō Wheako Whakamātau!",
+                    "content": "<p><strong>Kia ora</strong> {{FIRST_NAME}},</p>\n<p>Ngā mihi ki a koe mō te whakapuaki i tō whakaaro mō tō hoko whakamutunga! He mea nui āu whakaaro ki ētahi atu kaihoko, ā, he whakamihi nui ki a koe mō te whakapau kōrero ki tō tātou hapori. Mā te whakapuaki i tō wheako e āwhina i ētahi atu ki te whiriwhiri i ngā whakatau whakamātau.</p>"
+                }
+            },
+            "supportive": {
+                "request_review": {
+                    "subject": "Kei te Āwhina Mātou! Whakapuaki ō Wheako me {{PRODUCT_NAME}}",
+                    "content": "<p><strong>Kia ora </strong>{{FIRST_NAME}}</p>\n<p>Ko te tino whiwhi i tō {{PRODUCT_NAME}} hōu mai i {{STORE_NAME}}.</p>\n<p>Ko tō whakapuaki i runga i ā mātou paetukutuku e āwhina ana i ētahi atu, ā, e āwhina ana i a mātou ki te whakarite i te tautoko pai rawa atu mō ā mātou kiritaki.</p>\n<p>Whakapuaki āu whakaaro mō {{PRODUCT_NAME}}, he pai, he kino rānei. He whaiwhakaaro nui tō whakapuaki, ā, he hiahia kia whiwhi koe i te whakapau kōrero.</p>\n<p>Ki te whai koe i ētahi pātai, ki te hiahia koe i te āwhina ki tō {{PRODUCT_NAME}}, tēnā whakapā atu ki ā mātou rōpū tautoko kiritaki āwhina.</p>\n<p>Ko te whakapau kōrero pai tō mātou!</p>\n<p>Ngā mihi aroha,</p>\n<p>Te Whānau o {{STORE_NAME}}</p>"
+                },
+                "request_review_reminder": {
+                    "subject": "He Whaiwhakaaro Nui ki a {{STORE_NAME}}",
+                    "content": "<p><strong>Tēnā koe</strong> {{FIRST_NAME}},</p>\n<p>Ko te tino whiwhi i tō hoko whakamutunga mai i {{STORE_NAME}}. He whaiwhakaaro nui tō whakapuaki. Tēnā whakapau kōrero i āu whakaaro.</p>\n<p>Ngā mihi ki a koe i tō whiriwhiri i {{STORE_NAME}}.</p>\n<p>Ngā mihi nui,</p>\n<p>{{STORE_NAME}}</p>"
+                },
+                "thank_you_email": {
+                    "subject": "Kua kite mātou i tō Whakapuaki!",
+                    "content": "<p><strong>Kia ora</strong> {{FIRST_NAME}},</p>\n<p>Kua kite mātou i tō whakapuaki mō tō hoko whakamutunga, ā, he whakamihi nui ki a koe! He whaiwhakaaro nui tō whakapuaki ki a mātou, ā, he āwhina nui ki a mātou ki te whakarite i te tino whaiwhakaaro mō ngā kiritaki katoa.</p>"
+                }
+            }
+        }
+    },
+    "qr_code_setting": {
+        "page_title": "Whakahaere Waehere QR",
+        "store_qr_code": "Waehere QR Toa",
+        "store_qr_code_description": "Waihangatia me te whakarite i ngā waehere QR ahurei mō tō toa, kia taea ai e ngā kiritaki te whakahaere me te arotake i ā rātou ota mā te mātaki noa. Whakanuia te wheako kiritaki o tō toa mā te whakauru tere me te waehere QR.",
+        "download_qr_code": "Tikiake Waehere QR",
+        "scan_analysis": "Tātari Mātaki",
+        "bar_chart": "Tūtohi Pae",
+        "line_chart": "Tūtohi Raina",
+        "total_scans": "Tapeke Mātaki",
+        "operating_system_scan": "Mātaki Pūnaha Whakahaere",
+        "total_scan": "Tapeke Mātaki",
+        "rate": "Whakatauranga",
+        "top_country": "Whenua Runga",
+        "country": "Whenua",
+        "top_cities": "Tāone Runga",
+        "cities": "Tāone",
+        "modal_customize": {
+            "title": "Etita Waehere QR Toa",
+            "frame": "Tāpare",
+            "background_color": "Tae Papamuri",
+            "transparent_background": "Papamuri Pārūrū",
+            "logo": "Waitohu",
+            "upload_logo": "Tukuake Waitohu",
+            "pattern_color": "Tae Tauira",
+            "custom_pattern_color": "Tae Tauira Ritenga",
+            "frame_color": "Tae Tāpare"
+        }
+    },
+    "product_photo": "Whakaahua whakaputanga",
+    "product_name": "Ingoa whakaputanga",
+    "quantity": "Momo",
+    "unsubcribe": "Whakakore",
+    "resync-order": "Tārua anō te ota",
+    "resync-helptext": "Ka tārua anō te pūnaha i ō ota o mua."
+}

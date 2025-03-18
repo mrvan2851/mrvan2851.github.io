@@ -1,0 +1,42 @@
+{
+    "title": "Importar avaliações",
+    "subtitle": "A extensão permite que você colete avaliações valiosas do AliExpress",
+    "extension_installation": "Instalação da extensão",
+    "page_primary_button": "Alterar configurações de importação",
+    "guild": {
+        "title": "Instalação da extensão",
+        "subtitle": "Instale nossa extensão para coletar avaliações do AliExpress",
+        "step": "<p>Instale nossa extensão para coletar avaliações do AliExpress:</p><p>Clique em \"<strong>Instalar extensão TrustShop</strong>\".</p><p>Você será redirecionado automaticamente para a \"Chrome Web Store\". Clique em \"<strong>Adicionar ao Chrome</strong>\".</p> <p>Siga as instruções para concluir o processo de instalação.</p><p><strong>Atualize</strong> esta página e comece a importar avaliações.</p>",
+        "btn_install_extension": "Instalar extensão TrustShop",
+        "refresh_page": "Atualizar página"
+    },
+    "product": "Produto",
+    "aliexpress_link": "Link do AliExpress",
+    "save_changes": "Salvar alterações",
+    "import": "Importar",
+    "enter_aliexpress_link_here": "Digite o link do AliExpress aqui",
+    "import_settings": "Configurações de importação",
+    "change_product": "Alterar produto",
+    "aliexpress_product_link": "Link do produto do AliExpress",
+    "enter_a_link": "Digite um link",
+    "quantity": "Quantidade",
+    "enter_a_quantity": "Digite uma quantidade",
+    "content_option": "Opção de conteúdo",
+    "contain_photos": "Contém fotos",
+    "conatain_videos": "Contém vídeos",
+    "contain_review_content": "Contém conteúdo da avaliação",
+    "customer_country": "País do cliente",
+    "search_country": "Pesquisar país",
+    "all_countries": "Todos os países",
+    "date_range": "Intervalo de datas",
+    "filter_date": {
+        "today": "Hoje",
+        "yesterday": "Ontem",
+        "last_7_days": "Últimos 7 dias",
+        "last_month": "Último mês",
+        "last_year": "Último ano",
+        "all_times": "Todos os tempos"
+    },
+    "banner_success": "Importamos avaliações para",
+    "banner_error": "Ocorreu um erro ao tentar importar avaliações"
+}

@@ -1,0 +1,41 @@
+{
+    "group_overview": {
+        "title": "Hua rōpū",
+        "description": "Rōpūhia ngā hua ōrite hei tiritiri me te whakaatu arotake ngātahi, whakakotahi i ngā mōkihi, ā, waihanga whakaaturanga arotake ritenga me te kore uaua.",
+        "create_button": "Waihanga rōpū",
+        "delete_group_message": "Mēnā ka muku koe i te rōpū, ka wehea ngā arotake katoa, ā, ka hoki ki ō rātou hua taketake. Kāore koe e whai wāhi atu, ā, kāore e taea te whakahoki tēnei mahi. Kei te hiahia tonu koe ki te haere tonu?",
+        "delete_group": "Muku rōpū",
+        "limit_function": "Whakapiki ki tētahi mahere ake kia whakamahia tēnei āhuatanga. <1>Tirohia ngā utu</1>"
+    },
+    "create_group_page": {
+        "title": "Waihanga Hua Rōpū",
+        "group_name": "Ingoa rōpū",
+        "product_in_this_group": "Ngā hua i roto i tēnei rōpū",
+        "description": "Tāpiri hua ki tēnei rōpū",
+        "sub_description": "Tīpakohia te hua hei tāpiri ki tēnei rōpū",
+        "add_product": "Tāpiri hua",
+        "unsaved_change_title": "Kei te tino hiahia koe ki te puta?",
+        "unsaved_change_message": "Kāore anō tō rōpū kia tiakina. Mēnā ka puta koe, ka ngaro ō tautuhinga. Kei te hiahia tonu koe ki te haere tonu?"
+    },
+    "create_group_modal": {
+        "title": "Waihanga Hua Rōpū",
+        "select_product_for": "Tīpakohia te hua mō",
+        "add_product_to_group": "Tāpiri hua ki te rōpū",
+        "search_product": "Rapu hua",
+        "product": "Hua",
+        "total_reviews": "Tapeke arotake",
+        "average_rating": "Whakatauranga toharite",
+        "no_product_found": "Kāore he hua i kitea",
+        "no_result_for": "Kāore he hua mō "
+    },
+    "group_detail_page": {
+        "group_rating_summary": "Whakarāpopototanga whakatauranga rōpū",
+        "products_in_group": "Ngā hua i roto i te rōpū",
+        "reviews_in_group": "Ngā arotake i roto i te rōpū",
+        "delete_product": "Muku hua",
+        "most_helpful": "Tino whaihua",
+        "newest": "Hou",
+        "delete_confirm_title": "Muku hua i te rōpū",
+        "delete_confirm_message": "Kei te tino hiahia koe ki te muku i tēnei hua?"
+    }
+}

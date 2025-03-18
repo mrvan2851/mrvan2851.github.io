@@ -1,0 +1,169 @@
+{
+    "step_1": {
+        "button": "Bắt đầu",
+        "sub_title": "Bắt đầu bằng cách kết nối cửa hàng Shopify của bạn. TrustShop sẽ tích hợp liền mạch với cửa hàng của bạn, giúp bạn dễ dàng quản lý các đánh giá và tương tác với khách hàng.",
+        "title": "✋ Chào mừng đến với TrustShop",
+        "select_language": "Ngôn ngữ giao tiếp chính của bạn là gì?",
+        "select_language_subtitle": "Chọn ngôn ngữ bạn muốn cho giao diện.",
+        "help_text": "Bạn luôn có thể thay đổi ngôn ngữ chính sau này trong cài đặt.",
+        "app_language": "Ngôn ngữ ứng dụng"
+    },
+    "step_2": {
+        "quick_guide": {
+            "reload_btn": "Tải lại",
+            "recheck_btn": "Lỗi. Nhấn để kiểm tra lại",
+            "step_1": "<p>Nhấn vào <span>Bật nhúng ứng dụng</span></p>",
+            "step_2": "<p>Trang sẽ mở và ứng dụng được <span>tự động bật</span></p>",
+            "step_3": "<p>Nhấn vào <span>Lưu</span> (ở góc trên bên phải) và đảm bảo rằng bạn thấy một thông báo thành công xuất hiện</p>",
+            "step_4": "<p>Trở lại trang <span>hướng dẫn này</span> để tiếp tục hướng dẫn <span>TrustShop</span>.</p>",
+            "success_btn": "Bật nhúng ứng dụng thành công",
+            "sub_title": "Bật ứng dụng dễ dàng bằng cách làm theo các bước sau: ",
+            "title": "👉 Đừng bỏ lỡ hướng dẫn này 👈",
+            "not_detect_embedded": "Bật không thành công. Vui lòng thử lại.",
+            "add_widget_helptext": "Gặp vấn đề khi thêm widget? Liên hệ với chúng tôi để được hỗ trợ chi tiết!",
+            "helptext": "<p>Bước này thêm mã cần thiết để hiển thị đánh giá trên cửa hàng của bạn.<p><p><i>Đừng lo lắng - điều này sẽ không ảnh hưởng đến thiết kế hoặc bố cục cửa hàng của bạn.</i></p>"
+        },
+        "sub_title": "Hiển thị các đánh giá dễ dàng ở các bước tiếp theo",
+        "title": "Yêu cầu đánh giá tự động",
+        "email_setting_title": "Cài đặt yêu cầu đánh giá qua email",
+        "email_setting_subtitle": "Email yêu cầu đánh giá sẽ được gửi tự động dựa trên các cài đặt dưới đây",
+        "customer_in_country": "Khách hàng ở quốc gia",
+        "default_country": "Mặc định (Tất cả quốc gia)",
+        "send_email_request_review": "Gửi yêu cầu đánh giá qua email",
+        "after_order": "Sau khi trạng thái đơn hàng là",
+        "add_more_country": "Thêm quốc gia khác",
+        "help_text": "Bạn luôn có thể thay đổi cấu hình này sau trong cài đặt."
+    },
+    "step_3": {
+        "v1": {
+            "quick_guide": {
+                "title": "Thêm Widget Đánh Giá",
+                "reload_btn": "Tải lại",
+                "recheck_btn": "Lỗi. Nhấn để kiểm tra lại",
+                "step_1": "<p>Mở <1>templates/product.liquid</1> trong trình soạn thảo</p>",
+                "step_2": "<p>Thêm mã sau vào cuối tệp mẫu của bạn</p>",
+                "step_3": "<p>Nhấn vào <span>Lưu</span></p>",
+                "step_4": "<p>Quay lại trang <span>hướng dẫn này</span> để tiếp tục hướng dẫn.</p>",
+                "helptext": "<p>Bước này thêm mã cần thiết để hiển thị đánh giá trên cửa hàng của bạn.<p><p><i>Đừng lo lắng - điều này sẽ không ảnh hưởng đến thiết kế hoặc bố cục cửa hàng của bạn.</i></p>"
+            }
+        },
+        "v2": {
+            "quick_guide": {
+                "title": "Thêm Widget Đánh Giá",
+                "reload_btn": "Tải lại",
+                "recheck_btn": "Lỗi. Nhấn để kiểm tra lại",
+                "step_1": "<p>Nhấn vào nút <span>Thêm widget</span></p>",
+                "step_2": "<p>Widget sẽ tự động được thêm vào mẫu sản phẩm của bạn</p>",
+                "step_3": "<p>Nhấn vào <span>Lưu</span> để xác nhận các thay đổi</p>",
+                "step_4": "Kiểm tra trang sản phẩm của bạn để xem đánh giá đang hoạt động",
+                "step_5": "<p>Quay lại trang <span>hướng dẫn này</span> để tiếp tục hướng dẫn</p>",
+                "helptext": "<p>Bước này thêm mã cần thiết để hiển thị đánh giá trên cửa hàng của bạn.</p><p><i>Đừng lo lắng - điều này sẽ không ảnh hưởng đến thiết kế hoặc bố cục cửa hàng của bạn.</i></p>"
+            }
+        },
+        "quick_guide": {
+            "sub_title": "Làm theo những bước đơn giản này để kích hoạt đánh giá sản phẩm trên cửa hàng của bạn:",
+            "title": "Hướng dẫn nhanh",
+            "not_detect_widget": "Chúng tôi không thể phát hiện widget. Vui lòng thử lại!",
+            "add_widget_helptext": "Gặp vấn đề khi thêm widget? Hãy liên hệ với chúng tôi để được hỗ trợ chi tiết!",
+            "success_btn": "Đã thêm widget thành công"
+        },
+        "sub_title": "Hiển thị widget đánh giá trên cửa hàng trực tuyến của bạn.",
+        "title": "Cài đặt hiển thị đánh giá sản phẩm",
+        "enable_app_embed": "Kích hoạt tích hợp ứng dụng",
+        "enable_app_embed_subtitle": "Làm theo những bước đơn giản này để kích hoạt đánh giá sản phẩm trên cửa hàng của bạn",
+        "add_widget_btn": "Thêm widget",
+        "enable_embed": "Kích hoạt tích hợp ứng dụng"
+    },
+    "step_4": {
+        "button": "Đi đến bảng điều khiển",
+        "sub_title": "Chúc mừng! Bạn đã sẵn sàng để tăng cường thương hiệu của mình với sức mạnh của các đánh giá và giới thiệu. Hãy sẵn sàng để chứng kiến doanh nghiệp của bạn phát triển!",
+        "title": "Bạn đã sẵn sàng!",
+        "import_text": "Nhập các đánh giá một cách liền mạch từ Product Reviews by Shopify, Judge.me, Loox và nhiều công cụ khác",
+        "import_button": "Nhập các đánh giá",
+        "dashboard_text": "Bắt đầu quản lý các đánh giá và thu hút khách hàng tương tác với thương hiệu của bạn",
+        "dashboard_button": "Đi đến bảng điều khiển"
+    },
+    "pricing_page": {
+        "title": "Giá cả đơn giản và rõ ràng!",
+        "sub_title": "Dùng thử miễn phí 7 ngày. Không có phí ẩn.",
+        "free_plan_des": "Hoặc bắt đầu miễn phí, hoàn hảo cho người mới bắt đầu.",
+        "recommended": "Được khuyến nghị",
+        "pricing_card": {
+            "basic": {
+                "title": "Tiêu chuẩn",
+                "sub_title": "Hoàn hảo cho các doanh nghiệp nhỏ.",
+                "benefit": {
+                    "1": "<p><span>200</span> yêu cầu đánh giá đơn hàng/tháng</p>",
+                    "2": "<p>Truy cập các tính năng cao cấp nhất</p>",
+                    "3": "<p>Tích hợp Shopify Flow</p>",
+                    "4": "<p>Hỗ trợ khách hàng ưu tiên</p>"
+                }
+            },
+            "pro": {
+                "title": "Doanh nghiệp",
+                "sub_title": "Đưa doanh nghiệp của bạn lên một tầm cao mới.",
+                "benefit": {
+                    "1": "<p><span>1.500</span> yêu cầu đánh giá đơn hàng/tháng</p>",
+                    "2": "<p>Truy cập tất cả các tính năng cao cấp.</p>",
+                    "3": "<p>Trang chi tiết đánh giá</p>",
+                    "4": "<p>Miền tùy chỉnh</p>",
+                    "5": "<p>Tích hợp Shopify Flow</p>",
+                    "6": "<p>Hỗ trợ khách hàng ưu tiên</p>"
+                }
+            },
+            "unlimited": {
+                "title": "Vô hạn",
+                "sub_title": "Không có giới hạn cho sự phát triển của bạn.",
+                "benefit": {
+                    "1": "<p><span>Vô hạn</span> yêu cầu đánh giá đơn hàng</p>",
+                    "2": "<p>Truy cập tất cả các tính năng cao cấp.</p>",
+                    "3": "<p>Trang chi tiết đánh giá</p>",
+                    "4": "<p>Miền tùy chỉnh</p>",
+                    "5": "<p>Tích hợp Shopify Flow</p>",
+                    "6": "<p>Hỗ trợ khách hàng ưu tiên</p>"
+                }
+            }
+        }
+    },
+    "modal_compare_plans": {
+        "title": "So sánh các Gói",
+        "pricing_card": {
+            "free": {
+                "title": "Cơ bản",
+                "sub_title": "Bắt đầu miễn phí, hoàn hảo cho người mới bắt đầu.",
+                "benefit": {
+                    "1": "<p><span>50</span> yêu cầu đánh giá đơn hàng/tháng</p>",
+                    "2": "<p>Truy cập cơ bản vào widget đánh giá</p>",
+                    "3": "<p>Yêu cầu chỉnh sửa cơ bản qua email</p>",
+                    "4": "<p>Chỉ có thể tải lên hình ảnh từ người đánh giá</p>"
+                }
+            },
+            "basic": {
+                "title": "Tiêu chuẩn",
+                "sub_title": "Hoàn hảo cho các doanh nghiệp nhỏ hoặc cá nhân.",
+                "benefit": {
+                    "1": "<p><span>200</span> yêu cầu đánh giá đơn hàng/tháng</p>",
+                    "2": "<p>Truy cập hầu hết các tính năng cao cấp</p>",
+                    "3": "<p>Widget có thể tùy chỉnh đầy đủ</p>",
+                    "4": "<p>Video đánh giá</p>",
+                    "5": "<p>Google Shopping</p>",
+                    "6": "<p>Bảo vệ đánh giá của bạn</p>"
+                }
+            },
+            "pro": {
+                "title": "Doanh nghiệp",
+                "sub_title": "Đưa doanh nghiệp của bạn lên một tầm cao mới.",
+                "benefit": {
+                    "1": "<p><span>1.500</span> yêu cầu đánh giá đơn hàng/tháng</p>",
+                    "2": "<p>Truy cập tất cả các tính năng cao cấp.</p>",
+                    "3": "<p>Widget có thể tùy chỉnh đầy đủ</p>",
+                    "4": "<p>Video đánh giá</p>",
+                    "5": "<p>Google Shopping</p>",
+                    "6": "<p>Bảo vệ đánh giá của bạn</p>",
+                    "7": "<p>Trang chi tiết đánh giá</p>",
+                    "8": "<p>Miền tùy chỉnh</p>"
+                }
+            }
+        }
+    }
+}

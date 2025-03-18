@@ -1,0 +1,42 @@
+{
+    "title": "Importera recensioner",
+    "subtitle": "Tillägget gör det möjligt att samla värdefulla recensioner från AliExpress",
+    "extension_installation": "Installation av tillägg",
+    "page_primary_button": "Ändra importinställningar",
+    "guild": {
+        "title": "Installation av tillägg",
+        "subtitle": "Installera vårt tillägg för att samla recensioner från AliExpress",
+        "step": "<p>Installera vårt tillägg för att samla recensioner från AliExpress:</p><p>Klicka på \"<strong>Installera TrustShop-tillägg</strong>\".</p><p>Du kommer automatiskt att omdirigeras till \"Chrome Web Store\". Klicka på \"<strong>Lägg till i Chrome</strong>\".</p> <p>Följ instruktionerna för att slutföra installationsprocessen.</p><p><strong>Uppdatera</strong> den här sidan och börja importera recensioner. </p>",
+        "btn_install_extension": "Installera TrustShop-tillägg",
+        "refresh_page": "Uppdatera sidan"
+    },
+    "product": "Produkt",
+    "aliexpress_link": "AliExpress-länk",
+    "save_changes": "Spara ändringar",
+    "import": "Importera",
+    "enter_aliexpress_link_here": "Ange AliExpress-länk här",
+    "import_settings": "Importinställningar",
+    "change_product": "Byt produkt",
+    "aliexpress_product_link": "AliExpress-produktlänk",
+    "enter_a_link": "Ange en länk",
+    "quantity": "Antal",
+    "enter_a_quantity": "Ange ett antal",
+    "content_option": "Innehållsalternativ",
+    "contain_photos": "Innehåller foton",
+    "conatain_videos": "Innehåller videor",
+    "contain_review_content": "Innehåller recensionsinnehåll",
+    "customer_country": "Kundland",
+    "search_country": "Sök land",
+    "all_countries": "Alla länder",
+    "date_range": "Datumintervall",
+    "filter_date": {
+        "today": "Idag",
+        "yesterday": "Igår",
+        "last_7_days": "Senaste 7 dagarna",
+        "last_month": "Senaste månaden",
+        "last_year": "Senaste året",
+        "all_times": "Alla tider"
+    },
+    "banner_success": "Vi har importerat recensioner för",
+    "banner_error": "Det uppstod ett fel när vi försökte importera recensioner"
+}

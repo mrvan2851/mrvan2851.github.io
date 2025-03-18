@@ -1,0 +1,42 @@
+{
+    "title": "Importa recensioni",
+    "subtitle": "L'estensione ti consente di raccogliere recensioni preziose da AliExpress",
+    "extension_installation": "Installazione dell'estensione",
+    "page_primary_button": "Modifica impostazioni di importazione",
+    "guild": {
+        "title": "Installazione dell'estensione",
+        "subtitle": "Installa la nostra estensione per raccogliere recensioni da AliExpress",
+        "step": "<p>Installa la nostra estensione per raccogliere recensioni da AliExpress:</p><p>Clicca su \"<strong>Installa estensione TrustShop</strong>\".</p><p>Verrai automaticamente reindirizzato al \"Chrome Web Store\". Clicca su \"<strong>Aggiungi a Chrome</strong>\".</p> <p>Segui le istruzioni per completare il processo di installazione.</p><p><strong>Aggiorna</strong> questa pagina e inizia l'importazione delle recensioni. </p>",
+        "btn_install_extension": "Installa estensione TrustShop",
+        "refresh_page": "Aggiorna pagina"
+    },
+    "product": "Prodotto",
+    "aliexpress_link": "Link AliExpress",
+    "save_changes": "Salva modifiche",
+    "import": "Importa",
+    "enter_aliexpress_link_here": "Inserisci qui il link di AliExpress",
+    "import_settings": "Impostazioni di importazione",
+    "change_product": "Cambia prodotto",
+    "aliexpress_product_link": "Link prodotto AliExpress",
+    "enter_a_link": "Inserisci un link",
+    "quantity": "Quantità",
+    "enter_a_quantity": "Inserisci una quantità",
+    "content_option": "Opzione contenuto",
+    "contain_photos": "Contiene foto",
+    "conatain_videos": "Contiene video",
+    "contain_review_content": "Contiene contenuto della recensione",
+    "customer_country": "Paese del cliente",
+    "search_country": "Cerca paese",
+    "all_countries": "Tutti i paesi",
+    "date_range": "Intervallo di date",
+    "filter_date": {
+        "today": "Oggi",
+        "yesterday": "Ieri",
+        "last_7_days": "Ultimi 7 giorni",
+        "last_month": "Ultimo mese",
+        "last_year": "Ultimo anno",
+        "all_times": "Tutti i tempi"
+    },
+    "banner_success": "Abbiamo importato recensioni per",
+    "banner_error": "Si è verificato un errore nel tentativo di importare le recensioni"
+}

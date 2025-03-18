@@ -1,0 +1,285 @@
+{
+    "table": {
+        "navigate_button_content": "Email workflow",
+        "no_data": {
+            "title": "Manage your request emails",
+            "description": "Active email templates to start sending automated emails to customers.",
+            "setting_email_templates": "Setting email templates"
+        },
+        "title": "Review request emails",
+        "second_title": "Send email manually",
+        "no_email": "No recipient email",
+        "search_placeholder": "Enter an email",
+        "all_status": "All statuses",
+        "email_type": "Email type",
+        "email_review_request": "Review request email",
+        "remind_request_review": "Review request reminder email",
+        "thank_you_email": "Thank-you email ",
+        "just_now": "Just now",
+        "order_id": "Order id",
+        "buyer": "Buyer",
+        "location": "Location",
+        "product": "Product",
+        "purchase_time": "Purchase time",
+        "schedule_date": "Schedule date",
+        "send_now": "Send now",
+        "send_again": "Send again",
+        "banner_quota_used": {
+            "free": "Basic",
+            "basic": "Standard",
+            "pro": "Enterprise",
+            "quota_reached": "Order quota reached!",
+            "title": "You've used {{used}}% of your {{plan}} plan order quota",
+            "subtitle": "A {{plan}} plan comes with only {{total}} orders/ month. Upgrade to send more emails."
+        }
+    },
+    "campaign": {
+        "banner": {
+            "title": "Customer reviews are powerful!",
+            "content": "A few sentences in a review can have more influence on consumers than an entire website. Get your customers reviews with our built-in email campaigns and templates to make your life easier!"
+        },
+        "email_content": "Email content",
+        "email_content_description": "Craft email content with tailored language to ensure your customers easily grasp the message",
+        "email_will_be_sent": "Email will be sent",
+        "title": "Email workflow",
+        "not_active": "not active",
+        "running": "Running",
+        "save_just_now": "Save just now",
+        "send_test": "Send test",
+        "send_test_email": "Send test email",
+        "enter_email_address": "Enter email address below",
+        "confirm": "Confirm",
+        "when_to_send": "When to send",
+        "all_change_save": "All changes saved",
+        "all_customer": "All customers",
+        "email_schedule": "Email schedule",
+        "email_scheduling": "Email scheduling",
+        "email_scheduling_subtitle": "Customize time when email is sent to customers who comes from different geographical area ",
+        "tone_voice": "Tone voice",
+        "friendly": "Friendly",
+        "professional": "Professional",
+        "persuasive": "Persuasive",
+        "supportive": "Supportive",
+        "to": "To",
+        "subject": "Subject",
+        "preview": "Preview",
+        "from": "From",
+        "branding": "Branding",
+        "logo": "Logo",
+        "personalization": "Personalization",
+        "active_require_toast": "You need active trigger request review",
+        "product_quantity": "Product quantity",
+        "star_rating_icon": "Star rating icon",
+        "call_to_action_btn": "Call to action button (Write a review)",
+        "product_image": "Product image",
+        "request_review": {
+            "title": "Request review",
+            "content": "<strong>{{day}}</strong> day after a <strong>{{status}}</strong>, an automatic email will be sent to the customer, requesting them to leave a review of the product.",
+            "toast_active": "Request review activated",
+            "toast_deactive": "Request review disabled"
+        },
+        "request_review_reminder": {
+            "title": "Request review reminder",
+            "content": "After <strong>{{days}}</strong> days of sending the initial review request email, an automatic reminder email will be sent if no response is received. Be activated only after Review request email is on.",
+            "after_review_request_mail": "after Review request email",
+            "toast_active": "Email reminder activated",
+            "toast_deactive": "Email reminder disabled"
+        },
+        "thank_you_for_review": {
+            "title": "Thank you for review",
+            "content": "After a customer leaves a review, an automatic thank-you email will be sent. Voucher codes and discounts can be added. Be activated only after Review request email is on.",
+            "content_2": "<strong>{{days}}</strong> days after a customer leaves a review, an automatic thank-you email will be sent. Voucher codes and discounts can be added. Be activated only after Review request email is on.",
+            "after_review_submit": "Review submitted",
+            "review_submitted": "Review submitted",
+            "approve_for_review": "Review approved",
+            "toast_active": "Thanks email activated",
+            "toast_deactive": "Thanks email disabled"
+        },
+        "send_test_success": "Email was successfully sent ",
+        "send_test_hepltext": "Enter email address below",
+        "store_name": "Store name",
+        "first_name": "First name",
+        "last_name": "Last name",
+        "email": "Email",
+        "city": "City",
+        "state_province": "State/Province",
+        "country": "Country",
+        "request_review_emails": "Request review emails",
+        "background_color": "Background Color",
+        "text_color": "Text color",
+        "show_header": "Show header",
+        "hide_header": "Hide header",
+        "order_status": "Order status",
+        "complete": "Complete",
+        "completed": "Fulfillment",
+        "order_paid": "Paid",
+        "default": "Default",
+        "add_country_timing": "Add country timing",
+        "type_a_language_name": "Type a language name",
+        "no_language_found": "No language found matching: ",
+        "discount_voucher": "Discount voucher",
+        "automation": "Automation",
+        "discount_description": "Incentivize customers to leave a review by offering discount for their next purchase",
+        "email_queue": "Manual email request",
+        "email_queue_description": "Send request emails for the orders not be sent automatically",
+        "country_selected_count": "{{selected}} of {{total}} selected",
+        "country_group": {
+            "asia": "Asia",
+            "europe": "Europe",
+            "africa": "Africa",
+            "north_america": "North America",
+            "south_america": "South America",
+            "oceania": "Oceania"
+        }
+    },
+    "email_template": {
+        "request_review": {
+            "subject": "Happy purchasing {{PRODUCT_NAME}}? Leave a review now!",
+            "preview_text": "Thank you for your recent purchase. We hope you love it! If you do, your review will be very meaningful to us",
+            "body": {
+                "title": "How was your experience? 🤗",
+                "html": "<h2>How was your experience? 🤗</h2>",
+                "content": {
+                    "html": "<p><strong>Hello </strong>{{FIRST_NAME}}</p>\n<p>We want to check in and see how you are enjoying your shopping at {{STORE_NAME}}</p>\n<p>If you have a moment, it would be great if you could share your thoughts  and experiences with us and fellow shoppers. Your approval is  everything 🤩.</p>\n",
+                    "raw": "{'blocks':[{'key':'e8our','text':'Hello {{FIRST_NAME}}','type':'unstyled','depth':0,'inlineStyleRanges':[{'offset':0,'length':6,'style':'BOLD'}],'entityRanges':[],'data':{}},{'key':'eustq','text':'We want to check in and see how you are enjoying your shopping at {{STORE_NAME}}','type':'unstyled','depth':0,'inlineStyleRanges':[],'entityRanges':[],'data':{}},{'key':'7tjk7','text':'If you have a moment, it would be great if you could share your thoughts  and experiences with us and fellow shoppers. Your approval is  everything 🤩.','type':'unstyled','depth':0,'inlineStyleRanges':[],'entityRanges':[],'data':{}}],'entityMap':{}}"
+                },
+                "product": {
+                    "rate_this_item": {
+                        "text": "Rate this item"
+                    },
+                    "call_to_action": {
+                        "text": "write a review"
+                    }
+                }
+            }
+        },
+        "request_review_reminder": {
+            "subject": "Happy purchasing {{PRODUCT_NAME}}? Leave a review now!",
+            "preview_text": "Thank you for your recent purchase. We hope you love it! If you do, your review will be very meaningful to us",
+            "body": {
+                "title": "How was your experience? 🤗",
+                "html": "<h2>How was your experience? 🤗</h2>",
+                "content": {
+                    "html": "<p><strong>Hello </strong>{{FIRST_NAME}}</p>\n<p>We want to check in and see how you are enjoying your shopping at {{STORE_NAME}}</p>\n<p>If you have a moment, it would be great if you could share your thoughts  and experiences with us and fellow shoppers. Your approval is  everything 🤩.</p>\n",
+                    "raw": "{'blocks':[{'key':'e8our','text':'Hello {{FIRST_NAME}}','type':'unstyled','depth':0,'inlineStyleRanges':[{'offset':0,'length':6,'style':'BOLD'}],'entityRanges':[],'data':{}},{'key':'eustq','text':'We want to check in and see how you are enjoying your shopping at {{STORE_NAME}}','type':'unstyled','depth':0,'inlineStyleRanges':[],'entityRanges':[],'data':{}},{'key':'7tjk7','text':'If you have a moment, it would be great if you could share your thoughts  and experiences with us and fellow shoppers. Your approval is  everything 🤩.','type':'unstyled','depth':0,'inlineStyleRanges':[],'entityRanges':[],'data':{}}],'entityMap':{}}"
+                },
+                "product": {
+                    "rate_this_item": {
+                        "text": "Rate this item"
+                    },
+                    "call_to_action": {
+                        "text": "write a review"
+                    }
+                }
+            }
+        },
+        "thank_you_email": {
+            "subject": "Thank you for leaving a review!❤️",
+            "preview_text": "Thank you for your recent purchase. We hope you love it! If you do, your review will be very meaningful to us",
+            "body": {
+                "html": "<h2>Thank you for leaving a review!❤️</h2>",
+                "title": "Thank you for leaving a review!❤️",
+                "content": {
+                    "html": "<p><strong>Hello </strong>{{FIRST_NAME}}</p>\n<p>Hello Thanks for leaving a review of your latest purchase. We love hearing feedback and appreciate the time you took to share your experience with this item(s).</p>",
+                    "raw": "{'blocks':[{'key':'e8our','text':'Hello {{FIRST_NAME}}','type':'unstyled','depth':0,'inlineStyleRanges':[{'offset':0,'length':6,'style':'BOLD'}],'entityRanges':[],'data':{}},{'key':'eustq','text':'Thanks for leaving a review of your latest purchase. We love hearing feedback and appreciate the time you took to share your experience with this item(s).','type':'unstyled','depth':0,'inlineStyleRanges':[],'entityRanges':[],'data':{}},{'key':'al478','text':'','type':'unstyled','depth':0,'inlineStyleRanges':[],'entityRanges':[],'data':{}}],'entityMap':{}}"
+                },
+                "reviews": {
+                    "review_on": "Reviews on",
+                    "btn_shop_now": "Shop now"
+                }
+            }
+        },
+        "tone_voice": {
+            "friendly": {
+                "request_review": {
+                    "subject": "Happy purchasing {{PRODUCT_NAME}}? Leave a review now!",
+                    "content": "<p><strong>Hello </strong>{{FIRST_NAME}}</p>\n<p>We want to check in and see how you are enjoying your shopping at {{STORE_NAME}}</p>\n<p>If you have a moment, it would be great if you could share your thoughts and experiences with us and fellow shoppers. Your approval is  everything 🤩.</p>\n<p>Warmly,</p>\n<p>The {{STORE_NAME}} Team</p>"
+                },
+                "request_review_reminder": {
+                    "subject": "How was your experience? Let us know.",
+                    "content": "Thank you for your recent purchase. We hope you love it! If you do, your review will be very meaningful to us"
+                },
+                "thank_you_email": {
+                    "subject": "Thank you for leaving a review!❤️",
+                    "content": "<p><strong>Hello </strong>{{FIRST_NAME}}</p>\n<p>Hello Thanks for leaving a review of your latest purchase. We love hearing feedback and appreciate the time you took to share your experience with this item(s).</p>"
+                }
+            },
+            "professional": {
+                "request_review": {
+                    "subject": "Your Feedback Matters: Share Your Thoughts on {{PRODUCT_NAME}}",
+                    "content": "<p><strong>Dear </strong>{{FIRST_NAME}}</p>\n<p>We hope you're enjoying your recent purchase of {{PRODUCT_NAME}} from {{STORE_NAME}}. Your feedback is crucial in helping us improve our offerings and provide the best possible experience for all our customers.</p>\n<p>We kindly invite you to share your thoughts on {{PRODUCT_NAME}} by leaving a review on our website. Your honest feedback is greatly appreciated.</p>\n<p>Thank you for your time and continued support.</p>\n<p>Sincerely,</p>\n<p>The {{STORE_NAME}} Team</p>"
+                },
+                "request_review_reminder": {
+                    "subject": "Your Recent Experience with {{STORE_NAME}}",
+                    "content": "<p><strong>Hi</strong> {{FIRST_NAME}}</p>\n<p>Thanks for choosing {{STORE_NAME}}! We hope you're enjoying your recent purchase. Your opinion is valuable, and we'd appreciate it if you could take a moment to share your experience.</p>\n<p>Best regards,</p>\n<p>{{STORE_NAME}}</p>"
+                },
+                "thank_you_email": {
+                    "subject": "Review Received: Your Thoughts Matter!",
+                    "content": "<p><strong>Dear </strong>{{FIRST_NAME}}</p>\n<p>Thank you for taking the time to submit a review of your recent purchase. Your feedback is valuable to us as we strive to continuously improve our products and services. We appreciate you sharing your insights.</p>"
+                }
+            },
+            "persuasive": {
+                "request_review": {
+                    "subject": "Unlock Exclusive Benefits! Share Your Review of {{PRODUCT_NAME}}",
+                    "content": "<p><strong>Hi </strong>{{FIRST_NAME}}</p>\n<p>Enjoying your new {{PRODUCT_NAME}} from {{STORE_NAME}}? We'd love to hear about it!</p>\n<p>Sharing your honest review on our website helps others make informed decisions and could also unlock exclusive benefits for you, which is a special coupon on your next purchase!</p>\n<p>It only takes a few minutes to leave a review, and it will make a big difference.</p>\n<p>Click stars and share your thoughts today!</p>\n<p>Thank,</p>\n<p>The {{STORE_NAME}} Team</p>"
+                },
+                "request_review_reminder": {
+                    "subject": "Unlock Exclusive Benefits with Your Review!",
+                    "content": "<p><strong>Hello</strong> {{FIRST_NAME}},</p>\n<p>Your recent purchase from {{STORE_NAME}} means a lot to us! Share your thoughts, unlock exclusive benefits, and enjoy something special just for you.</p>\n<p>Thanks for choosing {{STORE_NAME}}!</p>\n<p>Warm regards,</p>\n<p>{{STORE_NAME}}</p>"
+                },
+                "thank_you_email": {
+                    "subject": "Help Others Shop Smarter: Share Your Review Experience!",
+                    "content": "<p><strong>Hi</strong> {{FIRST_NAME}},</p>\n<p>We appreciate you leaving a review of your recent purchase! Your insights are valuable to other shoppers, and we truly appreciate you taking the time to contribute to our community. By sharing your experience, you help others make informed decisions.</p>"
+                }
+            },
+            "supportive": {
+                "request_review": {
+                    "subject": "We're Here to Help! Share Your Experience with {{PRODUCT_NAME}}",
+                    "content": "<p><strong>Hello </strong>{{FIRST_NAME}}</p>\n<p>We hope you're settling in nicely with your new {{PRODUCT_NAME}} from {{STORE_NAME}}.</p>\n<p>Your review on our website not only helps others, but it also helps us ensure we're providing the best possible support for our customers.</p>\n<p>Feel free to share any thoughts you have on {{PRODUCT_NAME}}, good or bad. We value your input and want to make sure you're completely satisfied.</p>\n<p>If you have any questions or need assistance with your {{PRODUCT_NAME}}, please don't hesitate to reach out to our friendly customer service team.</p>\n<p>We're always happy to help!</p>\n<p>Warmly,</p>\n<p>The {{STORE_NAME}} Team</p>"
+                },
+                "request_review_reminder": {
+                    "subject": "Your Opinion Matters to {{STORE_NAME}}",
+                    "content": "<p><strong>Dear</strong> {{FIRST_NAME}},</p>\n<p>We hope you're pleased with your recent purchase from {{STORE_NAME}}. Your feedback is important. Please take a moment to share your thoughts.</p>\n<p>Thank you for being a valued customer of {{STORE_NAME}}.</p>\n<p>Best regards,</p>\n<p>{{STORE_NAME}}</p>"
+                },
+                "thank_you_email": {
+                    "subject": "We Saw Your Review!",
+                    "content": "<p><strong>Hi</strong> {{FIRST_NAME}},</p>\n<p>We saw your review of your recent purchase and wanted to express our sincere thanks! Your feedback is important to us, as it helps us ensure we're providing the best possible experience for all our customers.</p>"
+                }
+            }
+        }
+    },
+    "qr_code_setting": {
+        "page_title": "QR code management",
+        "store_qr_code": "Store QR code",
+        "store_qr_code_description": "Create and customize unique QR codes for your store, allowing customers to manage and review their orders with just a scan. Enhance your store's customer experience with fast and convenient QR code integration.",
+        "download_qr_code": "Download QR code",
+        "scan_analysis": "Scan analysis",
+        "bar_chart": "Bar chart",
+        "line_chart": "Line chart",
+        "total_scans": "Total scans",
+        "operating_system_scan": "Operating system scan",
+        "total_scan": "Total scan",
+        "rate": "Rate",
+        "top_country": "Top country",
+        "country": "Country",
+        "top_cities": "Top cities",
+        "cities": "Cities",
+        "modal_customize": {
+            "title": "Store QR code editor",
+            "frame": "Frame",
+            "background_color": "Background color",
+            "transparent_background": "Transparent background",
+            "logo": "Logo",
+            "upload_logo": "Upload logo",
+            "pattern_color": "Pattern color",
+            "custom_pattern_color": "Custom pattern color",
+            "frame_color": "Frame color"
+        }
+    },
+    "product_photo": "Product photo",
+    "product_name": "Product name",
+    "quantity": "Quantity",
+    "unsubcribe": "Unsubcribe",
+    "resync-order": "Re-sync order",
+    "resync-helptext": "The system will synchronize all your previous orders."
+}

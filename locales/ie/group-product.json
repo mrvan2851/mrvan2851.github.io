@@ -1,0 +1,41 @@
+{
+    "group_overview": {
+        "title": "Táirge grúpa",
+        "description": "Grúpáil táirgí cosúla chun athbhreithnithe a roinnt agus a thaispeáint le chéile, beartáin a shruthlíniú, agus taispeántais athbhreithnithe saincheaptha a chruthú gan stró.",
+        "create_button": "Cruthaigh grúpa",
+        "delete_group_message": "Má scriosann tú an grúpa, scarfar gach athbhreithniú agus fillfidh siad ar a dtáirgí bunaidh. Ní bheidh rochtain agat a thuilleadh, agus ní féidir an gníomh seo a chealú. An bhfuil tú ag iarraidh leanúint ar aghaidh?",
+        "delete_group": "Scrios grúpa",
+        "limit_function": "Uasghrádaigh go plean níos airde chun an gné seo a úsáid. <1>Féach ar praghsáil</1>"
+    },
+    "create_group_page": {
+        "title": "Cruthaigh Táirge Grúpa",
+        "group_name": "Ainm an ghrúpa",
+        "product_in_this_group": "Táirgí sa ghrúpa seo",
+        "description": "Cuir táirgí leis an ngrúpa seo",
+        "sub_description": "Roghnaigh táirge le cur leis an ngrúpa seo",
+        "add_product": "Cuir táirge leis",
+        "unsaved_change_title": "An bhfuil tú cinnte gur mhaith leat imeacht?",
+        "unsaved_change_message": "Níor sábháladh do ghrúpa. Má imíonn tú, caillfear do shocruithe. An bhfuil tú ag iarraidh leanúint ar aghaidh?"
+    },
+    "create_group_modal": {
+        "title": "Cruthaigh Táirge Grúpa",
+        "select_product_for": "Roghnaigh táirge do",
+        "add_product_to_group": "Cuir táirge leis an ngrúpa",
+        "search_product": "Cuardaigh táirge",
+        "product": "Táirge",
+        "total_reviews": "Iomlán athbhreithnithe",
+        "average_rating": "Meánráta",
+        "no_product_found": "Níor aimsíodh táirge",
+        "no_result_for": "Níl aon toradh le haghaidh "
+    },
+    "group_detail_page": {
+        "group_rating_summary": "Achoimre ar rátáil an ghrúpa",
+        "products_in_group": "Táirgí sa ghrúpa",
+        "reviews_in_group": "Athbhreithnithe sa ghrúpa",
+        "delete_product": "Scrios táirge",
+        "most_helpful": "Is cabhrach",
+        "newest": "Is nua",
+        "delete_confirm_title": "Scrios táirge ón ngrúpa",
+        "delete_confirm_message": "An bhfuil tú cinnte gur mhaith leat an táirge seo a scrios?"
+    }
+}

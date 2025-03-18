@@ -1,0 +1,90 @@
+{
+    "toast": {
+        "email": {
+            "update_success": "Correo electrónico actualizado con éxito",
+            "invalid_email": "¡Correo electrónico no válido!",
+            "failed": "Error al enviar correo",
+            "failed_reason": "Error al enviar correo",
+            "get_campain_fail": "Recuperación fallida.",
+            "get_campaign_failed": "Recuperar campaña fallido",
+            "get_queue_failed": "Recuperar cola fallido",
+            "require_title": "Para activar este correo electrónico, se debe realizar un cambio:",
+            "require": "Debe activar el desencadenador para solicitar una revisión",
+            "success": "Enviado con éxito",
+            "empty": "Algunos campos están vacíos, por favor ingréselos o elimínelos antes de guardar.",
+            "send_again_success": "Correo programado"
+        },
+        "failed": "¡Fallido!",
+        "get_status_fail": "Recuperación de información fallida.",
+        "onboarding": {
+            "reload": "¡Fallido! Intenta de nuevo",
+            "skip_enable_app_embed": "¿Omitir habilitar la incrustación de la aplicación?",
+            "skip_enable_app_embed_notice": "Habilitar la incrustación de la aplicación permite mostrar el widget en tu tienda. Si lo prefieres, puedes omitir este paso y habilitar la incrustación más tarde en Configuración.",
+            "skip_add_block_title": "¿Omitir agregar el widget?",
+            "skip_add_block_notice": "Agregar el widget permite mostrar las reseñas en tu tienda. Si lo prefieres, puedes omitir este paso y agregar el widget más tarde en Configuración.",
+            "enable_app_embed": "Script habilitado con éxito",
+            "add_app_block_success": "Widget agregado con éxito"
+        },
+        "publish_fail": "Publicación fallida.",
+        "reply_fail": "Respuesta fallida.",
+        "review": {
+            "delete_photo_fail": "Eliminar foto fallido.",
+            "delete_reply_fail": "Eliminar respuesta fallido.",
+            "get_review_fail": "Recuperar reseñas fallido.",
+            "publish_fail": "Publicación fallida.",
+            "reject_fail": "Rechazo fallido."
+        },
+        "saved": "Guardado",
+        "server_error_title": "Error del servidor",
+        "server_error": "Algo salió mal. Intenta de nuevo más tarde",
+        "setting": {
+            "validate_fail": "Algunos campos son inválidos."
+        },
+        "widget": {
+            "missing_shopify_code": "Debes ingresar un código de Shopify en el campo de texto",
+            "review_filter_null": "El campo de filtro de reseñas debe tener al menos uno."
+        },
+        "import_review": {
+            "success": "Importado con éxito"
+        },
+        "add_widget_v1_confirm": "Gracias por confirmar",
+        "export_review": {
+            "success": "Exportación en proceso, el archivo exportado será enviado a tu correo electrónico {{email}}",
+            "failed": "Error en la exportación, por favor contáctanos para soporte"
+        },
+        "delete_review": {
+            "success": "Eliminado con éxito",
+            "failed": "Error al eliminar."
+        },
+        "group_product": {
+            "at_least_2_product": "Por favor selecciona al menos 2 productos",
+            "create_success": "Grupo creado con éxito",
+            "delete_success": "Grupo {{name}} eliminado",
+            "update_success": "Grupo actualizado con éxito",
+            "add_product_success": "Producto agregado con éxito",
+            "delete_product_success": "Producto eliminado con éxito"
+        },
+        "delete_failed": "Eliminación fallida.",
+        "add_failed": "Adición fallida",
+        "update_failed": "Actualización fallida"
+    },
+    "validate": {
+        "empty_input": "¡Por favor completa este campo!",
+        "greater_than_0": "¡El valor debe ser mayor que 0!",
+        "smaller_than_100": "¡El valor no debe exceder los 100!",
+        "invalid_email": "¡Correo electrónico no válido!",
+        "invalid_url": "¡URL no válida!",
+        "word_not_allow": "¡no permitido!",
+        "this_field_required": "¡Este campo es obligatorio!",
+        "invalid_quantity": "¡La cantidad debe ser un número entre 5 y 200!",
+        "quantity_review_per_page": "La cantidad solo puede ser de 1 a 10",
+        "quantity": "El número máximo de reseñas es 200",
+        "import_review": {
+            "fail": "Importación fallida. Por favor, inténtalo de nuevo",
+            "size": "El archivo excede el tamaño máximo (5MB)",
+            "type": "El tipo de archivo no es válido"
+        },
+        "limit_email_send_test": "¡Por favor espera 90 segundos antes de enviar el siguiente correo electrónico!",
+        "email_exist": "¡El correo electrónico ya existe!"
+    }
+}

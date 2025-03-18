@@ -1,0 +1,184 @@
+{
+    "plan": {
+        "for_free": "Gratis",
+        "title": "Plan",
+        "free": "Grundläggande",
+        "basic": "Standard",
+        "pro": "Enterprise",
+        "unlimited": "Ultimate",
+        "free_plan": "Grundläggande plan",
+        "basic_plan": "Standardplan",
+        "pro_plan": "Enterprise-plan",
+        "unlimited_plan": "Ultimate-plan"
+    },
+    "basic": "Grundläggande",
+    "fully": "Helt",
+    "per_month": "per månad",
+    "plan_active": "{{plan}} aktiverad",
+    "discount_offer_time": "för de kommande {{time}}",
+    "origin_price": "Ordinarie pris ",
+    "order/month": "beställningar/månad",
+    "request_reviews": "Begär granskning",
+    "upgrade_plan": "Uppgradera plan",
+    "select_plan": "Välj {{plan}}",
+    "start_free": "Börja gratis",
+    "unlimited": "Obegränsad",
+    "modal_pricing_title": "Lås upp premiumfunktioner med vår flexibla prissättning",
+    "best_choice": "Bästa val",
+    "coming_soon": "Kommer snart",
+    "process_bar": {
+        "title": "Totalt antal slutförda e-postmeddelanden",
+        "subtitle": "Denna räkning kommer att uppdateras den <strong>{{date}}</strong>",
+        "order_count": "{{used}} av {{total}} beställningar slutförda"
+    },
+    "plan_table": {
+        "title": "Prisplaner",
+        "subtitle": "Upptäck anpassade prenumerationsplaner som är utformade för att ta ditt företag till nästa nivå!",
+        "start_trial": "Starta {{day}} dagars gratis provperiod",
+        "current_plan": "Nuvarande plan",
+        "upgrade": "Uppgradera",
+        "select_plan": "Välj plan",
+        "downgrade": "Nedgradera",
+        "pricing_card": {
+            "free": "Få tillgång till viktiga funktioner med vår Grundläggande plan, perfekt för nybörjare.",
+            "basic": "Få avancerade verktyg och support med Standardplanen för individer",
+            "pro": "Stärk ditt företag med vår omfattande Enterprise-plan",
+            "unlimited": "Obegränsad tillväxt"
+        },
+        "modal_downgrade": {
+            "title": "Förlora inte tillgång till kraftfulla funktioner!",
+            "subtitle": "Din butik använder några premiumfunktioner. Stäng av dem för att nedgradera din plan:",
+            "discount_voucher": "Automatisk rabattkupong",
+            "customize_widget": "Anpassad widget",
+            "upload_video": "Ladda upp videor vid skrivning av recension",
+            "review_testimonial": "Vittnesmål",
+            "modal_all_image": "Alla bildinställningar modal",
+            "review_page": "Alla recensioner sida",
+            "google_shopping": "Google Shopping",
+            "global_display": "Global visning",
+            "group_product": "Gruppprodukt",
+            "custom_domain": "Anpassad domän",
+            "qr_code": "QR-kodhantering",
+            "review_translation": "Recension översättning",
+            "multi_lang": "Flerspråkig widget",
+            "ai_functionality": "AI-funktionalitet",
+            "insights_and_segmentation": "Insikter och segmentering",
+            "review_detail_page": "Recensionsdetaljsida",
+            "import_custom_csv": "Importera anpassad CSV",
+            "protect_review": "Skydda recension"
+        },
+        "primary_collapse": {
+            "title": "Hitta den bästa planen för dina behov",
+            "email_quota": "Begär granskning",
+            "email_quota_helptext": "Vi beräknar din kvot baserat på antalet beställningar, inte antalet skickade granskningsförfrågningsmejl. Till exempel, om du skickar tre mejl (förfrågan, påminnelse och tack), räknas det fortfarande som ett.",
+            "order_per_month": "Totalt antal beställningar/månad",
+            "discount_voucher": "Rabattkupong",
+            "customize_widget": "Anpassad widget",
+            "upload_video": "Recensionsvideo",
+            "review_testimonial": "Recensionsvittnesmål",
+            "modal_all_image": "Alla bilder modal",
+            "review_page": "Alla recensioner sida",
+            "google_shopping": "Google Shopping",
+            "global_display": "Global visning",
+            "group_product": "Gruppprodukt",
+            "custom_domain": "Anpassad domän",
+            "qr_code": "QR-kodhantering",
+            "review_translation": "Recension översättning",
+            "multi_lang": "Flerspråkig widget",
+            "ai_functionality": "AI-funktionalitet",
+            "insights_and_segmentation": "Insikter och segmentering",
+            "review_detail_page": "Recensionsdetaljsida",
+            "import_custom_csv": "Importera anpassad CSV",
+            "protect_review": "Skydda recension"
+        },
+        "details_collapse": {
+            "title": "Jämför anpassad widget mellan prenumerationsplaner",
+            "widgetBox": {
+                "title": "Widgetbox (standard)",
+                "choose_layout": "Välj layout",
+                "summary_box": "Sammanfattningsbox",
+                "color_scheme": "Färgskema",
+                "information_display": "Informationsvisning",
+                "content": "Innehåll"
+            },
+            "widgetBoxNoReview": {
+                "title": "Widgetbox (utan recensioner)",
+                "content": "Innehåll",
+                "color_scheme": "Färgskema"
+            },
+            "modalReviewDetail": {
+                "title": "Modal Recensionsdetaljer",
+                "all_settings": "Alla inställningar"
+            },
+            "modal_all_image": {
+                "title": "Alla bilder modal",
+                "all_settings": "Alla inställningar"
+            },
+            "formWriteReview": {
+                "title": "Formulär för att skriva recensioner",
+                "review_with_video": "Recension med video"
+            }
+        }
+    },
+    "free_banner": {
+        "title": "Få tillgång till viktiga funktioner med vår Gratisplan, perfekt för nybörjare.",
+        "email_quota_limit": "E-postkvotgräns {{limit}} beställningar/månad",
+        "basic_access": "Grundläggande åtkomst till recensionswidget",
+        "basic_edit_email": "Grundläggande redigering av begäran om e-post",
+        "upload_media": "Endast ladda upp bilder av recensenter",
+        "quick_chat": "Snabb chattsupport",
+        "visible_brand": "Synligt TrustShop-varumärke"
+    },
+    "basic_banner": {
+        "everything_in_basic": "Allt i Grundläggande plan",
+        "email_quota": "E-postkvotgräns {{limit}} beställningar/månad",
+        "discount_voucher": "Automatisk rabattkupong",
+        "customize_widget": "Anpassad widget",
+        "upload_video": "Ladda upp videor vid skrivning av recension",
+        "review_testimonial": "Vittnesmål",
+        "modal_all_image": "Alla bildinställningar modal",
+        "review_page": "Alla recensioner sida",
+        "google_shopping": "Google Shopping",
+        "global_display": "Global visning",
+        "group_product": "Gruppprodukt",
+        "custom_domain": "Anpassad domän",
+        "qr_code": "QR-kodhantering",
+        "review_translation": "Recension översättning",
+        "multi_lang": "Flerspråkig widget",
+        "ai_functionality": "AI-funktionalitet",
+        "insights_and_segmentation": "Insikter och segmentering",
+        "review_detail_page": "Recensionsdetaljsida",
+        "import_custom_csv": "Importera anpassad CSV",
+        "protect_review": "Skydda recension"
+    },
+    "frequency_ask": {
+        "title": "Vanliga frågor",
+        "list_questions": {
+            "1": {
+                "title": "Hur beräknas kvoten för begäran om recensioner?",
+                "subtitle": "Kvoten baseras på antalet beställningar. Om du aktiverar alla tre typer av mejl – Begär recensioner, Påminnelse om recension och Tack-mejl – kommer endast en kvot att räknas per beställning."
+            },
+            "2": {
+                "title": "Kommer min kvot att användas om jag inte skickar begäran om recensioner via TrustShop?",
+                "subtitle": "Nej, din kvot kommer endast att dras om du använder TrustShops funktion för begäran om recensioner. Om du inte använder den här funktionen påverkas inte din kvot."
+            },
+            "3": {
+                "title": "Kan jag nedgradera mitt abonnemang?",
+                "subtitle": "Ja, du kan när som helst nedgradera ditt abonnemang om du inte längre behöver de betalda funktionerna. Se bara till att inaktivera alla betalda funktioner innan du nedgraderar. Om du behöver hjälp finns vårt supportteam alltid tillgängligt."
+            },
+            "4": {
+                "title": "Kommer jag att debiteras under provperioden?",
+                "subtitle": "Nej, du kommer inte att debiteras under provperioden. Debitering sker först när provperioden är slut."
+            }
+        }
+    },
+    "modal_charge_success": {
+        "title": "Du är nu en {{plan}} medlem!",
+        "content": "Tack för att du valde vårt premiumabonnemang! Gör dig redo för exklusiva förmåner och förstklassigt stöd. Låt oss göra denna resa extraordinär."
+    },
+    "special_offer": {
+        "title": "Specialerbjudande: 30% rabatt för att du är med oss!",
+        "content": "För att visa vår uppskattning för ditt stöd erbjuder vi dig en <1>30% rabatt</1> på alla prenumerationsplaner under de kommande två månaderna. Tack för att du är en värdefull kund!",
+        "remain_time": "Återstående tid för erbjudandet:"
+    }
+}

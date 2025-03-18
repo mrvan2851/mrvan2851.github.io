@@ -1,0 +1,519 @@
+{
+    "limit_function": {
+        "widget_limit": "Den här funktionen är endast tillgänglig på Standard- och Enterprise-planerna. Uppgradera din plan för att få tillgång till den här funktionen.",
+        "setting_function_limit": {
+            "badge": "Från {{plan}}",
+            "content": "Uppgradera din plan för att anpassa den här funktionen."
+        }
+    },
+    "list_widget": {
+        "review_display": "Recensionsvisning",
+        "review_display_description": "Visa alla kundrecensioner och ge insikter i användarupplevelser med produkten.",
+        "review_testimonial": "Recensionstestimonial",
+        "review_testimonial_description": "Framhäv topprecensioner i ett roterande karusellformat för att dra uppmärksamhet till framstående feedback.",
+        "review_onepage": "Recensionssida",
+        "review_onepage_description": "En sida som visar alla kundrecensioner och möjliggör enkel bläddring av upplevelser.",
+        "product_rating": "Produktbetyg",
+        "product_rating_description": "Visa produktens totala betyg baserat på en 5-stjärnig skala.",
+        "global_setting": "Global inställning",
+        "global_setting_description": "Gör det möjligt för användare att hantera element. Alla ändringar som görs kommer att tillämpas på alla widgets."
+    },
+    "discount_voucher": {
+        "title": "Rabattkod",
+        "sub_title": "Motivera kunder att lämna en recension genom att erbjuda rabatt på deras nästa köp",
+        "preview": "Förhandsgranska",
+        "toggle_discount_voucher": "Aktivera rabatt",
+        "save_btn": "Spara",
+        "coupon_shopify": {
+            "title": "Shopify-kupong",
+            "sub_title": "Shopify-rabattkod",
+            "no_code": "Du har inte ställt in någon kod.",
+            "off_example": "Detta är ett exempel för nästa rad (översätt inte): 80% RABATT",
+            "off": "RABATT",
+            "check_discount_button": "Kontrollera rabatt",
+            "check_success": "Rabatter tillgängliga",
+            "check_fail": "Rabatten finns inte, se hur du får en rabatt <1>här</1>."
+        },
+        "coupon_auto": {
+            "title": "Automatisk rabatt",
+            "review_for_photo": "Recension för foto",
+            "discount_code": "Automatisk rabattkod",
+            "discount_for_review_only_content": "Rabatt för alla recensioner",
+            "discount_for_review_photos": "Rabatt för recensioner med bilder",
+            "discount_for_review_videos": "Rabatt för recensioner med video",
+            "discount_expire_after": "Rabatten upphör efter"
+        },
+        "tabs": {
+            "email_before": "E-post före",
+            "email_after": "E-post efter"
+        },
+        "coupon_design": {
+            "title": "Kupongdesign",
+            "voucher_color": "Kupongfärg",
+            "text_color": "Textfärg",
+            "button_color": "Knappfärg",
+            "button_text_color": "Knappens textfärg"
+        },
+        "general": {
+            "choose_your_design_template": "Välj din designmall",
+            "template": "Mall",
+            "coupon_message": "Kupongmeddelande",
+            "call_to_action_button_content": "Innehåll i handlingsknappen"
+        },
+        "voucher_setting": {
+            "title": "Rabattkod och produkt",
+            "icon": "Ikon",
+            "icon_and_highlight": "Ikon och framhävning",
+            "message": "Meddelande",
+            "button_title": "Knapprubrik",
+            "button_label": "Knappetikett",
+            "button_background": "Knappbakgrund",
+            "message_background": "Meddelandebakgrund"
+        },
+        "set_up_discount": "Ställ in rabatt",
+        "display_discount": "Visa rabatt",
+        "review_request": "Recensionsförfrågan",
+        "review_request_description": "Anpassa recensionsförfrågningsmejl med anpassad ikon, färger och ett skräddarsytt handlingsmeddelande.",
+        "thank_email": "Tackmejl",
+        "thank_email_description": "Anpassa tackmejl med anpassade rabattkodsstilar och meddelanden efter att kunder lämnar en recension.",
+        "submitted_review_popup": "Popup för inskickad recension",
+        "submitted_review_popup_description": "Visa en tack-popup efter köp, som visar kunder en rabattkod för deras nästa beställning.",
+        "type_discount_code_after_review_label": "Kunder får rabattkoder när de skriver recensioner för:",
+        "type_discount_code_after_review_value": {
+            "order": "Order - En rabattkod per order",
+            "product": "Produkt - En rabattkod per produkt"
+        }
+    },
+    "product_rating": {
+        "product_rating": "Produktsida",
+        "collection_rating": "Kollektionssida",
+        "hide_rating_when_empty": "Dölj stjärnbetyg när det inte finns några recensioner",
+        "review_information": {
+            "title": "Recensionsinformation",
+            "show_total_reviews": "Visa totalt antal recensioner",
+            "show_avg_rating": "Visa genomsnittligt betyg"
+        },
+        "widget_style": {
+            "title": "Widgetstil",
+            "full_5_star": "(Fulla 5 stjärnor)",
+            "1_star": "(1 stjärna)"
+        },
+        "text_before": "Text före",
+        "text_after": "Text efter",
+        "font_size": {
+            "title": "Teckenstorlek",
+            "star_size": "Storlek på stjärnikon",
+            "text_avg_rating": "Genomsnittligt betyg",
+            "text_total_rating": "Totalt antal recensioner"
+        },
+        "language": {
+            "title": "Språk",
+            "label_rating": "Betygsetikett",
+            "label_rating_helptext": "När det bara finns en recension",
+            "label_ratings": "Betygsetiketter",
+            "label_ratings_helptext": "När det finns flera recensioner"
+        },
+        "modal_add_rating_manually": {
+            "rating_title": "Lägg till stjärnbetyg manuellt",
+            "widget_title": "Lägg till widget manuellt",
+            "guild_rating": "Kopiera koden nedan och klistra in den i de specifika sektionerna där du vill visa stjärnbetyget. <1>Läs mer</1>",
+            "guild_widget": "Kopiera koden nedan och klistra in den i de specifika sektionerna där du vill visa widgeten. <1>Läs mer</1>",
+            "guild_onepage": "Se guiden för hur du skapar en recensionssida <1>här</1>.<br /> Om du behöver hjälp, kontakta oss via e-post på support@trustshop.io.",
+            "collection_title": "Lägg till kollektionsbetyg",
+            "onepage_title": "Lägg till recensionssida",
+            "testimonial_title": "Lägg till kundomdöme",
+            "guild_collection": "Kopiera koden nedan och klistra in den i de specifika sektionerna där du vill visa kollektionsbetyget. <1>Läs mer</1>"
+        },
+        "custom_color": {
+            "title": "Anpassad färg",
+            "star_icon": "Stjärnikon",
+            "star_icon_empty": "Stjärnikon (Tom)",
+            "avg_rating": "Genomsnittligt betyg",
+            "total_number_of_reviews": "Totalt antal recensioner"
+        }
+    },
+    "review_display": {
+        "widget_area": "Widgetområde",
+        "choose_layout": {
+            "title": "Välj layout",
+            "list": "Lista",
+            "grid": "Rutnät"
+        },
+        "summary_box": {
+            "title": "Sammanfattningsruta",
+            "left": "Vänster",
+            "top": "Överst"
+        },
+        "color_schema": {
+            "title": "Färgschema",
+            "custom_color_schemes": "Anpassade färgscheman",
+            "primary_color": "Primär",
+            "secondary_color": "Sekundär",
+            "title_text_color": "Titeltextfärg",
+            "all_photos_button_color": "Färg på alla fotoknappen",
+            "primary_text_color": "Primär textfärg",
+            "secondary_text_color": "Sekundär textfärg",
+            "star_icon": "Stjärnikon",
+            "border": "Kant",
+            "filter_sort_background": "Filtrera-sortera bakgrund",
+            "filter_sort_text": "Filtrera-sortera text",
+            "rating_process_color": "Betygsättningsprocess färg",
+            "rating_process_empty_color": "Betygsättningsprocess tom färg",
+            "users_name": "Användarnamn",
+            "loadmore_color": "Ladda mer färg",
+            "bg_base_color": "Widget bakgrundsfärg",
+            "slide_button": "Skjutknapp",
+            "slide_arrow": "Skjutpil",
+            "modal_all_medias_headline_title": "Rubriktitel",
+            "modal_all_medias_filter_label": "Filtrera etikett",
+            "modal_all_medias_filter_background": "Filtrera bakgrund",
+            "modal_all_medias_selected_filter_label": "Valt - Filtrera etikett",
+            "modal_all_medias_selected_filter_background": "Valt - Filtrera bakgrund",
+            "modal_all_medias_star_icon": "Stjärnikon",
+            "modal_all_medias_rating_background": "Betygsättningsbakgrund",
+            "modal_all_medias_item_border": "Valt media kant",
+            "modal_all_medias_navigate_button": "Navigationsknapp",
+            "modal_all_medias_navigate_arrow": "Navigeringspil",
+            "modal_all_medias_review_customer_name": "Kundens namn",
+            "modal_all_medias_review_time": "Recensionstid",
+            "modal_all_medias_review_star": "Recensionsstjärna",
+            "modal_all_medias_review_star_disable": "Standard recensionsstjärna",
+            "modal_all_medias_review_title": "Recensionstitel",
+            "modal_all_medias_review_content": "Recensionsinnehåll",
+            "modal_all_medias_review_media_background": "Recensionmedia bakgrund",
+            "modal_all_medias_review_background": "Recensionsbakgrund",
+            "modal_all_medias_card_background": "Kortbakgrund",
+            "modal_all_medias_close_button": "Stängknapp bakgrund",
+            "modal_all_medias_close_icon": "Stängikon",
+            "modal_detail_customer_name": "Kundens namn",
+            "modal_detail_review_time_title": "Recensionstid titel",
+            "modal_detail_review_star": "Recensionsstjärna",
+            "modal_detail_review_star_default": "Standard recensionsstjärna",
+            "modal_detail_review_star_field_background": "Recensionsstjärnans bakgrund",
+            "modal_detail_review_title": "Recensionstitel",
+            "modal_detail_review_content": "Recensionsinnehåll",
+            "modal_detail_navigator_button": "Navigationsknapp",
+            "modal_detail_navigator_arrow": "Navigeringspil",
+            "modal_detail_purchased_item": "Köpt vara",
+            "modal_detail_product_name": "Produktnamn",
+            "modal_detail_product_price": "Produktpris",
+            "modal_detail_icon_title": "Ikon titel",
+            "modal_detail_selected_icon": "Vald ikon",
+            "modal_detail_icon_background": "Ikon bakgrund",
+            "modal_detail_divider": "Delare",
+            "modal_detail_card_background": "Kort bakgrund",
+            "modal_detail_close_button": "Stängknapp bakgrund",
+            "modal_detail_close_icon": "Stängikon",
+            "form_write_review_star_color": "Stjärnikon färg",
+            "reset_to_default_title": "Återställ färgschema till standard?",
+            "reset_to_default_content": "Ändringarna du har gjort kanske inte sparas",
+            "page_background_color": "Sida bakgrundsfärg",
+            "star_icon_color": "Stjärnikon färg",
+            "line_color": "Kantfärg",
+            "user_name_color": "Användarnamn färg",
+            "load_more_color": "Ladda mer färg",
+            "product_background_color": "Produkt bakgrundsfärg",
+            "product_text_color": "Produkttextfärg",
+            "reply_title_color": "Svarstitel färg",
+            "reply_content_color": "Svarsinnehåll färg",
+            "reply_background_color": "Svar bakgrundsfärg"
+        },
+        "information_display": {
+            "title": "Visning av information",
+            "write_a_reivew_button": "Knapp för att skriva en recension",
+            "review_date": "Recensionsdatum",
+            "button_report": "Knapp för att rapportera",
+            "button_helpful": "Knapp för att markera som hjälpsam",
+            "customer_information": {
+                "title": "Kundinformation",
+                "customer_profile_picture": "Čájet háliidavvir",
+                "customer_country_flag": "Čájet riikka leavga"
+            },
+            "review_filter": "Recensionsfilter",
+            "review_per_page": "Recensioner per sida",
+            "summary": "Sammanfattning",
+            "number_of_review": "Antal recensioner",
+            "divider": "Avskiljare",
+            "text_1": "Rubrik",
+            "text_2": "Underrubrik",
+            "show_review_media": "Visa recensionsmedia",
+            "image_gallery": "Bildgalleri",
+            "star_rating": "Stjärnbetyg",
+            "customer_name_display": "Visning av kundnamn",
+            "anonymous": "Anonym",
+            "reviewer_selects": "Recensent väljer",
+            "number_of_reviews": "Antal recensioner",
+            "form_write_review": {
+                "show_product_image": "Visa produktbild",
+                "show_add_photo_btn": "Visa Lägg till foto-knapp",
+                "show_add_video_btn": "Visa Lägg till video-knapp",
+                "required_review_title": "Obligatorisk recensionstitel",
+                "hide_review_title": "Dölj recensionstitel"
+            }
+        },
+        "card_content": {
+            "title": "Innehåll i kort",
+            "show_review_media": "Visa recensionsmedia",
+            "show_review_time": "Visa recensionstid",
+            "show_purchase_items": "Visa köpobjekt",
+            "show_star_rating": "Visa stjärnbetyg",
+            "show_helpful_button": "Visa hjälpsam-knapp",
+            "image_per_row": "Bild per rad",
+            "filter": "Filter",
+            "gallery_filter": "Gallerifilter",
+            "star_size_helptext": "I demot är storleken hälften av den faktiska storleken"
+        },
+        "content": {
+            "title": "Innehåll",
+            "widget_language": "Widgetens språk",
+            "header_widget": {
+                "title": "Widgetrubrik",
+                "customer_review_title": "Titel för kundrecension",
+                "review_submit": "Skicka recension",
+                "write_review_button": "Skriv recension-knapp",
+                "review_with_comments": "Recension med kommentarer",
+                "text_total_reviews": "Text för totalt antal recensioner"
+            },
+            "label_of_filter": {
+                "title": "Etikett för filter",
+                "all": "Alla",
+                "most_helpful": "Mest hjälpsamma",
+                "highest_rating": "Högsta betyg",
+                "lowest_rating": "Lägsta betyg",
+                "oldest": "Äldsta",
+                "newest": "Nyaste",
+                "review_with_photos": "Recensioner med bilder",
+                "stars_filter": "Betygsfilter (1-5)"
+            },
+            "content_review": {
+                "title": "Recensionsinnehåll",
+                "text_review_on": "Text för recension på",
+                "text_helpful": "Text för hjälpsam",
+                "button_loadmore_review": "Knapp för att ladda mer recensioner"
+            },
+            "modal_write_review": {
+                "title": "Modalfönster för att skriva recension",
+                "modal_write_review_title": "Titel för modalfönster för att skriva recension",
+                "text_write_reviews": "Text för att skriva recensioner",
+                "text_click_to_rate": "Text för att klicka för att betygsätta",
+                "label_customer_name": "Etikett för kundens namn",
+                "placeholder_customer_name": "Platshållare för kundens namn",
+                "label_customer_email": "Etikett för kundens e-post",
+                "placeholder_customer_email": "Platshållare för kundens e-post",
+                "label_review_title": "Etikett för recensionstitel",
+                "placeholder_review_title": "Platshållare för recensionstitel",
+                "label_review_content": "Etikett för recensionsinnehåll",
+                "placeholder_review_content": "Platshållare för recensionsinnehåll",
+                "label_characters_remaining": "Etikett för återstående tecken",
+                "button_add_photo_text": "Text för knapp för att lägga till foto",
+                "button_back": "Knapp för att gå tillbaka",
+                "button_submit": "Knapp för att skicka"
+            },
+            "validate_message_label": {
+                "title": "Etikett för valideringsmeddelande",
+                "input": "Inmatning",
+                "email": "E-post",
+                "image_upload_fail": "Misslyckades att ladda upp bild",
+                "image_upload_size": "Bildstorlek ( <10MB )",
+                "image_upload_type": "Bildtyp (.bmp, .jpeg eller .png)"
+            },
+            "modal_image": {
+                "title": "Modalfönster för bild",
+                "review_for": "Recension för",
+                "image_from_this_review": "Bild från denna recension"
+            },
+            "modal_report": {
+                "title": "Modalfönster för rapport"
+            }
+        },
+        "tabs": {
+            "default": "Standard",
+            "no_reviews": "Inga recensioner",
+            "modal": {
+                "all_medias": "Alla medier",
+                "review_detail": "Recensionsdetaljer",
+                "form_write_review": "Formulär Skriv recension",
+                "popup_after_review": {
+                    "success": "Popup efter recension - framgång",
+                    "pending": "Popup efter recension - väntande"
+                }
+            }
+        },
+        "no_reviews": {
+            "section_title": "Avsnittstitel",
+            "section_border": "Avsnittskant",
+            "show_border": "Visa kant",
+            "title": "Ingen recension",
+            "text_no_reviews": "Text för inga recensioner",
+            "call_to_action": "Handlingsknapp",
+            "call_to_action_color": "Färg på handlingsknapp",
+            "call_to_action_text_color": "Textfärg på handlingsknapp",
+            "border_color": "Kantfärg",
+            "section_title_color": "Färg på avsnittstitel",
+            "text_no_review_color": "Färg på text för ingen recension",
+            "page_no_review_star_color": "Färg på stjärna för ingen recension"
+        },
+        "popup_submitted_review": {
+            "layout": {
+                "title": "Layout",
+                "default": "Standard",
+                "without_media": "Recensionskort - utan media",
+                "disable": "Inaktivera recensionskort"
+            },
+            "title": {
+                "title": "Titel",
+                "headline_label": "Rubriketikett",
+                "content_label": "Innehållsetikett",
+                "button_label": "Knappetikett"
+            },
+            "color_schema": {
+                "title": "Färgschema",
+                "popup_background": "Popup bakgrund",
+                "popup_icon": "Popup ikon",
+                "popup_headline": "Popup rubrik",
+                "popup_content": "Popup innehåll",
+                "product_name": "Produktnamn",
+                "product_price": "Produktpris",
+                "review_card_background": "Recensionskort bakgrund",
+                "review_card_title": "Recensionskort titel",
+                "review_card_content": "Recensionskort innehåll",
+                "review_card_border": "Recensionskort kant",
+                "star_active": "Stjärna - aktiv",
+                "star_disable": "Stjärna - inaktiv",
+                "customer_name": "Kundnamn",
+                "customer_email": "Kundens e-post",
+                "button_border": "Knapp - kant",
+                "button_background": "Knapp - bakgrund",
+                "button_title": "Knapptitel"
+            }
+        }
+    },
+    "review_testimonial": {
+        "choose_review": {
+            "title": "Välj recensioner att visa",
+            "auto_new_5": "Hämta automatiskt de senaste 5-stjärniga recensionerna",
+            "auto_helptext": "Recensionerna uppdateras var 10:e minut",
+            "number_of_reviews": "Antal recensioner",
+            "choose_manually": "Välj manuellt",
+            "choose_manually_button": "Ändra",
+            "selected": "valda att visas i karusellen",
+            "warning": "Karusellen ser bättre ut om det finns minst 3 recensioner",
+            "warning_2": "skicka din e-postförfrågan",
+            "warning_3": "för att få",
+            "modal": {
+                "title": "Välj recensioner manuellt"
+            }
+        },
+        "title": {
+            "title": "Rubrik",
+            "title_label": "Rubriketikett"
+        },
+        "card_content": {
+            "title": "Kortinnehåll",
+            "customer_name_display": "Visa kundens namn",
+            "anonymous": "Anonym",
+            "product_name": "Produktnamn",
+            "product_image": "Produktbild",
+            "display_star_rating": "Visa stjärnbetygsikon",
+            "display_customer_avatar": "Visa kundavatar",
+            "show_product_information": "Visa produktinformation",
+            "show_customer_flag": "Visa kundens landsflagga",
+            "show_review_date": "Visa recensionsdatum",
+            "review_title": "Recensionstitel",
+            "review_date": "Recensionsdatum"
+        },
+        "movement": {
+            "title": "Automatisk rörelse",
+            "auto_movement": "Automatisk rörelse",
+            "time_between_reviews": "Tid mellan recensioner (sekunder)",
+            "time_between_reviews_error": "",
+            "arrow_navigation": "Pilnavigering"
+        },
+        "color_schemes": {
+            "title": "Färgscheman",
+            "headline": "Rubrik",
+            "content": "Innehåll",
+            "navigator_button": "Navigeringsknapp",
+            "navigator_arrow": "Navigeringspil",
+            "page_indicator": "Sidindikator",
+            "verified_tag": "Verifierad tagg",
+            "divider": "Avdelare",
+            "border": "Gräns",
+            "link_title": "Länktitel",
+            "customer_name": "Kundens namn",
+            "star": "Stjärna",
+            "navigator": "Navigatör",
+            "arrow_icon": "Pilikon",
+            "product_background": "Produktbakgrund",
+            "card_background": "Kortbakgrund",
+            "widget_background": "Widgetbakgrund",
+            "product_name": "Produktnamn",
+            "review_date": "Recensionsdatum"
+        }
+    },
+    "review_onepage": {
+        "review_source": {
+            "title": "Recensionskälla",
+            "subtitle": "Välj de produkter som ska visa recensioner på recensionssidan",
+            "all_product": "Alla produkter",
+            "select_product": "Välj produkt",
+            "warning": "Du måste välja minst en produkt för att visa på recensionssidan.",
+            "help_text": "Som standard visas alla publicerade recensioner"
+        },
+        "one_page_header": {
+            "title": "Ensidig rubrik"
+        },
+        "review_display": {
+            "title": "Informationsvisning",
+            "summary_box": "Sammanfattningsruta",
+            "product": "Produkt"
+        }
+    },
+    "after_review_submitted": {
+        "show_discount_code": "Visa rabattkod",
+        "discount_code_color": "Färg på rabattkod",
+        "message_background_color": "Meddelandebakgrundsfärg",
+        "title_label": "Titel etikett",
+        "description_label": "Beskrivning etikett",
+        "title_label_color": "Färg på titel etikett",
+        "description_label_color": "Färg på beskrivning etikett",
+        "show_submitted_review": "Visa inskickad recension",
+        "button_label": "Knappetikett"
+    },
+    "tabs": {
+        "discount_voucher": "Rabattkupong",
+        "product_rating": "Produktbetyg",
+        "review_display": "Recensionsvisning",
+        "review_testimonial": "Recensionstestimonial",
+        "review_onepage": "Recensionssida"
+    },
+    "title": "Hantering av widget",
+    "add_widget_guild": {
+        "title": "Hur installerar man widgeten?",
+        "enable_global_script": "Innan du börjar, se till att du har <strong><span>aktiverat TrustShop Global</span> app-embed i Shopify Admin</strong>",
+        "add_widget_v2": {
+            "title": "Lägg till widget via: Shopify App Block",
+            "for": "(för tema 2.0)",
+            "step": {
+                "step_1": "Klicka på <strong><span>Lägg till widget</span></strong> för att öppna Shopify Admin",
+                "step_2": "<strong>Shopify-redigeraren</strong> öppnas och widgeten läggs automatiskt till",
+                "step_3": "Klicka på <strong>Spara-knappen</strong> (uppe till höger) och se till att ett bekräftelsemeddelande visas"
+            }
+        },
+        "add_widget_v1": {
+            "title": "Lägg till widget manuellt",
+            "for": "(för tema 1.0 - Vintage-tema)",
+            "description": "Kopiera koden nedan och klistra in den i de specifika sektionerna där du vill visa widgeten. <span>Läs mer</span>"
+        }
+    },
+    "multi_lang": {
+        "enable": {
+            "title": "Automatisk översättning är aktiverad",
+            "content": "Automatisk översättning av widgetinnehåll är aktiverad. Om du vill ändra detta, anpassa inställningarna i <anchor>Recensionsinställningar</anchor>."
+        },
+        "disable": {
+            "content": "Prova funktionen som automatiskt ändrar språket beroende på köparens land.",
+            "button": "Gå till globala inställningar"
+        }
+    }
+}

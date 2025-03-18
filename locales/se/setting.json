@@ -1,0 +1,365 @@
+{
+    "general": {
+        "email_setting": {
+            "email": {
+                "reply_to_email": "Svars-e-post",
+                "reply_to_email_helptext": "Kunder kommer att skicka till denna e-post.",
+                "sender_email": "Avsändarens e-post",
+                "sender_email_helptext": "Denna e-post kommer att användas för att skicka till dina kunder.",
+                "sender_name": "Avsändarens namn",
+                "title": "E-postinställning",
+                "send_email_from_source": "Skicka recensionsförfrågan via e-post till beställning från:",
+                "web": "Webbutik",
+                "pos": "POS",
+                "shopify_draft_order": "Utkast till beställning",
+                "email_blocklist": "E-postblocklista",
+                "email_blocklist_helptext": "Förfrågnings- och påminnelsemail kommer inte att skickas till dessa e-postadresser",
+                "block_email_placeholder": "Tryck på Enter för att lägga till ny e-post",
+                "unblock_message_title": "Skicka e-post som tidigare blockerades",
+                "unblock_message": "Vill du skicka e-postmeddelandena som tidigare blockerades, eller avbryta deras sändning?",
+                "remember_choice_time": "Kom ihåg mitt svar i 1 timme",
+                "block_send_email_conditions": "Blockera sändning av e-post efter villkor",
+                "product_block_list": "Produktblocklista",
+                "select_product": "Välj produkt",
+                "order_tag_blocklist": "Beställningsblocklista",
+                "order_tag_blocklist_placeholder": "Tryck på Enter för att lägga till taggar",
+                "order_tag_blocklist_helptext": "Förfrågnings- och påminnelsemail kommer inte att skickas från beställningar som innehåller taggar i ovanstående lista"
+            },
+            "sub_title": "Finjustera dina e-postinställningar för förbättrad produktivitet och kommunikation",
+            "title": "E-postinställning",
+            "custom_domain": {
+                "edit_domain_btn": "Redigera domän",
+                "page": {
+                    "title": "anpassad domän",
+                    "empty_page": {
+                        "description": "Länka din anpassade e-postdomän för att skicka meddelanden från din varumärkes e-postadress. Detta kommer att förbättra ditt varumärkes professionalism och hjälpa dina meddelanden att sticka ut i mottagarnas inkorgar.",
+                        "external_link": "Lär dig hur du ställer in",
+                        "add_domain_btn": "Lägg till din e-postadress"
+                    },
+                    "overview_page": {
+                        "unverified": "Obekräftad",
+                        "verified": "Verifierad",
+                        "edit_domain": "Redigera domän",
+                        "config_dns_settings": "Konfigurera DNS-inställningar",
+                        "config_dns_settings_helptext": "Infoga följande MX-, SPF- och DKIM-poster i dina DNS-inställningar för att autentisera <strong>{{domain}}</strong>.",
+                        "show_config": "Visa konfiguration",
+                        "record_config": {
+                            "type": "TYP",
+                            "name": "VÄRDNAMN",
+                            "value": "VÄRDE",
+                            "priority": "PRIORITET",
+                            "mx": {
+                                "title": "MX-post",
+                                "sub_title": "Ställ in två MX-poster som överensstämmer med detaljerna nedan:"
+                            },
+                            "spf": {
+                                "title": "SPF-post",
+                                "sub_title": "Inkludera en SPF-post som matchar detaljerna nedan:"
+                            },
+                            "dkim": {
+                                "title": "DKIM-post",
+                                "sub_title": "Inkludera en DKIM-post som matchar detaljerna nedan:"
+                            },
+                            "dmarc": {
+                                "title": "DMARC-post",
+                                "sub_title": "Inkludera en DMARC-post som matchar detaljerna nedan:"
+                            },
+                            "custom_from": {
+                                "title": "CUSTOM FROM-post",
+                                "sub_title": "Inkludera en CUSTOM FROM-post som matchar detaljerna nedan:"
+                            },
+                            "notice": "Meddelande: Din {{config}}-post har ännu inte verifierats. Det kan ta några timmar eller till och med upp till 72 timmar för DNS-poster att spridas fullt ut.",
+                            "verify_domain": "Verifiera domän"
+                        },
+                        "modal_add_domain": {
+                            "title": "Lägg till din e-postadress",
+                            "input_label": "Ange e-postadressen du vill använda för att skicka meddelanden.",
+                            "validate_domain": "Du kan bara lägga till din egen domän. Trusthop stöder inte att lägga till offentliga domäner (t.ex. gmail.com, yahoo.com)",
+                            "add_domain_btn": "Lägg till domän"
+                        },
+                        "modal_delete_domain": {
+                            "title": "Radera anpassad domän?",
+                            "description": "Om du raderar din anpassade domän kommer du att återgå till att använda standarddomänen och kommer inte längre att kunna använda denna domän. Denna åtgärd kan inte ångras. Vill du fortsätta?"
+                        }
+                    }
+                }
+            },
+            "unsubscribe_management": {
+                "title": "Avprenumerationshantering",
+                "subtitle": "Spåra och hantera kunder som har avprenumererat från dina recensionsförfrågningsmail.",
+                "customer_have_unsubscribed": "Kunder har avprenumererat",
+                "email": "E-post",
+                "topic_type": "Ämne",
+                "unsubscribe_date": "Avprenumerationsdatum",
+                "delete_title": "Radera avprenumeration",
+                "delete_unsubscribe_confirm": "Är du säker på att du vill radera denna/dessa e-postadress(er)? Denna åtgärd kan inte ångras.",
+                "no_unsubscribe_title": "Inga avprenumererade kunder",
+                "no_unsubscribe_description": "Information om kunder som har avprenumererat från e-postmeddelanden kommer att visas här"
+            }
+        },
+        "general_setting": {
+            "profile": {
+                "logo": "Logotyp",
+                "logo_helptext": "Accepterar .gif, .jpg och .png",
+                "select_image": "Välj bild",
+                "store_email": "Butiks-e-post",
+                "store_email_helptext": "Vi kommer att använda denna adress om vi behöver kontakta dig angående ditt konto.",
+                "store_name": "Butiksnamn",
+                "store_name_helptext": "Visas i e-posthuvuden utan en tillagd logotyp.",
+                "store_url": "Butiks-URL",
+                "title": "Profil",
+                "time": {
+                    "time_format": "Tidsformat",
+                    "sample": {
+                        "12h": "12-timmars",
+                        "24h": "24-timmars"
+                    }
+                },
+                "date": {
+                    "date_format": "Datumformat",
+                    "sample": {
+                        "month_day_year": "Aug 05 2006",
+                        "day_month_day_year": "Sat Aug 05 2006",
+                        "day_of_week_month_day_year": "Saturday, August 05 2006",
+                        "day_month_day_year_slash": "Sat 08/05/2006",
+                        "day_month_day_year_slash_short_year": "Sat 8/5/06",
+                        "month_day_year_slash": "08/05/2006",
+                        "month_day_year_slash_short_year": "8/5/06",
+                        "month_day_year_time": "Aug 05 2006",
+                        "day_month_day_year_time": "Sat Aug 05 2006",
+                        "day_of_week_month_day_year_time": "Saturday, August 05 2006",
+                        "day_month_day_year_slash_time": "Sat 08/05/2006",
+                        "day_month_day_year_slash_short_year_time": "Sat 8/5/06",
+                        "month_day_year_slash_time": "08/05/2006",
+                        "month_day_year_slash_short_year_time": "8/5/06"
+                    }
+                }
+            },
+            "sub_title": "Konfigurera ditt konto med din e-post, logotyp och sociala medier",
+            "title": "Allmän inställning"
+        },
+        "social_links": {
+            "social": {
+                "helptext": "Inkluderar sociala kanaler i e-postfoten",
+                "title": "Social inställning"
+            },
+            "mobile_apps": {
+                "title": "Mobilappar",
+                "sub_title": "Inkluderar sociala kanaler i e-postfoten"
+            },
+            "sub_title": "Anpassa dina sociala länkar för att dela och kommunicera effektivt med dina kunder",
+            "title": "Sociala länkar"
+        },
+        "review_action": {
+            "title": "Exportera/Ta bort recensioner",
+            "subtitle": "Exportera och ta bort alla recensioner från din butik",
+            "export_review": "Exportera recensioner",
+            "export_review_helptext": "Det tar några minuter att exportera recensionerna. Exportfilen kommer att skickas till din e-postadress <1>{{email}}</1>.",
+            "delete_all": "Ta bort alla",
+            "delete_all_helptext": "Denna åtgärd kan inte ångras, så se till att du är säker innan du tar bort recensioner.",
+            "delete_confirm": "Denna åtgärd kan inte ångras, så se till att du är säker innan du tar bort recensioner"
+        }
+    },
+    "review": {
+        "auto_publish_reviews": {
+            "title": "Automatpublicera recensioner",
+            "sub_title": "Välj vilka recensioner du vill automatpublicera. Eventuella ändringar påverkar endast nya recensioner.",
+            "enable_auto_publish_reviews": "Aktivera automatpublicering av recensioner",
+            "auto_publish_reviews_if": "Automatiskt publicera nya recensioner till butiken om:"
+        },
+        "new_review_notification": {
+            "title": "Ny recensionsnotifikation",
+            "sub_title": "Ta emot e-postmeddelanden för nya recensioner. Detta inkluderar inte recensioner som lagts till genom import.",
+            "enable_new_review_notification": "Aktivera ny recensionsnotifikation",
+            "send_email_to_merchant_if": "Skicka e-post till handlaren om kunder lämnar en recension",
+            "receive_email": "Ta emot e-postmeddelanden för negativa recensioner",
+            "selected_lang_for_system_email": "Välj språk för system-e-post"
+        },
+        "protect_reviews": {
+            "title": "Skydda dina recensioner",
+            "sub_title": "Ställ in relevanta nyckelord för att skydda dina recensioner och förhindra att känsligt innehåll som pornografi, våld, terrorism, bedrägeri, phishing-länkar eller skadlig kod visas.",
+            "enable_protect_reviews": "Aktivera skydd av recensioner",
+            "block_additional_words_description": "De vanligaste svordomarna är redan blockerade. Lägg till fler ord genom att skriva i rutan nedan.",
+            "add_word_placeholder": "Skriv ett nyckelord och tryck på Enter",
+            "search_language_placeholder": "Sök språk",
+            "no_language_found": "Inget språk hittades som matchar {{lang}}",
+            "lang_have_added": "{{lang}} har lagts till"
+        },
+        "auto_send_email": {
+            "title": "Skicka e-post automatiskt till kunder",
+            "sub_title": "När du svarar på en kundrecension i avsnittet för hantering av recensioner skickar systemet automatiskt ett e-postmeddelande till kunden med innehållet i ditt svar",
+            "enable_auto_send_email": "Aktivera e-postsändning",
+            "send_email_to_merchant_when_source": "Skicka e-post till kunder när du svarar på deras recensioner via källan:",
+            "store_front": "Butiksfasad",
+            "email": "E-post",
+            "import_csv": "Importera CSV"
+        },
+        "review_translate": {
+            "title": "Översätt innehållet i recensionerna",
+            "sub_title": "En översättningsknapp kommer att visas på recensioner, vilket gör det möjligt för köpare att enkelt översätta innehållet till sitt modersmål.",
+            "review_content_translation": "Översättning av recensionens innehåll",
+            "example": "Exempel"
+        },
+        "multi_lang": {
+            "title": "Översätt widgetens språk",
+            "sub_title": "Widgetens innehåll kommer automatiskt att översättas till språket för köpare i varje marknad som din butik betjänar.",
+            "auto_multi_lang": "Automatisk språkväxling",
+            "description": "Som standard visas alla recension-widgetar på engelska. När du aktiverar den här funktionen kommer språket som visas på widgeten att bytas automatiskt till köparens språk i det land de besöker."
+        }
+    },
+    "tabs": {
+        "general": "Allmänt",
+        "review": "Recension",
+        "import_review": "Importera recension",
+        "gg_shopping": "Google produktrecension",
+        "pricing": "Prissättning",
+        "global_display": "Global Visning",
+        "integrations": "Integrationer"
+    },
+    "title": "Inställning",
+    "import_review": {
+        "save_success": "Sparat!",
+        "save_error": "Oväntat fel!",
+        "filter_review": {
+            "title": "Filtrera recensioner",
+            "sub_title": "Recensioner som uppfyller villkoren kommer att importeras",
+            "quantity_import": "Antal import",
+            "generate": "Generera slumpmässigt antal",
+            "auto_publish_review_label": "Automatiskt publicera recensioner med",
+            "contain_option_label": "Innehåller alternativ",
+            "contain_photos": "Innehåller foton",
+            "contain_review_content": "Innehåller recensionsinnehåll",
+            "customer_country": "Kundland",
+            "date_range": "Datumintervall",
+            "skip_review": "Hoppa över recensioner med nyckelord",
+            "skip_review_value": "AliExpress, Ali AliExpress, Bedrägeri, Bluff, Falsk, Förfalskning, Imitation, Replika, Sämre"
+        },
+        "generate_title": {
+            "title": "Generera recensionstitlar",
+            "sub_title": "Generera automatiskt recensionstitlar baserat på stjärnbetyg om källan inte har en titel",
+            "star": {
+                "1_star": "1 stjärna",
+                "2_star": "2 stjärnor",
+                "3_star": "3 stjärnor",
+                "4_star": "4 stjärnor",
+                "5_star": "5 stjärnor"
+            },
+            "title_placeholder": "Perfekt i varje detalj!",
+            "title_random": {
+                "title": "Slumpmässig titel",
+                "sub_title": "Generera slumpmässig titel för recensioner"
+            },
+            "new_title": "Ny titel"
+        }
+    },
+    "filter_date": {
+        "all_times": "När som helst",
+        "today": "Idag",
+        "yesterday": "Igår",
+        "last_7_days": "Senaste 7 dagarna",
+        "last_month": "Senaste månaden",
+        "last_year": "Senaste året"
+    },
+    "gg_shopping": {
+        "title": "Google produktrecension",
+        "sub_title": "Visa lysande kundtestimonier direkt på dina Google Shopping-annonser för att få mer uppmärksamhet och bygga förtroende.",
+        "google_product_review": {
+            "title": "Google produktrecensionsflöde",
+            "generate_feed": "Generera produktrecensionsflödet",
+            "generate_feed_helptext": "Ändra uppdateringsschemat för att anpassa det med inställningarna i Google Merchant Center",
+            "fetch_frequency": "Hämtningsfrekvens",
+            "daily": "Dagligen",
+            "weekly": "Veckovis",
+            "monthly": "Månadsvis",
+            "fetch_date": "Hämtningsdatum",
+            "fetch_time": "Hämtningstid",
+            "time_zone": "Tidszon",
+            "disabled": "Inaktiverad",
+            "XML_file_name": "XML-filnamn",
+            "view_instructions": "Visa instruktioner"
+        },
+        "reviewer_content": {
+            "title": "Recensentens innehåll",
+            "reviewer_name_format": "Recensentens namnformat",
+            "includes_medias": "Inkludera recensionsfoton/videor",
+            "include_personal_info": "Inkludera recensioner som innehåller personlig information",
+            "include_personal_info_helptext": "Ersätt personlig information med asterisker"
+        },
+        "advanced_setting": {
+            "title": "Avancerade inställningar",
+            "add_gtin": "Lägg till GTIN i flödet (Standard)",
+            "add_mpn": "Lägg till MPN i flödet",
+            "add_mpn_helptext": "Detta kommer att inkludera samma SKU-värde i Shopify-administratören",
+            "exclude_out_of_store": "Uteslut recensioner för produkter som inte finns i butiken"
+        }
+    },
+    "global_display": {
+        "icon_and_corner": {
+            "title": "Visningsinställningar",
+            "subtitle": "När en egenskap nedan ändras uppdateras hela systemet därefter",
+            "star_icon": {
+                "title": "Stjärnikon",
+                "icon_style": "Ikonstil"
+            },
+            "element_corner": {
+                "title": "Elementets hörn",
+                "button_radius": "Knappens hörnradie",
+                "other_element": "Andra elementens hörn",
+                "element": "Element"
+            }
+        },
+        "reviewer_name": {
+            "title": "Visning av granskarnamn",
+            "sub_title": "Välj standardinmatning för granskarnamn från formuläret eller anpassa manuellt",
+            "reviewer_name_format": "Format för granskarnamn",
+            "default": {
+                "label": "Standard",
+                "helptext": "Visa automatiskt granskarnamnet från granskningsformuläret"
+            },
+            "manually": {
+                "label": "Manuell",
+                "helptext": "Välj ett standardformat för namnvisning. Använd det sedan på alla granskare",
+                "name_display_format": "Namnvisningsformat"
+            }
+        },
+        "reviewer_avt_format": {
+            "title": "Recensentens avatarinställning",
+            "sub_title": "Ställ in din recensents avatar genom att välja färger eller använda alternativa illustrationer",
+            "colorful_avt": {
+                "label": "Färgglad avatar",
+                "helptext": "Generera avatar automatiskt från färghjulet"
+            },
+            "base_color_avt": {
+                "label": "Basfärgsavatar",
+                "helptext": "Skapa recensentens avatar med en basfärg"
+            },
+            "gravatar_avt": {
+                "label": "Gravatar avatar",
+                "helptext": "Använd Gravatar för att visa recensentens avatar"
+            }
+        },
+        "review_date_format": {
+            "title": "Recensionsdatumformat",
+            "sub_title": "Ställ in datumformatet för alla dina widgets.",
+            "sample": "Exempel"
+        }
+    },
+    "rich_snippet": {
+        "title": "Rich snippet",
+        "description": "Möjliggör för användare att skapa Rich Snippets, som förbättrar synligheten i sökresultat genom att visa ytterligare information som betyg, priser och tillgänglighet direkt i sökresultaten, vilket leder till mer engagemang och förbättrad SEO.",
+        "check_snippet": "Kontrollera snippet",
+        "seo_integrations": "SEO Integrationer",
+        "seo_description": "Dessa snippet-appar synkroniseras automatiskt med Trustshops recension-snippets.",
+        "text_field_label": "Ange din produktlänk för att kontrollera snippet",
+        "text_field_placeholder": "Ange produktlänk"
+    },
+    "partner_integrations": {
+        "third_party_apps": "Tredjepartsappar",
+        "partner_list": {
+            "langwill": "Översätt din butik till 138 språk och konvertera valutor automatiskt för att öka försäljningen världen över.",
+            "ilana": "Optimera din SEO-trafik genom att lyfta fram dina recensioner, priser och företagsdetaljer i sökresultaten.",
+            "shopify_flow": "Anpassa din butik och automatisera dina uppgifter med Shopify Flows low-code editor."
+        },
+        "integrations_now": "Integrationer nu"
+    }
+}

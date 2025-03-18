@@ -1,0 +1,518 @@
+{
+    "limit_function": {
+        "widget_limit": "Tính năng này chỉ có sẵn trong các gói Tiêu chuẩn và Doanh nghiệp. Vui lòng nâng cấp gói của bạn để truy cập tính năng này.",
+        "setting_function_limit": {
+            "badge": "Từ {{plan}}",
+            "content": "Nâng cấp gói của bạn để tùy chỉnh tính năng này."
+        }
+    },
+    "list_widget": {
+        "review_display": "Hiển thị đánh giá",
+        "review_display_description": "Hiển thị tất cả các đánh giá của khách hàng, cung cấp cái nhìn sâu sắc về trải nghiệm của người dùng với sản phẩm.",
+        "review_testimonial": "Chứng nhận đánh giá",
+        "review_testimonial_description": "Nổi bật các đánh giá hàng đầu trong định dạng carousel xoay để thu hút sự chú ý đến phản hồi nổi bật.",
+        "review_onepage": "Trang đánh giá",
+        "review_onepage_description": "Một trang hiển thị tất cả các đánh giá của khách hàng, cho phép dễ dàng duyệt qua các trải nghiệm.",
+        "product_rating": "Đánh giá sản phẩm",
+        "product_rating_description": "Hiển thị xếp hạng tổng thể của sản phẩm dựa trên thang điểm 5 sao.",
+        "global_setting": "Cài đặt toàn cầu",
+        "global_setting_description": "Cho phép người dùng quản lý các yếu tố, mọi thay đổi sẽ được áp dụng cho tất cả các widget."
+    },
+    "discount_voucher": {
+        "title": "Phiếu giảm giá",
+        "sub_title": "Khuyến khích khách hàng để lại đánh giá bằng cách cung cấp mã giảm giá cho lần mua hàng tiếp theo",
+        "preview": "Xem trước",
+        "toggle_discount_voucher": "Bật giảm giá",
+        "save_btn": "Lưu",
+        "coupon_shopify": {
+            "title": "Mã giảm giá Shopify",
+            "sub_title": "Mã giảm giá Shopify",
+            "no_code": "Bạn chưa thiết lập bất kỳ mã nào.",
+            "off_example": "Đây là ví dụ cho dòng tiếp theo (không dịch): GIẢM 80%",
+            "off": "GIẢM",
+            "check_discount_button": "Kiểm tra giảm giá",
+            "check_success": "Có giảm giá",
+            "check_fail": "Mã giảm giá không tồn tại, vui lòng xem cách nhận mã giảm giá <1>tại đây</1>."
+        },
+        "coupon_auto": {
+            "title": "Giảm giá tự động",
+            "review_for_photo": "Đánh giá cho ảnh",
+            "discount_code": "Mã giảm giá tự động",
+            "discount_for_review_only_content": "Giảm giá cho tất cả đánh giá",
+            "discount_for_review_photos": "Giảm giá cho đánh giá có ảnh",
+            "discount_for_review_videos": "Giảm giá cho đánh giá có video",
+            "discount_expire_after": "Mã giảm giá hết hạn sau"
+        },
+        "tabs": {
+            "email_before": "Email Trước",
+            "email_after": "Email Sau"
+        },
+        "coupon_design": {
+            "title": "Thiết kế phiếu giảm giá",
+            "voucher_color": "Màu phiếu giảm giá",
+            "text_color": "Màu chữ",
+            "button_color": "Màu nút",
+            "button_text_color": "Màu chữ nút"
+        },
+        "general": {
+            "choose_your_design_template": "Chọn mẫu thiết kế của bạn",
+            "template": "Mẫu",
+            "coupon_message": "Nội dung phiếu giảm giá",
+            "call_to_action_button_content": "Nội dung nút hành động"
+        },
+        "voucher_setting": {
+            "title": "Phiếu giảm giá và sản phẩm",
+            "icon": "Biểu tượng",
+            "icon_and_highlight": "Biểu tượng và Màu giá trị giảm giá",
+            "message": "Nội dung",
+            "button_title": "Tiêu đề nút",
+            "button_label": "Nhãn nút",
+            "button_background": "Nền nút",
+            "message_background": "Nền nội dung"
+        },
+        "set_up_discount": "Thiết lập giảm giá",
+        "display_discount": "Hiển thị giảm giá",
+        "review_request": "Email yêu cầu đánh giá",
+        "review_request_description": "Cá nhân hóa email yêu cầu đánh giá với biểu tượng tùy chỉnh, màu sắc và thông điệp kêu gọi hành động được điều chỉnh.",
+        "thank_email": "Email cảm ơn",
+        "thank_email_description": "Tùy chỉnh email cảm ơn với mã giảm giá và thông điệp sau khi khách hàng để lại đánh giá.",
+        "submitted_review_popup": "Cửa sổ bật lên đánh giá đã gửi",
+        "submitted_review_popup_description": "Hiển thị cửa sổ bật lên cảm ơn sau khi mua hàng, hiển thị cho khách hàng mã giảm giá cho đơn hàng tiếp theo của họ.",
+        "type_discount_code_after_review_label": "Khách hàng nhận mã giảm giá khi họ viết đánh giá cho:",
+        "type_discount_code_after_review_value": {
+            "order": "Đơn hàng - Một mã giảm giá cho mỗi đơn hàng",
+            "product": "Sản phẩm - Một mã giảm giá cho mỗi sản phẩm"
+        }
+    },
+    "product_rating": {
+        "product_rating": "Trang sản phẩm",
+        "collection_rating": "Trang bộ sưu tập",
+        "hide_rating_when_empty": "Ẩn sao đánh giá khi không có đánh giá nào",
+        "review_information": {
+            "title": "Thông tin đánh giá",
+            "show_total_reviews": "Hiển thị tổng số đánh giá",
+            "show_avg_rating": "Hiển thị điểm đánh giá trung bình"
+        },
+        "widget_style": {
+            "title": "Kiểu giao diện",
+            "full_5_star": "(Đầy đủ 5 sao)",
+            "1_star": "(1 sao)"
+        },
+        "text_before": "Văn bản trước",
+        "text_after": "Văn bản sau",
+        "font_size": {
+            "title": "Kích thước chữ",
+            "star_size": "Kích thước biểu tượng sao",
+            "text_avg_rating": "Điểm đánh giá trung bình",
+            "text_total_rating": "Tổng số đánh giá"
+        },
+        "language": {
+            "title": "Ngôn ngữ",
+            "label_rating": "Nhãn đánh giá",
+            "label_rating_helptext": "Khi chỉ có một đánh giá",
+            "label_ratings": "Nhãn đánh giá",
+            "label_ratings_helptext": "Khi có nhiều đánh giá"
+        },
+        "modal_add_rating_manually": {
+            "rating_title": "Thêm đánh giá sao thủ công",
+            "widget_title": "Thêm tiện ích thủ công",
+            "guild_rating": "Sao chép mã bên dưới và dán vào các phần cụ thể nơi bạn muốn hiển thị đánh giá sao. <1>Tìm hiểu thêm</1>",
+            "guild_widget": "Sao chép mã bên dưới và dán vào các phần cụ thể nơi bạn muốn hiển thị tiện ích. <1>Tìm hiểu thêm</1>",
+            "guild_onepage": "Xem hướng dẫn cách tạo trang đánh giá <1>tại đây</1>.<br /> Nếu cần hỗ trợ, vui lòng liên hệ chúng tôi qua email support@trustshop.io.",
+            "collection_title": "Thêm đánh giá bộ sưu tập",
+            "onepage_title": "Thêm trang đánh giá",
+            "testimonial_title": "Thêm lời chứng thực",
+            "guild_collection": "Sao chép mã bên dưới và dán vào các phần cụ thể nơi bạn muốn hiển thị đánh giá bộ sưu tập. <1>Tìm hiểu thêm</1>"
+        },
+        "custom_color": {
+            "title": "Màu sắc tùy chỉnh",
+            "star_icon": "Biểu tượng sao",
+            "star_icon_empty": "Biểu tượng sao (trống)",
+            "avg_rating": "Điểm đánh giá trung bình",
+            "total_number_of_reviews": "Tổng số đánh giá"
+        }
+    },
+    "review_display": {
+        "widget_area": "Khu vực widget",
+        "choose_layout": {
+            "title": "Chọn bố cục",
+            "list": "Danh sách",
+            "grid": "Lưới"
+        },
+        "summary_box": {
+            "title": "Hộp tóm tắt",
+            "left": "Trái",
+            "top": "Trên"
+        },
+        "color_schema": {
+            "title": "Bảng màu",
+            "custom_color_schemes": "Bảng màu tùy chỉnh",
+            "primary_color": "Màu chính",
+            "secondary_color": "Màu phụ",
+            "title_text_color": "Màu văn bản tiêu đề",
+            "all_photos_button_color": "Màu nút tất cả ảnh",
+            "primary_text_color": "Màu văn bản chính",
+            "secondary_text_color": "Màu văn bản phụ",
+            "star_icon": "Biểu tượng ngôi sao",
+            "border": "Viền",
+            "filter_sort_background": "Nền bộ lọc sắp xếp",
+            "filter_sort_text": "Văn bản bộ lọc sắp xếp",
+            "rating_process_color": "Màu quá trình đánh giá",
+            "rating_process_empty_color": "Màu quá trình đánh giá trống",
+            "users_name": "Tên người dùng",
+            "loadmore_color": "Màu tải thêm",
+            "bg_base_color": "Màu nền widget",
+            "slide_button": "Nút trượt",
+            "slide_arrow": "Mũi tên trượt",
+            "modal_all_medias_headline_title": "Tiêu đề dòng tít",
+            "modal_all_medias_filter_label": "Nhãn bộ lọc",
+            "modal_all_medias_filter_background": "Nền bộ lọc",
+            "modal_all_medias_selected_filter_label": "Nhãn bộ lọc đã chọn",
+            "modal_all_medias_selected_filter_background": "Nền bộ lọc đã chọn",
+            "modal_all_medias_star_icon": "Biểu tượng ngôi sao",
+            "modal_all_medias_rating_background": "Nền đánh giá",
+            "modal_all_medias_item_border": "Viền mục đã chọn",
+            "modal_all_medias_navigate_button": "Nút điều hướng",
+            "modal_all_medias_navigate_arrow": "Mũi tên điều hướng",
+            "modal_all_medias_review_customer_name": "Tên khách hàng đánh giá",
+            "modal_all_medias_review_time": "Thời gian đánh giá",
+            "modal_all_medias_review_star": "Ngôi sao đánh giá",
+            "modal_all_medias_review_star_disable": "Ngôi sao mặc định đánh giá",
+            "modal_all_medias_review_title": "Tiêu đề đánh giá",
+            "modal_all_medias_review_content": "Nội dung đánh giá",
+            "modal_all_medias_review_media_background": "Nền phương tiện đánh giá",
+            "modal_all_medias_review_background": "Nền đánh giá",
+            "modal_all_medias_card_background": "Nền thẻ",
+            "modal_all_medias_close_button": "Nền nút đóng",
+            "modal_all_medias_close_icon": "Biểu tượng đóng",
+            "modal_detail_customer_name": "Tên khách hàng",
+            "modal_detail_review_time_title": "Tiêu đề thời gian đánh giá",
+            "modal_detail_review_star": "Ngôi sao đánh giá",
+            "modal_detail_review_star_default": "Ngôi sao mặc định đánh giá",
+            "modal_detail_review_star_field_background": "Nền trường ngôi sao",
+            "modal_detail_review_title": "Tiêu đề đánh giá",
+            "modal_detail_review_content": "Nội dung đánh giá",
+            "modal_detail_navigator_button": "Nút điều hướng",
+            "modal_detail_navigator_arrow": "Mũi tên điều hướng",
+            "modal_detail_purchased_item": "Mặt hàng đã mua",
+            "modal_detail_product_name": "Tên sản phẩm",
+            "modal_detail_product_price": "Giá sản phẩm",
+            "modal_detail_icon_title": "Tiêu đề biểu tượng",
+            "modal_detail_selected_icon": "Biểu tượng đã chọn",
+            "modal_detail_icon_background": "Nền biểu tượng",
+            "modal_detail_divider": "Dấu phân cách",
+            "modal_detail_card_background": "Nền thẻ",
+            "modal_detail_close_button": "Nền nút đóng",
+            "modal_detail_close_icon": "Biểu tượng đóng",
+            "form_write_review_star_color": "Màu biểu tượng ngôi sao",
+            "reset_to_default_title": "Đặt lại bảng màu về mặc định?",
+            "reset_to_default_content": "Các thay đổi bạn đã thực hiện có thể không được lưu",
+            "page_background_color": "Màu nền trang",
+            "star_icon_color": "Màu biểu tượng ngôi sao",
+            "line_color": "Màu viền",
+            "user_name_color": "Màu tên người dùng",
+            "load_more_color": "Màu tải thêm",
+            "product_background_color": "Màu nền sản phẩm",
+            "product_text_color": "Màu văn bản sản phẩm",
+            "reply_title_color": "Màu tiêu đề trả lời",
+            "reply_content_color": "Màu nội dung trả lời",
+            "reply_background_color": "Màu nền trả lời"
+        },
+        "information_display": {
+            "title": "Hiển thị thông tin",
+            "write_a_reivew_button": "Nút viết đánh giá",
+            "review_date": "Ngày đánh giá",
+            "button_report": "Nút báo cáo",
+            "button_helpful": "Nút hữu ích",
+            "customer_information": {
+                "title": "Thông tin khách hàng",
+                "customer_profile_picture": "Hiển thị ảnh đại diện khách hàng",
+                "customer_country_flag": "Hiển thị cờ quốc gia khách hàng"
+            },
+            "review_filter": "Bộ lọc đánh giá",
+            "review_per_page": "Số lượng đánh giá trên mỗi trang",
+            "summary": "Tổng kết",
+            "number_of_review": "Số lượng đánh giá",
+            "divider": "Đường chia",
+            "text_1": "Tiêu đề",
+            "text_2": "Tiêu đề phụ",
+            "show_review_media": "Hiển thị phương tiện đánh giá",
+            "image_gallery": "Bộ sưu tập ảnh",
+            "star_rating": "Đánh giá sao",
+            "customer_name_display": "Hiển thị tên khách hàng",
+            "anonymous": "Ẩn danh",
+            "reviewer_selects": "Người đánh giá chọn",
+            "number_of_reviews": "Số lượng đánh giá",
+            "form_write_review": {
+                "show_product_image": "Hiển thị hình ảnh sản phẩm",
+                "show_add_photo_btn": "Hiển thị nút thêm ảnh",
+                "show_add_video_btn": "Hiển thị nút thêm video",
+                "required_review_title": "Tiêu đề đánh giá bắt buộc",
+                "hide_review_title": "Ẩn tiêu đề đánh giá"
+            }
+        },
+        "card_content": {
+            "title": "Nội dung thẻ",
+            "show_review_media": "Hiển thị phương tiện đánh giá",
+            "show_review_time": "Hiển thị thời gian đánh giá",
+            "show_purchase_items": "Hiển thị mục mua hàng",
+            "show_star_rating": "Hiển thị xếp hạng sao",
+            "show_helpful_button": "Hiển thị nút hữu ích",
+            "image_per_row": "Ảnh mỗi hàng",
+            "filter": "Bộ lọc",
+            "gallery_filter": "Bộ lọc bộ sưu tập",
+            "star_size_helptext": "Trong bản demo, kích thước chỉ bằng một nửa kích thước thực tế"
+        },
+        "content": {
+            "title": "Nội dung",
+            "widget_language": "Ngôn ngữ widget",
+            "header_widget": {
+                "title": "Tiêu đề widget",
+                "customer_review_title": "Tiêu đề đánh giá khách hàng",
+                "review_submit": "Gửi đánh giá",
+                "write_review_button": "Nút viết đánh giá",
+                "review_with_comments": "Đánh giá có bình luận",
+                "text_total_reviews": "Tổng số đánh giá"
+            },
+            "label_of_filter": {
+                "title": "Nhãn bộ lọc",
+                "all": "Tất cả",
+                "most_helpful": "Hữu ích nhất",
+                "highest_rating": "Đánh giá cao nhất",
+                "lowest_rating": "Đánh giá thấp nhất",
+                "oldest": "Cũ nhất",
+                "newest": "Mới nhất",
+                "review_with_photos": "Đánh giá có ảnh",
+                "stars_filter": "Bộ lọc sao (1-5)"
+            },
+            "content_review": {
+                "title": "Nội dung đánh giá",
+                "text_review_on": "Văn bản đánh giá trên",
+                "text_helpful": "Văn bản hữu ích",
+                "button_loadmore_review": "Nút tải thêm đánh giá"
+            },
+            "modal_write_review": {
+                "title": "Giao diện viết đánh giá",
+                "modal_write_review_title": "Tiêu đề giao diện viết đánh giá",
+                "text_write_reviews": "Văn bản viết đánh giá",
+                "text_click_to_rate": "Văn bản nhấp để đánh giá",
+                "label_customer_name": "Nhãn tên khách hàng",
+                "placeholder_customer_name": "Vị trí giữ chỗ tên khách hàng",
+                "label_customer_email": "Nhãn email khách hàng",
+                "placeholder_customer_email": "Vị trí giữ chỗ email khách hàng",
+                "label_review_title": "Nhãn tiêu đề đánh giá",
+                "placeholder_review_title": "Vị trí giữ chỗ tiêu đề đánh giá",
+                "label_review_content": "Nhãn nội dung đánh giá",
+                "placeholder_review_content": "Vị trí giữ chỗ nội dung đánh giá",
+                "label_characters_remaining": "Nhãn ký tự còn lại",
+                "button_add_photo_text": "Văn bản nút thêm ảnh",
+                "button_back": "Nút quay lại",
+                "button_submit": "Nút gửi"
+            },
+            "validate_message_label": {
+                "title": "Nhãn thông báo xác thực",
+                "input": "Đầu vào",
+                "email": "Email",
+                "image_upload_fail": "Tải ảnh lên thất bại",
+                "image_upload_size": "Kích thước tải ảnh ( <10MB )",
+                "image_upload_type": "Loại tải ảnh (.bmp, .jpeg hoặc .png)"
+            },
+            "modal_image": {
+                "title": "Giao diện ảnh",
+                "review_for": "Đánh giá cho",
+                "image_from_this_review": "Ảnh từ đánh giá này"
+            },
+            "modal_report": {
+                "title": "Giao diện báo cáo"
+            }
+        },
+        "tabs": {
+            "default": "Mặc định",
+            "no_reviews": "Không có đánh giá",
+            "modal": {
+                "all_medias": "Tất cả phương tiện",
+                "review_detail": "Chi tiết đánh giá",
+                "form_write_review": "Biểu mẫu Viết đánh giá",
+                "popup_after_review": {
+                    "success": "Cửa sổ bật lên sau khi đánh giá - thành công",
+                    "pending": "Cửa sổ bật lên sau khi đánh giá - đang chờ xử lý"
+                }
+            }
+        },
+        "no_reviews": {
+            "section_title": "Tiêu đề phần",
+            "section_border": "Viền phần",
+            "show_border": "Hiển thị viền",
+            "title": "Không có đánh giá",
+            "text_no_reviews": "Văn bản không có đánh giá",
+            "call_to_action": "Nút viết đánh giá",
+            "call_to_action_color": "Nút viết đánh giá",
+            "call_to_action_text_color": "Chữ nút viết đánh giá",
+            "border_color": "Viền",
+            "section_title_color": "Tiêu đề",
+            "text_no_review_color": "Tiêu đề phụ",
+            "page_no_review_star_color": "Sao"
+        },
+        "popup_submitted_review": {
+            "layout": {
+                "title": "Bố cục",
+                "default": "Mặc định",
+                "without_media": "Thẻ đánh giá - không có phương tiện",
+                "disable": "Vô hiệu hóa thẻ đánh giá"
+            },
+            "title": {
+                "title": "Tiêu đề",
+                "headline_label": "Nhãn tiêu đề",
+                "content_label": "Nhãn nội dung",
+                "button_label": "Nhãn nút"
+            },
+            "color_schema": {
+                "title": "Sơ đồ màu sắc",
+                "popup_background": "Nền popup",
+                "popup_icon": "Biểu tượng popup",
+                "popup_headline": "Tiêu đề popup",
+                "popup_content": "Nội dung popup",
+                "product_name": "Tên sản phẩm",
+                "product_price": "Giá sản phẩm",
+                "review_card_background": "Nền thẻ đánh giá",
+                "review_card_title": "Tiêu đề thẻ đánh giá",
+                "review_card_content": "Nội dung thẻ đánh giá",
+                "review_card_border": "Viền thẻ đánh giá",
+                "star_active": "Sao - hoạt động",
+                "star_disable": "Sao - vô hiệu hóa",
+                "customer_name": "Tên khách hàng",
+                "customer_email": "Email khách hàng",
+                "button_border": "Nút - viền",
+                "button_background": "Nút - nền",
+                "button_title": "Tiêu đề nút"
+            }
+        }
+    },
+    "review_testimonial": {
+        "choose_review": {
+            "title": "Chọn những đánh giá để hiển thị",
+            "auto_new_5": "Tự động lấy những đánh giá 5 sao mới nhất",
+            "auto_helptext": "Đánh giá được cập nhật mỗi 10 phút",
+            "number_of_reviews": "Số lượng đánh giá",
+            "choose_manually": "Chọn thủ công",
+            "choose_manually_button": "Thay đổi",
+            "selected": "được chọn để hiển thị ở carousel",
+            "warning": "Carousel sẽ hiển thị đẹp hơn nếu có ít nhất 3 đánh giá",
+            "warning_2": "email yêu cầu của bạn",
+            "warning_3": "nhập vào để có",
+            "modal": {
+                "title": "Chọn đánh giá thủ công"
+            }
+        },
+        "title": {
+            "title": "Tiêu đề",
+            "title_label": "Nhãn tiêu đề"
+        },
+        "card_content": {
+            "title": "Nội dung thẻ",
+            "customer_name_display": "Hiển thị tên khách hàng",
+            "anonymous": "Ẩn danh",
+            "product_name": "Tên sản phẩm",
+            "product_image": "Hình ảnh sản phẩm",
+            "display_star_rating": "Hiển thị biểu tượng xếp hạng sao",
+            "display_customer_avatar": "Hiển thị ảnh đại diện của khách hàng",
+            "show_product_information": "Hiển thị thông tin sản phẩm",
+            "show_customer_flag": "Hiển thị cờ quốc gia của khách hàng",
+            "show_review_date": "Hiển thị ngày đánh giá",
+            "review_title": "Tiêu đề đánh giá",
+            "review_date": "Ngày đánh giá"
+        },
+        "movement": {
+            "title": "Chuyển động tự động",
+            "auto_movement": "Chuyển động tự động",
+            "time_between_reviews": "Thời gian giữa các đánh giá (giây)",
+            "arrow_navigation": "Điều hướng mũi tên"
+        },
+        "color_schemes": {
+            "title": "Bảng màu",
+            "headline": "Tiêu đề",
+            "content": "Nội dung",
+            "navigator_button": "Nút điều hướng",
+            "navigator_arrow": "Mũi tên điều hướng",
+            "page_indicator": "Chỉ số trang",
+            "verified_tag": "Nhãn đã xác minh",
+            "divider": "Dấu phân cách",
+            "border": "Viền",
+            "link_title": "Tiêu đề liên kết",
+            "customer_name": "Tên khách hàng",
+            "star": "Sao",
+            "navigator": "Trình duyệt",
+            "arrow_icon": "Biểu tượng mũi tên",
+            "product_background": "Nền sản phẩm",
+            "card_background": "Nền thẻ",
+            "widget_background": "Nền tiện ích",
+            "product_name": "Tên sản phẩm",
+            "review_date": "Ngày đánh giá"
+        }
+    },
+    "review_onepage": {
+        "review_source": {
+            "title": "Nguồn đánh giá",
+            "subtitle": "Chọn các sản phẩm để hiển thị đánh giá trên trang đánh giá",
+            "all_product": "Tất cả ,sản phẩm",
+            "select_product": "Chọn sản phẩm",
+            "warning": "Bạn cần chọn ít nhất một sản phẩm để hiển thị trên trang đánh giá.",
+            "help_text": "Mặc định hiển thị tất cả các đánh giá đã công khai"
+        },
+        "one_page_header": {
+            "title": "Tiêu đề một trang"
+        },
+        "review_display": {
+            "title": "Hiển thị thông tin",
+            "summary_box": "Hộp tóm tắt",
+            "product": "Sản phẩm"
+        }
+    },
+    "after_review_submitted": {
+        "show_discount_code": "Hiển thị mã giảm giá",
+        "discount_code_color": "Màu mã giảm giá",
+        "message_background_color": "Màu nền thông báo",
+        "title_label": "Nhãn tiêu đề",
+        "description_label": "Nhãn mô tả",
+        "title_label_color": "Màu nhãn tiêu đề",
+        "description_label_color": "Màu nhãn mô tả",
+        "show_submitted_review": "Hiển thị đánh giá đã gửi",
+        "button_label": "Nhãn nút"
+    },
+    "tabs": {
+        "discount_voucher": "Phiếu giảm giá",
+        "product_rating": "Đánh giá sản phẩm",
+        "review_display": "Hiển thị đánh giá",
+        "review_testimonial": "Chứng nhận đánh giá",
+        "review_onepage": "Trang đánh giá"
+    },
+    "title": "Quản lý Widget",
+    "add_widget_guild": {
+        "title": "Làm thế nào để cài đặt tiện ích?",
+        "enable_global_script": "Trước khi bắt đầu, hãy đảm bảo rằng bạn đã <strong><span>bật nhúng ứng dụng TrustShop Global</span> trong Shopify Admin</strong>",
+        "add_widget_v2": {
+            "title": "Thêm tiện ích qua: Shopify App Block",
+            "for": "(dành cho chủ đề 2.0)",
+            "step": {
+                "step_1": "Nhấp vào <strong><span>Thêm tiện ích</span></strong> để mở Shopify Admin",
+                "step_2": "<strong>Trình chỉnh sửa Shopify</strong> sẽ mở ra và tiện ích sẽ được thêm tự động",
+                "step_3": "Nhấp vào <strong>nút Lưu</strong> (góc trên bên phải) và đảm bảo rằng có thông báo thành công xuất hiện"
+            }
+        },
+        "add_widget_v1": {
+            "title": "Thêm tiện ích thủ công",
+            "for": "(dành cho chủ đề 1.0 - Chủ đề cổ điển)",
+            "description": "Sao chép mã bên dưới và dán vào các phần cụ thể nơi bạn muốn hiển thị tiện ích. <span>Tìm hiểu thêm</span>"
+        }
+    },
+    "multi_lang": {
+        "enable": {
+            "title": "Dịch tự động đang hoạt động",
+            "content": "Dịch tự động nội dung của tiện ích đã được bật. Nếu bạn muốn thay đổi, vui lòng tùy chỉnh cài đặt trong <anchor>Cài đặt đánh giá</anchor>."
+        },
+        "disable": {
+            "content": "Hãy thử tính năng tự động thay đổi ngôn ngữ theo quốc gia của người mua.",
+            "button": "Chuyển đến cài đặt"
+        }
+    }
+}

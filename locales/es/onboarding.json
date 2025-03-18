@@ -1,0 +1,169 @@
+{
+    "step_1": {
+        "button": "Comenzar",
+        "sub_title": "Comienza conectando tu tienda de Shopify. TrustShop se integrará perfectamente con tu tienda, facilitando la gestión de reseñas e interacción con los clientes.",
+        "title": "✋ Bienvenido a TrustShop",
+        "select_language": "¿Cuál es tu idioma principal de comunicación?",
+        "select_language_subtitle": "Selecciona tu idioma preferido para la interfaz.",
+        "help_text": "Siempre puedes cambiar el idioma principal más tarde en la configuración.",
+        "app_language": "Idioma de la aplicación"
+    },
+    "step_2": {
+        "quick_guide": {
+            "reload_btn": "Recargar",
+            "recheck_btn": "Error. Haz clic para volver a comprobar",
+            "step_1": "<p>Haz clic en el botón <span>Habilitar integración de la app</span></p>",
+            "step_2": "<p>Se abrirá una página y la app se <span>habilitará automáticamente</span></p>",
+            "step_3": "<p>Haz clic en el botón <span>Guardar</span> (en la esquina superior derecha) y asegúrate de ver un mensaje de éxito</p>",
+            "step_4": "<p>Vuelve a esta <span>página de bienvenida</span> para continuar con la integración de TrustShop.</p>",
+            "success_btn": "Integración de la app habilitada con éxito",
+            "sub_title": "Habilita la app fácilmente siguiendo estos pasos: ",
+            "title": "👉 No te pierdas esta guía 👈",
+            "not_detect_embedded": "No se pudo habilitar. Por favor, inténtalo de nuevo.",
+            "add_widget_helptext": "¿Tienes problemas para añadir el widget? ¡Contáctanos para obtener ayuda detallada!",
+            "helptext": "<p>Este paso agrega el código necesario para mostrar las reseñas en toda tu tienda.</p><p><i>No te preocupes, esto no afectará el diseño o la disposición de tu tienda.</i></p>"
+        },
+        "sub_title": "Muestra reseñas sin problemas en los siguientes pasos",
+        "title": "Solicitudes automáticas de reseñas",
+        "email_setting_title": "Configurar solicitud de reseñas por correo electrónico",
+        "email_setting_subtitle": "Se enviarán automáticamente correos electrónicos solicitando reseñas según la configuración siguiente",
+        "customer_in_country": "Clientes en el país",
+        "default_country": "Predeterminado (Todos los países)",
+        "send_email_request_review": "Enviar solicitud de reseña por correo electrónico",
+        "after_order": "Después de que el estado del pedido sea",
+        "add_more_country": "Añadir más países",
+        "help_text": "Siempre puedes cambiar esta configuración más tarde en la configuración."
+    },
+    "step_3": {
+        "v1": {
+            "quick_guide": {
+                "title": "Agregar widget de reseñas",
+                "reload_btn": "Recargar",
+                "recheck_btn": "Error. Haz clic para volver a verificar",
+                "step_1": "<p>Abre <1>templates/product.liquid</1> en el editor</p>",
+                "step_2": "<p>Agrega el siguiente código al final de tu archivo de tema</p>",
+                "step_3": "<p>Haz clic en <span>Guardar</span></p>",
+                "step_4": "<p>Vuelve a esta <span>página de incorporación</span> para continuar con la incorporación.</p>",
+                "helptext": "<p>Este paso agrega el código necesario para mostrar las reseñas en toda tu tienda.</p><p><i>No te preocupes, esto no afectará el diseño o la disposición de tu tienda.</i></p>"
+            }
+        },
+        "v2": {
+            "quick_guide": {
+                "title": "Agregar widget de reseñas",
+                "reload_btn": "Recargar",
+                "recheck_btn": "Error. Haz clic para volver a verificar",
+                "step_1": "<p>Haz clic en el botón <span>Agregar widget</span></p>",
+                "step_2": "<p>El widget se agregará automáticamente a tu plantilla de producto</p>",
+                "step_3": "<p>Haz clic en <span>Guardar</span> para confirmar los cambios</p>",
+                "step_4": "Verifica tu página de producto para ver las reseñas en acción",
+                "step_5": "<p>Vuelve a esta <span>página de incorporación</span> para continuar con la incorporación</p>",
+                "helptext": "<p>Este paso agrega el código necesario para mostrar las reseñas en toda tu tienda.</p><p><i>No te preocupes, esto no afectará el diseño o la disposición de tu tienda.</i></p>"
+            }
+        },
+        "quick_guide": {
+            "sub_title": "Sigue estos simples pasos para activar las reseñas de productos en tu tienda:",
+            "title": "Guía rápida",
+            "not_detect_widget": "No podemos detectar ningún widget. ¡Intenta nuevamente!",
+            "add_widget_helptext": "¿Tienes problemas para agregar el widget? ¡Contáctanos para obtener ayuda detallada!",
+            "success_btn": "Widget agregado exitosamente"
+        },
+        "sub_title": "Muestra el widget de reseñas en tu tienda en línea.",
+        "title": "Configurar la visualización de reseñas de productos",
+        "enable_app_embed": "Habilitar integración de la aplicación",
+        "enable_app_embed_subtitle": "Sigue estos simples pasos para activar las reseñas de productos en tu tienda",
+        "add_widget_btn": "Agregar widget",
+        "enable_embed": "Habilitar integración de la aplicación"
+    },
+    "step_4": {
+        "button": "Ir al panel",
+        "sub_title": "¡Felicidades! Ahora estás listo para potenciar tu marca con el poder de las reseñas y recomendaciones. ¡Prepárate para ver prosperar tu negocio!",
+        "title": "¡Ya estás listo!",
+        "import_text": "Importa reseñas sin problemas desde Product Reviews by Shopify, Judge.me, Loox y más",
+        "import_button": "Importar reseñas",
+        "dashboard_text": "Comienza a gestionar reseñas y a interactuar con tus clientes",
+        "dashboard_button": "Ir al panel"
+    },
+    "pricing_page": {
+        "title": "Precios simples y directos!",
+        "sub_title": "Prueba gratuita de 7 días. Sin tarifas ocultas.",
+        "free_plan_des": "O comienza gratis, perfecto para principiantes.",
+        "recommended": "Recomendado",
+        "pricing_card": {
+            "basic": {
+                "title": "Estándar",
+                "sub_title": "Perfecto para pequeñas empresas.",
+                "benefit": {
+                    "1": "<p><span>200</span> solicitudes de reseña por pedido/mes</p>",
+                    "2": "<p>Acceso a la mayoría de las funciones premium</p>",
+                    "3": "<p>Integración de Shopify Flow</p>",
+                    "4": "<p>Soporte prioritario al cliente</p>"
+                }
+            },
+            "pro": {
+                "title": "Enterprise",
+                "sub_title": "Lleva tu negocio al siguiente nivel.",
+                "benefit": {
+                    "1": "<p><span>1,500</span> solicitudes de reseña por pedido/mes</p>",
+                    "2": "<p>Acceso a <span>todas las funciones premium.</span></p>",
+                    "3": "<p>Página de detalles de reseñas</p>",
+                    "4": "<p>Dominio personalizado</p>",
+                    "5": "<p>Integración de Shopify Flow</p>",
+                    "6": "<p>Soporte prioritario al cliente</p>"
+                }
+            },
+            "unlimited": {
+                "title": "Ultimate",
+                "sub_title": "No hay límite para tu crecimiento.",
+                "benefit": {
+                    "1": "<p><span>Solicitudes ilimitadas</span> de reseña por pedido</p>",
+                    "2": "<p>Acceso a <span>todas las funciones premium.</span></p>",
+                    "3": "<p>Página de detalles de reseñas</p>",
+                    "4": "<p>Dominio personalizado</p>",
+                    "5": "<p>Integración de Shopify Flow</p>",
+                    "6": "<p>Soporte prioritario al cliente</p>"
+                }
+            }
+        }
+    },
+    "modal_compare_plans": {
+        "title": "Comparar planes",
+        "pricing_card": {
+            "free": {
+                "title": "Básico",
+                "sub_title": "Comienza gratis, perfecto para principiantes.",
+                "benefit": {
+                    "1": "<p><span>50</span> solicitudes de reseña por pedido/mes</p>",
+                    "2": "<p>Acceso básico al widget de reseñas</p>",
+                    "3": "<p>Edición básica de correo electrónico de solicitud</p>",
+                    "4": "<p>Sólo subir imágenes por los revisores</p>"
+                }
+            },
+            "basic": {
+                "title": "Estándar",
+                "sub_title": "Perfecto para pequeñas empresas o individuos.",
+                "benefit": {
+                    "1": "<p><span>200</span> solicitudes de reseña por pedido/mes</p>",
+                    "2": "<p>Acceso a <span>la mayoría de las funciones premium</span></p>",
+                    "3": "<p>Widget totalmente personalizable</p>",
+                    "4": "<p>Videos de reseñas</p>",
+                    "5": "<p>Google Shopping</p>",
+                    "6": "<p>Protege tus reseñas</p>"
+                }
+            },
+            "pro": {
+                "title": "Enterprise",
+                "sub_title": "Lleva tu negocio al siguiente nivel.",
+                "benefit": {
+                    "1": "<p><span>1,500</span> solicitudes de reseña por pedido/mes</p>",
+                    "2": "<p>Acceso a <span>todas las funciones premium.</span></p>",
+                    "3": "<p>Widget totalmente personalizable</p>",
+                    "4": "<p>Videos de reseñas</p>",
+                    "5": "<p>Google Shopping</p>",
+                    "6": "<p>Protege tus reseñas</p>",
+                    "7": "<p>Página de detalles de reseñas</p>",
+                    "8": "<p>Dominio personalizado</p>"
+                }
+            }
+        }
+    }
+}

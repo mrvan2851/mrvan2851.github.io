@@ -1,0 +1,41 @@
+{
+    "group_overview": {
+        "title": "Nhóm sản phẩm",
+        "description": "Nhóm các sản phẩm tương tự để chia sẻ và hiển thị đánh giá cùng nhau, hợp lý hóa các gói và tạo các hiển thị đánh giá tùy chỉnh một cách dễ dàng.",
+        "create_button": "Tạo nhóm",
+        "delete_group_message": "Nếu bạn xóa nhóm, tất cả các đánh giá sẽ được tách ra và trở về sản phẩm gốc của chúng. Bạn sẽ không còn quyền truy cập và hành động này không thể hoàn tác. Bạn có muốn tiếp tục không?",
+        "delete_group": "Xóa nhóm",
+        "limit_function": "Nâng cấp lên gói cao hơn để sử dụng tính năng này. <1>Xem giá</1>"
+    },
+    "create_group_page": {
+        "title": "Tạo nhóm sản phẩm",
+        "group_name": "Tên nhóm",
+        "product_in_this_group": "Sản phẩm trong nhóm này",
+        "description": "Thêm sản phẩm vào nhóm này",
+        "sub_description": "Chọn sản phẩm để thêm vào nhóm này",
+        "add_product": "Thêm sản phẩm",
+        "unsaved_change_title": "Bạn có chắc chắn muốn thoát không?",
+        "unsaved_change_message": "Nhóm của bạn chưa được lưu. Nếu bạn thoát, các cài đặt của bạn sẽ bị mất. Bạn có muốn tiếp tục không?"
+    },
+    "create_group_modal": {
+        "title": "Tạo nhóm sản phẩm",
+        "select_product_for": "Chọn sản phẩm cho",
+        "add_product_to_group": "Thêm sản phẩm vào nhóm",
+        "search_product": "Tìm kiếm sản phẩm",
+        "product": "Sản phẩm",
+        "total_reviews": "Tổng số đánh giá",
+        "average_rating": "Đánh giá trung bình",
+        "no_product_found": "Không tìm thấy sản phẩm",
+        "no_result_for": "Không có kết quả cho "
+    },
+    "group_detail_page": {
+        "group_rating_summary": "Tóm tắt đánh giá nhóm",
+        "products_in_group": "Sản phẩm trong nhóm",
+        "reviews_in_group": "Đánh giá trong nhóm",
+        "delete_product": "Xóa sản phẩm",
+        "most_helpful": "Hữu ích nhất",
+        "newest": "Mới nhất",
+        "delete_confirm_title": "Xóa sản phẩm khỏi nhóm",
+        "delete_confirm_message": "Bạn có chắc chắn muốn xóa sản phẩm này không?"
+    }
+}

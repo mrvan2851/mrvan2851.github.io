@@ -1,0 +1,90 @@
+{
+    "toast": {
+        "email": {
+            "update_success": "Cập nhật email thành công",
+            "invalid_email": "Email không hợp lệ!",
+            "failed": "Gửi email thất bại",
+            "failed_reason": "Gửi email thất bại",
+            "get_campain_fail": "Lấy chiến dịch thất bại.",
+            "get_campaign_failed": "Lấy chiến dịch thất bại",
+            "get_queue_failed": "Lấy hàng đợi thất bại",
+            "require_title": "Để kích hoạt email này, cần phải thay đổi 1 điều:",
+            "require": "Bạn cần kích hoạt yêu cầu đánh giá",
+            "success": "Gửi thành công",
+            "empty": "Một số trường trống, vui lòng điền vào hoặc xóa chúng trước khi lưu.",
+            "send_again_success": "Email đã được lên lịch"
+        },
+        "failed": "Thất bại!",
+        "get_status_fail": "Lấy thông tin thất bại.",
+        "onboarding": {
+            "reload": "Thất bại! Vui lòng thử lại",
+            "skip_enable_app_embed": "Bỏ qua kích hoạt widget?",
+            "skip_enable_app_embed_notice": "Kích hoạt widget cho phép bạn hiển thị widget trên cửa hàng của mình. Nếu muốn, bạn có thể bỏ qua bước này và kích hoạt widget sau trong phần Cài đặt.",
+            "skip_add_block_title": "Bỏ qua thêm widget?",
+            "skip_add_block_notice": "Thêm widget cho phép đánh giá của bạn được hiển thị trên cửa hàng. Nếu muốn, bạn có thể bỏ qua bước này và thêm widget sau trong phần Cài đặt.",
+            "enable_app_embed": "Kích hoạt script thành công",
+            "add_app_block_success": "Thêm widget thành công"
+        },
+        "publish_fail": "Đăng thất bại.",
+        "reply_fail": "Trả lời thất bại.",
+        "review": {
+            "delete_photo_fail": "Xóa ảnh thất bại.",
+            "delete_reply_fail": "Xóa trả lời thất bại.",
+            "get_review_fail": "Lấy đánh giá thất bại.",
+            "publish_fail": "Đăng thất bại.",
+            "reject_fail": "Từ chối thất bại."
+        },
+        "saved": "Đã lưu",
+        "server_error_title": "Lỗi server",
+        "server_error": "Có gì đó không đúng. Vui lòng thử lại sau",
+        "setting": {
+            "validate_fail": "Một số trường không hợp lệ."
+        },
+        "widget": {
+            "missing_shopify_code": "Bạn phải nhập mã Shopify vào trường văn bản",
+            "review_filter_null": "Trường bộ lọc đánh giá phải có ít nhất một giá trị."
+        },
+        "import_review": {
+            "success": "Nhập thành công"
+        },
+        "add_widget_v1_confirm": "Cảm ơn bạn đã xác nhận",
+        "export_review": {
+            "success": "Đang xử lý xuất, tệp sẽ được gửi đến email của bạn tại {{email}}",
+            "failed": "Lỗi xuất, vui lòng liên hệ hỗ trợ"
+        },
+        "delete_review": {
+            "success": "Xóa thành công",
+            "failed": "Lỗi khi xóa."
+        },
+        "group_product": {
+            "at_least_2_product": "Vui lòng chọn ít nhất 2 sản phẩm",
+            "create_success": "Tạo nhóm thành công",
+            "delete_success": "Nhóm {{name}} đã bị xóa",
+            "update_success": "Cập nhật nhóm thành công",
+            "add_product_success": "Thêm sản phẩm thành công",
+            "delete_product_success": "Xóa sản phẩm thành công"
+        },
+        "delete_failed": "Xóa thất bại.",
+        "add_failed": "Thêm thất bại",
+        "update_failed": "Cập nhật thất bại"
+    },
+    "validate": {
+        "empty_input": "Vui lòng điền vào trường này!",
+        "greater_than_0": "Giá trị phải lớn hơn 0!",
+        "smaller_than_100": "Giá trị không được vượt quá 100!",
+        "invalid_email": "Email không hợp lệ!",
+        "invalid_url": "URL không hợp lệ!",
+        "word_not_allow": "Không được phép!",
+        "this_field_required": "Trường này là bắt buộc!",
+        "invalid_quantity": "Số lượng phải là số và nằm trong khoảng từ 5 đến 200!",
+        "quantity_review_per_page": "Số lượng phải từ 1-10!",
+        "quantity": "Số lượng tối đa đánh giá là 200",
+        "import_review": {
+            "fail": "Nhập không thành công. Vui lòng thử lại",
+            "size": "Tệp vượt quá kích thước tối đa (5MB)",
+            "type": "Loại tệp không hợp lệ"
+        },
+        "limit_email_send_test": "Vui lòng đợi 90 giây để gửi email tiếp theo!",
+        "email_exist": "Email đã tồn tại!"
+    }
+}

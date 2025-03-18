@@ -1,0 +1,525 @@
+{
+    "limit_function": {
+        "widget_limit": "This feature is only available on the Standard and Enterprise plans. Please upgrade your plan to access this feature.",
+        "setting_function_limit": {
+            "badge": "From {{plan}}",
+            "content": "Upgrade your plan to customize this feature."
+        }
+    },
+    "list_widget": {
+        "review_display": "Review display",
+        "review_display_description": "Show all customer reviews, giving insights into user experiences with the product.",
+        "review_testimonial": "Review testimonial",
+        "review_testimonial_description": "Highlight top reviews in a rotating carousel format to attract attention to standout feedback.",
+        "review_onepage": "Review page",
+        "review_onepage_description": "A page displaying all customer reviews, allowing easy browsing of experiences.",
+        "product_rating": "Product rating",
+        "product_rating_description": "Display the product’s overall rating based on a 5-star scale.",
+        "global_setting": "Global setting",
+        "global_setting_description": "Enables users to manage elements, Any changes made will be applied to all widgets"
+    },
+    "discount_voucher": {
+        "title": "Discount voucher",
+        "sub_title": "Incentivize customers to leave a review by offering discount for their next purchase",
+        "preview": "Preview",
+        "toggle_discount_voucher": "Enable discount",
+        "save_btn": "Save",
+        "coupon_shopify": {
+            "title": "Coupon shopify",
+            "sub_title": "Shopify discount code",
+            "no_code": "You haven't set up any code.",
+            "off_example": "This is example for next line(no translate): 80% OFF",
+            "off": "OFF",
+            "check_discount_button": "Check discount",
+            "check_success": "Discounts available",
+            "check_fail": "Discount does not exist, please see how to obtain a discount <1>here</1>."
+        },
+        "coupon_auto": {
+            "title": "Auto discount",
+            "review_for_photo": "Review for photo",
+            "discount_code": "Auto discount code",
+            "discount_for_review_only_content": "Discount for all reviews",
+            "discount_for_review_photos": "Discount for reviews with photos",
+            "discount_for_review_videos": "Discount for reviews with video",
+            "discount_expire_after": "Discount expire after"
+        },
+        "tabs": {
+            "email_before": "Email before",
+            "email_after": "Email after"
+        },
+        "coupon_design": {
+            "title": "Coupon design",
+            "voucher_color": "Voucher color",
+            "text_color": "Text color",
+            "button_color": "Button color",
+            "button_text_color": "Button text color"
+        },
+        "general": {
+            "choose_your_design_template": "Choose your design template",
+            "template": "Template",
+            "coupon_message": "Coupon message",
+            "call_to_action_button_content": "Call-to-action button content"
+        },
+        "voucher_setting": {
+            "title": "Discount voucher and product",
+            "icon": "Icon",
+            "icon_and_highlight": "Icon & highlight discount text color",
+            "message": "Message",
+            "button_title": "Button title",
+            "button_label": "Button label",
+            "button_background": "Button background",
+            "message_background": "Message background"
+        },
+        "set_up_discount": "Set up discount",
+        "display_discount": "Display discount",
+        "review_request": "Review request",
+        "review_request_description": "Personalize review request emails with custom icon, colors, and a tailored call-to-action message.",
+        "thank_email": "Thank-you email",
+        "thank_email_description": "Customize thank-you emails with custom discount codes style and messages after customers leave a review.",
+        "submitted_review_popup": "Submitted review popup",
+        "submitted_review_popup_description": "Display a thank-you pop-up after purchase, showing customers a discount code for their next order.",
+        "type_discount_code_after_review_label": "Customer receive discount codes when they write reviews for:",
+        "type_discount_code_after_review_value": {
+            "order": "Order - one discount code per order",
+            "product": "Product - one discount code per product"
+        }
+    },
+    "product_rating": {
+        "product_rating": "Product Page",
+        "collection_rating": "Collection page",
+        "hide_rating_when_empty": "Hide rating star when there is no review",
+        "review_information": {
+            "title": "Review information",
+            "show_total_reviews": "Show total number of reviews",
+            "show_avg_rating": "Show average rating of reviews"
+        },
+        "widget_style": {
+            "title": "Widget style",
+            "full_5_star": "(Full 5 stars)",
+            "1_star": "(1 star)"
+        },
+        "text_before": "Text before",
+        "text_after": "Text after",
+        "font_size": {
+            "title": "Font size",
+            "star_size": "Star icon size",
+            "text_avg_rating": "Average rating",
+            "text_total_rating": "Total number of reviews"
+        },
+        "language": {
+            "title": "Language",
+            "label_rating": "Rating label",
+            "label_rating_helptext": "When there is only one review",
+            "label_ratings": "Ratings label",
+            "label_ratings_helptext": "When there are multiple reviews"
+        },
+        "modal_add_rating_manually": {
+            "rating_title": "Add rating star manually",
+            "widget_title": "Add widget manually",
+            "guild_rating": "Copy the code below and paste it on the specific sections that you want to show the rating star. <1>Learn more</1>",
+            "guild_widget": "Copy the code below and paste it on the specific sections that you want to show the widget. <1>Learn more</1>",
+            "guild_onepage": "View the tutorial on how to create a reviews page <1>here</1>.<br /> If you need assistance, please contact us via the  email support@trustshop.io.",
+            "collection_title": "Add collection rating ",
+            "onepage_title": "Add review page",
+            "testimonial_title": "Add testimonial",
+            "guild_collection": "Copy the code below and paste it on the specific sections that you want to show the collection rating. <1>Learn more</1>"
+        },
+        "custom_color": {
+            "title": "Custom color",
+            "star_icon": "Star icon",
+            "star_icon_empty": "Star icon (Empty)",
+            "avg_rating": "Average rating",
+            "total_number_of_reviews": "Total number of reviews"
+        }
+    },
+    "review_display": {
+        "widget_area": "Widget area",
+        "choose_layout": {
+            "title": "Choose layout",
+            "list": "List",
+            "grid": "Grid"
+        },
+        "summary_box": {
+            "title": "Summary box",
+            "left": "Left",
+            "top": "Top"
+        },
+        "color_schema": {
+            "title": "Color Scheme",
+            "custom_color_schemes": "Custom color schemes",
+            "primary_color": "Primary",
+            "secondary_color": "Secondary",
+            "title_text_color": "Title text",
+            "all_photos_button_color": "All photos button",
+            "primary_text_color": "Primary text",
+            "secondary_text_color": "Secondary text",
+            "star_icon": "Star icon",
+            "border": "Border",
+            "filter_sort_background": "Filter-sort background",
+            "filter_sort_text": "Filter-sort text",
+            "rating_process_color": "Rating process",
+            "rating_process_empty_color": "Rating process empty",
+            "users_name": "Users name",
+            "loadmore_color": "Load more",
+            "bg_base_color": "Widget background",
+            "slide_button": "Slide button",
+            "slide_arrow": "Slide arrow",
+            "modal_all_medias_headline_title": "Headline title",
+            "modal_all_medias_filter_label": "Filter label",
+            "modal_all_medias_filter_background": "Filter background",
+            "modal_all_medias_selected_filter_label": "Selected - Filter label",
+            "modal_all_medias_selected_filter_background": "Selected - Filter background",
+            "modal_all_medias_star_icon": "Star",
+            "modal_all_medias_rating_background": "Rating background",
+            "modal_all_medias_item_border": "Selected media border",
+            "modal_all_medias_navigate_button": "Navigator button",
+            "modal_all_medias_navigate_arrow": "Navigator arrow",
+            "modal_all_medias_review_customer_name": "Customer name",
+            "modal_all_medias_review_time": "Review time",
+            "modal_all_medias_review_star": "Review star",
+            "modal_all_medias_review_star_disable": "Review default star",
+            "modal_all_medias_review_title": "Review title",
+            "modal_all_medias_review_content": "Review content",
+            "modal_all_medias_review_media_background": "Review media background",
+            "modal_all_medias_review_background": "Review background",
+            "modal_all_medias_card_background": "Card background",
+            "modal_all_medias_close_button": "Close background",
+            "modal_all_medias_close_icon": "Close icon",
+            "modal_detail_customer_name": "Customer name",
+            "modal_detail_review_time_title": "Review time title",
+            "modal_detail_review_star": "Star",
+            "modal_detail_review_star_default": "Default star",
+            "modal_detail_review_star_field_background": "Star field background",
+            "modal_detail_review_title": "Review title",
+            "modal_detail_review_content": "Review content",
+            "modal_detail_navigator_button": "Navigator button",
+            "modal_detail_navigator_arrow": "Navigator arrow",
+            "modal_detail_purchased_item": "Purchase item",
+            "modal_detail_product_name": "Product name",
+            "modal_detail_product_price": "Product price",
+            "modal_detail_icon_title": "Icon title",
+            "modal_detail_selected_icon": "Selected icon",
+            "modal_detail_icon_background": "Icon background",
+            "modal_detail_divider": "Divider",
+            "modal_detail_card_background": "Card background",
+            "modal_detail_close_button": "Close background",
+            "modal_detail_close_icon": "Close icon",
+            "form_write_review_star_color": "Star icon color",
+            "reset_to_default_title": "Reset color schemes to default?",
+            "reset_to_default_content": "Changes you made may not be saved",
+            "page_background_color": "Page background",
+            "star_icon_color": "Star icon",
+            "line_color": "Border",
+            "user_name_color": "User name",
+            "load_more_color": "Load more",
+            "product_background_color": "Product background",
+            "product_text_color": "Product text",
+            "reply_title_color": "Reply title",
+            "reply_content_color": "Reply content",
+            "reply_background_color": "Reply background"
+        },
+        "information_display": {
+            "title": "Information display",
+            "write_a_reivew_button": "Write a review button",
+            "review_date": "Review date",
+            "button_report": "Button report",
+            "button_helpful": "Button helpful",
+            "customer_information": {
+                "title": "Customer information",
+                "customer_profile_picture": "Show customer avatar",
+                "customer_country_flag": "Show customer country flag"
+            },
+            "review_filter": "Review filter",
+            "review_per_page": "Review per page",
+            "summary": "Summary",
+            "number_of_review": "Number of review",
+            "divider": "Divider",
+            "text_1": "Heading",
+            "text_2": "SubHeading",
+            "show_review_media": "Show review media",
+            "image_gallery": "Image gallery",
+            "star_rating": "Star rating",
+            "customer_name_display": "Customer name display",
+            "anonymous": "Anonymous",
+            "reviewer_selects": "Reviewer selects",
+            "number_of_reviews": "Number of reviews",
+            "form_write_review": {
+                "show_product_image": "Show product image",
+                "show_add_photo_btn": "Show add photo button",
+                "show_add_video_btn": "Show add video button",
+                "required_review_title": "Required review title",
+                "hide_review_title": "Hide review title"
+            },
+            "other_information": "Other Information"
+        },
+        "card_content": {
+            "title": "Card content",
+            "show_review_media": "Show Review media",
+            "show_review_time": "Show Review time",
+            "show_purchase_items": "Show Purchase items",
+            "show_star_rating": "Show star rating",
+            "show_helpful_button": "Show helpful button",
+            "image_per_row": "Image per row",
+            "filter": "Filter",
+            "gallery_filter": "Gallery filter",
+            "star_size_helptext": "In the demo, the size is half of the actual size"
+        },
+        "content": {
+            "title": "Content",
+            "widget_language": "Widget language",
+            "header_widget": {
+                "title": "Widget header",
+                "customer_review_title": "Customer review title",
+                "review_submit": "Review submit",
+                "write_review_button": "Write review button",
+                "review_with_comments": "Review with comments",
+                "text_total_reviews": "Text total reviews"
+            },
+            "label_of_filter": {
+                "title": "Label of filter",
+                "all": "All",
+                "most_helpful": "Most helpful",
+                "highest_rating": "Highest rating",
+                "lowest_rating": "Lowest rating",
+                "oldest": "Oldest",
+                "newest": "Newest",
+                "review_with_photos": "Review with photos",
+                "stars_filter": "Stars filter(1-5)"
+            },
+            "content_review": {
+                "title": "Content review",
+                "text_review_on": "Text review on",
+                "text_helpful": "Text helpful",
+                "button_loadmore_review": "Button load more review"
+            },
+            "modal_write_review": {
+                "title": "Modal write review",
+                "modal_write_review_title": "Modal write review title",
+                "text_write_reviews": "Text write reviews",
+                "text_click_to_rate": "Text click to rate",
+                "label_customer_name": "Label customer name",
+                "placeholder_customer_name": "Placeholder customer name",
+                "label_customer_email": "Label customer email",
+                "placeholder_customer_email": "Placeholder customer email",
+                "label_review_title": "Label review title",
+                "placeholder_review_title": "Placeholder review title",
+                "label_review_content": "Label review content",
+                "placeholder_review_content": "Placeholder review content",
+                "label_characters_remaining": "Label characters remaining",
+                "button_add_photo_text": "Button add photo text",
+                "button_back": "Button back",
+                "button_submit": "Button submit"
+            },
+            "validate_message_label": {
+                "title": "Validate message label",
+                "input": "Input",
+                "email": "Email",
+                "image_upload_fail": "Image upload fail",
+                "image_upload_size": "Image upload size ( <10MB )",
+                "image_upload_type": "Image upload type (.bmp, .jpeg or .png)"
+            },
+            "modal_image": {
+                "title": "Modal image",
+                "review_for": "Review for",
+                "image_from_this_review": "Image from this review"
+            },
+            "modal_report": {
+                "title": "Modal report"
+            }
+        },
+        "tabs": {
+            "default": "Default",
+            "no_reviews": "No reviews",
+            "modal": {
+                "all_medias": "All media",
+                "review_detail": "Review detail",
+                "form_write_review": "Form write review",
+                "popup_after_review": {
+                    "success": "Popup after review - success",
+                    "pending": "Popup after review - pending"
+                }
+            }
+        },
+        "no_reviews": {
+            "section_title": "Section title",
+            "section_border": "Section border",
+            "show_border": "Show border",
+            "title": "No review",
+            "text_no_reviews": "Text no reviews",
+            "call_to_action": "Call to action",
+            "call_to_action_color": "Call-to-action",
+            "call_to_action_text_color": "Call-to-action text",
+            "border_color": "Border",
+            "section_title_color": "Section title",
+            "text_no_review_color": "Text no reviews",
+            "page_no_review_star_color": "Star"
+        },
+        "popup_submitted_review": {
+            "layout": {
+                "title": "Layout",
+                "default": "Default",
+                "without_media": "Review card - without media",
+                "disable": "Disable review card"
+            },
+            "title": {
+                "title": "Title",
+                "headline_label": "Headline label",
+                "content_label": "Content label",
+                "button_label": "Button label"
+            },
+            "color_schema": {
+                "title": "Color Scheme",
+                "popup_background": "Popup background",
+                "popup_icon": "Popup icon",
+                "popup_headline": "Popup headline",
+                "popup_content": "Popup content",
+                "product_name": "Product name",
+                "product_price": "Product price",
+                "review_card_background": "Review card background",
+                "review_card_title": "Review card title",
+                "review_card_content": "Review card content",
+                "review_card_border": "Review card border",
+                "star_active": "Star - active",
+                "star_disable": "Star - disable",
+                "customer_name": "Customer name",
+                "customer_email": "Customer email",
+                "button_border": "Button - border",
+                "button_background": "Button background",
+                "button_title": "Button title"
+            }
+        }
+    },
+    "review_testimonial": {
+        "choose_review": {
+            "title": "Select reviews to display",
+            "auto_new_5": "Automatically fetch latest 5-star reviews",
+            "auto_helptext": "Reviews are updated every 10 minutes",
+            "number_of_reviews": "Number of reviews",
+            "choose_manually": "Choose manually",
+            "choose_manually_button": "Change",
+            "selected": "selected to display in the carousel",
+            "warning": "Carousel will look better with at least 3 reviews",
+            "warning_2": "request email",
+            "warning_3": "import to get more",
+            "modal": {
+                "title": "Manually select reviews"
+            }
+        },
+        "title": {
+            "title": "Title",
+            "title_label": "Title label"
+        },
+        "card_content": {
+            "title": "Card content",
+            "customer_name_display": "Customer name display",
+            "anonymous": "Anonymous",
+            "product_name": "Product name",
+            "product_image": "Product image",
+            "display_star_rating": "Show star rating icon",
+            "display_customer_avatar": "Show customer avatar",
+            "show_product_information": "Show product information",
+            "show_customer_flag": "Show customer country flag",
+            "show_review_date": "Show review date",
+            "review_title": "Review title",
+            "review_date": "Review date"
+        },
+        "movement": {
+            "title": "Auto movement",
+            "auto_movement": "Auto movement",
+            "time_between_reviews": "Time between 2 slides (second)",
+            "time_between_reviews_error": "Time must be number and between 1 and 30",
+            "arrow_navigation": "Arrow navigation",
+            "show_arrow": "Show arrow navigation",
+            "pause_carousel_when_hover": "Pause carousel when hover",
+            "pause_carousel_when_hover_helptext": "When the cursor hovers, the carousel will pause"
+        },
+        "color_schemes": {
+            "title": "Color schemes",
+            "headline": "Headline",
+            "content": "Content",
+            "navigator_button": "Navigator button",
+            "navigator_arrow": "Navigator arrow",
+            "page_indicator": "Page indicator",
+            "verified_tag": "Verified tag",
+            "divider": "Divider",
+            "border": "Border",
+            "link_title": "Link title",
+            "customer_name": "Customer name",
+            "star": "Star",
+            "navigator": "Navigator",
+            "arrow_icon": "Arrow icon",
+            "product_background": "Product background",
+            "card_background": "Card background",
+            "widget_background": "Widget background",
+            "product_name": "Product name",
+            "review_date": "Review date"
+        }
+    },
+    "review_onepage": {
+        "review_source": {
+            "title": "Review source",
+            "subtitle": "Select the products to display reviews on review page",
+            "all_product": "All product",
+            "select_product": "Select product",
+            "warning": "You need to select at least one product to display on the review page.",
+            "help_text": "All published reviews are shown by default"
+        },
+        "one_page_header": {
+            "title": "One page header"
+        },
+        "review_display": {
+            "title": "Information display",
+            "summary_box": "Summary box",
+            "product": "Product"
+        }
+    },
+    "after_review_submitted": {
+        "show_discount_code": "Show discount code",
+        "discount_code_color": "Discount code color",
+        "message_background_color": "Message background color",
+        "title_label": "Title label",
+        "description_label": "Description label",
+        "title_label_color": "Title label color",
+        "description_label_color": "Description label color",
+        "show_submitted_review": "Show submitted review",
+        "button_label": "Button label",
+        "include": "Include product",
+        "exclude": "Exclude product"
+    },
+    "tabs": {
+        "discount_voucher": "Discount voucher",
+        "product_rating": "Product rating",
+        "review_display": "Review display",
+        "review_testimonial": "Review testimonial",
+        "review_onepage": "Review page"
+    },
+    "title": "On-site displays",
+    "add_widget_guild": {
+        "title": "How to install widget?",
+        "enable_global_script": "Before you begin, make sure you have <strong><span>Enable the TrustShop Global</span> app embed in Shopify Admin</strong>",
+        "add_widget_v2": {
+            "title": "Add widget via: Shopify App Block",
+            "for": "(for theme 2.0)",
+            "step": {
+                "step_1": "Click <strong><span>Add widget</span></strong> to open Shopify Admin",
+                "step_2": "<strong>Shopify editor</strong> will open and the widget is auto added",
+                "step_3": "Click <strong>Save button</strong> (at the top-right corner) and ensure that you see a success massage appears"
+            }
+        },
+        "add_widget_v1": {
+            "title": "Add widget via: Manual",
+            "for": "(for theme 1.0 - Vintage theme)",
+            "description": "Copy the code below and paste it on the specific sections that you want to show the widget. <span>Learn more</span>"
+        }
+    },
+    "multi_lang": {
+        "enable": {
+            "title": "Auto-translation is active",
+            "content": "Automatic translation of widget content is enabled. If you want to change it, please customize the settings in <anchor>Review settings</anchor>."
+        },
+        "disable": {
+            "content": "Try the feature of automatically changing the language according to the buyer's country.",
+            "button": "Go to global settings"
+        }
+    }
+}

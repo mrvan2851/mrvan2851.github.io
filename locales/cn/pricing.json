@@ -1,0 +1,184 @@
+{
+    "plan": {
+        "for_free": "免费",
+        "title": "计划",
+        "free": "基础",
+        "basic": "标准",
+        "pro": "企业",
+        "unlimited": "终极",
+        "free_plan": "基础计划",
+        "basic_plan": "标准计划",
+        "pro_plan": "企业计划",
+        "unlimited_plan": "终极计划"
+    },
+    "per_month": "每月",
+    "plan_active": "{{plan}} 已激活",
+    "discount_offer_time": "在接下来的{{time}}内",
+    "origin_price": "原价 ",
+    "order/month": "订单/月",
+    "request_reviews": "请求审核",
+    "upgrade_plan": "升级计划",
+    "select_plan": "选择{{plan}}",
+    "start_free": "免费开始",
+    "basic": "基础",
+    "fully": "完全",
+    "unlimited": "无限",
+    "modal_pricing_title": "通过灵活的定价解锁高级功能",
+    "best_choice": "最佳选择",
+    "coming_soon": "即将推出",
+    "process_bar": {
+        "title": "完成的总邮件数",
+        "subtitle": "此计数将于 <strong>{{date}}</strong> 更新",
+        "order_count": "已完成 {{used}} / {{total}} 订单"
+    },
+    "plan_table": {
+        "title": "定价计划",
+        "subtitle": "发现定制的订阅计划，助力您的业务提升！",
+        "start_trial": "开始 {{day}} 天免费试用",
+        "current_plan": "当前计划",
+        "upgrade": "升级",
+        "select_plan": "选择计划",
+        "downgrade": "降级",
+        "pricing_card": {
+            "free": "使用我们的免费计划访问基本功能，非常适合初学者。",
+            "basic": "通过标准计划为个人提供先进的工具和支持",
+            "pro": "通过全包企业计划为您的企业赋能",
+            "unlimited": "通过终极计划，您的增长没有限制"
+        },
+        "modal_downgrade": {
+            "title": "不要失去访问强大功能的权限！",
+            "subtitle": "您的商店正在使用一些高级功能。关闭它们以降级您的计划：",
+            "discount_voucher": "自动折扣券",
+            "customize_widget": "自定义小部件",
+            "upload_video": "撰写评论时上传视频",
+            "review_testimonial": "推荐",
+            "modal_all_image": "模态所有图片设置",
+            "review_page": "所有评论页面",
+            "google_shopping": "谷歌购物",
+            "global_display": "全局显示",
+            "group_product": "产品分组",
+            "custom_domain": "自定义域名",
+            "review_translation": "评论翻译",
+            "qr_code": "QR码管理",
+            "multi_lang": "多语言小部件",
+            "ai_functionality": "AI功能",
+            "insights_and_segmentation": "洞察和分割",
+            "review_detail_page": "评论详情页面",
+            "import_custom_csv": "导入自定义CSV",
+            "protect_review": "保护评论"
+        },
+        "primary_collapse": {
+            "title": "发现最适合您的计划",
+            "email_quota": "请求审核",
+            "email_quota_helptext": "我们根据订单数量来计算您的配额，而不是发送的评价请求邮件数量。例如，如果您发送三封邮件（请求、提醒和感谢），仍然只算作一次。",
+            "order_per_month": "每月总订单",
+            "discount_voucher": "折扣券",
+            "customize_widget": "自定义小部件",
+            "upload_video": "评论视频",
+            "review_testimonial": "评论推荐",
+            "modal_all_image": "模态所有图片",
+            "review_page": "所有评论页面",
+            "google_shopping": "谷歌购物",
+            "global_display": "全局显示",
+            "group_product": "产品分组",
+            "custom_domain": "自定义域名",
+            "qr_code": "QR码管理",
+            "review_translation": "评论翻译",
+            "multi_lang": "多语言小部件",
+            "ai_functionality": "AI功能",
+            "insights_and_segmentation": "洞察和分割",
+            "review_detail_page": "评论详情页面",
+            "import_custom_csv": "导入自定义CSV",
+            "protect_review": "保护评论"
+        },
+        "details_collapse": {
+            "title": "比较订阅计划之间的自定义小部件",
+            "widgetBox": {
+                "title": "小部件框（默认）",
+                "choose_layout": "选择布局",
+                "summary_box": "摘要框",
+                "color_scheme": "配色方案",
+                "information_display": "信息显示",
+                "content": "内容"
+            },
+            "widgetBoxNoReview": {
+                "title": "小部件框（无评论）",
+                "content": "内容",
+                "color_scheme": "配色方案"
+            },
+            "modalReviewDetail": {
+                "title": "模态评论详情",
+                "all_settings": "所有设置"
+            },
+            "modal_all_image": {
+                "title": "模态所有图片",
+                "all_settings": "所有设置"
+            },
+            "formWriteReview": {
+                "title": "撰写评论表单",
+                "review_with_video": "带视频评论"
+            }
+        }
+    },
+    "free_banner": {
+        "title": "使用我们的免费计划访问基本功能，非常适合初学者。",
+        "email_quota_limit": "每月订单数量限制 {{limit}}",
+        "basic_access": "基本访问评论小部件",
+        "basic_edit_email": "基本编辑请求邮件",
+        "upload_media": "仅允许评论者上传图片",
+        "quick_chat": "快速聊天支持",
+        "visible_brand": "可见的TrustShop品牌"
+    },
+    "basic_banner": {
+        "everything_in_basic": "基础计划中的所有内容",
+        "email_quota": "电子邮件配额限制 {{limit}} 订单/月",
+        "discount_voucher": "自动折扣券",
+        "customize_widget": "自定义小部件",
+        "upload_video": "撰写评论时上传视频",
+        "review_testimonial": "推荐",
+        "modal_all_image": "模态所有图片设置",
+        "review_page": "所有评论页面",
+        "google_shopping": "谷歌购物",
+        "global_display": "全局显示",
+        "group_product": "产品分组",
+        "custom_domain": "自定义域名",
+        "qr_code": "QR码管理",
+        "review_translation": "评论翻译",
+        "multi_lang": "多语言小部件",
+        "ai_functionality": "AI功能",
+        "insights_and_segmentation": "洞察和分割",
+        "review_detail_page": "评论详情页面",
+        "import_custom_csv": "导入自定义CSV",
+        "protect_review": "保护评论"
+    },
+    "frequency_ask": {
+        "title": "常见问题",
+        "list_questions": {
+            "1": {
+                "title": "请求审核配额是如何计算的？",
+                "subtitle": "配额是基于订单数量计算的。如果您启用了三种类型的邮件——请求审核、评论提醒和感谢邮件，每个订单只计算一次配额。"
+            },
+            "2": {
+                "title": "如果我不通过TrustShop发送评论请求，我的配额会被使用吗？",
+                "subtitle": "不会，只有在您使用TrustShop的评论请求功能时，配额才会被扣除。如果您不使用此功能，配额将不受影响。"
+            },
+            "3": {
+                "title": "我可以降级我的计划吗？",
+                "subtitle": "是的，如果您不再需要付费功能，您可以随时降级您的计划。只需在降级之前禁用所有付费功能即可。如果您需要帮助，我们的支持团队随时为您提供帮助。"
+            },
+            "4": {
+                "title": "试用期间会收费吗？",
+                "subtitle": "不会，在试用期间您不会被收费。收费只会在试用期结束后开始。"
+            }
+        }
+    },
+    "modal_charge_success": {
+        "title": "您现在是{{plan}}会员！",
+        "content": "感谢您选择我们的高级订阅！准备好享受独家福利和顶级支持吧。让我们一起创造非凡的旅程。"
+    },
+    "special_offer": {
+        "title": "特别优惠：享受30％折扣！",
+        "content": "为表达对您支持的感谢，我们为您提供特别的<1>30%折扣</1>，适用于未来两个月的任何订阅计划。感谢您成为我们尊贵的客户！",
+        "remain_time": "优惠剩余时间："
+    }
+}

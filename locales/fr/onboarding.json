@@ -1,0 +1,169 @@
+{
+    "step_1": {
+        "button": "Commencer",
+        "sub_title": "Commencez par connecter votre boutique Shopify. TrustShop s'intégrera parfaitement à votre boutique, facilitant ainsi la gestion des avis et l'interaction avec vos clients.",
+        "title": "✋ Bienvenue sur TrustShop",
+        "select_language": "Quelle est votre langue principale de communication ?",
+        "select_language_subtitle": "Sélectionnez votre langue préférée pour l'interface.",
+        "help_text": "Vous pouvez toujours changer la langue principale plus tard dans les paramètres.",
+        "app_language": "Langue de l'application"
+    },
+    "step_2": {
+        "quick_guide": {
+            "reload_btn": "Recharger",
+            "recheck_btn": "Erreur. Cliquez pour vérifier à nouveau",
+            "step_1": "<p>Cliquez sur le bouton <span>Activer l'intégration de l'application</span></p>",
+            "step_2": "<p>Une page s'ouvrira et l'application sera <span>activée automatiquement</span></p>",
+            "step_3": "<p>Cliquez sur le bouton <span>Enregistrer</span> (en haut à droite) et assurez-vous de voir un message de succès</p>",
+            "step_4": "<p>Retournez à cette <span>page de bienvenue</span> pour continuer l'intégration de TrustShop.</p>",
+            "success_btn": "Intégration de l'application réussie",
+            "sub_title": "Activez l'application facilement en suivant ces étapes : ",
+            "title": "👉 Ne manquez pas ce guide 👈",
+            "not_detect_embedded": "Impossible d'activer. Veuillez réessayer.",
+            "add_widget_helptext": "Vous avez des difficultés à ajouter le widget ? Contactez-nous pour obtenir de l'aide détaillée !",
+            "helptext": "<p>Cette étape ajoute le code nécessaire pour afficher les avis dans votre boutique.</p><p><i>Ne vous inquiétez pas, cela n'affectera pas le design ou la mise en page de votre boutique.</i></p>"
+        },
+        "sub_title": "Affichez les avis sans problème dans les étapes suivantes",
+        "title": "Demandes automatiques d'avis",
+        "email_setting_title": "Configurer la demande d'avis par e-mail",
+        "email_setting_subtitle": "Les e-mails de demande d'avis seront envoyés automatiquement en fonction des paramètres ci-dessous",
+        "customer_in_country": "Clients dans le pays",
+        "default_country": "Par défaut (Tous les pays)",
+        "send_email_request_review": "Envoyer une demande d'avis par e-mail",
+        "after_order": "Après que le statut de la commande soit",
+        "add_more_country": "Ajouter d'autres pays",
+        "help_text": "Vous pouvez toujours changer cette configuration plus tard dans les paramètres."
+    },
+    "step_3": {
+        "v1": {
+            "quick_guide": {
+                "title": "Ajouter le widget d'avis",
+                "reload_btn": "Recharger",
+                "recheck_btn": "Erreur. Cliquez pour vérifier à nouveau",
+                "step_1": "<p>Ouvrez <1>templates/product.liquid</1> dans l'éditeur</p>",
+                "step_2": "<p>Ajoutez le code suivant à la fin de votre fichier de thème</p>",
+                "step_3": "<p>Cliquez sur <span>Enregistrer</span></p>",
+                "step_4": "<p>Retournez à cette <span>page d'intégration</span> pour continuer l'intégration.</p>",
+                "helptext": "<p>Cette étape ajoute le code nécessaire pour afficher les avis dans votre boutique.</p><p><i>Ne vous inquiétez pas, cela n'affectera pas le design ou la mise en page de votre boutique.</i></p>"
+            }
+        },
+        "v2": {
+            "quick_guide": {
+                "title": "Ajouter le widget d'avis",
+                "reload_btn": "Recharger",
+                "recheck_btn": "Erreur. Cliquez pour vérifier à nouveau",
+                "step_1": "<p>Cliquez sur le bouton <span>Ajouter le widget</span></p>",
+                "step_2": "<p>Le widget sera automatiquement ajouté à votre modèle de produit</p>",
+                "step_3": "<p>Cliquez sur <span>Enregistrer</span> pour confirmer les changements</p>",
+                "step_4": "Vérifiez votre page produit pour voir les avis en action",
+                "step_5": "<p>Retournez à cette <span>page d'intégration</span> pour continuer l'intégration</p>",
+                "helptext": "<p>Cette étape ajoute le code nécessaire pour afficher les avis dans votre boutique.</p><p><i>Ne vous inquiétez pas, cela n'affectera pas le design ou la mise en page de votre boutique.</i></p>"
+            }
+        },
+        "quick_guide": {
+            "sub_title": "Suivez ces étapes simples pour activer les avis sur les produits dans votre boutique :",
+            "title": "Guide rapide",
+            "not_detect_widget": "Nous ne détectons aucun widget. Veuillez réessayer !",
+            "add_widget_helptext": "Vous avez des problèmes pour ajouter le widget ? Contactez-nous pour une assistance détaillée !",
+            "success_btn": "Widget ajouté avec succès"
+        },
+        "sub_title": "Affichez le widget d'avis sur votre boutique en ligne.",
+        "title": "Configurer l'affichage des avis sur les produits",
+        "enable_app_embed": "Activer l'intégration de l'application",
+        "enable_app_embed_subtitle": "Suivez ces étapes simples pour activer les avis sur les produits dans votre boutique",
+        "add_widget_btn": "Ajouter le widget",
+        "enable_embed": "Activer l'intégration de l'application"
+    },
+    "step_4": {
+        "button": "Aller au tableau de bord",
+        "sub_title": "Félicitations ! Vous êtes maintenant prêt à dynamiser votre marque grâce aux avis et recommandations. Préparez-vous à voir votre entreprise prospérer !",
+        "title": "Vous êtes prêt !",
+        "import_text": "Importez facilement les avis de Product Reviews by Shopify, Judge.me, Loox, et plus encore",
+        "import_button": "Importer des avis",
+        "dashboard_text": "Commencez à gérer les avis et à interagir avec vos clients",
+        "dashboard_button": "Aller au tableau de bord"
+    },
+    "pricing_page": {
+        "title": "Des prix simples et directs !",
+        "sub_title": "Essai gratuit de 7 jours. Pas de frais cachés.",
+        "free_plan_des": "Ou commencez gratuitement, parfait pour les débutants.",
+        "recommended": "Recommandé",
+        "pricing_card": {
+            "basic": {
+                "title": "Standard",
+                "sub_title": "Parfait pour les petites entreprises.",
+                "benefit": {
+                    "1": "<p><span>200</span> demandes d'avis par commande/mois</p>",
+                    "2": "<p>Accès à la plupart des fonctionnalités premium</p>",
+                    "3": "<p>Intégration Shopify Flow</p>",
+                    "4": "<p>Support client prioritaire</p>"
+                }
+            },
+            "pro": {
+                "title": "Enterprise",
+                "sub_title": "Élevez votre entreprise au niveau supérieur.",
+                "benefit": {
+                    "1": "<p><span>1 500</span> demandes d'avis par commande/mois</p>",
+                    "2": "<p>Accès à <span>toutes les fonctionnalités premium.</span></p>",
+                    "3": "<p>Page de détails des avis</p>",
+                    "4": "<p>Nom de domaine personnalisé</p>",
+                    "5": "<p>Intégration Shopify Flow</p>",
+                    "6": "<p>Support client prioritaire</p>"
+                }
+            },
+            "unlimited": {
+                "title": "Ultime",
+                "sub_title": "Il n'y a pas de limite à votre croissance.",
+                "benefit": {
+                    "1": "<p><span>Demandes illimitées</span> d'avis par commande</p>",
+                    "2": "<p>Accès à <span>toutes les fonctionnalités premium.</span></p>",
+                    "3": "<p>Page de détails des avis</p>",
+                    "4": "<p>Nom de domaine personnalisé</p>",
+                    "5": "<p>Intégration Shopify Flow</p>",
+                    "6": "<p>Support client prioritaire</p>"
+                }
+            }
+        }
+    },
+    "modal_compare_plans": {
+        "title": "Comparer les plans",
+        "pricing_card": {
+            "free": {
+                "title": "Básique",
+                "sub_title": "Commencez gratuitement, parfait pour les débutants.",
+                "benefit": {
+                    "1": "<p><span>50</span> demandes d'avis par commande/mois</p>",
+                    "2": "<p>Accès de base au widget d'avis</p>",
+                    "3": "<p>Édition de base du courrier de demande</p>",
+                    "4": "<p>Uniquement télécharger des images par les examinateurs</p>"
+                }
+            },
+            "basic": {
+                "title": "Standard",
+                "sub_title": "Parfait pour les petites entreprises ou les individus.",
+                "benefit": {
+                    "1": "<p><span>200</span> demandes d'avis par commande/mois</p>",
+                    "2": "<p>Accès à <span>la plupart des fonctionnalités premium</span></p>",
+                    "3": "<p>Widget entièrement personnalisable</p>",
+                    "4": "<p>Vidéos des avis</p>",
+                    "5": "<p>Google Shopping</p>",
+                    "6": "<p>Protégez vos avis</p>"
+                }
+            },
+            "pro": {
+                "title": "Enterprise",
+                "sub_title": "Élevez votre entreprise au niveau supérieur.",
+                "benefit": {
+                    "1": "<p><span>1 500</span> demandes d'avis par commande/mois</p>",
+                    "2": "<p>Accès à <span>toutes les fonctionnalités premium.</span></p>",
+                    "3": "<p>Widget entièrement personnalisable</p>",
+                    "4": "<p>Vidéos des avis</p>",
+                    "5": "<p>Google Shopping</p>",
+                    "6": "<p>Protégez vos avis</p>",
+                    "7": "<p>Page de détails des avis</p>",
+                    "8": "<p>Nom de domaine personnalisé</p>"
+                }
+            }
+        }
+    }
+}

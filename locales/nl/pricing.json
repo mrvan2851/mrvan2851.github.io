@@ -1,0 +1,184 @@
+{
+    "plan": {
+        "for_free": "Gratis",
+        "title": "Plan",
+        "free": "Basis",
+        "basic": "Standaard",
+        "pro": "Enterprise",
+        "unlimited": "Ultiem",
+        "free_plan": "Basisplan",
+        "basic_plan": "Standaardplan",
+        "pro_plan": "Enterpriseplan",
+        "unlimited_plan": "Ultiem plan"
+    },
+    "basic": "Basis",
+    "fully": "Volledig",
+    "plan_active": "{{plan}} geactiveerd",
+    "per_month": "per maand",
+    "discount_offer_time": "voor de volgende {{time}}",
+    "origin_price": "Oorspronkelijke prijs ",
+    "order/month": "bestellingen/maand",
+    "request_reviews": "Beoordeling aanvragen",
+    "upgrade_plan": "Plan upgraden",
+    "select_plan": "{{plan}} selecteren",
+    "start_free": "Begin gratis",
+    "unlimited": "Onbeperkt",
+    "modal_pricing_title": "Ontgrendel Premium Functies met Onze Flexibele Prijsstelling",
+    "best_choice": "Beste keuze",
+    "coming_soon": "Binnenkort beschikbaar",
+    "process_bar": {
+        "title": "Totaal aantal voltooide e-mails",
+        "subtitle": "Deze telling wordt ververst op <strong>{{date}}</strong>",
+        "order_count": "{{used}} van {{total}} bestellingen voltooid"
+    },
+    "plan_table": {
+        "title": "Prijsplannen",
+        "subtitle": "Ontdek aangepaste abonnementsplannen die zijn ontworpen om uw bedrijf te laten groeien!",
+        "start_trial": "Start de {{day}} dagen gratis proefperiode",
+        "current_plan": "Huidig plan",
+        "upgrade": "Upgraden",
+        "select_plan": "Plan selecteren",
+        "downgrade": "Downgraden",
+        "pricing_card": {
+            "free": "Toegang tot essentiële functies met ons Basisplan, perfect voor beginners.",
+            "basic": "Krijg geavanceerde tools en ondersteuning met het Standaardplan voor individuen",
+            "pro": "Versterk uw onderneming met ons allesomvattende Enterpriseplan",
+            "unlimited": "Er is geen limiet aan uw groei"
+        },
+        "modal_downgrade": {
+            "title": "Verlies geen toegang tot krachtige functies!",
+            "subtitle": "Uw winkel gebruikt enkele premium functies. Zet ze uit om uw plan te downgraden:",
+            "discount_voucher": "Automatische kortingsbon",
+            "customize_widget": "Aangepast widget",
+            "upload_video": "Video uploaden bij het schrijven van een beoordeling",
+            "review_testimonial": "Getuigenis",
+            "modal_all_image": "Alle afbeeldingsinstellingen modal",
+            "review_page": "Alle beoordelingen pagina",
+            "google_shopping": "Google Shopping",
+            "global_display": "Globale weergave",
+            "group_product": "Groepsproduct",
+            "custom_domain": "Aangepast domein",
+            "qr_code": "QR-codebeheer",
+            "review_translation": "Beoordeling vertaling",
+            "multi_lang": "Meertalige widget",
+            "ai_functionality": "AI functionaliteit",
+            "insights_and_segmentation": "Inzichten en segmentatie",
+            "review_detail_page": "Beoordelingsdetailpagina",
+            "import_custom_csv": "Aangepaste CSV importeren",
+            "protect_review": "Beoordeling beschermen"
+        },
+        "primary_collapse": {
+            "title": "Ontdek het beste plan voor uw behoeften",
+            "email_quota": "Beoordeling aanvragen",
+            "email_quota_helptext": "We berekenen je quota op basis van het aantal bestellingen, niet op basis van het aantal verzonden beoordelingsverzoekmails. Bijvoorbeeld, als je drie e-mails verstuurt (verzoek, herinnering en bedankje), telt dit nog steeds als één.",
+            "order_per_month": "Totaal aantal bestellingen/maand",
+            "discount_voucher": "Kortingsbon",
+            "customize_widget": "Aangepast widget",
+            "upload_video": "Beoordelingsvideo",
+            "review_testimonial": "Beoordeling getuigenis",
+            "modal_all_image": "Alle afbeeldingsmodaal",
+            "review_page": "Alle beoordelingen pagina",
+            "google_shopping": "Google Shopping",
+            "global_display": "Globale weergave",
+            "group_product": "Groepsproduct",
+            "custom_domain": "Aangepast domein",
+            "qr_code": "QR-codebeheer",
+            "review_translation": "Beoordeling vertaling",
+            "multi_lang": "Meertalige widget",
+            "ai_functionality": "AI functionaliteit",
+            "insights_and_segmentation": "Inzichten en segmentatie",
+            "review_detail_page": "Beoordelingsdetailpagina",
+            "import_custom_csv": "Aangepaste CSV importeren",
+            "protect_review": "Beoordeling beschermen"
+        },
+        "details_collapse": {
+            "title": "Vergelijk het aangepaste widget tussen abonnementsplannen",
+            "widgetBox": {
+                "title": "Widgetbox (standaard)",
+                "choose_layout": "Kies indeling",
+                "summary_box": "Samenvattingsbox",
+                "color_scheme": "Kleurenschema",
+                "information_display": "Informatie weergeven",
+                "content": "Inhoud"
+            },
+            "widgetBoxNoReview": {
+                "title": "Widgetbox (geen beoordelingen)",
+                "content": "Inhoud",
+                "color_scheme": "Kleurenschema"
+            },
+            "modalReviewDetail": {
+                "title": "Modal Beoordelingsdetails",
+                "all_settings": "Alle instellingen"
+            },
+            "modal_all_image": {
+                "title": "Alle afbeeldingsmodaal",
+                "all_settings": "Alle instellingen"
+            },
+            "formWriteReview": {
+                "title": "Beoordeling schrijven formulier",
+                "review_with_video": "Beoordeling met video"
+            }
+        }
+    },
+    "free_banner": {
+        "title": "Toegang tot essentiële functies met ons Gratis Plan, perfect voor beginners.",
+        "email_quota_limit": "E-mail quotum limiet {{limit}} bestellingen/maand",
+        "basic_access": "Basis toegang tot beoordelingswidget",
+        "basic_edit_email": "Basis bewerkingsverzoek e-mail",
+        "upload_media": "Alleen afbeelding uploaden door beoordelaars",
+        "quick_chat": "Snelle chatondersteuning",
+        "visible_brand": "Zichtbaar TrustShop-merk"
+    },
+    "basic_banner": {
+        "everything_in_basic": "Alles in het Basisplan",
+        "email_quota": "E-mail quotum limiet {{limit}} bestellingen/maand",
+        "discount_voucher": "Automatische kortingsbon",
+        "customize_widget": "Aangepast widget",
+        "upload_video": "Video uploaden bij het schrijven van een beoordeling",
+        "review_testimonial": "Getuigenis",
+        "modal_all_image": "Alle afbeeldingsinstellingen modal",
+        "review_page": "Alle beoordelingen pagina",
+        "google_shopping": "Google Shopping",
+        "global_display": "Globale weergave",
+        "group_product": "Groepsproduct",
+        "custom_domain": "Aangepast domein",
+        "qr_code": "QR-codebeheer",
+        "review_translation": "Beoordeling vertaling",
+        "multi_lang": "Meertalige widget",
+        "ai_functionality": "AI functionaliteit",
+        "insights_and_segmentation": "Inzichten en segmentatie",
+        "review_detail_page": "Beoordelingsdetailpagina",
+        "import_custom_csv": "Aangepaste CSV importeren",
+        "protect_review": "Beoordeling beschermen"
+    },
+    "frequency_ask": {
+        "title": "Veelgestelde vragen",
+        "list_questions": {
+            "1": {
+                "title": "Hoe wordt het quotum voor beoordelingsverzoeken berekend?",
+                "subtitle": "Het quotum is gebaseerd op het aantal bestellingen. Als u alle drie soorten e-mails inschakelt - Beoordelingsverzoek, Herinnering aan beoordeling en Bedankt. Slechts één quotum wordt per bestelling geteld."
+            },
+            "2": {
+                "title": "Wordt mijn quotum gebruikt als ik geen beoordelingsverzoeken via TrustShop verstuur?",
+                "subtitle": "Nee, uw quotum wordt alleen afgetrokken als u gebruik maakt van de functie voor beoordelingsverzoeken van TrustShop. Als u deze functie niet gebruikt, blijft uw quotum ongewijzigd."
+            },
+            "3": {
+                "title": "Kan ik mijn plan downgraden?",
+                "subtitle": "Ja, u kunt op elk moment uw plan downgraden als u geen gebruik meer wilt maken van de betaalde functies. Zorg er gewoon voor dat u alle betaalde functies uitschakelt voordat u downgrade. Als u hulp nodig heeft, staat ons ondersteuningsteam altijd voor u klaar."
+            },
+            "4": {
+                "title": "Word ik tijdens de proefperiode in rekening gebracht?",
+                "subtitle": "Nee, u wordt niet in rekening gebracht tijdens de proefperiode. Kosten worden pas in rekening gebracht nadat de proefperiode is afgelopen."
+            }
+        }
+    },
+    "modal_charge_success": {
+        "title": "Je bent nu een {{plan}} lid!",
+        "content": "Bedankt voor het kiezen van ons premium abonnement! Maak je klaar voor exclusieve voordelen en topkwaliteit ondersteuning. Laten we deze reis bijzonder maken."
+    },
+    "special_offer": {
+        "title": "Speciale Aanbieding: 30% Korting voor Uw Trouw!",
+        "content": "Om onze waardering voor uw steun te tonen, bieden wij u een speciale <1>30% korting</1> op elk abonnement voor de komende twee maanden. Bedankt dat u een gewaardeerde klant bent!",
+        "remain_time": "Resterende tijd voor de aanbieding:"
+    }
+}

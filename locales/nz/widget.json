@@ -1,0 +1,518 @@
+{
+    "limit_function": {
+        "widget_limit": "Kei te wātea noa tēnei āhuatanga i ngā mahere Paerewa me te Rawa. Tēnā whakahoungia tō mahere kia uru ki tēnei āhuatanga.",
+        "setting_function_limit": {
+            "badge": "Mai i {{plan}}",
+            "content": "Whakahoungia tō mahere kia whakaritea tēnei āhuatanga."
+        }
+    },
+    "list_widget": {
+        "review_display": "Review Display",
+        "review_display_description": "Show all customer reviews, giving insights into user experiences with the product.",
+        "review_testimonial": "Review Testimonial",
+        "review_testimonial_description": "Highlight top reviews in a rotating carousel format to attract attention to standout feedback.",
+        "review_onepage": "Review Page",
+        "review_onepage_description": "A page displaying all customer reviews, allowing easy browsing of experiences.",
+        "product_rating": "Product Rating",
+        "product_rating_description": "Display the product’s overall rating based on a 5-star scale.",
+        "global_setting": "Tautuhinga Ao",
+        "global_setting_description": "Ka taea e ngā kaiwhakamahi te whakahaere i ngā āhuatanga, Ko ngā whakarerekētanga ka mahia ka pā ki ngā widget katoa"
+    },
+    "discount_voucher": {
+        "title": "Tuhinga whakapau utu",
+        "sub_title": "Whakamanahia ngā kiritaki ki te whakatika i te whakapau utu mō te hoko whakamua",
+        "preview": "Whakatakotoranga",
+        "toggle_discount_voucher": "Whakahohea te whakapau utu",
+        "save_btn": "Tiaki",
+        "coupon_shopify": {
+            "title": "Kuponi Shopify",
+            "sub_title": "Kōnae whakapau utu Shopify",
+            "no_code": "Kāore koe kia whakatūtūtia i tētahi kōdu.",
+            "off_example": "He tauira tēnei mō te rārangi panuku (kāore e whakawhitiwhiti): 80% OFF",
+            "off": "OFF",
+            "check_discount_button": "Takiwhānui whakapau utu",
+            "check_success": "Whakapau utu e wātea ana",
+            "check_fail": "Kāore te whakapau utu e whai ana, tirohia te whakapau utu <1>ka whiwhi i konei</1>."
+        },
+        "coupon_auto": {
+            "title": "Whakapau utu ā-otomatiki",
+            "review_for_photo": "Whakapau utu mō te whakamāoritanga",
+            "discount_code": "Kōdu whakapau utu ā-otomatiki",
+            "discount_for_review_only_content": "Whakapau utu mō ngā whakamāoritanga katoa",
+            "discount_for_review_photos": "Whakapau utu mō ngā whakamāoritanga me ngā whakaahua",
+            "discount_for_review_videos": "Whakapau utu mō ngā whakamāoritanga me ngā ataata",
+            "discount_expire_after": "Whakapau utu ka whakakore i muri i te"
+        },
+        "tabs": {
+            "email_before": "Īmēra i mua",
+            "email_after": "Īmēra i muri"
+        },
+        "coupon_design": {
+            "title": "Whakapau utu whakapaparanga",
+            "voucher_color": "Tae whakapau utu",
+            "text_color": "Tae kupu",
+            "button_color": "Tae pātene",
+            "button_text_color": "Tae kupu pātene"
+        },
+        "general": {
+            "choose_your_design_template": "Kōwhiria tō tauira whakapaparanga",
+            "template": "Tauira",
+            "coupon_message": "Karere whakapau utu",
+            "call_to_action_button_content": "Karere whakatutukinga-pūkete"
+        },
+        "voucher_setting": {
+            "title": "Tuhinga whakapau utu me te hōputu",
+            "icon": "Tohu",
+            "icon_and_highlight": "Tohu me te whakapau utu whakapaparanga tae kupu",
+            "message": "Karere",
+            "button_title": "Taitara pātene",
+            "button_label": "Kupu pātene",
+            "button_background": "Whakapapa pātene",
+            "message_background": "Whakapapa karere"
+        },
+        "set_up_discount": "Whakaritea te whakapau utu",
+        "display_discount": "Whakaatu whakapau utu",
+        "review_request": "Tono arotake",
+        "review_request_description": "Whakaritea ngā īmēra tono arotake me te tohu ritenga, ngā tae, me tētahi karere whakatutukinga kua whakaritea.",
+        "thank_email": "Īmēra whakawhetai",
+        "thank_email_description": "Whakaritea ngā īmēra whakawhetai me ngā momo kōdu whakapau utu ritenga me ngā karere i muri i te waiho a ngā kiritaki i tētahi arotake.",
+        "submitted_review_popup": "Submitted review popup",
+        "submitted_review_popup_description": "Whakaatuhia he pihanga whakawhetai i muri i te hoko, e whakaatu ana ki ngā kiritaki he waehere hekenga mō tā rātou ota e whai ake nei.",
+        "type_discount_code_after_review_label": "Kaituhi whakapau utu ka whiwhi i ngā kōdu whakapau utu inā rātou e tuhituhi ana i ngā arotake mō:",
+        "type_discount_code_after_review_value": {
+            "order": "Hoko - Kotahi kōdu whakapau utu mō ia hoko",
+            "product": "Hua - Kotahi kōdu whakapau utu mō ia hua"
+        }
+    },
+    "product_rating": {
+        "product_rating": "Whārangi Hua",
+        "collection_rating": "Whārangi Kohinga",
+        "hide_rating_when_empty": "Hunaia te whakatauranga whetū mēnā kāore he arotake",
+        "review_information": {
+            "title": "Ngā Mōhiohio Arotake",
+            "show_total_reviews": "Whakaatuhia te katoa o ngā arotake",
+            "show_avg_rating": "Whakaatuhia te whakatauranga toharite o ngā arotake"
+        },
+        "widget_style": {
+            "title": "Kāhua Papatohu",
+            "full_5_star": "(5 Whetū Katoa)",
+            "1_star": "(1 Whetū)"
+        },
+        "text_before": "Kuputuhi i mua",
+        "text_after": "Kuputuhi i muri",
+        "font_size": {
+            "title": "Rahi Momotuhi",
+            "star_size": "Rahi Ata Whetū",
+            "text_avg_rating": "Whakatauranga Toharite",
+            "text_total_rating": "Tapeke o ngā arotake"
+        },
+        "language": {
+            "title": "Reo",
+            "label_rating": "Tohu Whakatauranga",
+            "label_rating_helptext": "Ina kotahi anake te arotake",
+            "label_ratings": "Ngā Tohu Whakatauranga",
+            "label_ratings_helptext": "Ina he maha ngā arotake"
+        },
+        "modal_add_rating_manually": {
+            "rating_title": "Tāpirihia te whakatauranga whetū ā-ringa",
+            "widget_title": "Tāpirihia te papatohu ā-ringa",
+            "guild_rating": "Tāruatia te waehere kei raro nei ka whakapiri ki ngā wāhanga e hiahia ana koe ki te whakaatu i te whakatauranga whetū. <1>Ākona anō</1>",
+            "guild_widget": "Tāruatia te waehere kei raro nei ka whakapiri ki ngā wāhanga e hiahia ana koe ki te whakaatu i te papatohu. <1>Ākona anō</1>",
+            "guild_onepage": "Tirohia te akoranga mō te hanga whārangi arotake <1>i konei</1>.<br /> Mēnā e hiahia ana koe ki te āwhina, whakapā mai ki a mātou mā te īmēra support@trustshop.io.",
+            "collection_title": "Tāpirihia te whakatauranga kohinga",
+            "onepage_title": "Tāpirihia te whārangi arotake",
+            "testimonial_title": "Tāpirihia he whakaaturanga",
+            "guild_collection": "Tāruatia te waehere kei raro nei ka whakapiri ki ngā wāhanga e hiahia ana koe ki te whakaatu i te whakatauranga kohinga. <1>Ākona anō</1>"
+        },
+        "custom_color": {
+            "title": "Tae Ritenga",
+            "star_icon": "Ata Whetū",
+            "star_icon_empty": "Ata Whetū (Korekau)",
+            "avg_rating": "Whakatauranga Toharite",
+            "total_number_of_reviews": "Tapeke o ngā arotake"
+        }
+    },
+    "review_display": {
+        "widget_area": "Rohe ā-ringa",
+        "choose_layout": {
+            "title": "Kōwhiria te Tatauranga",
+            "list": "Rārangi",
+            "grid": "Papa"
+        },
+        "summary_box": {
+            "title": "Pouaka Whakarārangi",
+            "left": "Mauī",
+            "top": "Teitei"
+        },
+        "color_schema": {
+            "title": "Raupapa Tae",
+            "custom_color_schemes": "Raupapa tae whakarite",
+            "primary_color": "Tūtohu matua",
+            "secondary_color": "Tūtohu tāpiri",
+            "title_text_color": "Tae kuputuhi taitara",
+            "all_photos_button_color": "Pātene katoa whakaahua",
+            "primary_text_color": "Tae kuputuhi matua",
+            "secondary_text_color": "Tae kuputuhi tāpiri",
+            "star_icon": "Tītohu whetū",
+            "border": "Paerewa",
+            "filter_sort_background": "Papamuri raupapa tōraro",
+            "filter_sort_text": "Kuputuhi tōraro",
+            "rating_process_color": "Tae tukanga tohu",
+            "rating_process_empty_color": "Tae tukanga tohu kāore",
+            "users_name": "Ingoa kaiwhakamahi",
+            "loadmore_color": "Tae kākahu rēhita",
+            "bg_base_color": "Papamuri matū",
+            "slide_button": "Pātene reti",
+            "slide_arrow": "Pere reti",
+            "modal_all_medias_headline_title": "Taitara rārangi",
+            "modal_all_medias_filter_label": "Tīpako tohu",
+            "modal_all_medias_filter_background": "Papamuri tīpako",
+            "modal_all_medias_selected_filter_label": "Tīpako - Tīpako tohu",
+            "modal_all_medias_selected_filter_background": "Tīpako - Papamuri tīpako",
+            "modal_all_medias_star_icon": "Tītohu whetū",
+            "modal_all_medias_rating_background": "Papamuri tohu",
+            "modal_all_medias_item_border": "Paerewa o te tūemi",
+            "modal_all_medias_navigate_button": "Pātene mātai",
+            "modal_all_medias_navigate_arrow": "Aroturuki kāwai",
+            "modal_all_medias_review_customer_name": "Ingoa kiritaki arotake",
+            "modal_all_medias_review_time": "Wā arotake",
+            "modal_all_medias_review_star": "Whetū arotake",
+            "modal_all_medias_review_star_disable": "Whetū paerewa arotake",
+            "modal_all_medias_review_title": "Taitara arotake",
+            "modal_all_medias_review_content": "Ihuwaka arotake",
+            "modal_all_medias_review_media_background": "Papamuri whakawhiti arotake",
+            "modal_all_medias_review_background": "Papamuri arotake",
+            "modal_all_medias_card_background": "Papamuri kāri",
+            "modal_all_medias_close_button": "Pātene kati",
+            "modal_all_medias_close_icon": "Tītohu kati",
+            "modal_detail_customer_name": "Ingoa kiritaki",
+            "modal_detail_review_time_title": "Taitara wā arotake",
+            "modal_detail_review_star": "Whetū arotake",
+            "modal_detail_review_star_default": "Whetū paerewa arotake",
+            "modal_detail_review_star_field_background": "Papamuri wāhi whetū",
+            "modal_detail_review_title": "Taitara arotake",
+            "modal_detail_review_content": "Ihuwaka arotake",
+            "modal_detail_navigator_button": "Pātene mātai",
+            "modal_detail_navigator_arrow": "Aroturuki kāwai",
+            "modal_detail_purchased_item": "Tūemi hoko",
+            "modal_detail_product_name": "Ingoa hua",
+            "modal_detail_product_price": "Utu hua",
+            "modal_detail_icon_title": "Taitara tohu",
+            "modal_detail_selected_icon": "Tohu tīpako",
+            "modal_detail_icon_background": "Papamuri tohu",
+            "modal_detail_divider": "Arotaka wehewehe",
+            "modal_detail_card_background": "Papamuri kāri",
+            "modal_detail_close_button": "Pātene kati",
+            "modal_detail_close_icon": "Tītohu kati",
+            "form_write_review_star_color": "Tae tohu whetū",
+            "reset_to_default_title": "Whakatika raupapa tae ki ngā paerewa?",
+            "reset_to_default_content": "Aroha mai, kāore pea ka tiakina ō huringa",
+            "page_background_color": "Papamuri whārangi",
+            "star_icon_color": "Tae tohu whetū",
+            "line_color": "Paerewa",
+            "user_name_color": "Tae ingoa kaiwhakamahi",
+            "load_more_color": "Tae kākahu rēhita",
+            "product_background_color": "Papamuri hua",
+            "product_text_color": "Tae kuputuhi hua",
+            "reply_title_color": "Tae taitara urupare",
+            "reply_content_color": "Tae ihuwaka urupare",
+            "reply_background_color": "Papamuri urupare"
+        },
+        "information_display": {
+            "title": "Whakaatu Pūrongo",
+            "write_a_reivew_button": "Tuhia he whakamāoritanga pātene",
+            "review_date": "Rā whakamāoritanga",
+            "button_report": "Pātene pātai",
+            "button_helpful": "Pātene āwhina",
+            "customer_information": {
+                "title": "Mōhiohio Kiritaki",
+                "customer_profile_picture": "Whakaatu kōtaha kiritaki",
+                "customer_country_flag": "Whakaatu kara whenua kiritaki"
+            },
+            "review_filter": "Tātari whakamāoritanga",
+            "review_per_page": "Whakamāoritanga i te whārangi",
+            "summary": "Whakarārangi",
+            "number_of_review": "Tau o ngā whakamāoritanga",
+            "divider": "Whakawhiti",
+            "text_1": "Tuhinga whakamua",
+            "text_2": "Tuhinga whakamuri",
+            "show_review_media": "Whakaatu whakaahua whakamāoritanga",
+            "image_gallery": "Whare whakaahua",
+            "star_rating": "Whetū whakamātau",
+            "customer_name_display": "Whakaaturanga ingoa kiritaki",
+            "anonymous": "Huna",
+            "reviewer_selects": "Kaitātari e whiriwhiri",
+            "number_of_reviews": "Tau o ngā whakamāoritanga",
+            "form_write_review": {
+                "show_product_image": "Whakaatu Atahanga Hua",
+                "show_add_photo_btn": "Whakaatu Pātene Tāpirihia Whakaahua",
+                "show_add_video_btn": "Whakaatu Pātene Tāpirihia Ataata",
+                "required_review_title": "Taitara Arotake E Hiahiatia Ana",
+                "hide_review_title": "Huna Taitara Arotake"
+            }
+        },
+        "card_content": {
+            "title": "Kupu Kāri",
+            "show_review_media": "Whakaatu whakaahua whakamāoritanga",
+            "show_review_time": "Whakaatu wā whakamāoritanga",
+            "show_purchase_items": "Whakaatu īmēra hoko",
+            "show_star_rating": "Whakaatu whetū whakamātau",
+            "show_helpful_button": "Whakaatu pātene āwhina",
+            "image_per_row": "Whakaatu whakaahua i ia rarangi",
+            "filter": "Tātari",
+            "gallery_filter": "Tātari whare whakaahua",
+            "star_size_helptext": "I roto i te whakaaturanga, he rahi noa i te rahi whakatūnga"
+        },
+        "content": {
+            "title": "Kaupapa",
+            "widget_language": "Reo ā-ringa",
+            "header_widget": {
+                "title": "Taitara ā-ringa",
+                "customer_review_title": "Taitara whakamāoritanga kiritaki",
+                "review_submit": "Tukuna whakamāoritanga",
+                "write_review_button": "Tuhia he whakamāoritanga pātene",
+                "review_with_comments": "Whakamāoritanga me ngā whakaaro",
+                "text_total_reviews": "Kupu whakamāoritanga katoa"
+            },
+            "label_of_filter": {
+                "title": "Etiketi o te tātari",
+                "all": "Katoa",
+                "most_helpful": "Whakamāoritanga āwhina",
+                "highest_rating": "Whakamāoritanga teitei",
+                "lowest_rating": "Whakamāoritanga iti",
+                "oldest": "Tawhito",
+                "newest": "Hōu",
+                "review_with_photos": "Whakamāoritanga me ngā whakaahua",
+                "stars_filter": "Tātari whetū (1-5)"
+            },
+            "content_review": {
+                "title": "Whakamāoritanga kaupapa",
+                "text_review_on": "Kupu whakamāoritanga mō",
+                "text_helpful": "Kupu āwhina",
+                "button_loadmore_review": "Pātene tāpiri anō whakamāoritanga"
+            },
+            "modal_write_review": {
+                "title": "Tuhia he whakamāoritanga pūrongo",
+                "modal_write_review_title": "Tuhia he whakamāoritanga pūrongo taitara",
+                "text_write_reviews": "Tuhia he whakamāoritanga",
+                "text_click_to_rate": "Pāwhiritia ki te whakamātau",
+                "label_customer_name": "Etiketi ingoa kiritaki",
+                "placeholder_customer_name": "Whakakī ingoa kiritaki",
+                "label_customer_email": "Etiketi īmēra kiritaki",
+                "placeholder_customer_email": "Whakakī īmēra kiritaki",
+                "label_review_title": "Etiketi taitara whakamāoritanga",
+                "placeholder_review_title": "Whakakī taitara whakamāoritanga",
+                "label_review_content": "Etiketi whakamāoritanga kaupapa",
+                "placeholder_review_content": "Whakakī whakamāoritanga kaupapa",
+                "label_characters_remaining": "Etiketi tohu whakamutunga",
+                "button_add_photo_text": "Pātene tāpiri whakaahua kupu",
+                "button_back": "Pātene whakamuri",
+                "button_submit": "Pātene tuku"
+            },
+            "validate_message_label": {
+                "title": "Etiketi Whakapuaki Whakamāramatanga",
+                "input": "Whakauru",
+                "email": "Īmēra",
+                "image_upload_fail": "Whakaputanga whakaahua whakaputa",
+                "image_upload_size": "Rahi whakaputa whakaahua (<10MB)",
+                "image_upload_type": "Momo whakaputa whakaahua (.bmp, .jpeg, .png)"
+            },
+            "modal_image": {
+                "title": "Whakaahua pūrongo",
+                "review_for": "Whakamāoritanga mō",
+                "image_from_this_review": "Whakaahua mai i tēnei whakamāoritanga"
+            },
+            "modal_report": {
+                "title": "Pūrongo pātai"
+            }
+        },
+        "tabs": {
+            "default": "Taunoa",
+            "no_reviews": "Kore Whakamāoritanga",
+            "modal": {
+                "all_medias": "Ngā Rauemi Katoa",
+                "review_detail": "Whakamāoritanga Whakaahuatanga",
+                "form_write_review": "Puka Tuhituhi Arotake",
+                "popup_after_review": {
+                    "success": "Pūpū i muri i te arotake - angitu",
+                    "pending": "Pūpū i muri i te arotake - tatari"
+                }
+            }
+        },
+        "no_reviews": {
+            "section_title": "Taitara whārangi",
+            "section_border": "Taitara whārangi",
+            "show_border": "Whakaatu taitara",
+            "title": "Kore whakamāoritanga",
+            "text_no_reviews": "Kupu kore whakamāoritanga",
+            "call_to_action": "Karere whakatutukinga",
+            "call_to_action_color": "Karere whakatutukinga",
+            "call_to_action_text_color": "Karere whakatutukinga kupu",
+            "border_color": "Taitara",
+            "section_title_color": "Tae whārangi",
+            "text_no_review_color": "Tae kupu kore whakamāoritanga",
+            "page_no_review_star_color": "Tae whetū whakamāoritanga whārangi"
+        },
+        "popup_submitted_review": {
+            "layout": {
+                "title": "Raupapa",
+                "default": "Paerewa",
+                "without_media": "Kaari arotake - kore pāpāho",
+                "disable": "Tātaritia te kaari arotake"
+            },
+            "title": {
+                "title": "Taitara",
+                "headline_label": "Tairitenga taitara",
+                "content_label": "Tairitenga ihirangi",
+                "button_label": "Tairitenga pātene"
+            },
+            "color_schema": {
+                "title": "Rauemi tae",
+                "popup_background": "Papamuri pūpū",
+                "popup_icon": "Tārua pūpū",
+                "popup_headline": "Taitara pūpū",
+                "popup_content": "Ihirangi pūpū",
+                "product_name": "Ingoa hua",
+                "product_price": "Utu hua",
+                "review_card_background": "Papamuri kaari arotake",
+                "review_card_title": "Taitara kaari arotake",
+                "review_card_content": "Ihirangi kaari arotake",
+                "review_card_border": "Rauka kaari arotake",
+                "star_active": "Whetū - pēnā",
+                "star_disable": "Whetū - kore",
+                "customer_name": "Ingoa kiritaki",
+                "customer_email": "Īmēra kiritaki",
+                "button_border": "Pātene - rauka",
+                "button_background": "Pātene - papamuri",
+                "button_title": "Taitara pātene"
+            }
+        }
+    },
+    "review_testimonial": {
+        "choose_review": {
+            "title": "Whiria ngā arotake hei whakaatu",
+            "auto_new_5": "Tiki aunoa i ngā arotake hōu 5-whetū",
+            "auto_helptext": "Ka whakahou ngā arotake ia 10 meneti",
+            "number_of_reviews": "Tatau arotake",
+            "choose_manually": "Kōwhiria ā-ringa",
+            "choose_manually_button": "Kōwhiria ā-ringa",
+            "selected": "kua whiriwhiria hei whakaatu i te carousel",
+            "warning": "Ka pai ake te āhua o te carousel mēnā he iti rawa te toru ngā arotake",
+            "warning_2": "īmēra tō tono",
+            "warning_3": "tāuru ki te tiki",
+            "modal": {
+                "title": "Kōwhiria ngā arotake ā-ringa"
+            }
+        },
+        "title": {
+            "title": "Taitara",
+            "title_label": "Tapanga taitara"
+        },
+        "card_content": {
+            "title": "Ihirangi kāri",
+            "customer_name_display": "Whakaatu ingoa kiritaki",
+            "anonymous": "Ingoakore",
+            "product_name": "Ingoa hua",
+            "product_image": "Atahanga hua",
+            "display_star_rating": "Whakaatu tohu whakatauranga whetū",
+            "display_customer_avatar": "Whakaatu āhua kiritaki",
+            "show_product_information": "Whakaatu mōhiohio hua",
+            "show_customer_flag": "Whakaatu kara whenua o te kiritaki",
+            "show_review_date": "Whakaatu rā arotake",
+            "review_title": "Taitara arotake",
+            "review_date": "Rā arotake"
+        },
+        "movement": {
+            "title": "Neke aunoa",
+            "auto_movement": "Neke aunoa",
+            "time_between_reviews": "Wā i waenga i ngā arotake (hekona)",
+            "arrow_navigation": "Nuku pere"
+        },
+        "color_schemes": {
+            "title": "Kaupapa tae",
+            "headline": "Upoko matua",
+            "content": "Ihirangi",
+            "navigator_button": "Pātene aratohu",
+            "navigator_arrow": "Pere aratohu",
+            "page_indicator": "Tohu whārangi",
+            "verified_tag": "Tapanga manatoko",
+            "divider": "Kairapu",
+            "border": "Paenga",
+            "link_title": "Taitara hononga",
+            "customer_name": "Ingoa kiritaki",
+            "star": "Whetū",
+            "navigator": "Aratohu",
+            "arrow_icon": "Pikitia pere",
+            "product_background": "Papatū hua",
+            "card_background": "Papatū kāri",
+            "widget_background": "Papatū widget",
+            "product_name": "Ingoa hua",
+            "review_date": "Rā arotake"
+        }
+    },
+    "review_onepage": {
+        "review_source": {
+            "title": "Pūtake arotake",
+            "subtitle": "Tēnā kōwhiri ngā hua hei whakaatu i ngā arotake i te whārangi arotake",
+            "all_product": "Ngā hua katoa",
+            "select_product": "Kōwhiri hua",
+            "warning": "Me kōwhiri koe i te iti rawa atu i tētahi hua hei whakaatu i runga i te whārangi arotake.",
+            "help_text": "Hei paerewa, ka kitea ngā arotake katoa i pānuitia"
+        },
+        "one_page_header": {
+            "title": "Kāinga tātaki kotahi"
+        },
+        "review_display": {
+            "title": "Whakaaturanga mōhiohio",
+            "summary_box": "Pouaka tīra",
+            "product": "Hua"
+        }
+    },
+    "after_review_submitted": {
+        "show_discount_code": "Whakaatu waehere hekenga",
+        "discount_code_color": "Tae waehere hekenga",
+        "message_background_color": "Tae papamuri karere",
+        "title_label": "Tapanga taitara",
+        "description_label": "Tapanga whakaahuatanga",
+        "title_label_color": "Tae tapanga taitara",
+        "description_label_color": "Tae tapanga whakaahuatanga",
+        "show_submitted_review": "Whakaatu arotake kua tukuna",
+        "button_label": "Taitara pātene"
+    },
+    "tabs": {
+        "discount_voucher": "Puka tīti",
+        "product_rating": "Whakatauranga hua",
+        "review_display": "Whakaaturanga arotake",
+        "review_testimonial": "Whakamāoritanga",
+        "review_onepage": "Whārangi arotake"
+    },
+    "title": "Whakahaere Ā-ringa",
+    "add_widget_guild": {
+        "title": "Me pēhea te tāuta i te widget?",
+        "enable_global_script": "I mua i to tīmatanga, me mātua whakarite kua <strong><span>whakahohea te whakauru taupānga TrustShop Global</span> i Shopify Admin</strong>",
+        "add_widget_v2": {
+            "title": "Tāpiri i te widget mā: Shopify App Block",
+            "for": "(mō te kaupapa 2.0)",
+            "step": {
+                "step_1": "Pāwhiritia <strong><span>Tāpiri i te widget</span></strong> hei whakatuwhera i te Shopify Admin",
+                "step_2": "Ka whakatuwherahia te <strong>ētita Shopify</strong> ā, ka tāpirihia te widget ā-aunoa",
+                "step_3": "Pāwhiritia te <strong>Pātene Tiaki</strong> (kei te kokonga matau-runga) ā, kia kite koe i te karere angitu"
+            }
+        },
+        "add_widget_v1": {
+            "title": "Tāpiri i te widget mā te ā-ringa",
+            "for": "(mō te kaupapa 1.0 - Kaupapa Tawhito)",
+            "description": "Tāruatia te waehere kei raro nei ā, whakapiria ki ngā wāhanga e hiahia ana koe ki te whakaatu i te widget. <span>Ākona atu</span>"
+        }
+    },
+    "multi_lang": {
+        "enable": {
+            "title": "Kei te whakahohea te whakamāoritanga aunoa",
+            "content": "Kua whakahohea te whakamāoritanga aunoa o ngā ihirangi o te widget. Mēnā e hiahia ana koe ki te whakarerekē, whakaritea ngā tautuhinga i <anchor>Tautuhinga Arotake</anchor>."
+        },
+        "disable": {
+            "content": "Whakamātauria te āhuatanga e whakarerekē aunoa ana i te reo e ai ki te whenua o te kaihoko.",
+            "button": "Haere ki ngā tautuhinga ā-ao"
+        }
+    }
+}

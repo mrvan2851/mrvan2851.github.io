@@ -1,0 +1,109 @@
+{
+  "welcome_app" : {
+        "title": "Välkommen till produktrecensioner"
+    },
+  "popup": {
+    "button": "Betygsätt oss",
+    "content": "Din feedback driver TrustShop's förbättring. Vi skulle gärna vilja veta hur du skulle betygsätta vår app?",
+    "title": "Din åsikt är viktig för oss!",
+    "modal_rate": {
+        "title": "Varför känner du dig missnöjd med TrustShop?",
+        "option_1": {
+            "title": "Svårt att använda eller installera",
+            "content": "Jag tyckte att det var svårt att använda appen när:"
+        },
+        "option_2": "Inte nöjd med supporten",
+        "option_3": {
+            "title": "Begränsade eller saknade funktioner",
+            "content": "Appen borde ha fler funktioner, som exempelvis:"
+        }
+    }
+  },
+  "setup_guide": {
+    "card_1": {
+      "content": "Visa recensioner på din onlinebutik",
+      "title": "Lägg till widget på onlinebutiken"
+    },
+    "card_2": {
+      "button": "Konfigurera e-post",
+      "content": "Anpassa tidpunkten när begäran om e-post och tack-e-post kommer att skickas",
+      "title": "Konfigurera begäran om e-post"
+    },
+    "card_3": {
+      "button": "Anpassa widget",
+      "content": "Anpassa recensionswidgeten för att passa dina kunders preferenser",
+      "title": "Anpassa widget"
+    },
+    "card_4": {
+      "button": "Rabattkupong",
+      "content": "Ge incitament till kunderna att lämna en recension genom att erbjuda en rabatt för deras nästa köp",
+      "title": "Rabattkupong"
+    },
+    "title": "Installationsguide"
+  },
+  "statistics": {
+    "all": "Alla",
+    "all_reviews": "Alla recensioner",
+    "avg_star_rating": "Genomsnittligt betyg",
+    "title": "Din recensionsinsikt"
+  },
+  "whats-new": {
+        "slide_1": {
+            "title": "🌍 Flerspråkiga recensioner: Få kontakt med kunder över hela världen",
+            "date_time": "Uppdaterad: 1 mars 2025",
+            "content": {
+                "text" : "Stjärnan i den här uppdateringen är vår nya funktion för flerspråkig widget och recensionsöversättning. På dagens globala marknad bör språkbarriärer inte begränsa din butiks potential. Med TrustShop 2.8 kan kunder nu översätta recensioner till sitt modersmål med ett enda klick."
+            },
+            "button": "Läs mer"
+        },
+        "slide_2": {
+            "title": "Ny QR Code Review Collection",
+            "date_time": "Uppdaterad: 6 februari 2025",
+            "content": {
+                "text" : "Ett nytt sätt att samla in kundrecensioner. När kunder skannar QR-koden kan de:",
+                "list": [
+                    "Se produkter som de inte har recenserat ännu",
+                    "Skicka in nya recensioner enkelt",
+                    "Se deras tidigare recensioner",
+                    "Spåra deras intjänade rabattkoder"
+                ]
+            },
+            "button": "Läs mer"
+        },
+        "slide_3": {
+            "title": "Avancerad anpassning av e-postmall",
+            "date_time": "Uppdaterad: 6 februari 2025",
+            "content": {
+                "text": "Perfekta din varumärkespresentation med förbättrad e-postanpassning:",
+                "list": [
+                    "Flexibel logotyppositionering",
+                    "Anpassningsbar logotypstorlek",
+                    "Justerbara stoppningsinställningar",
+                    "Bakgrundsfärgalternativ"
+                ]
+            },
+            "button": "Läs mer"
+        },
+        "slide_4": {
+            "title": "Avancerad Avanmälan Listhantering",
+            "date_time": "Uppdaterad: 11 januari 2025",
+            "content": {
+                "text": "Håll din kundkommunikation ren och effektiv med vårt nya hanteringssystem för avregistrering. Spåra, analysera och underhåll dina kundlistor med precision"
+            },
+            "button": "Läs mer"
+        },
+        "slide_5": {
+            "title": "Inbyggd Shopify-kundinformationsintegration",
+            "date_time": "Uppdaterad: 11 januari 2025",
+            "content": {
+                "text": "Få tillgång till kundrecensioner direkt från Shopifys kundinformationssida. Inget mer att växla mellan flikar – allt du behöver finns precis där du behöver det!"
+            },
+            "button": "Läs mer"
+        },
+        "title": "Vad är nytt"
+    },
+  "popup_support" : {
+      "title": "Hur kan vi hjälpa dig?",
+      "content": "Du kan komma åt våra omfattande hjälpdokument och vårt team är alltid tillgängligt för att hjälpa dig. Kontakta oss bara!"
+  }
+}

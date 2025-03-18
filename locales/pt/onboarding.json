@@ -1,0 +1,168 @@
+{
+    "step_1": {
+        "button": "Começar",
+        "sub_title": "Comece conectando sua loja Shopify. O TrustShop se conecta facilmente à sua loja, facilitando a gestão de avaliações e o engajamento com os clientes.",
+        "title": "✋ Bem-vindo ao TrustShop",
+        "select_language": "Qual é o idioma principal de comunicação?",
+        "select_language_subtitle": "Escolha seu idioma preferido para a interface.",
+        "help_text": "Você pode sempre alterar o idioma principal nas configurações.",
+        "app_language": "Idioma do aplicativo"
+    },
+    "step_2": {
+        "quick_guide": {
+            "reload_btn": "Recarregar",
+            "recheck_btn": "Erro. Clique para verificar novamente",
+            "step_1": "<p>Clique no botão <span>Ativar incorporação do aplicativo</span></p>",
+            "step_2": "<p>Uma página será aberta e o aplicativo estará <span>ativado automaticamente</span></p>",
+            "step_3": "<p>Clique no botão <span>Salvar</span> (no canto superior direito) e uma mensagem de sucesso aparecerá</p>",
+            "step_4": "<p>Volte para esta <span>página de integração</span> para continuar o processo de integração do <span>TrustShop</span>.</p>",
+            "success_btn": "Aplicativo ativado com sucesso",
+            "sub_title": "Ative o aplicativo facilmente seguindo os passos abaixo: ",
+            "title": "👉 Não perca este guia 👈",
+            "not_detect_embedded": "Não conseguimos ativar o aplicativo. Tente novamente.",
+            "add_widget_helptext": "Está tendo problemas para adicionar o widget? Entre em contato conosco para mais ajuda!",
+            "helptext": "<p>Este passo adiciona o código necessário para exibir as avaliações em sua loja.</p><p><i>Não se preocupe - isso não afetará o design ou layout da sua loja.</i></p>"
+        },
+        "sub_title": "Exiba avaliações facilmente nos próximos passos",
+        "title": "Solicitações automáticas de avaliações",
+        "email_setting_title": "Configurar solicitação de avaliação por e-mail",
+        "email_setting_subtitle": "Os e-mails de solicitação de avaliação serão enviados automaticamente com base nas configurações abaixo",
+        "customer_in_country": "Clientes no país",
+        "default_country": "Padrão (Todos os países)",
+        "send_email_request_review": "Enviar solicitação de avaliação por e-mail",
+        "after_order": "Após o status do pedido ser",
+        "add_more_country": "Adicionar mais países",
+        "help_text": "Você pode alterar essa configuração a qualquer momento nas configurações."
+    },
+    "step_3": {
+        "v1": {
+            "quick_guide": {
+                "title": "Adicionar Widget de Avaliação",
+                "reload_btn": "Recarregar",
+                "recheck_btn": "Erro. Clique para verificar novamente",
+                "step_1": "<p>Abrir <1>templates/product.liquid</1> no editor</p>",
+                "step_2": "<p>Adicionar o código abaixo ao final do seu arquivo de tema</p>",
+                "step_3": "<p>Clique em <span>Salvar</span></p>",
+                "step_4": "<p>Volte para esta <span>página de integração</span> para continuar a integração.</p>",
+                "helptext": "<p>Este passo adiciona o código necessário para exibir as avaliações em sua loja.<p><p><i>Não se preocupe - isso não afetará o design ou layout da sua loja.</i></p>"
+            }
+        },
+        "v2": {
+            "quick_guide": {
+                "title": "Adicionar Widget de Avaliação",
+                "reload_btn": "Recarregar",
+                "recheck_btn": "Erro. Clique para verificar novamente",
+                "step_1": "<p>Clique no botão <span>Adicionar widget</span></p>",
+                "step_2": "<p>O widget será adicionado automaticamente ao seu modelo de produto</p>",
+                "step_3": "<p>Clique em <span>Salvar</span> para confirmar as alterações</p>",
+                "step_4": "Verifique a página do seu produto para ver as avaliações em ação",
+                "step_5": "<p>Volte para esta <span>página de integração</span> para continuar a integração</p>",
+                "helptext": "<p>Este passo adiciona o código necessário para exibir as avaliações em sua loja.</p><p><i>Não se preocupe - isso não afetará o design ou layout da sua loja.</i></p>"
+            }
+        },
+        "quick_guide": {
+            "sub_title": "Siga estes simples passos para ativar as avaliações de produtos em sua loja:",
+            "title": "Guia rápido",
+            "not_detect_widget": "Não conseguimos detectar nenhum widget. Por favor, tente novamente!",
+            "add_widget_helptext": "Está com problemas para adicionar o widget? Entre em contato conosco para assistência detalhada!",
+            "success_btn": "Widget adicionado com sucesso"
+        },
+        "sub_title": "Exibir widget de avaliação na sua loja online.",
+        "title": "Configurar exibição de avaliações de produtos",
+        "enable_app_embed": "Ativar integração de app",
+        "enable_app_embed_subtitle": "Siga estes simples passos para ativar as avaliações de produtos em sua loja",
+        "add_widget_btn": "Adicionar widget",
+        "enable_embed": "Ativar integração do app"
+    },
+    "step_4": {
+        "button": "Ir para o painel",
+        "sub_title": "Parabéns! Agora você está pronto para impulsionar sua marca com o poder das avaliações e recomendações. Prepare-se para ver seu negócio crescer!",
+        "title": "Tudo pronto!",
+        "import_text": "Importe avaliações facilmente de Product Reviews da Shopify, Judge.me, Loox e outros",
+        "import_button": "Importar avaliações",
+        "dashboard_text": "Comece a gerenciar avaliações e engajar clientes com sua marca",
+        "dashboard_button": "Ir para o painel"
+    },
+    "pricing_page": {
+        "title": "Preços simples e transparentes!",
+        "sub_title": "7 dias grátis. Sem taxas ocultas.",
+        "free_plan_des": "Ou comece gratuitamente, ideal para iniciantes.",
+        "recommended": "Recomendado",
+        "pricing_card": {
+            "basic": {
+                "title": "Padrão",
+                "sub_title": "Perfeito para pequenos negócios.",
+                "benefit": {
+                    "1": "<p><span>200</span> solicitações de avaliação/mês</p>",
+                    "2": "<p>Acesso a muitos recursos premium</p>",
+                    "3": "<p>Integração com Shopify Flow</p>",
+                    "4": "<p>Suporte prioritário ao cliente</p>"
+                }
+            },
+            "pro": {
+                "title": "Empresarial",
+                "sub_title": "Leve seu negócio para o próximo nível.",
+                "benefit": {
+                    "1": "<p><span>1.500</span> solicitações de avaliação/mês</p>",
+                    "2": "<p>Acesso a <span>todos os recursos premium</span></p>",
+                    "3": "<p>Página de detalhes de avaliações</p>",
+                    "4": "<p>Domínio personalizado</p>",
+                    "5": "<p>Integração com Shopify Flow</p>",
+                    "6": "<p>Suporte prioritário ao cliente</p>"
+                }
+            },
+            "unlimited": {
+                "title": "Ilimitado",
+                "sub_title": "Não há limites para seu crescimento.",
+                "benefit": {
+                    "1": "<p><span>Ilimitado</span> solicitações de avaliações</p>",
+                    "2": "<p>Acesso a <span>todos os recursos premium</span></p>",
+                    "3": "<p>Página de detalhes de avaliações</p>",
+                    "4": "<p>Domínio personalizado</p>",
+                    "5": "<p>Integração com Shopify Flow</p>",
+                    "6": "<p>Suporte prioritário ao cliente</p>"
+                }
+            }
+        }
+    },
+    "modal_compare_plans": {
+        "title": "Comparar Planos",
+        "pricing_card": {
+            "free": {
+                "title": "Básico",
+                "sub_title": "Comece gratuitamente, perfeito para iniciantes.",
+                "benefit": {
+                    "1": "<p><span>50</span> solicitações de avaliação/mês</p>",
+                    "2": "<p>Acesso básico ao widget de avaliações</p>",
+                    "3": "<p>Apenas envio de imagem por revisores</p>"
+                }
+            },
+            "basic": {
+                "title": "Padrão",
+                "sub_title": "Perfeito para pequenos negócios ou indivíduos.",
+                "benefit": {
+                    "1": "<p><span>200</span> solicitações de avaliação/mês</p>",
+                    "2": "<p>Acesso a <span>recursos premium</span></p>",
+                    "3": "<p>Widget totalmente personalizável</p>",
+                    "4": "<p>Vídeos de avaliações</p>",
+                    "5": "<p>Google Shopping</p>",
+                    "6": "<p>Proteção das avaliações</p>"
+                }
+            },
+            "pro": {
+                "title": "Empresarial",
+                "sub_title": "Leve seu negócio para o próximo nível.",
+                "benefit": {
+                    "1": "<p><span>1.500</span> solicitações de avaliação/mês</p>",
+                    "2": "<p>Acesso a <span>todos os recursos premium</span></p>",
+                    "3": "<p>Widget totalmente personalizável</p>",
+                    "4": "<p>Vídeos de avaliações</p>",
+                    "5": "<p>Google Shopping</p>",
+                    "6": "<p>Proteção das avaliações</p>",
+                    "7": "<p>Página de detalhes de avaliações</p>",
+                    "8": "<p>Domínio personalizado</p>"
+                }
+            }
+        }
+    }
+}

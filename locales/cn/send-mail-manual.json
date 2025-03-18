@@ -1,0 +1,22 @@
+{
+    "send_mail": {
+        "title": "手动请求邮件",
+        "subject": "发送未自动发送的订单请求邮件"
+    },
+    "table": {
+        "orders": "订单",
+        "date": "日期",
+        "customer": "客户",
+        "total": "总计",
+        "fulfillment_status": "履行状态",
+        "items": "项目"
+    },
+    "empty_search": {
+        "title": "未找到订单",
+        "description": "尝试更改筛选条件或搜索词"
+    },
+    "banner": {
+        "title": "需要操作",
+        "content": "要使用此功能，您需要向TrustShop授予额外的“读取订单”权限。请点击下面的按钮授予权限"
+    }
+}

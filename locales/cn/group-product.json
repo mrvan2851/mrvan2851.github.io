@@ -1,0 +1,41 @@
+{
+    "group_overview": {
+        "title": "组产品",
+        "description": "将相似产品分组以共享和显示评论，简化捆绑包，并轻松创建自定义评论显示。",
+        "create_button": "创建组",
+        "delete_group_message": "如果删除组，所有评论将被分离并恢复到其原始产品。您将无法再访问，此操作无法撤销。您要继续吗？",
+        "delete_group": "删除组",
+        "limit_function": "升级到更高的计划以使用此功能。 <1>查看价格</1>"
+    },
+    "create_group_page": {
+        "title": "创建组产品",
+        "group_name": "组名",
+        "product_in_this_group": "此组中的产品",
+        "description": "将产品添加到此组",
+        "sub_description": "选择要添加到此组的产品",
+        "add_product": "添加产品",
+        "unsaved_change_title": "您确定要退出吗？",
+        "unsaved_change_message": "您的组尚未保存。如果退出，您的设置将丢失。您要继续吗？"
+    },
+    "create_group_modal": {
+        "title": "创建组产品",
+        "select_product_for": "选择产品",
+        "add_product_to_group": "将产品添加到组",
+        "search_product": "搜索产品",
+        "product": "产品",
+        "total_reviews": "总评论数",
+        "average_rating": "平均评分",
+        "no_product_found": "未找到产品",
+        "no_result_for": "没有结果 "
+    },
+    "group_detail_page": {
+        "group_rating_summary": "组评分摘要",
+        "products_in_group": "组内产品",
+        "reviews_in_group": "组内评论",
+        "delete_product": "删除产品",
+        "most_helpful": "最有帮助",
+        "newest": "最新",
+        "delete_confirm_title": "从组中删除产品",
+        "delete_confirm_message": "您确定要删除此产品吗？"
+    }
+}

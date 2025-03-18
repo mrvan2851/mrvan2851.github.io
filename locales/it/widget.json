@@ -1,0 +1,518 @@
+{
+    "limit_function": {
+        "widget_limit": "Questa funzione è disponibile solo nei piani Standard e Enterprise. Si prega di aggiornare il proprio piano per accedere a questa funzione.",
+        "setting_function_limit": {
+            "badge": "Da {{plan}}",
+            "content": "Aggiorna il tuo piano per personalizzare questa funzione."
+        }
+    },
+    "list_widget": {
+        "review_display": "Visualizzazione delle recensioni",
+        "review_display_description": "Mostra tutte le recensioni dei clienti, fornendo informazioni sulle esperienze degli utenti con il prodotto.",
+        "review_testimonial": "Testimonianze",
+        "review_testimonial_description": "Evidenzia le recensioni migliori in un formato a carosello rotante per attirare l'attenzione sui feedback eccezionali.",
+        "review_onepage": "Pagina di recensione",
+        "review_onepage_description": "Una pagina che mostra tutte le recensioni dei clienti, permettendo una facile navigazione delle esperienze.",
+        "product_rating": "Valutazione del prodotto",
+        "product_rating_description": "Mostra la valutazione complessiva del prodotto basata su una scala di 5 stelle.",
+        "global_setting": "Impostazione globale",
+        "global_setting_description": "Consente agli utenti di gestire gli elementi. Qualsiasi modifica apportata verrà applicata a tutti i widget."
+    },
+    "discount_voucher": {
+        "title": "Buono sconto",
+        "sub_title": "Incentiva i clienti a lasciare una recensione offrendo uno sconto per il loro prossimo acquisto",
+        "preview": "Anteprima",
+        "toggle_discount_voucher": "Abilita sconto",
+        "save_btn": "Salva",
+        "coupon_shopify": {
+            "title": "Coupon Shopify",
+            "sub_title": "Codice sconto Shopify",
+            "no_code": "Non hai impostato alcun codice.",
+            "off_example": "Questo è un esempio per la riga successiva (non tradurre): 80% DI SCONTO",
+            "off": "DI SCONTO",
+            "check_discount_button": "Verifica sconto",
+            "check_success": "Sconti disponibili",
+            "check_fail": "Lo sconto non esiste, consulta come ottenere uno sconto <1>qui</1>."
+        },
+        "coupon_auto": {
+            "title": "Sconto automatico",
+            "review_for_photo": "Recensione per foto",
+            "discount_code": "Codice sconto automatico",
+            "discount_for_review_only_content": "Sconto per tutte le recensioni",
+            "discount_for_review_photos": "Sconto per recensioni con foto",
+            "discount_for_review_videos": "Sconto per recensioni con video",
+            "discount_expire_after": "Sconto scade dopo"
+        },
+        "tabs": {
+            "email_before": "Email prima",
+            "email_after": "Email dopo"
+        },
+        "coupon_design": {
+            "title": "Design coupon",
+            "voucher_color": "Colore voucher",
+            "text_color": "Colore testo",
+            "button_color": "Colore pulsante",
+            "button_text_color": "Colore testo pulsante"
+        },
+        "general": {
+            "choose_your_design_template": "Scegli il tuo modello di design",
+            "template": "Modello",
+            "coupon_message": "Messaggio coupon",
+            "call_to_action_button_content": "Contenuto pulsante di call-to-action"
+        },
+        "voucher_setting": {
+            "title": "Buono sconto e prodotto",
+            "icon": "Icona",
+            "icon_and_highlight": "Icona e testo evidenziato Colore del testo sconto",
+            "message": "Messaggio",
+            "button_title": "Titolo pulsante",
+            "button_label": "Etichetta pulsante",
+            "button_background": "Sfondo pulsante",
+            "message_background": "Sfondo messaggio"
+        },
+        "set_up_discount": "Imposta sconto",
+        "display_discount": "Visualizza sconto",
+        "review_request": "Richiesta di recensione",
+        "review_request_description": "Personalizza le email di richiesta recensione con icone personalizzate, colori e un messaggio di call-to-action su misura.",
+        "thank_email": "Email di ringraziamento",
+        "thank_email_description": "Personalizza le email di ringraziamento con stili di codici sconto personalizzati e messaggi dopo che i clienti lasciano una recensione.",
+        "submitted_review_popup": "Popup recensione inviata",
+        "submitted_review_popup_description": "Visualizza un pop-up di ringraziamento dopo l'acquisto, mostrando ai clienti un codice sconto per il loro prossimo ordine.",
+        "type_discount_code_after_review_label": "I clienti ricevono codici sconto quando scrivono recensioni per:",
+        "type_discount_code_after_review_value": {
+            "order": "Ordine - Un codice sconto per ordine",
+            "product": "Prodotto - Un codice sconto per prodotto"
+        }
+    },
+    "product_rating": {
+        "product_rating": "Pagina prodotto",
+        "collection_rating": "Pagina collezione",
+        "hide_rating_when_empty": "Nascondi la valutazione a stelle quando non ci sono recensioni",
+        "review_information": {
+            "title": "Informazioni sulla recensione",
+            "show_total_reviews": "Mostra il numero totale di recensioni",
+            "show_avg_rating": "Mostra la valutazione media delle recensioni"
+        },
+        "widget_style": {
+            "title": "Stile del widget",
+            "full_5_star": "(5 stelle piene)",
+            "1_star": "(1 stella)"
+        },
+        "text_before": "Testo prima",
+        "text_after": "Testo dopo",
+        "font_size": {
+            "title": "Dimensione del carattere",
+            "star_size": "Dimensione dell'icona stella",
+            "text_avg_rating": "Valutazione media",
+            "text_total_rating": "Numero totale di recensioni"
+        },
+        "language": {
+            "title": "Lingua",
+            "label_rating": "Etichetta della valutazione",
+            "label_rating_helptext": "Quando c'è solo una recensione",
+            "label_ratings": "Etichetta delle valutazioni",
+            "label_ratings_helptext": "Quando ci sono più recensioni"
+        },
+        "modal_add_rating_manually": {
+            "rating_title": "Aggiungi manualmente la valutazione a stelle",
+            "widget_title": "Aggiungi manualmente il widget",
+            "guild_rating": "Copia il codice qui sotto e incollalo nelle sezioni specifiche in cui desideri mostrare la valutazione a stelle. <1>Scopri di più</1>",
+            "guild_widget": "Copia il codice qui sotto e incollalo nelle sezioni specifiche in cui desideri mostrare il widget. <1>Scopri di più</1>",
+            "guild_onepage": "Guarda il tutorial su come creare una pagina di recensioni <1>qui</1>.<br /> Se hai bisogno di assistenza, contattaci via e-mail all'indirizzo support@trustshop.io.",
+            "collection_title": "Aggiungi valutazione della collezione",
+            "onepage_title": "Aggiungi pagina recensioni",
+            "testimonial_title": "Aggiungi testimonianza",
+            "guild_collection": "Copia il codice qui sotto e incollalo nelle sezioni specifiche in cui desideri mostrare la valutazione della collezione. <1>Scopri di più</1>"
+        },
+        "custom_color": {
+            "title": "Colore personalizzato",
+            "star_icon": "Icona stella",
+            "star_icon_empty": "Icona stella (vuota)",
+            "avg_rating": "Valutazione media",
+            "total_number_of_reviews": "Numero totale di recensioni"
+        }
+    },
+    "review_display": {
+        "widget_area": "Area widget",
+        "choose_layout": {
+            "title": "Scegli layout",
+            "list": "Elenco",
+            "grid": "Griglia"
+        },
+        "summary_box": {
+            "title": "Riquadro di riepilogo",
+            "left": "Sinistra",
+            "top": "Superiore"
+        },
+        "color_schema": {
+            "title": "Schema Colori",
+            "custom_color_schemes": "Schemi di colore personalizzati",
+            "primary_color": "Colore primario",
+            "secondary_color": "Colore secondario",
+            "title_text_color": "Colore del testo del titolo",
+            "all_photos_button_color": "Pulsante Tutte le foto",
+            "primary_text_color": "Colore del testo primario",
+            "secondary_text_color": "Colore del testo secondario",
+            "star_icon": "Icona stella",
+            "border": "Bordo",
+            "filter_sort_background": "Sfondo filtro-ordinamento",
+            "filter_sort_text": "Testo filtro-ordinamento",
+            "rating_process_color": "Processo di valutazione",
+            "rating_process_empty_color": "Processo di valutazione vuoto",
+            "users_name": "Nome utente",
+            "loadmore_color": "Carica altro",
+            "bg_base_color": "Sfondo del widget",
+            "slide_button": "Pulsante scorrevole",
+            "slide_arrow": "Freccia scorrevole",
+            "modal_all_medias_headline_title": "Titolo principale",
+            "modal_all_medias_filter_label": "Etichetta filtro",
+            "modal_all_medias_filter_background": "Sfondo filtro",
+            "modal_all_medias_selected_filter_label": "Filtro selezionato - Etichetta",
+            "modal_all_medias_selected_filter_background": "Filtro selezionato - Sfondo",
+            "modal_all_medias_star_icon": "Stella",
+            "modal_all_medias_rating_background": "Sfondo valutazione",
+            "modal_all_medias_item_border": "Bordo media selezionato",
+            "modal_all_medias_navigate_button": "Pulsante di navigazione",
+            "modal_all_medias_navigate_arrow": "Freccia di navigazione",
+            "modal_all_medias_review_customer_name": "Nome cliente",
+            "modal_all_medias_review_time": "Ora recensione",
+            "modal_all_medias_review_star": "Stella recensione",
+            "modal_all_medias_review_star_disable": "Stella predefinita recensione",
+            "modal_all_medias_review_title": "Titolo recensione",
+            "modal_all_medias_review_content": "Contenuto recensione",
+            "modal_all_medias_review_media_background": "Sfondo media recensione",
+            "modal_all_medias_review_background": "Sfondo recensione",
+            "modal_all_medias_card_background": "Sfondo scheda",
+            "modal_all_medias_close_button": "Sfondo pulsante chiusura",
+            "modal_all_medias_close_icon": "Icona chiusura",
+            "modal_detail_customer_name": "Nome cliente",
+            "modal_detail_review_time_title": "Titolo ora recensione",
+            "modal_detail_review_star": "Stella",
+            "modal_detail_review_star_default": "Stella predefinita",
+            "modal_detail_review_star_field_background": "Sfondo campo stella",
+            "modal_detail_review_title": "Titolo recensione",
+            "modal_detail_review_content": "Contenuto recensione",
+            "modal_detail_navigator_button": "Pulsante di navigazione",
+            "modal_detail_navigator_arrow": "Freccia di navigazione",
+            "modal_detail_purchased_item": "Articolo acquistato",
+            "modal_detail_product_name": "Nome prodotto",
+            "modal_detail_product_price": "Prezzo prodotto",
+            "modal_detail_icon_title": "Titolo icona",
+            "modal_detail_selected_icon": "Icona selezionata",
+            "modal_detail_icon_background": "Sfondo icona",
+            "modal_detail_divider": "Divisore",
+            "modal_detail_card_background": "Sfondo scheda",
+            "modal_detail_close_button": "Sfondo pulsante chiusura",
+            "modal_detail_close_icon": "Icona chiusura",
+            "form_write_review_star_color": "Colore icona stella",
+            "reset_to_default_title": "Ripristinare gli schemi di colore predefiniti?",
+            "reset_to_default_content": "Le modifiche apportate potrebbero non essere salvate",
+            "page_background_color": "Sfondo pagina",
+            "star_icon_color": "Colore icona stella",
+            "line_color": "Bordo",
+            "user_name_color": "Nome utente",
+            "load_more_color": "Carica altro",
+            "product_background_color": "Sfondo prodotto",
+            "product_text_color": "Testo prodotto",
+            "reply_title_color": "Titolo risposta",
+            "reply_content_color": "Contenuto risposta",
+            "reply_background_color": "Sfondo risposta"
+        },
+        "information_display": {
+            "title": "Visualizzazione delle informazioni",
+            "write_a_reivew_button": "Pulsante scrivi una recensione",
+            "review_date": "Data recensione",
+            "button_report": "Pulsante segnala",
+            "button_helpful": "Pulsante utile",
+            "customer_information": {
+                "title": "Informazioni cliente",
+                "customer_profile_picture": "Mostra avatar cliente",
+                "customer_country_flag": "Mostra bandiera paese cliente"
+            },
+            "review_filter": "Filtro recensione",
+            "review_per_page": "Recensioni per pagina",
+            "summary": "Sommario",
+            "number_of_review": "Numero di recensioni",
+            "divider": "Separatore",
+            "text_1": "Titolo",
+            "text_2": "Sottotitolo",
+            "show_review_media": "Mostra media recensione",
+            "image_gallery": "Galleria immagini",
+            "star_rating": "Valutazione a stelle",
+            "customer_name_display": "Visualizzazione nome cliente",
+            "anonymous": "Anonimo",
+            "reviewer_selects": "Seleziona il revisore",
+            "number_of_reviews": "Numero di recensioni",
+            "form_write_review": {
+                "show_product_image": "Mostra immagine del prodotto",
+                "show_add_photo_btn": "Mostra pulsante aggiungi foto",
+                "show_add_video_btn": "Mostra pulsante aggiungi video",
+                "required_review_title": "Titolo recensione obbligatorio",
+                "hide_review_title": "Nascondi titolo recensione"
+            }
+        },
+        "card_content": {
+            "title": "Contenuto della scheda",
+            "show_review_media": "Mostra media recensione",
+            "show_review_time": "Mostra tempo recensione",
+            "show_purchase_items": "Mostra articoli acquistati",
+            "show_star_rating": "Mostra valutazione a stelle",
+            "show_helpful_button": "Mostra pulsante utile",
+            "image_per_row": "Immagine per riga",
+            "filter": "Filtro",
+            "gallery_filter": "Filtro galleria",
+            "star_size_helptext": "Nella demo, la dimensione è la metà della dimensione effettiva"
+        },
+        "content": {
+            "title": "Contenuto",
+            "widget_language": "Lingua widget",
+            "header_widget": {
+                "title": "Intestazione widget",
+                "customer_review_title": "Titolo recensione cliente",
+                "review_submit": "Invia recensione",
+                "write_review_button": "Pulsante scrivi recensione",
+                "review_with_comments": "Recensione con commenti",
+                "text_total_reviews": "Testo recensioni totali"
+            },
+            "label_of_filter": {
+                "title": "Etichetta filtro",
+                "all": "Tutti",
+                "most_helpful": "Più utili",
+                "highest_rating": "Valutazione più alta",
+                "lowest_rating": "Valutazione più bassa",
+                "oldest": "Più vecchi",
+                "newest": "Più recenti",
+                "review_with_photos": "Recensioni con foto",
+                "stars_filter": "Filtro stelle (1-5)"
+            },
+            "content_review": {
+                "title": "Contenuto recensione",
+                "text_review_on": "Testo recensione su",
+                "text_helpful": "Testo utile",
+                "button_loadmore_review": "Pulsante carica altre recensioni"
+            },
+            "modal_write_review": {
+                "title": "Modale scrivi recensione",
+                "modal_write_review_title": "Titolo modale scrivi recensione",
+                "text_write_reviews": "Testo scrivi recensioni",
+                "text_click_to_rate": "Testo clicca per valutare",
+                "label_customer_name": "Etichetta nome cliente",
+                "placeholder_customer_name": "Segnaposto nome cliente",
+                "label_customer_email": "Etichetta email cliente",
+                "placeholder_customer_email": "Segnaposto email cliente",
+                "label_review_title": "Etichetta titolo recensione",
+                "placeholder_review_title": "Segnaposto titolo recensione",
+                "label_review_content": "Etichetta contenuto recensione",
+                "placeholder_review_content": "Segnaposto contenuto recensione",
+                "label_characters_remaining": "Etichetta caratteri rimanenti",
+                "button_add_photo_text": "Testo pulsante aggiungi foto",
+                "button_back": "Pulsante indietro",
+                "button_submit": "Pulsante invia"
+            },
+            "validate_message_label": {
+                "title": "Etichetta messaggio di convalida",
+                "input": "Input",
+                "email": "Email",
+                "image_upload_fail": "Caricamento immagine non riuscito",
+                "image_upload_size": "Dimensione caricamento immagine ( <10MB )",
+                "image_upload_type": "Tipo caricamento immagine (.bmp, .jpeg o .png)"
+            },
+            "modal_image": {
+                "title": "Modale immagine",
+                "review_for": "Recensione per",
+                "image_from_this_review": "Immagine da questa recensione"
+            },
+            "modal_report": {
+                "title": "Modale segnala"
+            }
+        },
+        "tabs": {
+            "default": "Predefinito",
+            "no_reviews": "Nessuna recensione",
+            "modal": {
+                "all_medias": "Tutti i media",
+                "review_detail": "Dettaglio recensione",
+                "form_write_review": "Modulo Scrivi recensione",
+                "popup_after_review": {
+                    "success": "Popup dopo la recensione - successo",
+                    "pending": "Popup dopo la recensione - in attesa"
+                }
+            }
+        },
+        "no_reviews": {
+            "section_title": "Titolo sezione",
+            "section_border": "Bordo sezione",
+            "show_border": "Mostra bordo",
+            "title": "Nessuna recensione",
+            "text_no_reviews": "Testo nessuna recensione",
+            "call_to_action": "Chiamata all'azione",
+            "call_to_action_color": "Colore chiamata all'azione",
+            "call_to_action_text_color": "Colore testo chiamata all'azione",
+            "border_color": "Colore bordo",
+            "section_title_color": "Colore titolo sezione",
+            "text_no_review_color": "Colore testo nessuna recensione",
+            "page_no_review_star_color": "Colore stella nessuna recensione"
+        },
+        "popup_submitted_review": {
+            "layout": {
+                "title": "Layout",
+                "default": "Predefinito",
+                "without_media": "Scheda recensione - senza media",
+                "disable": "Disabilita scheda recensione"
+            },
+            "title": {
+                "title": "Titolo",
+                "headline_label": "Etichetta del titolo",
+                "content_label": "Etichetta del contenuto",
+                "button_label": "Etichetta del bottone"
+            },
+            "color_schema": {
+                "title": "Schema dei colori",
+                "popup_background": "Sfondo popup",
+                "popup_icon": "Icona popup",
+                "popup_headline": "Intestazione popup",
+                "popup_content": "Contenuto popup",
+                "product_name": "Nome prodotto",
+                "product_price": "Prezzo prodotto",
+                "review_card_background": "Sfondo scheda recensione",
+                "review_card_title": "Titolo scheda recensione",
+                "review_card_content": "Contenuto scheda recensione",
+                "review_card_border": "Bordo scheda recensione",
+                "star_active": "Stella - attiva",
+                "star_disable": "Stella - disabilitata",
+                "customer_name": "Nome cliente",
+                "customer_email": "Email cliente",
+                "button_border": "Bottone - bordo",
+                "button_background": "Bottone - sfondo",
+                "button_title": "Titolo bottone"
+            }
+        }
+    },
+    "review_testimonial": {
+        "choose_review": {
+            "title": "Seleziona le recensioni da mostrare",
+            "auto_new_5": "Raccogli automaticamente le ultime recensioni a 5 stelle",
+            "auto_helptext": "Le recensioni vengono aggiornate ogni 10 minuti",
+            "number_of_reviews": "Numero di recensioni",
+            "choose_manually": "Seleziona manualmente",
+            "choose_manually_button": "Cambia",
+            "selected": "selezionato per essere mostrato nel carousel",
+            "warning": "Il carousel apparirà più bello con almeno 3 recensioni",
+            "warning_2": "richiesta email",
+            "warning_3": "per inserirla",
+            "modal": {
+                "title": "Seleziona manualmente le recensioni"
+            }
+        },
+        "title": {
+            "title": "Titolo",
+            "title_label": "Etichetta del titolo"
+        },
+        "card_content": {
+            "title": "Contenuto della scheda",
+            "customer_name_display": "Mostra il nome del cliente",
+            "anonymous": "Anonimo",
+            "product_name": "Nome del prodotto",
+            "product_image": "Immagine del prodotto",
+            "display_star_rating": "Mostra l'icona della valutazione a stelle",
+            "display_customer_avatar": "Mostra l'avatar del cliente",
+            "show_product_information": "Mostra le informazioni sul prodotto",
+            "show_customer_flag": "Mostra la bandiera del paese del cliente",
+            "show_review_date": "Mostra la data della recensione",
+            "review_title": "Titolo della recensione",
+            "review_date": "Data della recensione"
+        },
+        "movement": {
+            "title": "Movimento automatico",
+            "auto_movement": "Movimento automatico",
+            "time_between_reviews": "Tempo tra le recensioni (secondi)",
+            "arrow_navigation": "Navigazione con frecce"
+        },
+        "color_schemes": {
+            "title": "Schemi di colori",
+            "headline": "Titolo",
+            "content": "Contenuto",
+            "navigator_button": "Pulsante di navigazione",
+            "navigator_arrow": "Freccia di navigazione",
+            "page_indicator": "Indicatore di pagina",
+            "verified_tag": "Etichetta verificata",
+            "divider": "Divisore",
+            "border": "Bordo",
+            "link_title": "Titolo del link",
+            "customer_name": "Nome del cliente",
+            "star": "Stella",
+            "navigator": "Navigatore",
+            "arrow_icon": "Icona della freccia",
+            "product_background": "Sfondo del prodotto",
+            "card_background": "Sfondo della scheda",
+            "widget_background": "Sfondo del widget",
+            "product_name": "Nome del prodotto",
+            "review_date": "Data della recensione"
+        }
+    },
+    "review_onepage": {
+        "review_source": {
+            "title": "Fonte delle recensioni",
+            "subtitle": "Seleziona i prodotti per visualizzare le recensioni nella pagina delle recensioni",
+            "all_product": "Tutti i prodotti",
+            "select_product": "Seleziona prodotto",
+            "warning": "È necessario selezionare almeno un prodotto per visualizzarlo nella pagina delle recensioni.",
+            "help_text": "Per impostazione predefinita vengono mostrate tutte le recensioni pubblicate"
+        },
+        "one_page_header": {
+            "title": "Intestazione della pagina singola"
+        },
+        "review_display": {
+            "title": "Visualizzazione delle informazioni",
+            "summary_box": "Riquadro di sintesi",
+            "product": "Prodotto"
+        }
+    },
+    "after_review_submitted": {
+        "show_discount_code": "Mostra codice sconto",
+        "discount_code_color": "Colore codice sconto",
+        "message_background_color": "Colore di sfondo del messaggio",
+        "title_label": "Etichetta del titolo",
+        "description_label": "Etichetta della descrizione",
+        "title_label_color": "Colore etichetta del titolo",
+        "description_label_color": "Colore etichetta della descrizione",
+        "show_submitted_review": "Mostra recensione inviata",
+        "button_label": "Etichetta pulsante"
+    },
+    "tabs": {
+        "discount_voucher": "Buono sconto",
+        "product_rating": "Valutazione del prodotto",
+        "review_display": "Visualizzazione delle recensioni",
+        "review_testimonial": "Testimonianze",
+        "review_onepage": "Pagina di recensione"
+    },
+    "title": "Gestione widget",
+    "add_widget_guild": {
+        "title": "Come installare il widget?",
+        "enable_global_script": "Prima di iniziare, assicurati di aver <strong><span>abilitato l'incorporamento dell'app TrustShop Global</span> in Shopify Admin</strong>",
+        "add_widget_v2": {
+            "title": "Aggiungi il widget tramite: Blocco App Shopify",
+            "for": "(per il tema 2.0)",
+            "step": {
+                "step_1": "Clicca su <strong><span>Aggiungi widget</span></strong> per aprire Shopify Admin",
+                "step_2": "Si aprirà l'<strong>editor Shopify</strong> e il widget verrà aggiunto automaticamente",
+                "step_3": "Clicca sul <strong>pulsante Salva</strong> (in alto a destra) e assicurati che appaia un messaggio di conferma"
+            }
+        },
+        "add_widget_v1": {
+            "title": "Aggiungi il widget manualmente",
+            "for": "(per il tema 1.0 - Tema vintage)",
+            "description": "Copia il codice qui sotto e incollalo nelle sezioni specifiche in cui desideri visualizzare il widget. <span>Scopri di più</span>"
+        }
+    },
+    "multi_lang": {
+        "enable": {
+            "title": "La traduzione automatica è attiva",
+            "content": "La traduzione automatica del contenuto del widget è attivata. Se vuoi modificarla, personalizza le impostazioni in <anchor>Impostazioni recensioni</anchor>."
+        },
+        "disable": {
+            "content": "Prova la funzione che cambia automaticamente la lingua in base al paese dell'acquirente.",
+            "button": "Vai alle impostazioni globali"
+        }
+    }
+}

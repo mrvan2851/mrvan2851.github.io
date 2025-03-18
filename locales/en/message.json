@@ -1,0 +1,91 @@
+{
+  "toast": {
+    "email": {
+      "update_success": "Email updated successfully",
+      "invalid_email": "Invalid email!",
+      "failed": "Send mail failed",
+      "failed_reason": "Send mail failed",
+      "get_campain_fail": "Retrieve failed.",
+      "get_campaign_failed": "Retrieve campaign failed",
+      "get_queue_failed": "Retrieve queue failed",
+      "require_title": "To active this email, 1 change needs to be made:",
+      "require": "You need active trigger request review",
+      "success": "Sent successfully",
+      "empty": "Some fields are empty, please enter or delete them before saving.",
+      "send_again_success": "Email is scheduled"
+    },
+    "failed": "Failed!",
+    "get_status_fail": "Retrieve failed information",
+    "onboarding": {
+      "reload": "Failed! Please try again",
+      "skip_enable_app_embed": "Skip enabling app embed?",
+      "skip_enable_app_embed_notice": "Enabling app embed allows you to display the widget on your store. If you prefer, you can skip this step and enable app embed later in the Settings",
+      "skip_add_block_title": "Skip adding widget?",
+      "skip_add_block_notice": "Adding widget allows your review to be displayed on your store. If you prefer, you can skip this step and add widget later in the Settings",
+      "enable_app_embed": "Script enabled successfully",
+      "add_app_block_success": "Widget added successfully"
+    },
+    "publish_fail": "Push failed",
+    "reply_fail": "Reply failed",
+    "review": {
+      "delete_photo_fail": "Delete failed",
+      "delete_reply_fail": "Delete failed",
+      "get_review_fail": "Review retrieval failed",
+      "publish_fail": "Push failed",
+      "reject_fail": "Reject failed"
+    },
+    "saved": "Saved",
+    "server_error_title": "Server error",
+    "server_error": "Server error",
+    "setting": {
+      "validate_fail": "Some field invalid."
+    },
+    "widget": {
+      "missing_shopify_code": "You must enter a Shopify code into the text field",
+      "review_filter_null": "The review filter field must have at least one."
+    },
+    "import_review": {
+      "success": "Imported successfully"
+    },
+    "add_widget_v1_confirm": "Thanks for confirming",
+    "export_review": {
+      "success": "Export processing, the export file will be sent to your email at {{email}}",
+      "failed": "Export error, please contact us for support"
+    },
+    "delete_review": {
+      "success": "Delete successfully",
+      "failed": "Delete failed"
+    },
+    "group_product": {
+      "at_least_2_product": "Please select at least 2 products",
+      "create_success": "Group created successfully",
+      "delete_success": "Group {{name}} deleted",
+      "update_success": "Group updated successfully",
+      "add_product_success": "Product added successfully",
+      "delete_product_success": "Product deleted successfully"
+    },
+    "delete_failed": "Delete failed",
+    "add_failed": "Add failed",
+    "update_failed": "Update failed",
+    "successful": "Successful"
+  },
+  "validate": {
+    "empty_input": "Please fill out this field!",
+    "greater_than_0": "Value must greater than 0!",
+    "smaller_than_100": "Value should not exceed 100!",
+    "invalid_email": "Invalid email!",
+    "invalid_url": "Invalid url!",
+    "word_not_allow": "not allowed!",
+    "this_field_required": "This field is required!",
+    "invalid_quantity": "Quantity must be number and between 5 and 200!",
+    "quantity_review_per_page": "quantity only from 1-10!",
+    "quantity": "Maximum number of review is 200",
+    "import_review": {
+      "fail": "Imported unsuccessfully. Please try again",
+      "size": "File exceeds maximum size (5MB)",
+      "type": "File type is not valid"
+    },
+    "limit_email_send_test": "Please wait 90 seconds to send the next email!",
+    "email_exist": "Email already exists!"
+  }
+}

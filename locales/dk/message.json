@@ -1,0 +1,90 @@
+{
+    "toast": {
+        "email": {
+            "update_success": "E-mail opdateret med succes",
+            "invalid_email": "Ugyldig e-mail!",
+            "failed": "Fejl ved afsendelse af e-mail",
+            "failed_reason": "Fejl ved afsendelse af e-mail",
+            "get_campain_fail": "Hentning mislykkedes.",
+            "get_campaign_failed": "Hentning af kampagne mislykkedes",
+            "get_queue_failed": "Hentning af kø mislykkedes",
+            "require_title": "For at aktivere denne e-mail, skal der foretages én ændring:",
+            "require": "Du skal aktivere triggeren for at anmode om en anmeldelse",
+            "success": "Sendt med succes",
+            "empty": "Nogle felter er tomme, udfyld eller slet dem før du gemmer.",
+            "send_again_success": "E-mail er planlagt"
+        },
+        "failed": "Fejl!",
+        "get_status_fail": "Hentning af fejlinformation mislykkedes.",
+        "onboarding": {
+            "reload": "Fejl! Prøv igen",
+            "skip_enable_app_embed": "Vil du springe aktivering af app-embed over?",
+            "skip_enable_app_embed_notice": "Aktivering af app-embed gør det muligt at vise widget'en i din butik. Hvis du ønsker det, kan du springe dette trin over og aktivere app-embed senere i Indstillinger.",
+            "skip_add_block_title": "Vil du springe tilføjelse af widget over?",
+            "skip_add_block_notice": "Tilføjelse af widget'en giver mulighed for at vise anmeldelser i din butik. Hvis du ønsker det, kan du springe dette trin over og tilføje widget'en senere i Indstillinger.",
+            "enable_app_embed": "Script aktiveret med succes",
+            "add_app_block_success": "Widget tilføjet med succes"
+        },
+        "publish_fail": "Udgivelse mislykkedes.",
+        "reply_fail": "Svar mislykkedes.",
+        "review": {
+            "delete_photo_fail": "Sletning af foto mislykkedes.",
+            "delete_reply_fail": "Sletning af svar mislykkedes.",
+            "get_review_fail": "Hentning af anmeldelser mislykkedes.",
+            "publish_fail": "Udgivelse mislykkedes.",
+            "reject_fail": "Afslag mislykkedes."
+        },
+        "saved": "Gemmes",
+        "server_error_title": "Serverfejl",
+        "server_error": "Noget gik galt. Prøv igen senere",
+        "setting": {
+            "validate_fail": "Nogle felter er ugyldige."
+        },
+        "widget": {
+            "missing_shopify_code": "Du skal indtaste en Shopify-kode i tekstfeltet",
+            "review_filter_null": "Anmeldelsesfilterfeltet skal have mindst ét element."
+        },
+        "import_review": {
+            "success": "Importeret med succes"
+        },
+        "add_widget_v1_confirm": "Tak for bekræftelsen",
+        "export_review": {
+            "success": "Eksport under behandling, eksportfilen vil blive sendt til din e-mail {{email}}",
+            "failed": "Eksportfejl, kontakt os for support"
+        },
+        "delete_review": {
+            "success": "Slettet med succes",
+            "failed": "Fejl ved sletning."
+        },
+        "group_product": {
+            "at_least_2_product": "Vælg venligst mindst 2 produkter",
+            "create_success": "Gruppe oprettet med succes",
+            "delete_success": "Gruppe {{name}} slettet",
+            "update_success": "Gruppe opdateret med succes",
+            "add_product_success": "Produkt tilføjet med succes",
+            "delete_product_success": "Produkt slettet med succes"
+        },
+        "delete_failed": "Sletning mislykkedes.",
+        "add_failed": "Tilføjelse mislykkedes",
+        "update_failed": "Opdatering mislykkedes"
+    },
+    "validate": {
+        "empty_input": "Udfyld venligst dette felt!",
+        "greater_than_0": "Værdien skal være større end 0!",
+        "smaller_than_100": "Værdien må ikke overstige 100!",
+        "invalid_email": "Ugyldig e-mail!",
+        "invalid_url": "Ugyldig URL!",
+        "word_not_allow": "ikke tilladt!",
+        "this_field_required": "Dette felt er påkrævet!",
+        "invalid_quantity": "Mængde skal være et tal og mellem 5 og 200!",
+        "quantity_review_per_page": "Mængde skal være mellem 1 og 10!",
+        "quantity": "Maksimalt antal anmeldelser er 200",
+        "import_review": {
+            "fail": "Import mislykkedes. Prøv igen",
+            "size": "Filstørrelsen overskrider maksgrænsen (5MB)",
+            "type": "Filtypen er ikke gyldig"
+        },
+        "limit_email_send_test": "Vent venligst 90 sekunder, før du sender næste e-mail!",
+        "email_exist": "E-mail eksisterer allerede!"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "send_mail": {
+        "title": "Email di Richiesta Manuale",
+        "subject": "Invia email di richiesta per gli ordini che non vengono inviati automaticamente"
+    },
+    "table": {
+        "orders": "Ordini",
+        "date": "Data",
+        "customer": "Cliente",
+        "total": "Totale",
+        "fulfillment_status": "Stato di Evasione",
+        "items": "Articoli"
+    },
+    "empty_search": {
+        "title": "Nessun ordine trovato",
+        "description": "Prova a modificare i filtri o il termine di ricerca"
+    },
+    "banner": {
+        "title": "Azione necessaria",
+        "content": "Per utilizzare questa funzionalità, è necessario concedere ulteriori permessi di 'lettura ordini' a TrustShop. Per concedere il permesso, fai clic sul pulsante sottostante"
+    }
+}

@@ -1,0 +1,365 @@
+{
+    "general": {
+        "email_setting": {
+            "email": {
+                "reply_to_email": "Īmēra Whakautu-ki",
+                "reply_to_email_helptext": "Ka tukuna e ngā kiritaki ki tēnei īmēra.",
+                "sender_email": "Īmēra Kaituku",
+                "sender_email_helptext": "Ka whakamahia tēnei īmēra ki te tuku ki ō kiritaki.",
+                "sender_name": "Ingoa Kaituku",
+                "title": "Tautuhinga Īmēra",
+                "send_email_from_source": "Tukua te īmēra tono arotake ki te ota mai i:",
+                "web": "Toa ipurangi",
+                "pos": "POS",
+                "shopify_draft_order": "Ota hukihuki",
+                "email_blocklist": "Rārangi āraia īmēra",
+                "email_blocklist_helptext": "Kāore e tukuna ngā īmēra tono me ngā whakamaharatanga ki ēnei īmēra",
+                "block_email_placeholder": "Pēhia te Enter ki te tāpiri īmēra hou",
+                "unblock_message_title": "Tukua ngā īmēra i āraia i mua",
+                "unblock_message": "Kei te hiahia koe ki te tuku i ngā īmēra i āraia i mua, kia whakakore rānei i te tuku?",
+                "remember_choice_time": "Maharatia taku whakautu mō te 1 hāora",
+                "block_send_email_conditions": "Āraia te tuku īmēra mā ngā tikanga",
+                "product_block_list": "Rārangi āraia hua",
+                "select_product": "Tīpakohia te hua",
+                "order_tag_blocklist": "Rārangi āraia ota",
+                "order_tag_blocklist_placeholder": "Pēhia te Enter ki te tāpiri tūtohu",
+                "order_tag_blocklist_helptext": "Kāore e tukuna ngā īmēra tono me ngā whakamaharatanga mai i ngā ota kei roto ngā tūtohu i te rārangi i runga ake nei"
+            },
+            "sub_title": "Whakatika i ō whirihoranga īmēra mō te whakapakari i te whakahaere me te whakawhitiwhiti kōrero",
+            "title": "Whakatū Īmēra",
+            "custom_domain": {
+                "edit_domain_btn": "Whakatikahia te rohe",
+                "page": {
+                    "title": "rohe ritenga",
+                    "empty_page": {
+                        "description": "Honoa tō ake rohe īmēra kia tuku karere mai i tō wāhitau īmēra o tō waitohu. Mā tēnei e whakapai ake tō rangatiratanga ā-waitohu, ā, ka āwhina kia rerekē ō karere i roto i ngā pouakaroto a te hunga whiwhi.",
+                        "external_link": "Ako me pēhea te tautuhi",
+                        "add_domain_btn": "Tāpiri i tō wāhitau īmēra"
+                    },
+                    "overview_page": {
+                        "unverified": "Kāore anō kia whakamanahia",
+                        "verified": "Kua whakamanahia",
+                        "edit_domain": "Whakatikahia te rohe",
+                        "config_dns_settings": "Whirihorahia ngā tautuhinga DNS",
+                        "config_dns_settings_helptext": "Whakauruhia ngā rekoata MX, SPF, me DKIM e whai ake nei ki ō tautuhinga DNS kia whakamana <strong>{{domain}}</strong>.",
+                        "show_config": "Whakaatu te whirihoranga",
+                        "record_config": {
+                            "type": "MOMO",
+                            "name": "INGOA KAUPAPA",
+                            "value": "UARA",
+                            "priority": "MANA NUI",
+                            "mx": {
+                                "title": "Rekoata MX",
+                                "sub_title": "Tautuhia kia rua ngā rekoata MX e rite ana ki ngā taipitopito i raro nei:"
+                            },
+                            "spf": {
+                                "title": "Rekoata SPF",
+                                "sub_title": "Whakauruhia he rekoata SPF e rite ana ki ngā taipitopito i raro nei:"
+                            },
+                            "dkim": {
+                                "title": "Rekoata DKIM",
+                                "sub_title": "Whakauruhia he rekoata DKIM e rite ana ki ngā taipitopito i raro nei:"
+                            },
+                            "dmarc": {
+                                "title": "Rekoata DMARC",
+                                "sub_title": "Whakauruhia he rekoata DMARC e rite ana ki ngā taipitopito i raro nei:"
+                            },
+                            "custom_from": {
+                                "title": "Rekoata CUSTOM FROM",
+                                "sub_title": "Whakauruhia he rekoata CUSTOM FROM e rite ana ki ngā taipitopito i raro nei:"
+                            },
+                            "notice": "Panui: Kāore anō tō rekoata {{config}} kia whakamanahia. Mēnā ka roa pea kia uru ngā rekoata DNS, tae noa ki te 72 hāora.",
+                            "verify_domain": "Whakamanahia te rohe"
+                        },
+                        "modal_add_domain": {
+                            "title": "Tāpiri i tō wāhitau īmēra",
+                            "input_label": "Tāurutia te wāhitau īmēra e hiahia ana koe ki te whakamahi mō te tuku karere.",
+                            "validate_domain": "Ka taea noa iho e koe te tāpiri i tō ake rohe. Kāore a Trusthop e tautoko ana i ngā rohe tūmatanui (hei tauira, gmail.com, yahoo.com)",
+                            "add_domain_btn": "Tāpiri i te rohe"
+                        },
+                        "modal_delete_domain": {
+                            "title": "Mukua te rohe ritenga?",
+                            "description": "Ki te mukua e koe tō ake rohe, ka hoki koe ki te whakamahi i te rohe taunoa, ā, kāore e taea te whakamahi i tēnei rohe. Kāore e taea te whakahoki tēnei mahi. Kei te hiahia koe ki te haere tonu?"
+                        }
+                    }
+                }
+            },
+            "unsubscribe_management": {
+                "title": "Whakahaere Wāhitau Kore",
+                "subtitle": "Aroturuki me te whakahaere i ngā kiritaki kua kore e hiahia ki ō īmēra tono arotake.",
+                "customer_have_unsubscribed": "Kua kore ngā kiritaki",
+                "email": "Īmēra",
+                "topic_type": "Momo kaupapa",
+                "unsubscribe_date": "Rā kore",
+                "delete_title": "Mukua te kore",
+                "delete_unsubscribe_confirm": "Kei te tino hiahia koe ki te muku i tēnei īmēra? Kāore e taea te whakahoki tēnei mahi.",
+                "no_unsubscribe_title": "Kāore he Kiritaki Kua Kore",
+                "no_unsubscribe_description": "Ka puta ngā pārongo mō ngā kiritaki kua kore i ngā īmēra ki konei"
+            }
+        },
+        "general_setting": {
+            "profile": {
+                "logo": "Tohu",
+                "logo_helptext": "Whakaaetia .gif, .jpg, me .png",
+                "select_image": "Tīpako Whakaahua",
+                "store_email": "Īmēra Toko",
+                "store_email_helptext": "Ka whakamahi i tēnei wāhitau ki te whakapā atu ki a koe mō tō kaute.",
+                "store_name": "Ingoa Toko",
+                "store_name_helptext": "Ka whakaatu i roto i ngā pane īmēra ki te kore he rahinga i tāpiri.",
+                "store_url": "URL Toko",
+                "title": "Profile",
+                "time": {
+                    "time_format": "Tijdsformaat",
+                    "sample": {
+                        "12h": "12 Uur",
+                        "24h": "24 Uur"
+                    }
+                },
+                "date": {
+                    "date_format": "Datumformaat",
+                    "sample": {
+                        "month_day_year": "Aug 05 2006",
+                        "day_month_day_year": "Sat Aug 05 2006",
+                        "day_of_week_month_day_year": "Saturday, August 05 2006",
+                        "day_month_day_year_slash": "Sat 08/05/2006",
+                        "day_month_day_year_slash_short_year": "Sat 8/5/06",
+                        "month_day_year_slash": "08/05/2006",
+                        "month_day_year_slash_short_year": "8/5/06",
+                        "month_day_year_time": "Aug 05 2006",
+                        "day_month_day_year_time": "Sat Aug 05 2006",
+                        "day_of_week_month_day_year_time": "Saturday, August 05 2006",
+                        "day_month_day_year_slash_time": "Sat 08/05/2006",
+                        "day_month_day_year_slash_short_year_time": "Sat 8/5/06",
+                        "month_day_year_slash_time": "08/05/2006",
+                        "month_day_year_slash_short_year_time": "8/5/06"
+                    }
+                }
+            },
+            "sub_title": "Whirihora i tō kaute ki tō īmēra, rahinga, me ngā rōpū pāpori",
+            "title": "Whirihora Whānui"
+        },
+        "social_links": {
+            "social": {
+                "helptext": "Whakauru i te whakapae pāpori ki te whārangi īmēra",
+                "title": "Whirihora Pāpori"
+            },
+            "mobile_apps": {
+                "title": "Taupānga pūkoro",
+                "sub_title": "Whakauruhia ngā hongere pāpori ki te hiku īmēra"
+            },
+            "sub_title": "Whirihora i ō whirihoranga hononga pāpori ki te whakarite me te whakawhitiwhiti kōrero whai hua ki ō kiritaki",
+            "title": "Hononga Pāpori"
+        },
+        "review_action": {
+            "title": "Whakaputa/Whakakore ātete",
+            "subtitle": "Whakaputa me te whakakore i ngā ātete katoa i runga i tō toko",
+            "export_review": "Whakaputa ātete",
+            "export_review_helptext": "Ka tango i ētahi meneti kia whakaputa ātete. Ka tukuna te kōnae whakaputa ki tō īmēra ki te {{email}}.",
+            "delete_all": "Whakakore katoa",
+            "delete_all_helptext": "Kāore e taea te whakatika i tēnei mahi, kia whakapau kaha i mua i te whakakore ātete.",
+            "delete_confirm": "Kāore e taea te whakatika i tēnei mahi, kia whakapau kaha i mua i te whakakore ātete"
+        }
+    },
+    "review": {
+        "auto_publish_reviews": {
+            "title": "Arotake aunoa",
+            "sub_title": "Tēnā kōwhiria ngā arotake e hiahia ana koe kia arotake aunoa. Ko ngā huringa ka pā anake ki ngā arotake hou.",
+            "enable_auto_publish_reviews": "Hoki atu te arotake aunoa",
+            "auto_publish_reviews_if": "Hoki atu ngā arotake hou ki te Toa mēnā:"
+        },
+        "new_review_notification": {
+            "title": "Karanga arotake hou",
+            "sub_title": "Rīpoata imeera mō ngā arotake hou. Kāore e pā mai ngā arotake i tāuta mai e te pokanga.",
+            "enable_new_review_notification": "Whakauruhia ngā karanga arotake hou",
+            "send_email_to_merchant_if": "Tukua rīpoata imeera ki te kaihokohoko mēnā ka waiho e ngā kiritaki he arotake",
+            "receive_email": "Rīpoata imeera mō ngā arotake pātea",
+            "selected_lang_for_system_email": "Kōwhiria te reo mō ngā imeera pūnaha"
+        },
+        "protect_reviews": {
+            "title": "Tiakina ō arotake",
+            "sub_title": "Tūhonoa ngā kupu nui hei tiaki i ō arotake me te karo i ngā kōrero ā-kino pērā i te pornograpi, te tutu, te whakatuma, te rūkahu, ngā hono hei tīpoka, me ngā pūmanawa mārama.",
+            "enable_protect_reviews": "Whakauruhia te tiaki arotake",
+            "block_additional_words_description": "Kua aukatihia kē e mātou ngā kupu whakaititanga rongonui. Tūhonoa atu ngā kupu e hiahia ana koe ki te rārangi.",
+            "add_word_placeholder": "Tuhia te kupu matua, ā, paatohia te paatene 'enter'",
+            "search_language_placeholder": "Tirohia te reo",
+            "no_language_found": "Aroha mai, kāore te reo {{lang}} e hāngai",
+            "lang_have_added": "Kua tāpiri atu te reo {{lang}}"
+        },
+        "auto_send_email": {
+            "title": "Tukuna īmēra aunoa ki ngā kiritaki",
+            "sub_title": "Ka whakautu ana koe ki te arotake a te kiritaki i te wāhanga whakahaere arotake, ka tukuna aunoa e te pūnaha he īmēra ki taua kiritaki me ngā korero o tō whakautu",
+            "enable_auto_send_email": "Whakahohea te tuku īmēra",
+            "send_email_to_merchant_when_source": "Tukuna īmēra ki ngā kiritaki ina whakautu koe ki ā rātou arotake mā te puna:",
+            "store_front": "Tahua Toa",
+            "email": "Īmēra",
+            "import_csv": "Kawemai CSV"
+        },
+        "review_translate": {
+            "title": "Ritea te ihirangi a ngā arotake",
+            "sub_title": "Ka taea e ngā kaihoko te whakamahi i te pātene whakawhiti hei whakarākei i te ihirangi ki te reo mātāmua.",
+            "review_content_translation": "Whakamāoritanga o te ihirangi arotake",
+            "example": "Tauira"
+        },
+        "multi_lang": {
+            "title": "Ritea te reo o te widget",
+            "sub_title": "Ka whakarākeitia te ihirangi widget ki te reo o ngā kaihoko i ngā mākete katoa e mahi ana tō toa.",
+            "auto_multi_lang": "Whakawhitinga reo aunoa",
+            "description": "Hei paerewa, ka whakaaturia ngā widget arotake katoa i te reo Pākehā. Ka taea i a koe te whakahohe i tēnei āhuatanga, ka huri aunoa te reo e whakaaturia ana i te widget ki te reo o te kaihoko i te whenua kei reira rātou e toro ana."
+        }
+    },
+    "tabs": {
+        "general": "Whānui",
+        "review": "Ātete",
+        "import_review": "Whakararuraru Ātete",
+        "gg_shopping": "Hoko Google",
+        "pricing": "Tūnga utu",
+        "global_display": "Whakaatu ā-Ao",
+        "integrations": "Whakauru"
+    },
+    "title": "Whirihora",
+    "import_review": {
+        "save_success": "Whakaputa i te whakatutuki!",
+        "save_error": "Hapa whakararuraru!",
+        "filter_review": {
+            "title": "Whakararuraru ātete",
+            "sub_title": "Ka whakararuraru ngā ātete e whai ana i ngā whakararuraru",
+            "quantity_import": "Whakararuraru mō te maha",
+            "generate": "Whakaputa maha āhuatanga tātari",
+            "auto_publish_review_label": "Whakaputa ātete ki te Toko ki te",
+            "contain_option_label": "Whakararuraru āhei",
+            "contain_photos": "Whakararuraru whakaahua",
+            "contain_review_content": "Whakararuraru ihirangi ātete",
+            "customer_country": "Whenua Kiritaki",
+            "date_range": "Roanga rā",
+            "skip_review": "Whakakore ātete ki te kupu",
+            "skip_review_value": "AliExpress, Ali AliExpress, Whakapae, Whakapae, Tino, Whakapae, Whakapae, Whakapae, Whakapae, Whakapae"
+        },
+        "generate_title": {
+            "title": "Whakaputa ingoa ātete",
+            "sub_title": "Whakaputa ingoa ātete aunoa i runga i ngā whetū whakarārangi ki te kore he ingoa i te puna",
+            "star": {
+                "1_star": "1 whetū",
+                "2_star": "2 whetū",
+                "3_star": "3 whetū",
+                "4_star": "4 whetū",
+                "5_star": "5 whetū"
+            },
+            "title_placeholder": "Tino pai i ia āhuatanga!",
+            "title_random": {
+                "title": "Ingoa aunoa",
+                "sub_title": "Whakaputa ingoa aunoa mō ngā ātete"
+            },
+            "new_title": "Ingoa Hou"
+        }
+    },
+    "filter_date": {
+        "all_times": "Katoa te wā",
+        "today": "Tēnei rā",
+        "yesterday": "Ināianei",
+        "last_7_days": "Whakamutunga 7 rā",
+        "last_month": "Whakamutunga marama",
+        "last_year": "Whakamutunga tau"
+    },
+    "gg_shopping": {
+        "title": "Tātai āhuatanga hōtaka Google",
+        "sub_title": "Whakaatu i ngā whakamārama whakapau kaha a ngā kiritaki whakapau kaha whakapau kaha i runga i ō whakarārangi Hoko Google ki te whiwhi i te nui ake i te whakararuraru me te whakapakari i te whakapono.",
+        "google_product_review": {
+            "title": "Whakaputanga whakamārama hōtaka Google",
+            "generate_feed": "Whakaputa i te whakaputanga whakamārama hōtaka",
+            "generate_feed_helptext": "Whakarerekē i te whakapaukaha whakapaukaha ki te whakarite i ngā whirihoranga i te Google Merchant Center",
+            "fetch_frequency": "Whakararuraru whakararuraru",
+            "daily": "Rārangi",
+            "weekly": "Rārangi",
+            "monthly": "Rārangi",
+            "fetch_date": "Rā whakararuraru",
+            "fetch_time": "Whakararuraru i te wā",
+            "time_zone": "Whānui wā",
+            "disabled": "Whakakore",
+            "XML_file_name": "Ingoa kōnae XML",
+            "view_instructions": "Tirohia ngā whakamārama"
+        },
+        "reviewer_content": {
+            "title": "Irirangi kaituhi",
+            "reviewer_name_format": "Whakapaukaha ingoa kaituhi",
+            "includes_medias": "Whakauru whakaahua/ataata whakamārama",
+            "include_personal_info": "Whakauru whakamārama e whai whakamārama ana",
+            "include_personal_info_helptext": "Whakakapi i ngā whakamārama whai whakamārama ki ngā whakakapi"
+        },
+        "advanced_setting": {
+            "title": "Whirihora whakarite",
+            "add_gtin": "Tāpiri GTIN ki te whakaputanga (Taunoa)",
+            "add_mpn": "Tāpiri MPN ki te whakaputanga",
+            "add_mpn_helptext": "Ka whakauru i te uara SKU tino rite i te Shopify admin",
+            "exclude_out_of_store": "Whakakore ātete mō ngā whakararuraru hoko i waho o te toa"
+        }
+    },
+    "global_display": {
+        "icon_and_corner": {
+            "title": "Tautuhinga Whakaatu",
+            "subtitle": "Ina whakarerekētia tētahi āhuatanga i raro iho nei, ka whakahouhia te pūnaha katoa kia rite ki tērā",
+            "star_icon": {
+                "title": "Atanga Whetū",
+                "icon_style": "Kāhua Atanga"
+            },
+            "element_corner": {
+                "title": "Koki o ngā Hunga",
+                "button_radius": "Rāhi Koki o te Pātene",
+                "other_element": "Koki o ētahi Atu Hunga",
+                "element": "Hunga"
+            }
+        },
+        "reviewer_name": {
+            "title": "Whakaatu Ingoa Kaiarotake",
+            "sub_title": "Kōwhiria te ingoa kaiarotake taunoa mai i te puka, kātahi ka whakarite ā-ringa",
+            "reviewer_name_format": "Hōputu Ingoa Kaiarotake",
+            "default": {
+                "label": "Taunoa",
+                "helptext": "Whakaatu aunoa te ingoa kaiarotake mai i te puka arotake"
+            },
+            "manually": {
+                "label": "Ā-ringa",
+                "helptext": "Kōwhiria he hōputu whakaatu ingoa taunoa. Kātahi ka whakamahia ki ngā kaiarotake katoa",
+                "name_display_format": "Hōputu Whakaatu Ingoa"
+            }
+        },
+        "reviewer_avt_format": {
+            "title": "Tautuhinga avatar arotake",
+            "sub_title": "Whakaritea tō avatar arotake mā te tīpako i ngā tae, mā te whakamahi rānei i ngā whakaahua kē",
+            "colorful_avt": {
+                "label": "Avatar tae",
+                "helptext": "Whakaputa aunoa i te avatar mai i te wīra tae"
+            },
+            "base_color_avt": {
+                "label": "Avatar tae taketake",
+                "helptext": "Waihanga avatar arotake me te tae taketake"
+            },
+            "gravatar_avt": {
+                "label": "Gravatar avatar",
+                "helptext": "Whakamahia te Gravatar hei whakaatu i te avatar arotake"
+            }
+        },
+        "review_date_format": {
+            "title": "Hōputu rā arotake",
+            "sub_title": "Whakaritea te hōputu rā puta noa i ō widget katoa.",
+            "sample": "Tauira"
+        }
+    },
+    "rich_snippet": {
+        "title": "Tāpae rīki",
+        "description": "Tēnā te whakamahi kia waihangahia ngā Tāpae Rīki, hei whakarei i te mārama i ngā hua rapu mā te whakaatu i ngā pārongo tāpiri pēnei i ngā tohu, utu, me te wātea ki runga i ngā hua rapu, e kākahu atu ana te pahekoheko me te whakahou i te SEO.",
+        "check_snippet": "Tirohia tāpae",
+        "seo_integrations": "Ngā whakauru SEO",
+        "seo_description": "Ka paereitia ēnei taupānga tāpae i ngā tāpae arotake Trustshop.",
+        "text_field_label": "Tāpirihia tāu hono hua hei tirotiro i te tāpae",
+        "text_field_placeholder": "Tāpirihia te hono taipitopito hua"
+    },
+    "partner_integrations": {
+        "third_party_apps": "Ngā taupānga tuatoru",
+        "partner_list": {
+            "langwill": "Whakamāoritia tō toa ki ngā reo 138 me te huri aunoa i ngā moni hei whakatipu hoko puta noa i te ao.",
+            "ilana": "Whakapai ake i tō hokohoko SEO mā te whakaatu i ō arotake, utu, me ngā taipitopito pakihi i ngā hua rapu.",
+            "shopify_flow": "Whakaritea tō toa me te aunoa i ō mahi mā te whakamahi i te ētita waehere-iti a Shopify Flow."
+        },
+        "integrations_now": "Ngā whakauru ināianei"
+    }
+}

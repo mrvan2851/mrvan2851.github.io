@@ -1,0 +1,42 @@
+{
+    "title": "Nhập đánh giá",
+    "subtitle": "Tiện ích cho phép bạn thu thập những đánh giá quý giá từ AliExpress",
+    "extension_installation": "Cài đặt tiện ích",
+    "page_primary_button": "Thay đổi cài đặt nhập",
+    "guild": {
+        "title": "Cài đặt tiện ích",
+        "subtitle": "Cài đặt tiện ích của chúng tôi để thu thập đánh giá từ AliExpress",
+        "step": "<p>Cài đặt tiện ích của chúng tôi để thu thập đánh giá từ AliExpress:</p><p>Nhấp vào \"<strong>Cài đặt tiện ích TrustShop</strong>\".</p><p>Bạn sẽ tự động được chuyển hướng đến \"Cửa hàng web Chrome\". Nhấp vào \"<strong>Thêm vào Chrome</strong>\".</p> <p>Làm theo hướng dẫn để hoàn tất quá trình cài đặt.</p><p><strong>Làm mới</strong> trang này và bắt đầu nhập đánh giá. </p>",
+        "btn_install_extension": "Cài đặt tiện ích TrustShop",
+        "refresh_page": "Làm mới trang"
+    },
+    "product": "Sản phẩm",
+    "aliexpress_link": "Liên kết AliExpress",
+    "save_changes": "Lưu thay đổi",
+    "import": "Nhập",
+    "enter_aliexpress_link_here": "Nhập liên kết AliExpress ở đây",
+    "import_settings": "Cài đặt Nhập",
+    "change_product": "Thay đổi sản phẩm",
+    "aliexpress_product_link": "Liên kết sản phẩm AliExpress",
+    "enter_a_link": "Nhập một liên kết",
+    "quantity": "Số lượng",
+    "enter_a_quantity": "Nhập số lượng",
+    "content_option": "Tùy chọn nội dung",
+    "contain_photos": "Chứa hình ảnh",
+    "conatain_videos": "Chứa video",
+    "contain_review_content": "Chứa nội dung đánh giá",
+    "customer_country": "Quốc gia khách hàng",
+    "search_country": "Tìm kiếm quốc gia",
+    "all_countries": "Tất cả các quốc gia",
+    "date_range": "Khoảng thời gian",
+    "filter_date": {
+        "today": "Hôm nay",
+        "yesterday": "Hôm qua",
+        "last_7_days": "7 ngày trước",
+        "last_month": "Tháng trước",
+        "last_year": "Năm trước",
+        "all_times": "Tất cả thời gian"
+    },
+    "banner_success": "Chúng tôi đã nhập đánh giá cho",
+    "banner_error": "Đã xảy ra lỗi khi cố gắng nhập đánh giá"
+}

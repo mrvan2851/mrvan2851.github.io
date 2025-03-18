@@ -1,0 +1,42 @@
+{
+    "title": "Ionsáigh athbhreithnithe",
+    "subtitle": "Cuireann an síneadh ar chumas duit athbhreithnithe luachmhaire a bhailiú ó AliExpress",
+    "extension_installation": "Socruithe Síneadh",
+    "page_primary_button": "Athraigh socruithe allmhairithe",
+    "guild": {
+        "title": "Socruithe Síneadh",
+        "subtitle": "Socraigh ár síneadh chun athbhreithnithe a bhailiú ó AliExpress",
+        "step": "<p>Socraigh ár síneadh chun athbhreithnithe a bhailiú ó AliExpress:</p><p>Cliceáil ar \"<strong>Socruithe Síneadh TrustShop</strong>\".</p><p>Beidh tú á threoú go huathoibríoch chuig an \"Chrome web store\". Cliceáil ar \"<strong>Cuir le Chrome</strong>\".</p> <p>Lean na treoracha chun an próiseas socraithe a chríochnú.</p><p><strong>Refresh</strong> an leathanach seo agus tosaigh ag importantú athbhreithnithe. </p>",
+        "btn_install_extension": "Socruithe Síneadh TrustShop",
+        "refresh_page": "Athnuaigh an leathanach"
+    },
+    "product": "Táirge",
+    "aliexpress_link": "Nasc AliExpress",
+    "save_changes": "Sábháil athruithe",
+    "import": "Iompórtáil",
+    "enter_aliexpress_link_here": "Cuir isteach an nasc AliExpress anseo",
+    "import_settings": "Socruithe Iompórtála",
+    "change_product": "Athraigh táirge",
+    "aliexpress_product_link": "Nasc táirge AliExpress",
+    "enter_a_link": "Cuir isteach nasc",
+    "quantity": "Meid",
+    "enter_a_quantity": "Cuir isteach meid",
+    "content_option": "Rogha ábhair",
+    "contain_photos": "Ábhair grianghraf",
+    "conatain_videos": "Ábhair físe",
+    "contain_review_content": "Ábhair athbhreithnithe",
+    "customer_country": "Tír an chustaiméara",
+    "search_country": "Cuardaigh tír",
+    "all_countries": "Gach tír",
+    "date_range": "Raon dátaí",
+    "filter_date": {
+        "today": "Inniu",
+        "yesterday": "Inné",
+        "last_7_days": "Seachtain seo caite",
+        "last_month": "An mhí seo caite",
+        "last_year": "An bhliain seo caite",
+        "all_times": "Gach uair"
+    },
+    "banner_success": "Tá athbhreithnithe déanta againn ar son",
+    "banner_error": "Tharla earráid agus muid ag iarraidh athbhreithnithe a iompórtáil"
+}

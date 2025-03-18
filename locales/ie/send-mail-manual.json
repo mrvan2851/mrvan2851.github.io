@@ -1,0 +1,22 @@
+{
+    "send_mail": {
+        "title": "Ríomhphost Iarratais Láimhe",
+        "subject": "Seol ríomhphoist iarratais do na horduithe nach seoltar go huathoibríoch"
+    },
+    "table": {
+        "orders": "Orduithe",
+        "date": "Dáta",
+        "customer": "Custaiméir",
+        "total": "Iomlán",
+        "fulfillment_status": "Stádas Comhlíonta",
+        "items": "Míreanna"
+    },
+    "empty_search": {
+        "title": "Níor aimsíodh aon orduithe",
+        "description": "Déan iarracht na scagairí nó téarma cuardaigh a athrú"
+    },
+    "banner": {
+        "title": "Gá gníomhú",
+        "content": "Chun an gné seo a úsáid, caithfidh tú cead 'léigh orduithe' breise a thabhairt do TrustShop. Chun cead a thabhairt, brúigh an cnaipe thíos"
+    }
+}

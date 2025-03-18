@@ -1,0 +1,42 @@
+{
+    "title": "Bewertungen importieren",
+    "subtitle": "Die Erweiterung ermöglicht es Ihnen, wertvolle Bewertungen von AliExpress zu sammeln",
+    "extension_installation": "Erweiterungsinstallation",
+    "page_primary_button": "Importeinstellungen ändern",
+    "guild": {
+        "title": "Erweiterungsinstallation",
+        "subtitle": "Installieren Sie unsere Erweiterung, um Bewertungen von AliExpress zu sammeln",
+        "step": "<p>Installieren Sie unsere Erweiterung, um Bewertungen von AliExpress zu sammeln:</p><p>Klicken Sie auf \"<strong>TrustShop-Erweiterung installieren</strong>\".</p><p>Sie werden automatisch zum \"Chrome Web Store\" weitergeleitet. Klicken Sie auf \"<strong>Zu Chrome hinzufügen</strong>\".</p> <p>Befolgen Sie die Anweisungen, um den Installationsprozess abzuschließen.</p><p><strong>Aktualisieren</strong> Sie diese Seite und beginnen Sie mit dem Importieren von Bewertungen. </p>",
+        "btn_install_extension": "TrustShop-Erweiterung installieren",
+        "refresh_page": "Seite aktualisieren"
+    },
+    "product": "Produkt",
+    "aliexpress_link": "AliExpress-Link",
+    "save_changes": "Änderungen speichern",
+    "import": "Importieren",
+    "enter_aliexpress_link_here": "Geben Sie hier den AliExpress-Link ein",
+    "import_settings": "Importeinstellungen",
+    "change_product": "Produkt ändern",
+    "aliexpress_product_link": "AliExpress-Produktlink",
+    "enter_a_link": "Geben Sie einen Link ein",
+    "quantity": "Menge",
+    "enter_a_quantity": "Geben Sie eine Menge ein",
+    "content_option": "Inhaltsoption",
+    "contain_photos": "Fotos enthalten",
+    "conatain_videos": "Videos enthalten",
+    "contain_review_content": "Bewertungsinhalt enthalten",
+    "customer_country": "Kundenland",
+    "search_country": "Land suchen",
+    "all_countries": "Alle Länder",
+    "date_range": "Datumsbereich",
+    "filter_date": {
+        "today": "Heute",
+        "yesterday": "Gestern",
+        "last_7_days": "Letzte 7 Tage",
+        "last_month": "Letzter Monat",
+        "last_year": "Letztes Jahr",
+        "all_times": "Alle Zeiten"
+    },
+    "banner_success": "Wir haben Bewertungen importiert für",
+    "banner_error": "Beim Importieren von Bewertungen ist ein Fehler aufgetreten"
+}

@@ -1,0 +1,41 @@
+{
+    "group_overview": {
+        "title": "Gruppo di prodotti",
+        "description": "Raggruppa prodotti simili per condividere e visualizzare le recensioni insieme, semplificare i pacchetti e creare facilmente display di recensioni personalizzati.",
+        "create_button": "Crea gruppo",
+        "delete_group_message": "Se elimini il gruppo, tutte le recensioni saranno separate e torneranno ai loro prodotti originali. Non avrai più accesso e questa azione non può essere annullata. Vuoi continuare?",
+        "delete_group": "Elimina gruppo",
+        "limit_function": "Aggiorna a un piano superiore per utilizzare questa funzione. <1>Vedi prezzi</1>"
+    },
+    "create_group_page": {
+        "title": "Crea Gruppo di Prodotti",
+        "group_name": "Nome del gruppo",
+        "product_in_this_group": "Prodotti in questo gruppo",
+        "description": "Aggiungi prodotti a questo gruppo",
+        "sub_description": "Seleziona il prodotto da aggiungere a questo gruppo",
+        "add_product": "Aggiungi prodotto",
+        "unsaved_change_title": "Sei sicuro di voler uscire?",
+        "unsaved_change_message": "Il tuo gruppo non è stato salvato. Se esci, le tue impostazioni andranno perse. Vuoi continuare?"
+    },
+    "create_group_modal": {
+        "title": "Crea Gruppo di Prodotti",
+        "select_product_for": "Seleziona prodotto per",
+        "add_product_to_group": "Aggiungi prodotto al gruppo",
+        "search_product": "Cerca prodotto",
+        "product": "Prodotto",
+        "total_reviews": "Recensioni totali",
+        "average_rating": "Valutazione media",
+        "no_product_found": "Nessun prodotto trovato",
+        "no_result_for": "Nessun risultato per "
+    },
+    "group_detail_page": {
+        "group_rating_summary": "Riepilogo valutazioni del gruppo",
+        "products_in_group": "Prodotti nel gruppo",
+        "reviews_in_group": "Recensioni nel gruppo",
+        "delete_product": "Elimina prodotto",
+        "most_helpful": "Più utile",
+        "newest": "Più recente",
+        "delete_confirm_title": "Elimina prodotto dal gruppo",
+        "delete_confirm_message": "Sei sicuro di voler eliminare questo prodotto?"
+    }
+}

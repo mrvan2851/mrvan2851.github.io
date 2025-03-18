@@ -1,0 +1,365 @@
+{
+    "general": {
+        "email_setting": {
+            "email": {
+                "reply_to_email": "Email trả lời",
+                "reply_to_email_helptext": "Khách hàng sẽ gửi đến email này.",
+                "sender_email": "Email người gửi",
+                "sender_email_helptext": "Email này sẽ được sử dụng để gửi cho khách hàng của bạn.",
+                "sender_name": "Tên người gửi",
+                "title": "Cài đặt Email",
+                "send_email_from_source": "Gửi email yêu cầu đánh giá từ:",
+                "web": "Cửa hàng trực tuyến",
+                "pos": "POS",
+                "shopify_draft_order": "Đơn hàng nháp",
+                "email_blocklist": "Danh sách chặn email",
+                "email_blocklist_helptext": "Email yêu cầu & nhắc nhở sẽ không được gửi đến các email này",
+                "block_email_placeholder": "Nhấn Enter để thêm email mới",
+                "unblock_message_title": "Gửi email đã bị chặn trước đó",
+                "unblock_message": "Bạn có muốn gửi các email đã bị chặn trước đó, hay hủy việc gửi chúng?",
+                "remember_choice_time": "Nhớ phản hồi của tôi trong 1 giờ",
+                "block_send_email_conditions": "Chặn gửi email theo điều kiện",
+                "product_block_list": "Danh sách chặn sản phẩm",
+                "select_product": "Chọn sản phẩm",
+                "order_tag_blocklist": "Danh sách chặn đơn hàng",
+                "order_tag_blocklist_placeholder": "Nhấn Enter để thêm thẻ",
+                "order_tag_blocklist_helptext": "Email yêu cầu & nhắc nhở sẽ không gửi email từ các đơn hàng chứa thẻ trong danh sách trên"
+            },
+            "sub_title": "Tinh chỉnh cài đặt Email để nâng cao năng suất và giao tiếp",
+            "title": "Cài đặt Email",
+            "custom_domain": {
+                "edit_domain_btn": "Chỉnh sửa tên miền",
+                "page": {
+                    "title": "tên miền tùy chỉnh",
+                    "empty_page": {
+                        "description": "Liên kết tên miền email tùy chỉnh của bạn để gửi tin nhắn từ địa chỉ email của thương hiệu của bạn. Điều này sẽ nâng cao tính chuyên nghiệp của thương hiệu của bạn và giúp tin nhắn của bạn nổi bật trong hộp thư đến của người nhận.",
+                        "external_link": "Tìm hiểu cách thiết lập",
+                        "add_domain_btn": "Thêm địa chỉ email của bạn"
+                    },
+                    "overview_page": {
+                        "unverified": "Chưa xác minh",
+                        "verified": "Đã xác minh",
+                        "edit_domain": "Chỉnh sửa tên miền",
+                        "config_dns_settings": "Cấu hình cài đặt DNS",
+                        "config_dns_settings_helptext": "Chèn các bản ghi MX, SPF và DKIM sau vào cài đặt DNS của bạn để xác thực <strong>{{domain}}</strong>.",
+                        "show_config": "Hiển thị cấu hình",
+                        "record_config": {
+                            "type": "LOẠI",
+                            "name": "TÊN MÁY CHỦ",
+                            "value": "GIÁ TRỊ",
+                            "priority": "ƯU TIÊN",
+                            "mx": {
+                                "title": "Bản ghi MX",
+                                "sub_title": "Thiết lập hai bản ghi MX phù hợp với các chi tiết dưới đây:"
+                            },
+                            "spf": {
+                                "title": "Bản ghi SPF",
+                                "sub_title": "Bao gồm một bản ghi SPF phù hợp với các chi tiết dưới đây:"
+                            },
+                            "dkim": {
+                                "title": "Bản ghi DKIM",
+                                "sub_title": "Bao gồm một bản ghi DKIM phù hợp với các chi tiết dưới đây:"
+                            },
+                            "dmarc": {
+                                "title": "Bản ghi DMARC",
+                                "sub_title": "Bao gồm một bản ghi DMARC phù hợp với các chi tiết dưới đây:"
+                            },
+                            "custom_from": {
+                                "title": "Bản ghi CUSTOM FROM",
+                                "sub_title": "Bao gồm một bản ghi CUSTOM FROM phù hợp với các chi tiết dưới đây:"
+                            },
+                            "notice": "Lưu ý: Bản ghi {{config}} của bạn chưa được xác minh. Có thể mất vài giờ hoặc thậm chí lên đến 72 giờ để các bản ghi DNS hoàn toàn được truyền tải.",
+                            "verify_domain": "Xác minh tên miền"
+                        },
+                        "modal_add_domain": {
+                            "title": "Thêm địa chỉ email của bạn",
+                            "input_label": "Nhập địa chỉ email bạn muốn sử dụng để gửi tin nhắn.",
+                            "validate_domain": "Bạn chỉ có thể thêm tên miền của riêng bạn. Trusthop không hỗ trợ thêm các tên miền công cộng (ví dụ: gmail.com, yahoo.com)",
+                            "add_domain_btn": "Thêm tên miền"
+                        },
+                        "modal_delete_domain": {
+                            "title": "Xóa tên miền tùy chỉnh?",
+                            "description": "Nếu bạn xóa tên miền tùy chỉnh của mình, bạn sẽ quay lại sử dụng tên miền mặc định và sẽ không thể sử dụng tên miền này nữa. Hành động này không thể hoàn tác. Bạn có muốn tiếp tục không?"
+                        }
+                    }
+                }
+            },
+            "unsubscribe_management": {
+                "title": "Quản lý hủy đăng ký",
+                "subtitle": "Theo dõi và quản lý khách hàng đã hủy đăng ký nhận email yêu cầu đánh giá của bạn.",
+                "customer_have_unsubscribed": "Khách hàng đã hủy đăng ký",
+                "email": "Email",
+                "topic_type": "Loại chủ đề",
+                "unsubscribe_date": "Ngày hủy đăng ký",
+                "delete_title": "Xóa hủy đăng ký",
+                "delete_unsubscribe_confirm": "Bạn có chắc chắn muốn xóa email này không? Hành động này không thể hoàn tác.",
+                "no_unsubscribe_title": "Không có khách hàng hủy đăng ký",
+                "no_unsubscribe_description": "Thông tin về khách hàng đã hủy đăng ký nhận email sẽ xuất hiện ở đây"
+            }
+        },
+        "general_setting": {
+            "profile": {
+                "logo": "Logo",
+                "logo_helptext": "Chấp nhận .gif, .jpg và .png",
+                "select_image": "Chọn ảnh",
+                "store_email": "Email cửa hàng",
+                "store_email_helptext": "Chúng tôi sẽ sử dụng địa chỉ này nếu cần liên hệ với bạn về tài khoản của bạn.",
+                "store_name": "Tên cửa hàng",
+                "store_name_helptext": "Xuất hiện trong tiêu đề email nếu không có logo.",
+                "store_url": "URL cửa hàng",
+                "title": "Hồ sơ",
+                "time": {
+                    "time_format": "Định dạng thời gian",
+                    "sample": {
+                        "12h": "12 giờ",
+                        "24h": "24 giờ"
+                    }
+                },
+                "date": {
+                    "date_format": "Định dạng ngày",
+                    "sample": {
+                        "month_day_year": "Aug 05 2006",
+                        "day_month_day_year": "Sat Aug 05 2006",
+                        "day_of_week_month_day_year": "Saturday, August 05 2006",
+                        "day_month_day_year_slash": "Sat 08/05/2006",
+                        "day_month_day_year_slash_short_year": "Sat 8/5/06",
+                        "month_day_year_slash": "08/05/2006",
+                        "month_day_year_slash_short_year": "8/5/06",
+                        "month_day_year_time": "Aug 05 2006",
+                        "day_month_day_year_time": "Sat Aug 05 2006",
+                        "day_of_week_month_day_year_time": "Saturday, August 05 2006",
+                        "day_month_day_year_slash_time": "Sat 08/05/2006",
+                        "day_month_day_year_slash_short_year_time": "Sat 8/5/06",
+                        "month_day_year_slash_time": "08/05/2006",
+                        "month_day_year_slash_short_year_time": "8/5/06"
+                    }
+                }
+            },
+            "sub_title": "Cấu hình tài khoản của bạn với email, logo và mạng xã hội",
+            "title": "Cài đặt chung"
+        },
+        "social_links": {
+            "social": {
+                "helptext": "Bao gồm kênh mạng xã hội trong chân trang Email",
+                "title": "Cài đặt mạng xã hội"
+            },
+            "mobile_apps": {
+                "title": "Ứng dụng di động",
+                "sub_title": "Bao gồm kênh mạng xã hội trong chân trang Email"
+            },
+            "sub_title": "Tùy chỉnh cài đặt liên kết mạng xã hội để chia sẻ và giao tiếp hiệu quả với khách hàng của bạn",
+            "title": "Liên kết mạng xã hội"
+        },
+        "review_action": {
+            "title": "Xuất/Xóa đánh giá",
+            "subtitle": "Xuất và xóa tất cả đánh giá trên cửa hàng của bạn",
+            "export_review": "Xuất đánh giá",
+            "export_review_helptext": "Việc xuất đánh giá sẽ mất vài phút. Tệp xuất sẽ được gửi đến địa chỉ email của bạn tại <1>{{email}}</1>.",
+            "delete_all": "Xóa tất cả",
+            "delete_all_helptext": "Hành động này không thể hoàn tác, vì vậy hãy chắc chắn trước khi xóa đánh giá.",
+            "delete_confirm": "Hành động này không thể hoàn tác, vì vậy hãy chắc chắn trước khi xóa đánh giá"
+        }
+    },
+    "review": {
+        "auto_publish_reviews": {
+            "title": "Tự động xuất bản đánh giá",
+            "sub_title": "Chọn những đánh giá bạn muốn tự động xuất bản. Mọi thay đổi chỉ ảnh hưởng đến các đánh giá mới.",
+            "enable_auto_publish_reviews": "Bật tính năng tự động xuất bản đánh giá",
+            "auto_publish_reviews_if": "Tự động xuất bản các đánh giá mới lên cửa hàng nếu:"
+        },
+        "new_review_notification": {
+            "title": "Thông báo đánh giá mới",
+            "sub_title": "Nhận thông báo qua email về các đánh giá mới. Điều này không bao gồm các đánh giá được thêm qua nhập khẩu.",
+            "enable_new_review_notification": "Bật thông báo đánh giá mới",
+            "send_email_to_merchant_if": "Gửi email cho người bán nếu khách hàng để lại đánh giá",
+            "receive_email": "Nhận thông báo qua email về các đánh giá tiêu cực",
+            "selected_lang_for_system_email": "Chọn ngôn ngữ cho email hệ thống"
+        },
+        "protect_reviews": {
+            "title": "Bảo vệ các đánh giá của bạn",
+            "sub_title": "Đặt các từ khóa liên quan để bảo vệ các đánh giá của bạn và ngăn chặn các nội dung nhạy cảm như khiêu dâm, bạo lực, khủng bố, gian lận, liên kết lừa đảo hoặc phần mềm độc hại xuất hiện trong các đánh giá.",
+            "enable_protect_reviews": "Bật bảo vệ đánh giá",
+            "block_additional_words_description": "Chúng tôi đã chặn những lời lẽ tục tĩu phổ biến nhất. Thêm từ mới bằng cách gõ vào ô bên dưới.",
+            "add_word_placeholder": "Gõ từ khóa và nhấn Enter",
+            "search_language_placeholder": "Tìm kiếm ngôn ngữ",
+            "no_language_found": "Không tìm thấy ngôn ngữ phù hợp với {{lang}}",
+            "lang_have_added": "{{lang}} đã được thêm"
+        },
+        "auto_send_email": {
+            "title": "Tự động gửi email cho khách hàng",
+            "sub_title": "Khi bạn trả lời đánh giá của khách hàng trong phần quản lý đánh giá, hệ thống sẽ tự động gửi một email đến khách hàng với nội dung phản hồi của bạn",
+            "enable_auto_send_email": "Bật gửi email",
+            "send_email_to_merchant_when_source": "Gửi email cho khách hàng khi bạn trả lời đánh giá qua nguồn:",
+            "store_front": "Cửa hàng trực tuyến",
+            "email": "Email",
+            "import_csv": "Nhập CSV"
+        },
+        "review_translate": {
+            "title": "Dịch nội dung đánh giá",
+            "sub_title": "Một nút dịch sẽ được hiển thị trên các đánh giá, cho phép người mua dễ dàng dịch nội dung sang ngôn ngữ mẹ đẻ của họ.",
+            "review_content_translation": "Dịch nội dung đánh giá",
+            "example": "Ví dụ"
+        },
+        "multi_lang": {
+            "title": "Dịch ngôn ngữ của widget",
+            "sub_title": "Nội dung của widget sẽ tự động được dịch sang ngôn ngữ của người mua ở mỗi thị trường mà cửa hàng của bạn phục vụ.",
+            "auto_multi_lang": "Chuyển đổi ngôn ngữ tự động",
+            "description": "Mặc định, tất cả các widget đánh giá sẽ hiển thị bằng tiếng Anh. Khi bạn kích hoạt tính năng này, ngôn ngữ hiển thị trên widget sẽ tự động chuyển sang ngôn ngữ của người mua ở quốc gia mà họ đang truy cập."
+        }
+    },
+    "tabs": {
+        "general": "Chung",
+        "review": "Đánh giá",
+        "import_review": "Nhập đánh giá",
+        "gg_shopping": "Đánh giá sản phẩm Google",
+        "pricing": "Gói của bạn",
+        "global_display": "Hiển thị cục bộ",
+        "integrations": "Tích hợp"
+    },
+    "title": "Cài đặt",
+    "import_review": {
+        "save_success": "Lưu thành công!",
+        "save_error": "Lỗi không mong muốn!",
+        "filter_review": {
+            "title": "Lọc đánh giá",
+            "sub_title": "Các đánh giá phù hợp với điều kiện sẽ được nhập",
+            "quantity_import": "Số lượng nhập",
+            "generate": "Tạo số lượng ngẫu nhiên",
+            "auto_publish_review_label": "Tự động xuất bản đánh giá với",
+            "contain_option_label": "Chứa tùy chọn",
+            "contain_photos": "Chứa ảnh",
+            "contain_review_content": "Chứa nội dung đánh giá",
+            "customer_country": "Quốc gia khách hàng",
+            "date_range": "Khoảng thời gian",
+            "skip_review": "Bỏ qua đánh giá với từ khóa",
+            "skip_review_value": "AliExpress, Ali AliExpress, Fraud, Scam, Fake, Counterfeit, Knockoff, Imitation, Replica, Worse"
+        },
+        "generate_title": {
+            "title": "Tạo tiêu đề đánh giá",
+            "sub_title": "Tự động tạo tiêu đề đánh giá dựa trên số sao nếu nguồn không có tiêu đề",
+            "star": {
+                "1_star": "1 sao",
+                "2_star": "2 sao",
+                "3_star": "3 sao",
+                "4_star": "4 sao",
+                "5_star": "5 sao"
+            },
+            "title_placeholder": "Hoàn hảo trong từng chi tiết!",
+            "title_random": {
+                "title": "Tiêu đề ngẫu nhiên",
+                "sub_title": "Tạo tiêu đề ngẫu nhiên cho đánh giá"
+            },
+            "new_title": "Tiêu đề mới"
+        }
+    },
+    "gg_shopping": {
+        "title": "Đánh giá sản phẩm Google",
+        "sub_title": "Hiển thị những đánh giá tích cực từ khách hàng trực tiếp trên danh sách mua sắm Google của bạn để thu hút nhiều sự chú ý và xây dựng niềm tin.",
+        "google_product_review": {
+            "title": "Dữ liệu đánh giá sản phẩm Google",
+            "generate_feed": "Tạo dữ liệu đánh giá sản phẩm",
+            "generate_feed_helptext": "Thay đổi lịch cập nhật để phù hợp với cài đặt trong Trung tâm Người bán Google",
+            "fetch_frequency": "Tần suất lấy dữ liệu",
+            "daily": "Hàng ngày",
+            "weekly": "Hàng tuần",
+            "monthly": "Hàng tháng",
+            "fetch_date": "Ngày lấy dữ liệu",
+            "fetch_time": "Thời gian lấy dữ liệu",
+            "time_zone": "Múi giờ",
+            "disabled": "Vô hiệu hóa",
+            "XML_file_name": "Tên tệp XML",
+            "view_instructions": "Xem hướng dẫn"
+        },
+        "reviewer_content": {
+            "title": "Nội dung đánh giá",
+            "reviewer_name_format": "Định dạng tên người đánh giá",
+            "includes_medias": "Bao gồm ảnh/video đánh giá",
+            "include_personal_info": "Bao gồm đánh giá chứa thông tin cá nhân",
+            "include_personal_info_helptext": "Thay thế thông tin cá nhân bằng dấu sao"
+        },
+        "advanced_setting": {
+            "title": "Cài đặt nâng cao",
+            "add_gtin": "Thêm GTIN vào dữ liệu (Mặc định)",
+            "add_mpn": "Thêm MPN vào dữ liệu",
+            "add_mpn_helptext": "Điều này sẽ bao gồm giá trị SKU tương tự trong quản trị Shopify",
+            "exclude_out_of_store": "Loại bỏ đánh giá cho các sản phẩm hết hàng"
+        }
+    },
+    "global_display": {
+        "icon_and_corner": {
+            "title": "Cài đặt hiển thị",
+            "subtitle": "Khi một thuộc tính bên dưới được thay đổi, toàn bộ hệ thống sẽ được cập nhật tương ứng",
+            "star_icon": {
+                "title": "Biểu tượng ngôi sao",
+                "icon_style": "Kiểu biểu tượng"
+            },
+            "element_corner": {
+                "title": "Góc của các phần tử",
+                "button_radius": "Bo góc của nút",
+                "other_element": "Góc của các phần tử khác",
+                "element": "Phần tử"
+            }
+        },
+        "reviewer_name": {
+            "title": "Hiển thị tên người đánh giá",
+            "sub_title": "Chọn tên mặc định từ biểu mẫu hoặc tùy chỉnh theo cách thủ công",
+            "reviewer_name_format": "Định dạng tên người đánh giá",
+            "default": {
+                "label": "Mặc định",
+                "helptext": "Tự động hiển thị tên của người đánh giá từ biểu mẫu đánh giá"
+            },
+            "manually": {
+                "label": "Thủ công",
+                "helptext": "Chọn định dạng hiển thị tên mặc định. Sau đó áp dụng cho tất cả người đánh giá",
+                "name_display_format": "Định dạng hiển thị tên"
+            }
+        },
+        "reviewer_avt_format": {
+            "title": "Cài đặt hình đại diện của người đánh giá",
+            "sub_title": "Đặt hình đại diện của người đánh giá bằng cách chọn màu hoặc sử dụng các hình minh họa thay thế",
+            "colorful_avt": {
+                "label": "Hình đại diện đầy màu sắc",
+                "helptext": "Tự động tạo hình đại diện từ bánh xe màu"
+            },
+            "base_color_avt": {
+                "label": "Hình đại diện màu cơ bản",
+                "helptext": "Tạo hình đại diện người đánh giá với màu cơ bản"
+            },
+            "gravatar_avt": {
+                "label": "Hình đại diện Gravatar",
+                "helptext": "Sử dụng Gravatar để hiển thị hình đại diện của người đánh giá"
+            }
+        },
+        "review_date_format": {
+            "title": "Định dạng ngày đánh giá",
+            "sub_title": "Thiết lập định dạng ngày trên tất cả các tiện ích của bạn.",
+            "sample": "Mẫu"
+        }
+    },
+    "rich_snippet": {
+        "title": "Mảnh thông tin phong phú",
+        "description": "Cho phép người dùng tạo Mảnh thông tin phong phú, nâng cao khả năng hiển thị trong tìm kiếm bằng cách hiển thị thông tin bổ sung như xếp hạng, giá cả và tình trạng sẵn có trực tiếp trong kết quả tìm kiếm, tạo ra nhiều sự tương tác và cải thiện SEO.",
+        "check_snippet": "Kiểm tra mảnh thông tin",
+        "seo_integrations": "Tích hợp SEO",
+        "seo_description": "Các ứng dụng mảnh thông tin này tự động đồng bộ với các mảnh thông tin đánh giá Trustshop.",
+        "text_field_label": "Nhập liên kết sản phẩm của bạn để kiểm tra mảnh thông tin",
+        "text_field_placeholder": "Nhập liên kết chi tiết sản phẩm"
+    },
+    "filter_date": {
+        "all_times": "Bất kỳ lúc nào",
+        "today": "Hôm nay",
+        "yesterday": "Hôm qua",
+        "last_7_days": "7 ngày trước",
+        "last_month": "Tháng trước",
+        "last_year": "Năm trước"
+    },
+    "partner_integrations": {
+        "third_party_apps": "Ứng dụng bên thứ ba",
+        "partner_list": {
+            "langwill": "Dịch cửa hàng của bạn sang 138 ngôn ngữ và tự động chuyển đổi tiền tệ để tăng doanh số bán hàng trên toàn thế giới.",
+            "ilana": "Tối ưu hóa lưu lượng truy cập SEO của bạn bằng cách làm nổi bật đánh giá, giá cả và chi tiết doanh nghiệp của bạn trong kết quả tìm kiếm.",
+            "shopify_flow": "Tùy chỉnh cửa hàng của bạn và tự động hóa các tác vụ của bạn bằng trình chỉnh sửa mã thấp của Shopify Flow."
+        },
+        "integrations_now": "Tích hợp ngay bây giờ"
+    }
+}

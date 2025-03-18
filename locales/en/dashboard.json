@@ -1,0 +1,109 @@
+{
+    "welcome_app" : {
+        "title": "Welcome to Product Reviews"
+    },
+    "popup": {
+        "button": "Rate us",
+        "content": "Your feedback drives TrustShop's improvement. We would love to know how would you rate our app?",
+        "title": "Your opinion matters to us!",
+        "modal_rate": {
+            "title": "Why do you feel bad about TrustShop?",
+            "option_1": {
+                "title": "Hard to use or set up",
+                "content": "I felt hard to use the app when:"
+            },
+            "option_2": "Not satisfied with support",
+            "option_3": {
+                "title": "Limited or missing features",
+                "content": "App should have more features, such as:"
+            }
+        }
+    },
+    "setup_guide": {
+        "card_1": {
+            "content": "Display reviews on your online store",
+            "title": "Add widget to online store"
+        },
+        "card_2": {
+            "button": "Set up email",
+            "content": "Customize time when request email & thank-you email will be sent",
+            "title": "Setup request email"
+        },
+        "card_3": {
+            "button": "Customize widget",
+            "content": "Customize reviews widget to align with your customer's preferences",
+            "title": "Customize widget"
+        },
+        "card_4": {
+            "button": "Set up discount",
+            "content": "Incentivize customers to leave a review by offering a discount for their next purchase",
+            "title": "Discount voucher"
+        },
+        "title": "Setup guide"
+    },
+    "statistics": {
+        "all": "All",
+        "all_reviews": "All reviews",
+        "avg_star_rating": "Average star rating",
+        "title": "Your review insights"
+    },
+    "whats-new": {
+        "slide_1": {
+            "title": "🌍 Multi-Language Reviews: Connect with Customers Worldwide",
+            "date_time": "Updated: Mar 1, 2025",
+            "content": {
+                "text" : "The star of this update is our new Multi-Language Widget and Review Translation feature. In today’s global marketplace, language barriers shouldn’t limit your store’s potential. With TrustShop 2.8, customers can now translate reviews into their native language with a single click."
+            },
+            "button": "Learn more"
+        },
+        "slide_2": {
+            "title": "New QR Code Review Collection",
+            "date_time": "Updated: Feb 6, 2025",
+            "content": {
+                "text" : "A new way to collect customer reviews. When customers scan the QR code, they can:",
+                "list": [
+                    "See products they haven’t reviewed yet",
+                    "Submit new reviews easily",
+                    "View their previous reviews",
+                    "Track their earned discount codes"
+                ]
+            },
+            "button": "Learn more"
+        },
+        "slide_3": {
+            "title": "Advanced Email Template Customization",
+            "date_time": "Updated: Feb 6, 2025",
+            "content": {
+                "text": "Perfect your brand presentation with enhanced email customization:",
+                "list": [
+                    "Flexible logo positioning",
+                    "Customizable logo size",
+                    "Adjustable padding settings",
+                    "Background color options"
+                ]
+            },
+            "button": "Learn more"
+        },
+        "slide_4": {
+            "title": "Advanced Unsubscribe List Management",
+            "date_time": "Updated: Jan 11, 2025",
+            "content": {
+                "text": "Keep your customer communication clean and effective with our new unsubscribe management system. Track, analyze, and maintain your customer lists with precision:"
+            },
+            "button": "Learn more"
+        },
+        "slide_5": {
+            "title": "Native Shopify Customer Details Integratio",
+            "date_time": "Updated: Jan 11, 2025",
+            "content": {
+                "text": "Access customer reviews directly from Shopify’s customer details page. No more switching between tabs – everything you need is right where you need it!"
+            },
+            "button": "Learn more"
+        },
+        "title": "What's new"
+    },
+    "popup_support" : {
+        "title": "How can we help you?",
+        "content": "You can access our extensive help documents, and our team is always available to assist you. Just contact us!"
+    }
+}

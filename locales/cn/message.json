@@ -1,0 +1,90 @@
+{
+    "toast": {
+        "email": {
+            "update_success": "邮箱更新成功",
+            "invalid_email": "无效的邮箱！",
+            "failed": "发送邮件失败",
+            "failed_reason": "发送邮件失败",
+            "get_campain_fail": "获取失败。",
+            "get_campaign_failed": "获取活动失败",
+            "get_queue_failed": "获取队列失败",
+            "require_title": "要激活此邮件，需要进行以下更改：",
+            "require": "您需要激活触发请求评论",
+            "success": "发送成功",
+            "empty": "某些字段为空，请在保存前填写或删除。",
+            "send_again_success": "邮件已安排发送"
+        },
+        "failed": "失败！",
+        "get_status_fail": "获取失败信息。",
+        "onboarding": {
+            "reload": "失败！请重试",
+            "skip_enable_app_embed": "跳过启用应用嵌入？",
+            "skip_enable_app_embed_notice": "启用应用嵌入可以在您的商店显示小部件。如果您愿意，可以跳过此步骤，稍后在设置中启用应用嵌入。",
+            "skip_add_block_title": "跳过添加小部件？",
+            "skip_add_block_notice": "添加小部件可以在您的商店显示评论。如果您愿意，可以跳过此步骤，稍后在设置中添加小部件。",
+            "enable_app_embed": "脚本启用成功",
+            "add_app_block_success": "小部件添加成功"
+        },
+        "publish_fail": "推送失败。",
+        "reply_fail": "回复失败。",
+        "review": {
+            "delete_photo_fail": "删除照片失败。",
+            "delete_reply_fail": "删除回复失败。",
+            "get_review_fail": "获取评论失败。",
+            "publish_fail": "推送失败。",
+            "reject_fail": "拒绝失败。"
+        },
+        "saved": "已保存",
+        "server_error_title": "服务器错误",
+        "server_error": "出错了。请稍后再试",
+        "setting": {
+            "validate_fail": "某些字段无效。"
+        },
+        "widget": {
+            "missing_shopify_code": "您必须在文本字段中输入一个Shopify代码",
+            "review_filter_null": "评论筛选字段必须至少有一个。"
+        },
+        "import_review": {
+            "success": "导入成功"
+        },
+        "add_widget_v1_confirm": "感谢确认",
+        "export_review": {
+            "success": "导出处理中，导出文件将发送到您的邮箱{{email}}",
+            "failed": "导出错误，请联系我们获取支持"
+        },
+        "delete_review": {
+            "success": "删除成功",
+            "failed": "删除错误。"
+        },
+        "group_product": {
+            "at_least_2_product": "请至少选择2个产品",
+            "create_success": "创建组成功",
+            "delete_success": "组{{name}}已删除",
+            "update_success": "更新组成功",
+            "add_product_success": "添加产品成功",
+            "delete_product_success": "删除产品成功"
+        },
+        "delete_failed": "删除失败。",
+        "add_failed": "添加失败",
+        "update_failed": "更新失败"
+    },
+    "validate": {
+        "empty_input": "请填写此字段！",
+        "greater_than_0": "值必须大于0！",
+        "smaller_than_100": "值不能超过100！",
+        "invalid_email": "无效的邮箱！",
+        "invalid_url": "无效的URL！",
+        "word_not_allow": "不允许！",
+        "this_field_required": "此字段为必填！",
+        "invalid_quantity": "数量必须是数字，且在5到200之间！",
+        "quantity_review_per_page": "数量只能在1到10之间！",
+        "quantity": "评论的最大数量为200",
+        "import_review": {
+            "fail": "导入失败。请再试一次",
+            "size": "文件超出最大大小（5MB）",
+            "type": "文件类型无效"
+        },
+        "limit_email_send_test": "请等待90秒再发送下一封邮件！",
+        "email_exist": "邮箱已存在！"
+    }
+}

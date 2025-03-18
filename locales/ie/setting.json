@@ -1,0 +1,365 @@
+{
+    "general": {
+        "email_setting": {
+            "email": {
+                "reply_to_email": "Ríomhphost Freagrach",
+                "reply_to_email_helptext": "Seolfar ríomhphoist na gcustaiméirí chuig an seoladh seo.",
+                "sender_email": "Ríomhphost an Seoltóra",
+                "sender_email_helptext": "Úsáidfear an seoladh ríomhphoist seo chun ríomhphoist a sheoladh chuig do chustaiméirí.",
+                "sender_name": "Ainm an tSeoltóra",
+                "title": "Socruithe Ríomhphoist",
+                "send_email_from_source": "Seol ríomhphost iarratais athbhreithnithe chuig ordú ó:",
+                "web": "Siopa ar líne",
+                "pos": "POS",
+                "shopify_draft_order": "Ordú Dréachta",
+                "email_blocklist": "Liosta Dubh Ríomhphoist",
+                "email_blocklist_helptext": "Ní sheolfar ríomhphoist iarratais & meabhrúcháin chuig na seoltaí ríomhphoist seo",
+                "block_email_placeholder": "Brúigh Iontráil chun ríomhphost nua a chur leis",
+                "unblock_message_title": "Seol ríomhphoist a bhí blocáilte roimhe seo",
+                "unblock_message": "An bhfuil tú ag iarraidh na ríomhphoist a bhí blocáilte roimhe seo a sheoladh, nó iad a chealú?",
+                "remember_choice_time": "Cuimhnigh ar mo fhreagra ar feadh 1 uair an chloig",
+                "block_send_email_conditions": "Blocáil seoladh ríomhphoist de réir coinníollacha",
+                "product_block_list": "Liosta Dubh Táirgí",
+                "select_product": "Roghnaigh táirge",
+                "order_tag_blocklist": "Liosta Dubh Orduithe",
+                "order_tag_blocklist_placeholder": "Brúigh Iontráil chun clibeanna a chur leis",
+                "order_tag_blocklist_helptext": "Ní sheolfar ríomhphoist iarratais & meabhrúcháin ó orduithe ina bhfuil clibeanna sa liosta thuas"
+            },
+            "sub_title": "Socruithe ríomhphoist a fheabhsú chun feidhmíocht agus cumarsáid a fheabhsú",
+            "title": "Socruithe Ríomhphoist",
+            "custom_domain": {
+                "edit_domain_btn": "Cuir in eagar an fearann",
+                "page": {
+                    "title": "fearann saincheaptha",
+                    "empty_page": {
+                        "description": "Nasc do fhearann ríomhphoist saincheaptha chun teachtaireachtaí a sheoladh ó sheoladh ríomhphoist do bhranda. Cuirfidh sé seo le gairmiúlacht do bhranda agus cabhróidh sé le do theachtaireachtaí seasamh amach i mboscaí isteach na bhfaighteoirí.",
+                        "external_link": "Foghlaim Conas a shocrú",
+                        "add_domain_btn": "Cuir Do Sheoladh Ríomhphoist leis"
+                    },
+                    "overview_page": {
+                        "unverified": "Neamhfhíoraithe",
+                        "verified": "Fíoraithe",
+                        "edit_domain": "Cuir in eagar an fearann",
+                        "config_dns_settings": "Cumraigh Socruithe DNS",
+                        "config_dns_settings_helptext": "Cuir isteach na taifid MX, SPF, agus DKIM seo a leanas i do shocruithe DNS chun <strong>{{domain}}</strong> a fhíorú.",
+                        "show_config": "Taispeáin cumraíocht",
+                        "record_config": {
+                            "type": "CINEÁL",
+                            "name": "AINM ÓSTACH",
+                            "value": "LUACH",
+                            "priority": "TOSAÍOCHT",
+                            "mx": {
+                                "title": "Taifead MX",
+                                "sub_title": "Socraigh dhá thaifead MX a oireann do na sonraí thíos:"
+                            },
+                            "spf": {
+                                "title": "Taifead SPF",
+                                "sub_title": "Cuir taifead SPF leis a oireann do na sonraí thíos:"
+                            },
+                            "dkim": {
+                                "title": "Taifead DKIM",
+                                "sub_title": "Cuir taifead DKIM leis a oireann do na sonraí thíos:"
+                            },
+                            "dmarc": {
+                                "title": "Taifead DMARC",
+                                "sub_title": "Cuir taifead DMARC leis a oireann do na sonraí thíos:"
+                            },
+                            "custom_from": {
+                                "title": "Taifead CUSTOM FROM",
+                                "sub_title": "Cuir taifead CUSTOM FROM leis a oireann do na sonraí thíos:"
+                            },
+                            "notice": "Fógra: Níor fíoraíodh do thaifead {{config}} fós. D'fhéadfadh sé cúpla uair an chloig nó fiú suas le 72 uair an chloig a thógáil chun taifid DNS a scaipeadh go hiomlán.",
+                            "verify_domain": "Fíoraigh an fearann"
+                        },
+                        "modal_add_domain": {
+                            "title": "Cuir Do Sheoladh Ríomhphoist leis",
+                            "input_label": "Cuir isteach an seoladh ríomhphoist ar mhaith leat a úsáid chun teachtaireachtaí a sheoladh.",
+                            "validate_domain": "Ní féidir leat ach do fhearann féin a chur leis. Ní thacaíonn Trusthop le fearainn phoiblí a chur leis (m.sh., gmail.com, yahoo.com)",
+                            "add_domain_btn": "Cuir fearann leis"
+                        },
+                        "modal_delete_domain": {
+                            "title": "Scrios Fearann Saincheaptha?",
+                            "description": "Má scriosann tú do fhearann saincheaptha, fillfidh tú ar úsáid an fhearainn réamhshocraithe agus ní bheidh tú in ann an fearann seo a úsáid a thuilleadh. Ní féidir an gníomh seo a chealú. Ar mhaith leat leanúint ar aghaidh?"
+                        }
+                    }
+                }
+            },
+            "unsubscribe_management": {
+                "title": "Bainistíocht díliostála",
+                "subtitle": "Rianaigh agus bainistigh custaiméirí a bhfuil díliostáil déanta acu ó do ríomhphoist iarratais athbhreithnithe.",
+                "customer_have_unsubscribed": "Tá custaiméirí díliostáilte",
+                "email": "Ríomhphost",
+                "topic_type": "Cineál topaic",
+                "unsubscribe_date": "Dáta díliostála",
+                "delete_title": "Scrios díliostáil",
+                "delete_unsubscribe_confirm": "An bhfuil tú cinnte gur mhaith leat an ríomhphost(a) seo a scriosadh? Ní féidir an gníomh seo a chealú.",
+                "no_unsubscribe_title": "Níl aon Chustaiméirí Díliostáilte",
+                "no_unsubscribe_description": "Beidh faisnéis faoi chustaiméirí a bhfuil díliostáil déanta acu ó ríomhphoist le feiceáil anseo"
+            }
+        },
+        "general_setting": {
+            "profile": {
+                "logo": "Logo",
+                "logo_helptext": "Glacann sé le .gif, .jpg, agus .png",
+                "select_image": "Roghnaigh Íomhá",
+                "store_email": "Ríomhphost an Siopa",
+                "store_email_helptext": "Úsáidfimid an seoladh seo más gá dúinn dul i dteagmháil leat faoin gcuntas.",
+                "store_name": "Ainm an Siopa",
+                "store_name_helptext": "Taispeánfar é seo i gceannródaí ríomhphoist gan logo curtha leis.",
+                "store_url": "URL an Siopa",
+                "title": "Próifíl",
+                "time": {
+                    "time_format": "Format na chlaireadh",
+                    "sample": {
+                        "12h": "12 Hour",
+                        "24h": "24 Hour"
+                    }
+                },
+                "date": {
+                    "date_format": "Format na dáta",
+                    "sample": {
+                        "month_day_year": "Aug 05 2006",
+                        "day_month_day_year": "Sat Aug 05 2006",
+                        "day_of_week_month_day_year": "Saturday, August 05 2006",
+                        "day_month_day_year_slash": "Sat 08/05/2006",
+                        "day_month_day_year_slash_short_year": "Sat 8/5/06",
+                        "month_day_year_slash": "08/05/2006",
+                        "month_day_year_slash_short_year": "8/5/06",
+                        "month_day_year_time": "Aug 05 2006",
+                        "day_month_day_year_time": "Sat Aug 05 2006",
+                        "day_of_week_month_day_year_time": "Saturday, August 05 2006",
+                        "day_month_day_year_slash_time": "Sat 08/05/2006",
+                        "day_month_day_year_slash_short_year_time": "Sat 8/5/06",
+                        "month_day_year_slash_time": "08/05/2006",
+                        "month_day_year_slash_short_year_time": "8/5/06"
+                    }
+                }
+            },
+            "sub_title": "Do chuntas a chumrú le do ríomhphost, do logo, agus do na meáin shóisialta",
+            "title": "Socruithe Ginearálta"
+        },
+        "social_links": {
+            "social": {
+                "helptext": "Cuirtear an canál sóisialta san bhunleathanach Ríomhphoist",
+                "title": "Socruithe Sóisialta"
+            },
+            "mobile_apps": {
+                "title": "Aipeanna Soghluaiste",
+                "sub_title": "Cuimsíonn sé cainéal sóisialta i mbunleathanach Ríomhphoist"
+            },
+            "sub_title": "Socruithe nascanna sóisialta a shaincheapadh chun roinnt agus cumarsáid éifeachtach a dhéanamh le do chustaiméirí",
+            "title": "Naisc Sóisialta"
+        },
+        "review_action": {
+            "title": "Athbhreithnithe a Easpórtáil/Scrios",
+            "subtitle": "Easpórtáil agus scrios gach athbhreithniú ar do siopa",
+            "export_review": "Easpórtáil athbhreithnithe",
+            "export_review_helptext": "Tógfaidh sé cúpla nóiméad chun na hathbhreithnithe a easpórtáil. Cuirfear an comhad easpórtála chuig do sheoladh ríomhphoist ag <1>{{email}}</1>.",
+            "delete_all": "Scrios gach ceann",
+            "delete_all_helptext": "Ní féidir an gníomh seo a chur ar ceal, mar sin déan cinnte sula scriosann tú athbhreithnithe.",
+            "delete_confirm": "Ní féidir an gníomh seo a chur ar ceal, mar sin déan cinnte sula scriosann tú athbhreithnithe"
+        }
+    },
+    "review": {
+        "auto_publish_reviews": {
+            "title": "Foilsiú uathoibríoch athbhreithnithe",
+            "sub_title": "Roghnaigh na hathbhreithnithe atá uait a fhoilsiú go huathoibríoch. Ní chuirfidh aon athruithe ach isteach ar athbhreithnithe nua.",
+            "enable_auto_publish_reviews": "Cumasú Foilsiú Uathoibríoch Athbhreithnithe",
+            "auto_publish_reviews_if": "Foilsiú uathoibríoch athbhreithnithe nua sa Siopa má:"
+        },
+        "new_review_notification": {
+            "title": "Fógra faoi athbhreithniú nua",
+            "sub_title": "Faigh fógraí ríomhphoist do na haithbhreithnithe nua a chuirtear isteach. Ní chuimsíonn seo athbhreithnithe a chuirtear isteach trí allmhairiú.",
+            "enable_new_review_notification": "Cumasú fógra faoi athbhreithniú nua",
+            "send_email_to_merchant_if": "Seol ríomhphost chuig an trádálaí má fhágann custaiméirí athbhreithniú",
+            "receive_email": "Faigh fógraí ríomhphoist faoi athbhreithnithe diúltacha",
+            "selected_lang_for_system_email": "Roghnaigh teanga do r-phoist an chórais"
+        },
+        "protect_reviews": {
+            "title": "Cosain do na hathbhreithnithe",
+            "sub_title": "Socraigh focail eochair ábhartha chun do na hathbhreithnithe a chosaint agus cosc a chur ar ábhar íogair cosúil le pornagrafaíocht, foréigean, sceimhlitheoireacht, calaois, nascanna phishing, nó malware a bheith le feiceáil iontu.",
+            "enable_protect_reviews": "Cumasú Cosaint Athbhreithnithe",
+            "block_additional_words_description": "Táimid tar éis na cainteanna troma is coitianta a bhac. Cuir níos mó focal leis trí iad a chur isteach sa bhosca thíos.",
+            "add_word_placeholder": "Cuir isteach focal eochair agus brúigh iontráil",
+            "search_language_placeholder": "Cuardach teanga",
+            "no_language_found": "Ní raibh aon teanga ag teacht le {{lang}}",
+            "lang_have_added": "{{lang}} curtha leis"
+        },
+        "auto_send_email": {
+            "title": "Seol ríomhphoist go huathoibríoch chuig custaiméirí",
+            "sub_title": "Nuair a fhreagraíonn tú athbhreithniú custaiméara sa rannán bainistíochta athbhreithnithe, seolfaidh an córas ríomhphost go huathoibríoch chuig an gcustaiméir leis an ábhar a bhí i do fhreagra",
+            "enable_auto_send_email": "Cumasaigh ríomhphoist a sheoladh",
+            "send_email_to_merchant_when_source": "Seol ríomhphoist chuig custaiméirí nuair a fhreagraíonn tú a n-athbhreithnithe trí fhoinse:",
+            "store_front": "Taispeántas Siopa",
+            "email": "Ríomhphost",
+            "import_csv": "Iompórtáil CSV"
+        },
+        "review_translate": {
+            "title": "Aistrigh ábhar na n-athbhreithnithe",
+            "sub_title": "Beidh cnaipe aistriúcháin le feiceáil ar athbhreithnithe, rud a fhágann go mbeidh sé éasca do cheannaitheoirí iad a aistriú go dtí a dteanga dhúchais.",
+            "review_content_translation": "Aistriúchán ábhair athbhreithnithe",
+            "example": "Sampla"
+        },
+        "multi_lang": {
+            "title": "Aistrigh teanga an ghiuirléid",
+            "sub_title": "Aistreofar ábhar an ghiuirléid go huathoibríoch go teanga na gceannaitheoirí i ngach margadh a bhfreastalaíonn do shiopa air.",
+            "auto_multi_lang": "Malartú teanga uathoibríoch",
+            "description": "De réir réamhshocraithe, taispeánfar gach giuirléid athbhreithnithe i mBéarla. Nuair a chumasaíonn tú an ghné seo, athróidh an teanga ar an ngiuirléid go huathoibríoch go teanga an cheannaitheora bunaithe ar an tír a bhfuil siad ag tabhairt cuairte uaithi."
+        }
+    },
+    "tabs": {
+        "general": "Ginearálta",
+        "review": "Athbhreithniú",
+        "import_review": "Iompórtáil Athbhreithnithe",
+        "gg_shopping": "Táirge Google Athbhreithnithe",
+        "pricing": "Praghsáil",
+        "global_display": "Taispeántas Domhanda",
+        "integrations": "Comhoiriúnachtaí"
+    },
+    "title": "Socruithe",
+    "import_review": {
+        "save_success": "Sábháilte go rathúil!",
+        "save_error": "Earráid neamhthuillte!",
+        "filter_review": {
+            "title": "Scag athbhreithnithe",
+            "sub_title": "Iompófar na hathbhreithnithe a chomhlíonann na coinníollacha",
+            "quantity_import": "Iompórtáil Mionra",
+            "generate": "Giniúint uimhreacha randamacha",
+            "auto_publish_review_label": "Foilsigh athbhreithnithe le",
+            "contain_option_label": "Cuir isteach rogha",
+            "contain_photos": "Cuir isteach grianghraif",
+            "contain_review_content": "Cuir isteach ábhar athbhreithnithe",
+            "customer_country": "Tír an Chustaiméara",
+            "date_range": "Raon dáta",
+            "skip_review": "Sleamhnaigh athbhreithnithe le focail eile",
+            "skip_review_value": "AliExpress, Ali AliExpress, Fraíd, Scam, Bréagach, Contrafaithe, Knockoff, Imitation, Réplica, Níos measa"
+        },
+        "generate_title": {
+            "title": "Giniúint teideal athbhreithnithe",
+            "sub_title": "Giniúint teideal athbhreithnithe go huathoibríoch bunaithe ar na réaltaí má tá teideal ag an gcúrsaíocht",
+            "star": {
+                "1_star": "1 réalta",
+                "2_star": "2 réalta",
+                "3_star": "3 réalta",
+                "4_star": "4 réalta",
+                "5_star": "5 réalta"
+            },
+            "title_placeholder": "Perfection in every detail!",
+            "title_random": {
+                "title": "Teideal randamach",
+                "sub_title": "Giniúint teideal randamach do na hathbhreithnithe"
+            },
+            "new_title": "Teideal Nua"
+        }
+    },
+    "filter_date": {
+        "all_times": "Aon uair",
+        "today": "Inniu",
+        "yesterday": "Inné",
+        "last_7_days": "Seachtain seo caite",
+        "last_month": "An mhí seo caite",
+        "last_year": "An bhliain seo caite"
+    },
+    "gg_shopping": {
+        "title": "Athbhreithniú táirge Google",
+        "sub_title": "Taispeáin fianaise thapa custaiméirí díreach ar do liostaí Siopadóireachta Google chun níos mó aird a tharraingt agus muinín a thógáil.",
+        "google_product_review": {
+            "title": "Fead Athbhreithnithe Táirge Google",
+            "generate_feed": "Giniúint an fhéid athbhreithnithe táirge",
+            "generate_feed_helptext": "Athraigh sceideal nuashonraithe chun freastal ar shocruithe i Google Merchant Center",
+            "fetch_frequency": "Feidhmíocht a tharraingt",
+            "daily": "Gach lá",
+            "weekly": "Gach seachtain",
+            "monthly": "Gach mí",
+            "fetch_date": "Dáta a tharraingt",
+            "fetch_time": "Am a tharraingt",
+            "time_zone": "Crios ama",
+            "disabled": "Díchumasaithe",
+            "XML_file_name": "Ainm comhad XML",
+            "view_instructions": "Féach treoracha"
+        },
+        "reviewer_content": {
+            "title": "Ábhar Athbhreithnitheoirí",
+            "reviewer_name_format": "Formáid ainm athbhreithnitheoirí",
+            "includes_medias": "Cuir grianghraif/físeáin athbhreithnithe leis",
+            "include_personal_info": "Cuir athbhreithnithe le faisnéis pearsanta",
+            "include_personal_info_helptext": "Cuir faisnéis pearsanta in áit na faisnéise pearsanta a chur in áirithe le haisréisí"
+        },
+        "advanced_setting": {
+            "title": "Socruithe éagsúla",
+            "add_gtin": "Cuir GTIN leis an bhfead (Réamhshocraithe)",
+            "add_mpn": "Cuir MPN leis an bhfead",
+            "add_mpn_helptext": "Cuirfidh sé an luach SKU céanna san bhainisteoir Shopify",
+            "exclude_out_of_store": "Easpaigh athbhreithnithe do tháirgí as stóir"
+        }
+    },
+    "global_display": {
+        "icon_and_corner": {
+            "title": "Socruithe Taispeána",
+            "subtitle": "Nuair a athraítear tréith thíos, déantar an córas iomlán a nuashonrú dá réir",
+            "star_icon": {
+                "title": "Deilbhín réalta",
+                "icon_style": "Stíl deilbhín"
+            },
+            "element_corner": {
+                "title": "Coirnéil na n-eilimintí",
+                "button_radius": "Ga coirnéil na gcnaipe",
+                "other_element": "Coirnéil eilimintí eile",
+                "element": "Eilimint"
+            }
+        },
+        "reviewer_name": {
+            "title": "Taispeántas ainm an léirmheastóra",
+            "sub_title": "Roghnaigh ionchur ainm an léirmheastóra réamhshocraithe ón bhfoirm nó saincheap de láimh",
+            "reviewer_name_format": "Formáid ainm an léirmheastóra",
+            "default": {
+                "label": "Réamhshocrú",
+                "helptext": "Taispeáin go huathoibríoch ainm an léirmheastóra ón bhfoirm athbhreithnithe"
+            },
+            "manually": {
+                "label": "De láimh",
+                "helptext": "Roghnaigh formáid réamhshocraithe taispeántais ainm. Ansin cuir i bhfeidhm é ar gach léirmheastóir",
+                "name_display_format": "Formáid taispeántais ainm"
+            }
+        },
+        "reviewer_avt_format": {
+            "title": "Socruithe avatar an léirmheastóra",
+            "sub_title": "Socraigh avatar do léirmheastóra trí dathanna a roghnú nó ag úsáid léaráidí malartacha",
+            "colorful_avt": {
+                "label": "Avatar ildaite",
+                "helptext": "Gineann avatar go huathoibríoch ón roth dathanna"
+            },
+            "base_color_avt": {
+                "label": "Avatar dath bonn",
+                "helptext": "Cruthaigh avatar léirmheastóra le dath bonn"
+            },
+            "gravatar_avt": {
+                "label": "Avatar Gravatar",
+                "helptext": "Úsáid Gravatar chun avatar an léirmheastóra a thaispeáint"
+            }
+        },
+        "review_date_format": {
+            "title": "Formáid dáta athbhreithnithe",
+            "sub_title": "Socraigh formáid an dáta ar fud do chuid giuirléidí go léir.",
+            "sample": "Sampla"
+        }
+    },
+    "rich_snippet": {
+        "title": "Snáithe saibhir",
+        "description": "Líon isteach úsáideoirí chun Snáithíní Saibhri a chruthú, ag feabhsú infhaighteacht cuardaigh trí thaispeántais faisnéise bhreise mar rátálacha, praghsanna agus infhaighteacht go díreach i dtorthaí cuardaigh, rud a chuirfeadh níos mó rannpháirtíochta agus a fheabhsú SEO.",
+        "check_snippet": "Seiceáil an snáithe",
+        "seo_integrations": "Comhoiriúnachtaí SEO",
+        "seo_description": "Sincronizes na feidhmchláir snáithín seo go huathoibríoch le Snáithíní Athbhreithnithe Trustshop.",
+        "text_field_label": "Cuir isteach do nasc táirgí chun an snáithe a sheiceáil",
+        "text_field_placeholder": "Cuir isteach nasc sonraí an táirge"
+    },
+    "partner_integrations": {
+        "third_party_apps": "Aipeanna tríú páirtí",
+        "partner_list": {
+            "langwill": "Aistrigh do stór go 138 teanga agus tiontaigh airgeadraí go huathoibríoch chun díolacháin a fhás ar fud an domhain.",
+            "ilana": "Bainistigh do thrácht SEO trí d’athbhreithnithe, praghsanna, agus sonraí gnó a thaispeáint i dtorthaí cuardaigh.",
+            "shopify_flow": "Saincheap do stór agus uathoibrigh do thascanna ag úsáid eagarthóir ísealchóid Shopify Flow."
+        },
+        "integrations_now": "Comhtháthaithe anois"
+    }
+}

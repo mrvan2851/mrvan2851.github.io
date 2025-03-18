@@ -1,0 +1,364 @@
+{
+    "general": {
+        "email_setting": {
+            "email": {
+                "reply_to_email": "回复电子邮件",
+                "reply_to_email_helptext": "客户将发送到此电子邮件。",
+                "sender_email": "发件人电子邮件",
+                "sender_email_helptext": "此电子邮件将用于发送给您的客户。",
+                "sender_name": "发件人姓名",
+                "title": "电子邮件设置",
+                "send_email_from_source": "发送评论请求电子邮件到订单来源：",
+                "web": "在线商店",
+                "pos": "POS",
+                "shopify_draft_order": "草稿订单",
+                "email_blocklist": "电子邮件黑名单",
+                "email_blocklist_helptext": "请求和提醒电子邮件将不会发送到这些电子邮件",
+                "block_email_placeholder": "按回车键添加新电子邮件",
+                "unblock_message_title": "发送以前被阻止的电子邮件",
+                "unblock_message": "您是要发送以前被阻止的电子邮件，还是取消发送它们？",
+                "remember_choice_time": "记住我的选择1小时",
+                "block_send_email_conditions": "按条件阻止发送电子邮件",
+                "product_block_list": "产品黑名单",
+                "select_product": "选择产品",
+                "order_tag_blocklist": "订单黑名单",
+                "order_tag_blocklist_placeholder": "按回车键添加标签",
+                "order_tag_blocklist_helptext": "请求和提醒电子邮件将不会发送包含上述列表中标签的订单的电子邮件"
+            },
+            "sub_title": "通过优化电子邮件设置来提高生产力和沟通效果",
+            "title": "电子邮件设置",
+            "custom_domain": {
+                "edit_domain_btn": "编辑域名",
+                "page": {
+                    "title": "自定义域名",
+                    "empty_page": {
+                        "description": "链接您的自定义电子邮件域名以从您的品牌电子邮件地址发送消息。这将增强您的品牌专业性，并帮助您的消息在收件人的收件箱中脱颖而出。",
+                        "external_link": "了解如何设置",
+                        "add_domain_btn": "添加您的电子邮件地址"
+                    },
+                    "overview_page": {
+                        "unverified": "未验证",
+                        "verified": "已验证",
+                        "edit_domain": "编辑域名",
+                        "config_dns_settings": "配置DNS设置",
+                        "config_dns_settings_helptext": "将以下MX、SPF和DKIM记录插入您的DNS设置以验证<strong>{{domain}}</strong>。",
+                        "show_config": "显示配置",
+                        "record_config": {
+                            "type": "类型",
+                            "name": "主机名",
+                            "value": "值",
+                            "priority": "优先级",
+                            "mx": {
+                                "title": "MX记录",
+                                "sub_title": "设置两个与以下详细信息匹配的MX记录："
+                            },
+                            "spf": {
+                                "title": "SPF记录",
+                                "sub_title": "包含一个与以下详细信息匹配的SPF记录："
+                            },
+                            "dkim": {
+                                "title": "DKIM记录",
+                                "sub_title": "包含一个与以下详细信息匹配的DKIM记录："
+                            },
+                            "dmarc": {
+                                "title": "DMARC记录",
+                                "sub_title": "包含一个与以下详细信息匹配的DMARC记录："
+                            },
+                            "custom_from": {
+                                "title": "CUSTOM FROM 记录",
+                                "sub_title": "包含一个与以下详细信息匹配的CUSTOM FROM记录："
+                            },
+                            "notice": "注意：您的{{config}}记录尚未验证。DNS记录可能需要几个小时甚至长达72小时才能完全传播。",
+                            "verify_domain": "验证域名"
+                        },
+                        "modal_add_domain": {
+                            "title": "添加您的电子邮件地址",
+                            "input_label": "输入您想用来发送消息的电子邮件地址。",
+                            "validate_domain": "您只能添加自己的域名。Trusthop不支持添加公共域名（例如，gmail.com，yahoo.com）",
+                            "add_domain_btn": "添加域名"
+                        },
+                        "modal_delete_domain": {
+                            "title": "删除自定义域名？",
+                            "description": "如果您删除自定义域名，您将恢复使用默认域名，并且将无法再使用此域名。此操作无法撤销。您要继续吗？"
+                        }
+                    }
+                }
+            },
+            "unsubscribe_management": {
+                "title": "退订管理",
+                "subtitle": "跟踪和管理已退订您的评论请求电子邮件的客户。",
+                "customer_have_unsubscribed": "客户已退订",
+                "email": "电子邮件",
+                "topic_type": "主题类型",
+                "unsubscribe_date": "退订日期",
+                "delete_title": "删除退订",
+                "delete_unsubscribe_confirm": "您确定要删除这些电子邮件吗？此操作无法撤销。",
+                "no_unsubscribe_title": "没有退订的客户",
+                "no_unsubscribe_description": "退订电子邮件的客户信息将显示在这里"
+            }
+        },
+        "general_setting": {
+            "profile": {
+                "logo": "商标",
+                "logo_helptext": "接受 .gif、.jpg 和 .png 格式",
+                "select_image": "选择图像",
+                "store_email": "商店电子邮件",
+                "store_email_helptext": "如果需要与您联系有关您的帐户，我们将使用此地址。",
+                "store_name": "商店名称",
+                "store_name_helptext": "在没有添加商标的电子邮件标题中显示。",
+                "store_url": "商店网址",
+                "title": "个人资料",
+                "time": {
+                    "time_format": "时间格式",
+                    "sample": {
+                        "12h": "12 小时",
+                        "24h": "24 小时"
+                    }
+                },
+                "date": {
+                    "date_format": "日期格式",
+                    "sample": {
+                        "month_day_year": "Aug 05 2006",
+                        "day_month_day_year": "Sat Aug 05 2006",
+                        "day_of_week_month_day_year": "Saturday, August 05 2006",
+                        "day_month_day_year_slash": "Sat 08/05/2006",
+                        "day_month_day_year_slash_short_year": "Sat 8/5/06",
+                        "month_day_year_slash": "08/05/2006",
+                        "month_day_year_slash_short_year": "8/5/06",
+                        "month_day_year_time": "Aug 05 2006",
+                        "day_month_day_year_time": "Sat Aug 05 2006",
+                        "day_of_week_month_day_year_time": "Saturday, August 05 2006",
+                        "day_month_day_year_slash_time": "Sat 08/05/2006",
+                        "day_month_day_year_slash_short_year_time": "Sat 8/5/06",
+                        "month_day_year_slash_time": "08/05/2006",
+                        "month_day_year_slash_short_year_time": "8/5/06"
+                    }
+                }
+            },
+            "sub_title": "使用您的电子邮件、商标和社交媒体配置您的帐户",
+            "title": "常规设置"
+        },
+        "social_links": {
+            "social": {
+                "helptext": "在电子邮件页脚中包含社交渠道",
+                "title": "社交设置"
+            },
+            "mobile_apps": {
+                "title": "移动应用",
+                "sub_title": "在电子邮件页脚中包含社交渠道"
+            },
+            "sub_title": "自定义社交链接设置，与客户分享和有效沟通",
+            "title": "社交链接"
+        },
+        "review_action": {
+            "title": "导出/删除评论",
+            "subtitle": "导出和删除商店上的所有评论",
+            "export_review": "导出评论",
+            "export_review_helptext": "导出评论需要几分钟时间。导出文件将发送到您的电子邮件地址：<1>{{email}}</1>。",
+            "delete_all": "删除全部",
+            "delete_all_helptext": "此操作无法撤销，请在删除评论之前确保无误。",
+            "delete_confirm": "此操作无法撤销，请在删除评论之前确保无误"
+        }
+    },
+    "review": {
+        "auto_publish_reviews": {
+            "title": "自动发布评论",
+            "sub_title": "选择您想要自动发布的评论。任何更改只会影响新的评论。",
+            "enable_auto_publish_reviews": "启用自动发布评论",
+            "auto_publish_reviews_if": "如果符合以下条件，自动将新评论发布到商店："
+        },
+        "new_review_notification": {
+            "title": "新评论通知",
+            "sub_title": "收到新评论提交的电子邮件通知。此选项不包括通过导入添加的评论",
+            "enable_new_review_notification": "启用新评论通知",
+            "send_email_to_merchant_if": "如果客户留下评论，发送电子邮件给商户",
+            "receive_email": "收到负面评论提交的电子邮件通知",
+            "selected_lang_for_system_email": "选择系统电子邮件的语言"
+        },
+        "protect_reviews": {
+            "title": "保护您的评论",
+            "sub_title": "设置相关的关键词来保护您的评论，防止敏感内容如色情、暴力、恐怖主义、欺诈、钓鱼链接或恶意软件出现在评论中。",
+            "enable_protect_reviews": "启用保护评论",
+            "block_additional_words_description": "我们已经屏蔽了最常见的脏话。通过在下面的框中输入更多词汇来添加。",
+            "add_word_placeholder": "输入一个关键词并按回车",
+            "search_language_placeholder": "搜索语言",
+            "no_language_found": "没有找到匹配{{lang}}的语言",
+            "lang_have_added": "{{lang}} 已经被添加"
+        },
+        "auto_send_email": {
+            "title": "自动发送邮件给客户",
+            "sub_title": "当您在评论管理部分回复客户评论时，系统将自动发送一封包含您回复内容的邮件给该客户",
+            "enable_auto_send_email": "启用发送邮件",
+            "send_email_to_merchant_when_source": "当您通过以下来源回复客户评论时，发送邮件给客户：",
+            "store_front": "店面",
+            "email": "电子邮件",
+            "import_csv": "导入 CSV"
+        },
+        "review_translate": {
+            "title": "翻译评论内容",
+            "sub_title": "评论上将显示一个翻译按钮，允许买家轻松翻译为他们的母语",
+            "review_content_translation": "评论内容翻译",
+            "example": "示例"
+        },
+        "multi_lang": {
+            "title": "翻译小部件语言",
+            "sub_title": "小部件的内容将自动翻译为您的商店在各个市场中服务的购物者的语言。",
+            "auto_multi_lang": "自动多语言切换",
+            "description": "默认情况下，所有评论小部件将以英文显示。启用此功能后，小部件上显示的语言将自动切换到访问该国家的购物者的语言。"
+        }
+    },
+    "tabs": {
+        "general": "常规",
+        "review": "评论",
+        "import_review": "导入评论",
+        "gg_shopping": "Google产品评论",
+        "pricing": "定价",
+        "global_display": "全局显示",
+        "integrations": "集成"
+    },
+    "title": "设置",
+    "import_review": {
+        "save_success": "保存成功！",
+        "save_error": "意外错误！",
+        "filter_review": {
+            "title": "筛选评论",
+            "sub_title": "满足条件的评论将被导入",
+            "quantity_import": "导入数量",
+            "generate": "生成随机数量",
+            "auto_publish_review_label": "自动发布评论",
+            "contain_option_label": "包含选项",
+            "contain_photos": "包含照片",
+            "contain_review_content": "包含评论内容",
+            "customer_country": "客户国家",
+            "date_range": "日期范围",
+            "skip_review": "跳过包含关键词的评论"
+        },
+        "generate_title": {
+            "title": "生成评论标题",
+            "sub_title": "如果来源没有标题，根据星级自动生成评论标题",
+            "star": {
+                "1_star": "1 星",
+                "2_star": "2 星",
+                "3_star": "3 星",
+                "4_star": "4 星",
+                "5_star": "5 星"
+            },
+            "title_placeholder": "每个细节都完美！",
+            "title_random": {
+                "title": "随机标题",
+                "sub_title": "为评论生成随机标题"
+            },
+            "new_title": "新标题"
+        }
+    },
+    "filter_date": {
+        "all_times": "任何时间",
+        "today": "今天",
+        "yesterday": "昨天",
+        "last_7_days": "过去 7 天",
+        "last_month": "上个月",
+        "last_year": "去年"
+    },
+    "gg_shopping": {
+        "title": "Google产品评论",
+        "sub_title": "在Google购物列表上展示客户的赞誉，吸引更多关注并建立信任。",
+        "google_product_review": {
+            "title": "Google产品评论源",
+            "generate_feed": "生成产品评论源",
+            "generate_feed_helptext": "根据Google Merchant Center的设置修改更新计划",
+            "fetch_frequency": "获取频率",
+            "daily": "每天",
+            "weekly": "每周",
+            "monthly": "每月",
+            "fetch_date": "获取日期",
+            "fetch_time": "获取时间",
+            "time_zone": "时区",
+            "disabled": "禁用",
+            "XML_file_name": "XML文件名",
+            "view_instructions": "查看说明"
+        },
+        "reviewer_content": {
+            "title": "评论者内容",
+            "reviewer_name_format": "评论者姓名格式",
+            "includes_medias": "包含评论照片/视频",
+            "include_personal_info": "包含包含个人信息的评论",
+            "include_personal_info_helptext": "用星号替换个人信息"
+        },
+        "advanced_setting": {
+            "title": "高级设置",
+            "add_gtin": "在源中添加GTIN（默认）",
+            "add_mpn": "在源中添加MPN",
+            "add_mpn_helptext": "这将在Shopify管理中包含相同的SKU值",
+            "exclude_out_of_store": "排除店外产品的评论"
+        }
+    },
+    "global_display": {
+        "icon_and_corner": {
+            "title": "显示设置",
+            "subtitle": "当下方的属性更改时，整个系统将相应更新",
+            "star_icon": {
+                "title": "星形图标",
+                "icon_style": "图标样式"
+            },
+            "element_corner": {
+                "title": "元素角设置",
+                "button_radius": "按钮角半径",
+                "other_element": "其他元素的角",
+                "element": "元素"
+            }
+        },
+        "reviewer_name": {
+            "title": "评论者姓名显示",
+            "sub_title": "选择来自表单的默认评论者姓名输入或手动自定义",
+            "reviewer_name_format": "评论者姓名格式",
+            "default": {
+                "label": "默认",
+                "helptext": "自动显示来自评论表单的评论者姓名"
+            },
+            "manually": {
+                "label": "手动",
+                "helptext": "选择一个默认姓名显示格式。然后将其应用于所有评论者",
+                "name_display_format": "姓名显示格式"
+            }
+        },
+        "reviewer_avt_format": {
+            "title": "评论者头像设置",
+            "sub_title": "通过选择颜色或使用替代插图来设置评论者的头像",
+            "colorful_avt": {
+                "label": "彩色头像",
+                "helptext": "从色轮自动生成头像"
+            },
+            "base_color_avt": {
+                "label": "基础色头像",
+                "helptext": "使用基础色创建评论者头像"
+            },
+            "gravatar_avt": {
+                "label": "Gravatar头像",
+                "helptext": "使用Gravatar显示评论者头像"
+            }
+        },
+        "review_date_format": {
+            "title": "评论日期格式",
+            "sub_title": "设置所有小部件的日期格式。",
+            "sample": "示例"
+        }
+    },
+    "rich_snippet": {
+        "title": "丰富的片段",
+        "description": "允许用户创建丰富的片段，通过在搜索结果中直接显示评级、价格和可用性等附加信息，从而提高搜索可见性，增加互动并改善SEO。",
+        "check_snippet": "检查片段",
+        "seo_integrations": "SEO 集成",
+        "seo_description": "这些片段应用程序会自动与Trustshop评论片段同步。",
+        "text_field_label": "输入您的产品链接以检查片段",
+        "text_field_placeholder": "输入产品详细信息链接"
+    },
+    "partner_integrations": {
+        "third_party_apps": "第三方应用",
+        "partner_list": {
+            "langwill": "将您的商店翻译成138种语言，并自动转换货币以在全球范围内增加销售。",
+            "ilana": "通过在搜索结果中突出显示您的评论、价格和业务详细信息来优化您的SEO流量。",
+            "shopify_flow": "使用Shopify Flow的低代码编辑器自定义您的商店并自动执行任务。"
+        },
+        "integrations_now": "立即集成"
+    }
+}

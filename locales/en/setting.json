@@ -1,0 +1,365 @@
+{
+    "general": {
+        "email_setting": {
+            "email": {
+                "reply_to_email": "Reply-to email",
+                "reply_to_email_helptext": "Customers will send to this email.",
+                "sender_email": "Sender email",
+                "sender_email_helptext": "This email will be used to send to your customers.",
+                "sender_name": "Sender name",
+                "title": "Email setting",
+                "send_email_from_source": "Send review request email to order from:",
+                "web": "Online store",
+                "pos": "POS",
+                "shopify_draft_order": "Draft order",
+                "email_blocklist": "Email blocklist",
+                "email_blocklist_helptext": "Request & reminder emails will not be sent to these emails",
+                "block_email_placeholder": "Press Enter to add new email",
+                "unblock_message_title": "Send emails which were blocked previously",
+                "unblock_message": "Do you want to send the emails which were blocked previously, or cancel sending them?",
+                "remember_choice_time": "Remember my response for 1 hour",
+                "block_send_email_conditions": "Block sending emails by conditions",
+                "product_block_list": "Product block list",
+                "select_product": "Select product",
+                "order_tag_blocklist": "Order block list",
+                "order_tag_blocklist_placeholder": "Press Enter to add tags",
+                "order_tag_blocklist_helptext": "Request & reminder emails will not send emails from orders containing tags in the above list"
+            },
+            "sub_title": "Fine-tune your email settings for enhanced productivity and communications",
+            "title": "Email setting",
+            "custom_domain": {
+                "edit_domain_btn": "Edit domain",
+                "page": {
+                    "title": "custom domain",
+                    "empty_page": {
+                        "description": "Link your custom email domain to send messages from your brand’s email address. This will enhance your brand’s professionalism and help your messages stand out in recipients’ inboxes.",
+                        "external_link": "Learn How to Set Up",
+                        "add_domain_btn": "Add your email address"
+                    },
+                    "overview_page": {
+                        "unverified": "Unverified",
+                        "verified": "Verified",
+                        "edit_domain": "Edit domain",
+                        "config_dns_settings": "Configure DNS settings",
+                        "config_dns_settings_helptext": "Insert the following MX, SPF, and DKIM records into your DNS settings to authenticate <strong>{{domain}}</strong>.",
+                        "show_config": "Show configure",
+                        "record_config": {
+                            "type": "TYPE",
+                            "name": "HOST NAME",
+                            "value": "VALUE",
+                            "priority": "PRIORITY",
+                            "mx": {
+                                "title": "MX record",
+                                "sub_title": "Set two MX records that align with the details below:"
+                            },
+                            "spf": {
+                                "title": "SPF record",
+                                "sub_title": "Include a SPF record that matches the details below:"
+                            },
+                            "dkim": {
+                                "title": "DKIM record",
+                                "sub_title": "Include a DKIM record that matches the details below:"
+                            },
+                            "dmarc": {
+                                "title": "DMARC record",
+                                "sub_title": "Include a DMARC record that matches the details below:"
+                            },
+                            "custom_from": {
+                                "title": "Custom from record",
+                                "sub_title": "Include a CUSTOM FROM record that matches the details below:"
+                            },
+                            "notice": "Notice: Your {{config}} record hasn't been verified yet. It may take a few hours or even up to 72 hours for DNS records to fully propagate.",
+                            "verify_domain": "Verify domain"
+                        },
+                        "modal_add_domain": {
+                            "title": "Add your email address",
+                            "input_label": "Enter the email address you’d like to use for sending messages.",
+                            "validate_domain": "You can only add your own domain. Trusthop does not support adding public domains (e.g., gmail.com, yahoo.com)",
+                            "add_domain_btn": "Add domain"
+                        },
+                        "modal_delete_domain": {
+                            "title": "Delete custom domain?",
+                            "description": "If you delete your custom domain, you will revert to using the default domain and will no longer be able to use this domain. This action cannot be undone. Do you want to continue?"
+                        }
+                    }
+                }
+            },
+            "unsubscribe_management": {
+                "title": "Unsubscribe management",
+                "subtitle": "Track and manage customers who have unsubscribed from your review request emails.",
+                "customer_have_unsubscribed": "Customers have unsubscribed",
+                "email": "Email",
+                "topic_type": "Topic type",
+                "unsubscribe_date": "Unsubscribe date",
+                "delete_title": "Delete unsubscribe",
+                "delete_unsubscribe_confirm": "Are you sure you want to delete this email(s)? This action cannot be undone.",
+                "no_unsubscribe_title": "No Unsubscribed Customers",
+                "no_unsubscribe_description": "Information about customers who have unsubscribed from emails will appear here"
+            }
+        },
+        "general_setting": {
+            "profile": {
+                "logo": "Logo",
+                "logo_helptext": "Accepts .gif, .jpg, and .png",
+                "select_image": "Select image",
+                "store_email": "Store email",
+                "store_email_helptext": "We'll use this address if we need to contact you about your account.",
+                "store_name": "Store name",
+                "store_name_helptext": "Appears in email headers without a logo added.",
+                "store_url": "Store url",
+                "title": "Profile",
+                "time": {
+                    "time_format": "Time format",
+                    "sample": {
+                        "12h": "12 Hour",
+                        "24h": "24 Hour"
+                    }
+                },
+                "date": {
+                    "date_format": "Date format",
+                    "sample": {
+                        "month_day_year": "Aug 05 2006",
+                        "day_month_day_year": "Sat Aug 05 2006",
+                        "day_of_week_month_day_year": "Saturday, August 05 2006",
+                        "day_month_day_year_slash": "Sat 08/05/2006",
+                        "day_month_day_year_slash_short_year": "Sat 8/5/06",
+                        "month_day_year_slash": "08/05/2006",
+                        "month_day_year_slash_short_year": "8/5/06",
+                        "month_day_year_time": "Aug 05 2006",
+                        "day_month_day_year_time": "Sat Aug 05 2006",
+                        "day_of_week_month_day_year_time": "Saturday, August 05 2006",
+                        "day_month_day_year_slash_time": "Sat 08/05/2006",
+                        "day_month_day_year_slash_short_year_time": "Sat 8/5/06",
+                        "month_day_year_slash_time": "08/05/2006",
+                        "month_day_year_slash_short_year_time": "8/5/06"
+                    }
+                }
+            },
+            "sub_title": "Configure your account with your email, logo, and social media",
+            "title": "General setting"
+        },
+        "social_links": {
+            "social": {
+                "helptext": "Includes social channel in email footer",
+                "title": "Social setting"
+            },
+            "mobile_apps": {
+                "title": "Mobiles apps",
+                "sub_title": "Includes social channel in Email footer"
+            },
+            "sub_title": "Customize your social links settings to share and communicate effectively with your customers",
+            "title": "Social links"
+        },
+        "review_action": {
+            "title": "Export/delete reviews",
+            "subtitle": "Export and delete all reviews on your store",
+            "export_review": "Export reviews",
+            "export_review_helptext": "It will take a few minutes for the reviews to be exported. The export file will be sent to your email at <1>{{email}}</1>.",
+            "delete_all": "Delete all",
+            "delete_all_helptext": "This action cannot be undone, so please make sure before deleting reviews.",
+            "delete_confirm": "This action cannot be undone, so please make sure before deleting reviews"
+        }
+    },
+    "review": {
+        "auto_publish_reviews": {
+            "title": "Auto-publish reviews",
+            "sub_title": "Select which reviews you want to auto-publish. Any changes will only affect new reviews.",
+            "enable_auto_publish_reviews": "Enable Auto-publish reviews",
+            "auto_publish_reviews_if": "Auto publish new reviews to Store if:"
+        },
+        "new_review_notification": {
+            "title": "New review notification",
+            "sub_title": "Receive email notifications for new review submissions. This does not include reviews added through import",
+            "enable_new_review_notification": "Enable new review notification",
+            "send_email_to_merchant_if": "Send email to merchant if customers leave a review",
+            "receive_email": "Receive email notifications for negative review submissions",
+            "selected_lang_for_system_email": "Select language for system email"
+        },
+        "protect_reviews": {
+            "title": "Protect your reviews",
+            "sub_title": "Set relevant keywords to safeguard your reviews and prevent sensitive content like pornography, violence, terrorism, fraud, phishing links, or malware from appearing in them.",
+            "enable_protect_reviews": "Enable protect reviews",
+            "block_additional_words_description": "We've already blocked the most common profanities. Add more words by typing into the box below.",
+            "add_word_placeholder": "Type a keyword and press enter",
+            "search_language_placeholder": "Search language",
+            "no_language_found": "No language found matching {{lang}}",
+            "lang_have_added": "{{lang}} has been added"
+        },
+        "auto_send_email": {
+            "title": "Auto send email to customer",
+            "sub_title": "When you reply to a customer review in the review management section, the system will automatically send an email to that customer with the content of your reply",
+            "enable_auto_send_email": "Enable send email",
+            "send_email_to_merchant_when_source": "Send emails to customers when you reply to their reviews via source:",
+            "store_front": "Storefront",
+            "email": "Email",
+            "import_csv": "Import CSV"
+        },
+        "review_translate": {
+            "title": "Translate the reviews content",
+            "sub_title": "A Translate button will be displayed on reviews. Allowing buyers to easily translate into their native language",
+            "review_content_translation": "Review content translation",
+            "example": "Example"
+        },
+        "multi_lang": {
+            "title": "Translate the widget language",
+            "sub_title": "The widget's content will automatically be translated into the language of shoppers in each market your store serves.",
+            "auto_multi_lang": "Auto multi-language switching",
+            "description": "By default, all review widgets will display in English. When you enable this feature, the language displayed on the widget will automatically switch to the language of the shopper in the country they are visiting."
+        }
+    },
+    "tabs": {
+        "general": "General",
+        "review": "Review",
+        "import_review": "Import review",
+        "gg_shopping": "Google shopping",
+        "pricing": "Pricing",
+        "global_display": "Global display",
+        "integrations": "Integrations"
+    },
+    "title": "Setting",
+    "import_review": {
+        "save_success": "Save successfully!",
+        "save_error": "Unexpected error!",
+        "filter_review": {
+            "title": "Filter reviews",
+            "sub_title": "The reviews that meet the conditions will be imported",
+            "quantity_import": "Quantity import",
+            "generate": "Generate random quantity",
+            "auto_publish_review_label": "Auto publish reviews with",
+            "contain_option_label": "Contain option",
+            "contain_photos": "Contain photos",
+            "contain_review_content": "Contain review content",
+            "customer_country": "Customer country",
+            "date_range": "Date range",
+            "skip_review": "Skip reviews with keywords",
+            "skip_review_value": "AliExpress, Ali AliExpress, Fraud, Scam, Fake, Counterfeit, Knockoff, Imitation, Replica, Worse"
+        },
+        "generate_title": {
+            "title": "Generate title reviews",
+            "sub_title": "Automaticaly  generate review titles based on the star ratings if the source doesn't have a title",
+            "star": {
+                "1_star": "1 star",
+                "2_star": "2 star",
+                "3_star": "3 star",
+                "4_star": "4 star",
+                "5_star": "5 star"
+            },
+            "title_placeholder": "Perfect in every detail!",
+            "title_random": {
+                "title": "Random title",
+                "sub_title": "Generate random title for reviews"
+            },
+            "new_title": "New title"
+        }
+    },
+    "filter_date": {
+        "all_times": "Any time",
+        "today": "Today",
+        "yesterday": "Yesterday",
+        "last_7_days": "Last 7 days",
+        "last_month": "Last month",
+        "last_year": "Last year"
+    },
+    "gg_shopping": {
+        "title": "Google product review",
+        "sub_title": "Showcase glowing customer testimonials directly on your Google Shopping listings to catch more attention and build trust.",
+        "google_product_review": {
+            "title": "Google product review feed",
+            "generate_feed": "Generate the product review feed",
+            "generate_feed_helptext": "Modify updating schedule to align with settings in Google Merchant Center ",
+            "fetch_frequency": "Fetch frequency",
+            "daily": "Daily",
+            "weekly": "Weekly",
+            "monthly": "Monthly",
+            "fetch_date": "Fetch date",
+            "fetch_time": "Fetch time",
+            "time_zone": "Time zone",
+            "disabled": "Disabled",
+            "XML_file_name": "XML file name",
+            "view_instructions": "View instructions"
+        },
+        "reviewer_content": {
+            "title": "Reviewer content",
+            "reviewer_name_format": "Reviewer name format",
+            "includes_medias": "Include review photos/videos",
+            "include_personal_info": "Include review containing personal information",
+            "include_personal_info_helptext": "Replace personal information with asterisks"
+        },
+        "advanced_setting": {
+            "title": "Advanced setting",
+            "add_gtin": "Add GTIN in the feed (Default)",
+            "add_mpn": "Add MPN in the feed",
+            "add_mpn_helptext": "This will include the same SKU value in Shopify admin",
+            "exclude_out_of_store": "Exclude reviews for out-of-store products"
+        }
+    },
+    "global_display": {
+        "icon_and_corner": {
+            "title": "Display setting",
+            "subtitle": "When an attribute below is changed, the entire system will be updated accordingly",
+            "star_icon": {
+                "title": "Star icon",
+                "icon_style": "Icon style"
+            },
+            "element_corner": {
+                "title": "Element corner",
+                "button_radius": "Button corner radius",
+                "other_element": "Other element's corners",
+                "element": "Element"
+            }
+        },
+        "reviewer_name": {
+            "title": "Reviewer name display",
+            "sub_title": "Select default reviewer name input from the form or customize manually",
+            "reviewer_name_format": "Reviewer name format",
+            "default": {
+                "label": "Default",
+                "helptext": "Auto display the reviewer's name from the review form"
+            },
+            "manually": {
+                "label": "Manually",
+                "helptext": "Choose a defaultname display format. Then apply it to all reviewers",
+                "name_display_format": "Name display format"
+            }
+        },
+        "reviewer_avt_format": {
+            "title": "Reviewer avatar setting",
+            "sub_title": "Set your reviewer's avatar by picking colors or using alternative illustrations",
+            "colorful_avt": {
+                "label": "Colorful avatar",
+                "helptext": "Auto generate avatar from color wheel"
+            },
+            "base_color_avt": {
+                "label": "Base color avatar",
+                "helptext": "Create reviewer avatar with a base color"
+            },
+            "gravatar_avt": {
+                "label": "Gravatar avatar",
+                "helptext": "Use Gravatar to display reviewer avatar"
+            }
+        },
+        "review_date_format": {
+            "title": "Review date format",
+            "sub_title": "Set up the date format across all your widgets.",
+            "sample": "Sample"
+        }
+    },
+    "rich_snippet": {
+        "title": "Rich snippet",
+        "description": "Enable users to create Rich Snippets, enhancing search visibility by displaying additional information like ratings, prices, and availability directly in search results, driving more engagement and improving SEO.",
+        "check_snippet": "Check snippet",
+        "seo_integrations": "SEO integrations",
+        "seo_description": "These snippet apps automatically sync with Trustshop review snippets.",
+        "text_field_label": "Enter your product link to check the snippet",
+        "text_field_placeholder": "Input link product detail"
+    },
+    "partner_integrations": {
+        "third_party_apps": "Third-party apps",
+        "partner_list": {
+            "langwill": "Translate your store into 138 languages and auto-convert currencies to grow sales worldwide.",
+            "ilana": "Optimize your SEO traffic by highlighting your reviews, prices, & business details in search results.",
+            "shopify_flow": "Customize your store and automate your tasks using Shopify Flow’s low-code editor."
+        },
+        "integrations_now": "Integrations now"
+    }
+}

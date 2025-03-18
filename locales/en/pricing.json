@@ -1,0 +1,184 @@
+{
+    "plan": {
+        "for_free": "Free",
+        "title": "Plan",
+        "free": "Basic",
+        "basic": "Standard",
+        "pro": "Enterprise",
+        "unlimited": "Ultimate",
+        "free_plan": "Basic plan",
+        "basic_plan": "Standard plan",
+        "pro_plan": "Enterprise plan",
+        "unlimited_plan": "Ultimate plan"
+    },
+    "plan_active": "{{plan}} activated",
+    "per_month": "per month",
+    "discount_offer_time": "for the next {{time}}",
+    "origin_price": "Original price ",
+    "order/month": "orders/month",
+    "request_reviews": "Request reviews",
+    "upgrade_plan": "Upgrade plan",
+    "select_plan": "Select {{plan}}",
+    "start_free": "Start free",
+    "basic": "Basic",
+    "fully": "Fully",
+    "unlimited": "Unlimited",
+    "modal_pricing_title": "Unlock Premium Features with Our Flexible Pricing",
+    "best_choice": "Best choice",
+    "coming_soon": "Coming soon",
+    "process_bar": {
+        "title": "Total emails completed",
+        "subtitle": "This count will be refreshed on the <strong>{{date}}</strong>",
+        "order_count": "{{used}} of {{total}} orders completed"
+    },
+    "plan_table": {
+        "title": "Pricing plans",
+        "subtitle": "Uncover customized subscription plans designed to elevate your business!",
+        "start_trial": "Start {{day}}-Day Free Trial",
+        "current_plan": "Current plan",
+        "upgrade": "Upgrade",
+        "select_plan": "Select plan",
+        "downgrade": "Downgrade",
+        "pricing_card": {
+            "free": "Access essential features with our Free Plan, perfect for beginners.",
+            "basic": "Get advanced tools and support with the Standard Plan for individuals",
+            "pro": "Empower your enterprise with our all-inclusive Enterprise Plan",
+            "unlimited": "There is no limit to your growth"
+        },
+        "modal_downgrade": {
+            "title": "Don't Lose Access to Powerful Features!",
+            "subtitle": "Your store is using some premium features. Turn them off to downgrade your plan:",
+            "discount_voucher": "Auto discount voucher",
+            "customize_widget": "Customized widget",
+            "upload_video": "Uploading videos when writing a review",
+            "review_testimonial": "Testimonial",
+            "modal_all_image": "Modal all image setting",
+            "review_page": "Reviews all page",
+            "google_shopping": "Google shopping",
+            "global_display": "Global display",
+            "group_product": "Group product",
+            "custom_domain": "Custom domain",
+            "qr_code": "QR code management", 
+            "review_translation": "Review translation",
+            "multi_lang": "Multiple language widget",
+            "ai_functionality": "AI functionality",
+            "insights_and_segmentation": "Insights and Segmentation",
+            "review_detail_page": "Review detail page",
+            "import_custom_csv": "Import custom CSV",
+            "protect_review": "Protect review"
+        },
+        "primary_collapse": {
+            "title": "Discover the best plan for your needs",
+            "email_quota": "Request reviews",
+            "email_quota_helptext": "We calculate your quota based on the number of orders, not the number of review request emails sent. For example, if you send three emails (request, reminder, and thank you), it still counts as one",
+            "order_per_month": "Total order/month",
+            "discount_voucher": "Discount voucher",
+            "customize_widget": "Customized widget",
+            "upload_video": "Reviews video",
+            "review_testimonial": "Review testimonial",
+            "modal_all_image": "Modal all image ",
+            "review_page": "Reviews all page",
+            "google_shopping": "Google shopping",
+            "global_display": "Global display",
+            "group_product": "Group product",
+            "custom_domain": "Custom domain",
+            "qr_code": "QR code management", 
+            "review_translation": "Review translation",
+            "multi_lang": "Multiple language widget",
+            "ai_functionality": "AI functionality",
+            "insights_and_segmentation": "Insights and segmentation",
+            "review_detail_page": "Review detail page",
+            "import_custom_csv": "Import custom CSV",
+            "protect_review": "Protect review"
+        },
+        "details_collapse": {
+            "title": "Compare the customize widget between subscription plans",
+            "widgetBox": {
+                "title": "Widget box (default)",
+                "choose_layout": "Choose layout",
+                "summary_box": "Summary box",
+                "color_scheme": "Color schema",
+                "information_display": "Information display",
+                "content": "Content"
+            },
+            "widgetBoxNoReview": {
+                "title": "Widget box (no reviews)",
+                "content": "Content",
+                "color_scheme": "Color schema"
+            },
+            "modalReviewDetail": {
+                "title": "Modal review detail",
+                "all_settings": "All settings"
+            },
+            "modal_all_image": {
+                "title": "Modal all images",
+                "all_settings": "All settings"
+            },
+            "formWriteReview": {
+                "title": "Form write reviews",
+                "review_with_video": "Review with video"
+            }
+        }
+    },
+    "free_banner": {
+        "title": "Access essential features with our Free Plan, perfect for beginners.",
+        "email_quota_limit": "Email quota limit {{limit}} orders/month",
+        "basic_access": "Basic access to reviews widget",
+        "basic_edit_email": "Basic edit Request email",
+        "upload_media": "Only upload Image by Reviewers",
+        "quick_chat": "Quick chat support",
+        "visible_brand": "Visible TrustShop Brand"
+    },
+    "basic_banner": {
+        "everything_in_basic": "Everything in Basic plan",
+        "email_quota": "Email quota limit {{limit}} orders/month",
+        "discount_voucher": "Auto discount voucher",
+        "customize_widget": "Customized widget",
+        "upload_video": "Uploading videos when writing a review",
+        "review_testimonial": "Testimonial",
+        "modal_all_image": "Modal all image setting",
+        "review_page": "Reviews all page",
+        "google_shopping": "Google shopping",
+        "global_display": "Global display",
+        "group_product": "Group product",
+        "custom_domain":"Custom domain",
+        "qr_code": "QR code management", 
+        "review_translation": "Review translation",
+        "multi_lang": "Multiple language widget",
+        "ai_functionality": "AI functionality",
+        "insights_and_segmentation": "Insights and Segmentation",
+        "review_detail_page": "Review detail page",
+        "import_custom_csv": "Import custom CSV",
+        "protect_review": "Protect review"
+    },
+    "frequency_ask": {
+        "title": "Frequently asked questions",
+        "list_questions": {
+            "1": {
+                "title": "How is the request reviews quota calculated?",
+                "subtitle": "The quota is based on the number of orders. If you enable all three types of emails—Request Reviews, Review Reminder, and Thank You. Only one quota will be counted per order."
+            },
+            "2": {
+                "title": "Will my quota be used if I don’t send review requests through TrustShop?",
+                "subtitle": "No, your quota will only be deducted if you utilize TrustShop’s review request feature. If you don’t use this feature, your quota remains unaffected."
+            },
+            "3": {
+                "title": "Can I downgrade my plan?",
+                "subtitle": "Yes, you can downgrade your plan at any time if you no longer need the paid features. Just make sure to disable all paid features before downgrading. If you need assistance, our support team is always here to help."
+            },
+            "4": {
+                "title": "Will I be charged during the trial period?",
+                "subtitle": "No, you won’t be charged during the trial. Charges will only begin once the trial period ends."
+            }
+        }
+    },
+    "modal_charge_success": {
+        "title": "You're Now a {{plan}} Member!",
+        "content": "Thank you for choosing our premium subscription! Get ready for exclusive benefits and top-tier support. Let's make this journey extraordinary."
+    },
+    "special_offer": {
+        "title": "Special Offer: 30% Off for Being with Us!",
+        "content": "To show our appreciation for your support, we're offering you a special <1>30% discount</1> on any subscription plan for the next two months. Thank you for being a valued customer!",
+        "remain_time": "Remaining time for the offer:"
+    }
+}

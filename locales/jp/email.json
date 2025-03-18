@@ -1,0 +1,247 @@
+{
+    "table": {
+        "navigate_button_content": "メールワークフロー",
+        "no_data": {
+            "title": "リクエストメールを管理する",
+            "description": "アクティブなメールテンプレートを設定して、顧客に自動メールを送信しましょう。",
+            "setting_email_templates": "メールテンプレートの設定"
+        },
+        "title": "レビューリクエストメール",
+        "second_title": "手動でメールを送信する",
+        "search_placeholder": "メールアドレスまたは注文番号を入力してください",
+        "all_status": "すべてのステータス",
+        "email_type": "メールタイプ",
+        "email_review_request": "レビューリクエストメール",
+        "remind_request_review": "レビューリクエストリマインダーメール",
+        "thank_you_email": "お礼のメール",
+        "just_now": "たった今",
+        "order_id": "注文ID",
+        "buyer": "購入者",
+        "location": "場所",
+        "product": "商品",
+        "purchase_time": "購入日時",
+        "schedule_date": "スケジュール日",
+        "send_now": "今すぐ送信",
+        "send_again": "再送信する"
+    },
+    "campaign": {
+        "banner": {
+            "title": "お客様のレビューは力強いです！",
+            "content": "数文のレビューは、ウェブサイト全体よりも消費者に影響を与えることがあります。組み込みのメールキャンペーンとテンプレートを使用して、お客様のレビューを簡単に取得しましょう！"
+        },
+        "email_content": "メールの内容",
+        "email_content_description": "メッセージを簡単に理解できるように、カスタマイズされた言語でメールの内容を作成します",
+        "email_will_be_sent": "メールが送信されます",
+        "title": "メールワークフロー",
+        "not_active": "非アクティブ",
+        "running": "実行中",
+        "save_just_now": "今すぐ保存",
+        "send_test": "テスト送信",
+        "send_test_email": "テストメールを送信",
+        "enter_email_address": "以下にメールアドレスを入力してください",
+        "confirm": "確認",
+        "when_to_send": "送信タイミング",
+        "all_change_save": "すべての変更が保存されました",
+        "all_customer": "すべての顧客",
+        "email_schedule": "メールスケジュール",
+        "email_scheduling": "メールスケジューリング",
+        "email_scheduling_subtitle": "異なる地理的なエリアから来た顧客にメールを送信する時間をカスタマイズします",
+        "to": "宛先",
+        "subject": "件名",
+        "preview": "プレビュー",
+        "from": "送信元",
+        "branding": "ブランディング",
+        "logo": "ロゴ",
+        "personalization": "パーソナライズ",
+        "active_require_toast": "レビューリクエストのトリガーをアクティブにする必要があります",
+        "product_quantity": "商品の数量",
+        "star_rating_icon": "星評価アイコン",
+        "call_to_action_btn": "アクションボタン (レビューを書く)",
+        "request_review": {
+            "title": "レビューリクエスト",
+            "content": "<strong>{{day}}</strong>日後、<strong>{{status}}</strong>の場合に、顧客に製品レビューを依頼する自動メールが送信されます。",
+            "toast_active": "レビューリクエストが有効化されました",
+            "toast_deactive": "レビューリクエストが無効化されました"
+        },
+        "request_review_reminder": {
+            "title": "レビューリマインダー",
+            "content": "最初のレビューリクエストメール送信後<strong>{{days}}</strong>日経過しても返信がない場合、自動リマインダーメールが送信されます。レビューリクエストメールが有効化されている場合のみ有効です。",
+            "after_review_request_mail": "レビューリクエストメールの後",
+            "toast_active": "リマインダーメールが有効化されました",
+            "toast_deactive": "リマインダーメールが無効化されました"
+        },
+        "thank_you_for_review": {
+            "title": "レビューへの感謝",
+            "content": "顧客がレビューを投稿した後、自動的に感謝メールが送信されます。クーポンコードや割引を追加できます。レビューリクエストメールが有効化されている場合のみ有効です。",
+            "content_2": "顧客がレビューを投稿してから<strong>{{days}}</strong>日後、自動的に感謝メールが送信されます。クーポンコードや割引を追加できます。レビューリクエストメールが有効化されている場合のみ有効です。",
+            "after_review_submit": "レビューが送信されました",
+            "review_submitted": "レビューが送信されました",
+            "approve_for_review": "レビューが承認されました",
+            "toast_active": "感謝メールが有効化されました",
+            "toast_deactive": "感謝メールが無効化されました"
+        },
+        "send_test_success": "メールが正常に送信されました",
+        "send_test_hepltext": "以下にメールアドレスを入力してください",
+        "store_name": "ストア名",
+        "first_name": "名",
+        "last_name": "姓",
+        "email": "メール",
+        "city": "市区町村",
+        "state_province": "都道府県",
+        "country": "国",
+        "request_review_emails": "レビューリクエストメール",
+        "background_color": "背景色",
+        "text_color": "テキストの色",
+        "show_header": "ヘッダーを表示",
+        "hide_header": "ヘッダーを非表示",
+        "order_status": "注文ステータス",
+        "complete": "完了",
+        "completed": "完了",
+        "order_paid": "支払済み",
+        "default": "デフォルト",
+        "add_country_timing": "国のタイミングを追加",
+        "type_a_language_name": "言語名を入力してください",
+        "no_language_found": "一致する言語が見つかりませんでした: ",
+        "discount_voucher": "割引バウチャー",
+        "automation": "自動化",
+        "discount_description": "次回の購入で割引を提供することで、顧客にレビューを残すように促します",
+        "email_queue": "手動メールリクエスト",
+        "email_queue_description": "自動的に送信されなかった注文に対してリクエストメールを送信します",
+        "country_selected_count": "{{selected}} 件中 {{total}} 件選択されました",
+        "country_group": {
+            "asia": "アジア",
+            "europe": "ヨーロッパ",
+            "africa": "アフリカ",
+            "north_america": "北アメリカ",
+            "south_america": "南アメリカ",
+            "oceania": "オセアニア"
+        }
+    },
+    "email_template": {
+        "request_review": {
+            "subject": "ご購入いただきありがとうございます！レビューをお願いします！",
+            "preview_text": "最近のご購入ありがとうございます。お気に入りいただけましたら、レビューをいただけると幸いです",
+            "body": {
+                "title": "ご利用いただきありがとうございます！🤗",
+                "html": "<h2>ご利用いただきありがとうございます！🤗</h2>",
+                "content": {
+                    "html": "<p><strong>こんにちは </strong>{{FIRST_NAME}}さん</p>\n<p>{{STORE_NAME}}でのショッピングをお楽しみいただけているかどうか、ご確認したいと思います</p>\n<p>お時間がある場合は、ぜひご意見やご体験をお知らせいただけると幸いです。あなたの承認はすべてです 🤩。</p>\n",
+                    "raw": "{'blocks':[{'key':'e8our','text':'こんにちは {{FIRST_NAME}}さん','type':'unstyled','depth':0,'inlineStyleRanges':[{'offset':0,'length':6,'style':'BOLD'}],'entityRanges':[],'data':{}},{'key':'eustq','text':'{{STORE_NAME}}でのショッピングをお楽しみいただけているかどうか、ご確認したいと思います','type':'unstyled','depth':0,'inlineStyleRanges':[],'entityRanges':[],'data':{}},{'key':'7tjk7','text':'お時間がある場合は、ぜひご意見やご体験をお知らせいただけると幸いです。あなたの承認はすべてです 🤩。','type':'unstyled','depth':0,'inlineStyleRanges':[],'entityRanges':[],'data':{}}],'entityMap':{}}"
+                },
+                "product": {
+                    "rate_this_item": {
+                        "text": "この商品を評価する"
+                    }
+                }
+            }
+        },
+        "thank_you_email": {
+            "subject": "レビューを投稿いただきありがとうございます！❤️",
+            "preview_text": "最近のご購入ありがとうございます。お気に入りいただけましたら、レビューをいただけると幸いです",
+            "body": {
+                "html": "<h2>レビューを投稿いただきありがとうございます！❤️</h2>",
+                "title": "レビューを投稿いただきありがとうございます！❤️",
+                "content": {
+                    "html": "<p><strong>こんにちは </strong>{{FIRST_NAME}}さん</p>\n<p>こんにちは。最新のご購入に対するレビューを投稿いただきありがとうございます。フィードバックを聞くことが大好きで、このアイテムのご体験を共有していただいた時間を大変に感謝しています。</p>",
+                    "raw": "{'blocks':[{'key':'e8our','text':'こんにちは {{FIRST_NAME}}さん','type':'unstyled','depth':0,'inlineStyleRanges':[{'offset':0,'length':6,'style':'BOLD'}],'entityRanges':[],'data':{}},{'key':'eustq','text':'最新のご購入に対するレビューを投稿いただきありがとうございます。フィードバックを聞くことが大好きで、このアイテムのご体験を共有していただいた時間を大変に感謝しています。','type':'unstyled','depth':0,'inlineStyleRanges':[],'entityRanges':[],'data':{}},{'key':'al478','text':'','type':'unstyled','depth':0,'inlineStyleRanges':[],'entityRanges':[],'data':{}}],'entityMap':{}}"
+                },
+                "reviews": {
+                    "review_on": "レビュー対象",
+                    "btn_shop_now": "今すぐショッピング"
+                }
+            }
+        },
+        "tone_voice": {
+            "friendly": {
+                "request_review": {
+                    "subject": "{{PRODUCT_NAME}}の購入は楽しんでいますか？ 今すぐレビューを残してください！",
+                    "content": "<p><strong>こんにちは </strong>{{FIRST_NAME}}さん</p>\n<p>{{STORE_NAME}}でのショッピングをお楽しみいただけているかどうか、ご確認したいと思います</p>\n<p>お時間がある場合は、ぜひご意見やご体験をお知らせいただけると幸いです。あなたの承認はすべてです 🤩。</p>\n<p>よろしくお願いします。</p>\n<p>{{STORE_NAME}}チーム</p>"
+                },
+                "request_review_reminder": {
+                    "subject": "ご利用いただきありがとうございます。ご意見をお聞かせください。",
+                    "content": "最近のご購入ありがとうございます。お気に入りいただけましたら、レビューをいただけると幸いです"
+                },
+                "thank_you_email": {
+                    "subject": "レビューを投稿いただきありがとうございます！❤️",
+                    "content": "<p><strong>こんにちは </strong>{{FIRST_NAME}}さん</p>\n<p>こんにちは。最新のご購入に対するレビューを投稿いただきありがとうございます。フィードバックを聞くことが大好きで、このアイテムのご体験を共有していただいた時間を大変に感謝しています。</p>"
+                }
+            },
+            "professional": {
+                "request_review": {
+                    "subject": "{{PRODUCT_NAME}}についてのご意見をお聞かせください",
+                    "content": "<p><strong>{{FIRST_NAME}}様</strong></p>\n<p>{{STORE_NAME}}での最近のご購入、お楽しみいただけていることを願っています。お客様のご意見は、私たちが提供する商品を改善し、すべてのお客様に最高の体験を提供するために重要です。</p>\n<p>当社のウェブサイトで{{PRODUCT_NAME}}についてのご意見をレビューとしてお寄せいただけると幸いです。ご正直なご意見を大変に感謝しております。</p>\n<p>お時間とご支援に感謝申し上げます。</p>\n<p>敬具</p>\n<p>{{STORE_NAME}}チーム</p>"
+                },
+                "request_review_reminder": {
+                    "subject": "{{STORE_NAME}}での最近のご利用について",
+                    "content": "<p><strong>{{FIRST_NAME}}様</strong></p>\n<p>{{STORE_NAME}}をお選びいただきありがとうございます！最近のご購入をお楽しみいただけていることを願っています。お客様のご意見は貴重であり、ご体験を共有いただけると幸いです。</p>\n<p>敬具</p>\n<p>{{STORE_NAME}}</p>"
+                },
+                "thank_you_email": {
+                    "subject": "レビューを受け取りました！ご意見は大切です！",
+                    "content": "<p><strong>{{FIRST_NAME}}様</strong></p>\n<p>最近のご購入に対するレビューをお寄せいただきありがとうございます。私たちは製品とサービスを継続的に改善するために、お客様のご意見を大切にしています。ご意見を共有いただき、心から感謝申し上げます。</p>"
+                }
+            },
+            "persuasive": {
+                "request_review": {
+                    "subject": "特典を解除！{{PRODUCT_NAME}}のレビューを共有してください",
+                    "content": "<p><strong>{{FIRST_NAME}}様</strong></p>\n<p>{{STORE_NAME}}での新しい{{PRODUCT_NAME}}をお楽しみいただけていますか？ぜひご意見をお聞かせください！</p>\n<p>当社のウェブサイトでご正直なレビューを共有することは、他の方々が情報を得るのに役立ち、次回のご購入時に特別なクーポンを解除することもあります！</p>\n<p>数分でレビューを残すだけで、大きな違いを生み出すことができます。</p>\n<p>星をクリックしてご意見を共有しましょう！</p>\n<p>ありがとうございます。</p>\n<p>{{STORE_NAME}}チーム</p>"
+                },
+                "request_review_reminder": {
+                    "subject": "レビューで特典を解除しましょう！",
+                    "content": "<p><strong>{{FIRST_NAME}}様</strong></p>\n<p>{{STORE_NAME}}での最近のご購入は私たちにとって大切です！ご意見を共有し、特典を解除し、特別なものをお楽しみください。</p>\n<p>{{STORE_NAME}}をお選びいただきありがとうございます！</p>\n<p>よろしくお願いいたします。</p>\n<p>{{STORE_NAME}}</p>"
+                },
+                "thank_you_email": {
+                    "subject": "他の方々の賢いショッピングをサポートしてください！ご意見を共有してください！",
+                    "content": "<p><strong>{{FIRST_NAME}}様</strong></p>\n<p>最近のご購入に対するレビューをお寄せいただきありがとうございます！お客様のご意見は他のショッパーにとって貴重であり、私たちのコミュニティに貢献していただいた時間を心から感謝しています。ご意見を共有することで、他の方々が情報を得るお手伝いをしていただいています。</p>"
+                }
+            },
+            "supportive": {
+                "request_review": {
+                    "subject": "お手伝いいたします！{{PRODUCT_NAME}}のご体験を共有してください",
+                    "content": "<p><strong>{{FIRST_NAME}}様</strong></p>\n<p>{{STORE_NAME}}での新しい{{PRODUCT_NAME}}をお楽しみいただけていることを願っています。</p>\n<p>当社のウェブサイトでのご意見は他の方々に役立ちますし、私たちがお客様へ最高のサポートを提供できるようにも役立ちます。</p>\n<p>{{PRODUCT_NAME}}についてのご意見、良いものでも悪いものでも、ぜひお聞かせください。お客様のご意見を大切にし、完全にご満足いただけるようにいたします。</p>\n<p>もし{{PRODUCT_NAME}}に関するご質問やお手伝いが必要な場合は、お気軽に私たちのフレンドリーなカスタマーサービスチームまでお問い合わせください。</p>\n<p>いつでもお手伝いいたします！</p>\n<p>よろしくお願いいたします。</p>\n<p>{{STORE_NAME}}チーム</p>"
+                },
+                "request_review_reminder": {
+                    "subject": "{{STORE_NAME}}へのご意見は重要です",
+                    "content": "<p><strong>{{FIRST_NAME}}様</strong></p>\n<p>{{STORE_NAME}}での最近のご購入にご満足いただけていることを願っています。お客様のご意見は重要です。ぜひお時間を割いてご意見をお聞かせください。</p>\n<p>{{STORE_NAME}}の貴重なお客様であることに感謝申し上げます。</p>\n<p>よろしくお願いいたします。</p>\n<p>{{STORE_NAME}}</p>"
+                },
+                "thank_you_email": {
+                    "subject": "レビューを拝見しました！",
+                    "content": "<p><strong>{{FIRST_NAME}}様</strong></p>\n<p>最近のご購入に対するレビューを拝見し、心からお礼申し上げます！お客様のご意見は私たちにとって重要であり、すべてのお客様に最高の体験を提供できるように役立っています。</p>"
+                }
+            }
+        }
+    },
+    "qr_code_setting": {
+        "page_title": "QRコード管理",
+        "store_qr_code": "ストアQRコード",
+        "store_qr_code_description": "ストアのユニークなQRコードを作成およびカスタマイズし、顧客がスキャンするだけで注文を管理およびレビューできるようにします。迅速かつ便利なQRコード統合でストアの顧客体験を向上させましょう。",
+        "download_qr_code": "QRコードをダウンロード",
+        "scan_analysis": "スキャン分析",
+        "bar_chart": "棒グラフ",
+        "line_chart": "折れ線グラフ",
+        "total_scans": "総スキャン数",
+        "operating_system_scan": "オペレーティングシステムスキャン",
+        "total_scan": "総スキャン",
+        "rate": "レート",
+        "top_country": "トップ国",
+        "country": "国",
+        "top_cities": "トップ都市",
+        "cities": "都市",
+        "modal_customize": {
+            "title": "ストアQRコードエディター",
+            "frame": "フレーム",
+            "background_color": "背景色",
+            "transparent_background": "透明な背景",
+            "logo": "ロゴ",
+            "upload_logo": "ロゴをアップロード",
+            "pattern_color": "パターンカラー",
+            "custom_pattern_color": "カスタムパターンカラー",
+            "frame_color": "フレームカラー"
+        }
+    },
+    "product_photo": "商品写真",
+    "product_name": "商品名",
+    "quantity": "数量",
+    "unsubcribe": "購読解除",
+    "resync-order": "注文を再同期",
+    "resync-helptext": "システムはすべての以前の注文を同期します。"
+}

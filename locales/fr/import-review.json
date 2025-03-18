@@ -1,0 +1,42 @@
+{
+    "title": "Importer des avis",
+    "subtitle": "L'extension vous permet de collecter des avis précieux d'AliExpress",
+    "extension_installation": "Installation de l'extension",
+    "page_primary_button": "Modifier les paramètres d'importation",
+    "guild": {
+        "title": "Installation de l'extension",
+        "subtitle": "Installez notre extension pour collecter des avis d'AliExpress",
+        "step": "<p>Installez notre extension pour collecter des avis d'AliExpress :</p><p>Cliquez sur \"<strong>Installer l'extension TrustShop</strong>\".</p><p>Vous serez automatiquement redirigé vers le \"Chrome Web Store\". Cliquez sur \"<strong>Ajouter à Chrome</strong>\".</p> <p>Suivez les instructions pour terminer le processus d'installation.</p><p><strong>Actualisez</strong> cette page et commencez à importer des avis.</p>",
+        "btn_install_extension": "Installer l'extension TrustShop",
+        "refresh_page": "Actualiser la page"
+    },
+    "product": "Produit",
+    "aliexpress_link": "Lien AliExpress",
+    "save_changes": "Enregistrer les modifications",
+    "import": "Importer",
+    "enter_aliexpress_link_here": "Entrez le lien AliExpress ici",
+    "import_settings": "Paramètres d'importation",
+    "change_product": "Changer de produit",
+    "aliexpress_product_link": "Lien du produit AliExpress",
+    "enter_a_link": "Entrez un lien",
+    "quantity": "Quantité",
+    "enter_a_quantity": "Entrez une quantité",
+    "content_option": "Option de contenu",
+    "contain_photos": "Contient des photos",
+    "conatain_videos": "Contient des vidéos",
+    "contain_review_content": "Contient le contenu de l'avis",
+    "customer_country": "Pays du client",
+    "search_country": "Rechercher un pays",
+    "all_countries": "Tous les pays",
+    "date_range": "Plage de dates",
+    "filter_date": {
+        "today": "Aujourd'hui",
+        "yesterday": "Hier",
+        "last_7_days": "7 derniers jours",
+        "last_month": "Mois dernier",
+        "last_year": "Année dernière",
+        "all_times": "Toutes les périodes"
+    },
+    "banner_success": "Nous avons importé des avis pour",
+    "banner_error": "Une erreur est survenue lors de la tentative d'importation des avis"
+}

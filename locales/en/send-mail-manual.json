@@ -1,0 +1,23 @@
+{
+    "send_mail": {
+        "title": "Manual request email",
+        "subject": "Send request emails for the orders not be sent automatically"
+    },
+    "table": {
+        "order": "Order name",
+        "date": "Date",
+        "customer": "Customer",
+        "total": "Total",
+        "fulfillment_status": "Fulfillment status",
+        "items": "Items"
+    },
+    "empty_search": {
+        "title": "No orders found",
+        "description": "Try changing the filters or search term"
+    },
+    "banner": {
+        "title": "Update Shopify app permissions",
+        "content": "To use this feature, you need to grant additional 'read orders' permissions to TrustShop. To grant permission, please click the button below",
+        "button": "Update permissions"
+    }
+}

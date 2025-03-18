@@ -1,0 +1,169 @@
+{
+    "step_1": {
+        "button": "开始使用",
+        "sub_title": "通过连接您的Shopify商店开始。TrustShop将无缝集成到您的商店中，使您能够轻松管理评论并与客户互动。",
+        "title": "✋ 欢迎来到TrustShop",
+        "select_language": "您的主要沟通语言是什么？",
+        "select_language_subtitle": "选择您偏好的界面语言。",
+        "help_text": "您可以随时在设置中更改主要语言。",
+        "app_language": "应用语言"
+    },
+    "step_2": {
+        "quick_guide": {
+            "reload_btn": "重新加载",
+            "recheck_btn": "出错了，点击重新检查",
+            "step_1": "<p>点击 <span>启用应用嵌入</span> 按钮</p>",
+            "step_2": "<p>页面将打开，应用已 <span>自动启用</span></p>",
+            "step_3": "<p>点击 <span>保存</span> 按钮（在右上角），确保您看到成功消息</p>",
+            "step_4": "<p>返回此 <span>入门页面</span> 继续进行 TrustShop 的入门操作。</p>",
+            "success_btn": "成功启用应用嵌入",
+            "sub_title": "通过以下步骤轻松启用应用：",
+            "title": "👉 不要错过此指南 👈",
+            "not_detect_embedded": "启用失败，请再试一次。",
+            "add_widget_helptext": "添加小部件时遇到问题？联系我们获取详细帮助！",
+            "helptext": "<p>此步骤添加必要的代码，以便在您的商店中显示评论。</p><p><i>不用担心 - 这不会影响您商店的设计或布局。</i></p>"
+        },
+        "sub_title": "在后续步骤中无缝显示评论",
+        "title": "自动评论请求",
+        "email_setting_title": "设置电子邮件评论请求",
+        "email_setting_subtitle": "评论请求电子邮件将根据以下设置自动发送",
+        "customer_in_country": "客户所在国家",
+        "default_country": "默认（所有国家）",
+        "send_email_request_review": "发送电子邮件评论请求",
+        "after_order": "订单状态为",
+        "add_more_country": "添加更多国家",
+        "help_text": "您可以随时在设置中更改此配置。"
+    },
+    "step_3": {
+        "v1": {
+            "quick_guide": {
+                "title": "添加评论小部件",
+                "reload_btn": "重新加载",
+                "recheck_btn": "错误。点击重新检查",
+                "step_1": "<p>在编辑器中打开 <1>templates/product.liquid</1></p>",
+                "step_2": "<p>将以下代码添加到您的主题文件底部</p>",
+                "step_3": "<p>点击 <span>保存</span></p>",
+                "step_4": "<p>返回此 <span>入门页面</span> 继续入门。</p>",
+                "helptext": "<p>此步骤添加必要的代码，以便在您的商店中显示评论。</p><p><i>不用担心 - 这不会影响您商店的设计或布局。</i></p>"
+            }
+        },
+        "v2": {
+            "quick_guide": {
+                "title": "添加评论小部件",
+                "reload_btn": "重新加载",
+                "recheck_btn": "错误。点击重新检查",
+                "step_1": "<p>点击 <span>添加小部件</span> 按钮</p>",
+                "step_2": "<p>小部件将自动添加到您的产品模板中</p>",
+                "step_3": "<p>点击 <span>保存</span> 确认更改</p>",
+                "step_4": "检查您的产品页面以查看评论效果",
+                "step_5": "<p>返回此 <span>入门页面</span> 继续入门</p>",
+                "helptext": "<p>此步骤添加必要的代码，以便在您的商店中显示评论。</p><p><i>不用担心 - 这不会影响您商店的设计或布局。</i></p>"
+            }
+        },
+        "quick_guide": {
+            "sub_title": "按照以下简单步骤在您的商店启用产品评论：",
+            "title": "快速指南",
+            "not_detect_widget": "我们无法检测到任何小部件。请再试一次！",
+            "add_widget_helptext": "添加小部件时遇到困难？请联系我们获取详细帮助！",
+            "success_btn": "成功添加小部件"
+        },
+        "sub_title": "在您的在线商店显示评论小部件。",
+        "title": "设置产品评论显示",
+        "enable_app_embed": "启用应用集成",
+        "enable_app_embed_subtitle": "按照以下简单步骤在您的商店启用产品评论",
+        "add_widget_btn": "添加小部件",
+        "enable_embed": "启用嵌入应用"
+    },
+    "step_4": {
+        "button": "前往仪表板",
+        "sub_title": "恭喜！您现在已经准备好通过评论和推荐的力量来提升您的品牌。准备好让您的业务蓬勃发展吧！",
+        "title": "您已准备好！",
+        "import_text": "无缝导入来自Shopify产品评论、Judge.me、Loox等的评论",
+        "import_button": "导入评论",
+        "dashboard_text": "开始管理评论，并与您的品牌进行客户互动",
+        "dashboard_button": "前往仪表板"
+    },
+    "pricing_page": {
+        "title": "简单、直观的定价！",
+        "sub_title": "7天免费试用。没有隐藏费用。",
+        "free_plan_des": "或者免费开始，非常适合初学者。",
+        "recommended": "推荐",
+        "pricing_card": {
+            "basic": {
+                "title": "标准版",
+                "sub_title": "适合小型企业。",
+                "benefit": {
+                    "1": "<p><span>200</span> 单订单评论请求/月</p>",
+                    "2": "<p>访问大部分高级功能</p>",
+                    "3": "<p>Shopify流集成</p>",
+                    "4": "<p>优先客户支持</p>"
+                }
+            },
+            "pro": {
+                "title": "企业版",
+                "sub_title": "将您的业务提升到新的高度。",
+                "benefit": {
+                    "1": "<p><span>1,500</span> 单订单评论请求/月</p>",
+                    "2": "<p>访问 <span>所有高级功能</span></p>",
+                    "3": "<p>评论详细页面</p>",
+                    "4": "<p>自定义域名</p>",
+                    "5": "<p>Shopify流集成</p>",
+                    "6": "<p>优先客户支持</p>"
+                }
+            },
+            "unlimited": {
+                "title": "终极版",
+                "sub_title": "无限制的成长空间。",
+                "benefit": {
+                    "1": "<p><span>无限制</span> 订单评论请求</p>",
+                    "2": "<p>访问 <span>所有高级功能</span></p>",
+                    "3": "<p>评论详细页面</p>",
+                    "4": "<p>自定义域名</p>",
+                    "5": "<p>Shopify流集成</p>",
+                    "6": "<p>优先客户支持</p>"
+                }
+            }
+        }
+    },
+    "modal_compare_plans": {
+        "title": "比较计划",
+        "pricing_card": {
+            "free": {
+                "title": "基础版",
+                "sub_title": "免费开始，适合初学者。",
+                "benefit": {
+                    "1": "<p><span>50</span> 单订单评论请求/月</p>",
+                    "2": "<p>基本访问评论小部件</p>",
+                    "3": "<p>基本编辑请求电子邮件</p>",
+                    "4": "<p>仅允许评论者上传图片</p>"
+                }
+            },
+            "basic": {
+                "title": "标准版",
+                "sub_title": "适合小型企业或个人。",
+                "benefit": {
+                    "1": "<p><span>200</span> 单订单评论请求/月</p>",
+                    "2": "<p>访问 <span>大部分高级功能</span></p>",
+                    "3": "<p>完全可自定义的小部件</p>",
+                    "4": "<p>评论视频</p>",
+                    "5": "<p>Google购物</p>",
+                    "6": "<p>保护您的评论</p>"
+                }
+            },
+            "pro": {
+                "title": "企业版",
+                "sub_title": "将您的业务提升到新的高度。",
+                "benefit": {
+                    "1": "<p><span>1,500</span> 单订单评论请求/月</p>",
+                    "2": "<p>访问 <span>所有高级功能</span></p>",
+                    "3": "<p>完全可自定义的小部件</p>",
+                    "4": "<p>评论视频</p>",
+                    "5": "<p>Google购物</p>",
+                    "6": "<p>保护您的评论</p>",
+                    "7": "<p>评论详细页面</p>",
+                    "8": "<p>自定义域名</p>"
+                }
+            }
+        }
+    }
+}

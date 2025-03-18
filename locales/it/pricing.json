@@ -1,0 +1,184 @@
+{
+    "plan": {
+        "for_free": "Gratis",
+        "title": "Piano",
+        "free": "Base",
+        "basic": "Standard",
+        "pro": "Enterprise",
+        "unlimited": "Ultimate",
+        "free_plan": "Piano Base",
+        "basic_plan": "Piano Standard",
+        "pro_plan": "Piano Enterprise",
+        "unlimited_plan": "Piano Ultimate"
+    },
+    "basic": "Base",
+    "fully": "Completamente",
+    "per_month": "al mese",
+    "plan_active": "{{plan}} attivato",
+    "discount_offer_time": "per i prossimi {{time}}",
+    "origin_price": "Prezzo originale ",
+    "order/month": "ordini/mese",
+    "request_reviews": "Richiedi recensione",
+    "upgrade_plan": "Aggiorna piano",
+    "select_plan": "Seleziona {{plan}}",
+    "start_free": "Inizia gratis",
+    "unlimited": "Illimitato",
+    "modal_pricing_title": "Sblocca Funzionalità Premium con la Nostra Tariffazione Flessibile",
+    "best_choice": "Migliore scelta",
+    "coming_soon": "Prossimamente",
+    "process_bar": {
+        "title": "Email completate totali",
+        "subtitle": "Questo conteggio verrà aggiornato il <strong>{{date}}</strong>",
+        "order_count": "{{used}} di {{total}} ordini completati"
+    },
+    "plan_table": {
+        "title": "Piani tariffari",
+        "subtitle": "Scopri i piani di abbonamento personalizzati progettati per far crescere la tua attività!",
+        "start_trial": "Inizia la prova gratuita di {{day}} giorni",
+        "current_plan": "Piano attuale",
+        "upgrade": "Aggiorna",
+        "select_plan": "Seleziona piano",
+        "downgrade": "Riduci",
+        "pricing_card": {
+            "free": "Accedi alle funzionalità essenziali con il nostro Piano Base, perfetto per i principianti.",
+            "basic": "Ottieni strumenti e supporto avanzati con il Piano Standard per singoli",
+            "pro": "Potenzia la tua azienda con il nostro Piano Enterprise tutto incluso",
+            "unlimited": "Non c'è limite alla tua crescita"
+        },
+        "modal_downgrade": {
+            "title": "Non perdere l'accesso a funzionalità potenti!",
+            "subtitle": "Il tuo negozio sta utilizzando alcune funzionalità premium. Disattivale per ridurre il piano:",
+            "discount_voucher": "Voucher sconto automatico",
+            "customize_widget": "Widget personalizzato",
+            "upload_video": "Caricamento video durante la scrittura di una recensione",
+            "review_testimonial": "Testimonianza",
+            "modal_all_image": "Impostazioni tutte le immagini modal",
+            "review_page": "Pagina di tutte le recensioni",
+            "google_shopping": "Google shopping",
+            "group_product": "Prodotto di gruppo",
+            "global_display": "Visualizzazione globale",
+            "custom_domain": "Dominio personalizzato",
+            "qr_code": "Gestione dei codici QR",
+            "review_translation": "Traduzione recensione",
+            "multi_lang": "Widget multilingue",
+            "ai_functionality": "Funzionalità IA",
+            "insights_and_segmentation": "Insights e segmentazione",
+            "review_detail_page": "Pagina dettaglio recensione",
+            "import_custom_csv": "Importa CSV personalizzato",
+            "protect_review": "Proteggi recensione"
+        },
+        "primary_collapse": {
+            "title": "Scopri il piano migliore per le tue esigenze",
+            "email_quota": "Richiedi recensione",
+            "email_quota_helptext": "Calcoliamo la tua quota in base al numero di ordini, non al numero di email di richiesta recensione inviate. Ad esempio, se invii tre email (richiesta, promemoria e ringraziamento), viene comunque conteggiata come una sola.",
+            "order_per_month": "Totale ordini/mese",
+            "discount_voucher": "Voucher sconto",
+            "customize_widget": "Widget personalizzato",
+            "upload_video": "Video recensioni",
+            "review_testimonial": "Testimonianza recensioni",
+            "modal_all_image": "Tutte le immagini modal",
+            "review_page": "Pagina di tutte le recensioni",
+            "google_shopping": "Google shopping",
+            "group_product": "Prodotto di gruppo",
+            "global_display": "Visualizzazione globale",
+            "custom_domain": "Dominio personalizzato",
+            "qr_code": "Gestione dei codici QR",
+            "review_translation": "Traduzione recensioni",
+            "multi_lang": "Widget multilingue",
+            "ai_functionality": "Funzionalità IA",
+            "insights_and_segmentation": "Insights e segmentazione",
+            "review_detail_page": "Pagina dettaglio recensioni",
+            "import_custom_csv": "Importa CSV personalizzato",
+            "protect_review": "Proteggi recensione"
+        },
+        "details_collapse": {
+            "title": "Confronta il widget personalizzato tra i piani di abbonamento",
+            "widgetBox": {
+                "title": "Box widget (predefinito)",
+                "choose_layout": "Scegli layout",
+                "summary_box": "Box riassuntivo",
+                "color_scheme": "Schema colori",
+                "information_display": "Visualizzazione informazioni",
+                "content": "Contenuto"
+            },
+            "widgetBoxNoReview": {
+                "title": "Box widget (senza recensioni)",
+                "content": "Contenuto",
+                "color_scheme": "Schema colori"
+            },
+            "modalReviewDetail": {
+                "title": "Dettagli recensione modal",
+                "all_settings": "Tutte le impostazioni"
+            },
+            "modal_all_image": {
+                "title": "Tutte le immagini modal",
+                "all_settings": "Tutte le impostazioni"
+            },
+            "formWriteReview": {
+                "title": "Modulo scrivi recensioni",
+                "review_with_video": "Recensione con video"
+            }
+        }
+    },
+    "free_banner": {
+        "title": "Accedi alle funzionalità essenziali con il nostro Piano Gratuito, perfetto per i principianti.",
+        "email_quota_limit": "Limite quota email {{limit}} ordini/mese",
+        "basic_access": "Accesso di base al widget delle recensioni",
+        "basic_edit_email": "Modifica di base dell'email di richiesta",
+        "upload_media": "Caricamento solo immagine da parte dei revisori",
+        "quick_chat": "Supporto chat rapida",
+        "visible_brand": "Brand TrustShop visibile"
+    },
+    "basic_banner": {
+        "everything_in_basic": "Tutto nel piano Base",
+        "email_quota": "Limite quota email {{limit}} ordini/mese",
+        "discount_voucher": "Voucher sconto automatico",
+        "customize_widget": "Widget personalizzato",
+        "upload_video": "Caricamento video durante la scrittura di una recensione",
+        "review_testimonial": "Testimonianza",
+        "modal_all_image": "Impostazioni tutte le immagini modal",
+        "review_page": "Pagina di tutte le recensioni",
+        "google_shopping": "Google shopping",
+        "global_display": "Visualizzazione globale",
+        "group_product": "Prodotto di gruppo",
+        "custom_domain": "Dominio personalizzato",
+        "qr_code": "Gestione dei codici QR",
+        "review_translation": "Traduzione recensione",
+        "multi_lang": "Widget multilingue",
+        "ai_functionality": "Funzionalità IA",
+        "insights_and_segmentation": "Insights e segmentazione",
+        "review_detail_page": "Pagina dettaglio recensione",
+        "import_custom_csv": "Importa CSV personalizzato",
+        "protect_review": "Proteggi recensione"
+    },
+    "frequency_ask": {
+        "title": "Frequently asked questions",
+        "list_questions": {
+            "1": {
+                "title": "Come viene calcolata la quota delle richieste di recensione?",
+                "subtitle": "La quota si basa sul numero di ordini. Se abiliti tutti e tre i tipi di email - Richiesta recensioni, Promemoria recensioni e Grazie. Verrà conteggiata solo una quota per ordine."
+            },
+            "2": {
+                "title": "La mia quota verrà utilizzata se non invio richieste di recensione tramite TrustShop?",
+                "subtitle": "No, la tua quota verrà detratta solo se utilizzi la funzione di richiesta recensioni di TrustShop. Se non utilizzi questa funzione, la tua quota rimane invariata."
+            },
+            "3": {
+                "title": "Posso ridurre il mio piano?",
+                "subtitle": "Sì, puoi ridurre il tuo piano in qualsiasi momento se non hai più bisogno delle funzionalità a pagamento. Assicurati solo di disabilitare tutte le funzionalità a pagamento prima di ridurre il piano. Se hai bisogno di assistenza, il nostro team di supporto è sempre qui per aiutarti."
+            },
+            "4": {
+                "title": "Verrò addebitato durante il periodo di prova?",
+                "subtitle": "No, non verrai addebitato durante la prova. I costi inizieranno solo una volta terminato il periodo di prova."
+            }
+        }
+    },
+    "modal_charge_success": {
+        "title": "Sei ora un membro {{plan}}!",
+        "content": "Grazie per aver scelto il nostro abbonamento premium! Preparati a benefici esclusivi e supporto di alto livello. Rendiamo questo viaggio straordinario."
+    },
+    "special_offer": {
+        "title": "Offerta Speciale: 30% di Sconto per Stare con Noi!",
+        "content": "Per mostrare il nostro apprezzamento per il tuo supporto, ti offriamo uno <1>sconto speciale del 30%</1> su qualsiasi piano di abbonamento per i prossimi due mesi. Grazie per essere un cliente stimato!",
+        "remain_time": "Tempo rimanente per l'offerta:"
+    }
+}

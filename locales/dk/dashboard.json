@@ -1,0 +1,109 @@
+{
+    "welcome_app" : {
+        "title": "Velkommen til produktanmeldelser"
+    },
+    "popup": {
+        "button": "Bedøm os",
+        "content": "Din feedback driver TrustShop's forbedring. Vi vil gerne vide, hvordan du vil bedømme vores app?",
+        "title": "Din mening betyder noget for os!",
+        "modal_rate": {
+            "title": "Hvorfor føler du dig dårlig ved TrustShop?",
+            "option_1": {
+                "title": "Svært at bruge eller sætte op",
+                "content": "Jeg følte det svært at bruge appen, når:"
+            },
+            "option_2": "Ikke tilfreds med support",
+            "option_3": {
+                "title": "Begrænsede eller manglende funktioner",
+                "content": "Appen burde have flere funktioner, såsom:"
+            }
+        }
+    },
+    "setup_guide": {
+        "card_1": {
+            "content": "Vis anmeldelser på din online butik",
+            "title": "Tilføj widget til online butik"
+        },
+        "card_2": {
+            "button": "Opsæt mail",
+            "content": "Tilpas tidspunktet, hvor anmodnings-e-mail og takke-e-mail sendes",
+            "title": "Opsæt anmodnings-e-mail"
+        },
+        "card_3": {
+            "button": "Tilpas widget",
+            "content": "Tilpas anmeldelses-widget til at passe til dine kunders præferencer",
+            "title": "Tilpas widget"
+        },
+        "card_4": {
+            "button": "Rabatkupon",
+            "content": "Motivér kunderne til at efterlade en anmeldelse ved at tilbyde en rabat til deres næste køb",
+            "title": "Rabatkupon"
+        },
+        "title": "Opsætningsguide"
+    },
+    "statistics": {
+        "all": "Alle",
+        "all_reviews": "Alle anmeldelser",
+        "avg_star_rating": "Gennemsnitlig stjernebedømmelse",
+        "title": "Din anmeldelsesindsigt"
+    },
+    "whats-new": {
+        "slide_1": {
+            "title": "🌍 Multi-Language Anmeldelser: Kom i kontakt med kunder over hele verden",
+            "date_time": "Opdateret: 1. marts 2025",
+            "content": {
+                "text" : "Stjernen i denne opdatering er vores nye flersprogede widget og funktion for oversættelse af anmeldelser. I dagens globale markedsplads bør sprogbarrierer ikke begrænse din butiks potentiale. Med TrustShop 2.8 kan kunder nu oversætte anmeldelser til deres modersmål med et enkelt klik."
+            },
+            "button": "Få flere oplysninger"
+        },
+        "slide_2": {
+            "title": "Ny QR Code Review Collection",
+            "date_time": "Opdateret: 6. februar 2025",
+            "content": {
+                "text" : "En ny måde at indsamle kundeanmeldelser på. Når kunder scanner QR-koden, kan de:",
+                "list": [
+                    "Se produkter, de ikke har anmeldt endnu",
+                    "Indsend nemt nye anmeldelser",
+                    "Se deres tidligere anmeldelser",
+                    "Spor deres optjente rabatkoder"
+                ]
+            },
+            "button": "Få flere oplysninger"
+        },
+        "slide_3": {
+            "title": "Avanceret tilpasning af e-mailskabeloner",
+            "date_time": "Opdateret: 6. februar 2025",
+            "content": {
+                "text": "Perfektionér din brandpræsentation med forbedret e-mailtilpasning:",
+                "list": [
+                    "Fleksibel logopositionering",
+                    "Tilpasset logostørrelse",
+                    "Justerbare polstringsindstillinger",
+                    "Indstillinger for baggrundsfarve"
+                ]
+            },
+            "button": "Få flere oplysninger"
+        },
+        "slide_4": {
+            "title": "Avanceret afmeldingslistestyring",
+            "date_time": "Opdateret: 11. januar 2025",
+            "content": {
+                "text": "Hold din kundekommunikation ren og effektiv med vores nye afmeldingsstyringssystem. Spor, analyser og vedligehold dine kundelister med præcision"
+            },
+            "button": "Få flere oplysninger"
+        },
+        "slide_5": {
+            "title": "Indbygget Shopify-kundedetaljer-integration",
+            "date_time": "Opdateret: 11. januar 2025",
+            "content": {
+                "text": "Få adgang til kundeanmeldelser direkte fra Shopifys side med kundeoplysninger. Ikke mere at skifte mellem faner - alt, hvad du har brug for, er lige der, hvor du har brug for det!"
+            },
+            "button": "Få flere oplysninger"
+        },
+        "title": "Hvad er nyt"
+    },
+    "popup_support" : {
+        "title": "Hvordan kan vi hjælpe dig?",
+        "content": "Du kan få adgang til vores omfattende hjælpedokumenter, og vores team er altid klar til at hjælpe dig. Bare kontakt os!"
+    }
+}
